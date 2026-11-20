@@ -1,0 +1,70 @@
+# No secrets here. Keys live in .env (git-ignored): GEMINI_API_KEY, GROQ_API_KEY.
+# Any OpenAI-compatible endpoint works: add a [providers.X] block and point `provider` at it.
+
+[providers.gemini]
+base_url = "https://generativelanguage.googleapis.com/v1beta/openai"
+model = "gemini-3.1-flash-lite"   # default (propose): fast, cheap
+api_key_env = "GEMINI_API_KEY"
+min_interval_s = 4.0     # pacing: at most ~15 requests/min (free-tier friendly)
+
+[providers.groq]
+base_url = "https://api.groq.com/openai/v1"
+model = "openai/gpt-oss-120b"
+api_key_env = "GROQ_API_KEY"
+min_interval_s = 2.0
+
+[defaults]
+provider = "gemini"    # primary
+fallback = "groq"      # default fallback; per-stage override below ("" = off)
+temperature = 0.0
+timeout_s = 60
+max_retries = 6
+backoff_base_s = 2.0     # exponential backoff with jitter; Retry-After honoured when sent
+max_backoff_s = 60
+max_total_wait_s = 180   # per call: give up (judge_failed) rather than wait forever
+
+# Per-stage overrides (e.g. cheap model for propose, stronger for judge).
+[stages.propose]
+# model = "..."
+
+[stages.judge]
+# One judge model scores every clip, so scores stay comparable across episodes.
+# Groq free tier for gpt-oss-120b: 1000 requests/day, 8000 tokens/min, 200k tokens/day.
+provider = "groq"
+model = "openai/gpt-oss-120b"
+fallback = ""             # OFF: never switch judge models mid-run; failures are resumed, not rerouted
+min_interval_s = 20.0     # ~2.3k tokens per judge call -> stay under 8000 tokens/min
+
+[rules]
+min_clip_s = 20
+max_clip_s = 60
+hook_start_within_s = 3.0
+cliffhanger_final_fraction = 0.20
+dead_air_review_s = 3.0   # gap with NO unit (not even camera) above this: review flag, never a reject
+bad_unit_reject_fraction = 0.02
+allow_cross_scene = false # policy, set here only; a proposal cannot switch it on
+
+[retry]             # one bounded re-proposal for window-selection failures (a new proposal, never a repair)
+enabled = true
+retryable_reasons = ["hook", "hook_modality", "duration", "scene", "cliffhanger"]
+
+[floors]            # hard gates (cliffhanger is a ranking factor, not a gate)
+hook = 3
+clarity = 3
+
+[weights]           # ranking priors among candidates that pass; hypotheses, not facts
+# The ending is scored and reported, but weighted 0 until it is shown to agree with editor picks.
+hook = 0.333
+emotion = 0.267
+escalation = 0.20
+clarity = 0.20
+ending = 0.0
+spoiler_penalty = 0.85   # multiplier when spoils_main_twist is true (demote, don't delete)
+
+[dedupe]
+iou_threshold = 0.30
+hook_same_within_s = 3.0   # overlapping clips whose hooks start this close are duplicates
+near_identical_iou = 0.70  # overlap this high is a duplicate even with different hooks
+
+[propose]
+max_candidates = 6

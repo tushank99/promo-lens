@@ -1,0 +1,26 @@
+# --- secrets ---
+.env
+
+# --- confidential data (contains script text from the provided show) ---
+episodes/
+outputs/
+eval/
+cache/
+
+# --- submission files (the solution doc quotes script lines; it is submitted through the form) ---
+deliverables/
+
+# --- internal working notes ---
+PLAN.md
+
+# --- Python / tooling ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

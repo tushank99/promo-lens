@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#7b8494"/>
+    </marker>
+    <style>
+      .t { font-size: 15px; font-weight: 700; fill: #1c2230; }
+      .s { font-size: 12.5px; fill: #4a5363; }
+      .k { font-size: 11px; font-weight: 700; letter-spacing: .6px; }
+      .band { font-size: 13px; font-weight: 700; letter-spacing: 1.2px; fill: #1f3a5f; }
+      .code { fill: #eaf5f0; stroke: #2a7f62; }
+      .llm  { fill: #f0ecfa; stroke: #6b4fbb; }
+      .human{ fill: #fdf4e3; stroke: #c47f00; }
+      .data { fill: #f4f6f9; stroke: #9aa3b2; }
+      .line { stroke: #7b8494; stroke-width: 1.8; fill: none; marker-end: url(#arr); }
+      .dash { stroke: #9aa3b2; stroke-width: 1.4; fill: none; stroke-dasharray: 5 4; }
+    </style>
+  </defs>
+  <rect width="1400" height="820" fill="#ffffff"/>
+  <text x="30" y="40" font-size="24" font-weight="700" fill="#1f3a5f">PromoLens architecture</text>
+  <text x="322" y="40" class="s" font-size="14">screenplay in → ranked, validated, explained promo clips out</text>
+
+  <!-- ===================== INPUT ===================== -->
+  <text x="30" y="80" class="band">1 · INPUT → ONE EPISODE FORMAT</text>
+  <rect x="30" y="92" width="190" height="36" rx="6" class="data"/><text x="44" y="115" class="s">Screenplay .txt (timestamped)</text>
+  <rect x="30" y="136" width="190" height="36" rx="6" class="data"/><text x="44" y="159" class="s">Subtitles .srt / .vtt</text>
+  <rect x="30" y="180" width="190" height="36" rx="6" class="data"/><text x="44" y="203" class="s">Canonical .json</text>
+  <path d="M220,110 L262,140" class="line"/><path d="M220,154 L262,154" class="line"/><path d="M220,198 L262,168" class="line"/>
+
+  <rect x="265" y="100" width="250" height="110" rx="8" class="code" stroke-width="1.6"/>
+  <text x="279" y="120" class="k" fill="#2a7f62">CODE · adapters.py, parser.py</text>
+  <text x="279" y="142" class="t">Input adapters</text>
+  <text x="279" y="162" class="s">detect format, parse units,</text>
+  <text x="279" y="179" class="s">never invent missing timestamps</text>
+  <text x="279" y="196" class="s">manifest: content hash, duplicates</text>
+  <path d="M515,155 L553,155" class="line"/>
+
+  <rect x="556" y="92" width="370" height="126" rx="8" class="code" stroke-width="1.6"/>
+  <text x="570" y="112" class="k" fill="#2a7f62">CODE · schema.py</text>
+  <text x="570" y="134" class="t">Canonical episode</text>
+  <text x="570" y="154" class="s">scenes → units: id, start, end, type (dialogue /</text>
+  <text x="570" y="171" class="s">action / camera / sfx), speaker, text</text>
+  <text x="570" y="188" class="s">+ overlap groups, integrity checks, reject if</text>
+  <text x="570" y="205" class="s">timing is missing or broken</text>
+
+  <!-- LLM layer -->
+  <rect x="960" y="70" width="410" height="148" rx="8" class="llm" stroke-width="1.6"/>
+  <text x="974" y="90" class="k" fill="#6b4fbb">LLM LAYER · llm.py + config.toml</text>
+  <text x="974" y="112" class="t">One OpenAI-compatible client</text>
+  <text x="974" y="132" class="s">provider + model chosen per stage in config</text>
+  <text x="974" y="149" class="s">  proposer: Gemini 3.1 Flash-Lite · judge: Groq gpt-oss-120b</text>
+  <text x="974" y="166" class="s">pacing, backoff with Retry-After, quota breaker</text>
+  <text x="974" y="183" class="s">response cache keyed by provider + model + prompt</text>
+  <text x="974" y="200" class="s">judge fallback off (one judge for every clip)</text>
+
+  <!-- ===================== PIPELINE ===================== -->
+  <text x="30" y="262" class="band">2 · PIPELINE FOR ONE EPISODE (pipeline.py)</text>
+  <path d="M741,218 L741,240 L105,240 L105,276" class="line"/>
+
+  <rect x="30" y="280" width="150" height="112" rx="8" class="llm" stroke-width="1.6"/>
+  <text x="42" y="300" class="k" fill="#6b4fbb">LLM</text>
+  <text x="42" y="322" class="t">Propose</text>
+  <text x="42" y="342" class="s">up to 6 moments as</text>
+  <text x="42" y="358" class="s">unit ranges + hook</text>
+  <text x="42" y="374" class="s">(visual/spoken/audio)</text>
+  <path d="M180,336 L208,336" class="line"/>
+
+  <rect x="211" y="280" width="160" height="112" rx="8" class="code" stroke-width="1.6"/>
+  <text x="223" y="300" class="k" fill="#2a7f62">CODE · validator.py</text>
+  <text x="223" y="322" class="t">Validate</text>
+  <text x="223" y="342" class="s">20–60 s, hook ≤ 3 s,</text>
+  <text x="223" y="358" class="s">no mid-line cut,</text>
+  <text x="223" y="374" class="s">one scene, real IDs</text>
+  <path d="M371,336 L399,336" class="line"/>
+
+  <rect x="402" y="280" width="150" height="112" rx="8" class="llm" stroke-width="1.6"/>
+  <text x="414" y="300" class="k" fill="#6b4fbb">LLM</text>
+  <text x="414" y="322" class="t">Retry once</text>
+  <text x="414" y="342" class="s">new window for</text>
+  <text x="414" y="358" class="s">hook/length/scene</text>
+  <text x="414" y="374" class="s">failures, with reason</text>
+  <path d="M477,392 L477,418 L291,418 L291,396" class="line"/>
+  <text x="300" y="434" class="s" font-size="11.5">re-validated by the same rules</text>
+  <path d="M552,336 L580,336" class="line"/>
+
+  <rect x="583" y="280" width="160" height="112" rx="8" class="llm" stroke-width="1.6"/>
+  <text x="595" y="300" class="k" fill="#6b4fbb">SECOND LLM</text>
+  <text x="595" y="322" class="t">Judge</text>
+  <text x="595" y="342" class="s">blind to the pitch;</text>
+  <text x="595" y="358" class="s">scores 0–5 with</text>
+  <text x="595" y="374" class="s">evidence unit IDs</text>
+  <path d="M743,336 L771,336" class="line"/>
+
+  <rect x="774" y="280" width="170" height="112" rx="8" class="code" stroke-width="1.6"/>
+  <text x="786" y="300" class="k" fill="#2a7f62">CODE</text>
+  <text x="786" y="322" class="t">Check + floors</text>
+  <text x="786" y="342" class="s">evidence inside clip,</text>
+  <text x="786" y="358" class="s">hook ≥ 3, clarity ≥ 3,</text>
+  <text x="786" y="374" class="s">ending in last 20%</text>
+  <path d="M944,336 L972,336" class="line"/>
+
+  <rect x="975" y="280" width="160" height="112" rx="8" class="code" stroke-width="1.6"/>
+  <text x="987" y="300" class="k" fill="#2a7f62">CODE</text>
+  <text x="987" y="322" class="t">Rank + dedupe</text>
+  <text x="987" y="342" class="s">weighted score,</text>
+  <text x="987" y="358" class="s">overlaps → alternates,</text>
+  <text x="987" y="374" class="s">review / spoiler flags</text>
+  <path d="M1135,336 L1163,336" class="line"/>
+
+  <rect x="1166" y="270" width="204" height="132" rx="8" class="data" stroke-width="1.4"/>
+  <text x="1178" y="290" class="k" fill="#5a6475">PER-EPISODE FOLDER</text>
+  <text x="1178" y="310" class="s">normalized.json</text>
+  <text x="1178" y="326" class="s">proposals_raw.json · retry</text>
+  <text x="1178" y="342" class="s">validation.json · judged.json</text>
+  <text x="1178" y="358" class="s">final.json · final.md</text>
+  <text x="1178" y="374" class="s">prompts/ (every prompt sent)</text>
+  <text x="1178" y="390" class="s">saved checkpoints per stage</text>
+
+  <text x="211" y="464" class="s">Rejected clips keep their reason code. Code never repairs a clip, and the model never writes a timestamp: it picks unit IDs, code turns them into times.</text>
+
+  <!-- ===================== BATCH & QUALITY ===================== -->
+  <text x="30" y="512" class="band">3 · BATCH, QUALITY AND REVIEW</text>
+
+  <rect x="30" y="526" width="430" height="164" rx="8" class="code" stroke-width="1.6"/>
+  <text x="44" y="546" class="k" fill="#2a7f62">CODE · batch.py</text>
+  <text x="44" y="568" class="t">Batch runner (one command per show)</text>
+  <text x="44" y="590" class="s">manifest: every source file, its hash, duplicates skipped</text>
+  <text x="44" y="608" class="s">run_config.json frozen: models, prompt hashes, rules</text>
+  <text x="44" y="626" class="s">changes refused unless saved as a named continuation</text>
+  <text x="44" y="644" class="s">per-episode isolation; resume reuses saved stages</text>
+  <text x="44" y="662" class="s">quota hit → episode "pending", never lost</text>
+  <text x="44" y="680" class="s">summary.csv: one row per episode</text>
+
+  <rect x="480" y="526" width="270" height="164" rx="8" class="code" stroke-width="1.6"/>
+  <text x="494" y="546" class="k" fill="#2a7f62">CODE · qa.py</text>
+  <text x="494" y="568" class="t">QA checklist</text>
+  <text x="494" y="590" class="s">all episodes accounted for</text>
+  <text x="494" y="608" class="s">schema valid, unit IDs real</text>
+  <text x="494" y="626" class="s">every judge call = declared</text>
+  <text x="494" y="644" class="s">model; retries recorded</text>
+
+  <rect x="770" y="526" width="300" height="164" rx="8" class="code" stroke-width="1.6"/>
+  <text x="784" y="546" class="k" fill="#2a7f62">CODE · evaluate.py</text>
+  <text x="784" y="568" class="t">Evaluation</text>
+  <text x="784" y="590" class="s">discovery vs labelled moments</text>
+  <text x="784" y="608" class="s">judge vs human ratings</text>
+  <text x="784" y="626" class="s">hook delay, silent openings,</text>
+  <text x="784" y="644" class="s">time coverage, run-vs-run</text>
+  <text x="784" y="662" class="s">stability</text>
+
+  <rect x="1090" y="526" width="280" height="164" rx="8" class="human" stroke-width="1.6"/>
+  <text x="1104" y="546" class="k" fill="#c47f00">HUMAN</text>
+  <text x="1104" y="568" class="t">Editor</text>
+  <text x="1104" y="590" class="s">reads the ranked shortlist</text>
+  <text x="1104" y="608" class="s">with hook, ending and reason</text>
+  <text x="1104" y="626" class="s">checks flagged clips</text>
+  <text x="1104" y="644" class="s">confirms cuts on footage</text>
+  <text x="1104" y="662" class="s">and picks what to post</text>
+
+  <path d="M1268,402 L1268,520" class="dash"/>
+  <path d="M245,402 L245,500 L245,520" class="dash"/>
+
+  <!-- legend -->
+  <rect x="30" y="722" width="1340" height="70" rx="8" fill="#f4f6f9"/>
+  <rect x="50" y="745" width="16" height="16" rx="3" class="code" stroke-width="1.6"/><text x="74" y="758" class="s">deterministic code (rules, timestamps, checks)</text>
+  <rect x="420" y="745" width="16" height="16" rx="3" class="llm" stroke-width="1.6"/><text x="444" y="758" class="s">language model (judgement calls only)</text>
+  <rect x="740" y="745" width="16" height="16" rx="3" class="human" stroke-width="1.6"/><text x="764" y="758" class="s">human decision</text>
+  <rect x="930" y="745" width="16" height="16" rx="3" class="data" stroke-width="1.4"/><text x="954" y="758" class="s">data / files</text>
+  <text x="50" y="782" class="s" font-size="11.5">Python 3.11+, standard library only. Models are swapped in config.toml; any OpenAI-compatible API works.</text>
+</svg>
