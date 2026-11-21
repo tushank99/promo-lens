@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PromoLens</title>
+<meta name="description" content="Find the 20–60 second promo moments in a microdrama screenplay.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23e5484d'/><polygon points='13,10 23,16 13,22' fill='white'/></svg>">
+<style>
+:root{--bg:#f7f7f8;--card:#fff;--fg:#17171a;--muted:#6b6b76;--line:#e4e4e8;--accent:#e5484d;--accent-soft:#fdecec;--ok:#1f9d55;--warn:#c27c0e;--code:#f1f1f4}
+@media (prefers-color-scheme:dark){:root{--bg:#111113;--card:#1a1a1d;--fg:#ededef;--muted:#9a9aa5;--line:#2c2c31;--accent:#ff6369;--accent-soft:#3a1d20;--ok:#3dd68c;--warn:#f1a10d;--code:#232327}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:960px;margin:0 auto;padding:32px 16px 64px}
+header h1{margin:0;font-size:28px;letter-spacing:-.02em}
+header h1 span{color:var(--accent)}
+header p{margin:4px 0 24px;color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px}
+.drop{border:2px dashed var(--line);border-radius:12px;padding:28px;text-align:center;cursor:pointer;transition:.15s}
+.drop.over,.drop:hover{border-color:var(--accent);background:var(--accent-soft)}
+.drop b{color:var(--accent)}
+textarea{width:100%;min-height:140px;margin-top:14px;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--code);color:var(--fg);font:13px/1.45 ui-monospace,Consolas,monospace;resize:vertical}
+.row{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin-top:14px}
+select,button{font:inherit;border-radius:10px;border:1px solid var(--line);padding:10px 14px;background:var(--card);color:var(--fg)}
+button.primary{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600;cursor:pointer}
+button:disabled{opacity:.5;cursor:not-allowed}
+.status{color:var(--muted);font-size:14px}
+.spin{display:inline-block;width:14px;height:14px;border:2px solid var(--line);border-top-color:var(--accent);border-radius:50%;animation:s 1s linear infinite;vertical-align:-2px;margin-right:6px}
+@keyframes s{to{transform:rotate(360deg)}}
+.err{color:var(--accent);margin-top:12px;white-space:pre-wrap}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:24px 0 8px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+.stat .v{font-size:22px;font-weight:700}
+.stat .k{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+.logline{color:var(--muted);font-style:italic;margin:8px 0 16px}
+.clip{margin-top:16px}
+.clip-head{display:flex;gap:14px;align-items:flex-start}
+.rank{flex:none;width:40px;height:40px;border-radius:10px;background:var(--accent);color:#fff;display:grid;place-items:center;font-weight:700;font-size:18px}
+.clip h3{margin:0;font-size:17px}
+.meta{color:var(--muted);font-size:13px;margin-top:2px}
+.score{margin-left:auto;text-align:right;flex:none}
+.score .v{font-size:24px;font-weight:700}
+.score .k{font-size:11px;color:var(--muted)}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}
+.chip{font-size:12px;padding:3px 9px;border-radius:999px;background:var(--code);border:1px solid var(--line)}
+.chip.warn{color:var(--warn);border-color:var(--warn)}
+.bars{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin:10px 0}
+.bar .k{font-size:11px;color:var(--muted);text-transform:capitalize}
+.bar .t{height:6px;background:var(--code);border-radius:3px;overflow:hidden;margin-top:3px}
+.bar .t i{display:block;height:100%;background:var(--accent)}
+.why{margin:10px 0 0}
+.why b{font-weight:600}
+details{margin-top:12px}
+summary{cursor:pointer;color:var(--muted);font-size:13px}
+.script{margin-top:8px;background:var(--code);border-radius:10px;padding:10px 12px;font:12.5px/1.5 ui-monospace,Consolas,monospace;max-height:320px;overflow:auto}
+.script div{padding:2px 0}
+.script .ts{color:var(--muted);margin-right:8px}
+.script .hook{background:var(--accent-soft);border-radius:4px}
+.script .nd{color:var(--muted);font-style:italic}
+.empty{color:var(--muted);text-align:center;padding:24px}
+.actions{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
+@media (max-width:600px){.bars{grid-template-columns:repeat(3,1fr)}.score .v{font-size:20px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Promo<span>Lens</span></h1>
+    <p>Drop a microdrama screenplay. Get ranked 20–60 s promo cuts with exact timestamps, the hook and why it works.</p>
+  </header>
+
+  <div class="card">
+    <div class="drop" id="drop">
+      <div><b>Choose a file</b> or drag it here</div>
+      <div class="status" id="fname">.txt screenplay · .srt / .vtt subtitles · canonical .json</div>
+      <input type="file" id="file" accept=".txt,.srt,.vtt,.json" hidden>
+    </div>
+    <textarea id="text" placeholder="…or paste the script here"></textarea>
+    <div class="row">
+      <select id="format">
+        <option value="auto">Auto-detect format</option>
+        <option value="screenplay_txt">Screenplay .txt</option>
+        <option value="subtitles">Subtitles</option>
+        <option value="canonical_json">Canonical JSON</option>
+      </select>
+      <button class="primary" id="go">Find promos</button>
+      <span class="status" id="status"></span>
+    </div>
+    <div class="err" id="err"></div>
+  </div>
+
+  <div id="out"></div>
+</div>
+
+<script src="config.js"></script>
+<script>
+const API = (window.PROMOLENSE_API || "").replace(/\/$/, "");
+const $ = id => document.getElementById(id);
+let filename = "episode.txt";
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const ts = s => s == null ? "--:--" : `${String(Math.floor(s/60)).padStart(2,"0")}:${(s%60).toFixed(1).padStart(4,"0")}`;
+
+function loadFile(f){
+  if(!f) return;
+  filename = f.name;
+  $("fname").textContent = `${f.name} · ${(f.size/1024).toFixed(1)} KB`;
+  f.text().then(t => $("text").value = t);
+}
+$("drop").onclick = () => $("file").click();
+$("file").onchange = e => loadFile(e.target.files[0]);
+["dragenter","dragover"].forEach(ev => $("drop").addEventListener(ev, e => {e.preventDefault(); $("drop").classList.add("over")}));
+["dragleave","drop"].forEach(ev => $("drop").addEventListener(ev, e => {e.preventDefault(); $("drop").classList.remove("over")}));
+$("drop").addEventListener("drop", e => loadFile(e.dataTransfer.files[0]));
+
+$("go").onclick = async () => {
+  const text = $("text").value;
+  $("err").textContent = ""; $("out").innerHTML = "";
+  if(!text.trim()){ $("err").textContent = "Add a script first."; return; }
+  $("go").disabled = true;
+  setStatus("Uploading…", true);
+  try{
+    const r = await fetch(`${API}/api/run`, {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({filename, text, format: $("format").value})});
+    const j = await r.json();
+    if(!r.ok) throw new Error(j.error || r.statusText);
+    await poll(j.job_id);
+  }catch(e){ $("err").textContent = e.message; setStatus(""); }
+  $("go").disabled = false;
+};
+
+function setStatus(msg, spin){ $("status").innerHTML = (spin ? '<span class="spin"></span>' : "") + esc(msg); }
+
+async function poll(id){
+  const t0 = Date.now();
+  while(true){
+    const r = await fetch(`${API}/api/jobs/${id}`);
+    const j = await r.json();
+    if(!r.ok) throw new Error(j.error || r.statusText);
+    const sec = Math.round((Date.now()-t0)/1000);
+    if(j.status === "done"){ setStatus(`Done in ${sec}s`); render(j.result); return; }
+    if(j.status === "error") throw new Error(j.error);
+    setStatus(j.status === "queued" ? `Queued (#${j.position || 1})… ${sec}s`
+      : `Reading script, proposing and judging clips… ${sec}s (usually 1–3 min)`, true);
+    await new Promise(res => setTimeout(res, 2500));
+  }
+}
+
+function render(res){
+  const clips = res.final || [], u = res.usage || {};
+  let h = `<div class="summary">
+    <div class="stat"><div class="v">${clips.length}</div><div class="k">Promo clips</div></div>
+    <div class="stat"><div class="v">${res.counts?.proposed ?? "–"}</div><div class="k">Proposed</div></div>
+    <div class="stat"><div class="v">${clips[0]?.final_score ?? "–"}</div><div class="k">Best score</div></div>
+    <div class="stat"><div class="v">${u.calls ?? "–"}</div><div class="k">Model calls</div></div>
+    <div class="stat"><div class="v">${u.wall_s != null ? Math.round(u.wall_s)+"s" : "–"}</div><div class="k">Run time</div></div>
+  </div>`;
+  if(res.logline) h += `<div class="logline">${esc(res.logline)}</div>`;
+  if(!clips.length) h += `<div class="card empty">No clip passed every check for this episode.</div>`;
+  clips.forEach(k => {
+    const flags = [...(k.flags||[]), ...(k.review_flags||[])];
+    const hookIds = new Set(k.hook?.unit_ids || [k.hook_unit_id]);
+    h += `<div class="card clip">
+      <div class="clip-head">
+        <div class="rank">${k.rank}</div>
+        <div>
+          <h3>${esc(k.trope || k.hook_type || "Promo")} </h3>
+          <div class="meta">Ep ${esc(k.episode)} · <b>${ts(k.start)} → ${ts(k.end)}</b> · ${k.duration}s · hook in ${k.hook?.delay_s ?? 0}s (${esc(k.hook?.modality)})</div>
+        </div>
+        <div class="score"><div class="v">${k.final_score}</div><div class="k">score</div></div>
+      </div>
+      <div class="chips">
+        ${k.hook_type ? `<span class="chip">${esc(k.hook_type)}</span>` : ""}
+        ${k.emotion_type ? `<span class="chip">${esc(k.emotion_type)}</span>` : ""}
+        ${k.ending_type ? `<span class="chip">ends: ${esc(k.ending_type)}</span>` : ""}
+        ${k.review_status && k.review_status !== "pass" ? `<span class="chip warn">${esc(k.review_status)}</span>` : ""}
+        ${k.spoils_main_twist ? `<span class="chip warn">possible spoiler</span>` : ""}
+        ${flags.map(f => `<span class="chip warn">${esc(f)}</span>`).join("")}
+      </div>
+      <div class="bars">${Object.entries(k.scores||{}).map(([n,v]) =>
+        `<div class="bar"><div class="k">${esc(n)} ${v}/5</div><div class="t"><i style="width:${v*20}%"></i></div></div>`).join("")}</div>
+      <p class="why"><b>Hook:</b> ${esc(k.hook?.description)}</p>
+      <p class="why"><b>Why it works:</b> ${esc(k.proposer_reason)}</p>
+      ${k.central_conflict ? `<p class="why"><b>Conflict:</b> ${esc(k.central_conflict)}</p>` : ""}
+      ${(k.excerpt||[]).length ? `<details><summary>Script for this cut (${k.excerpt.length} lines)</summary><div class="script">${
+        k.excerpt.map(x => `<div class="${hookIds.has(x.id) ? "hook" : ""}"><span class="ts">${ts(x.start)}</span>${
+          x.type === "dialogue" ? `<b>${esc(x.speaker)}:</b> ${esc(x.text)}` : `<span class="nd">[${esc(x.type)}] ${esc(x.text)}</span>`}</div>`).join("")
+      }</div></details>` : ""}
+    </div>`;
+  });
+  if(clips.length) h += `<div class="actions"><button id="dl">Download JSON</button></div>`;
+  $("out").innerHTML = h;
+  const dl = $("dl");
+  if(dl) dl.onclick = () => {
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([JSON.stringify(res, null, 2)], {type:"application/json"}));
+    a.download = filename.replace(/\.[^.]+$/, "") + "_promos.json"; a.click();
+  };
+}
+</script>
+</body>
+</html>

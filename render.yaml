@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: promolense
+    runtime: python
+    plan: free
+    buildCommand: "echo no dependencies"
+    startCommand: "python server.py"
+    healthCheckPath: /api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GROQ_API_KEY
+        sync: false
+      - key: ALLOWED_ORIGIN
+        value: "*"

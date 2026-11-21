@@ -190,3 +190,22 @@ config.toml      models, rules, weights
 
 The episode scripts are confidential and are **not** in this repository. `episodes/`, `outputs/` and `eval/` are
 git-ignored because they contain script text. API keys go in `.env`, which is also git-ignored.
+
+## Web app and deployment
+
+`server.py` is a small stdlib web server: a JSON API plus the frontend in `web/`.
+
+```bash
+python server.py            # open http://localhost:8000
+```
+
+Upload or paste a script, and it returns the ranked promos with timestamps, scores and the script lines for each cut.
+A run takes about 1–3 minutes because the judge is rate-limited on the free tier. Jobs run one at a time.
+
+**Render (backend and frontend together):** push the repo to GitHub, then in Render choose *New → Blueprint* and
+select the repo (`render.yaml` sets everything up). Add `GEMINI_API_KEY` and `GROQ_API_KEY` when asked. The site is
+served at the Render URL.
+
+**Vercel frontend (optional):** set `window.PROMOLENSE_API` in `web/config.js` to the Render URL, then import the repo
+in Vercel with **Root Directory = `web`** and no build command. To allow only that origin, set `ALLOWED_ORIGIN` on
+Render to the Vercel URL.
