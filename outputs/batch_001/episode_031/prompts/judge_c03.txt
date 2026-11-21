@@ -1,0 +1,77 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Catherine enters the wet cells armed with a red-hot iron and Juliana's late mother's botanical book, subjecting the chained heiress to ruthless psychological torment until Juliana's unyielding pride pushes Catherine to a violent brink.
+CONTINUITY NOTES: Follows directly from Episode 30 where Rupert and Catherine plotted to frame Juliana as a witch while Juliana huddled chained in the subterranean dungeon.
+
+CLIP: 59.0s to 108.8s (49.8s). Units below: id | seconds from clip start | type | text.
+e31_u033 | 0.0-6.5 | CAMERA | Close-up pushing in on Juliana's illuminated, dignified face.
+e31_u034 | 0.2-2.3 | DIALOGUE | JULIANA (Proud, Measured): "Gerald chose money."
+e31_u035 | 2.5-4.5 | DIALOGUE | JULIANA (Resolute): "Clarissa chose a coward."
+e31_u036 | 4.8-6.3 | DIALOGUE | JULIANA (Unyielding): "I chose myself."
+e31_u037 | 6.5-8.5 | CAMERA | Close-up of Catherine's face tightening in disgust.
+e31_u038 | 6.6-8.4 | DIALOGUE | CATHERINE (Disgusted): "You chose a beggar."
+e31_u039 | 8.5-11.5 | CAMERA | Low-angle shot of Juliana lifting her chin with unwavering pride.
+e31_u040 | 8.6-10.8 | DIALOGUE | JULIANA (Fierce, Proud): "I chose a man."
+e31_u041 | 11.5-14.3 | CAMERA | Medium shot of Catherine sneering down at her.
+e31_u042 | 11.8-14.2 | DIALOGUE | CATHERINE (Contemptuous): "A scarred nobody."
+e31_u043 | 14.3-18.6 | CAMERA | Medium shot of Juliana sitting erect against the dungeon wall, her hands resting calmly in her lap.
+e31_u044 | 14.5-18.6 | DIALOGUE | JULIANA (Resolute, Dignified): "A man with more honor than the people sitting above this dungeon."
+e31_u045 | 18.6-21.5 | CAMERA | Medium close-up of Catherine, holding the smoldering iron between them.
+e31_u046 | 18.8-21.2 | DIALOGUE | CATHERINE (Incredulous, Mocking): "You call that marriage?"
+e31_u047 | 21.5-24.2 | CAMERA | Extreme close-up of Juliana's clear blue eyes, shining with profound conviction.
+e31_u048 | 21.8-24.2 | DIALOGUE | JULIANA (Pure, Sincere): "I call it love."
+e31_u049 | 24.2-29.0 | CAMERA | High-angle wide shot looking straight down through the ceiling iron grating into the deep dungeon shaft where Catherine looms over Juliana.
+e31_u050 | 24.5-28.4 | DIALOGUE | CATHERINE (Mocking, Hysterical Laugh): "[laughs] Love? Look where your precious love brought you."
+e31_u051 | 28.5-32.2 | CAMERA | Medium close-up of Juliana looking directly up past the glowing tip of the iron poker into Catherine's eyes.
+e31_u052 | 28.8-32.2 | DIALOGUE | JULIANA (Firm, Piercing): "To a place where I can still look you in the eyes."
+e31_u053 | 32.2-35.2 | CAMERA | Close-up of Catherine, her lips curling in indignant disbelief.
+e31_u054 | 32.4-35.2 | DIALOGUE | CATHERINE (Incredulous, Offended): "You think love makes you better than me?"
+e31_u055 | 35.2-39.2 | CAMERA | Close-up of Juliana speaking calmly and razor-sharp.
+e31_u056 | 35.5-39.2 | DIALOGUE | JULIANA (Calm, Cutting): "No. But cruelty certainly doesn't make you better than me."
+e31_u057 | 39.2-44.5 | CAMERA | Medium shot of Catherine sweeping her arm out, flaunting her aristocratic privilege and opulence.
+e31_u058 | 39.5-44.3 | DIALOGUE | CATHERINE (Incensed, Boastful): "I have beauty, money, family, status! What do you have?"
+e31_u059 | 44.5-49.8 | CAMERA | Close-up of Juliana, her expression serene and grounded in moral superiority.
+e31_u060 | 44.7-49.5 | DIALOGUE | JULIANA (Quiet, Powerful): "Knowledge. Love. And people who need me."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

@@ -1,0 +1,54 @@
+[
+  {
+    "candidate_id": "c04r",
+    "proposal": {
+      "retry_of": "c04",
+      "start_unit_id": "e06_u082",
+      "end_unit_id": "e06_u097",
+      "hook": {
+        "unit_ids": [
+          "e06_u082"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling before the blazing hearth, finding a moment of peace.",
+        "evidence": "The visual of the firelight illuminating her face immediately establishes the emotional shift."
+      },
+      "cliffhanger_unit_id": "e06_u096",
+      "reason": "By starting at unit e06_u082 and ending at e06_u097, the cliffhanger unit e06_u096 falls within the final 20% of the 21.2-second duration."
+    },
+    "retry_of": "c04",
+    "norm": {
+      "start_unit_id": "e06_u082",
+      "end_unit_id": "e06_u097",
+      "hook": {
+        "unit_ids": [
+          "e06_u082"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling before the blazing hearth, finding a moment of peace.",
+        "evidence": "The visual of the firelight illuminating her face immediately establishes the emotional shift."
+      },
+      "cliffhanger_unit_id": "e06_u096",
+      "reason": "By starting at unit e06_u082 and ending at e06_u097, the cliffhanger unit e06_u096 falls within the final 20% of the 21.2-second duration."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 93.8,
+    "end": 115.0,
+    "duration": 21.2,
+    "segments": [
+      {
+        "start_unit": "e06_u082",
+        "end_unit": "e06_u097",
+        "start": 93.8,
+        "end": 115.0
+      }
+    ]
+  }
+]

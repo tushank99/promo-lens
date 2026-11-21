@@ -1,0 +1,65 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+While Alexander reassures Juliana of their unbreakable bond amid the council's opposition, a destitute Catherine begs for sanctuary at Ashbourne—only for Juliana to offer her survival under the strict humiliation of a scullery maid.
+CONTINUITY NOTES: Follows Episode 46's ecclesiastical challenge by the High Priest. While Catherine plots in secret to remain on the estate, the morning brings her disgrace to light as Juliana decides her fate.
+
+CLIP: 56.8s to 83.5s (26.7s). Units below: id | seconds from clip start | type | text.
+e47_u026 | 0.0-3.2 | CAMERA | Medium shot of Lady Ashbourne leaning heavily on her walking cane, glaring down at Catherine who kneels in the mud.
+e47_u027 | 0.0-3.0 | DIALOGUE | LADY ASHBOURNE (Sharp, Contemptuous): "You dare show your face in Ashbourne courtyard?"
+e47_u028 | 3.2-6.7 | CAMERA | High-angle shot looking down at Catherine in her disheveled burgundy gown, clutching her skirts and weeping profusely.
+e47_u029 | 3.7-6.6 | DIALOGUE | CATHERINE (Desperate, Weeping): "I have nowhere to go, Your Grace."
+e47_u030 | 6.7-10.2 | CAMERA | Low-angle shot tracking Catherine clutching her chest in agony.
+e47_u031 | 6.7-10.0 | DIALOGUE | CATHERINE (Sobbing, Pleading): "London closed its doors! My family disowned me!"
+e47_u032 | 10.2-14.7 | CAMERA | Medium close-up of Lady Ashbourne, her gloved hand resting on her cane as she delivers her cold judgment.
+e47_u033 | 10.4-14.4 | DIALOGUE | LADY ASHBOURNE (Cold, Unforgiving): "She aided the poison in my veins. Cast her into the road."
+e47_u034 | 14.7-18.0 | CAMERA | Medium shot of Vaughn drawing his baton, ready to seize Catherine from behind.
+e47_u035 | 15.0-18.0 | DIALOGUE | VAUGHN (Gruff, Ready): "One command, Your Grace, and I drag her past the gates."
+e47_u036 | 18.0-22.0 | CAMERA | Wide shot as Alexander strides purposefully into the courtyard alongside Juliana, his coat billowing behind him.
+e47_u037 | 18.4-21.7 | DIALOGUE | ALEXANDER (Furious, Decisive): "Do it, Vaughn! Throw her past the estate perimeter!"
+e47_u038 | 22.0-25.0 | CAMERA | Close-up of Catherine collapsed on the wet stones, looking up with tear-streaked panic.
+e47_u039 | 22.0-25.0 | DIALOGUE | CATHERINE (Hysterical, Screaming): "Please, Alexander! Have mercy!"
+e47_u040 | 25.0-26.7 | CAMERA | Medium shot of Juliana raising her right hand firmly to halt the guard.
+e47_u041 | 25.4-26.6 | DIALOGUE | JULIANA (Clear, Authoritative): "Stop."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

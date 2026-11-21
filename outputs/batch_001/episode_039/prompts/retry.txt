@@ -1,0 +1,48 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: While Alexander's loyal men infiltrate and neutralize the royal guards stationed outside the cathedral, Alexander sheds his rugged disguise, dons his ducal regalia, and marches forth to reclaim his house and rescue Juliana.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c01: window e39_u031..e39_u043 (50.0-68.5 s, 18.5 s); hook ['e39_u031'] modality visual (delay 0.0 s)
+  FAILED: duration: 18.5s is under the 20s minimum
+  Original idea: The transformation sequence builds intense anticipation for the protagonist's return to power.
+  Scene 04: units e39_u031..e39_u043, 50.0-68.5 s. Units of that scene:
+    e39_u031 | 50.0-52.8 | CAMERA | Close-up framed into a cracked wooden wall mirror reflecting Alexander with long unkempt hair, a thick beard, and combat scars across his cheek.
+    e39_u032 | 50.0-52.8 | ACTION | Alexander stares solemnly at his rugged reflection, his expression dark and resolute.
+    e39_u033 | 52.8-55.8 | CAMERA | Tilt-down medium close-up over a wooden table displaying a pristine navy-and-gold embroidered ducal uniform, ornate lion crest brooch, white cravat, razor, and scissors.
+    e39_u034 | 55.8-59.8 | CAMERA | Medium profile shot of Alexander lifting the metal shears beside the window light, raising them toward his hair.
+    e39_u035 | 56.5-59.8 | ACTION | Alexander snips through his overgrown locks, shedding the years of exile and camouflage.
+    e39_u036 | 57.2-60.8 | SFX | Rhythmic, metallic snips of heavy shears cutting through thick hair.
+    e39_u037 | 59.8-61.2 | CAMERA | Medium shot as Alexander trims his beard at the jawline.
+    e39_u038 | 61.2-66.6 | CAMERA | Medium shot framed in the mirror of Alexander now handsomely groomed, his trimmed beard framing his fierce, scarred features.
+    e39_u039 | 62.0-66.6 | ACTION | Alexander lightly traces the jagged combat scar across his cheek, eyes burning with reclaimed power.
+    e39_u040 | 62.0-62.8 | DIALOGUE | ALEXANDER (Deep, Steely Resolve): "Enough hiding."
+    e39_u041 | 63.0-65.5 | DIALOGUE | ALEXANDER (Dark, Unforgiving): "They buried Alexander Ashwin three years ago."
+    e39_u042 | 65.6-66.9 | DIALOGUE | ALEXANDER (Fierce, Commanding): "Today, he comes home."
+    e39_u043 | 66.6-68.5 | CAMERA | Medium shot of Alexander lifting his royal navy-blue embroidered ducal coat from the wooden bench.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

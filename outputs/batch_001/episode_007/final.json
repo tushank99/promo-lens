@@ -1,0 +1,419 @@
+{
+  "episode": 7,
+  "logline": "When Gerald and his spiteful companion arrive at the woodland cottage to mock Juliana's fallen status, her stoic new husband returns from the forest to silently send them fleeing.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 2,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 1,
+    "alternates": 0,
+    "final": 1,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c03",
+      "episode": 7,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e07_u040",
+      "end_unit_id": "e07_u058",
+      "hook_unit_id": "e07_u040",
+      "hook": {
+        "unit_ids": [
+          "e07_u040"
+        ],
+        "modality": "visual",
+        "description": "The scarred man towers over the arrogant Gerald.",
+        "evidence": "The sudden shift in power dynamics as the bully becomes the victim is highly satisfying.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": null,
+      "segments": [
+        {
+          "start_unit": "e07_u040",
+          "end_unit": "e07_u058",
+          "start": 78.5,
+          "end": 116.0
+        }
+      ],
+      "start": 78.5,
+      "end": 116.0,
+      "duration": 37.5,
+      "proposer_reason": "This clip captures the satisfying payoff of the husband's silent dominance and the couple's intimate moment.",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "emotion": 3,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e07_u040"
+        ],
+        "clarity": [
+          "e07_u040",
+          "e07_u042",
+          "e07_u045",
+          "e07_u046",
+          "e07_u047",
+          "e07_u053"
+        ],
+        "emotion": [
+          "e07_u042",
+          "e07_u043",
+          "e07_u054",
+          "e07_u058"
+        ],
+        "escalation": [
+          "e07_u040",
+          "e07_u042",
+          "e07_u045",
+          "e07_u046",
+          "e07_u053",
+          "e07_u058"
+        ],
+        "ending": [
+          "e07_u058"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 4.3s (96.5-100.8)",
+        "camera-only stretch 8.2s (107.8-116.0)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 60.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "silent protector",
+      "central_conflict": "Gerald is forced to flee when the mysterious scarred man silently intimidates him, while Juliana admires the man's calm strength.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e07_u040",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 7,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e07_u009",
+      "end_unit_id": "e07_u033",
+      "hook_unit_id": "e07_u009",
+      "hook": {
+        "unit_ids": [
+          "e07_u009"
+        ],
+        "modality": "spoken",
+        "description": "Aristocratic woman mocks Juliana's humble home.",
+        "evidence": "Immediate conflict and class-based tension hook the viewer into the power dynamic.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e07_u033",
+      "segments": [
+        {
+          "start_unit": "e07_u009",
+          "end_unit": "e07_u033",
+          "start": 22.0,
+          "end": 69.5
+        }
+      ],
+      "start": 22.0,
+      "end": 69.5,
+      "duration": 47.5,
+      "proposer_reason": "The confrontation escalates quickly, ending on a direct threat to the protagonist's husband.",
+      "hook_type": "shocking_line",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 2,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e07_u009"
+        ],
+        "clarity": [
+          "e07_u009",
+          "e07_u011",
+          "e07_u013",
+          "e07_u020",
+          "e07_u026",
+          "e07_u028",
+          "e07_u030",
+          "e07_u033"
+        ],
+        "emotion": [
+          "e07_u011",
+          "e07_u015",
+          "e07_u017",
+          "e07_u020",
+          "e07_u022",
+          "e07_u028",
+          "e07_u032",
+          "e07_u033"
+        ],
+        "escalation": [
+          "e07_u009",
+          "e07_u013",
+          "e07_u020",
+          "e07_u026",
+          "e07_u032",
+          "e07_u033"
+        ],
+        "ending": [
+          "e07_u033"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.2s (54.6-57.8)"
+      ],
+      "rejection_reasons": [
+        "floor:hook<3"
+      ],
+      "final_score": 58.7,
+      "status": "rejected",
+      "review_status": "review",
+      "review_flags": [
+        "straddled_action_or_sfx"
+      ],
+      "review_details": [
+        "action e07_u008 (21.0-24.0) overlaps the clip from outside the window: check the cut on footage"
+      ],
+      "trope": "defiant heroine",
+      "central_conflict": "Juliana must stand up to Gerald and the aristocratic woman who mock her new humble life.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e07_u009",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 7,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e07_u034",
+      "end_unit_id": "e07_u052",
+      "hook_unit_id": "e07_u034",
+      "hook": {
+        "unit_ids": [
+          "e07_u034"
+        ],
+        "modality": "visual",
+        "description": "A towering, scarred man emerges from the mist.",
+        "evidence": "The visual reveal of the mysterious, imposing husband creates immediate intrigue.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e07_u052",
+      "segments": [
+        {
+          "start_unit": "e07_u034",
+          "end_unit": "e07_u052",
+          "start": 69.5,
+          "end": 99.0
+        }
+      ],
+      "start": 69.5,
+      "end": 99.0,
+      "duration": 29.5,
+      "proposer_reason": "The silent, intimidating presence of the husband forces the arrogant antagonists to flee in terror.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 4.0s (77.5-81.5)"
+      ],
+      "rejection_reasons": [
+        "validation:scene"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "window crosses scenes ['02', '03']"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 7,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e07_u040",
+      "end_unit_id": "e07_u058",
+      "hook_unit_id": "e07_u040",
+      "hook": {
+        "unit_ids": [
+          "e07_u040"
+        ],
+        "modality": "visual",
+        "description": "The scarred man towers over the arrogant Gerald.",
+        "evidence": "The sudden shift in power dynamics as the bully becomes the victim is highly satisfying.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": null,
+      "segments": [
+        {
+          "start_unit": "e07_u040",
+          "end_unit": "e07_u058",
+          "start": 78.5,
+          "end": 116.0
+        }
+      ],
+      "start": 78.5,
+      "end": 116.0,
+      "duration": 37.5,
+      "proposer_reason": "This clip captures the satisfying payoff of the husband's silent dominance and the couple's intimate moment.",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "emotion": 3,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e07_u040"
+        ],
+        "clarity": [
+          "e07_u040",
+          "e07_u042",
+          "e07_u045",
+          "e07_u046",
+          "e07_u047",
+          "e07_u053"
+        ],
+        "emotion": [
+          "e07_u042",
+          "e07_u043",
+          "e07_u054",
+          "e07_u058"
+        ],
+        "escalation": [
+          "e07_u040",
+          "e07_u042",
+          "e07_u045",
+          "e07_u046",
+          "e07_u053",
+          "e07_u058"
+        ],
+        "ending": [
+          "e07_u058"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 4.3s (96.5-100.8)",
+        "camera-only stretch 8.2s (107.8-116.0)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 60.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "silent protector",
+      "central_conflict": "Gerald is forced to flee when the mysterious scarred man silently intimidates him, while Juliana admires the man's calm strength.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e07_u040",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 7,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e07_u034",
+      "end_unit_id": "e07_u037",
+      "hook_unit_id": "e07_u034",
+      "hook": {
+        "unit_ids": [
+          "e07_u034"
+        ],
+        "modality": "visual",
+        "description": "A wide shot of a towering, shadowed figure emerging from a dark, fog-drenched forest path.",
+        "evidence": "The unit e07_u034 establishes the intimidating presence of the husband immediately at the start of the clip.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e07_u037",
+      "segments": [
+        {
+          "start_unit": "e07_u034",
+          "end_unit": "e07_u037",
+          "start": 69.5,
+          "end": 75.5
+        }
+      ],
+      "start": 69.5,
+      "end": 75.5,
+      "duration": 6.0,
+      "proposer_reason": "This window focuses exclusively on the husband's arrival within Scene 02, satisfying the scene-consistency rule while maintaining the tension of his approach.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:duration",
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "6.0s is under the 20s minimum",
+        "cliffhanger e07_u037 starts at 74.0s, before the final 20% of the clip (74.3s)"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 40.4,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 8160,
+    "tokens_out": 3115,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 12.1,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 28.1
+  }
+}

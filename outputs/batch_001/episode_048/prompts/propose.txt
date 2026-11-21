@@ -1,0 +1,96 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: While feigning submission after her public humiliation, Catherine schemes in secret, plotting to use the council's ten-day reprieve to strike back at Alexander and Juliana with the aid of Father Thomas.
+CONTINUITY NOTES: Directly follows Episode 47's public disgrace where Catherine bowed to Juliana and accepted the position of a maid; in private, Catherine sheds her feigned defeat and initiates her counter-plot.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:20.0 (80.0 s).
+- Scene 01 (INT. CATHERINE'S CHAMBERS – NIGHT): 0.0-26.7 s, units e48_u001..e48_u014.
+- Scene 02 (INT. CATHERINE'S CHAMBERS – CONTINUOUS): 26.7-80.0 s, units e48_u015..e48_u043.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 73.4-80.0 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e48_u001 | 0.0-4.5 | CAMERA | Medium shot tracking slightly as Catherine stands beside a tall mullioned stone window, silhouetted against the moonlight over the distant castle spires.
+e48_u002 | 0.0-3.0 | ACTION | Catherine, adorned in an ornate dark burgundy gown with braided golden hair, gazes out the dark window before turning slowly with a cold, venomous smirk.
+e48_u003 | 2.4-7.5 | DIALOGUE | CATHERINE (Vindictive, Cold): "Two words, and that healer's crown rolls right back into the gutter where it belongs."
+e48_u004 | 4.5-8.5 | CAMERA | Close-up on Catherine's profile and jewelry as she speaks with calculating contempt.
+e48_u005 | 7.8-12.3 | ACTION | Catherine glides across the chamber past a roaring stone hearth, picking up an orange from a silver platter on the table.
+e48_u006 | 8.0-12.3 | DIALOGUE | CATHERINE (Scheming): "Ten days. He gave himself ten days to fix it."
+e48_u007 | 12.3-20.0 | CAMERA | Medium close-up frontal shot of Catherine turning directly toward the viewer, her expression tightening into ruthless determination.
+e48_u008 | 12.6-14.9 | DIALOGUE | CATHERINE (Intense, Measured): "Ten days for the council to sit."
+e48_u009 | 15.0-18.5 | ACTION | Catherine raises a gloved index finger, emphasizing each point with sinister precision.
+e48_u010 | 15.1-17.2 | DIALOGUE | CATHERINE (Calculating): "Ten days for witnesses to be gathered."
+e48_u011 | 17.4-19.7 | DIALOGUE | CATHERINE (Dark, Threatening): "Ten days for a decree to be undone."
+e48_u012 | 20.0-26.7 | CAMERA | Slight push-in on Catherine as she clenches her fist against her chest, her eyes blazing with malice.
+e48_u013 | 20.1-23.7 | DIALOGUE | CATHERINE (Menacing, Resolute): "Ten days is not a wall, Alexander. It's a door."
+e48_u014 | 23.9-26.5 | DIALOGUE | CATHERINE (Chillingly Calm): "And doors can be closed from the other side."
+e48_u015 | 26.7-30.8 | CAMERA | Medium shot over Catherine's shoulder seated before her vanity mirror as the chamber door eases open and Agnes enters quietly.
+e48_u016 | 26.8-29.5 | ACTION | Agnes, dressed in a grey maid's dress and white apron, steps inside with cautious hesitation and clasps her hands.
+e48_u017 | 29.2-30.8 | DIALOGUE | AGNES (Hushed, Submissive): "You sent for me, my lady?"
+e48_u018 | 30.9-32.0 | DIALOGUE | CATHERINE (Commanding, Sharp): "Lock it."
+e48_u019 | 32.0-33.9 | CAMERA | Close-up on Agnes's hands turning the ornate iron key in the wooden door's brass lock.
+e48_u020 | 32.3-33.8 | SFX | Heavy metallic click of an iron key latching into a deadbolt.
+e48_u021 | 34.0-36.5 | ACTION | Catherine strides forward and firmly grasps Agnes by both hands, stepping uncomfortably close.
+e48_u022 | 34.0-43.0 | CAMERA | Two-shot profile of Catherine towering over Agnes in the candlelight.
+e48_u023 | 34.2-37.1 | DIALOGUE | CATHERINE (Fierce, Hissing): "Everyone in that chapel saw me humiliated today."
+e48_u024 | 37.3-39.0 | DIALOGUE | CATHERINE (Spiteful, calculating): "Good. Let them remember it."
+e48_u025 | 39.2-43.0 | DIALOGUE | CATHERINE (Sinister, Predatory): "Grief makes people careless, and carelessness is exactly what I need from that household right now."
+e48_u026 | 43.0-46.8 | CAMERA | Over-the-shoulder close-up on Agnes, her brow furrowed in anxious alarm.
+e48_u027 | 43.3-46.8 | DIALOGUE | AGNES (Anxious, Whispering): "My lady... the Duke has bailiffs watching every road out of the county."
+e48_u028 | 46.8-51.5 | CAMERA | Close-up on Catherine, a smug, venomous smile spreading across her painted lips.
+e48_u029 | 47.0-51.3 | DIALOGUE | CATHERINE (Confident, Devious): "I'm not leaving the county, Agnes. I'm going back into that house."
+e48_u030 | 51.5-58.2 | CAMERA | Medium tracking shot following Catherine as she releases Agnes and stalks across the room toward the window sill.
+e48_u031 | 52.0-55.0 | DIALOGUE | CATHERINE (Pleased, Scheming): "Father Thomas did his part beautifully today."
+e48_u032 | 55.2-58.2 | DIALOGUE | CATHERINE (Calculated, Demanding): "Now I need him to do a little more before that hearing convenes."
+e48_u033 | 58.2-61.0 | CAMERA | Medium close-up of Agnes glancing nervously over her shoulder.
+e48_u034 | 58.5-60.6 | DIALOGUE | AGNES (Apprehensive): "If someone sees him come to you..."
+e48_u035 | 61.0-66.9 | CAMERA | Close-up on Catherine spinning around from the window, her jaw set in terrifying firmness.
+e48_u036 | 61.8-64.0 | DIALOGUE | CATHERINE (Stern, Threatening): "Then no one sees him."
+e48_u037 | 64.3-66.9 | DIALOGUE | CATHERINE (Authoritative): "That is precisely your job tonight."
+e48_u038 | 66.9-73.5 | CAMERA | Medium shot as Catherine picks up a heavy velvet coin purse and places it firmly into Agnes's awaiting open palms.
+e48_u039 | 67.5-69.0 | SFX | Dull clinking of heavy gold coins inside a leather pouch.
+e48_u040 | 67.8-70.5 | DIALOGUE | CATHERINE (Hushed, Commanding): "Send for the priest. Tonight."
+e48_u041 | 70.8-73.4 | DIALOGUE | CATHERINE (Firm, Final): "And make sure no one sees him arrive."
+e48_u042 | 73.5-76.8 | CAMERA | Wide shot of Agnes curtsying swiftly, stashing the pouch into her apron, and hurrying out through the heavy wooden door into the darkness.
+e48_u043 | 76.8-80.0 | CAMERA | Exterior shot looking through the dark diamond-paned window frame at Catherine standing motionless in the warm candlelight, staring outward into the night with cold, unyielding ambition as the scene fades to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

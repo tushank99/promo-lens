@@ -1,0 +1,78 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When an arrogant noblewoman catches Juliana in the poisoned Dowager Duchess's chambers, she strikes Juliana with a riding crop and sentences her to scrub the hearth, unaware that Juliana has secretly hidden the antidote and remedy journal to finish the Duchess's cure.
+CONTINUITY NOTES: Picks up directly from Episode 23's cliffhanger inside the West Wing bedchamber, as the brass latch turns and the door swings open to reveal an unexpected intruder confronting Lady Juliana and Prudence.
+
+CLIP: 53.6s to 92.0s (38.4s). Units below: id | seconds from clip start | type | text.
+e24_u041 | 0.0-1.6 | DIALOGUE | NOBLEWOMAN (Harsh, Dismissive): "Clean it."
+e24_u042 | 0.4-2.6 | CAMERA | Medium shot of the noblewoman extending her gloved hand toward the cavernous, filth-laden hearth.
+e24_u043 | 2.6-4.2 | CAMERA | Close-up of Juliana looking up at the towering, soot-blackened chimney.
+e24_u044 | 2.6-4.0 | DIALOGUE | LADY JULIANA (Quiet, Questioning): "All of it, my lady?"
+e24_u045 | 4.2-10.2 | CAMERA | Extreme close-up two-shot as the noblewoman steps unnervingly close to Juliana's face, whispering with sadistic relish.
+e24_u046 | 4.2-9.9 | DIALOGUE | NOBLEWOMAN (Intimate, Venomous): "Every stone. Perhaps when your hands are black enough, you will finally remember what you are."
+e24_u047 | 10.2-12.4 | ACTION | Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace.
+e24_u048 | 10.2-12.6 | CAMERA | Medium shot of Juliana sinking to her knees, her face grim and composed.
+e24_u049 | 12.4-13.9 | ACTION | Prudence steps toward the noblewoman in distress, her hands clasped tightly.
+e24_u050 | 12.6-14.2 | CAMERA | Close-up of Prudence's anxious, trembling face.
+e24_u051 | 12.6-13.9 | DIALOGUE | PRUDENCE (Desperate, Pleading): "My lady—"
+e24_u052 | 13.9-15.9 | ACTION | The noblewoman whips around sharply, thrusting the tip of her riding crop directly into Prudence's face.
+e24_u053 | 14.2-16.9 | CAMERA | Medium close-up of the noblewoman baring her teeth in rage, aiming the crop threateningly.
+e24_u054 | 14.4-16.9 | DIALOGUE | NOBLEWOMAN (Furious, Threatening): "Do you want the same punishment?"
+e24_u055 | 16.9-19.2 | CAMERA | Close-up of Prudence flinching in terror, lowering her eyes immediately.
+e24_u056 | 17.0-18.8 | DIALOGUE | PRUDENCE (Terrified, Murmuring): "No, my lady."
+e24_u057 | 18.9-20.9 | ACTION | Juliana grips a coarse scrubbing brush with both hands and begins vigorously scraping the thick black ash across the hearthstones.
+e24_u058 | 19.2-21.2 | CAMERA | Close-up shot of Juliana's soot-covered hands fiercely scrubbing the black ash along the stone floor.
+e24_u059 | 19.4-27.4 | SFX | Rhythmic, harsh rasping sound of bristles scraping against stone.
+e24_u060 | 21.2-24.9 | CAMERA | Medium shot of the noblewoman leaning casually against the wooden doorframe, watching Juliana toil with smug condescension.
+e24_u061 | 21.4-24.4 | DIALOGUE | NOBLEWOMAN (Smug, Gleeful): "That is where clever little servants belong."
+e24_u062 | 24.9-27.6 | CAMERA | Medium profile shot of Juliana kneeling by the hearth in the dim window light, scrubbing steadily.
+e24_u063 | 25.0-27.4 | DIALOGUE | LADY JULIANA (Cold, Resolute): "Let her think I am only a maid."
+e24_u064 | 27.6-31.4 | ACTION | Juliana pauses scrubbing. Her soot-caked fingers reach into the deep pocket of her apron, carefully feeling the worn leather cover of her mother's remedy journal and the glass dropper bottle securely concealed within.
+e24_u065 | 27.6-31.6 | CAMERA | Close-up of Juliana's soot-stained hand touching the hidden remedy book and the antidote vial inside her apron pocket.
+e24_u066 | 27.9-31.2 | DIALOGUE | LADY JULIANA (Determined, Defiant): "Let her believe I am ignorant."
+e24_u067 | 31.6-37.9 | ACTION | Juliana raises her head. Smudges of dark soot stain her fair cheek, but her piercing blue eyes burn with unwavering defiance and unyielding resolve as she stares toward the hallway.
+e24_u068 | 31.6-38.4 | CAMERA | Tight close-up of Juliana's soot-streaked face turning slowly toward the chamber exit, her jaw set firm as dramatic music builds to a powerful crescendo.
+e24_u069 | 32.0-36.2 | DIALOGUE | LADY JULIANA (Steely, Unstoppable): "I will return. You cannot stop the healer."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

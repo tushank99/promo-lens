@@ -1,0 +1,159 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e25_u009",
+      "end_unit_id": "e25_u024",
+      "hook": {
+        "unit_ids": [
+          "e25_u009"
+        ],
+        "modality": "visual",
+        "description": "Alexander grabs Juliana's shoulder, causing her to wince and gasp in pain.",
+        "evidence": "The immediate physical conflict and visible pain create instant tension and curiosity about the cause."
+      },
+      "cliffhanger_unit_id": "e25_u024",
+      "reason": "The reveal of the injury and the naming of the antagonist creates a high-stakes confrontation."
+    },
+    "norm": {
+      "start_unit_id": "e25_u009",
+      "end_unit_id": "e25_u024",
+      "hook": {
+        "unit_ids": [
+          "e25_u009"
+        ],
+        "modality": "visual",
+        "description": "Alexander grabs Juliana's shoulder, causing her to wince and gasp in pain.",
+        "evidence": "The immediate physical conflict and visible pain create instant tension and curiosity about the cause."
+      },
+      "cliffhanger_unit_id": "e25_u024",
+      "reason": "The reveal of the injury and the naming of the antagonist creates a high-stakes confrontation."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 3.5s (29.3-32.8)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 13.2,
+    "end": 38.5,
+    "duration": 25.3,
+    "segments": [
+      {
+        "start_unit": "e25_u009",
+        "end_unit": "e25_u024",
+        "start": 13.2,
+        "end": 38.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e25_u038",
+      "end_unit_id": "e25_u051",
+      "hook": {
+        "unit_ids": [
+          "e25_u038"
+        ],
+        "modality": "visual",
+        "description": "Alexander's face freezes in shock as he realizes the Dowager Duchess is in danger.",
+        "evidence": "The sudden shift from suspicion to genuine alarm hooks the viewer into the mystery of the poisoning."
+      },
+      "cliffhanger_unit_id": "e25_u051",
+      "reason": "The revelation of arsenic poisoning raises the stakes from a personal dispute to a life-or-death conspiracy."
+    },
+    "norm": {
+      "start_unit_id": "e25_u038",
+      "end_unit_id": "e25_u051",
+      "hook": {
+        "unit_ids": [
+          "e25_u038"
+        ],
+        "modality": "visual",
+        "description": "Alexander's face freezes in shock as he realizes the Dowager Duchess is in danger.",
+        "evidence": "The sudden shift from suspicion to genuine alarm hooks the viewer into the mystery of the poisoning."
+      },
+      "cliffhanger_unit_id": "e25_u051",
+      "reason": "The revelation of arsenic poisoning raises the stakes from a personal dispute to a life-or-death conspiracy."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 3.3s (57.5-60.8)",
+      "camera-only stretch 3.7s (62.5-66.2)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 57.5,
+    "end": 86.2,
+    "duration": 28.7,
+    "segments": [
+      {
+        "start_unit": "e25_u038",
+        "end_unit": "e25_u051",
+        "start": 57.5,
+        "end": 86.2
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e25_u072",
+      "end_unit_id": "e25_u091",
+      "hook": {
+        "unit_ids": [
+          "e25_u072"
+        ],
+        "modality": "visual",
+        "description": "Alexander grips Juliana's hands tightly, his face filled with intense, protective fury.",
+        "evidence": "The raw emotional intensity and physical intimacy between the characters immediately draws the viewer into their relationship dynamic."
+      },
+      "cliffhanger_unit_id": "e25_u091",
+      "reason": "The emotional climax of the argument highlights the protective bond and the dangerous mission ahead."
+    },
+    "norm": {
+      "start_unit_id": "e25_u072",
+      "end_unit_id": "e25_u091",
+      "hook": {
+        "unit_ids": [
+          "e25_u072"
+        ],
+        "modality": "visual",
+        "description": "Alexander grips Juliana's hands tightly, his face filled with intense, protective fury.",
+        "evidence": "The raw emotional intensity and physical intimacy between the characters immediately draws the viewer into their relationship dynamic."
+      },
+      "cliffhanger_unit_id": "e25_u091",
+      "reason": "The emotional climax of the argument highlights the protective bond and the dangerous mission ahead."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera shot e25_u070 (117.5-121.5) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 121.0,
+    "end": 156.5,
+    "duration": 35.5,
+    "segments": [
+      {
+        "start_unit": "e25_u072",
+        "end_unit": "e25_u091",
+        "start": 121.0,
+        "end": 156.5
+      }
+    ]
+  }
+]

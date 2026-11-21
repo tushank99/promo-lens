@@ -1,0 +1,46 @@
+{
+  "prompt_hash": "e7bb274ce200c0b2",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.4,
+    "secs": 3.25,
+    "tokens_in": 2698,
+    "tokens_out": 289,
+    "checkpoint": true
+  },
+  "asked_for": [
+    "c01",
+    "c03"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c01",
+        "start_unit_id": "e37_u001",
+        "end_unit_id": "e37_u020",
+        "hook": {
+          "unit_ids": [
+            "e37_u001"
+          ],
+          "modality": "visual",
+          "description": "A low-angle shot of a servant placing wax-sealed wedding invitations onto a silver tray, establishing the theme of the wedding.",
+          "evidence": "The visual of the invitations being prepared is the immediate hook for the viewer."
+        },
+        "cliffhanger_unit_id": "e37_u020",
+        "reason": "The window now spans 34.5 seconds, satisfying the 20-60s duration rule while maintaining the original narrative arc."
+      },
+      {
+        "retry_of": "c03",
+        "give_up": true,
+        "reason": "The dialogue-heavy nature of the scene makes it impossible to place a compelling hook within 3 seconds of the start while also meeting the cliffhanger requirement in the final 20%."
+      }
+    ]
+  },
+  "declined": {
+    "c03": "The dialogue-heavy nature of the scene makes it impossible to place a compelling hook within 3 seconds of the start while also meeting the cliffhanger requirement in the final 20%."
+  },
+  "ignored": []
+}

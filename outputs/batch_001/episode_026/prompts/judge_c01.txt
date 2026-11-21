@@ -1,0 +1,61 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+While secretly administering a charcoal antidote to the poisoned Dowager Duchess in the dead of night, Juliana is stunned when the Duchess suddenly recognizes a distinctive family ring on her hand and fiercely demands the truth about her identity.
+CONTINUITY NOTES: Following her encounter with Alexander in the forest where she vowed to protect the Duchess, Juliana sneaks into the bedchamber at Ashburg Manor to deliver the remaining antidote before Rupert and Catherine's poison takes full hold.
+
+CLIP: 47.5s to 86.5s (39.0s). Units below: id | seconds from clip start | type | text.
+e26_u022 | 0.0-3.3 | CAMERA | Static shot of the heavy carved double doors to the bedchamber, left slightly ajar with a sliver of hallway candlelight gleaming through the gap.
+e26_u023 | 3.3-8.3 | CAMERA | Close-up of the Dowager Duchess lying back, processing Juliana's warning as dark realization settles into her face.
+e26_u024 | 5.0-8.0 | ACTION | The Duchess clutches the blanket against her chest, her breathing quickening with dismay.
+e26_u025 | 8.3-15.0 | CAMERA | Medium close-up of the Duchess looking upward toward Juliana, her voice trembling with tragic certainty.
+e26_u026 | 8.5-14.5 | DIALOGUE | DOWAGER DUCHESS (Trembling, Heartbroken): "Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?"
+e26_u027 | 15.0-19.5 | CAMERA | Medium shot of Juliana leaning over the edge of the mattress, nodding earnestly to soothe her fears.
+e26_u028 | 15.1-19.2 | DIALOGUE | JULIANA (Reassuring, Steadfast): "Yes. But the charcoal is fighting the poison. You are safe now."
+e26_u029 | 19.5-24.3 | CAMERA | Close-up of the small amber dropper bottle sitting atop the polished wooden bedside table in the dim glow of the lamp.
+e26_u030 | 24.3-32.1 | CAMERA | Medium shot of the Dowager Duchess looking intently at Juliana from her pillows, studying her bearing.
+e26_u031 | 26.3-31.9 | DIALOGUE | DOWAGER DUCHESS (Curious, Searching): "Then tell me... why is a girl of such noble spirit working as a common maid?"
+e26_u032 | 32.1-39.0 | CAMERA | Close-up of Juliana, her chin lifting with dignified sorrow and quiet defiance.
+e26_u033 | 32.5-38.3 | DIALOGUE | JULIANA (Painful, Proud): "Because my family cast me out to rot. I have nothing left in this world but my honor."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

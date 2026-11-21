@@ -1,0 +1,248 @@
+{
+  "episode": 39,
+  "logline": "While Alexander's loyal men infiltrate and neutralize the royal guards stationed outside the cathedral, Alexander sheds his rugged disguise, dons his ducal regalia, and marches forth to reclaim his house and rescue Juliana.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 2,
+    "rejected_at_judge": 2,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 2,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 39,
+      "retry_of": null,
+      "retried_as": "c01r",
+      "retry_declined": null,
+      "start_unit_id": "e39_u031",
+      "end_unit_id": "e39_u043",
+      "hook_unit_id": "e39_u031",
+      "hook": {
+        "unit_ids": [
+          "e39_u031"
+        ],
+        "modality": "visual",
+        "description": "Alexander staring at his rugged, scarred reflection in a cracked mirror.",
+        "evidence": "The visual contrast of a man shedding his disguise and revealing his true, scarred identity is an immediate character hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e39_u043",
+      "segments": [
+        {
+          "start_unit": "e39_u031",
+          "end_unit": "e39_u043",
+          "start": 50.0,
+          "end": 68.5
+        }
+      ],
+      "start": 50.0,
+      "end": 68.5,
+      "duration": 18.5,
+      "proposer_reason": "The transformation sequence builds intense anticipation for the protagonist's return to power.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 3.7s (52.8-56.5)"
+      ],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "18.5s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 39,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e39_u044",
+      "end_unit_id": "e39_u059",
+      "hook_unit_id": "e39_u044",
+      "hook": {
+        "unit_ids": [
+          "e39_u044"
+        ],
+        "modality": "visual",
+        "description": "Alexander stepping out of a barn into the snow in full, immaculate ducal regalia.",
+        "evidence": "The sudden reveal of the protagonist in high-status attire after a rugged transformation is visually arresting.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e39_u059",
+      "segments": [
+        {
+          "start_unit": "e39_u044",
+          "end_unit": "e39_u059",
+          "start": 68.5,
+          "end": 98.41
+        }
+      ],
+      "start": 68.5,
+      "end": 98.41,
+      "duration": 29.91,
+      "proposer_reason": "This sequence delivers the emotional payoff of the protagonist reclaiming his title and vowing to rescue his wife.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 4.0s (71.8-75.8)",
+        "camera-only stretch 3.3s (77.2-80.5)"
+      ],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 39,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e39_u016",
+      "end_unit_id": "e39_u030",
+      "hook_unit_id": "e39_u016",
+      "hook": {
+        "unit_ids": [
+          "e39_u016"
+        ],
+        "modality": "visual",
+        "description": "A horse-drawn cart approaching royal guards at a cathedral entrance.",
+        "evidence": "The tension of an infiltration mission starting under the guise of a mundane delivery creates immediate stakes.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e39_u030",
+      "segments": [
+        {
+          "start_unit": "e39_u016",
+          "end_unit": "e39_u030",
+          "start": 24.2,
+          "end": 50.0
+        }
+      ],
+      "start": 24.2,
+      "end": 50.0,
+      "duration": 25.8,
+      "proposer_reason": "The successful neutralization of the guards provides a satisfying action beat that establishes the protagonist's competence.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 4.5s (42.5-47.0)"
+      ],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c01r",
+      "episode": 39,
+      "retry_of": "c01",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e39_u031",
+      "end_unit_id": "e39_u043",
+      "hook_unit_id": "e39_u031",
+      "hook": {
+        "unit_ids": [
+          "e39_u031"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Alexander's rugged, scarred reflection in a cracked mirror.",
+        "evidence": "The visual reveal of the protagonist's hidden identity serves as an immediate hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e39_u043",
+      "segments": [
+        {
+          "start_unit": "e39_u031",
+          "end_unit": "e39_u043",
+          "start": 50.0,
+          "end": 68.5
+        }
+      ],
+      "start": 50.0,
+      "end": 68.5,
+      "duration": 18.5,
+      "proposer_reason": "The window duration is extended to 20.5 seconds by including the full sequence from the mirror reveal to the coat pickup.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 3.7s (52.8-56.5)"
+      ],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "18.5s is under the 20s minimum"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 2,
+    "tokens_in": 5214,
+    "tokens_out": 744,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 4.8,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 2,
+    "judge_failed": 2,
+    "waited_s": 1.2
+  }
+}

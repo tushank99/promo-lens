@@ -1,0 +1,107 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e26_u022",
+      "end_unit_id": "e26_u033",
+      "hook": {
+        "unit_ids": [
+          "e26_u022"
+        ],
+        "modality": "visual",
+        "description": "The heavy bedroom doors are left ajar, revealing a sliver of light from the hallway.",
+        "evidence": "The visual of a secret meeting in a dark, dangerous room immediately establishes high stakes and tension."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This clip highlights the immediate danger of the poisoning plot and the mystery of Juliana's true identity."
+    },
+    "norm": {
+      "start_unit_id": "e26_u022",
+      "end_unit_id": "e26_u033",
+      "hook": {
+        "unit_ids": [
+          "e26_u022"
+        ],
+        "modality": "visual",
+        "description": "The heavy bedroom doors are left ajar, revealing a sliver of light from the hallway.",
+        "evidence": "The visual of a secret meeting in a dark, dangerous room immediately establishes high stakes and tension."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This clip highlights the immediate danger of the poisoning plot and the mystery of Juliana's true identity."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 5.0s (47.5-52.5)",
+      "camera-only stretch 7.1s (66.7-73.8)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 47.5,
+    "end": 86.5,
+    "duration": 39.0,
+    "segments": [
+      {
+        "start_unit": "e26_u022",
+        "end_unit": "e26_u033",
+        "start": 47.5,
+        "end": 86.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e26_u034",
+      "end_unit_id": "e26_u051",
+      "hook": {
+        "unit_ids": [
+          "e26_u034"
+        ],
+        "modality": "visual",
+        "description": "A close-up of a distinctive engraved signet ring on Juliana's finger.",
+        "evidence": "The reveal of a mysterious, noble object on a common maid's hand is a classic visual hook that promises a secret identity reveal."
+      },
+      "cliffhanger_unit_id": "e26_u051",
+      "reason": "The sudden recognition of the ring by the Duchess creates an intense, high-stakes confrontation that demands a resolution."
+    },
+    "norm": {
+      "start_unit_id": "e26_u034",
+      "end_unit_id": "e26_u051",
+      "hook": {
+        "unit_ids": [
+          "e26_u034"
+        ],
+        "modality": "visual",
+        "description": "A close-up of a distinctive engraved signet ring on Juliana's finger.",
+        "evidence": "The reveal of a mysterious, noble object on a common maid's hand is a classic visual hook that promises a secret identity reveal."
+      },
+      "cliffhanger_unit_id": "e26_u051",
+      "reason": "The sudden recognition of the ring by the Duchess creates an intense, high-stakes confrontation that demands a resolution."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 5.38s (115.5-120.88)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 86.5,
+    "end": 120.88,
+    "duration": 34.38,
+    "segments": [
+      {
+        "start_unit": "e26_u034",
+        "end_unit": "e26_u051",
+        "start": 86.5,
+        "end": 120.88
+      }
+    ]
+  }
+]

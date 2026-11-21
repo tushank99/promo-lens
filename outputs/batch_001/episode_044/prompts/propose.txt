@@ -1,0 +1,107 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: As Lord Sterling and Rupert are apprehended by the Crown, Catherine pleads with Alexander for their past love, only to be coldly rejected as he walks toward his chained bride, Juliana.
+CONTINUITY NOTES: Picks up immediately from Episode 43's cliffhanger at the church side exit; Lord Sterling's escape is blocked by the Police Constable, leading into the downfall of the conspirators.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:10.5 (70.5 s).
+- Scene 01 (INT. RUINED CATHEDRAL - SIDE ENTRANCE – DAY): 0.0-13.8 s, units e44_u001..e44_u008.
+- Scene 02 (INT. RUINED CATHEDRAL - ALTAR & NAVE – CONTINUOUS): 13.8-70.5 s, units e44_u009..e44_u054.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 63.4-68.0 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e44_u001 | 0.0-3.2 | CAMERA | Low-angle shot framing the towering stone archway as a stern Police Constable steps through the heavy open doors, blocking Lord Sterling's path.
+e44_u002 | 0.0-3.2 | ACTION | The Police Constable strides firmly down the steps and halts right in front of Lord Sterling, holding his ground.
+e44_u003 | 3.2-8.6 | CAMERA | Medium two-shot of the Police Constable towering over Lord Sterling.
+e44_u004 | 3.3-8.2 | DIALOGUE | POLICE CONSTABLE (Authoritative, Stern): "Lord Henry Sterling, you are under arrest by order of the Crown."
+e44_u005 | 8.6-11.4 | CAMERA | Close-up on Lord Sterling's trembling, indignant face.
+e44_u006 | 9.1-11.2 | DIALOGUE | LORD STERLING (Snarls, Outraged): "You have no authority!"
+e44_u007 | 11.4-13.8 | CAMERA | Close-up on the Constable's black-gloved hands holding out a thick, red-ribboned dossier stamped with the Crown's royal wax seal.
+e44_u008 | 11.4-13.2 | DIALOGUE | POLICE CONSTABLE (Cold, Definite): "I have more than enough."
+e44_u009 | 13.8-16.4 | CAMERA | Wide shot of the ruined nave littered with rubble as royal redcoat guards surround the aisle, forcing Rupert down onto his knees.
+e44_u010 | 14.0-16.4 | ACTION | A royal redcoat guard firmly forces Rupert down into the stone dust.
+e44_u011 | 14.0-16.8 | DIALOGUE | BLOND NOBLEMAN (Frantic, Shouting): "Get your hands off me! Catherine!"
+e44_u012 | 16.4-19.4 | CAMERA | Close-up on Rupert struggling fiercely against the white-gloved grip of the guard pinning his shoulder.
+e44_u013 | 17.4-19.3 | DIALOGUE | BLOND NOBLEMAN (Desperate, Screaming): "Do something!"
+e44_u014 | 19.4-22.0 | CAMERA | Medium close-up on Catherine beneath her bridal veil, looking downward in conflicted silence.
+e44_u015 | 21.8-24.4 | ACTION | Catherine's satin-gloved hand clenches tightly into a trembling fist against the folds of her ornate gown.
+e44_u016 | 22.0-24.4 | CAMERA | Close-up on Catherine's gloved hand tightening into a fist.
+e44_u017 | 24.4-27.8 | CAMERA | Wide shot as Catherine gathers her heavy train and steps away from Rupert, walking toward Alexander who stands watching her stoically.
+e44_u018 | 25.2-28.0 | DIALOGUE | CATHERINE (Shaken, Tearful): "Alexander... I thought you had died."
+e44_u019 | 27.8-31.2 | CAMERA | Close-up on Catherine's face, tears glistening in her eyes as grief breaks through her composure.
+e44_u020 | 28.4-31.0 | DIALOGUE | CATHERINE (Choked, Weeping): "Do you know what this did to me?"
+e44_u021 | 31.2-32.4 | CAMERA | Medium shot on Alexander standing tall in his ducal coat, his gaze utterly detached.
+e44_u022 | 31.2-32.4 | DIALOGUE | CATHERINE (Pleading): "I mourned you."
+e44_u023 | 32.4-34.0 | CAMERA | Profile close-up of Catherine as a tear slips down her cheek.
+e44_u024 | 32.4-34.0 | DIALOGUE | CATHERINE (Vulnerable, Trembling): "I waited for you."
+e44_u025 | 34.0-35.8 | CAMERA | Medium shot of Catherine standing in the center of the aisle before the seated congregation.
+e44_u026 | 34.2-38.8 | DIALOGUE | CATHERINE (Heartbroken): "For three years, I believed the man I loved was buried somewhere across the sea."
+e44_u027 | 35.8-38.8 | CAMERA | Tracking two-shot over Alexander's shoulder as Catherine approaches him pleadingly.
+e44_u028 | 38.8-41.2 | CAMERA | Close profile two-shot as Catherine gently reaches her gloved hand up to Alexander's bearded cheek.
+e44_u029 | 38.9-41.2 | DIALOGUE | CATHERINE (Whispering, Longing): "I never stopped loving you."
+e44_u030 | 41.2-42.8 | ACTION | Alexander abruptly pulls his face back, refusing her touch and leaving her hand suspended in mid-air.
+e44_u031 | 41.2-42.8 | CAMERA | Close-up on Catherine's empty gloved hand trembling in the empty space between them.
+e44_u032 | 42.8-46.4 | CAMERA | Close-up on Catherine lowering her hand, stunned and deeply hurt by his rejection.
+e44_u033 | 44.2-46.4 | DIALOGUE | CATHERINE (Breathless, Hurt): "You don't remember?"
+e44_u034 | 46.4-49.0 | CAMERA | High-angle shot looking down at Catherine in the foreground, with Rupert held under guard in the background.
+e44_u035 | 46.6-48.8 | DIALOGUE | CATHERINE (Desperate, Demanding): "I was supposed to be your Duchess!"
+e44_u036 | 49.0-51.0 | CAMERA | Medium two-shot of Catherine and Alexander confronting each other.
+e44_u037 | 49.2-51.0 | DIALOGUE | ALEXANDER (Cold, Implacable): "You were never my Duchess."
+e44_u038 | 51.0-53.0 | CAMERA | Extreme close-up on Catherine's tearful face.
+e44_u039 | 51.1-52.8 | DIALOGUE | CATHERINE (Sobbing, Pleading): "But I loved you!"
+e44_u040 | 53.0-55.6 | CAMERA | Medium close-up on Alexander, his scarred jaw set firm.
+e44_u041 | 53.0-55.5 | DIALOGUE | ALEXANDER (Scornful, Biting): "You loved the Duke you thought you would marry."
+e44_u042 | 55.6-59.0 | CAMERA | Close-up on Catherine, gasping in protest.
+e44_u043 | 56.2-58.2 | DIALOGUE | CATHERINE (Defiant, Pained): "No!"
+e44_u044 | 59.0-62.4 | CAMERA | Medium shot as Catherine clutches her chest, pouring her heart out.
+e44_u045 | 59.8-62.4 | DIALOGUE | CATHERINE (Passionate, Crying): "I loved you before all this!"
+e44_u046 | 62.4-63.8 | CAMERA | Close-up on Alexander tilting his head slightly, his gaze piercing through her.
+e44_u047 | 62.5-63.4 | DIALOGUE | ALEXANDER (Skeptical, Cutting): "Did you?"
+e44_u048 | 63.8-65.0 | CAMERA | Close-up on Catherine, rendered speechless by his doubt.
+e44_u049 | 65.0-67.8 | CAMERA | Tilt-up shot starting from heavy iron chains resting on the wooden floor up to the shackled wrists of Juliana dressed in her rustic grey gown.
+e44_u050 | 67.8-69.6 | CAMERA | Wide shot from behind Catherine as Alexander turns his back on her and walks resolutely down the rubble-strewn aisle toward Juliana standing in chains at the doorway.
+e44_u051 | 68.0-69.6 | ACTION | Alexander walks away from Catherine toward Juliana, who waits solemnly by the cathedral entrance.
+e44_u052 | 69.6-70.1 | CAMERA | Medium close-up on Juliana looking down at her chained hands, lifting her gaze gently.
+e44_u053 | 70.1-70.5 | CAMERA | Extreme close-up on Catherine's horrified, bewildered expression as she realizes who Alexander chose.
+e44_u054 | 70.1-70.4 | DIALOGUE | CATHERINE (Gasping, Incredulous): "Her?!"
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

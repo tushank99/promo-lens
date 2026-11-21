@@ -1,0 +1,65 @@
+[
+  {
+    "candidate_id": "c02r",
+    "prompt_hash": "d139c60440f51b99",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 7.8,
+      "secs": 3.06,
+      "tokens_in": 1518,
+      "tokens_out": 1128
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e30_u039"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e30_u039",
+          "e30_u043",
+          "e30_u045",
+          "e30_u049",
+          "e30_u053"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e30_u039",
+          "e30_u045",
+          "e30_u050",
+          "e30_u047"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e30_u039",
+          "e30_u045",
+          "e30_u049",
+          "e30_u053"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "payoff",
+        "evidence_unit_ids": [
+          "e30_u053"
+        ]
+      },
+      "hook_unit_id": "e30_u039",
+      "hook_type": "shocking_line",
+      "emotion_type": "revenge",
+      "trope": "witch hunt conspiracy",
+      "central_conflict": "Elder Nobleman, Catherine, and Rupert conspire to fabricate witchcraft evidence to have Juliana executed.",
+      "spoils_main_twist": false
+    }
+  }
+]

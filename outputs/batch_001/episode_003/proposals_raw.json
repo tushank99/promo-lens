@@ -1,0 +1,65 @@
+{
+  "episode": 3,
+  "prompt_hash": "ad32257995048721",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.99,
+    "tokens_in": 6255,
+    "tokens_out": 558
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e03_u046",
+        "end_unit_id": "e03_u072",
+        "hook": {
+          "unit_ids": [
+            "e03_u046",
+            "e03_u047"
+          ],
+          "modality": "spoken",
+          "description": "The Noble Matriarch shouts for guards to remove Juliana from the church.",
+          "evidence": "The immediate escalation of a wedding into a public expulsion creates instant high-stakes drama."
+        },
+        "cliffhanger_unit_id": "e03_u072",
+        "reason": "The sudden intervention of a mysterious stranger against royal guards provides a high-octane rescue moment."
+      },
+      {
+        "start_unit_id": "e03_u098",
+        "end_unit_id": "e03_u118",
+        "hook": {
+          "unit_ids": [
+            "e03_u098",
+            "e03_u099",
+            "e03_u100"
+          ],
+          "modality": "visual",
+          "description": "The stranger pulls a ring from his pocket and holds it up.",
+          "evidence": "The visual of a rugged stranger offering a ring to a disgraced bride is a classic, high-engagement romance trope."
+        },
+        "cliffhanger_unit_id": "e03_u118",
+        "reason": "The proposal cliffhanger leaves the viewer desperate to see if she accepts the stranger's hand."
+      },
+      {
+        "start_unit_id": "e03_u055",
+        "end_unit_id": "e03_u081",
+        "hook": {
+          "unit_ids": [
+            "e03_u055",
+            "e03_u056"
+          ],
+          "modality": "visual",
+          "description": "A rugged stranger in a trench coat marches down the aisle to stop the guards.",
+          "evidence": "The 'heroic entrance' trope is a proven hook for vertical drama audiences."
+        },
+        "cliffhanger_unit_id": "e03_u081",
+        "reason": "The stranger's lethal grace and defiance of the aristocracy creates a satisfying power shift."
+      }
+    ]
+  },
+  "note": null
+}

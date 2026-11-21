@@ -1,0 +1,48 @@
+{
+  "episode": 47,
+  "prompt_hash": "1387da3ed04881ca",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.7,
+    "secs": 2.93,
+    "tokens_in": 4285,
+    "tokens_out": 357,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e47_u040",
+        "end_unit_id": "e47_u069",
+        "hook": {
+          "unit_ids": [
+            "e47_u040"
+          ],
+          "modality": "visual",
+          "description": "Juliana raises her hand to stop the guards from throwing Catherine out.",
+          "evidence": "The sudden shift from the antagonist's expected punishment to the protagonist's unexpected mercy creates immediate intrigue."
+        },
+        "cliffhanger_unit_id": "e47_u069",
+        "reason": "The power dynamic shift where the villain is forced to become a servant is a classic, high-satisfaction trope."
+      },
+      {
+        "start_unit_id": "e47_u050",
+        "end_unit_id": "e47_u070",
+        "hook": {
+          "unit_ids": [
+            "e47_u050"
+          ],
+          "modality": "visual",
+          "description": "Catherine's face shifts from despair to pure, offended shock.",
+          "evidence": "The visceral reaction to being offered a job as a scullery maid hooks viewers interested in revenge and humiliation."
+        },
+        "cliffhanger_unit_id": "e47_u070",
+        "reason": "This segment focuses on the intense psychological battle and the final, total humiliation of the antagonist."
+      }
+    ]
+  },
+  "note": null
+}

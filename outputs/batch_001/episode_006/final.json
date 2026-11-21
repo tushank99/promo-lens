@@ -1,0 +1,518 @@
+{
+  "episode": 6,
+  "logline": "Seeking shelter from the cold rain, Juliana arrives at her new husband's modest woodland cottage and discovers an unexpected sense of peace beside the hearth.",
+  "counts": {
+    "proposed": 5,
+    "rejected_at_validation": 1,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 3,
+    "alternates": 0,
+    "final": 1,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c01",
+      "episode": 6,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e06_u001",
+      "end_unit_id": "e06_u023",
+      "hook_unit_id": "e06_u001",
+      "hook": {
+        "unit_ids": [
+          "e06_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana in a white wedding gown trudging through mud and rain in the dark woods.",
+        "evidence": "The visual contrast of a bride in a ruined gown in a dark, hostile environment immediately establishes high stakes and mystery.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e06_u023",
+      "segments": [
+        {
+          "start_unit": "e06_u001",
+          "end_unit": "e06_u023",
+          "start": 0.0,
+          "end": 27.9
+        }
+      ],
+      "start": 0.0,
+      "end": 27.9,
+      "duration": 27.9,
+      "proposer_reason": "The journey from the wedding to a desolate cabin creates immediate intrigue about the bride's tragic circumstances.",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 3,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e06_u001",
+          "e06_u002",
+          "e06_u004"
+        ],
+        "clarity": [
+          "e06_u009",
+          "e06_u011",
+          "e06_u013",
+          "e06_u015",
+          "e06_u020"
+        ],
+        "emotion": [
+          "e06_u011",
+          "e06_u013",
+          "e06_u018"
+        ],
+        "escalation": [
+          "e06_u015",
+          "e06_u019",
+          "e06_u020",
+          "e06_u022"
+        ],
+        "ending": [
+          "e06_u022",
+          "e06_u023"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.6s (20.9-24.5)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 66.7,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "Rain-soaked bride",
+      "central_conflict": "Juliana, a newlywed, must endure a bleak, rainy journey with her enigmatic husband while questioning her new life.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e06_u001",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 6,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e06_u001",
+      "end_unit_id": "e06_u023",
+      "hook_unit_id": "e06_u001",
+      "hook": {
+        "unit_ids": [
+          "e06_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana in a white wedding gown trudging through mud and rain in the dark woods.",
+        "evidence": "The visual contrast of a bride in a ruined gown in a dark, hostile environment immediately establishes high stakes and mystery.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e06_u023",
+      "segments": [
+        {
+          "start_unit": "e06_u001",
+          "end_unit": "e06_u023",
+          "start": 0.0,
+          "end": 27.9
+        }
+      ],
+      "start": 0.0,
+      "end": 27.9,
+      "duration": 27.9,
+      "proposer_reason": "The journey from the wedding to a desolate cabin creates immediate intrigue about the bride's tragic circumstances.",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 3,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e06_u001",
+          "e06_u002",
+          "e06_u004"
+        ],
+        "clarity": [
+          "e06_u009",
+          "e06_u011",
+          "e06_u013",
+          "e06_u015",
+          "e06_u020"
+        ],
+        "emotion": [
+          "e06_u011",
+          "e06_u013",
+          "e06_u018"
+        ],
+        "escalation": [
+          "e06_u015",
+          "e06_u019",
+          "e06_u020",
+          "e06_u022"
+        ],
+        "ending": [
+          "e06_u022",
+          "e06_u023"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.6s (20.9-24.5)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 66.7,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "Rain-soaked bride",
+      "central_conflict": "Juliana, a newlywed, must endure a bleak, rainy journey with her enigmatic husband while questioning her new life.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e06_u001",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 6,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e06_u031",
+      "end_unit_id": "e06_u050",
+      "hook_unit_id": "e06_u031",
+      "hook": {
+        "unit_ids": [
+          "e06_u031"
+        ],
+        "modality": "visual",
+        "description": "Juliana stepping into a dark, barren, leaking cabin in her wedding dress.",
+        "evidence": "The stark transition from a wedding to a dilapidated, leaking shack creates an immediate emotional hook regarding her fall from grace.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e06_u050",
+      "segments": [
+        {
+          "start_unit": "e06_u031",
+          "end_unit": "e06_u050",
+          "start": 33.7,
+          "end": 58.2
+        }
+      ],
+      "start": 33.7,
+      "end": 58.2,
+      "duration": 24.5,
+      "proposer_reason": "The contrast between her former life and this new, humble reality highlights her resilience and the mystery of her husband.",
+      "hook_type": "visual_shock",
+      "emotion_type": "other",
+      "scores": {
+        "hook": 2,
+        "clarity": 3,
+        "emotion": 2,
+        "escalation": 2,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e06_u031",
+          "e06_u032"
+        ],
+        "clarity": [
+          "e06_u037",
+          "e06_u040",
+          "e06_u043",
+          "e06_u050"
+        ],
+        "emotion": [
+          "e06_u037",
+          "e06_u040",
+          "e06_u046",
+          "e06_u050"
+        ],
+        "escalation": [
+          "e06_u031",
+          "e06_u043",
+          "e06_u050"
+        ],
+        "ending": [
+          "e06_u049",
+          "e06_u050"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [
+        "floor:hook<3"
+      ],
+      "final_score": 44.0,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "peaceful bride",
+      "central_conflict": "Juliana must decide whether to embrace the simple, quiet life offered by her mysterious husband.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e06_u031",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 6,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e06_u057",
+      "end_unit_id": "e06_u078",
+      "hook_unit_id": "e06_u057",
+      "hook": {
+        "unit_ids": [
+          "e06_u057"
+        ],
+        "modality": "visual",
+        "description": "Juliana aggressively scrubbing a dirty table in her wedding dress.",
+        "evidence": "The sight of a bride frantically cleaning a hovel in her gown is a powerful, relatable image of someone trying to maintain control amidst total loss.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e06_u078",
+      "segments": [
+        {
+          "start_unit": "e06_u057",
+          "end_unit": "e06_u078",
+          "start": 64.1,
+          "end": 90.0
+        }
+      ],
+      "start": 64.1,
+      "end": 90.0,
+      "duration": 25.9,
+      "proposer_reason": "The emotional vulnerability of the character as she tries to build a home out of nothing is deeply compelling.",
+      "hook_type": "other",
+      "emotion_type": "other",
+      "scores": {
+        "hook": 1,
+        "clarity": 2,
+        "emotion": 3,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e06_u057",
+          "e06_u058"
+        ],
+        "clarity": [
+          "e06_u058",
+          "e06_u063"
+        ],
+        "emotion": [
+          "e06_u062",
+          "e06_u063",
+          "e06_u078"
+        ],
+        "escalation": [
+          "e06_u065",
+          "e06_u069",
+          "e06_u071",
+          "e06_u074"
+        ],
+        "ending": [
+          "e06_u076",
+          "e06_u077",
+          "e06_u078"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera shot e06_u079 (89.8-91.7) straddles a cut"
+      ],
+      "rejection_reasons": [
+        "floor:hook<3",
+        "floor:clarity<3"
+      ],
+      "final_score": 42.7,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "healing hearth",
+      "central_conflict": "Juliana struggles to settle into her new home while confronting past loss, as her mysterious husband helps her create a sense of peace.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e06_u058",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    },
+    {
+      "candidate_id": "c04",
+      "episode": 6,
+      "retry_of": null,
+      "retried_as": "c04r",
+      "retry_declined": null,
+      "start_unit_id": "e06_u082",
+      "end_unit_id": "e06_u097",
+      "hook_unit_id": "e06_u082",
+      "hook": {
+        "unit_ids": [
+          "e06_u082"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling before a roaring hearth fire in her wedding dress.",
+        "evidence": "The warm, intimate visual of the firelight against the cold, dark cabin provides a strong emotional payoff and sense of safety.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e06_u094",
+      "segments": [
+        {
+          "start_unit": "e06_u082",
+          "end_unit": "e06_u097",
+          "start": 93.8,
+          "end": 115.0
+        }
+      ],
+      "start": 93.8,
+      "end": 115.0,
+      "duration": 21.2,
+      "proposer_reason": "The shift from despair to finding unexpected peace with a mysterious stranger provides a satisfying emotional arc for a short promo.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e06_u094 starts at 106.2s, before the final 20% of the clip (110.76s)"
+      ]
+    },
+    {
+      "candidate_id": "c04r",
+      "episode": 6,
+      "retry_of": "c04",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e06_u082",
+      "end_unit_id": "e06_u097",
+      "hook_unit_id": "e06_u082",
+      "hook": {
+        "unit_ids": [
+          "e06_u082"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling before the blazing hearth, finding a moment of peace.",
+        "evidence": "The visual of the firelight illuminating her face immediately establishes the emotional shift.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e06_u096",
+      "segments": [
+        {
+          "start_unit": "e06_u082",
+          "end_unit": "e06_u097",
+          "start": 93.8,
+          "end": 115.0
+        }
+      ],
+      "start": 93.8,
+      "end": 115.0,
+      "duration": 21.2,
+      "proposer_reason": "By starting at unit e06_u082 and ending at e06_u097, the cliffhanger unit e06_u096 falls within the final 20% of the 21.2-second duration.",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 1,
+        "clarity": 2,
+        "emotion": 3,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e06_u082",
+          "e06_u083"
+        ],
+        "clarity": [
+          "e06_u086",
+          "e06_u089",
+          "e06_u094"
+        ],
+        "emotion": [
+          "e06_u086",
+          "e06_u087",
+          "e06_u088",
+          "e06_u089",
+          "e06_u094"
+        ],
+        "escalation": [
+          "e06_u086",
+          "e06_u089",
+          "e06_u094",
+          "e06_u095"
+        ],
+        "ending": [
+          "e06_u096",
+          "e06_u097"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [
+        "floor:hook<3",
+        "floor:clarity<3"
+      ],
+      "final_score": 42.7,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "comforting stranger",
+      "central_conflict": "Juliana, having lost her home and family, seeks safety and peace with a mysterious man in his cottage.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e06_u082",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    }
+  ],
+  "usage": {
+    "wall_s": 70.9,
+    "calls": 6,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 15456,
+    "tokens_out": 5281,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 21.4,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 49.4
+  }
+}

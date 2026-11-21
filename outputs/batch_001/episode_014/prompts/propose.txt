@@ -1,0 +1,105 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: After Juliana secures Alexander's freedom with the unearthed emerald signet ring, he carries her home to bandage her torn hands, silently swearing that no one will ever harm her again.
+CONTINUITY NOTES: Picks up immediately from Episode 13's cliffhanger where Juliana grasped the emerald ring beneath the razor-sharp blackthorns.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:27.6 (87.6 s).
+- Scene 01 (EXT. BLACKTHORN GARDEN – DUSK): 0.0-40.5 s, units e14_u001..e14_u025.
+- Scene 02 (EXT. ALEXANDER'S COTTAGE – CONTINUOUS): 40.5-43.5 s, units e14_u026..e14_u027.
+- Scene 03 (INT. ALEXANDER'S COTTAGE – NIGHT): 43.5-87.6 s, units e14_u028..e14_u051.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 54.0-58.5 s; 62.5-66.0 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e14_u001 | 0.0-5.6 | CAMERA | Close-up low angle looking through dense, sharp blackthorn branches onto the cracked, frozen soil.
+e14_u002 | 0.5-5.5 | ACTION | Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the thorns, revealing the ornate emerald signet ring resting in her palm.
+e14_u003 | 1.0-5.5 | SFX | Eerie cold wind whistling over the briars with deep, atmospheric cello chords.
+e14_u004 | 5.6-9.5 | CAMERA | Medium close-up of Juliana stepping out from the briar patch, her cloak torn, cheeks scratched, holding the ring outward with unwavering resolve.
+e14_u005 | 7.7-9.0 | DIALOGUE | JULIANA (Exhausted, Resolute): "I found it."
+e14_u006 | 9.5-13.5 | CAMERA | Wide shot of Juliana holding the ring out toward the austere Police Constable standing guard beside the frozen garden.
+e14_u007 | 10.5-12.7 | DIALOGUE | JULIANA (Firm, Commanding): "Now release my husband."
+e14_u008 | 12.5-13.5 | ACTION | The Constable takes the ring from her bloodied fingers.
+e14_u009 | 13.5-15.5 | CAMERA | Tight shot on the iron shackles locking Alexander's wrists together against the thorny backdrop.
+e14_u010 | 14.2-15.4 | SFX | Sharp metallic click and clinking rattle of heavy iron handcuffs unlocking and falling away.
+e14_u011 | 14.5-15.6 | ACTION | The Constable unlocks the cuffs, freeing Alexander's large hands.
+e14_u012 | 15.6-18.5 | CAMERA | Tracking shot as Alexander lunges forward without hesitation, rushing past the Constable straight to Juliana.
+e14_u013 | 16.8-18.0 | DIALOGUE | ALEXANDER (Gasping, Urgent): "Juliana."
+e14_u014 | 18.5-23.0 | CAMERA | Close-up on Alexander's rugged hands tenderly grasping Juliana's bloodied, lacerated hands, turning them over with immense care.
+e14_u015 | 18.8-23.0 | ACTION | Alexander gently turns her palms up, his thumbs trembling as he inspects the deep, bleeding gashes gouged into her skin.
+e14_u016 | 23.0-25.5 | CAMERA | Close-up on Alexander's agonized, furious expression as he stares at her wounds.
+e14_u017 | 23.1-25.0 | DIALOGUE | ALEXANDER (Trembling, Heartbroken): "What have they done to you?"
+e14_u018 | 25.5-29.5 | CAMERA | Close-up on Juliana's pale, tear-streaked face looking back into his eyes with tender relief.
+e14_u019 | 26.5-28.5 | DIALOGUE | JULIANA (Softly, Stifling Pain): "Nothing they didn't promise."
+e14_u020 | 29.5-32.5 | CAMERA | Medium profile two-shot of Alexander and Juliana gazing into each other's eyes amidst the cold mist.
+e14_u021 | 29.8-32.0 | DIALOGUE | JULIANA (Faint, Pleading): "Take me home."
+e14_u022 | 32.5-38.5 | CAMERA | Low-angle medium shot as Alexander effortlessly scoops Juliana into his arms, gathering her up against his chest.
+e14_u023 | 33.2-37.0 | ACTION | Alexander lifts Juliana bridal-style, wrapping his strong arms protectively around her as she rests against his shoulder.
+e14_u024 | 35.8-38.5 | DIALOGUE | ALEXANDER (Deep, Sorrowful): "You should never have had to bleed for me."
+e14_u025 | 38.5-40.5 | CAMERA | Medium tracking shot behind stone balustrades as Alexander carries Juliana past the foggy estate grounds.
+e14_u026 | 40.5-43.5 | CAMERA | Wide establishing shot of the humble stone cottage standing isolated beneath dark, overcast stormy skies on a rain-slicked dirt road.
+e14_u027 | 40.5-43.5 | SFX | Gentle patter of rain and cold wind howling in the desolate countryside.
+e14_u028 | 43.5-47.0 | CAMERA | Warm interior wide shot in front of a roaring hearth fire. Juliana sits on a wooden chair while Alexander kneels on the floor before her, a washbasin of water between them.
+e14_u029 | 44.0-47.0 | ACTION | Alexander gently wraps clean linen bandages around Juliana's torn wrist and palm.
+e14_u030 | 44.0-47.5 | SFX | Crackling flames and wood popping in the open fireplace.
+e14_u031 | 47.0-50.5 | CAMERA | Intimate over-the-shoulder close-up looking up into Juliana's face from Alexander's perspective.
+e14_u032 | 47.2-49.8 | DIALOGUE | ALEXANDER (Hoarse, Stricken): "You could have lost your hands."
+e14_u033 | 50.5-55.5 | CAMERA | Extreme close-up on Juliana's glistening eyes and trembling lips, firelight reflecting softly across her face.
+e14_u034 | 51.8-54.0 | DIALOGUE | JULIANA (Whispered, Emotional): "But I didn't lose you."
+e14_u035 | 55.5-58.5 | CAMERA | Close-up on Alexander's scarred, weathered fingers wrapping the cloth tightly yet gently around her lacerations.
+e14_u036 | 58.5-60.5 | CAMERA | Close-up on Alexander looking up at her with profound remorse and affection.
+e14_u037 | 58.5-60.0 | DIALOGUE | ALEXANDER (Quiet, Tender): "I'm sorry."
+e14_u038 | 60.5-63.5 | CAMERA | Close-up on Juliana smiling faintly through her tears, shaking her head.
+e14_u039 | 60.5-62.5 | DIALOGUE | JULIANA (Gentle, Reassuring): "You didn't hurt me."
+e14_u040 | 63.5-66.0 | CAMERA | Side profile close-up of Alexander lowering his head solemnly in front of her.
+e14_u041 | 66.0-70.5 | CAMERA | Medium two-shot as Alexander gently drapes a heavy warm woolen blanket across Juliana's lap and around her shoulders.
+e14_u042 | 66.0-67.4 | DIALOGUE | JULIANA (Loving, Earnest): "You have taken my place today."
+e14_u043 | 67.5-69.8 | DIALOGUE | JULIANA (Continuing): "And you are doing it better than me."
+e14_u044 | 70.5-76.0 | CAMERA | Medium shot as Juliana rests her cheek against Alexander's chest; he embraces her tightly against him, cradling her head under his chin.
+e14_u045 | 71.0-76.0 | ACTION | Juliana closes her eyes in exhausted relief, sinking into Alexander's warmth as his broad arm encloses her safely.
+e14_u046 | 76.0-83.5 | CAMERA | Tight close-up of Alexander holding Juliana against his bearded cheek, kissing the crown of her head before gently cradling her jaw in his scarred hand.
+e14_u047 | 76.5-81.0 | DIALOGUE | ALEXANDER (Dark, Solemn Vow): "No one will ever hurt you for protecting me again."
+e14_u048 | 81.2-83.5 | ACTION | Alexander strokes her cheek with his thumb, his gaze hardening into deadly, protective conviction.
+e14_u049 | 83.5-87.6 | CAMERA | Low-angle shot focusing down on two wooden buckets on the stone floor—one filled with dark, blood-soaked wash water reflecting the fireplace.
+e14_u050 | 84.0-87.0 | ACTION | Alexander's muscular arm drops into frame beside the bloody bucket; his scarred knuckles slowly and tightly clench into an iron fist of brewing vengeance.
+e14_u051 | 84.5-87.6 | SFX | Ominous, resonating low bass boom swelling into sudden silence as the screen cuts to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

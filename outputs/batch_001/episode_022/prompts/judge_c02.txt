@@ -1,0 +1,62 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Disguised as a common scullery maid, Lady Juliana infiltrates Ashbury Manor alongside Prudence and slips into the forbidden West Wing, where she discovers the dying Dowager Duchess suffering from an unnatural, poisoned affliction.
+CONTINUITY NOTES: Directly follows Episode 21 where Prudence revealed that the Dowager Duchess is dying from a mysterious illness; Juliana sets aside her aristocratic identity to sneak into Ashbury Manor under the guise of domestic help to save her.
+
+CLIP: 64.2s to 88.5s (24.3s). Units below: id | seconds from clip start | type | text.
+e22_u042 | 0.0-5.6 | CAMERA | Profile medium two-shot as the Housekeeper steps right up into Lady Juliana's face, staring intently into her downcast eyes.
+e22_u043 | 1.8-5.3 | DIALOGUE | HOUSEKEEPER (Menacing, Threatening): "And can you keep your eyes and ears where they belong?"
+e22_u044 | 5.6-8.8 | CAMERA | Extreme close-up on Lady Juliana's composed, lowered face.
+e22_u045 | 7.0-8.4 | DIALOGUE | LADY JULIANA (Subdued, Steady): "Yes, ma'am."
+e22_u046 | 8.8-13.8 | CAMERA | Medium shot of the Housekeeper turning and pointing a bony finger toward the servant corridor stairs.
+e22_u047 | 9.0-13.3 | DIALOGUE | HOUSEKEEPER (Stern, Dismissive): "Then prove it. The manor has no use for useless girls."
+e22_u048 | 13.3-16.8 | ACTION | The Housekeeper turns and stalks away down the corridor. Prudence exhales a trembling breath of relief.
+e22_u049 | 14.3-17.6 | CAMERA | Wide shot of the dimly lit hallway showing the Housekeeper walking away into the distance.
+e22_u050 | 14.8-16.8 | DIALOGUE | PRUDENCE (Relieved, Whispering): "That was close."
+e22_u051 | 17.6-20.4 | CAMERA | Close-up on Lady Juliana clutching the wash bucket, her eyes scanning ahead urgently.
+e22_u052 | 18.3-20.3 | DIALOGUE | LADY JULIANA (Urgent, Quiet): "Where is the West Wing?"
+e22_u053 | 20.4-24.3 | CAMERA | Medium shot of Prudence pointing toward the archway leading toward the grand staircase.
+e22_u054 | 20.6-23.8 | DIALOGUE | PRUDENCE (Nervous, Warning): "Beyond the grand staircase. Few servants go there."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

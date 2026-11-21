@@ -1,0 +1,128 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: In the aftermath of the brutal attack, Alexander repairs Juliana's devastated garden and swears to protect her with his life, drawing them into a tender, intimate embrace by the hearth.
+CONTINUITY NOTES: Picks up the morning after Episode 16's moonlit confrontation where Alexander defended Juliana and defeated Harrington's hired thugs in her medicinal garden.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:58.9 (118.9 s).
+- Scene 01 (EXT. MEDICINAL GARDEN – DAY): 0.0-39.0 s, units e17_u001..e17_u029.
+- Scene 02 (INT. COTTAGE HEARTH – NIGHT): 39.0-118.9 s, units e17_u030..e17_u075.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 62.2-66.0 s; 73.5-77.0 s; 82.5-86.5 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e17_u001 | 0.0-3.0 | CAMERA | High angle wide shot looking down at the muddy, trampled garden. Broken wooden planters and splintered planks litter the ground as Juliana kneels amidst the ruined soil.
+e17_u002 | 0.0-3.0 | ACTION | Juliana sits on her knees in her dirt-smudged dress, her hands wrapped in clean linen bandages, sorrowfully examining the wreckage. In the distant background, Alexander paces near the perimeter fence.
+e17_u003 | 3.0-7.0 | CAMERA | Close-up on Juliana's bandaged hand reaching into the dark earth of a battered planter box.
+e17_u004 | 3.0-7.0 | ACTION | Juliana gently lifts a tiny, delicate white daisy clinging to its exposed roots out of the soil, cupping it in her palm.
+e17_u005 | 7.0-11.5 | CAMERA | Medium close-up tilting up to Juliana's face, bruised and tear-streaked yet filled with fragile hope.
+e17_u006 | 9.3-11.3 | DIALOGUE | JULIANA (Soft, Emotional): "Some of them survived."
+e17_u007 | 11.5-14.0 | CAMERA | Low-angle medium shot of Alexander repairing the broken wooden fence with a heavy iron hammer.
+e17_u008 | 11.5-14.0 | SFX | Rhythmic, heavy thuds of an iron hammer pounding into weathered wood.
+e17_u009 | 11.5-14.0 | ACTION | Alexander firmly drives nails into a fractured fence post, his brow furrowed with focused determination.
+e17_u010 | 14.0-16.2 | CAMERA | Wide shot framing Juliana kneeling on the wet cobblestones in the foreground while Alexander stands by the fence behind her, lowering his hammer.
+e17_u011 | 14.3-15.3 | DIALOGUE | JULIANA (Grateful, Sincere): "Thank you."
+e17_u012 | 16.2-18.0 | CAMERA | Close-up of Alexander turning toward her, his scarred face stoic and intense.
+e17_u013 | 16.8-17.8 | DIALOGUE | ALEXANDER (Gruff, Low): "For what?"
+e17_u014 | 18.0-21.0 | CAMERA | Close-up of Juliana looking up at him with deep emotional vulnerability, her eyes shimmering with tears.
+e17_u015 | 18.2-20.5 | DIALOGUE | JULIANA (Trembling, Heartfelt): "For standing between me and those men."
+e17_u016 | 21.0-23.5 | CAMERA | Close-up of Alexander, his piercing blue-grey eyes fixed upon her with absolute conviction.
+e17_u017 | 21.5-23.0 | DIALOGUE | ALEXANDER (Unwavering, Firm): "I would do it again."
+e17_u018 | 23.5-25.8 | CAMERA | Close-up of Juliana, her lips parting as her voice wavers with emotion.
+e17_u019 | 24.0-25.7 | DIALOGUE | JULIANA (Whispering, Awed): "Even if there were ten of them?"
+e17_u020 | 26.0-27.7 | DIALOGUE | ALEXANDER (Deep, Resolute): "As long as I draw breath..."
+e17_u021 | 26.5-30.0 | CAMERA | Tracking shot following Alexander as he strides across the muddy garden and approaches Juliana.
+e17_u022 | 28.0-31.5 | ACTION | Alexander drops to one knee before Juliana, gently taking her trembling, bandaged hands into his large, weathered palms.
+e17_u023 | 28.8-31.0 | DIALOGUE | ALEXANDER (Gentle, Vowing): "...no one will hurt you again."
+e17_u024 | 31.5-34.5 | CAMERA | Close-up on Juliana's tear-filled face, overwhelmed by his fierce devotion.
+e17_u025 | 32.8-34.2 | DIALOGUE | JULIANA (Choked Up, Pained): "You cannot promise that."
+e17_u026 | 34.5-36.5 | CAMERA | Extreme close-up of Alexander's intense, protective gaze locking onto hers.
+e17_u027 | 34.8-35.8 | DIALOGUE | ALEXANDER (Quiet, Absolute): "I just did."
+e17_u028 | 36.5-39.0 | CAMERA | Close-up of their joined hands, his rugged, scarred fingers wrapping securely around her bandaged fingers.
+e17_u029 | 36.5-39.0 | ACTION | Alexander squeezes Juliana's hands reassuringly as she rests her fingertips against his skin. The scene fades to black.
+e17_u030 | 39.0-42.0 | CAMERA | Medium shot in the warm, flickering firelight of the stone cottage. Juliana kneels on the stone floor beside a washbasin of water while Alexander sits quietly in a chair beside the blazing hearth.
+e17_u031 | 40.0-44.5 | ACTION | Juliana wrings out a clean linen cloth from the basin and tenderly dabs at the fresh cuts and abrasions on the back of Alexander's right hand.
+e17_u032 | 42.0-45.0 | CAMERA | Close-up of Juliana's bandaged hands delicately pressing the white cloth against Alexander's wounded knuckles.
+e17_u033 | 42.8-44.7 | DIALOGUE | JULIANA (Tender, Reproachful): "You were bleeding last night."
+e17_u034 | 45.0-48.5 | CAMERA | Medium close-up showing Alexander gazing down at her, his expression softening with unspoken affection as he gently takes hold of her wrist.
+e17_u035 | 46.0-47.3 | DIALOGUE | ALEXANDER (Quiet, Fond): "So were you."
+e17_u036 | 48.5-51.5 | CAMERA | Close-up of Juliana looking up into his eyes, a faint, tender smile gracing her lips.
+e17_u037 | 49.0-51.5 | DIALOGUE | JULIANA (Softly Teasing): "You make it very difficult to argue with you."
+e17_u038 | 51.5-54.0 | CAMERA | Close-up of Alexander ducking his chin, a subtle, bashful smile fleetingly touching his scarred face.
+e17_u039 | 53.5-56.0 | ACTION | Juliana returns the damp cloth to the ceramic basin, her expression turning somber and reflective.
+e17_u040 | 54.0-58.5 | CAMERA | Medium close-up of Juliana looking up at him, her vulnerability resurfacing in the warm amber glow.
+e17_u041 | 56.5-58.0 | DIALOGUE | JULIANA (Vulnerable, Sincere): "I was frightened."
+e17_u042 | 58.5-60.5 | CAMERA | Close-up of Alexander, his brow furrowing with sudden concern.
+e17_u043 | 58.8-59.8 | DIALOGUE | ALEXANDER (Questioning): "Of them?"
+e17_u044 | 60.5-63.5 | CAMERA | Close-up of Juliana gazing directly into his eyes, her heart laid bare.
+e17_u045 | 60.8-62.2 | DIALOGUE | JULIANA (Whispering, Earnest): "Of losing you."
+e17_u046 | 63.5-66.0 | CAMERA | Close-up of Alexander visibly moved, his gaze softening with profound emotion.
+e17_u047 | 66.0-73.5 | CAMERA | Medium shot as Alexander stands and pulls Juliana gently to her feet against his broad chest.
+e17_u048 | 66.0-73.5 | ACTION | Juliana rests her cheek against Alexander's chest, closing her eyes as his strong arms wrap around her shoulders, holding her safe against his frame.
+e17_u049 | 73.5-78.0 | CAMERA | Close-up on their faces nestled together in the firelight, Alexander resting his bearded chin against her hair.
+e17_u050 | 77.0-81.0 | ACTION | Juliana nestles deeper into his coat, listening intently to the rapid thudding beneath his chest.
+e17_u051 | 78.5-80.0 | DIALOGUE | JULIANA (Soft, Playful): "Your heart is racing."
+e17_u052 | 80.5-83.5 | CAMERA | Close-up of Alexander tilting his head down toward her, a tender smile breaking through his rugged beard.
+e17_u053 | 81.2-82.5 | DIALOGUE | ALEXANDER (Warm, Whispering): "So is yours."
+e17_u054 | 83.5-87.5 | CAMERA | Medium shot framing the couple embraced in front of the roaring, glowing fireplace.
+e17_u055 | 86.5-90.0 | ACTION | Juliana slowly raises her hand, gently twirling a lock of Alexander's long, unruly dark hair between her fingers.
+e17_u056 | 87.5-90.0 | CAMERA | Close-up of her delicate fingers running through his thick strands of hair.
+e17_u057 | 88.0-89.8 | DIALOGUE | JULIANA (Lighthearted, Teasing): "This is becoming impossible."
+e17_u058 | 90.0-93.0 | CAMERA | Close-up of Juliana beaming up at him with affectionate humor.
+e17_u059 | 90.4-92.5 | DIALOGUE | JULIANA (Smiling): "Soon birds will start nesting in it."
+e17_u060 | 93.0-96.0 | CAMERA | Close-up of Alexander regarding her with a subtle, affectionate smirk.
+e17_u061 | 93.5-95.2 | DIALOGUE | ALEXANDER (Dry, Amused): "They have not complained yet."
+e17_u062 | 95.5-97.0 | ACTION | Juliana lets out a quiet, melodic laugh.
+e17_u063 | 96.0-100.0 | CAMERA | Medium close-up as Juliana lifts her bandaged hand toward his beard playfully.
+e17_u064 | 96.5-99.2 | DIALOGUE | JULIANA (Charming, Tender): "Then I shall have to save you from the birds."
+e17_u065 | 99.5-102.5 | ACTION | Alexander gently catches her wrist mid-air, holding her hand firmly against his chest while looking into her eyes with solemn sincerity.
+e17_u066 | 100.3-101.5 | DIALOGUE | ALEXANDER (Solemn, Gentle): "Not yet."
+e17_u067 | 102.5-105.0 | CAMERA | Close-up of Juliana looking up at him, her eyes shining with quiet patience and understanding.
+e17_u068 | 103.0-104.2 | DIALOGUE | JULIANA (Sweet, Reassuring): "Then I will wait."
+e17_u069 | 105.0-108.0 | CAMERA | Medium close-up of Alexander releasing a quiet breath of gratitude, pulling her closer against his shoulder.
+e17_u070 | 107.0-114.0 | ACTION | Juliana rests her head against Alexander's collarbone once more, wrapping both arms around him as he cradles her head in his palm.
+e17_u071 | 108.0-112.0 | CAMERA | Close-up of Juliana's peaceful face resting against Alexander's rugged chest.
+e17_u072 | 108.3-111.5 | DIALOGUE | JULIANA (Reflective, Resonant): "I know almost nothing about the man I married."
+e17_u073 | 112.0-118.9 | CAMERA | Slow pull-back wide shot of Alexander and Juliana locked in a tender, enduring embrace before the radiant, roaring hearth as the fire crackles peacefully.
+e17_u074 | 112.2-116.0 | DIALOGUE | JULIANA (Deeply Moved, Loving): "But every day, he gives me another reason to trust him."
+e17_u075 | 114.0-118.9 | SFX | Warm crackle of embers in the hearth blending with swelling, tender orchestral strings holding into the fade-out.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

@@ -1,0 +1,56 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e40_u026",
+      "end_unit_id": "e40_u038",
+      "hook": {
+        "unit_ids": [
+          "e40_u026"
+        ],
+        "modality": "visual",
+        "description": "Rupert standing nervously at the altar, establishing the high-stakes wedding setting.",
+        "evidence": "The unit begins at 49.8s, well within the 3s limit of the clip start."
+      },
+      "cliffhanger_unit_id": "e40_u038",
+      "reason": "Expanding the window to include the groom's preparation meets the 20s duration requirement and places the final line in the last 20% of the 28.7s clip."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e40_u026",
+      "end_unit_id": "e40_u038",
+      "hook": {
+        "unit_ids": [
+          "e40_u026"
+        ],
+        "modality": "visual",
+        "description": "Rupert standing nervously at the altar, establishing the high-stakes wedding setting.",
+        "evidence": "The unit begins at 49.8s, well within the 3s limit of the clip start."
+      },
+      "cliffhanger_unit_id": "e40_u038",
+      "reason": "Expanding the window to include the groom's preparation meets the 20s duration requirement and places the final line in the last 20% of the 28.7s clip."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 9.2s (55.8-65.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 49.8,
+    "end": 78.5,
+    "duration": 28.7,
+    "segments": [
+      {
+        "start_unit": "e40_u026",
+        "end_unit": "e40_u038",
+        "start": 49.8,
+        "end": 78.5
+      }
+    ]
+  }
+]

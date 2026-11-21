@@ -1,0 +1,61 @@
+{
+  "episode": 29,
+  "prompt_hash": "505dc18d0797fd42",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.9,
+    "tokens_in": 4301,
+    "tokens_out": 500
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e29_u012",
+        "end_unit_id": "e29_u034",
+        "hook": {
+          "unit_ids": [
+            "e29_u012"
+          ],
+          "modality": "visual",
+          "description": "Catherine holding the herbarium with a mocking expression.",
+          "evidence": "The immediate visual of a villain holding a victim's precious possession creates instant conflict."
+        },
+        "cliffhanger_unit_id": "e29_u034",
+        "reason": "The confrontation over the herbarium and the threat of framing the protagonist for witchcraft establishes high stakes."
+      },
+      {
+        "start_unit_id": "e29_u035",
+        "end_unit_id": "e29_u051",
+        "hook": {
+          "unit_ids": [
+            "e29_u035"
+          ],
+          "modality": "spoken",
+          "description": "Juliana screaming in raw outrage at Catherine.",
+          "evidence": "The raw emotional intensity of the scream immediately grabs the viewer's attention."
+        },
+        "cliffhanger_unit_id": "e29_u051",
+        "reason": "This segment captures the peak of the verbal confrontation and the protagonist's defiance against her oppressor."
+      },
+      {
+        "start_unit_id": "e29_u052",
+        "end_unit_id": "e29_u071",
+        "hook": {
+          "unit_ids": [
+            "e29_u052"
+          ],
+          "modality": "visual",
+          "description": "Juliana being violently shoved into a dark, wet dungeon cell.",
+          "evidence": "The sudden violence and the grim setting immediately signal a high-stakes drama."
+        },
+        "cliffhanger_unit_id": "e29_u071",
+        "reason": "The transition from despair to steely resolve provides a compelling character arc within a short window."
+      }
+    ]
+  },
+  "note": null
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e08_u025",
+      "end_unit_id": "e08_u044",
+      "hook": {
+        "unit_ids": [
+          "e08_u025"
+        ],
+        "modality": "visual",
+        "description": "Juliana reaches out to touch Alexander's face, and he firmly catches her wrist.",
+        "evidence": "The sudden physical tension and the 'not yet' boundary creates immediate romantic intrigue."
+      },
+      "cliffhanger_unit_id": "e08_u044",
+      "reason": "The intimate tension and the power dynamic shift between the two characters creates a compelling romantic hook."
+    },
+    "norm": {
+      "start_unit_id": "e08_u025",
+      "end_unit_id": "e08_u044",
+      "hook": {
+        "unit_ids": [
+          "e08_u025"
+        ],
+        "modality": "visual",
+        "description": "Juliana reaches out to touch Alexander's face, and he firmly catches her wrist.",
+        "evidence": "The sudden physical tension and the 'not yet' boundary creates immediate romantic intrigue."
+      },
+      "cliffhanger_unit_id": "e08_u044",
+      "reason": "The intimate tension and the power dynamic shift between the two characters creates a compelling romantic hook."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 28.1,
+    "end": 51.3,
+    "duration": 23.2,
+    "segments": [
+      {
+        "start_unit": "e08_u025",
+        "end_unit": "e08_u044",
+        "start": 28.1,
+        "end": 51.3
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e08_u048",
+      "end_unit_id": "e08_u063",
+      "hook": {
+        "unit_ids": [
+          "e08_u048"
+        ],
+        "modality": "visual",
+        "description": "A wide shot of the two characters in a cozy, firelit cottage, contrasting with the mention of war scars.",
+        "evidence": "The visual warmth combined with the heavy, somber dialogue about war creates an emotional contrast that draws viewers in."
+      },
+      "cliffhanger_unit_id": "e08_u062",
+      "reason": "This moment highlights the emotional transformation of the protagonist as she redefines her values."
+    },
+    "norm": {
+      "start_unit_id": "e08_u048",
+      "end_unit_id": "e08_u063",
+      "hook": {
+        "unit_ids": [
+          "e08_u048"
+        ],
+        "modality": "visual",
+        "description": "A wide shot of the two characters in a cozy, firelit cottage, contrasting with the mention of war scars.",
+        "evidence": "The visual warmth combined with the heavy, somber dialogue about war creates an emotional contrast that draws viewers in."
+      },
+      "cliffhanger_unit_id": "e08_u062",
+      "reason": "This moment highlights the emotional transformation of the protagonist as she redefines her values."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "cliffhanger"
+    ],
+    "details": [
+      "cliffhanger e08_u062 starts at 73.2s, before the final 20% of the clip (73.82s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 57.1,
+    "end": 78.0,
+    "duration": 20.9,
+    "segments": [
+      {
+        "start_unit": "e08_u048",
+        "end_unit": "e08_u063",
+        "start": 57.1,
+        "end": 78.0
+      }
+    ]
+  }
+]

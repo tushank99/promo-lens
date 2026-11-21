@@ -1,0 +1,198 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "ece5c2748d52a46f",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.7,
+      "secs": 2.9,
+      "tokens_in": 1571,
+      "tokens_out": 1171,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e20_u002",
+          "e20_u003"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e20_u009",
+          "e20_u015",
+          "e20_u016"
+        ]
+      },
+      "emotion": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e20_u006",
+          "e20_u011",
+          "e20_u015"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e20_u008",
+          "e20_u009",
+          "e20_u015",
+          "e20_u016"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "payoff",
+        "evidence_unit_ids": [
+          "e20_u016"
+        ]
+      },
+      "hook_unit_id": "e20_u002",
+      "hook_type": "other",
+      "emotion_type": "other",
+      "trope": "scheming aristocrats",
+      "central_conflict": "Rupert and Catherine plot to secure the ducal title by marrying and ensuring Alexander's death is sealed, threatening the rightful heir.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "4893ca898943c209",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.1,
+      "secs": 4.03,
+      "tokens_in": 1736,
+      "tokens_out": 1432,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e20_u035"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e20_u041",
+          "e20_u042",
+          "e20_u048",
+          "e20_u049",
+          "e20_u052",
+          "e20_u053"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e20_u041",
+          "e20_u042",
+          "e20_u044",
+          "e20_u045",
+          "e20_u046",
+          "e20_u048",
+          "e20_u052",
+          "e20_u053"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e20_u035",
+          "e20_u041",
+          "e20_u048",
+          "e20_u052",
+          "e20_u053"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e20_u053"
+        ]
+      },
+      "hook_unit_id": "e20_u035",
+      "hook_type": "visual_shock",
+      "emotion_type": "rage",
+      "trope": "defiant healer",
+      "central_conflict": "Juliana refuses to stop tending the fever‑stricken villagers despite Seamus' pleas that she rest, insisting she must keep healing the community.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": true,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e20_u054",
+          "e20_u055",
+          "e20_u056",
+          "e20_u057"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e20_u057",
+          "e20_u058",
+          "e20_u060",
+          "e20_u063",
+          "e20_u067"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e20_u056",
+          "e20_u057",
+          "e20_u062",
+          "e20_u067",
+          "e20_u068"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e20_u057",
+          "e20_u060",
+          "e20_u063",
+          "e20_u065",
+          "e20_u068"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e20_u068"
+        ]
+      },
+      "hook_unit_id": "e20_u057",
+      "hook_type": "shocking_line",
+      "emotion_type": "revenge",
+      "trope": "scheming aristocrats",
+      "central_conflict": "Catherine and Rupert plot to seize the Ashbury ducal title, dismissing the peasants and the aging Duchess.",
+      "spoils_main_twist": false
+    },
+    "prompt_hash": "d084818f27c52e8e"
+  }
+]

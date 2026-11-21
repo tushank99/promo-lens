@@ -1,0 +1,61 @@
+{
+  "episode": 22,
+  "prompt_hash": "b5c4062b80c7ad7a",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 8.12,
+    "tokens_in": 4743,
+    "tokens_out": 486
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e22_u001",
+        "end_unit_id": "e22_u023",
+        "hook": {
+          "unit_ids": [
+            "e22_u001"
+          ],
+          "modality": "visual",
+          "description": "Lady Juliana disguised as a maid sneaking into the gothic Ashbury Manor.",
+          "evidence": "The visual contrast of an aristocrat in rags infiltrating a dangerous manor creates immediate intrigue."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "Establishes the high-stakes mission and the dangerous disguise of the protagonist."
+      },
+      {
+        "start_unit_id": "e22_u042",
+        "end_unit_id": "e22_u054",
+        "hook": {
+          "unit_ids": [
+            "e22_u043"
+          ],
+          "modality": "spoken",
+          "description": "The Housekeeper menacingly asks if Juliana can keep her eyes and ears where they belong.",
+          "evidence": "The immediate threat of discovery creates high tension for a new viewer."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "Focuses on the immediate danger of being caught by the suspicious Housekeeper."
+      },
+      {
+        "start_unit_id": "e22_u063",
+        "end_unit_id": "e22_u081",
+        "hook": {
+          "unit_ids": [
+            "e22_u063"
+          ],
+          "modality": "visual",
+          "description": "Juliana standing outside the forbidden West Wing door, checking for observers.",
+          "evidence": "The forbidden nature of the location and the stealthy approach hook the viewer instantly."
+        },
+        "cliffhanger_unit_id": "e22_u081",
+        "reason": "Delivers the core mystery of the poisoned Duchess and the suspense of the infiltration."
+      }
+    ]
+  },
+  "note": null
+}

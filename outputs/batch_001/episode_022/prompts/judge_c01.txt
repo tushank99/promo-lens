@@ -1,0 +1,72 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Disguised as a common scullery maid, Lady Juliana infiltrates Ashbury Manor alongside Prudence and slips into the forbidden West Wing, where she discovers the dying Dowager Duchess suffering from an unnatural, poisoned affliction.
+CONTINUITY NOTES: Directly follows Episode 21 where Prudence revealed that the Dowager Duchess is dying from a mysterious illness; Juliana sets aside her aristocratic identity to sneak into Ashbury Manor under the guise of domestic help to save her.
+
+CLIP: 0.0s to 42.8s (42.8s). Units below: id | seconds from clip start | type | text.
+e22_u001 | 0.0-4.0 | CAMERA | Wide shot framing the gothic stone archway of Ashbury Manor as other maidservants carrying laundry baskets pass through the damp courtyard.
+e22_u002 | 0.0-4.0 | ACTION | Lady Juliana walks nervously along the stone pavement dressed in a modest dark maid's dress and a plain white apron, looking around cautiously.
+e22_u003 | 4.0-7.0 | CAMERA | Medium close-up of Lady Juliana adjusting her high buttoned collar, anxious yet determined, against the backdrop of the gloomy coast.
+e22_u004 | 6.5-8.5 | ACTION | Prudence rushes up behind Lady Juliana, pulling her into the shelter of the stone archway.
+e22_u005 | 7.0-11.1 | DIALOGUE | PRUDENCE (Urgent, Whispering): "Keep your head down. If anyone recognizes you, everything is over."
+e22_u006 | 11.1-14.2 | CAMERA | Close-up of Lady Juliana leaning back against the rough stone wall, whispering back firmly.
+e22_u007 | 11.2-14.2 | DIALOGUE | LADY JULIANA (Resolute, Quiet): "No one will recognize me dressed like this."
+e22_u008 | 14.2-19.0 | CAMERA | Medium close-up of Prudence glancing nervously toward the courtyard before fixing her gaze on Juliana.
+e22_u009 | 14.2-19.0 | DIALOGUE | PRUDENCE (Nervous, Warning): "This is Ashburton Manor. The housekeeper watches everyone. Lady Catherine watches everyone, and Lord Rupert..."
+e22_u010 | 19.0-21.2 | CAMERA | Close-up of Lady Juliana cutting in with fierce, unyielding conviction.
+e22_u011 | 19.1-21.0 | DIALOGUE | LADY JULIANA (Determined): "The Duchess is dying."
+e22_u012 | 21.2-25.8 | CAMERA | Low-angle shot looking up at Lady Juliana and Prudence standing beneath the looming stone facade of the manor.
+e22_u013 | 22.0-25.5 | DIALOGUE | LADY JULIANA (Defiant, Firm): "I saved Toby. I can save her."
+e22_u014 | 25.8-28.1 | CAMERA | Close-up on Prudence, her eyes wide with dread.
+e22_u015 | 26.0-28.1 | DIALOGUE | PRUDENCE (Fretful): "And if they discover who you are?"
+e22_u016 | 28.1-31.5 | CAMERA | Close-up on Lady Juliana holding her gaze steadily.
+e22_u017 | 28.2-31.0 | DIALOGUE | LADY JULIANA (Steely, Selfless): "Then I will face that when she is breathing again."
+e22_u018 | 31.5-36.2 | CAMERA | Medium two-shot outside the heavy wooden servant entrance door.
+e22_u019 | 33.8-36.0 | DIALOGUE | PRUDENCE (Solemn): "Then forget you were ever a lady."
+e22_u020 | 36.2-39.8 | CAMERA | Close-up of Lady Juliana swallowing her pride and accepting her perilous disguise.
+e22_u021 | 37.0-39.5 | DIALOGUE | LADY JULIANA (Quietly Resolute): "Today, I am only a maid."
+e22_u022 | 39.8-42.5 | ACTION | Prudence opens the heavy wooden service door, and both women step inside into the dark servants' corridor as the door shuts firmly behind them.
+e22_u023 | 41.5-42.8 | SFX | Heavy wooden latch clicks shut with a thud.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

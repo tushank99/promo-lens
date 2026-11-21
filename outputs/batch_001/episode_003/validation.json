@@ -1,0 +1,166 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e03_u046",
+      "end_unit_id": "e03_u072",
+      "hook": {
+        "unit_ids": [
+          "e03_u046",
+          "e03_u047"
+        ],
+        "modality": "spoken",
+        "description": "The Noble Matriarch shouts for guards to remove Juliana from the church.",
+        "evidence": "The immediate escalation of a wedding into a public expulsion creates instant high-stakes drama."
+      },
+      "cliffhanger_unit_id": "e03_u072",
+      "reason": "The sudden intervention of a mysterious stranger against royal guards provides a high-octane rescue moment."
+    },
+    "norm": {
+      "start_unit_id": "e03_u046",
+      "end_unit_id": "e03_u072",
+      "hook": {
+        "unit_ids": [
+          "e03_u046",
+          "e03_u047"
+        ],
+        "modality": "spoken",
+        "description": "The Noble Matriarch shouts for guards to remove Juliana from the church.",
+        "evidence": "The immediate escalation of a wedding into a public expulsion creates instant high-stakes drama."
+      },
+      "cliffhanger_unit_id": "e03_u072",
+      "reason": "The sudden intervention of a mysterious stranger against royal guards provides a high-octane rescue moment."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "scene"
+    ],
+    "details": [
+      "window crosses scenes ['02', '03']"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 58.2,
+    "end": 85.5,
+    "duration": 27.3,
+    "segments": [
+      {
+        "start_unit": "e03_u046",
+        "end_unit": "e03_u072",
+        "start": 58.2,
+        "end": 85.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e03_u098",
+      "end_unit_id": "e03_u118",
+      "hook": {
+        "unit_ids": [
+          "e03_u098",
+          "e03_u099",
+          "e03_u100"
+        ],
+        "modality": "visual",
+        "description": "The stranger pulls a ring from his pocket and holds it up.",
+        "evidence": "The visual of a rugged stranger offering a ring to a disgraced bride is a classic, high-engagement romance trope."
+      },
+      "cliffhanger_unit_id": "e03_u118",
+      "reason": "The proposal cliffhanger leaves the viewer desperate to see if she accepts the stranger's hand."
+    },
+    "norm": {
+      "start_unit_id": "e03_u098",
+      "end_unit_id": "e03_u118",
+      "hook": {
+        "unit_ids": [
+          "e03_u098",
+          "e03_u099",
+          "e03_u100"
+        ],
+        "modality": "visual",
+        "description": "The stranger pulls a ring from his pocket and holds it up.",
+        "evidence": "The visual of a rugged stranger offering a ring to a disgraced bride is a classic, high-engagement romance trope."
+      },
+      "cliffhanger_unit_id": "e03_u118",
+      "reason": "The proposal cliffhanger leaves the viewer desperate to see if she accepts the stranger's hand."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 3.8s (116.0-119.8)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 116.0,
+    "end": 145.75,
+    "duration": 29.75,
+    "segments": [
+      {
+        "start_unit": "e03_u098",
+        "end_unit": "e03_u118",
+        "start": 116.0,
+        "end": 145.75
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e03_u055",
+      "end_unit_id": "e03_u081",
+      "hook": {
+        "unit_ids": [
+          "e03_u055",
+          "e03_u056"
+        ],
+        "modality": "visual",
+        "description": "A rugged stranger in a trench coat marches down the aisle to stop the guards.",
+        "evidence": "The 'heroic entrance' trope is a proven hook for vertical drama audiences."
+      },
+      "cliffhanger_unit_id": "e03_u081",
+      "reason": "The stranger's lethal grace and defiance of the aristocracy creates a satisfying power shift."
+    },
+    "norm": {
+      "start_unit_id": "e03_u055",
+      "end_unit_id": "e03_u081",
+      "hook": {
+        "unit_ids": [
+          "e03_u055",
+          "e03_u056"
+        ],
+        "modality": "visual",
+        "description": "A rugged stranger in a trench coat marches down the aisle to stop the guards.",
+        "evidence": "The 'heroic entrance' trope is a proven hook for vertical drama audiences."
+      },
+      "cliffhanger_unit_id": "e03_u081",
+      "reason": "The stranger's lethal grace and defiance of the aristocracy creates a satisfying power shift."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 64.5,
+    "end": 96.5,
+    "duration": 32.0,
+    "segments": [
+      {
+        "start_unit": "e03_u055",
+        "end_unit": "e03_u081",
+        "start": 64.5,
+        "end": 96.5
+      }
+    ]
+  }
+]

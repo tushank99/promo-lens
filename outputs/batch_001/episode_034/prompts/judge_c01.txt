@@ -1,0 +1,64 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Put on trial for witchcraft and poisoning, Lady Juliana stands proud and defiant in the prisoner's dock, refusing to renounce her mother's herbal medicine even after her coerced maid gives false testimony against her.
+CONTINUITY NOTES: Following the aristocratic Lord's ruthless extortion of the young maid in his study, Episode 34 transitions directly into the crowded courtroom trial where the conspirators unleash their manufactured charges and false witnesses against Lady Juliana.
+
+CLIP: 13.1s to 37.4s (24.3s). Units below: id | seconds from clip start | type | text.
+e34_u007 | 0.0-2.4 | CAMERA | Low-angle medium close-up of Lady Juliana standing erect in the dock, her prisoner label pinned to her rustic buttoned gown, her expression resolute.
+e34_u008 | 0.7-1.7 | DIALOGUE | LADY JULIANA (Calm, Unflinching): "No."
+e34_u009 | 2.4-6.3 | CAMERA | Low-angle medium shot of the Judge leaning over his elevated bench, staring down critically.
+e34_u010 | 2.5-6.1 | DIALOGUE | JUDGE (Stern, Accusatory): "Do you deny using its remedies?"
+e34_u011 | 6.3-10.7 | CAMERA | Tight close-up of Lady Juliana's face, bruised cheekbone highlighting her calm defiance.
+e34_u012 | 7.7-8.7 | DIALOGUE | LADY JULIANA (Firm): "No."
+e34_u013 | 10.7-14.3 | CAMERA | Medium shot of the aristocratic Lord standing at the railing in his tailored dark coat, turning slowly with a smirk of malicious satisfaction.
+e34_u014 | 14.3-18.6 | CAMERA | Close-up of the Judge leaning forward across his bench, eyes narrowing with grim conviction.
+e34_u015 | 14.4-18.1 | DIALOGUE | JUDGE (Hard, Pressing): "Then you admit to practicing forbidden arts."
+e34_u016 | 18.6-22.2 | CAMERA | Close-up of Lady Juliana looking upward with quiet dignity, her eyes luminous.
+e34_u017 | 20.1-22.0 | DIALOGUE | LADY JULIANA (Proud, Dignified): "I admit to healing the sick."
+e34_u018 | 22.2-24.3 | ACTION | The Judge furiously raises his wooden gavel and strikes the sound block with sharp force.
+e34_u019 | 22.3-23.5 | DIALOGUE | JUDGE (Furious, Shouting): "Silence!"
+e34_u020 | 22.7-23.9 | SFX | [Sharp, echoing crack of the gavel slamming onto wood]
+e34_u021 | 22.7-24.3 | CAMERA | Medium shot of the Judge slamming the gavel down on his bench.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

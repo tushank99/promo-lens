@@ -3,7 +3,8 @@
 
 # --- confidential data (contains script text from the provided show) ---
 episodes/
-outputs/
+outputs/*
+!outputs/batch_001/
 eval/
 cache/
 

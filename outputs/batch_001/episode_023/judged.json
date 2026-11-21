@@ -1,0 +1,63 @@
+[
+  {
+    "candidate_id": "c02r",
+    "prompt_hash": "ed49f88d9b1c8825",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 15.8,
+      "secs": 3.49,
+      "tokens_in": 1548,
+      "tokens_out": 1317,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e23_u053"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e23_u057",
+          "e23_u058",
+          "e23_u067"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e23_u056",
+          "e23_u063",
+          "e23_u060"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e23_u053",
+          "e23_u058",
+          "e23_u066"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e23_u066",
+          "e23_u067"
+        ]
+      },
+      "hook_unit_id": "e23_u053",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "trope": "race against time",
+      "central_conflict": "Juliana must finish an antidote to save the Duchess before an unknown intruder arrives.",
+      "spoils_main_twist": true
+    }
+  }
+]

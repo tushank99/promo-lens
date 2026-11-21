@@ -1,0 +1,123 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Inside the opulent Ashbury estate, the treacherous Rupert and Catherine plot to seize the ducal title as the Dowager Duchess slowly withers, while in an icy barn, Juliana defiantly prepares remedies to save the fever-stricken villagers.
+CONTINUITY NOTES: Follows Episode 19's night in the barn; as Alexander begins his clandestine fight to reclaim his birthright, Juliana tends to the suffering village while Rupert and Catherine celebrate their anticipated ascension to the ducal throne.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:54.8 (114.8 s).
+- Scene 01 (EXT. ASHBURY MANOR – DAY): 0.0-2.8 s, units e20_u001..e20_u001.
+- Scene 02 (INT. ASHBURY MANOR - DRAWING ROOM – CONTINUOUS): 2.8-56.5 s, units e20_u002..e20_u034.
+- Scene 03 (INT. ABANDONED BARN – DAY): 56.5-88.2 s, units e20_u035..e20_u053.
+- Scene 04 (INT. ASHBURY MANOR - DRAWING ROOM – CONTINUOUS): 88.2-114.8 s, units e20_u054..e20_u068.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 56.5-60.0 s; 109.2-114.8 s
+- Overlapping dialogue exchanges (include all members or none): e20_u022 + e20_u024
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e20_u001 | 0.0-2.8 | CAMERA | Low-angle establishing shot tilting up toward the imposing, grand stone facade of Ashbury Manor against a cold, overcast morning sky, frost dusting the pristine lawn.
+e20_u002 | 2.8-6.8 | CAMERA | Medium wide shot of the lavish drawing room. CATHERINE, dressed in an ornate lilac regency gown and white satin gloves, gracefully pours hot tea from an ornate silver teapot, while RUPERT stands elegantly by the tall window.
+e20_u003 | 2.9-4.4 | DIALOGUE | CATHERINE (Smug, Prim): "Two lumps of sugar, Rupert?"
+e20_u004 | 4.6-7.8 | DIALOGUE | CATHERINE (Taunting, Silkily): "Or has your sudden climb to power sweetened your taste already?"
+e20_u005 | 6.9-9.5 | CAMERA | Close-up of Catherine stirring her tea with a silver spoon, lifting her gaze with a haughty smirk.
+e20_u006 | 8.2-10.8 | DIALOGUE | RUPERT (Flirtatious, Sly): "Only if it sweetens your disposition, Catherine."
+e20_u007 | 9.6-15.2 | CAMERA | Medium shot tracking Rupert as he steps forward from the hearth, adjusting his dark leather gloves with an air of absolute triumph.
+e20_u008 | 10.9-12.7 | DIALOGUE | RUPERT (Boastful, Confident): "The estate is practically ours."
+e20_u009 | 12.8-15.1 | DIALOGUE | RUPERT (Smug): "The succession papers are being finalized as we speak."
+e20_u010 | 15.2-20.0 | CAMERA | Medium close-up of Catherine raising the porcelain teacup to her lips, her expression turning sharp and dismissive.
+e20_u011 | 15.4-18.7 | DIALOGUE | CATHERINE (Cold, Haughty): "'Practically' is a word for beggars. I do not marry a practical Duke."
+e20_u012 | 18.8-20.1 | DIALOGUE | CATHERINE (Stern, Ambitious): "I marry the Lord of Ashbury."
+e20_u013 | 20.0-25.5 | CAMERA | Medium shot of Rupert striding toward the tea table, leaning forward with predatory conviction.
+e20_u014 | 20.1-21.2 | DIALOGUE | RUPERT (Reassuring, Firm): "And so you shall."
+e20_u015 | 21.3-24.2 | DIALOGUE | RUPERT (Dark, Conspiratorial): "Once my cousin Alexander's death is formally sealed by the Crown..."
+e20_u016 | 24.3-25.4 | DIALOGUE | RUPERT (Decisive): "...the title is mine."
+e20_u017 | 25.5-30.2 | CAMERA | Close-up of Catherine lowering her teacup, her icy blue eyes narrowing in calculated concern.
+e20_u018 | 25.5-28.2 | DIALOGUE | CATHERINE (Wary, Inquiring): "And what of the Dowager? The old woman still breathes."
+e20_u019 | 28.3-30.2 | DIALOGUE | CATHERINE (Disdainful): "Her shadow still hangs over this house."
+e20_u020 | 30.2-34.0 | CAMERA | Tight close-up of Rupert's face as a sinister grin spreads across his features.
+e20_u021 | 30.2-32.8 | DIALOGUE | RUPERT (Quiet, Sinister): "Her health fails more each day. The physicians are baffled."
+e20_u022 | 32.9-34.4 | DIALOGUE | RUPERT (Gloating): "They call it a wasting of the lungs."
+e20_u023 | 34.1-39.2 | CAMERA | Close-up side profile of Catherine bringing the teacup to her lips, savoring his words with chilling detachment.
+e20_u024 | 34.2-36.8 | DIALOGUE | CATHERINE (Mock-Sympathetic, Cruel): "How tragic. The slow, quiet decline."
+e20_u025 | 36.9-39.1 | DIALOGUE | CATHERINE (Scheming): "How much longer can the frail thing survive?"
+e20_u026 | 39.3-42.5 | CAMERA | Medium profile of Rupert looking out the window, hands clasped behind him.
+e20_u027 | 39.4-42.4 | DIALOGUE | RUPERT (Cold, Callous): "Not through the winter. I've ensured her quiet comfort."
+e20_u028 | 42.5-50.0 | CAMERA | Close-up of Catherine turning her head toward the window, her lips curled in venomous disgust.
+e20_u029 | 42.6-44.9 | DIALOGUE | CATHERINE (Vindictive): "Good. The village is already whispering about her."
+e20_u030 | 45.0-48.4 | DIALOGUE | CATHERINE (Contemptuous): "The local peasants are like dogs, barking at every carriage that passes."
+e20_u031 | 48.5-49.8 | DIALOGUE | CATHERINE (Disgusted): "They disgust me."
+e20_u032 | 50.0-56.5 | CAMERA | Medium two-shot. Rupert stands over Catherine seated at the polished table, placing a gloved hand possessively near her shoulder.
+e20_u033 | 50.2-52.5 | DIALOGUE | RUPERT (Dismissive, Arrogant): "They are nothing. Dirt beneath our boots."
+e20_u034 | 52.8-56.0 | DIALOGUE | RUPERT (Authoritative, Promising): "They will learn their place when you wear the ducal crown."
+e20_u035 | 56.5-60.3 | CAMERA | Medium close-up tilting down on JULIANA kneeling in the straw beside a rustic wooden crate, sorting sprigs of dried lavender and sage into a woven basket. Her hands are bound in linen bandages from the recent fire.
+e20_u036 | 60.0-64.5 | ACTION | The barn door opens, revealing daylight outside. SEAMUS, an older weathered villager in a waistcoat, carries a wooden bucket inside, his expression etched with deep sorrow and concern.
+e20_u037 | 60.5-62.5 | DIALOGUE | SEAMUS (Gentle, Concerned): "Let me take that basket, Lady Juliana."
+e20_u038 | 62.6-66.6 | DIALOGUE | SEAMUS (Empathetic): "Your palms are still raw from the fire. You shouldn't be working in this freezing draft."
+e20_u039 | 64.8-66.8 | ACTION | Seamus reaches down to take the handle of the basket from her.
+e20_u040 | 66.8-70.5 | CAMERA | Close-up of Juliana looking up at Seamus, her smudged face fierce with unyielding determination as she holds firmly onto the basket.
+e20_u041 | 66.7-69.1 | DIALOGUE | JULIANA (Fierce, Resolute): "If I stop, Seamus, the lung fever in the valley wins."
+e20_u042 | 69.2-70.5 | DIALOGUE | JULIANA (Defiant): "I do not yield to a cold draft."
+e20_u043 | 70.5-76.2 | CAMERA | Close-up of Seamus, his face agonizingly strained with grief for her lost status.
+e20_u044 | 70.6-72.3 | DIALOGUE | SEAMUS (Desperate, Grieving): "You are a viscount's daughter!"
+e20_u045 | 72.4-74.2 | DIALOGUE | SEAMUS (Pleading): "Sleeping on straw, sorting weeds!"
+e20_u046 | 74.3-76.2 | DIALOGUE | SEAMUS (Frustrated): "Let the village tend to itself for once!"
+e20_u047 | 76.2-81.0 | CAMERA | Medium close-up of Juliana, her jaw set with unwavering moral strength.
+e20_u048 | 76.3-79.8 | DIALOGUE | JULIANA (Passionate, Unflinching): "The chapel is gone, Seamus. I am the only healer these people have left."
+e20_u049 | 79.9-81.0 | DIALOGUE | JULIANA (Unyielding): "I keep the basket."
+e20_u050 | 81.0-88.2 | CAMERA | Medium two-shot of Juliana and Seamus standing facing each other in the barn, the lantern casting a warm amber glow between them.
+e20_u051 | 82.0-84.4 | DIALOGUE | SEAMUS (Saddened, Heartbroken): "They have reduced you to a peasant."
+e20_u052 | 84.8-86.5 | DIALOGUE | JULIANA (Proud, Indomitable): "They have reduced me to myself."
+e20_u053 | 86.6-88.0 | DIALOGUE | JULIANA (Steely): "And I am not finished."
+e20_u054 | 88.2-90.0 | ACTION | Catherine's gloved hand sets her fine porcelain teacup down onto the silver tray with a delicate clatter.
+e20_u055 | 88.4-89.4 | SFX | Sharp porcelain chime of teacup meeting saucer.
+e20_u056 | 89.8-94.8 | CAMERA | Close-up of Catherine looking up, her face twisting into venomous arrogance.
+e20_u057 | 89.9-92.4 | DIALOGUE | CATHERINE (Cruel, Callous): "Let the peasants rot in their barns."
+e20_u058 | 92.6-94.5 | DIALOGUE | CATHERINE (Mocking, Spiteful): "Let them pray to their weeds."
+e20_u059 | 94.8-99.2 | CAMERA | Medium shot as Rupert steps around the mahogany table and leans close into Catherine's ear, smiling seductively.
+e20_u060 | 94.9-97.3 | DIALOGUE | RUPERT (Intimate, Reassuring): "You have no rival here, Catherine."
+e20_u061 | 97.4-99.1 | DIALOGUE | RUPERT (Fawning): "No one to stand in your way."
+e20_u062 | 99.2-103.8 | CAMERA | Close-up of Catherine looking into Rupert's eyes, her smile turning predatory and cold.
+e20_u063 | 99.3-101.4 | DIALOGUE | CATHERINE (Triumphant, Greedy): "Once the old Duchess is gone..."
+e20_u064 | 101.5-103.7 | DIALOGUE | CATHERINE (Possessive): "...Ashbury will finally belong to us."
+e20_u065 | 103.8-109.0 | ACTION | Catherine rises from her chair in one regal motion and glides toward the towering window overlooking the vast estate grounds.
+e20_u066 | 104.0-109.5 | CAMERA | Tracking medium shot following Catherine from behind as she walks gracefully to the window frame, the grey morning light outlining her aristocratic silhouette.
+e20_u067 | 106.8-109.2 | DIALOGUE | CATHERINE (Cold, Ruthless): "This house will only bow to me."
+e20_u068 | 109.5-114.8 | CAMERA | Tight close-up profile of Catherine gazing out the windowpane, her icy eyes burning with insatiable ambition as dramatic strings swell to a menacing cliffhanger hold.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

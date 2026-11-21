@@ -1,0 +1,62 @@
+{
+  "episode": 46,
+  "prompt_hash": "1e4fd32d9b4ca6c4",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.3,
+    "secs": 3.26,
+    "tokens_in": 4418,
+    "tokens_out": 512,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e46_u005",
+        "end_unit_id": "e46_u022",
+        "hook": {
+          "unit_ids": [
+            "e46_u005"
+          ],
+          "modality": "visual",
+          "description": "The High Priest marches down the aisle with armed royal guards.",
+          "evidence": "The sudden intrusion of armed guards into a wedding creates immediate, high-stakes tension."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "The scene establishes the immediate threat to the marriage, hooking the viewer with the High Priest's declaration of seizure."
+      },
+      {
+        "start_unit_id": "e46_u031",
+        "end_unit_id": "e46_u046",
+        "hook": {
+          "unit_ids": [
+            "e46_u031"
+          ],
+          "modality": "visual",
+          "description": "The High Priest thrusts a royal proclamation into the camera.",
+          "evidence": "The aggressive, in-your-face action combined with the accusation of the Duke being 'dead' creates an instant conflict."
+        },
+        "cliffhanger_unit_id": "e46_u046",
+        "reason": "Juliana's defiant retort against the church's authority provides a powerful emotional payoff."
+      },
+      {
+        "start_unit_id": "e46_u057",
+        "end_unit_id": "e46_u075",
+        "hook": {
+          "unit_ids": [
+            "e46_u057"
+          ],
+          "modality": "visual",
+          "description": "Alexander confronts the High Priest face-to-face at the altar.",
+          "evidence": "The direct confrontation between the protagonist and the antagonist establishes the central power struggle."
+        },
+        "cliffhanger_unit_id": "e46_u075",
+        "reason": "The high-stakes standoff and Catherine's final malicious scheme provide a perfect cliffhanger for a promo."
+      }
+    ]
+  },
+  "note": null
+}

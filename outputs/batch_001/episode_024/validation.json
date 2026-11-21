@@ -1,0 +1,110 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e24_u024",
+      "end_unit_id": "e24_u036",
+      "hook": {
+        "unit_ids": [
+          "e24_u024"
+        ],
+        "modality": "visual",
+        "description": "The noblewoman strikes Juliana with a riding crop.",
+        "evidence": "Immediate physical violence and power imbalance creates instant tension."
+      },
+      "cliffhanger_unit_id": "e24_u036",
+      "reason": "The brutal assault and the noblewoman's condescending threat establish high stakes and a clear villain."
+    },
+    "norm": {
+      "start_unit_id": "e24_u024",
+      "end_unit_id": "e24_u036",
+      "hook": {
+        "unit_ids": [
+          "e24_u024"
+        ],
+        "modality": "visual",
+        "description": "The noblewoman strikes Juliana with a riding crop.",
+        "evidence": "Immediate physical violence and power imbalance creates instant tension."
+      },
+      "cliffhanger_unit_id": "e24_u036",
+      "reason": "The brutal assault and the noblewoman's condescending threat establish high stakes and a clear villain."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "16.0s is under the 20s minimum"
+    ],
+    "warnings": [
+      "camera shot e24_u022 (30.8-32.8) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 32.5,
+    "end": 48.5,
+    "duration": 16.0,
+    "segments": [
+      {
+        "start_unit": "e24_u024",
+        "end_unit": "e24_u036",
+        "start": 32.5,
+        "end": 48.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e24_u041",
+      "end_unit_id": "e24_u069",
+      "hook": {
+        "unit_ids": [
+          "e24_u041"
+        ],
+        "modality": "spoken",
+        "description": "The noblewoman commands Juliana to clean the hearth.",
+        "evidence": "The harsh command immediately establishes the maid's humiliation and the noblewoman's cruelty."
+      },
+      "cliffhanger_unit_id": "e24_u069",
+      "reason": "The transition from humiliation to secret defiance and the promise of revenge makes for a compelling character arc."
+    },
+    "norm": {
+      "start_unit_id": "e24_u041",
+      "end_unit_id": "e24_u069",
+      "hook": {
+        "unit_ids": [
+          "e24_u041"
+        ],
+        "modality": "spoken",
+        "description": "The noblewoman commands Juliana to clean the hearth.",
+        "evidence": "The harsh command immediately establishes the maid's humiliation and the noblewoman's cruelty."
+      },
+      "cliffhanger_unit_id": "e24_u069",
+      "reason": "The transition from humiliation to secret defiance and the promise of revenge makes for a compelling character arc."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera shot e24_u040 (51.5-54.0) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 53.6,
+    "end": 92.0,
+    "duration": 38.4,
+    "segments": [
+      {
+        "start_unit": "e24_u041",
+        "end_unit": "e24_u069",
+        "start": 53.6,
+        "end": 92.0
+      }
+    ]
+  }
+]

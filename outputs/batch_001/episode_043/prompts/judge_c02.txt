@@ -1,0 +1,69 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When Rupert frantically orders Alexander's arrest, the royal guards refuse and salute the true Duke, before damning Crown intelligence documents expose Rupert and Lord Sterling's treasonous plot.
+CONTINUITY NOTES: Follows directly from Episode 42; inside the ruined cathedral, Alexander confronts Rupert before the congregation, armed with evidence from the Crown to reclaim his rightful title.
+
+CLIP: 37.0s to 66.0s (29.0s). Units below: id | seconds from clip start | type | text.
+e43_u034 | 0.0-5.8 | CAMERA | Medium close-up on the Crown Official opening the binder and reading aloud.
+e43_u035 | 0.2-1.6 | SFX | Crisp sound of parchment turning.
+e43_u036 | 0.8-5.5 | DIALOGUE | CROWN OFFICIAL (Clear, Formal): "Military Intelligence Report, Iberian front, three years ago."
+e43_u037 | 5.8-6.9 | CAMERA | Close-up on Rupert staring wide-eyed, completely petrified.
+e43_u038 | 6.9-10.8 | CAMERA | Medium close-up on the Crown Official continuing the official reading.
+e43_u039 | 7.0-10.4 | DIALOGUE | CROWN OFFICIAL (Solemn, Objective): "Duke Alexander Ashburn's unit was ambushed after his location was compromised."
+e43_u040 | 10.8-13.8 | CAMERA | Frontal medium shot of the Crown Official turning a page as the congregation listens in breathless silence.
+e43_u041 | 10.8-13.8 | DIALOGUE | CROWN OFFICIAL (Accusing, Measured): "The report identifies the leak as deliberate."
+e43_u042 | 13.8-17.8 | CAMERA | Wide shot across the rubble of the cathedral floor showing Rupert crumbling in fear against the choir railing.
+e43_u043 | 14.0-17.4 | DIALOGUE | CROWN OFFICIAL (Voice Continuing): "Information regarding the Duke's position was transmitted through British channels."
+e43_u044 | 14.8-17.8 | ACTION | Rupert staggers backward, his knees buckling as he leans his weight heavily on the stone balustrade.
+e43_u045 | 17.8-20.0 | CAMERA | Close-up on Rupert clinging to the stone pillar, his breath shallow and terrified.
+e43_u046 | 18.0-19.5 | DIALOGUE | BLOND NOBLEMAN (Whispering, Terrified): "No..."
+e43_u047 | 20.0-23.0 | CAMERA | Medium shot on Alexander stepping forward, thrusting the secondary dossier forward.
+e43_u048 | 21.5-23.0 | DIALOGUE | ALEXANDER (Cold, Implacable): "Read the names."
+e43_u049 | 23.0-26.0 | CAMERA | Medium close-up on the Crown Official reading the concluding section.
+e43_u050 | 23.6-25.5 | DIALOGUE | CROWN OFFICIAL (Deliberate, Damning): "Lord Henry Sterling."
+e43_u051 | 26.0-27.5 | CAMERA | Quick pan to Lord Sterling stiffening in his pew, then the Crown Official.
+e43_u052 | 26.1-27.2 | DIALOGUE | CROWN OFFICIAL (Continuing): "Rupert Ashburn."
+e43_u053 | 27.5-29.0 | CAMERA | Extreme close-up on Rupert's horrified eyes darting in sheer terror.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

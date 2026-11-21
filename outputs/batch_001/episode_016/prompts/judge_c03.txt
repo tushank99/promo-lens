@@ -1,0 +1,62 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When hired thugs attack Juliana's medicinal garden, Alexander unleashes his combat training to effortlessly overpower them, extracting a shocking confession that unmasks Gerald Harrington as the mastermind.
+CONTINUITY NOTES: Picks up immediately from Episode 15's cliffhanger where Alexander confronted the three thugs in the moonlit garden while Juliana huddled injured on the ground.
+
+CLIP: 63.0s to 83.19s (20.19s). Units below: id | seconds from clip start | type | text.
+e16_u052 | 0.0-3.5 | CAMERA | Medium shot as Juliana gingerly rises to her feet, stepping toward Alexander with deep awe and wonder in her eyes.
+e16_u053 | 1.2-3.2 | DIALOGUE | JULIANA (Soft, Astounded): "You knew exactly what to do."
+e16_u054 | 3.5-7.5 | CAMERA | Close-up of Juliana looking up at him, searching his scarred face.
+e16_u055 | 4.8-7.2 | DIALOGUE | JULIANA (Wondering, Intrigued): "You fought like you've done this a hundred times."
+e16_u056 | 7.5-11.2 | CAMERA | Medium close-up of Alexander turning his profile away, shadowed by haunted memories of his past.
+e16_u057 | 8.0-11.0 | DIALOGUE | ALEXANDER (Somber, Heavy-Hearted): "A soldier learns things he wishes he could forget."
+e16_u058 | 11.2-13.8 | CAMERA | Close-up of Juliana softening with deep empathy as her eyes drop to his bleeding knuckle.
+e16_u059 | 11.8-12.8 | DIALOGUE | JULIANA (Tender, Concerned): "Are you hurt?"
+e16_u060 | 13.0-14.5 | ACTION | Juliana reaches out toward his injured hand with delicate concern.
+e16_u061 | 13.8-20.2 | CAMERA | Medium shot of Alexander and Juliana standing face-to-face in the moonlit garden, framed against the dark night.
+e16_u062 | 14.8-15.8 | DIALOGUE | ALEXANDER (Quiet, Steady): "No."
+e16_u063 | 15.8-20.2 | ACTION | Alexander and Juliana gaze deeply into each other's eyes, an unspoken bond forming between them as the ruined garden lies silent beneath the moon.
+e16_u064 | 17.0-20.2 | SFX | Slow, resonant emotional cello melody swelling to a dramatic cliffhanger hold.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

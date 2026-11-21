@@ -1,0 +1,70 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+While Alexander reassures Juliana of their unbreakable bond amid the council's opposition, a destitute Catherine begs for sanctuary at Ashbourne—only for Juliana to offer her survival under the strict humiliation of a scullery maid.
+CONTINUITY NOTES: Follows Episode 46's ecclesiastical challenge by the High Priest. While Catherine plots in secret to remain on the estate, the morning brings her disgrace to light as Juliana decides her fate.
+
+CLIP: 95.5s to 134.0s (38.5s). Units below: id | seconds from clip start | type | text.
+e47_u050 | 0.0-3.3 | CAMERA | Close-up of Catherine's face turning from despair to offended shock.
+e47_u051 | 0.5-3.3 | DIALOGUE | CATHERINE (Incredulous, Stunned): "You want me? As a guest?"
+e47_u052 | 3.3-5.7 | CAMERA | Close-up of Juliana staring straight into Catherine's eyes without blinking.
+e47_u053 | 3.7-5.5 | DIALOGUE | JULIANA (Unflinching, Firm): "As a scullery maid."
+e47_u054 | 5.7-9.3 | CAMERA | Medium shot of Catherine recoiling in disgust, looking around at the gathered estate retainers.
+e47_u055 | 6.0-9.0 | DIALOGUE | CATHERINE (Outraged, Venomous): "You expect me to scrub floors before these commoners?"
+e47_u056 | 9.3-13.0 | CAMERA | Dramatic profile two-shot of Juliana standing inches away from Catherine, dominating the confrontation.
+e47_u057 | 9.7-13.0 | DIALOGUE | JULIANA (Measured, Commanding): "You will scrub the floors you walked on as an impostor."
+e47_u058 | 13.0-16.0 | CAMERA | Juliana extends the ring of iron keys outward in her fist.
+e47_u059 | 13.3-16.0 | DIALOGUE | JULIANA (Stern, Demanding): "You will scrub the manor hearths at dawn."
+e47_u060 | 16.0-19.0 | CAMERA | Close profile two-shot of the two women locked in an intense psychological battle.
+e47_u061 | 16.3-19.0 | DIALOGUE | JULIANA (Unforgiving): "You will scour the kitchen grease until midnight."
+e47_u062 | 19.0-23.0 | CAMERA | Juliana presents the rough hemp apron and heavy keys right to Catherine's face.
+e47_u063 | 19.3-23.0 | DIALOGUE | JULIANA (Stern, Final): "One complaint from the housekeeper, and you are cast out with nothing."
+e47_u064 | 23.0-26.3 | CAMERA | Close-up of Catherine's trembling lips, humiliated tears spilling down her heavily made-up cheeks.
+e47_u065 | 23.7-26.1 | DIALOGUE | CATHERINE (Choked, Humiliated): "You humiliate me."
+e47_u066 | 26.3-32.0 | CAMERA | Medium shot of both women standing beneath the cathedral vaulting of the hall.
+e47_u067 | 26.7-31.7 | DIALOGUE | JULIANA (Calm, Sovereign): "I offer you bread and honest labor. Take the apron, or leave the county."
+e47_u068 | 32.0-36.0 | CAMERA | Extreme close-up on Catherine's trembling hands as she reaches out, taking the coarse apron and clattering iron keys, pressing them desperately against her chest.
+e47_u069 | 33.0-35.7 | DIALOGUE | CATHERINE (Broken, Defeated): "I accept, Your Grace."
+e47_u070 | 36.0-38.5 | CAMERA | Wide shot down the vaulted stone hall as Catherine prostrates herself entirely upon the floor before Alexander, Juliana, and Lady Ashbourne, humbled to the stone as the scene cuts to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

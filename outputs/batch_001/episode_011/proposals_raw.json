@@ -1,0 +1,48 @@
+{
+  "episode": 11,
+  "prompt_hash": "5a3549d1d95de521",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.4,
+    "tokens_in": 4695,
+    "tokens_out": 355
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e11_u005",
+        "end_unit_id": "e11_u032",
+        "hook": {
+          "unit_ids": [
+            "e11_u005"
+          ],
+          "modality": "visual",
+          "description": "Gerald steps out of the carriage into the mud in an opulent coat.",
+          "evidence": "The visual contrast between the wealthy antagonist and the rustic setting immediately establishes a power imbalance."
+        },
+        "cliffhanger_unit_id": "e11_u032",
+        "reason": "The confrontation escalates quickly from a surprise visit to a false accusation of theft."
+      },
+      {
+        "start_unit_id": "e11_u048",
+        "end_unit_id": "e11_u085",
+        "hook": {
+          "unit_ids": [
+            "e11_u048",
+            "e11_u049"
+          ],
+          "modality": "visual",
+          "description": "The constable barges into the cottage and begins violently overturning furniture.",
+          "evidence": "The sudden, aggressive invasion of a private home creates immediate tension and high stakes."
+        },
+        "cliffhanger_unit_id": "e11_u085",
+        "reason": "The scene builds to the devastating discovery of the planted evidence, framing the hero for a crime he didn't commit."
+      }
+    ]
+  },
+  "note": null
+}

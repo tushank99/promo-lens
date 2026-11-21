@@ -1,0 +1,39 @@
+{
+  "prompt_hash": "c6a1fbfdff387df3",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.6,
+    "secs": 11.96,
+    "tokens_in": 6862,
+    "tokens_out": 224,
+    "checkpoint": true
+  },
+  "asked_for": [
+    "c01",
+    "c02"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e23_u053",
+        "end_unit_id": "e23_u067",
+        "hook": {
+          "unit_ids": [
+            "e23_u053"
+          ],
+          "modality": "visual",
+          "description": "Close-up of Juliana's soot-smudged hands frantically mixing a dark, medicinal antidote.",
+          "evidence": "The visual of the hands working with the mortar and pestle establishes the high-stakes preparation of the cure immediately."
+        },
+        "cliffhanger_unit_id": "e23_u067",
+        "reason": "This 28.2-second window captures the preparation of the antidote and the suspenseful arrival of an intruder, meeting all duration and cliffhanger requirements."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

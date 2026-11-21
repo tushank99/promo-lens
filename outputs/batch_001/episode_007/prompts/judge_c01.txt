@@ -1,0 +1,74 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When Gerald and his spiteful companion arrive at the woodland cottage to mock Juliana's fallen status, her stoic new husband returns from the forest to silently send them fleeing.
+CONTINUITY NOTES: Follows Episode 6, where Juliana found refuge and warmth beside the hearth with her mysterious husband; morning brings unwelcome visitors from her former life to their humble doorstep.
+
+CLIP: 22.0s to 69.5s (47.5s). Units below: id | seconds from clip start | type | text.
+e07_u009 | 0.0-2.5 | DIALOGUE | ARISTOCRATIC WOMAN (Mocking, Condescending): "This is where you live now?"
+e07_u010 | 2.5-7.8 | CAMERA | Medium shot of Gerald standing beside Aristocratic Woman, sneering disdainfully.
+e07_u011 | 3.0-7.8 | DIALOGUE | GERALD (Arrogant, Scornful): "A fitting home for a woman who threw away everything for a penniless soldier."
+e07_u012 | 7.8-10.8 | CAMERA | Medium close-up of Juliana, defiant and unflinching despite her soiled dress and damp hair.
+e07_u013 | 8.0-10.6 | DIALOGUE | JULIANA (Sharp, Unintimidated): "You came all this way just to insult my home?"
+e07_u014 | 10.8-15.5 | CAMERA | Close-up of Aristocratic Woman erupting into high-pitched, malicious laughter beneath her parasol.
+e07_u015 | 11.2-15.8 | DIALOGUE | ARISTOCRATIC WOMAN (Gloating, Mocking): "Home? Look at your hands, Juliana."
+e07_u016 | 15.8-17.8 | CAMERA | Close-up of Juliana's mud-stained palms held open against her apron.
+e07_u017 | 16.2-17.8 | DIALOGUE | ARISTOCRATIC WOMAN (Cruel): "You look like a servant."
+e07_u018 | 17.8-19.0 | CAMERA | Close-up of Gerald's smug expression watching Juliana.
+e07_u019 | 19.0-23.0 | CAMERA | Medium close-up of Juliana lifting her chin with unwavering dignity.
+e07_u020 | 19.2-22.8 | DIALOGUE | JULIANA (Proud, Resolute): "I work with my hands. There is no shame in that."
+e07_u021 | 23.0-25.0 | CAMERA | Close-up on Gerald's tightening jaw.
+e07_u022 | 23.2-24.8 | DIALOGUE | GERALD (Biting, Condescending): "You were born a lady."
+e07_u023 | 25.0-28.8 | CAMERA | Close-up on Juliana's clear blue eyes, shining with unbroken pride.
+e07_u024 | 26.8-28.4 | DIALOGUE | JULIANA (Firm, Unapologetic): "And I remain one."
+e07_u025 | 28.8-32.8 | CAMERA | Wide shot framing Juliana facing off against Gerald and Aristocratic Woman in the bleak courtyard.
+e07_u026 | 29.5-32.6 | DIALOGUE | GERALD (Bitter, Sneering): "You chose that scarred beggar over a life of comfort."
+e07_u027 | 32.8-39.5 | CAMERA | Two-shot profile of Juliana looking straight into Gerald's eyes without flinching.
+e07_u028 | 35.8-39.0 | DIALOGUE | JULIANA (Passionate, Defiant): "I chose a man who stood beside me when you walked away."
+e07_u029 | 39.5-43.2 | CAMERA | Intense close-up of Juliana dismissing him with utter contempt.
+e07_u030 | 39.8-42.8 | DIALOGUE | JULIANA (Cold, Commanding): "You have no authority here. Leave."
+e07_u031 | 43.2-47.5 | CAMERA | Close-up of Gerald lunging forward, aggressively pointing his finger into Juliana's face.
+e07_u032 | 43.6-46.5 | DIALOGUE | GERALD (Furious, Threatening): "I have enough influence to make a beggar disappear."
+e07_u033 | 46.6-47.5 | DIALOGUE | GERALD (Spiteful, Boastful): "And your husband?"
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

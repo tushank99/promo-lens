@@ -1,0 +1,62 @@
+{
+  "episode": 1,
+  "prompt_hash": "8c767b37e52f311f",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 6.31,
+    "tokens_in": 5130,
+    "tokens_out": 556,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e01_u001",
+        "end_unit_id": "e01_u029",
+        "hook": {
+          "unit_ids": [
+            "e01_u001"
+          ],
+          "modality": "visual",
+          "description": "Juliana enters the cathedral in a bridal gown, only to see her fiancé holding another woman's hand at the altar.",
+          "evidence": "The immediate visual contrast between a bride's arrival and the shocking betrayal at the altar creates instant narrative tension."
+        },
+        "cliffhanger_unit_id": "e01_u029",
+        "reason": "This clip establishes the core conflict of the series: the public humiliation and abandonment of the protagonist at her own wedding."
+      },
+      {
+        "start_unit_id": "e01_u031",
+        "end_unit_id": "e01_u052",
+        "hook": {
+          "unit_ids": [
+            "e01_u032"
+          ],
+          "modality": "spoken",
+          "description": "Juliana confronts her fiancé and sister, realizing they conspired to humiliate her.",
+          "evidence": "The raw emotional accusation immediately draws the viewer into the high-stakes betrayal."
+        },
+        "cliffhanger_unit_id": "e01_u052",
+        "reason": "Focuses on the emotional fallout and the cruel confirmation of the conspiracy between the sister and the groom."
+      },
+      {
+        "start_unit_id": "e01_u066",
+        "end_unit_id": "e01_u095",
+        "hook": {
+          "unit_ids": [
+            "e01_u067"
+          ],
+          "modality": "spoken",
+          "description": "Juliana is told by her own family that she is a burden and her sister is the 'jewel' worth protecting.",
+          "evidence": "The verbal abuse from the family creates a strong 'underdog' hook that makes the viewer root for the protagonist's eventual revenge."
+        },
+        "cliffhanger_unit_id": "e01_u095",
+        "reason": "Highlights the total isolation of the protagonist and ends on her transition from heartbreak to cold, resolute defiance."
+      }
+    ]
+  },
+  "note": null
+}

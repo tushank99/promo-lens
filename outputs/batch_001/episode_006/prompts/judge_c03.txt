@@ -1,0 +1,71 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Seeking shelter from the cold rain, Juliana arrives at her new husband's modest woodland cottage and discovers an unexpected sense of peace beside the hearth.
+CONTINUITY NOTES: Picks up immediately from Episode 5, as Juliana and her mysterious new husband leave the Ashcroft estate behind and venture out into the rainy countryside.
+
+CLIP: 64.1s to 90.0s (25.9s). Units below: id | seconds from clip start | type | text.
+e06_u057 | 0.0-2.5 | CAMERA | Medium shot as Juliana grabs a rag from the rustic wooden table and begins briskly scrubbing the damp surface.
+e06_u058 | 0.2-2.7 | DIALOGUE | JULIANA (Determined, Practical): "If this is our home, I want it clean."
+e06_u059 | 2.5-3.7 | CAMERA | Medium shot of the Mysterious Bearded Man stepping forward to intervene gently.
+e06_u060 | 2.6-4.6 | DIALOGUE | MYSTERIOUS BEARDED MAN (Caring, Tender): "You don't have to do that tonight."
+e06_u061 | 3.7-5.4 | CAMERA | Close-up on Juliana's hands vigorously scrubbing grime from the wooden tabletop.
+e06_u062 | 5.4-8.0 | CAMERA | Close-up of Juliana's face, her voice catching with raw, suppressed emotion as she scrubs.
+e06_u063 | 6.0-9.1 | DIALOGUE | JULIANA (Vulnerable, Trembling): "If I stop now, I will think about everything I lost."
+e06_u064 | 8.0-10.2 | CAMERA | Full shot of the Mysterious Bearded Man standing motionless, his gaze filled with empathy and understanding.
+e06_u065 | 10.2-12.7 | ACTION | Instead of stopping her, the Mysterious Bearded Man kneels beside the table and begins inspecting and adjusting the wobbly table leg to help.
+e06_u066 | 10.2-12.7 | CAMERA | Medium low shot of the Mysterious Bearded Man kneeling beside Juliana as she wipes the table.
+e06_u067 | 12.7-13.7 | ACTION | Juliana picks up a straw broom and sweeps the stone floor in front of the stone hearth.
+e06_u068 | 12.7-13.7 | CAMERA | Wide shot of Juliana sweeping dust toward the large stone fireplace.
+e06_u069 | 13.7-16.9 | ACTION | The Mysterious Bearded Man carries a heavy wooden log across the room and places it onto the iron grate in the hearth.
+e06_u070 | 13.7-16.9 | CAMERA | Tracking shot following the Mysterious Bearded Man as he sets the firewood into the stone fireplace.
+e06_u071 | 16.9-19.7 | ACTION | He strikes flint and steel together over dry kindling, igniting bright sparks that catch into a flickering flame.
+e06_u072 | 16.9-19.7 | CAMERA | Extreme close-up on hands striking flint, sparks showering onto the twigs and catching fire.
+e06_u073 | 19.7-20.9 | CAMERA | Medium close-up of vibrant orange flames rapidly spreading across the dry logs, crackling warmly.
+e06_u074 | 19.7-25.9 | SFX | Crisp crackling and snapping of dry wood catching fire in the hearth.
+e06_u075 | 20.9-23.4 | CAMERA | Medium shot of Juliana standing by the table, broom resting against her hip, bathed in the amber firelight.
+e06_u076 | 23.4-25.7 | ACTION | The Mysterious Bearded Man stands up from the hearth, dusting his hands on his coat.
+e06_u077 | 23.4-25.7 | CAMERA | Medium shot of the Mysterious Bearded Man rising before the blazing fireplace.
+e06_u078 | 24.9-25.7 | DIALOGUE | MYSTERIOUS BEARDED MAN (Relieved): "There."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

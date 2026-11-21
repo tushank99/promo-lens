@@ -1,0 +1,75 @@
+{
+  "episode": 28,
+  "prompt_hash": "6723c0b48fd5773c",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 4.33,
+    "tokens_in": 5214,
+    "tokens_out": 676
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e28_u001",
+        "end_unit_id": "e28_u015",
+        "hook": {
+          "unit_ids": [
+            "e28_u004"
+          ],
+          "modality": "visual",
+          "description": "Catherine steps hard on the herbarium book.",
+          "evidence": "The aggressive, deliberate destruction of a personal item immediately establishes the villain's cruelty."
+        },
+        "cliffhanger_unit_id": "e28_u015",
+        "reason": "The immediate framing of an innocent maid for poisoning creates high stakes and instant conflict."
+      },
+      {
+        "start_unit_id": "e28_u023",
+        "end_unit_id": "e28_u036",
+        "hook": {
+          "unit_ids": [
+            "e28_u023"
+          ],
+          "modality": "visual",
+          "description": "The Duchess points an accusing finger at her own son.",
+          "evidence": "A bedridden matriarch accusing her son of poisoning her is a powerful, high-drama hook."
+        },
+        "cliffhanger_unit_id": "e28_u036",
+        "reason": "The betrayal of a mother by her son provides a compelling emotional hook for new viewers."
+      },
+      {
+        "start_unit_id": "e28_u067",
+        "end_unit_id": "e28_u082",
+        "hook": {
+          "unit_ids": [
+            "e28_u069"
+          ],
+          "modality": "visual",
+          "description": "Extreme close-up of the name 'Juliana Ashcroft' in the book.",
+          "evidence": "The reveal of a secret noble identity is a classic trope that hooks viewers interested in 'hidden identity' dramas."
+        },
+        "cliffhanger_unit_id": "e28_u082",
+        "reason": "The exposure of a secret noble identity combined with the villain's taunting creates immediate tension."
+      },
+      {
+        "start_unit_id": "e28_u086",
+        "end_unit_id": "e28_u096",
+        "hook": {
+          "unit_ids": [
+            "e28_u087"
+          ],
+          "modality": "spoken",
+          "description": "Rupert orders the guard to drag Juliana to the wet cells.",
+          "evidence": "The immediate threat of imprisonment and the gallows creates a sense of urgency."
+        },
+        "cliffhanger_unit_id": "e28_u096",
+        "reason": "The finality of the order to the gallows leaves the viewer desperate to know if she survives."
+      }
+    ]
+  },
+  "note": null
+}

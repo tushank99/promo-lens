@@ -1,0 +1,169 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Cornered and chained in the damp dungeon, Juliana shatters Catherine's cruelty with unshakeable dignity and the truth about love and worth, driving Catherine into a murderous fury.
+CONTINUITY NOTES: Picks up immediately from Episode 31's cliffhanger where Catherine used a glowing branding iron to scorch Juliana's mother's herbal book.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:34.4 (154.4 s).
+- Scene 01 (INT. DUNGEON CELLS – CONTINUOUS): 0.0-154.4 s, units e32_u001..e32_u117.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): none
+- Overlapping dialogue exchanges (include all members or none): e32_u068 + e32_u070
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e32_u001 | 0.0-3.0 | CAMERA | Close-up on the open botanical ledger lying on the wet stone floor as the glowing red branding tip sizzles against the delicate parchment.
+e32_u002 | 0.0-2.8 | SFX | Sizzling, crackling sound of scorched parchment paper.
+e32_u003 | 3.0-4.5 | CAMERA | Close-up of Juliana, chained against the brick wall, tears glistening on her cheeks as she trembles in grief.
+e32_u004 | 3.8-5.2 | DIALOGUE | CATHERINE (Mocking, Savoring): "There it is."
+e32_u005 | 4.5-7.5 | CAMERA | Low-angle medium shot of Catherine in her opulent velvet gown, clutching the hot poker with a sadistic sneer.
+e32_u006 | 7.5-9.2 | DIALOGUE | CATHERINE (Whispering, Venomous): "Fear."
+e32_u007 | 7.5-10.5 | CAMERA | Close-up of Catherine leaning slightly forward over the burning book, eyes glittering with malice.
+e32_u008 | 9.8-13.2 | DIALOGUE | CATHERINE (Taunting): "You have been so proud of that brave little face..."
+e32_u009 | 10.5-13.5 | CAMERA | Wide shot showing Juliana chained against the cold dungeon wall, small and restrained beneath Catherine's towering shadow.
+e32_u010 | 13.4-15.8 | DIALOGUE | CATHERINE (Smug, Dominant): "...but now you are afraid."
+e32_u011 | 13.5-16.0 | CAMERA | Medium shot of Catherine straightening up haughtily.
+e32_u012 | 16.0-17.0 | CAMERA | Extreme close-up of Juliana, her lips trembling in agonizing sorrow.
+e32_u013 | 16.2-18.8 | DIALOGUE | CATHERINE (Cruel, Final): "Say goodbye to your mother."
+e32_u014 | 17.0-19.0 | CAMERA | Low-angle shot of Catherine swinging the flaming orange iron upward from the book.
+e32_u015 | 18.8-20.5 | ACTION | Juliana's despair suddenly solidifies. Her jaw tightens, tears stopping as resolve takes over.
+e32_u016 | 19.0-20.5 | CAMERA | Close-up of Juliana looking up directly at Catherine, fear replaced by cold conviction.
+e32_u017 | 20.2-22.0 | DIALOGUE | JULIANA (Defiant, Unbroken): "Burn it."
+e32_u018 | 20.5-23.0 | CAMERA | Medium close-up of Juliana, sitting upright despite her heavy iron shackles.
+e32_u019 | 23.0-25.5 | CAMERA | Close-up of Catherine, her smug expression abruptly flickering with startled confusion.
+e32_u020 | 23.8-24.8 | DIALOGUE | CATHERINE (Disconcerted): "What?"
+e32_u021 | 25.5-28.5 | CAMERA | Low-angle close-up of Juliana staring straight up into Catherine's eyes without flinching.
+e32_u022 | 25.8-28.8 | DIALOGUE | JULIANA (Firm, Resolute): "Burn the ledger. Burn every page."
+e32_u023 | 28.5-30.8 | CAMERA | Wide shot of the wet dungeon floor, guards stationed by the heavy iron doorway in the background as Catherine holds the hot brand.
+e32_u024 | 29.8-32.8 | DIALOGUE | JULIANA (Steely, Proud): "You may destroy the book..."
+e32_u025 | 30.8-33.5 | CAMERA | Close-up of Catherine's face darkening with irritation.
+e32_u026 | 33.5-36.5 | CAMERA | Medium low-angle shot of Juliana sitting amidst chains beneath the barred ceiling grate.
+e32_u027 | 33.2-36.2 | DIALOGUE | JULIANA (Transcendent, Defiant): "...you cannot destroy what my mother taught me."
+e32_u028 | 36.4-38.8 | CAMERA | Close-up of Catherine leaning down aggressively into Juliana's space, trembling with offended rage.
+e32_u029 | 36.4-39.1 | DIALOGUE | CATHERINE (Spiteful, Hissing): "You think a few herbs make you better than me?"
+e32_u030 | 38.8-41.0 | CAMERA | Close-up of Juliana looking steadily up into Catherine's furious glare.
+e32_u031 | 39.2-42.8 | DIALOGUE | JULIANA (Calm, Cutting): "No. Your cruelty does that for me."
+e32_u032 | 41.0-43.5 | CAMERA | High-angle over-the-shoulder shot looking down at Juliana bound in heavy chains on the damp floor.
+e32_u033 | 43.5-45.5 | CAMERA | Extreme close-up of Catherine, baring her teeth in outrage.
+e32_u034 | 43.4-45.4 | DIALOGUE | CATHERINE (Furious, Shouting): "You still think you are better?!"
+e32_u035 | 45.5-47.8 | CAMERA | Medium shot of Juliana, her chained hands clasped together in her lap.
+e32_u036 | 45.6-47.4 | DIALOGUE | JULIANA (Serene, Grounded): "I know what I am."
+e32_u037 | 47.8-49.0 | CAMERA | Medium shot of Catherine scoffing with forced, derisive laughter.
+e32_u038 | 47.8-49.0 | DIALOGUE | CATHERINE (Sneering, Mocking): "A disgraced woman?"
+e32_u039 | 49.0-52.5 | CAMERA | Close-up of Juliana speaking with undeniable strength.
+e32_u040 | 49.2-52.4 | DIALOGUE | JULIANA (Unwavering): "A woman who survived. You cannot destroy me."
+e32_u041 | 52.5-54.4 | CAMERA | Close-up of Catherine brandishing the glowing tong in Juliana's face, spittle flying from her lips.
+e32_u042 | 52.8-54.2 | DIALOGUE | CATHERINE (Screaming, Enraged): "You are lying!"
+e32_u043 | 54.4-58.0 | CAMERA | Close-up of Juliana looking straight up, voice steady and clear.
+e32_u044 | 54.6-58.0 | DIALOGUE | JULIANA (Measured, Emphatic): "Gerald leaving me was the best thing he ever did for me."
+e32_u045 | 58.0-60.8 | CAMERA | Full shot of the dungeon cell. Catherine stands rigidly tall while Juliana sits shackled on the ground.
+e32_u046 | 58.2-61.0 | DIALOGUE | JULIANA (Contemplative, Scathing): "He wanted a woman who looked beautiful beside his wealth."
+e32_u047 | 60.8-64.5 | CAMERA | Extreme close-up of Juliana's expressive blue eyes and tear-stained cheek.
+e32_u048 | 61.1-66.8 | DIALOGUE | JULIANA (Passionate, Clear): "He wanted a wife whose family could raise his name. He measured a woman's worth by what she could give him."
+e32_u049 | 64.5-67.0 | CAMERA | Low-angle shot of Juliana leaning slightly forward against her chains.
+e32_u050 | 67.0-69.0 | CAMERA | Close-up of Catherine staring down, her eyes widening as Juliana's words pierce her facade.
+e32_u051 | 67.2-68.9 | DIALOGUE | JULIANA (Unapologetic, Victorious): "Let him have Clarissa."
+e32_u052 | 69.0-71.2 | CAMERA | Close-up of Juliana smiling with genuine liberation.
+e32_u053 | 69.6-71.2 | DIALOGUE | JULIANA (Proud): "He lost me."
+e32_u054 | 71.2-73.3 | CAMERA | Extreme close-up of Catherine's face contorting in sheer fury.
+e32_u055 | 71.3-73.2 | DIALOGUE | CATHERINE (Shrieking, Vicious): "You were rejected!"
+e32_u056 | 73.3-75.5 | CAMERA | Close-up of Juliana's calm, resolute face.
+e32_u057 | 73.4-77.6 | DIALOGUE | JULIANA (Grounded, Powerful): "I was freed. And I found a man who never asked me what I was worth."
+e32_u058 | 75.5-77.5 | CAMERA | Wide shot of the cell, steam rising faintly in the cold subterranean air.
+e32_u059 | 77.5-80.0 | CAMERA | Close-up of Catherine sneering with dripping condescension.
+e32_u060 | 77.8-79.4 | DIALOGUE | CATHERINE (Disdainful): "Your soldier?"
+e32_u061 | 80.0-82.5 | CAMERA | Close-up of Juliana, her eyes glowing with genuine devotion.
+e32_u062 | 80.2-82.0 | DIALOGUE | JULIANA (Tender, Certain): "My husband."
+e32_u063 | 82.5-84.1 | CAMERA | Close-up of Catherine scowling with deep disgust.
+e32_u064 | 82.5-84.0 | DIALOGUE | CATHERINE (Bitter): "He is a nobody."
+e32_u065 | 84.1-86.5 | CAMERA | Close-up of Juliana smiling softly, totally untroubled.
+e32_u066 | 84.2-86.2 | DIALOGUE | JULIANA (Warm, Defiant): "Then I love a nobody."
+e32_u067 | 86.5-89.8 | CAMERA | Low-angle shot focusing on Juliana's bare, chained feet locked in iron on the stone floor.
+e32_u068 | 86.5-90.2 | DIALOGUE | JULIANA (Resonant, Moving): "Because that nobody showed me more love than your entire world ever did."
+e32_u069 | 89.8-92.8 | CAMERA | Medium close-up of Catherine gripping the branding rod tighter, her upper lip curling in fury.
+e32_u070 | 90.1-92.6 | DIALOGUE | CATHERINE (Indignant, Sharp): "You know nothing about my world."
+e32_u071 | 92.8-97.0 | CAMERA | Medium shot of Juliana sitting in her tattered apron and chains, looking composed.
+e32_u072 | 93.2-96.6 | DIALOGUE | JULIANA (Knowing, Sober): "I know exactly what your world values."
+e32_u073 | 97.0-99.8 | CAMERA | Extreme close-up of Juliana's lips and eyes as she lists them with chilling precision.
+e32_u074 | 97.6-99.6 | DIALOGUE | JULIANA (Listing, Deliberate): "Beauty. Money."
+e32_u075 | 99.8-101.0 | CAMERA | Extreme close-up of Catherine's wide, stunned eyes reacting to the naked truth.
+e32_u076 | 101.0-103.7 | CAMERA | Close-up of Juliana looking up unflinchingly.
+e32_u077 | 101.2-103.5 | DIALOGUE | JULIANA (Firm): "Family. A perfect name."
+e32_u078 | 103.7-107.0 | CAMERA | Low-angle shot of Catherine standing rigid in her gold and purple gown, the guard standing sentinel behind her.
+e32_u079 | 103.8-107.2 | DIALOGUE | JULIANA (Continuing): "And a woman who never embarrasses the people standing behind her."
+e32_u080 | 107.0-108.8 | CAMERA | Close-up of Catherine throwing her hands up in explosive defensiveness.
+e32_u081 | 107.2-108.8 | DIALOGUE | CATHERINE (Shouting, Outraged): "And what is wrong with that?!"
+e32_u082 | 108.8-109.4 | CAMERA | Close-up of Catherine's face twisting in absolute venom.
+e32_u083 | 109.4-112.5 | CAMERA | Close-up of Juliana looking serene.
+e32_u084 | 109.5-112.8 | DIALOGUE | JULIANA (Gentle, Penetrating): "Nothing. Until you have nothing left beneath it."
+e32_u085 | 112.5-116.0 | CAMERA | Medium shot of Catherine standing motionless, holding the iron rod, struck to the core by the insult.
+e32_u086 | 112.8-116.0 | DIALOGUE | JULIANA (Unrelenting): "You have spent your whole life collecting things that make people bow..."
+e32_u087 | 116.0-116.8 | CAMERA | Low-angle shot of Juliana's chained hands folded peacefully in her lap.
+e32_u088 | 116.8-119.5 | CAMERA | Medium close-up of Juliana looking up with quiet pity.
+e32_u089 | 116.9-119.5 | DIALOGUE | JULIANA (Piercing): "...but you have never learned how to make anyone love you."
+e32_u090 | 119.5-121.8 | CAMERA | Medium shot of Catherine snapping entirely, raising the branding poker like a weapon and screaming.
+e32_u091 | 119.6-121.8 | DIALOGUE | CATHERINE (Hysterical, Screaming): "Silence! Silence!"
+e32_u092 | 121.8-123.0 | CAMERA | Close-up of Catherine's crazed, gasping face.
+e32_u093 | 121.8-122.8 | DIALOGUE | CATHERINE (Shrieking): "Why?!"
+e32_u094 | 122.8-125.0 | CAMERA | Close-up of Juliana crying out her defiance.
+e32_u095 | 123.0-125.2 | DIALOGUE | JULIANA (Forceful): "Because I am right!"
+e32_u096 | 125.0-128.5 | CAMERA | Low-angle tracking shot of the red-hot branding tip trailing across the wet dungeon floor, steaming.
+e32_u097 | 125.4-128.8 | DIALOGUE | JULIANA (Scathing, Direct): "You want everyone to believe you are powerful."
+e32_u098 | 128.5-131.8 | CAMERA | Medium shot of Juliana sitting under the cold skylight bars, her posture majestic despite her imprisonment.
+e32_u099 | 129.0-131.6 | DIALOGUE | JULIANA (Continuing): "You want everyone to fear you."
+e32_u100 | 131.8-134.8 | CAMERA | Medium shot of Juliana looking directly at Catherine, gestures restrained by the heavy iron chains.
+e32_u101 | 132.0-134.0 | DIALOGUE | JULIANA (Mocking, Direct): "But look at you."
+e32_u102 | 134.8-138.5 | CAMERA | Close-up of Juliana, her eyes burning with fiery contempt.
+e32_u103 | 135.0-138.6 | DIALOGUE | JULIANA (Stripping Her Bare): "You have to threaten a chained woman to feel powerful!"
+e32_u104 | 138.5-140.4 | CAMERA | Close-up of Catherine trembling with uncontrollable rage, teeth bared.
+e32_u105 | 138.6-140.2 | DIALOGUE | CATHERINE (Choking with Rage): "You insolent—!"
+e32_u106 | 140.4-142.4 | CAMERA | Medium shot of Catherine gripping the glowing tongs as Juliana continues speaking over her.
+e32_u107 | 140.4-142.3 | DIALOGUE | JULIANA (Steely, Triumphant): "You may have the title you have always wanted..."
+e32_u108 | 142.4-146.5 | CAMERA | Close-up of Juliana delivering the final emotional blow.
+e32_u109 | 142.4-146.5 | DIALOGUE | JULIANA (Final, Condemning): "...but you will never have the courage to earn what you demand from everyone else."
+e32_u110 | 146.5-148.0 | CAMERA | Close-up of Catherine's face twitching with sheer murderous madness.
+e32_u111 | 146.6-148.1 | DIALOGUE | CATHERINE (Enraged, Shouting): "You think you can lecture me?!"
+e32_u112 | 148.0-150.8 | CAMERA | Medium shot of Catherine raising the branding iron high above her head with both hands.
+e32_u113 | 148.0-150.8 | ACTION | Catherine hoists the searing branding rod over Juliana with frantic fury.
+e32_u114 | 148.1-151.2 | DIALOGUE | CATHERINE (Screaming, Maniacal): "Then let's see how brave you are when it touches your skin!"
+e32_u115 | 150.8-152.0 | CAMERA | Medium shot of Catherine plunging the glowing orange poker straight toward Juliana's face.
+e32_u116 | 151.2-154.4 | ACTION | Juliana gasps, freezing as the glowing tip of the iron thrusts forward, stopping mere millimeters from her right eye.
+e32_u117 | 152.0-154.4 | CAMERA | Extreme close-up of Juliana's wide, unblinking blue eye. The intense, fiery orange glow of the iron poker radiates inches from her cornea, holding on the heart-stopping cliffhanger as the frame cuts to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

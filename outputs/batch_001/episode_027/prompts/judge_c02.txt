@@ -1,0 +1,80 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+The Dowager Duchess realizes Juliana's wedding ring bears the Ashbourne crest belonging to her lost son, but before Juliana can reveal Alexander's name, Rupert and Catherine storm the bedchamber and frame her for poisoning the Duchess.
+CONTINUITY NOTES: Picks up immediately from Episode 26's cliffhanger where the Dowager Duchess gripped Juliana's hand upon recognizing the family signet ring, frantically questioning her origin.
+
+CLIP: 107.8s to 150.5s (42.7s). Units below: id | seconds from clip start | type | text.
+e27_u065 | 0.0-2.4 | CAMERA | Medium close-up of Juliana raising the small bottle high for them to see.
+e27_u066 | 0.5-2.0 | DIALOGUE | JULIANA (Unyielding): "It is an antidote."
+e27_u067 | 2.4-4.7 | CAMERA | Close-up of Lady Catherine sneering sharply.
+e27_u068 | 2.5-4.0 | DIALOGUE | LADY CATHERINE (Sharp, Provocative): "An antidote to what?"
+e27_u069 | 4.7-5.8 | CAMERA | Extreme close-up of Juliana's focused eyes.
+e27_u070 | 5.4-6.5 | DIALOGUE | BLOND NOBLEMAN (Stern, Barked): "Answer her."
+e27_u071 | 5.8-7.2 | CAMERA | Close-up on the Blond Nobleman's impatient scowl.
+e27_u072 | 7.2-9.4 | CAMERA | Close-up of Juliana speaking the truth clearly.
+e27_u073 | 7.3-8.7 | DIALOGUE | JULIANA (Unyielding, Resolute): "Poison."
+e27_u074 | 9.4-12.2 | CAMERA | Close-up on the Blond Nobleman, his expression freezing into a dark scowl.
+e27_u075 | 10.9-12.0 | DIALOGUE | BLOND NOBLEMAN (Whispering, Dangerous): "Poison."
+e27_u076 | 12.2-15.0 | CAMERA | Close-up of Juliana stating the grim reality.
+e27_u077 | 12.6-14.8 | DIALOGUE | JULIANA (Urgent): "Someone has been poisoning Her Grace."
+e27_u078 | 15.0-16.8 | CAMERA | Medium shot of Lady Catherine turning abruptly to the guard stationed by the open door, pointing with feigned outrage.
+e27_u079 | 15.3-16.7 | DIALOGUE | LADY CATHERINE (Shrieking, Feigning Horror): "You hear that?!"
+e27_u080 | 16.8-20.7 | CAMERA | Close-up of Lady Catherine twisting Juliana's words with malicious glee.
+e27_u081 | 17.0-20.6 | DIALOGUE | LADY CATHERINE (Venomous, Accusing): "She admits she has been giving the Duchess poison in secret!"
+e27_u082 | 20.7-23.2 | CAMERA | Close-up of Juliana recoiling in shock at the blatant lie.
+e27_u083 | 20.9-23.0 | DIALOGUE | JULIANA (Desperate, Outraged): "That is not what I said!"
+e27_u084 | 23.2-26.2 | CAMERA | Medium close-up of the Blond Nobleman raising his black-gloved hand, silencing the room.
+e27_u085 | 23.4-24.8 | DIALOGUE | BLOND NOBLEMAN (Authoritative, Icy): "Enough."
+e27_u086 | 26.2-31.6 | CAMERA | Medium two-shot as the Blond Nobleman steps into Juliana's personal space and plucks the glass dropper vial from her hand.
+e27_u087 | 27.0-30.7 | ACTION | The Blond Nobleman takes the medicine vial from Juliana's grasp, inspecting it under the candlelight.
+e27_u088 | 28.4-31.5 | DIALOGUE | BLOND NOBLEMAN (Cold, Calculating): "An unknown servant enters a restricted chamber."
+e27_u089 | 31.6-36.4 | CAMERA | Tight close-up of the Blond Nobleman holding the vial beside his temple, his blue eyes cold and triumphant.
+e27_u090 | 31.8-36.0 | DIALOGUE | BLOND NOBLEMAN (Condemning, Vindictive): "She secretly administers an unidentified substance to a helpless woman."
+e27_u091 | 36.2-37.1 | DIALOGUE | BLOND NOBLEMAN (To Guard, Stern): "Take her."
+e27_u092 | 36.4-39.7 | CAMERA | Wide shot as the armed guard storms forward, seizing Juliana roughly by both arms.
+e27_u093 | 37.2-40.2 | ACTION | The guard twists Juliana around and drags her forcibly toward the doorway as she struggles against his grip.
+e27_u094 | 39.7-41.4 | CAMERA | Medium shot of Juliana being pulled backward, casting a frantic glance back toward the bedridden Duchess.
+e27_u095 | 41.4-42.7 | CAMERA | Extreme close-up of Juliana's wide, terrified eyes as she realizes the deadly trap closing around her, cutting abruptly to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

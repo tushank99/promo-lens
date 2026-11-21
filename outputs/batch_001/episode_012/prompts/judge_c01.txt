@@ -1,0 +1,77 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When the Constable attempts to arrest Alexander for grand theft, Clarissa offers Juliana a sadistic ultimatum: retrieve a signet ring from frozen, razor-sharp blackthorn briars with her bare hands, or watch her husband hang.
+CONTINUITY NOTES: Picks up directly from Episode 11's cliffhanger where the Constable pulls Gerald's planted gold pocket watch from Alexander's trench coat.
+
+CLIP: 28.0s to 69.5s (41.5s). Units below: id | seconds from clip start | type | text.
+e12_u018 | 0.0-1.8 | CAMERA | Medium shot of Clarissa gliding past Gerald, a venomous, amused smile playing upon her lips.
+e12_u019 | 0.1-2.0 | DIALOGUE | CLARISSA (Purring, Taunting): "Oh, dear sister..."
+e12_u020 | 1.8-3.0 | CAMERA | Tight shot of Alexander's hand clenching into a tight, trembling fist against the glow of the roaring fireplace.
+e12_u021 | 3.0-4.4 | CAMERA | Close-up of Alexander glaring daggers at Clarissa.
+e12_u022 | 2.0-4.4 | DIALOGUE | CLARISSA (Continuing taunt): "...still defending your broken scrap of a man?"
+e12_u023 | 4.4-7.3 | CAMERA | Medium close-up of Juliana, her eyes narrowing with sharp perception.
+e12_u024 | 4.4-7.2 | DIALOGUE | JULIANA (Steely, Resolute): "Name your price, Clarissa. I know you."
+e12_u025 | 7.3-12.0 | CAMERA | Medium close-up of Clarissa smiling with vicious delight.
+e12_u026 | 7.4-12.0 | DIALOGUE | CLARISSA (Smooth, Derisive): "You always were clever, Juliana. Always searching for some way to escape."
+e12_u027 | 12.0-13.8 | CAMERA | Tight shot of Clarissa smoothing her long purple evening glove along her wrist.
+e12_u028 | 12.1-13.5 | DIALOGUE | CLARISSA (Scheming): "Perhaps I can give you one."
+e12_u029 | 13.8-15.7 | CAMERA | Close-up of Juliana watching her with cautious skepticism.
+e12_u030 | 14.2-15.5 | DIALOGUE | JULIANA (Guarded, Cold): "What do you want?"
+e12_u031 | 15.7-18.6 | CAMERA | Medium two-shot of Clarissa in the foreground, turning slowly to face Juliana.
+e12_u032 | 16.0-18.4 | DIALOGUE | CLARISSA (Cruel, Savoring): "I want to see you crawl, sister."
+e12_u033 | 18.6-24.4 | CAMERA | Medium close-up profile tracking shot of Clarissa pacing slowly as she spins her sadistic tale.
+e12_u034 | 18.7-24.3 | DIALOGUE | CLARISSA (Theatrical, Vindictive): "My emerald signet ring fell deep into the frozen blackthorn briars at Ashworth Manor. The thorns have grown over it..."
+e12_u035 | 24.4-28.8 | CAMERA | Close-up of Clarissa flexing her gloved fingers theatrically in front of her face.
+e12_u036 | 24.4-28.7 | DIALOGUE | CLARISSA (Chilling, Sarcastic): "...sharp as steel. The ground is frozen, like pure ice."
+e12_u037 | 28.8-30.0 | ACTION | Gerald bursts into a loud, mocking laugh beside the stony Constable.
+e12_u038 | 28.8-32.8 | CAMERA | Medium two-shot of Clarissa stepping closer to Juliana, peering down into her eyes with a predatory smile.
+e12_u039 | 29.3-32.6 | DIALOGUE | CLARISSA (Demanding, Brutal): "You will retrieve it with your bare hands before the magistrate arrives."
+e12_u040 | 32.8-35.2 | CAMERA | Medium shot of Gerald tapping his whip against his palm and laughing heartily beside the Constable.
+e12_u041 | 32.8-35.1 | DIALOGUE | GERALD (Gleeful, Derisive): "A lady's hands will be shredded to ribbons!"
+e12_u042 | 35.2-37.2 | CAMERA | Medium three-shot of Clarissa stepping behind Juliana, as Alexander watches helplessly with dark fury.
+e12_u043 | 35.3-37.1 | DIALOGUE | CLARISSA (Cold, Transactional): "Do it, and we withdraw the charges."
+e12_u044 | 37.2-41.5 | CAMERA | Extreme close-up of Clarissa's mouth leaning directly into Juliana's ear, whispering venomously.
+e12_u045 | 37.4-41.2 | DIALOGUE | CLARISSA (Whispering, Menacing): "Fail, or refuse, and your husband hangs from the gallows."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

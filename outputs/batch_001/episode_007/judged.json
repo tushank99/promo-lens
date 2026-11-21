@@ -1,0 +1,140 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "924c76e7fc8e213f",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 10.6,
+      "secs": 3.32,
+      "tokens_in": 1841,
+      "tokens_out": 1147
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e07_u009"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e07_u009",
+          "e07_u011",
+          "e07_u013",
+          "e07_u020",
+          "e07_u026",
+          "e07_u028",
+          "e07_u030",
+          "e07_u033"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e07_u011",
+          "e07_u015",
+          "e07_u017",
+          "e07_u020",
+          "e07_u022",
+          "e07_u028",
+          "e07_u032",
+          "e07_u033"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e07_u009",
+          "e07_u013",
+          "e07_u020",
+          "e07_u026",
+          "e07_u032",
+          "e07_u033"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e07_u033"
+        ]
+      },
+      "hook_unit_id": "e07_u009",
+      "hook_type": "shocking_line",
+      "emotion_type": "rage",
+      "trope": "defiant heroine",
+      "central_conflict": "Juliana must stand up to Gerald and the aristocratic woman who mock her new humble life.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03",
+    "prompt_hash": "0bca4d61e008d3d5",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.7,
+      "secs": 3.32,
+      "tokens_in": 1671,
+      "tokens_out": 1260
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e07_u040"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e07_u040",
+          "e07_u042",
+          "e07_u045",
+          "e07_u046",
+          "e07_u047",
+          "e07_u053"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e07_u042",
+          "e07_u043",
+          "e07_u054",
+          "e07_u058"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e07_u040",
+          "e07_u042",
+          "e07_u045",
+          "e07_u046",
+          "e07_u053",
+          "e07_u058"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e07_u058"
+        ]
+      },
+      "hook_unit_id": "e07_u040",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "trope": "silent protector",
+      "central_conflict": "Gerald is forced to flee when the mysterious scarred man silently intimidates him, while Juliana admires the man's calm strength.",
+      "spoils_main_twist": false
+    }
+  }
+]

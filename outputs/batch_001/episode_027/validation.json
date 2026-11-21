@@ -1,0 +1,102 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e27_u011",
+      "end_unit_id": "e27_u025",
+      "hook": {
+        "unit_ids": [
+          "e27_u012"
+        ],
+        "modality": "spoken",
+        "description": "The Dowager Duchess reveals the ring on the maid's finger bears the Ashbourne crest.",
+        "evidence": "The immediate mystery of a commoner wearing a noble family's crest creates instant intrigue."
+      },
+      "cliffhanger_unit_id": "e27_u025",
+      "reason": "The revelation of the lost son's ring creates a high-stakes mystery that demands an answer."
+    },
+    "norm": {
+      "start_unit_id": "e27_u011",
+      "end_unit_id": "e27_u025",
+      "hook": {
+        "unit_ids": [
+          "e27_u012"
+        ],
+        "modality": "spoken",
+        "description": "The Dowager Duchess reveals the ring on the maid's finger bears the Ashbourne crest.",
+        "evidence": "The immediate mystery of a commoner wearing a noble family's crest creates instant intrigue."
+      },
+      "cliffhanger_unit_id": "e27_u025",
+      "reason": "The revelation of the lost son's ring creates a high-stakes mystery that demands an answer."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.4,
+    "start": 16.8,
+    "end": 46.4,
+    "duration": 29.6,
+    "segments": [
+      {
+        "start_unit": "e27_u011",
+        "end_unit": "e27_u025",
+        "start": 16.8,
+        "end": 46.4
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e27_u065",
+      "end_unit_id": "e27_u095",
+      "hook": {
+        "unit_ids": [
+          "e27_u066"
+        ],
+        "modality": "spoken",
+        "description": "Juliana declares the medicine she is holding is an antidote to poison.",
+        "evidence": "The accusation of poisoning a Duchess is a classic, high-tension hook that promises immediate conflict."
+      },
+      "cliffhanger_unit_id": "e27_u095",
+      "reason": "The scene captures the moment Juliana is framed for murder, showcasing the villain's manipulation and the protagonist's desperate situation."
+    },
+    "norm": {
+      "start_unit_id": "e27_u065",
+      "end_unit_id": "e27_u095",
+      "hook": {
+        "unit_ids": [
+          "e27_u066"
+        ],
+        "modality": "spoken",
+        "description": "Juliana declares the medicine she is holding is an antidote to poison.",
+        "evidence": "The accusation of poisoning a Duchess is a classic, high-tension hook that promises immediate conflict."
+      },
+      "cliffhanger_unit_id": "e27_u095",
+      "reason": "The scene captures the moment Juliana is framed for murder, showcasing the villain's manipulation and the protagonist's desperate situation."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.5,
+    "start": 107.8,
+    "end": 150.5,
+    "duration": 42.7,
+    "segments": [
+      {
+        "start_unit": "e27_u065",
+        "end_unit": "e27_u095",
+        "start": 107.8,
+        "end": 150.5
+      }
+    ]
+  }
+]

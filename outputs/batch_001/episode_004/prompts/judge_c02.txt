@@ -1,0 +1,78 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Defying Gerald and Clarissa's cruel mockery, Juliana accepts the mysterious scarred warrior's solemn proposal and is officially wed, choosing exile and dignity over her family's cruelty as they walk out into the light together.
+CONTINUITY NOTES: Picks up directly from Episode 3's cliffhanger where the Mysterious Bearded Man dropped to one knee before the altar, presenting a ring to Lady Juliana.
+
+CLIP: 53.6s to 94.8s (41.2s). Units below: id | seconds from clip start | type | text.
+e04_u040 | 0.0-2.2 | DIALOGUE | JULIANA (Defiant, Dignified): "If this is pity, take back your ring."
+e04_u041 | 2.2-5.4 | CAMERA | Tight close-up on Juliana's face, a tear clinging to her cheek.
+e04_u042 | 3.2-5.2 | DIALOGUE | JULIANA (Fierce): "I will not become anyone's charity."
+e04_u043 | 5.4-9.2 | CAMERA | Medium close-up of the Mysterious Bearded Man holding her gaze directly.
+e04_u044 | 5.9-8.9 | DIALOGUE | MYSTERIOUS BEARDED MAN (Earnest): "It is not pity, Lady Juliana."
+e04_u045 | 9.2-12.2 | CAMERA | Intense tight close-up on his piercing blue-green eyes and facial scars.
+e04_u046 | 9.9-11.9 | DIALOGUE | MYSTERIOUS BEARDED MAN (Deep, Absolute): "It is a vow."
+e04_u047 | 12.2-13.9 | CAMERA | Close-up of Juliana, completely disarmed by the gravity of his promise.
+e04_u048 | 12.4-14.4 | DIALOGUE | JULIANA: "I don't know this man."
+e04_u049 | 13.9-15.9 | CAMERA | Medium shot of Lady Ashcroft, Clarissa, and Lord Ashcroft seated coldly in the family pew.
+e04_u050 | 14.4-16.0 | DIALOGUE | JULIANA: "I don't know what waits beyond these doors."
+e04_u051 | 15.9-18.2 | CAMERA | Side profile close-up of Juliana looking toward her estranged family, then turning back.
+e04_u052 | 16.2-18.4 | DIALOGUE | JULIANA: "But he looked at me when everyone else turned away."
+e04_u053 | 18.2-21.2 | CAMERA | Medium shot of Juliana facing down at him, a faint, tender smile breaking across her lips.
+e04_u054 | 19.2-20.9 | DIALOGUE | JULIANA (Resolved): "Then I accept."
+e04_u055 | 21.2-22.6 | CAMERA | Wide shot of the altar with the high cathedral stained glass overhead as the Priest looks on between them.
+e04_u056 | 22.6-25.4 | CAMERA | Medium shot of the Mysterious Bearded Man rising smoothly to his feet before Juliana.
+e04_u057 | 22.6-25.4 | ACTION | The Mysterious Bearded Man stands tall, extending his scarred hand toward Juliana.
+e04_u058 | 25.4-28.2 | CAMERA | Close-up of Juliana's slender hand resting gently into his large, weathered palm.
+e04_u059 | 25.6-27.9 | ACTION | He folds his fingers over hers, holding her hand with protective firmness.
+e04_u060 | 28.2-30.4 | CAMERA | Medium close-up of the Priest holding his open liturgical book, bewildered and trembling.
+e04_u061 | 28.4-30.2 | DIALOGUE | THE PRIEST (Hesitant, Anxious): "My- My Lady..."
+e04_u062 | 30.4-32.4 | CAMERA | Tight close-up of the Priest's alarmed, questioning eyes.
+e04_u063 | 30.4-32.2 | DIALOGUE | THE PRIEST (Tentative): "Are you certain?"
+e04_u064 | 32.4-35.2 | CAMERA | Medium shot of Lord Ashcroft seated in his pew, gripping his cane, bowed in grim silence.
+e04_u065 | 35.2-37.9 | CAMERA | Close-up profile of Juliana, her expression clear and unshakable.
+e04_u066 | 36.2-37.4 | DIALOGUE | JULIANA (Unwavering): "I am."
+e04_u067 | 37.9-41.2 | CAMERA | Medium close-up of the Priest swallowing hard and looking down at his book.
+e04_u068 | 38.4-40.9 | DIALOGUE | THE PRIEST (Resigned, Solemn): "Then... let us proceed."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

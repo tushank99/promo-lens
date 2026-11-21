@@ -1,0 +1,72 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Alexander frees Juliana from her chains and proclaims her the Duchess of Ashburton before the stunned congregation, only for an ecclesiastical authority to burst in and declare their marriage legally invalid.
+CONTINUITY NOTES: Picks up directly from Episode 44's climax where Alexander walked away from Catherine towards Juliana standing in chains at the church doorway.
+
+CLIP: 0.0s to 29.8s (29.8s). Units below: id | seconds from clip start | type | text.
+e45_u001 | 0.0-3.0 | CAMERA | Full tracking shot following behind Alexander as he walks down the rubble-covered stone aisle toward Juliana.
+e45_u002 | 0.0-2.8 | ACTION | Alexander strides purposefully down the cathedral aisle, ignoring the watching nobles as Juliana stands shackled in her rustic grey dress near the entrance.
+e45_u003 | 2.8-5.0 | CAMERA | Medium close-up on Juliana looking down at her chained hands, tears welling in her eyes.
+e45_u004 | 3.2-4.8 | DIALOGUE | JULIANA (Whispering, Tearful): "Alexander..."
+e45_u005 | 5.0-8.5 | CAMERA | Medium shot as Alexander stops in front of Juliana and sinks onto one knee before her.
+e45_u006 | 5.2-7.8 | ACTION | Alexander drops to one knee before Juliana, looking up at her with profound devotion.
+e45_u007 | 7.4-8.9 | DIALOGUE | ALEXANDER (Gentle, Reassuring): "Look at me."
+e45_u008 | 8.8-9.9 | CAMERA | Low angle close-up of Juliana looking down into Alexander's eyes with rising disbelief.
+e45_u009 | 9.9-12.2 | CAMERA | Close-up on Alexander's hands as he unfastens the heavy iron lock and releases the chains from Juliana's bruised wrists.
+e45_u010 | 10.2-11.8 | SFX | Heavy iron clanking as the shackles fall away.
+e45_u011 | 12.2-15.0 | CAMERA | Close-up on Juliana's tear-streaked face as she stares intently into his eyes.
+e45_u012 | 12.5-14.3 | DIALOGUE | JULIANA (Breathless, Overcome): "Your eyes..."
+e45_u013 | 15.0-21.8 | CAMERA | Close-up profile of Alexander as Juliana reaches out her trembling hand to touch his bearded cheek and jawline.
+e45_u014 | 15.2-18.5 | ACTION | Juliana places her palm against Alexander's beard, feeling his scarred face as recognition dawns.
+e45_u015 | 17.1-18.7 | DIALOGUE | JULIANA (Emotional, Realizing): "It's you."
+e45_u016 | 19.4-21.5 | DIALOGUE | ALEXANDER (Solemn, Loving): "It was always me."
+e45_u017 | 21.8-24.5 | CAMERA | Medium shot as Alexander stands up and drapes a heavy crimson ducal mantle lined with ermine over Juliana's shoulders.
+e45_u018 | 21.9-24.2 | ACTION | Alexander places the ducal cloak over Juliana's rustic gown, adjusting it gently over her shoulders.
+e45_u019 | 22.9-24.4 | DIALOGUE | JULIANA (Shocked, Wondering): "You're the Duke?"
+e45_u020 | 24.5-27.2 | CAMERA | Close-up on Alexander looking intensely into her eyes.
+e45_u021 | 24.6-27.4 | DIALOGUE | ALEXANDER (Firm, Resonant): "Alexander Ashburton. The rightful Duke of Ashburton."
+e45_u022 | 27.2-29.8 | CAMERA | Close-up on Juliana, tears of awe spilling over her cheeks.
+e45_u023 | 27.6-29.6 | DIALOGUE | JULIANA (Incredulous, Moved): "All this time?"
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

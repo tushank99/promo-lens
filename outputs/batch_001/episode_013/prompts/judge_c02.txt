@@ -1,0 +1,72 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Defying Alexander's desperate pleas, Juliana crawls barehanded into the razor-sharp blackthorn garden, enduring brutal lacerations under Clarissa and Gerald's cruel taunts until she unearths the lost emerald signet ring.
+CONTINUITY NOTES: Picks up immediately from Episode 12's climax where Juliana demanded to know where the frozen blackthorn garden was located to save Alexander from the gallows.
+
+CLIP: 80.5s to 118.88s (38.38s). Units below: id | seconds from clip start | type | text.
+e13_u053 | 0.0-2.5 | ACTION | Alexander loses control, violently lunging past the Constable toward the briars.
+e13_u054 | 0.0-2.5 | CAMERA | Medium tracking shot of Alexander breaking into a desperate charge.
+e13_u055 | 0.3-1.7 | DIALOGUE | ALEXANDER (Furious, Booming): "Stop!"
+e13_u056 | 2.5-5.5 | ACTION | Juliana continues clawing forward, branches lacerating her arm and cheek.
+e13_u057 | 2.5-5.5 | CAMERA | Close-up of Juliana wincing in agony and screaming through clenched teeth.
+e13_u058 | 3.3-5.3 | DIALOGUE | JULIANA (Agonized Scream): "Ahhh!"
+e13_u059 | 5.5-8.5 | CAMERA | Medium shot of the Constable forcefully grappling Alexander by his coat collar, slamming him back against the gate.
+e13_u060 | 6.0-8.3 | DIALOGUE | ALEXANDER (Roaring in Torment): "Juliana!"
+e13_u061 | 8.5-13.5 | CAMERA | Ground-level shot of Juliana frantically digging and scraping at the frozen dirt and dried bramble pods with both bloody hands.
+e13_u062 | 8.7-13.5 | ACTION | Juliana digs her torn fingers into the frost-hardened earth, turning over rocks and dead vegetation.
+e13_u063 | 13.5-16.5 | CAMERA | Medium close-up of Alexander struggling against the Constable, his face twisted in grief and rage.
+e13_u064 | 14.3-15.9 | DIALOGUE | ALEXANDER (Desperate Shout): "Juliana!"
+e13_u065 | 16.5-22.5 | CAMERA | Close-up of Juliana lying on her stomach among the thorns, bleeding cuts running down her forehead, cheeks, and bare arms.
+e13_u066 | 17.7-22.0 | DIALOGUE | JULIANA (Panting, Praying): "Please, ring... you have to be here."
+e13_u067 | 22.5-26.0 | ACTION | Her blood-smeared index finger brushes against a solid metallic object half-buried in the frozen dirt beneath a thorny branch.
+e13_u068 | 22.5-26.5 | CAMERA | Extreme close-up macro shot of an ornate antique gold ring set with a massive, radiant emerald resting in the frosted soil.
+e13_u069 | 26.5-28.5 | CAMERA | Close-up of Juliana's wide, disbelieving blue eyes as breath catches in her throat.
+e13_u070 | 28.5-31.5 | ACTION | Juliana reaches out her torn, bloodied hand and wraps her fingers tightly around the emerald ring.
+e13_u071 | 28.5-31.5 | CAMERA | Extreme close-up of her bloody hand closing around the emerald signet ring.
+e13_u072 | 31.5-32.5 | CAMERA | Close-up of Juliana grimacing in fierce triumph and intense pain as thorns catch her knuckles.
+e13_u073 | 32.5-33.5 | CAMERA | Brief cut to Alexander staring into the briar patch in suspended terror.
+e13_u074 | 33.5-36.7 | CAMERA | Close-up on Juliana's sweat- and frost-streaked face as she grinds her teeth, tears pooling in her eyes, fighting through the blinding pain.
+e13_u075 | 36.7-38.4 | CAMERA | Macro close-up holding on Juliana's bloodied fist firmly gripping the emerald ring against the frozen ground as the episode cuts to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

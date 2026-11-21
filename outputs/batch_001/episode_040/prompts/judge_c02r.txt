@@ -1,0 +1,62 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+High society gathers at the grand cathedral for Rupert and Catherine's lavish wedding, while the conspirators ensure every exit is sealed to seal Juliana's execution—unaware that Alexander's retribution is already at their gates.
+CONTINUITY NOTES: Picks up right after Alexander commands his men to secure the chapel and vows to reclaim his house and rescue Juliana; inside the cathedral, the wedding guests arrive and the conspirators finalize their sinister plot.
+
+CLIP: 49.8s to 78.5s (28.7s). Units below: id | seconds from clip start | type | text.
+e40_u026 | 0.0-6.0 | CAMERA | Medium shot of Rupert, the Blond Nobleman, standing before the altar draped in floral garlands. He wears an ornate silver-embroidered black formal coat and nervously adjusts his pristine white gloves.
+e40_u027 | 1.0-3.4 | DIALOGUE | BLOND NOBLEMAN (Nervous, Determined): "Everything must go perfectly."
+e40_u028 | 3.4-6.0 | ACTION | Rupert smooths the lapels of his coat, checking his posture as he waits for the bride.
+e40_u029 | 6.0-8.4 | CAMERA | Medium shot up on the stone balcony overlooking the nave, where an elder conspirator nobleman in black gloves stands gripping a cane.
+e40_u030 | 8.4-14.0 | CAMERA | High-angle wide shot looking down from the balcony across the entire cathedral filled with guests, candles lining the central aisle, and royal guards standing at attention.
+e40_u031 | 14.0-19.7 | CAMERA | Medium shot on the balcony as a Royal Guard in red uniform and tall bearskin hat steps up and bows respectfully to the elder nobleman.
+e40_u032 | 15.2-17.0 | DIALOGUE | ELDER NOBLEMAN (Stern, Scheming): "All entrances are covered?"
+e40_u033 | 17.1-18.4 | DIALOGUE | ROYAL GUARD (Obedient, Firm): "Every one, my Lord."
+e40_u034 | 18.5-19.5 | DIALOGUE | ELDER NOBLEMAN (Calculating): "Good."
+e40_u035 | 19.7-24.7 | CAMERA | Over-the-shoulder shot from behind the elder nobleman, his gloved hand resting on the stone balustrade, looking down upon the altar and seated aristocrats.
+e40_u036 | 20.0-24.4 | DIALOGUE | ELDER NOBLEMAN (Ruthless, Victorious): "By sunset, Ashburgh will have its new Duke and Duchess."
+e40_u037 | 24.7-28.7 | CAMERA | Tight, menacing close-up on the elder nobleman's face as a cold, sinister smile spreads across his lips.
+e40_u038 | 25.0-27.6 | DIALOGUE | ELDER NOBLEMAN (Deadly, Uncompromising): "And its witch will be dead."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

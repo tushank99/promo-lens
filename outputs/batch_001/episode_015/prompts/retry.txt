@@ -1,0 +1,90 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: When ruthless thugs desecrate Juliana's medicinal garden and trample her late mother's herbs, a protective Alexander charges into the night to defend her.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c01: window e15_u001..e15_u035 (0.0-49.5 s, 49.5 s); hook ['e15_u004'] modality visual (delay 3.6 s)
+  FAILED: hook: hook e15_u004 begins 3.6s after clip start (limit 3.0s)
+  Original idea: This segment establishes the conflict and Juliana's desperate attempt to protect her mother's legacy, ending on her being shoved to the ground.
+  Scene 01: units e15_u001..e15_u055, 0.0-86.0 s. Units of that scene:
+    e15_u001 | 0.0-3.5 | CAMERA | High-angle wide shot of the raised planter beds illuminated by the pale moonlight as three shadowy figures march purposefully down the central stone path.
+    e15_u002 | 0.0-3.5 | ACTION | Three menacing thugs, armed with clubs and tools, stalk through the quiet herbal garden surrounded by stone walls.
+    e15_u003 | 3.5-5.0 | CAMERA | Low-angle medium shot focusing on one thug raising a heavy wooden club overhead.
+    e15_u004 | 3.6-4.9 | ACTION | The thug brutally smashes his club down into a wooden planter box, shattering the frame.
+    e15_u005 | 3.8-4.9 | SFX | A splintering wooden crash echoing through the night air.
+    e15_u006 | 5.0-7.5 | CAMERA | Medium close-up of a bald thug leaning over a lush bed of white medicinal chamomile herbs.
+    e15_u007 | 5.1-7.4 | ACTION | The bald thug roughly rips a massive handful of flowering herbs up by their roots, scattering soil across the path.
+    e15_u008 | 7.5-11.8 | CAMERA | Medium shot framing the open doorway of the stone cottage, bathed in warm interior light against the dark night.
+    e15_u009 | 7.6-11.8 | ACTION | Juliana bursts through the cottage doorway, her hands wrapped in clean white bandages, freezing in horror at the destruction.
+    e15_u010 | 8.5-11.7 | DIALOGUE | JULIANA (Desperate, Alarmed): "Stop! What are you doing?!"
+    e15_u011 | 11.8-15.8 | CAMERA | Medium close-up of the Thug with Cap holding the uprooted chamomile bouquet, sneering with cruel amusement.
+    e15_u012 | 13.0-15.7 | DIALOGUE | THUG WITH CAP (Mocking, Smug): "We're clearing this rubbish."
+    e15_u013 | 15.8-18.8 | CAMERA | Close-up on Juliana, her face tight with anguish and fury as she clutches her bandaged hands against her chest.
+    e15_u014 | 16.4-18.7 | DIALOGUE | JULIANA (Furious, Pleading): "Those are medicinal plants!"
+    e15_u015 | 18.8-22.5 | CAMERA | Low-angle shot tracking down from the bald thug's grinning face to his worn leather boots on the muddy flagstones.
+    e15_u016 | 20.0-22.3 | DIALOGUE | BALD THUG (Callous): "They look like weeds to me."
+    e15_u017 | 20.5-22.5 | ACTION | The bald thug flings the bouquet into the mud and grinds his heavy boot directly onto the delicate flowers.
+    e15_u018 | 22.5-26.8 | CAMERA | High-angle two-shot as Juliana rushes forward and drops directly onto her knees in the cold mud before the thug.
+    e15_u019 | 22.8-26.5 | ACTION | Juliana frantically tries to scoop the crushed soil and torn stems back into the bed with her bandaged hands.
+    e15_u020 | 23.2-26.3 | DIALOGUE | JULIANA (Choked with Tears, Desperate): "Please! Those plants took months to grow!"
+    e15_u021 | 26.8-31.5 | CAMERA | Medium two-shot of the Tall Thug with the club and the Thug with Cap bursting into raucous laughter under the full moon.
+    e15_u022 | 27.5-31.2 | DIALOGUE | TALL THUG (Contemptuous, Derisive): "Months? You actually spend your days growing this filth?"
+    e15_u023 | 31.5-34.0 | CAMERA | Tight close-up of Juliana's bandaged hands trembling as she tenderly gathers the soiled white flowers from the puddles.
+    e15_u024 | 34.0-37.0 | CAMERA | Low-angle medium shot tilting up as Juliana rises from the ground, standing tall despite her trembling frame.
+    e15_u025 | 34.8-36.8 | DIALOGUE | JULIANA (Defiant, Firm): "Leave my garden alone."
+    e15_u026 | 37.0-40.5 | CAMERA | Medium close-up of the Thug with Cap scoffing derisively.
+    e15_u027 | 37.2-40.4 | DIALOGUE | THUG WITH CAP (Sneering, Disdainful): "A noble lady playing in the dirt. What a joke."
+    e15_u028 | 40.5-44.2 | CAMERA | Medium close-up of Juliana, her eyes blazing with indignation and wounded pride.
+    e15_u029 | 41.0-44.0 | DIALOGUE | JULIANA (Resolute, Dignified): "It is my home. You have no right to destroy anything here."
+    e15_u030 | 44.2-46.5 | CAMERA | Tight close-up of the Thug with Cap stepping aggressively into Juliana's personal space, snarling with venom.
+    e15_u031 | 44.8-46.4 | DIALOGUE | THUG WITH CAP (Menacing Snarl): "Get out of the way!"
+    e15_u032 | 46.5-48.0 | CAMERA | Extreme close-up on Juliana's piercing blue eyes and set jaw, unflinching.
+    e15_u033 | 46.5-47.3 | DIALOGUE | JULIANA (Steely, Fearless): "No."
+    e15_u034 | 47.4-49.5 | ACTION | The Thug with Cap violently shoves Juliana back with both hands; she cries out as she loses her balance and crashes hard onto the wet stone path.
+    e15_u035 | 47.8-49.0 | DIALOGUE | JULIANA (Gasping Cry): "Ah!"
+    e15_u036 | 49.5-53.5 | CAMERA | Close-up tracking down to Juliana's hand hitting the mud next to the crushed chamomile flowers.
+    e15_u037 | 50.0-53.5 | ACTION | Juliana crawls forward on her elbows; fresh crimson blood seeps profusely through her white gauze bandages as she reaches for the ruined blossoms.
+    e15_u038 | 53.5-56.5 | CAMERA | Tight close-up on Juliana's mud-streaked, tear-stained face trembling in heartbreaking agony.
+    e15_u039 | 53.5-55.7 | DIALOGUE | JULIANA (Broken, Sobbing): "My mother's plants..."
+    e15_u040 | 56.5-60.0 | CAMERA | Low-angle wide shot of the three thugs pointing and laughing hysterically at her kneeling form.
+    e15_u041 | 57.3-59.8 | DIALOGUE | BALD THUG (Cruel, Laughing): "Look at her! Crying over weeds!"
+    e15_u042 | 60.0-62.0 | ACTION | The Tall Thug hoists his heavy wooden club above his head to crush the remaining herbs right before Juliana.
+    e15_u043 | 60.0-61.0 | DIALOGUE | JULIANA (Screaming): "Stop!"
+    e15_u044 | 62.0-63.2 | CAMERA | Medium close-up of the Thug with Cap suddenly stiffening, his smug smile dropping as footsteps pound in the darkness.
+    e15_u045 | 63.2-67.5 | CAMERA | Medium tracking shot as Alexander charges past the corner of the cottage into the misty moonlight, his dark coat billowing behind him.
+    e15_u046 | 63.5-67.5 | ACTION | Alexander storms forward with lethal intensity, dark hair flying, breath misting in the cold, radiating untamed rage.
+    e15_u047 | 67.5-73.5 | CAMERA | Close-up of Juliana looking up through wet lashes, trembling as shock transforms into overwhelming relief.
+    e15_u048 | 70.5-72.6 | DIALOGUE | JULIANA (Whispered Breath, Stunned): "Alexander..."
+    e15_u049 | 73.5-75.5 | CAMERA | Wide shot of the three thugs wheeling around to face the dark figure approaching from the mist.
+    e15_u050 | 75.5-78.5 | CAMERA | Low-angle tracking shot from behind Alexander's broad shoulders as he steadily steps past the fallen Juliana, towering over the intruders.
+    e15_u051 | 76.0-78.5 | ACTION | Alexander places himself directly between Juliana and the three thugs, staring them down with cold, deadly intent.
+    e15_u052 | 78.5-82.8 | CAMERA | Medium shot of the three thugs regrouping, the Thug with Cap feigning swagger as he grips his club.
+    e15_u053 | 79.0-82.4 | DIALOGUE | THUG WITH CAP (Challenging, Arrogant): "What? You want to fight us, veteran?"
+    e15_u054 | 82.8-86.0 | CAMERA | Close-up of Juliana looking up with wide, anxious eyes, breath hitching in suspense as violence hangs on a knife's edge.
+    e15_u055 | 84.0-86.0 | SFX | Tense, low dramatic cello swell holding into an abrupt cliffhanger cut.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

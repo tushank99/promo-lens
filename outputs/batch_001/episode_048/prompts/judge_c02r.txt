@@ -1,0 +1,72 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+While feigning submission after her public humiliation, Catherine schemes in secret, plotting to use the council's ten-day reprieve to strike back at Alexander and Juliana with the aid of Father Thomas.
+CONTINUITY NOTES: Directly follows Episode 47's public disgrace where Catherine bowed to Juliana and accepted the position of a maid; in private, Catherine sheds her feigned defeat and initiates her counter-plot.
+
+CLIP: 34.0s to 80.0s (46.0s). Units below: id | seconds from clip start | type | text.
+e48_u021 | 0.0-2.5 | ACTION | Catherine strides forward and firmly grasps Agnes by both hands, stepping uncomfortably close.
+e48_u022 | 0.0-9.0 | CAMERA | Two-shot profile of Catherine towering over Agnes in the candlelight.
+e48_u023 | 0.2-3.1 | DIALOGUE | CATHERINE (Fierce, Hissing): "Everyone in that chapel saw me humiliated today."
+e48_u024 | 3.3-5.0 | DIALOGUE | CATHERINE (Spiteful, calculating): "Good. Let them remember it."
+e48_u025 | 5.2-9.0 | DIALOGUE | CATHERINE (Sinister, Predatory): "Grief makes people careless, and carelessness is exactly what I need from that household right now."
+e48_u026 | 9.0-12.8 | CAMERA | Over-the-shoulder close-up on Agnes, her brow furrowed in anxious alarm.
+e48_u027 | 9.3-12.8 | DIALOGUE | AGNES (Anxious, Whispering): "My lady... the Duke has bailiffs watching every road out of the county."
+e48_u028 | 12.8-17.5 | CAMERA | Close-up on Catherine, a smug, venomous smile spreading across her painted lips.
+e48_u029 | 13.0-17.3 | DIALOGUE | CATHERINE (Confident, Devious): "I'm not leaving the county, Agnes. I'm going back into that house."
+e48_u030 | 17.5-24.2 | CAMERA | Medium tracking shot following Catherine as she releases Agnes and stalks across the room toward the window sill.
+e48_u031 | 18.0-21.0 | DIALOGUE | CATHERINE (Pleased, Scheming): "Father Thomas did his part beautifully today."
+e48_u032 | 21.2-24.2 | DIALOGUE | CATHERINE (Calculated, Demanding): "Now I need him to do a little more before that hearing convenes."
+e48_u033 | 24.2-27.0 | CAMERA | Medium close-up of Agnes glancing nervously over her shoulder.
+e48_u034 | 24.5-26.6 | DIALOGUE | AGNES (Apprehensive): "If someone sees him come to you..."
+e48_u035 | 27.0-32.9 | CAMERA | Close-up on Catherine spinning around from the window, her jaw set in terrifying firmness.
+e48_u036 | 27.8-30.0 | DIALOGUE | CATHERINE (Stern, Threatening): "Then no one sees him."
+e48_u037 | 30.3-32.9 | DIALOGUE | CATHERINE (Authoritative): "That is precisely your job tonight."
+e48_u038 | 32.9-39.5 | CAMERA | Medium shot as Catherine picks up a heavy velvet coin purse and places it firmly into Agnes's awaiting open palms.
+e48_u039 | 33.5-35.0 | SFX | Dull clinking of heavy gold coins inside a leather pouch.
+e48_u040 | 33.8-36.5 | DIALOGUE | CATHERINE (Hushed, Commanding): "Send for the priest. Tonight."
+e48_u041 | 36.8-39.4 | DIALOGUE | CATHERINE (Firm, Final): "And make sure no one sees him arrive."
+e48_u042 | 39.5-42.8 | CAMERA | Wide shot of Agnes curtsying swiftly, stashing the pouch into her apron, and hurrying out through the heavy wooden door into the darkness.
+e48_u043 | 42.8-46.0 | CAMERA | Exterior shot looking through the dark diamond-paned window frame at Catherine standing motionless in the warm candlelight, staring outward into the night with cold, unyielding ambition as the scene fades to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

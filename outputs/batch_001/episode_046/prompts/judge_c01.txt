@@ -1,0 +1,67 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+The High Priest places the sanctuary under Crown seizure and invalidates Alexander and Juliana's wedding for lack of royal license, prompting Alexander to demand a ten-day ecclesiastical trial while Catherine schemes to destroy them.
+CONTINUITY NOTES: Picks up directly from Episode 45's cliffhanger where the High Priest stormed into the church with royal guards and challenged the legality of Alexander and Juliana's marriage.
+
+CLIP: 7.1s to 37.0s (29.9s). Units below: id | seconds from clip start | type | text.
+e46_u005 | 0.0-3.9 | CAMERA | Wide tracking shot down the ruined nave aisle as the High Priest marches forward flanked by armed royal guards with halberds.
+e46_u006 | 0.7-3.9 | SFX | Heavy armored footsteps and boots crunching against loose stone debris.
+e46_u007 | 3.9-6.7 | CAMERA | Medium shot of the High Priest holding up a wax-sealed document before his chest, flanked by two armed guards.
+e46_u008 | 4.4-9.7 | DIALOGUE | HIGH PRIEST (Booming, Authoritative): "By Royal command, this sanctuary is placed under immediate Crown scesion."
+e46_u009 | 6.7-10.1 | CAMERA | Close-up of the High Priest's fingers breaking the crimson wax seal and string on the war office envelope.
+e46_u010 | 7.9-9.7 | SFX | Crisp tear of wax and parchment string snapping open.
+e46_u011 | 10.1-13.4 | CAMERA | Low-angle medium shot of the High Priest opening the yellowed War Office document.
+e46_u012 | 10.2-13.3 | DIALOGUE | HIGH PRIEST (Stern, Commanding): "None shall leave until every witness is accounted for."
+e46_u013 | 13.4-15.7 | CAMERA | Wide shot of Alexander and Juliana standing defiant at the altar as congregation members watch in silence.
+e46_u014 | 13.5-15.7 | DIALOGUE | HIGH PRIEST (Cold, Accusatory): "You married this woman as a nameless beggar..."
+e46_u015 | 15.7-19.7 | CAMERA | Medium close-up of the High Priest holding the decree, his gaze burning with disdain.
+e46_u016 | 15.8-19.4 | DIALOGUE | HIGH PRIEST (Scornful, Harsh): "...in a hedge ceremony no clerk in England ever recorded."
+e46_u017 | 19.7-23.4 | CAMERA | Full shot of the High Priest brandishing the letter aloft in the center of the chapel nave.
+e46_u018 | 19.7-24.7 | DIALOGUE | HIGH PRIEST (Resonant, Dismissive): "Three years later, the beggar is revealed to be a Duke. The marriage does not rise with him."
+e46_u019 | 23.4-27.1 | CAMERA | Medium shot of Alexander turning toward Juliana, placing a protective hand on her arm.
+e46_u020 | 25.4-27.4 | ACTION | Juliana places her hand over Alexander's as he steps forward to shield her.
+e46_u021 | 27.1-29.9 | CAMERA | Close-up of Alexander, his scarred face hardening with unwavering conviction.
+e46_u022 | 27.2-29.6 | DIALOGUE | ALEXANDER (Gravely, Firm): "She married the man... not the title."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

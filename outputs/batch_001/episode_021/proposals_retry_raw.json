@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "baa0ec9f2b6fb5d4",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.0,
+    "secs": 2.93,
+    "tokens_in": 3132,
+    "tokens_out": 227
+  },
+  "asked_for": [
+    "c02"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e21_u063",
+        "end_unit_id": "e21_u076",
+        "hook": {
+          "unit_ids": [
+            "e21_u063"
+          ],
+          "modality": "visual",
+          "description": "A low-angle shot past the sleeping boy toward Prudence, whose face is twisted in sudden, dark resentment.",
+          "evidence": "The visual shift from the relief of the cure to Prudence's ominous expression immediately signals a change in tone."
+        },
+        "cliffhanger_unit_id": "e21_u076",
+        "reason": "The window is shortened to 23 seconds, ensuring the cliffhanger unit starts at 108.5s, which is within the final 20% of the total duration."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

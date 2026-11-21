@@ -1,0 +1,67 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+While secretly administering a charcoal antidote to the poisoned Dowager Duchess in the dead of night, Juliana is stunned when the Duchess suddenly recognizes a distinctive family ring on her hand and fiercely demands the truth about her identity.
+CONTINUITY NOTES: Following her encounter with Alexander in the forest where she vowed to protect the Duchess, Juliana sneaks into the bedchamber at Ashburg Manor to deliver the remaining antidote before Rupert and Catherine's poison takes full hold.
+
+CLIP: 86.5s to 120.88s (34.38s). Units below: id | seconds from clip start | type | text.
+e26_u034 | 0.0-4.3 | CAMERA | Medium tracking down Juliana's apron to her hand as she rests it against the bed linens, revealing a distinctive engraved signet ring on her finger.
+e26_u035 | 0.5-4.0 | ACTION | Juliana rests her right hand against the edge of the bedcover, unwittingly placing the unique ring directly within the Duchess's line of sight.
+e26_u036 | 3.7-5.5 | SFX | A sharp, stunned gasp.
+e26_u037 | 4.3-8.5 | CAMERA | Extreme close-up of the Dowager Duchess gasping sharply, her eyes widening in profound shock as all color drains from her face.
+e26_u038 | 4.3-8.5 | ACTION | The Duchess's mouth hangs open in pure disbelief as she stares fixedly at Juliana's hand.
+e26_u039 | 8.5-13.5 | CAMERA | Medium shot of the Duchess pushing herself up against the headboard, trembling as she stretches out her frail hand.
+e26_u040 | 9.5-13.3 | DIALOGUE | DOWAGER DUCHESS (Breathless, Shaken): "Your hand... Let me see your hand."
+e26_u041 | 13.5-19.0 | CAMERA | Close-up of Juliana reacting with confusion and growing concern at the elder woman's sudden frenzy.
+e26_u042 | 14.0-18.5 | DIALOGUE | JULIANA (Confused, Alarmed): "Your Grace? What is wrong? You look as though you've seen a ghost."
+e26_u043 | 19.0-22.5 | CAMERA | Close-up shot of the Duchess's withered, shaking hand reaching across the blanket toward Juliana's arm.
+e26_u044 | 19.5-22.5 | ACTION | The Duchess reaches outward with trembling fingers, grasping frantically for Juliana.
+e26_u045 | 22.3-23.5 | SFX | A sudden sharp rustle of fabric as her fingers snap tight.
+e26_u046 | 22.5-24.3 | CAMERA | Tight shot of the Duchess's frail hand clamping down with fierce, unexpected strength onto Juliana's dark sleeve.
+e26_u047 | 22.7-24.1 | DIALOGUE | DOWAGER DUCHESS (Stern, Desperate): "Do not move!"
+e26_u048 | 24.3-29.3 | CAMERA | Close-up of the Dowager Duchess looking up at Juliana with overwhelming urgency and tears brimming in her wide eyes.
+e26_u049 | 24.5-29.0 | DIALOGUE | DOWAGER DUCHESS (Intense, Demanding): "Where... where... Where did you get this ring? Speak to me!"
+e26_u050 | 29.3-33.0 | CAMERA | Medium close-up of Juliana frozen in shock, her breath catching as the Duchess's desperate words echo in the silence of the room.
+e26_u051 | 33.0-34.4 | CAMERA | Tight close-up of the Dowager Duchess's two weathered hands tightly clasping Juliana's hand, holding the signet ring between them as a dramatic orchestral cliffhanger chord swells, cutting sharply to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

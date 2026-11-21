@@ -1,0 +1,162 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Defying Gerald and Clarissa's cruel mockery, Juliana accepts the mysterious scarred warrior's solemn proposal and is officially wed, choosing exile and dignity over her family's cruelty as they walk out into the light together.
+CONTINUITY NOTES: Picks up directly from Episode 3's cliffhanger where the Mysterious Bearded Man dropped to one knee before the altar, presenting a ring to Lady Juliana.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:31.4 (151.4 s).
+- Scene 01 (INT. CHAPEL – CONTINUOUS): 0.0-151.4 s, units e04_u001..e04_u110.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 38.8-42.0 s; 85.8-89.8 s; 134.5-139.5 s; 140.8-145.0 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e04_u001 | 0.0-1.5 | CAMERA | Close-up of the Mysterious Bearded Man's scarred hand holding out the silver band ring.
+e04_u002 | 1.5-3.2 | CAMERA | Medium close-up of Juliana, staring down in disbelief at the offered ring.
+e04_u003 | 1.5-3.2 | ACTION | Juliana's eyes widen, stunned breath catching in her throat.
+e04_u004 | 3.2-5.0 | CAMERA | Medium shot of Gerald stepping forward from his pew with a smug, sneering grin.
+e04_u005 | 3.4-4.9 | DIALOGUE | GERALD (Mocking, Arrogant): "Look at him."
+e04_u006 | 5.0-7.5 | CAMERA | Tight close-up of Gerald's venomous, self-satisfied face.
+e04_u007 | 5.0-7.5 | DIALOGUE | GERALD (Scornful): "A penniless nobody for a discarded bride."
+e04_u008 | 7.6-10.5 | CAMERA | Medium shot of Clarissa covering her mouth with her gloved hand, bursting into cruel laughter.
+e04_u009 | 7.8-9.5 | ACTION | Clarissa giggles spitefully, lowering her gloved hand to gloat.
+e04_u010 | 9.0-10.5 | DIALOGUE | CLARISSA (Gleeful, Condescending): "How fitting."
+e04_u011 | 10.5-12.0 | CAMERA | Two-shot of Clarissa and Gerald standing proudly side-by-side in their pew as Clarissa points mocking fingers.
+e04_u012 | 10.6-14.2 | DIALOGUE | CLARISSA (Taunting): "You have finally found a man as worthless as everyone thinks you are."
+e04_u013 | 12.0-15.0 | CAMERA | Close-up of Juliana's side profile, hurt glistening in her eyes as the insult cuts deep.
+e04_u014 | 15.0-17.5 | CAMERA | Medium close-up of Juliana looking up toward the high arches of the chapel, drawing inward strength.
+e04_u015 | 15.5-17.5 | ACTION | Juliana closes her eyes briefly and releases a steadying breath.
+e04_u016 | 17.5-21.8 | CAMERA | Low-angle shot looking past the kneeling Mysterious Bearded Man up at Juliana.
+e04_u017 | 20.0-21.8 | DIALOGUE | JULIANA (Vulnerable, Trembling): "You don't even know me."
+e04_u018 | 21.9-23.4 | CAMERA | Close-up of the Mysterious Bearded Man gazing upward with unwavering earnestness.
+e04_u019 | 23.4-25.8 | CAMERA | Tight close-up of Juliana's anguished face.
+e04_u020 | 23.5-25.8 | DIALOGUE | JULIANA (Conflicted, Pained): "You heard what they think I am."
+e04_u021 | 25.8-27.9 | CAMERA | Medium shot looking down as Juliana addresses the kneeling stranger directly.
+e04_u022 | 25.9-27.7 | DIALOGUE | JULIANA (Searching): "Why would you offer me your name?"
+e04_u023 | 27.9-30.5 | CAMERA | Low-angle close-up of the Mysterious Bearded Man.
+e04_u024 | 28.0-30.2 | DIALOGUE | MYSTERIOUS BEARDED MAN (Grave, Certain): "Because I know what I see."
+e04_u025 | 30.5-32.0 | CAMERA | Medium close-up of Juliana reacting with a mix of suspicion and wonder.
+e04_u026 | 32.0-33.8 | CAMERA | Intimate tight shot framing Juliana's profile beside his dark silhouette.
+e04_u027 | 32.1-33.7 | DIALOGUE | JULIANA (Quiet, Hesitant): "And what do you see?"
+e04_u028 | 33.8-36.0 | CAMERA | Medium close-up of the Mysterious Bearded Man.
+e04_u029 | 34.0-36.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Firm, Sincere): "A woman who was betrayed."
+e04_u030 | 36.0-38.9 | CAMERA | Over-the-shoulder shot past the bearded warrior toward Gerald watching nervously from the family pew.
+e04_u031 | 36.5-38.8 | DIALOGUE | MYSTERIOUS BEARDED MAN (Resolute): "Not a woman who deserves to be discarded."
+e04_u032 | 38.9-41.5 | CAMERA | Low-angle medium shot of Juliana bending slightly forward, shaken by his words.
+e04_u033 | 41.5-45.0 | CAMERA | Medium close-up of Juliana.
+e04_u034 | 42.0-44.8 | DIALOGUE | JULIANA (Soft, Bitter): "You don't know what my family has done to me."
+e04_u035 | 45.0-49.8 | CAMERA | Low-angle shot of the Mysterious Bearded Man still on one knee, framed against the stained-glass window.
+e04_u036 | 46.0-48.8 | DIALOGUE | MYSTERIOUS BEARDED MAN (Solemn): "I know they have made you stand alone."
+e04_u037 | 49.8-52.8 | CAMERA | Extreme close-up of the ring held in his weathered fingers, Juliana's white silk gown blurred in background.
+e04_u038 | 50.0-52.5 | DIALOGUE | MYSTERIOUS BEARDED MAN (Gentle): "You don't have to stand alone now."
+e04_u039 | 52.8-55.8 | CAMERA | Medium shot of Juliana, her pride flaring through her sadness.
+e04_u040 | 53.6-55.8 | DIALOGUE | JULIANA (Defiant, Dignified): "If this is pity, take back your ring."
+e04_u041 | 55.8-59.0 | CAMERA | Tight close-up on Juliana's face, a tear clinging to her cheek.
+e04_u042 | 56.8-58.8 | DIALOGUE | JULIANA (Fierce): "I will not become anyone's charity."
+e04_u043 | 59.0-62.8 | CAMERA | Medium close-up of the Mysterious Bearded Man holding her gaze directly.
+e04_u044 | 59.5-62.5 | DIALOGUE | MYSTERIOUS BEARDED MAN (Earnest): "It is not pity, Lady Juliana."
+e04_u045 | 62.8-65.8 | CAMERA | Intense tight close-up on his piercing blue-green eyes and facial scars.
+e04_u046 | 63.5-65.5 | DIALOGUE | MYSTERIOUS BEARDED MAN (Deep, Absolute): "It is a vow."
+e04_u047 | 65.8-67.5 | CAMERA | Close-up of Juliana, completely disarmed by the gravity of his promise.
+e04_u048 | 66.0-68.0 | DIALOGUE | JULIANA: "I don't know this man."
+e04_u049 | 67.5-69.5 | CAMERA | Medium shot of Lady Ashcroft, Clarissa, and Lord Ashcroft seated coldly in the family pew.
+e04_u050 | 68.0-69.6 | DIALOGUE | JULIANA: "I don't know what waits beyond these doors."
+e04_u051 | 69.5-71.8 | CAMERA | Side profile close-up of Juliana looking toward her estranged family, then turning back.
+e04_u052 | 69.8-72.0 | DIALOGUE | JULIANA: "But he looked at me when everyone else turned away."
+e04_u053 | 71.8-74.8 | CAMERA | Medium shot of Juliana facing down at him, a faint, tender smile breaking across her lips.
+e04_u054 | 72.8-74.5 | DIALOGUE | JULIANA (Resolved): "Then I accept."
+e04_u055 | 74.8-76.2 | CAMERA | Wide shot of the altar with the high cathedral stained glass overhead as the Priest looks on between them.
+e04_u056 | 76.2-79.0 | CAMERA | Medium shot of the Mysterious Bearded Man rising smoothly to his feet before Juliana.
+e04_u057 | 76.2-79.0 | ACTION | The Mysterious Bearded Man stands tall, extending his scarred hand toward Juliana.
+e04_u058 | 79.0-81.8 | CAMERA | Close-up of Juliana's slender hand resting gently into his large, weathered palm.
+e04_u059 | 79.2-81.5 | ACTION | He folds his fingers over hers, holding her hand with protective firmness.
+e04_u060 | 81.8-84.0 | CAMERA | Medium close-up of the Priest holding his open liturgical book, bewildered and trembling.
+e04_u061 | 82.0-83.8 | DIALOGUE | THE PRIEST (Hesitant, Anxious): "My- My Lady..."
+e04_u062 | 84.0-86.0 | CAMERA | Tight close-up of the Priest's alarmed, questioning eyes.
+e04_u063 | 84.0-85.8 | DIALOGUE | THE PRIEST (Tentative): "Are you certain?"
+e04_u064 | 86.0-88.8 | CAMERA | Medium shot of Lord Ashcroft seated in his pew, gripping his cane, bowed in grim silence.
+e04_u065 | 88.8-91.5 | CAMERA | Close-up profile of Juliana, her expression clear and unshakable.
+e04_u066 | 89.8-91.0 | DIALOGUE | JULIANA (Unwavering): "I am."
+e04_u067 | 91.5-94.8 | CAMERA | Medium close-up of the Priest swallowing hard and looking down at his book.
+e04_u068 | 92.0-94.5 | DIALOGUE | THE PRIEST (Resigned, Solemn): "Then... let us proceed."
+e04_u069 | 94.8-97.8 | CAMERA | Close two-shot of the Mysterious Bearded Man and Juliana gazing intimately into each other's eyes.
+e04_u070 | 95.8-98.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Low, Reassuring): "You need not say anything you do not mean."
+e04_u071 | 97.8-100.2 | CAMERA | Close-up of Juliana smiling softly up at him.
+e04_u072 | 98.2-100.0 | DIALOGUE | JULIANA (Warm, Sincere): "I truly mean it."
+e04_u073 | 100.2-102.2 | CAMERA | Close-up shot of his hands sliding the silver ring over her ring finger.
+e04_u074 | 100.2-102.2 | ACTION | The Mysterious Bearded Man carefully slides the band onto Juliana's finger.
+e04_u075 | 102.2-105.0 | CAMERA | Medium close-up of the Mysterious Bearded Man holding her hands tenderly.
+e04_u076 | 102.5-104.2 | DIALOGUE | MYSTERIOUS BEARDED MAN (Solemn): "You have my protection."
+e04_u077 | 105.0-107.8 | CAMERA | Tight shot of the warrior's face, his eyes full of devotion.
+e04_u078 | 105.2-107.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Steadfast): "You have my respect."
+e04_u079 | 107.8-110.0 | CAMERA | Extreme close-up of his intense gaze.
+e04_u080 | 107.8-109.8 | DIALOGUE | MYSTERIOUS BEARDED MAN (Grave): "And you have my word."
+e04_u081 | 110.0-112.8 | CAMERA | Medium three-shot with the Priest standing between them, raising both hands in blessing over their joined hands.
+e04_u082 | 110.0-113.0 | DIALOGUE | THE PRIEST (Ceremonial): "By the authority entrusted to me, I now pronounce you..."
+e04_u083 | 112.8-114.8 | CAMERA | High wide establishing shot looking down from the ceiling vaults of the cathedral onto the altar.
+e04_u084 | 113.0-114.8 | DIALOGUE | THE PRIEST (Off-Screen, Booming): "...husband and wife!"
+e04_u085 | 114.0-115.2 | SFX | Dramatic musical chord swelling.
+e04_u086 | 114.8-116.8 | CAMERA | Medium close-up of Gerald lunging forward, pointing an enraged finger.
+e04_u087 | 115.0-116.8 | DIALOGUE | GERALD (Furious, Shouting): "You have thrown yourself away!"
+e04_u088 | 116.8-119.0 | CAMERA | Tight close-up of Gerald, face contorted in rage.
+e04_u089 | 117.0-119.0 | DIALOGUE | GERALD (Livid): "For a penniless nobody!"
+e04_u090 | 119.0-122.8 | CAMERA | Medium two-shot of Juliana standing tall before Gerald in the chapel aisle, her husband standing guard behind her.
+e04_u091 | 120.5-122.8 | DIALOGUE | JULIANA (Calm, Cutting): "I would rather choose my own life..."
+e04_u092 | 122.8-125.8 | CAMERA | Close-up of Juliana, her jaw set with unshakable pride.
+e04_u093 | 123.0-125.5 | DIALOGUE | JULIANA (Firm, Final): "...than spend another moment begging for yours."
+e04_u094 | 125.8-127.4 | CAMERA | Tight close-up of Gerald, eyes wide with speechless shock and wounded pride.
+e04_u095 | 126.0-127.4 | ACTION | Gerald recoils slightly, mouth agape.
+e04_u096 | 127.4-131.5 | CAMERA | Wide shot of Lady Ashcroft rising abruptly from the front pew, pointing an accusatory hand toward the doors.
+e04_u097 | 127.5-131.5 | DIALOGUE | LADY ASHCROFT (Imperious, Shouting): "Do not bring this man anywhere near Ashcroft Manor!"
+e04_u098 | 131.5-134.8 | CAMERA | Tight close-up of Lady Ashcroft, eyes blazing with cold malice.
+e04_u099 | 132.0-134.5 | DIALOGUE | LADY ASHCROFT (Venomous): "You are disowned!"
+e04_u100 | 134.8-136.0 | CAMERA | Medium shot of Lord Ashcroft bowing his head deeply over his cane in shame.
+e04_u101 | 136.0-138.8 | CAMERA | Close-up of Juliana. Tears brim in her eyes at the formal rejection, but she does not break.
+e04_u102 | 138.8-140.8 | CAMERA | Medium two-shot as the Mysterious Bearded Man turns gently to Juliana, reaching his hand out once more.
+e04_u103 | 139.5-140.8 | DIALOGUE | MYSTERIOUS BEARDED MAN (Soft, Protective): "Come, Lady Juliana."
+e04_u104 | 140.8-142.8 | CAMERA | Close-up of Juliana placing her hand securely into his, gripping his scarred hand.
+e04_u105 | 142.8-144.8 | CAMERA | Wide tracking shot behind Juliana and the warrior as they begin walking down the central aisle toward the chapel doors.
+e04_u106 | 144.8-146.5 | CAMERA | Medium three-shot of Gerald, Clarissa, and Lady Ashcroft watching in stunned silence and disbelief.
+e04_u107 | 145.0-146.5 | ACTION | Clarissa gapes in shock while Lady Ashcroft exhales in exasperation.
+e04_u108 | 146.5-151.4 | CAMERA | Wide shot from the back of the chapel as the massive oak doors swing wide open, revealing bright daylight and the courtyard outside.
+e04_u109 | 147.5-151.4 | ACTION | Juliana and the Mysterious Bearded Man walk hand-in-hand through the towering doors into the sunlight together, turning their backs on the ruined wedding as the screen fades out.
+e04_u110 | 147.0-149.0 | SFX | Heavy oak doors creaking open, followed by a triumphant musical swell fading out into silence.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

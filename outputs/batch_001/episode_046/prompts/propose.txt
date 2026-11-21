@@ -1,0 +1,127 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: The High Priest places the sanctuary under Crown seizure and invalidates Alexander and Juliana's wedding for lack of royal license, prompting Alexander to demand a ten-day ecclesiastical trial while Catherine schemes to destroy them.
+CONTINUITY NOTES: Picks up directly from Episode 45's cliffhanger where the High Priest stormed into the church with royal guards and challenged the legality of Alexander and Juliana's marriage.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:23.9 (143.9 s).
+- Scene 01 (INT. ASHBURTON ESTATE CHAPEL – CONTINUOUS): 0.0-143.9 s, units e46_u001..e46_u075.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 3.5-7.8 s
+- Overlapping dialogue exchanges (include all members or none): e46_u050 + e46_u052
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e46_u001 | 0.0-3.5 | CAMERA | Full shot of Alexander and Juliana standing side by side before the altar, their hands tightly clasped beneath the soaring stained-glass windows.
+e46_u002 | 0.0-3.5 | ACTION | Alexander holds Juliana's hand resolutely as Juliana gazes toward the church aisle where the intrusion unfolds.
+e46_u003 | 3.5-5.8 | CAMERA | Medium close-up of an elderly noblewoman seated in the pew, clutching her chest with anxious apprehension.
+e46_u004 | 5.8-7.1 | CAMERA | Medium shot of Catherine in her lavish bridal gown, her fists clenched tightly in silent fury.
+e46_u005 | 7.1-11.0 | CAMERA | Wide tracking shot down the ruined nave aisle as the High Priest marches forward flanked by armed royal guards with halberds.
+e46_u006 | 7.8-11.0 | SFX | Heavy armored footsteps and boots crunching against loose stone debris.
+e46_u007 | 11.0-13.8 | CAMERA | Medium shot of the High Priest holding up a wax-sealed document before his chest, flanked by two armed guards.
+e46_u008 | 11.5-16.8 | DIALOGUE | HIGH PRIEST (Booming, Authoritative): "By Royal command, this sanctuary is placed under immediate Crown scesion."
+e46_u009 | 13.8-17.2 | CAMERA | Close-up of the High Priest's fingers breaking the crimson wax seal and string on the war office envelope.
+e46_u010 | 15.0-16.8 | SFX | Crisp tear of wax and parchment string snapping open.
+e46_u011 | 17.2-20.5 | CAMERA | Low-angle medium shot of the High Priest opening the yellowed War Office document.
+e46_u012 | 17.3-20.4 | DIALOGUE | HIGH PRIEST (Stern, Commanding): "None shall leave until every witness is accounted for."
+e46_u013 | 20.5-22.8 | CAMERA | Wide shot of Alexander and Juliana standing defiant at the altar as congregation members watch in silence.
+e46_u014 | 20.6-22.8 | DIALOGUE | HIGH PRIEST (Cold, Accusatory): "You married this woman as a nameless beggar..."
+e46_u015 | 22.8-26.8 | CAMERA | Medium close-up of the High Priest holding the decree, his gaze burning with disdain.
+e46_u016 | 22.9-26.5 | DIALOGUE | HIGH PRIEST (Scornful, Harsh): "...in a hedge ceremony no clerk in England ever recorded."
+e46_u017 | 26.8-30.5 | CAMERA | Full shot of the High Priest brandishing the letter aloft in the center of the chapel nave.
+e46_u018 | 26.8-31.8 | DIALOGUE | HIGH PRIEST (Resonant, Dismissive): "Three years later, the beggar is revealed to be a Duke. The marriage does not rise with him."
+e46_u019 | 30.5-34.2 | CAMERA | Medium shot of Alexander turning toward Juliana, placing a protective hand on her arm.
+e46_u020 | 32.5-34.5 | ACTION | Juliana places her hand over Alexander's as he steps forward to shield her.
+e46_u021 | 34.2-37.0 | CAMERA | Close-up of Alexander, his scarred face hardening with unwavering conviction.
+e46_u022 | 34.3-36.7 | DIALOGUE | ALEXANDER (Gravely, Firm): "She married the man... not the title."
+e46_u023 | 37.0-42.8 | CAMERA | Low-angle shot looking up at the High Priest as he raises the parchment toward the vaulted ceiling.
+e46_u024 | 37.3-42.5 | DIALOGUE | HIGH PRIEST (Harsh, Derisive): "The church married a vagrant to a ruined lady. It never married the Duke of Ashburton to anyone."
+e46_u025 | 42.8-47.0 | CAMERA | Medium shot of the High Priest lowering the document, raising a single finger in admonishment.
+e46_u026 | 42.8-47.0 | DIALOGUE | HIGH PRIEST (Rigid, Formal): "No Crown license was sought, because no one thought to ask leave for a Duke to marry."
+e46_u027 | 47.0-49.0 | CAMERA | Two-shot of Juliana and Alexander listening intently, Juliana's eyes flashing with hurt and defiance.
+e46_u028 | 47.1-49.0 | DIALOGUE | HIGH PRIEST (Sharp): "No licensed clergyman presided..."
+e46_u029 | 49.0-52.2 | CAMERA | Close-up of the High Priest glaring intently.
+e46_u030 | 49.0-52.2 | DIALOGUE | HIGH PRIEST (Scathing): "...because a frightened village priest has no authority to bind a peer."
+e46_u031 | 52.2-58.2 | CAMERA | Medium shot pushing into a close-up as the High Priest thrusts the royal War Office proclamation directly into the camera.
+e46_u032 | 52.2-58.0 | DIALOGUE | HIGH PRIEST (Thundering): "And no clerk in London ever entered your name in the Royal register, because as far as the Crown knew, Alexander Ashburton was already dead."
+e46_u033 | 58.2-62.8 | CAMERA | Close-up of Juliana lifting her chin, tearful yet burning with righteous fury.
+e46_u034 | 58.5-62.5 | DIALOGUE | JULIANA (Fierce, Defiant): "I didn't ask this church for permission to survive, Father."
+e46_u035 | 62.8-65.8 | CAMERA | Medium two-shot of Juliana standing proudly beside Alexander.
+e46_u036 | 62.9-65.5 | DIALOGUE | JULIANA (Passionate, Resolute): "I won't ask it for permission to love."
+e46_u037 | 65.8-71.0 | CAMERA | Close-up of the High Priest looking down, a sinister, condescending smirk gracing his lips.
+e46_u038 | 66.8-70.5 | DIALOGUE | HIGH PRIEST (Condescending, Venomous): "Love doesn't make a Duchess, girl. Paper does."
+e46_u039 | 71.0-76.8 | CAMERA | Slow push-in medium close-up on Juliana, her voice trembling with intense indignation.
+e46_u040 | 71.4-74.3 | DIALOGUE | JULIANA (Accusatory, Pained): "Then look at this floor honestly, for once."
+e46_u041 | 74.4-76.6 | DIALOGUE | JULIANA (Voice Breaking, Passionate): "A church called me unworthy."
+e46_u042 | 76.8-78.0 | CAMERA | Quick cut to the High Priest maintaining a smug, impenetrable stare.
+e46_u043 | 76.8-78.0 | DIALOGUE | JULIANA (Bitter): "A church chained me."
+e46_u044 | 78.0-85.8 | CAMERA | Extreme close-up on Juliana's face as she shouts at the priest.
+e46_u045 | 78.1-81.0 | DIALOGUE | JULIANA (Furious, Resolute): "Now a church calls my marriage a lie!"
+e46_u046 | 81.1-85.5 | DIALOGUE | JULIANA (Shouting, Triumphant): "God married us, Father! You are just angry no one asked you first!"
+e46_u047 | 85.8-89.2 | CAMERA | Medium close-up of Catherine leaning against a stone archway, whispering with venomous mockery.
+e46_u048 | 86.1-89.0 | DIALOGUE | CATHERINE (Malicious, Taunting): "Careful, healer. The floor isn't finished with you."
+e46_u049 | 89.2-92.5 | CAMERA | Close-up of the High Priest pressing the document against his chest, his eyes darkening with anger.
+e46_u050 | 89.3-92.4 | DIALOGUE | HIGH PRIEST (O.S. / Low, Threatening): "Careful, girl. You mistake my patience for weakness."
+e46_u051 | 92.5-96.0 | CAMERA | Low-angle shot of the High Priest stepping up the altar steps toward them.
+e46_u052 | 92.2-96.2 | DIALOGUE | HIGH PRIEST (Commanding, Severe): "God did not marry you. A frightened parishioner did, without leave, without license, without the Crown's blessing!"
+e46_u053 | 96.0-96.8 | CAMERA | Brief insert of Catherine smirking as she watches from the side.
+e46_u054 | 96.8-100.5 | CAMERA | Wide shot of the High Priest waving the letter overhead before the congregation.
+e46_u055 | 96.8-100.4 | DIALOGUE | HIGH PRIEST (Booming, Threatening): "And I have the power to undo in one hearing what took you three years to steal!"
+e46_u056 | 100.5-101.8 | CAMERA | Close-up of Catherine listening eagerly.
+e46_u057 | 101.8-106.8 | CAMERA | Profile medium shot of Alexander confronting the High Priest face-to-face at the foot of the altar.
+e46_u058 | 101.8-106.5 | DIALOGUE | ALEXANDER (Cold, Resolute): "A Duke's marriage is judged by the Crown's peerage court, not by a parish priest's seal."
+e46_u059 | 106.8-111.8 | CAMERA | Low-angle two-shot of the High Priest staring up into Alexander's imposing frame.
+e46_u060 | 107.0-111.5 | DIALOGUE | HIGH PRIEST (Stern, Unflinching): "The High Religious Council rules on matters of holy matrimony. That includes yours."
+e46_u061 | 111.8-118.5 | CAMERA | Medium close-up of Alexander glaring with icy authority.
+e46_u062 | 112.0-118.2 | DIALOGUE | ALEXANDER (Defiant, Commanding): "Then let it prove that in ten days, before witnesses. Not with six halberds pointed at me in my own chapel."
+e46_u063 | 118.5-124.0 | CAMERA | Wide profile two-shot of the High Priest and Alexander locked in an intense standoff before the altar.
+e46_u064 | 118.8-123.6 | DIALOGUE | HIGH PRIEST (Chilling, Victorious): "Ten days. And if the council rules against you, this county watches you lose her twice."
+e46_u065 | 124.0-126.5 | DIALOGUE | ALEXANDER (Steely, Unfazed): "I'll take that wager over your decree."
+e46_u066 | 126.5-127.2 | CAMERA | Quick reaction shot of the elderly woman in the pew gripping her beads in distress.
+e46_u067 | 127.2-133.5 | CAMERA | Wide shot from behind the guards as they surround Alexander and Juliana, halberds and swords pointed inches from Alexander's chest.
+e46_u068 | 127.2-133.2 | DIALOGUE | ALEXANDER (Thunderous, Imposing): "Lower them! Or explain to the Crown why its own bailiffs raised iron on the Duke it just confirmed!"
+e46_u069 | 133.5-138.8 | CAMERA | Medium shot of the High Priest extending his hand toward the guards, commanding them to stand down.
+e46_u070 | 134.0-136.0 | ACTION | The guards slowly lower their weapon points away from the Duke.
+e46_u071 | 134.2-138.5 | DIALOGUE | HIGH PRIEST (Ominous, Warning): "Ten days, Duke. Choose your witnesses well."
+e46_u072 | 138.8-140.5 | CAMERA | The High Priest turns sharply on his heel and strides past the guards toward the church exit.
+e46_u073 | 139.0-142.0 | SFX | Shuffling boots and clattering armor as the royal guards turn and retreat down the ruined aisle.
+e46_u074 | 140.5-143.9 | CAMERA | Slow pan to Catherine standing in her bridal gown beside the sunlit aisle, watching the priest depart before turning to camera with a wicked, predatory smile.
+e46_u075 | 141.2-143.8 | DIALOGUE | CATHERINE (Whispering, Malicious): "Ten days is plenty of time."
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

@@ -1,0 +1,62 @@
+{
+  "episode": 34,
+  "prompt_hash": "40ddb9c58947cc4a",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.4,
+    "secs": 3.2,
+    "tokens_in": 6029,
+    "tokens_out": 552,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e34_u007",
+        "end_unit_id": "e34_u021",
+        "hook": {
+          "unit_ids": [
+            "e34_u007"
+          ],
+          "modality": "visual",
+          "description": "Low-angle medium close-up of Lady Juliana standing erect in the dock, her prisoner label pinned to her rustic buttoned gown, her expression resolute.",
+          "evidence": "The visual of a woman in a prisoner's dock immediately establishes high stakes and a 'wrongfully accused' narrative."
+        },
+        "cliffhanger_unit_id": "e34_u021",
+        "reason": "The rapid escalation from the accusation to the judge slamming his gavel creates immediate tension."
+      },
+      {
+        "start_unit_id": "e34_u048",
+        "end_unit_id": "e34_u064",
+        "hook": {
+          "unit_ids": [
+            "e34_u048"
+          ],
+          "modality": "visual",
+          "description": "Lady Juliana slams her cuffed hands against the wooden railing of the dock, her voice ringing out in indignant fury.",
+          "evidence": "The physical outburst of a prisoner fighting back against false testimony is a classic, high-energy hook."
+        },
+        "cliffhanger_unit_id": "e34_u064",
+        "reason": "The betrayal by the maid followed by the townspeople turning on her creates a 'world against one' dynamic."
+      },
+      {
+        "start_unit_id": "e34_u093",
+        "end_unit_id": "e34_u106",
+        "hook": {
+          "unit_ids": [
+            "e34_u093"
+          ],
+          "modality": "visual",
+          "description": "Close-up of Lady Juliana lifting her chin without an ounce of hesitation.",
+          "evidence": "The visual of a defiant protagonist refusing to break under pressure is highly engaging for viewers."
+        },
+        "cliffhanger_unit_id": "e34_u106",
+        "reason": "Her powerful declaration that she will not call healing evil despite the threat of death is a strong emotional payoff."
+      }
+    ]
+  },
+  "note": null
+}

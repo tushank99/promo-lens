@@ -1,0 +1,137 @@
+[
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "7331f742b3f0b3de",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 8.6,
+      "secs": 3.88,
+      "tokens_in": 1918,
+      "tokens_out": 1552
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e15_u030",
+          "e15_u031"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e15_u030",
+          "e15_u034",
+          "e15_u045",
+          "e15_u051"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e15_u038",
+          "e15_u039",
+          "e15_u043",
+          "e15_u046"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e15_u030",
+          "e15_u034",
+          "e15_u045",
+          "e15_u051",
+          "e15_u055"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e15_u053",
+          "e15_u054",
+          "e15_u055"
+        ]
+      },
+      "hook_unit_id": "e15_u030",
+      "hook_type": "threat",
+      "emotion_type": "rage",
+      "trope": "heroic rescue",
+      "central_conflict": "Juliana is attacked by thugs over her garden, and Alexander rushes in to protect her.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c01r",
+    "prompt_hash": "e783e0948e474bb5",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 2,
+      "waited_s": 35.7,
+      "secs": 3.71,
+      "tokens_in": 2174,
+      "tokens_out": 1459
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e15_u003",
+          "e15_u004",
+          "e15_u005"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e15_u009",
+          "e15_u010",
+          "e15_u012",
+          "e15_u014"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e15_u013",
+          "e15_u014",
+          "e15_u020",
+          "e15_u025",
+          "e15_u032"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e15_u003",
+          "e15_u010",
+          "e15_u016",
+          "e15_u018",
+          "e15_u024",
+          "e15_u034"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e15_u033",
+          "e15_u034",
+          "e15_u035"
+        ]
+      },
+      "hook_unit_id": "e15_u003",
+      "hook_type": "visual_shock",
+      "emotion_type": "rage",
+      "trope": "defiant garden protector",
+      "central_conflict": "Juliana fights to protect her medicinal garden from violent thugs who are destroying it.",
+      "spoils_main_twist": false
+    }
+  }
+]

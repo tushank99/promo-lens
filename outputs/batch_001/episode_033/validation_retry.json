@@ -1,0 +1,62 @@
+[
+  {
+    "candidate_id": "c03r",
+    "proposal": {
+      "retry_of": "c03",
+      "start_unit_id": "e33_u084",
+      "end_unit_id": "e33_u098",
+      "hook": {
+        "unit_ids": [
+          "e33_u084"
+        ],
+        "modality": "visual",
+        "description": "The maid grabbing her head in a moment of pure, visceral agony.",
+        "evidence": "The clip opens on the maid's intense physical reaction to the Lord's ultimatum, immediately establishing the high stakes."
+      },
+      "cliffhanger_unit_id": "e33_u098",
+      "reason": "The window now ends at 174.0s, placing the cliffhanger unit (e33_u098) within the final 20% of the 33.5s duration."
+    },
+    "retry_of": "c03",
+    "norm": {
+      "start_unit_id": "e33_u084",
+      "end_unit_id": "e33_u098",
+      "hook": {
+        "unit_ids": [
+          "e33_u084"
+        ],
+        "modality": "visual",
+        "description": "The maid grabbing her head in a moment of pure, visceral agony.",
+        "evidence": "The clip opens on the maid's intense physical reaction to the Lord's ultimatum, immediately establishing the high stakes."
+      },
+      "cliffhanger_unit_id": "e33_u098",
+      "reason": "The window now ends at 174.0s, placing the cliffhanger unit (e33_u098) within the final 20% of the 33.5s duration."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "cliffhanger"
+    ],
+    "details": [
+      "cliffhanger e33_u098 starts at 163.8s, before the final 20% of the clip (167.33s)"
+    ],
+    "warnings": [],
+    "review": [
+      "straddled_action_or_sfx"
+    ],
+    "review_details": [
+      "action e33_u099 (164.5-174.04) overlaps the clip from outside the window: check the cut on footage"
+    ],
+    "hook_delay": 0.0,
+    "start": 140.5,
+    "end": 174.04,
+    "duration": 33.54,
+    "segments": [
+      {
+        "start_unit": "e33_u084",
+        "end_unit": "e33_u098",
+        "start": 140.5,
+        "end": 174.04
+      }
+    ]
+  }
+]

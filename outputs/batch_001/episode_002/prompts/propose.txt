@@ -1,0 +1,126 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Publicly cast aside at the altar by Gerald for her sister Clarissa and abandoned by her own family, Juliana stands tall and turns her public humiliation into an unyielding indictment of Gerald's honor.
+CONTINUITY NOTES: Picks up directly from Episode 1's cliffhanger. Gerald has turned away from Juliana at the altar, leaving her devastated before the entire aristocratic congregation.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:50.0 (110.0 s).
+- Scene 01 (INT. CATHEDRAL – CONTINUOUS): 0.0-110.0 s, units e02_u001..e02_u074.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): none
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e02_u001 | 0.0-2.8 | CAMERA | Medium low-angle shot on Gerald at the altar steps, looking down dismissively, while Clarissa in her shimmering gold gown stands behind him gloating.
+e02_u002 | 0.0-2.5 | DIALOGUE | THE FORMER GROOM (Cold, Callous): "I cannot marry you, Juliana."
+e02_u003 | 2.8-4.6 | CAMERA | Medium close-up on Juliana trembling in disbelief, her hands clasped tightly to her chest.
+e02_u004 | 2.8-4.6 | ACTION | Juliana gasps softly in heartbreak, her eyes wide and brimming with tears.
+e02_u005 | 4.6-6.6 | CAMERA | Medium shot returning to Gerald, sneering down at Juliana.
+e02_u006 | 4.7-6.5 | DIALOGUE | THE FORMER GROOM (Cruel, Derisive): "You are far too plain..."
+e02_u007 | 6.6-9.5 | CAMERA | Close-up on Juliana's tear-streaked face, crushed under his biting words.
+e02_u008 | 6.8-9.5 | DIALOGUE | THE FORMER GROOM (Dismissive): "...far too silent..."
+e02_u009 | 9.5-12.0 | CAMERA | Medium shot on Gerald turning slightly toward Clarissa as she smiles admiringly at him.
+e02_u010 | 9.6-12.0 | DIALOGUE | THE FORMER GROOM (Arrogant, Conceited): "...and completely beneath the future I deserve."
+e02_u011 | 12.0-15.8 | CAMERA | Wide shot down the aisle as Juliana takes an agonizing step forward toward the altar, extending a trembling hand.
+e02_u012 | 12.4-15.5 | DIALOGUE | LADY JULIANA (Desperate, Pleading): "Gerald... Look at me."
+e02_u013 | 15.8-18.0 | CAMERA | Close-up on Gerald's cold, merciless face staring ahead unblinkingly.
+e02_u014 | 18.0-20.7 | CAMERA | Tight insert on Juliana's hand clutching the heirloom amethyst pendant resting against her gown.
+e02_u015 | 18.2-20.6 | DIALOGUE | LADY JULIANA (Trembling, Betrayed): "You gave me your word before both our families."
+e02_u016 | 20.7-23.8 | CAMERA | Medium two-shot of Gerald and Clarissa standing side by side before the priest.
+e02_u017 | 20.9-23.7 | DIALOGUE | THE FORMER GROOM (Indifferent, Unapologetic): "Promises change when a better choice appears."
+e02_u018 | 23.8-27.6 | CAMERA | Medium close-up on Juliana clutching her chest, her voice quivering with disbelief.
+e02_u019 | 24.0-27.4 | DIALOGUE | LADY JULIANA (Shattered, Disbelieving): "A better choice? Is that what she is?"
+e02_u020 | 27.6-30.6 | CAMERA | Wide shot from behind Juliana looking up the altar stairs at Gerald with Clarissa linked to his arm.
+e02_u021 | 27.8-30.5 | DIALOGUE | THE FORMER GROOM (Resolute, Harsh): "She is what I should have chosen from the beginning."
+e02_u022 | 30.6-32.4 | CAMERA | Medium shot of Juliana's father seated prominently in the family pew, clutching his gold-topped cane.
+e02_u023 | 30.9-32.4 | DIALOGUE | LADY JULIANA (Vulnerable, Begging): "Father..."
+e02_u024 | 32.4-34.2 | CAMERA | Close-up of the father's stern, unyielding face.
+e02_u025 | 34.2-37.2 | CAMERA | Medium shot of Juliana turning toward her father in the pews, imploring him.
+e02_u026 | 34.3-37.1 | DIALOGUE | LADY JULIANA (Choked with Tears): "Surely you will not let him humiliate me like this?"
+e02_u027 | 37.2-42.5 | CAMERA | Medium shot tracking in on Juliana's father as he leans firmly upon his cane, looking down coldly.
+e02_u028 | 37.5-42.3 | DIALOGUE | BLOND NOBLEMAN (Stern, Cold): "Gerald has made his choice. Accept it, Juliana."
+e02_u029 | 42.5-44.8 | CAMERA | Close-up on the father's hardening eyes, entirely unsympathetic.
+e02_u030 | 42.5-44.7 | DIALOGUE | BLOND NOBLEMAN (Severely, Harsh): "Do not disgrace us further."
+e02_u031 | 44.8-47.6 | CAMERA | Extreme close-up on Juliana's tear-drenched eyes as the sting of her father's rejection lands.
+e02_u032 | 45.3-47.4 | DIALOGUE | LADY JULIANA (Whispering, Crushed): "You won't even look at me."
+e02_u033 | 47.6-51.5 | CAMERA | Medium shot on Clarissa, beaming smugly as she clings to Gerald's arm.
+e02_u034 | 47.8-51.4 | DIALOGUE | LADY IN GOLD GOWN (Mocking, Spiteful): "Why are you surprised, sister? Look at you."
+e02_u035 | 51.5-53.4 | CAMERA | Tight insert on Clarissa's gloved fingers contemptuously pinching the satin folds of Juliana's gown.
+e02_u036 | 51.6-53.2 | DIALOGUE | LADY IN GOLD GOWN (Scornful): "That plain, old-fashioned gown."
+e02_u037 | 53.4-56.7 | CAMERA | Medium shot of Clarissa smiling radiantly, condescendingly gesturing at Juliana.
+e02_u038 | 53.5-56.7 | DIALOGUE | LADY IN GOLD GOWN (Taunting, Giggling): "You look like a kitchen maid who wandered into the wrong wedding."
+e02_u039 | 56.7-58.2 | CAMERA | Close-up on Juliana, whose tearful expression begins to tighten with quiet indignation.
+e02_u040 | 56.8-58.2 | DIALOGUE | LADY IN GOLD GOWN (Snide): "And that quiet little face."
+e02_u041 | 58.2-58.6 | CAMERA | Wide over-the-shoulder shot from behind Clarissa and Gerald, framing Juliana standing solitary down the center aisle.
+e02_u042 | 58.6-60.5 | CAMERA | Medium shot returning to Clarissa laughing at Juliana's expense.
+e02_u043 | 58.7-60.5 | DIALOGUE | LADY IN GOLD GOWN (Conceited, Spiteful): "Gerald needs a real lady..."
+e02_u044 | 60.5-63.5 | CAMERA | Close-up on Juliana staring straight ahead as Clarissa insults her mother's memory.
+e02_u045 | 60.6-63.5 | DIALOGUE | LADY IN GOLD GOWN (Vicious): "...not a dull creature who hides in her mother's apothecary herbs."
+e02_u046 | 63.5-66.0 | CAMERA | High-angle wide shot of the grand cathedral aisle as a matriarch dressed in an ornate black velvet gown glides toward Juliana.
+e02_u047 | 63.5-66.0 | ACTION | The matriarch steps into the center aisle, glaring down at Juliana with cold superiority.
+e02_u048 | 63.6-65.8 | DIALOGUE | OFF-SCREEN VOICE (Cold, Scolding): "Oh, don't look so wounded, Juliana."
+e02_u049 | 66.0-69.3 | CAMERA | Medium profile two-shot of the matriarch confronting Juliana face-to-face.
+e02_u050 | 66.1-69.3 | DIALOGUE | OFF-SCREEN VOICE (Dismissive, Condescending): "You should be grateful you're at least allowed to attend the wedding."
+e02_u051 | 69.3-72.8 | CAMERA | Medium shot of Gerald stepping forward on the altar steps, impatiently gesturing Juliana toward the church exit.
+e02_u052 | 69.4-72.7 | DIALOGUE | THE FORMER GROOM (Impatient, Commanding): "Go home quietly, Juliana. At least leave this chapel with some dignity."
+e02_u053 | 72.8-74.2 | CAMERA | Profile close-up of Juliana turning her face back toward the altar, tears still shimmering on her cheeks.
+e02_u054 | 74.2-76.5 | CAMERA | Direct close-up on Juliana's face as a steely, defiant smile emerges through her pain.
+e02_u055 | 74.4-76.4 | DIALOGUE | LADY JULIANA (Bitter, Defiant): "Dignity?"
+e02_u056 | 76.5-79.0 | CAMERA | Full shot of Juliana standing tall, her posture completely transforming into regal composure before the seated guests.
+e02_u057 | 76.5-79.0 | DIALOGUE | LADY JULIANA (Clear, Accusing): "You abandoned a woman who trusted you..."
+e02_u058 | 79.0-81.8 | CAMERA | Medium profile close-up on Gerald's hardening jawline, Clarissa blurred in the background.
+e02_u059 | 79.2-82.5 | DIALOGUE | LADY JULIANA (Sharp, Piercing): "...because another woman promised you greater beauty and wealth."
+e02_u060 | 81.8-82.8 | CAMERA | Closer angle on Gerald's uneasy expression as Juliana's voice commands the room.
+e02_u061 | 82.8-86.7 | CAMERA | Medium wide shot framing Juliana confronting Gerald from the foot of the altar stairs.
+e02_u062 | 83.0-86.5 | DIALOGUE | LADY JULIANA (Steely, Resolute): "Do not mistake my heartbreak for your victory, Gerald."
+e02_u063 | 86.7-90.8 | CAMERA | Medium close-up push-in on Juliana, her blue eyes shining with fierce conviction.
+e02_u064 | 86.8-93.0 | DIALOGUE | LADY JULIANA (Powerful, Unyielding): "You wanted this entire chapel to believe that I was not worthy of you. But you have shown them something far more valuable."
+e02_u065 | 90.8-93.2 | CAMERA | Medium profile on Juliana looking up at Gerald, holding the entire hall spellbound.
+e02_u066 | 93.2-96.8 | CAMERA | Close-up on Juliana's face, calm, dignified, and unwavering.
+e02_u067 | 93.4-96.6 | DIALOGUE | LADY JULIANA (Decisive, Scathing): "You have shown them exactly what your word is worth."
+e02_u068 | 96.8-98.2 | CAMERA | Medium shot on Gerald standing frozen on the altar steps, stunned and speechless under her public rebuke.
+e02_u069 | 98.2-102.8 | CAMERA | Low-angle wide shot of the grand cathedral nave, framing Juliana in pristine white at the center of the vaulted aisle.
+e02_u070 | 98.2-102.8 | ACTION | Juliana lifts her chin high, commanding the space with unassailable dignity.
+e02_u071 | 98.5-102.4 | DIALOGUE | LADY JULIANA (Resolute, Proud): "I may leave this chapel without a husband..."
+e02_u072 | 102.8-110.0 | CAMERA | Dramatic medium close-up holding steadily on Juliana's radiant, proud face as she delivers her final proclamation.
+e02_u073 | 103.0-107.4 | DIALOGUE | LADY JULIANA (Defiant, Triumphant in Spirit): "...but I will not leave it believing I was the one who should be ashamed."
+e02_u074 | 107.4-110.0 | ACTION | Juliana breathes with steady resolve, holding her head high as the solemn orchestral score swells into the final beat.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

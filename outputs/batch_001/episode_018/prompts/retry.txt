@@ -1,0 +1,53 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: When their cottage is deliberately set ablaze in the dead of night, Alexander risks his life to rescue Juliana and her mother's cherished ledger from the inferno, vowing relentless vengeance against those responsible.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c03: window e18_u065..e18_u081 (128.5-192.0 s, 63.5 s); hook ['e18_u065'] modality visual (delay 0.0 s)
+  FAILED: duration: 63.5s is over the 60s maximum
+  Original idea: The transition from grief to Alexander's vow of vengeance provides a powerful narrative arc for a promo.
+  Scene 05: units e18_u064..e18_u081, 124.0-192.0 s. Units of that scene:
+    e18_u064 | 124.0-128.5 | CAMERA | Wide shot of villagers running toward the cottage carrying wooden water buckets through the smoke-filled darkness.
+    e18_u065 | 128.5-134.5 | CAMERA | Close-up of Juliana kneeling in the mud, her face blackened with soot and tears streaming down her cheeks as she clutches the charred ledger.
+    e18_u066 | 134.5-140.0 | CAMERA | Wide shot of the cottage completely consumed by towering flames against the dark night sky.
+    e18_u067 | 136.2-138.0 | DIALOGUE | JULIANA (Sobbing, Heartbroken): "Our home..."
+    e18_u068 | 139.8-142.5 | DIALOGUE | JULIANA (Crying, Shattered): "Everything we had is gone."
+    e18_u069 | 140.5-144.0 | ACTION | Alexander kneels beside her in the grass, resting a steady, protective hand on her back.
+    e18_u070 | 144.0-155.0 | ACTION | Juliana turns toward Alexander, her hand trembling as she reaches out and touches his chest.
+    e18_u071 | 145.8-148.5 | DIALOGUE | JULIANA (Voice Breaking, Anguished): "Why would anyone do this?"
+    e18_u072 | 153.2-154.8 | DIALOGUE | JULIANA (Whispering, Tearful): "Alexander..."
+    e18_u073 | 155.0-161.0 | ACTION | Alexander draws her firmly into his arms, wrapping both burly arms around her as she buries her face into his shoulder, weeping uncontrollably.
+    e18_u074 | 158.0-160.8 | DIALOGUE | ALEXANDER (Cold, Ominous): "Someone wanted us out."
+    e18_u075 | 163.0-165.5 | DIALOGUE | JULIANA (Despairing, Weeping): "We have nowhere to go."
+    e18_u076 | 165.5-171.0 | CAMERA | Slow push-in on Alexander's face over Juliana's shoulder. His expression hardens into a mask of pure, lethal fury.
+    e18_u077 | 171.0-179.5 | CAMERA | Extreme close-up of Alexander's piercing eyes and combat scar bathed in the flickering orange glow of the fire.
+    e18_u078 | 171.8-177.2 | DIALOGUE | ALEXANDER (Cold Fury, Resolute): "They took our home. I will not let them take anything else now."
+    e18_u079 | 179.5-184.0 | ACTION | Juliana slowly pulls back slightly from his embrace, her tear-filled blue eyes looking up into his hardened features.
+    e18_u080 | 184.2-186.5 | DIALOGUE | JULIANA (Trembling, Apprehensive): "What are you going to do?"
+    e18_u081 | 186.5-192.0 | CAMERA | Dramatic hold on Alexander's grim, unyielding profile as he stares into the inferno with unshakeable resolve, the swelling score echoing a vow of vengeance into the final cut to black.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

@@ -1,0 +1,194 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "ec86493f22aed10b",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 0.0,
+      "secs": 3.04,
+      "tokens_in": 1601,
+      "tokens_out": 909,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u001",
+          "e18_u002"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e18_u001",
+          "e18_u003",
+          "e18_u013",
+          "e18_u016"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u006",
+          "e18_u011",
+          "e18_u017",
+          "e18_u018"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u001",
+          "e18_u012",
+          "e18_u013",
+          "e18_u016"
+        ]
+      },
+      "ending": {
+        "score": 2,
+        "type": "transition",
+        "evidence_unit_ids": [
+          "e18_u017",
+          "e18_u018"
+        ]
+      },
+      "hook_unit_id": "e18_u001",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "trope": "trapped in flames",
+      "central_conflict": "Juliana is trapped in a burning bedroom and Alexander must rescue her before the fire consumes them.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "d547ecc8f5cace75",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.0,
+      "secs": 2.9,
+      "tokens_in": 1544,
+      "tokens_out": 961,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u036"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e18_u036",
+          "e18_u038",
+          "e18_u042"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u041",
+          "e18_u042",
+          "e18_u046",
+          "e18_u048",
+          "e18_u051"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u036",
+          "e18_u040",
+          "e18_u049",
+          "e18_u050"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e18_u052"
+        ]
+      },
+      "hook_unit_id": "e18_u036",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "trope": "protective hero",
+      "central_conflict": "Alexander and Juliana must survive a raging fire while trying to save a treasured ledger.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03r",
+    "prompt_hash": "1744e25b7b6eb7db",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.1,
+      "secs": 3.38,
+      "tokens_in": 1478,
+      "tokens_out": 937,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u065"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u066",
+          "e18_u074",
+          "e18_u078"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u065",
+          "e18_u073",
+          "e18_u076",
+          "e18_u077",
+          "e18_u078"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e18_u066",
+          "e18_u068",
+          "e18_u076",
+          "e18_u078"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e18_u077",
+          "e18_u078"
+        ]
+      },
+      "hook_unit_id": "e18_u065",
+      "hook_type": "visual_shock",
+      "emotion_type": "revenge",
+      "trope": "Vengeful survivor",
+      "central_conflict": "After their cottage is set ablaze, Juliana mourns the loss while Alexander vows to avenge the arsonists.",
+      "spoils_main_twist": false
+    }
+  }
+]

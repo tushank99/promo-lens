@@ -1,0 +1,162 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e37_u009",
+      "end_unit_id": "e37_u020",
+      "hook": {
+        "unit_ids": [
+          "e37_u009"
+        ],
+        "modality": "visual",
+        "description": "Catherine holding a wedding invitation with predatory delight.",
+        "evidence": "The visual of a wedding invitation being treated as a weapon of malice immediately signals a high-stakes drama."
+      },
+      "cliffhanger_unit_id": "e37_u020",
+      "reason": "The juxtaposition of a wedding and a public execution creates an immediate, chilling hook for the viewer."
+    },
+    "norm": {
+      "start_unit_id": "e37_u009",
+      "end_unit_id": "e37_u020",
+      "hook": {
+        "unit_ids": [
+          "e37_u009"
+        ],
+        "modality": "visual",
+        "description": "Catherine holding a wedding invitation with predatory delight.",
+        "evidence": "The visual of a wedding invitation being treated as a weapon of malice immediately signals a high-stakes drama."
+      },
+      "cliffhanger_unit_id": "e37_u020",
+      "reason": "The juxtaposition of a wedding and a public execution creates an immediate, chilling hook for the viewer."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "19.5s is under the 20s minimum"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 15.0,
+    "end": 34.5,
+    "duration": 19.5,
+    "segments": [
+      {
+        "start_unit": "e37_u009",
+        "end_unit": "e37_u020",
+        "start": 15.0,
+        "end": 34.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e37_u049",
+      "end_unit_id": "e37_u063",
+      "hook": {
+        "unit_ids": [
+          "e37_u049"
+        ],
+        "modality": "visual",
+        "description": "Juliana slumped in a dark, wet dungeon.",
+        "evidence": "The stark, grim visual of a woman in a dungeon immediately establishes the stakes and the protagonist's dire situation."
+      },
+      "cliffhanger_unit_id": "e37_u063",
+      "reason": "This clip highlights the protagonist's indomitable spirit against her captors, perfect for an inspirational/revenge-themed promo."
+    },
+    "norm": {
+      "start_unit_id": "e37_u049",
+      "end_unit_id": "e37_u063",
+      "hook": {
+        "unit_ids": [
+          "e37_u049"
+        ],
+        "modality": "visual",
+        "description": "Juliana slumped in a dark, wet dungeon.",
+        "evidence": "The stark, grim visual of a woman in a dungeon immediately establishes the stakes and the protagonist's dire situation."
+      },
+      "cliffhanger_unit_id": "e37_u063",
+      "reason": "This clip highlights the protagonist's indomitable spirit against her captors, perfect for an inspirational/revenge-themed promo."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 88.0,
+    "end": 116.5,
+    "duration": 28.5,
+    "segments": [
+      {
+        "start_unit": "e37_u049",
+        "end_unit": "e37_u063",
+        "start": 88.0,
+        "end": 116.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e37_u064",
+      "end_unit_id": "e37_u079",
+      "hook": {
+        "unit_ids": [
+          "e37_u074"
+        ],
+        "modality": "spoken",
+        "description": "Clarissa listing the reasons for Juliana's downfall.",
+        "evidence": "The villain's monologue about 'a woman forgetting her place' is a classic trope that triggers immediate audience outrage and engagement."
+      },
+      "cliffhanger_unit_id": "e37_u079",
+      "reason": "The villain's cold, calculated monologue builds intense anticipation for the protagonist's inevitable retaliation."
+    },
+    "norm": {
+      "start_unit_id": "e37_u064",
+      "end_unit_id": "e37_u079",
+      "hook": {
+        "unit_ids": [
+          "e37_u074"
+        ],
+        "modality": "spoken",
+        "description": "Clarissa listing the reasons for Juliana's downfall.",
+        "evidence": "The villain's monologue about 'a woman forgetting her place' is a classic trope that triggers immediate audience outrage and engagement."
+      },
+      "cliffhanger_unit_id": "e37_u079",
+      "reason": "The villain's cold, calculated monologue builds intense anticipation for the protagonist's inevitable retaliation."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "hook",
+      "cliffhanger"
+    ],
+    "details": [
+      "hook e37_u074 begins 17.5s after clip start (limit 3.0s)",
+      "cliffhanger e37_u079 starts at 148.0s, before the final 20% of the clip (148.48s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 17.5,
+    "start": 116.5,
+    "end": 156.47,
+    "duration": 39.97,
+    "segments": [
+      {
+        "start_unit": "e37_u064",
+        "end_unit": "e37_u079",
+        "start": 116.5,
+        "end": 156.47
+      }
+    ]
+  }
+]

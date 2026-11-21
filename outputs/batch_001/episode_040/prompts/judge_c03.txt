@@ -1,0 +1,59 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+High society gathers at the grand cathedral for Rupert and Catherine's lavish wedding, while the conspirators ensure every exit is sealed to seal Juliana's execution—unaware that Alexander's retribution is already at their gates.
+CONTINUITY NOTES: Picks up right after Alexander commands his men to secure the chapel and vows to reclaim his house and rescue Juliana; inside the cathedral, the wedding guests arrive and the conspirators finalize their sinister plot.
+
+CLIP: 82.5s to 110.08s (27.58s). Units below: id | seconds from clip start | type | text.
+e40_u042 | 0.0-3.3 | CAMERA | Framed wide shot of Catherine silhouetted in the bright doorway, wearing a breathtaking cream and gold imperial bridal gown with puffed sleeves and an exquisite sheer veil.
+e40_u043 | 3.3-8.3 | CAMERA | Majestic high-angle wide tracking shot following Catherine from behind as her magnificent cathedral-length veil trails down the aisle between seated guests.
+e40_u044 | 8.3-12.0 | CAMERA | Medium close-up of Lady Harrington leaning forward from her pew, utterly captivated.
+e40_u045 | 9.5-11.7 | DIALOGUE | LADY HARRINGTON (Awestruck, Whispering): "She looks like a queen."
+e40_u046 | 12.0-15.0 | CAMERA | Medium shot of Rupert at the altar, a proud, possessive smile breaking across his handsome face.
+e40_u047 | 15.0-20.3 | CAMERA | Full shot as Catherine reaches the top of the altar steps. Rupert steps forward and takes her gloved hands into his.
+e40_u048 | 17.5-20.3 | DIALOGUE | BLOND NOBLEMAN (Enamored, Flattering): "You look more queen than bride."
+e40_u049 | 20.3-27.6 | CAMERA | Tight two-shot profile of Catherine and Rupert clasping hands intimately, gazing into each other's eyes with shared aristocratic vanity.
+e40_u050 | 22.5-26.5 | DIALOGUE | CATHERINE (Smug, Coquettish): "And you look better in silk than you ever did as an ignored cousin."
+e40_u051 | 26.5-27.6 | ACTION | Rupert and Catherine exchange conspiratorial, triumphant smiles at the altar as the solemn organ chord holds and the scene cuts to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

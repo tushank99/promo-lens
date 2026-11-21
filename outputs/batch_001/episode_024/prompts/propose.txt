@@ -1,0 +1,122 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: When an arrogant noblewoman catches Juliana in the poisoned Dowager Duchess's chambers, she strikes Juliana with a riding crop and sentences her to scrub the hearth, unaware that Juliana has secretly hidden the antidote and remedy journal to finish the Duchess's cure.
+CONTINUITY NOTES: Picks up directly from Episode 23's cliffhanger inside the West Wing bedchamber, as the brass latch turns and the door swings open to reveal an unexpected intruder confronting Lady Juliana and Prudence.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:32.0 (92.0 s).
+- Scene 01 (INT. DOWAGER DUCHESS'S BEDCHAMBER – DAY): 0.0-48.5 s, units e24_u001..e24_u036.
+- Scene 02 (INT. MANOR HEARTH ROOM – CONTINUOUS): 48.5-92.0 s, units e24_u037..e24_u069.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): none
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e24_u001 | 0.0-3.5 | CAMERA | Close-up of the ornate brass handle turning slowly on the dark wooden chamber door as it swings open.
+e24_u002 | 0.2-3.0 | SFX | Heavy metallic click of the latch and the ominous low creak of the door hinges.
+e24_u003 | 3.5-6.0 | CAMERA | Wide shot of the dimly lit, vaulted bedchamber. Lady Juliana and Prudence stand rigid beside the heavy four-poster bed as a haughty blonde noblewoman in an elegant lavender empire-line gown enters, clutching a riding crop.
+e24_u004 | 4.0-6.5 | ACTION | The noblewoman halts in the center of the chamber, tapping her riding crop against her gloved palm as her cold gaze sweeps across the two maids.
+e24_u005 | 6.0-8.5 | CAMERA | Medium shot of the noblewoman holding the riding crop upright, regarding Juliana with disdainful authority.
+e24_u006 | 6.8-8.4 | DIALOGUE | NOBLEWOMAN (Sharp, Demanding): "Who are you?"
+e24_u007 | 8.5-12.2 | CAMERA | Medium close-up of Juliana, her gaze lowered deferentially beside the carved wooden bedpost.
+e24_u008 | 8.5-12.0 | DIALOGUE | LADY JULIANA (Humble, Measured): "Juliana, my lady. I was hired for the winter cleaning."
+e24_u009 | 12.2-16.8 | CAMERA | Medium shot of the noblewoman, her chin tilted up in icy condescension.
+e24_u010 | 13.0-16.4 | DIALOGUE | NOBLEWOMAN (Accusatory, Strict): "And who gave you permission to enter this chamber?"
+e24_u011 | 16.8-18.8 | CAMERA | Close-up of the frail Dowager Duchess lying pale and unconscious against the white pillows, gasping weakly for air.
+e24_u012 | 18.8-20.5 | ACTION | Behind her grey skirt, Juliana quickly slips the small glass remedy vial into her apron pocket with her charcoal-dusted fingers.
+e24_u013 | 18.8-20.8 | CAMERA | Close-up on Juliana's hand swiftly concealing the medicine bottle.
+e24_u014 | 20.8-22.5 | CAMERA | Medium shot of Juliana facing the noblewoman, maintaining a calm, protective facade.
+e24_u015 | 20.8-22.2 | DIALOGUE | LADY JULIANA (Softly Defiant): "I heard her. I thought Her Grace needed help."
+e24_u016 | 22.5-26.8 | CAMERA | Two-shot framing the noblewoman looking down at Juliana, bursting into mocking laughter.
+e24_u017 | 22.5-26.5 | DIALOGUE | NOBLEWOMAN (Scoffing, Cruel): "You thought? A new maid thinks she knows better than the physicians?"
+e24_u018 | 26.8-28.8 | CAMERA | Close-up of Juliana's resolute expression, her eyes flashing with righteous urgency.
+e24_u019 | 27.0-28.6 | DIALOGUE | LADY JULIANA (Emphatic, Defiant): "She is suffering."
+e24_u020 | 28.8-30.8 | CAMERA | Tight close-up of the noblewoman's face twisting into a malicious sneer.
+e24_u021 | 29.0-30.8 | DIALOGUE | NOBLEWOMAN (Vicious, Venomous): "Then let her suffer."
+e24_u022 | 30.8-32.8 | CAMERA | Close-up of Juliana recoiling slightly in shock at the blatant cruelty.
+e24_u023 | 31.0-32.5 | DIALOGUE | LADY JULIANA (Steely, Steadfast): "I cannot do that."
+e24_u024 | 32.5-34.5 | ACTION | The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.
+e24_u025 | 32.8-33.8 | SFX | A sharp, stinging whip crack as the riding crop makes harsh contact.
+e24_u026 | 33.8-36.5 | ACTION | Juliana gasps in pain, clutching her stomach and bending over as she absorbs the brutal strike.
+e24_u027 | 33.8-36.8 | CAMERA | Medium shot of Juliana hunched over in pain, clutching her abdomen.
+e24_u028 | 35.0-36.8 | DIALOGUE | NOBLEWOMAN (Cold, Threatening): "You are a maid."
+e24_u029 | 36.8-38.8 | CAMERA | Low-angle shot looking past the bedpost toward the Duchess, whose trembling hand reaches out limply.
+e24_u030 | 37.0-38.8 | DIALOGUE | NOBLEWOMAN (Cold, Continuing): "Not a physician. Not a lady."
+e24_u031 | 38.8-43.0 | CAMERA | Dramatic low-angle wide shot of the noblewoman standing imperiously over the doubled-over Juliana.
+e24_u032 | 39.0-42.8 | DIALOGUE | NOBLEWOMAN (Disdainful, Final): "And certainly not a woman whose opinion matters."
+e24_u033 | 43.0-45.5 | CAMERA | Close-up of Juliana looking down, enduring the humiliation while stifling her breath.
+e24_u034 | 43.2-44.8 | DIALOGUE | LADY JULIANA (Subdued, Controlled): "Yes, my lady."
+e24_u035 | 45.5-48.5 | CAMERA | Medium shot of the noblewoman turning the crop in her white-gloved hands with smug satisfaction.
+e24_u036 | 45.5-48.0 | DIALOGUE | NOBLEWOMAN (Smug, Condescending): "Good. Perhaps we can teach you your place."
+e24_u037 | 48.5-51.5 | ACTION | The noblewoman leads Juliana and a frightened Prudence down a dark flagstone hallway.
+e24_u038 | 48.5-51.5 | CAMERA | Low tracking shot down the corridor as the hem of the lilac dress sweeps past, followed by Juliana's swift steps.
+e24_u039 | 51.5-53.5 | ACTION | Juliana's boots step down into a dark, rustic chamber dominated by an enormous, blackened stone hearth.
+e24_u040 | 51.5-54.0 | CAMERA | Wide shot of the vast soot-stained stone fireplace. The noblewoman turns back toward Juliana, crop held at her side.
+e24_u041 | 53.6-55.2 | DIALOGUE | NOBLEWOMAN (Harsh, Dismissive): "Clean it."
+e24_u042 | 54.0-56.2 | CAMERA | Medium shot of the noblewoman extending her gloved hand toward the cavernous, filth-laden hearth.
+e24_u043 | 56.2-57.8 | CAMERA | Close-up of Juliana looking up at the towering, soot-blackened chimney.
+e24_u044 | 56.2-57.6 | DIALOGUE | LADY JULIANA (Quiet, Questioning): "All of it, my lady?"
+e24_u045 | 57.8-63.8 | CAMERA | Extreme close-up two-shot as the noblewoman steps unnervingly close to Juliana's face, whispering with sadistic relish.
+e24_u046 | 57.8-63.5 | DIALOGUE | NOBLEWOMAN (Intimate, Venomous): "Every stone. Perhaps when your hands are black enough, you will finally remember what you are."
+e24_u047 | 63.8-66.0 | ACTION | Juliana slowly drops to her knees on the cold flagstones before the soot-filled fireplace.
+e24_u048 | 63.8-66.2 | CAMERA | Medium shot of Juliana sinking to her knees, her face grim and composed.
+e24_u049 | 66.0-67.5 | ACTION | Prudence steps toward the noblewoman in distress, her hands clasped tightly.
+e24_u050 | 66.2-67.8 | CAMERA | Close-up of Prudence's anxious, trembling face.
+e24_u051 | 66.2-67.5 | DIALOGUE | PRUDENCE (Desperate, Pleading): "My lady—"
+e24_u052 | 67.5-69.5 | ACTION | The noblewoman whips around sharply, thrusting the tip of her riding crop directly into Prudence's face.
+e24_u053 | 67.8-70.5 | CAMERA | Medium close-up of the noblewoman baring her teeth in rage, aiming the crop threateningly.
+e24_u054 | 68.0-70.5 | DIALOGUE | NOBLEWOMAN (Furious, Threatening): "Do you want the same punishment?"
+e24_u055 | 70.5-72.8 | CAMERA | Close-up of Prudence flinching in terror, lowering her eyes immediately.
+e24_u056 | 70.6-72.4 | DIALOGUE | PRUDENCE (Terrified, Murmuring): "No, my lady."
+e24_u057 | 72.5-74.5 | ACTION | Juliana grips a coarse scrubbing brush with both hands and begins vigorously scraping the thick black ash across the hearthstones.
+e24_u058 | 72.8-74.8 | CAMERA | Close-up shot of Juliana's soot-covered hands fiercely scrubbing the black ash along the stone floor.
+e24_u059 | 73.0-81.0 | SFX | Rhythmic, harsh rasping sound of bristles scraping against stone.
+e24_u060 | 74.8-78.5 | CAMERA | Medium shot of the noblewoman leaning casually against the wooden doorframe, watching Juliana toil with smug condescension.
+e24_u061 | 75.0-78.0 | DIALOGUE | NOBLEWOMAN (Smug, Gleeful): "That is where clever little servants belong."
+e24_u062 | 78.5-81.2 | CAMERA | Medium profile shot of Juliana kneeling by the hearth in the dim window light, scrubbing steadily.
+e24_u063 | 78.6-81.0 | DIALOGUE | LADY JULIANA (Cold, Resolute): "Let her think I am only a maid."
+e24_u064 | 81.2-85.0 | ACTION | Juliana pauses scrubbing. Her soot-caked fingers reach into the deep pocket of her apron, carefully feeling the worn leather cover of her mother's remedy journal and the glass dropper bottle securely concealed within.
+e24_u065 | 81.2-85.2 | CAMERA | Close-up of Juliana's soot-stained hand touching the hidden remedy book and the antidote vial inside her apron pocket.
+e24_u066 | 81.5-84.8 | DIALOGUE | LADY JULIANA (Determined, Defiant): "Let her believe I am ignorant."
+e24_u067 | 85.2-91.5 | ACTION | Juliana raises her head. Smudges of dark soot stain her fair cheek, but her piercing blue eyes burn with unwavering defiance and unyielding resolve as she stares toward the hallway.
+e24_u068 | 85.2-92.0 | CAMERA | Tight close-up of Juliana's soot-streaked face turning slowly toward the chamber exit, her jaw set firm as dramatic music builds to a powerful crescendo.
+e24_u069 | 85.6-89.8 | DIALOGUE | LADY JULIANA (Steely, Unstoppable): "I will return. You cannot stop the healer."
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

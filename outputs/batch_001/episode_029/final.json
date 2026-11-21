@@ -1,0 +1,602 @@
+{
+  "episode": 29,
+  "logline": "Thrown into the castle's subterranean wet cells as Catherine threatens to burn her mother's herbarium and frame her for witchcraft, Juliana breaks down in isolation before swearing that they will never take Alexander from her.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 1,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 3,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 1,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c01",
+      "episode": 29,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e29_u012",
+      "end_unit_id": "e29_u034",
+      "hook_unit_id": "e29_u012",
+      "hook": {
+        "unit_ids": [
+          "e29_u012"
+        ],
+        "modality": "visual",
+        "description": "Catherine holding the herbarium with a mocking expression.",
+        "evidence": "The immediate visual of a villain holding a victim's precious possession creates instant conflict.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e29_u034",
+      "segments": [
+        {
+          "start_unit": "e29_u012",
+          "end_unit": "e29_u034",
+          "start": 20.1,
+          "end": 56.6
+        }
+      ],
+      "start": 20.1,
+      "end": 56.6,
+      "duration": 36.5,
+      "proposer_reason": "The confrontation over the herbarium and the threat of framing the protagonist for witchcraft establishes high stakes.",
+      "hook_type": "shocking_line",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e29_u012",
+          "e29_u013"
+        ],
+        "clarity": [
+          "e29_u013",
+          "e29_u016",
+          "e29_u020",
+          "e29_u022",
+          "e29_u024",
+          "e29_u030",
+          "e29_u032",
+          "e29_u034"
+        ],
+        "emotion": [
+          "e29_u016",
+          "e29_u024",
+          "e29_u028",
+          "e29_u030",
+          "e29_u032"
+        ],
+        "escalation": [
+          "e29_u013",
+          "e29_u020",
+          "e29_u022",
+          "e29_u030",
+          "e29_u032",
+          "e29_u034"
+        ],
+        "ending": [
+          "e29_u034"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "accused witch",
+      "central_conflict": "Catherine tries to destroy Juliana’s mother’s herbarium and frame her for witchcraft, while Juliana fights to protect it.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e29_u013",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 29,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e29_u052",
+      "end_unit_id": "e29_u071",
+      "hook_unit_id": "e29_u052",
+      "hook": {
+        "unit_ids": [
+          "e29_u052"
+        ],
+        "modality": "visual",
+        "description": "Juliana being violently shoved into a dark, wet dungeon cell.",
+        "evidence": "The sudden violence and the grim setting immediately signal a high-stakes drama.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e29_u071",
+      "segments": [
+        {
+          "start_unit": "e29_u052",
+          "end_unit": "e29_u071",
+          "start": 83.0,
+          "end": 112.8
+        }
+      ],
+      "start": 83.0,
+      "end": 112.8,
+      "duration": 29.8,
+      "proposer_reason": "The transition from despair to steely resolve provides a compelling character arc within a short window.",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e29_u052",
+          "e29_u053",
+          "e29_u054"
+        ],
+        "clarity": [
+          "e29_u054",
+          "e29_u062",
+          "e29_u067",
+          "e29_u071"
+        ],
+        "emotion": [
+          "e29_u054",
+          "e29_u060",
+          "e29_u064",
+          "e29_u069",
+          "e29_u071"
+        ],
+        "escalation": [
+          "e29_u054",
+          "e29_u064",
+          "e29_u065",
+          "e29_u071"
+        ],
+        "ending": [
+          "e29_u070",
+          "e29_u071"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 72.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "wrongful imprisonment",
+      "central_conflict": "Juliana is locked in a dark cell and fights to protect Alexander from being taken by her captors.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e29_u052",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 29,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e29_u029",
+      "end_unit_id": "e29_u044",
+      "hook_unit_id": "e29_u029",
+      "hook": {
+        "unit_ids": [
+          "e29_u029"
+        ],
+        "modality": "visual",
+        "description": "Tight close-up of Catherine's eyes narrowing into an icy, venomous gaze.",
+        "evidence": "The visual intensity of the villain's gaze establishes the immediate threat within 3 seconds of the start.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e29_u044",
+      "segments": [
+        {
+          "start_unit": "e29_u029",
+          "end_unit": "e29_u044",
+          "start": 46.9,
+          "end": 71.8
+        }
+      ],
+      "start": 46.9,
+      "end": 71.8,
+      "duration": 24.9,
+      "proposer_reason": "This window captures the escalation of the threat and ends on the protagonist's defiant declaration.",
+      "hook_type": "threat",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e29_u029",
+          "e29_u030"
+        ],
+        "clarity": [
+          "e29_u030",
+          "e29_u032",
+          "e29_u036",
+          "e29_u042",
+          "e29_u044"
+        ],
+        "emotion": [
+          "e29_u036",
+          "e29_u038",
+          "e29_u044"
+        ],
+        "escalation": [
+          "e29_u030",
+          "e29_u036",
+          "e29_u042",
+          "e29_u044"
+        ],
+        "ending": [
+          "e29_u044"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "villainous noble",
+      "central_conflict": "Catherine threatens to kill and erase Juliana, while Juliana defiantly vows that her husband will find her.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e29_u030",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 3
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 29,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e29_u012",
+      "end_unit_id": "e29_u034",
+      "hook_unit_id": "e29_u012",
+      "hook": {
+        "unit_ids": [
+          "e29_u012"
+        ],
+        "modality": "visual",
+        "description": "Catherine holding the herbarium with a mocking expression.",
+        "evidence": "The immediate visual of a villain holding a victim's precious possession creates instant conflict.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e29_u034",
+      "segments": [
+        {
+          "start_unit": "e29_u012",
+          "end_unit": "e29_u034",
+          "start": 20.1,
+          "end": 56.6
+        }
+      ],
+      "start": 20.1,
+      "end": 56.6,
+      "duration": 36.5,
+      "proposer_reason": "The confrontation over the herbarium and the threat of framing the protagonist for witchcraft establishes high stakes.",
+      "hook_type": "shocking_line",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e29_u012",
+          "e29_u013"
+        ],
+        "clarity": [
+          "e29_u013",
+          "e29_u016",
+          "e29_u020",
+          "e29_u022",
+          "e29_u024",
+          "e29_u030",
+          "e29_u032",
+          "e29_u034"
+        ],
+        "emotion": [
+          "e29_u016",
+          "e29_u024",
+          "e29_u028",
+          "e29_u030",
+          "e29_u032"
+        ],
+        "escalation": [
+          "e29_u013",
+          "e29_u020",
+          "e29_u022",
+          "e29_u030",
+          "e29_u032",
+          "e29_u034"
+        ],
+        "ending": [
+          "e29_u034"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "accused witch",
+      "central_conflict": "Catherine tries to destroy Juliana’s mother’s herbarium and frame her for witchcraft, while Juliana fights to protect it.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e29_u013",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 29,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e29_u035",
+      "end_unit_id": "e29_u051",
+      "hook_unit_id": "e29_u035",
+      "hook": {
+        "unit_ids": [
+          "e29_u035"
+        ],
+        "modality": "spoken",
+        "description": "Juliana screaming in raw outrage at Catherine.",
+        "evidence": "The raw emotional intensity of the scream immediately grabs the viewer's attention.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e29_u051",
+      "segments": [
+        {
+          "start_unit": "e29_u035",
+          "end_unit": "e29_u051",
+          "start": 56.6,
+          "end": 83.0
+        }
+      ],
+      "start": 56.6,
+      "end": 83.0,
+      "duration": 26.4,
+      "proposer_reason": "This segment captures the peak of the verbal confrontation and the protagonist's defiance against her oppressor.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:hook_modality"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "spoken hook claimed but hook units are ['camera']"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 29,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e29_u052",
+      "end_unit_id": "e29_u071",
+      "hook_unit_id": "e29_u052",
+      "hook": {
+        "unit_ids": [
+          "e29_u052"
+        ],
+        "modality": "visual",
+        "description": "Juliana being violently shoved into a dark, wet dungeon cell.",
+        "evidence": "The sudden violence and the grim setting immediately signal a high-stakes drama.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e29_u071",
+      "segments": [
+        {
+          "start_unit": "e29_u052",
+          "end_unit": "e29_u071",
+          "start": 83.0,
+          "end": 112.8
+        }
+      ],
+      "start": 83.0,
+      "end": 112.8,
+      "duration": 29.8,
+      "proposer_reason": "The transition from despair to steely resolve provides a compelling character arc within a short window.",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e29_u052",
+          "e29_u053",
+          "e29_u054"
+        ],
+        "clarity": [
+          "e29_u054",
+          "e29_u062",
+          "e29_u067",
+          "e29_u071"
+        ],
+        "emotion": [
+          "e29_u054",
+          "e29_u060",
+          "e29_u064",
+          "e29_u069",
+          "e29_u071"
+        ],
+        "escalation": [
+          "e29_u054",
+          "e29_u064",
+          "e29_u065",
+          "e29_u071"
+        ],
+        "ending": [
+          "e29_u070",
+          "e29_u071"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 72.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "wrongful imprisonment",
+      "central_conflict": "Juliana is locked in a dark cell and fights to protect Alexander from being taken by her captors.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e29_u052",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 29,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e29_u029",
+      "end_unit_id": "e29_u044",
+      "hook_unit_id": "e29_u029",
+      "hook": {
+        "unit_ids": [
+          "e29_u029"
+        ],
+        "modality": "visual",
+        "description": "Tight close-up of Catherine's eyes narrowing into an icy, venomous gaze.",
+        "evidence": "The visual intensity of the villain's gaze establishes the immediate threat within 3 seconds of the start.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e29_u044",
+      "segments": [
+        {
+          "start_unit": "e29_u029",
+          "end_unit": "e29_u044",
+          "start": 46.9,
+          "end": 71.8
+        }
+      ],
+      "start": 46.9,
+      "end": 71.8,
+      "duration": 24.9,
+      "proposer_reason": "This window captures the escalation of the threat and ends on the protagonist's defiant declaration.",
+      "hook_type": "threat",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e29_u029",
+          "e29_u030"
+        ],
+        "clarity": [
+          "e29_u030",
+          "e29_u032",
+          "e29_u036",
+          "e29_u042",
+          "e29_u044"
+        ],
+        "emotion": [
+          "e29_u036",
+          "e29_u038",
+          "e29_u044"
+        ],
+        "escalation": [
+          "e29_u030",
+          "e29_u036",
+          "e29_u042",
+          "e29_u044"
+        ],
+        "ending": [
+          "e29_u044"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "villainous noble",
+      "central_conflict": "Catherine threatens to kill and erase Juliana, while Juliana defiantly vows that her husband will find her.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e29_u030",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 3
+    }
+  ],
+  "usage": {
+    "wall_s": 61.3,
+    "calls": 5,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 11742,
+    "tokens_out": 4365,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 16.5,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 44.8
+  }
+}

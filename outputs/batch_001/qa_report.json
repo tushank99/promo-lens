@@ -1,0 +1,51 @@
+{
+  "batch": "outputs\\batch_001",
+  "passed": true,
+  "complete": false,
+  "checks": {
+    "canonical_episodes": 49,
+    "all_canonical_accounted_for": true,
+    "duplicates_skipped": [
+      "episode-002-Episode 1671704 (1).txt"
+    ],
+    "status_counts": {
+      "complete": 26,
+      "complete_no_clips": 4,
+      "partial_judge_failed": 19
+    },
+    "not_done": {
+      "31": "partial_judge_failed",
+      "32": "partial_judge_failed",
+      "33": "partial_judge_failed",
+      "34": "partial_judge_failed",
+      "35": "partial_judge_failed",
+      "36": "partial_judge_failed",
+      "37": "partial_judge_failed",
+      "38": "partial_judge_failed",
+      "39": "partial_judge_failed",
+      "40": "partial_judge_failed",
+      "41": "partial_judge_failed",
+      "42": "partial_judge_failed",
+      "43": "partial_judge_failed",
+      "44": "partial_judge_failed",
+      "45": "partial_judge_failed",
+      "46": "partial_judge_failed",
+      "47": "partial_judge_failed",
+      "48": "partial_judge_failed",
+      "49": "partial_judge_failed"
+    },
+    "schema_errors": [],
+    "invalid_unit_refs": [],
+    "judge_calls_not_declared_model": [],
+    "declared_judge_models": [
+      [
+        "groq",
+        "openai/gpt-oss-120b"
+      ]
+    ],
+    "retries_recorded": 34,
+    "final_clips": 47,
+    "config_continuations": []
+  },
+  "problems": []
+}

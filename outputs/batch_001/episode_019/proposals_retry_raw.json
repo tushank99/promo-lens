@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "08d92e1ef289095e",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.9,
+    "secs": 3.24,
+    "tokens_in": 1457,
+    "tokens_out": 266
+  },
+  "asked_for": [
+    "c03"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c03",
+        "start_unit_id": "e19_u054",
+        "end_unit_id": "e19_u063",
+        "hook": {
+          "unit_ids": [
+            "e19_u054"
+          ],
+          "modality": "visual",
+          "description": "The heavy barn doors creak open, revealing Alexander entering the sanctuary with supplies, signaling a shift from despair to survival.",
+          "evidence": "The action unit e19_u054 begins at 97.2s, which is within 3 seconds of the clip start (97.2s)."
+        },
+        "cliffhanger_unit_id": "e19_u063",
+        "reason": "Starting at unit e19_u054 (97.2s) creates a 22.4s clip where the cliffhanger unit e19_u063 (starting at 112.5s) falls within the final 20% of the duration."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

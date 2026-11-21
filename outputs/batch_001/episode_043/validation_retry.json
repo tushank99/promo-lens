@@ -1,0 +1,54 @@
+[
+  {
+    "candidate_id": "c01r",
+    "proposal": {
+      "retry_of": "c01",
+      "start_unit_id": "e43_u006",
+      "end_unit_id": "e43_u027",
+      "hook": {
+        "unit_ids": [
+          "e43_u006"
+        ],
+        "modality": "visual",
+        "description": "Wide shot of Alexander standing immovable against the guards.",
+        "evidence": "The visual contrast of the lone Duke against the guards establishes the power shift immediately."
+      },
+      "cliffhanger_unit_id": "e43_u027",
+      "reason": "This window captures the full sequence of the guards' defiance and the reveal of the dossier, meeting the 20-second duration requirement."
+    },
+    "retry_of": "c01",
+    "norm": {
+      "start_unit_id": "e43_u006",
+      "end_unit_id": "e43_u027",
+      "hook": {
+        "unit_ids": [
+          "e43_u006"
+        ],
+        "modality": "visual",
+        "description": "Wide shot of Alexander standing immovable against the guards.",
+        "evidence": "The visual contrast of the lone Duke against the guards establishes the power shift immediately."
+      },
+      "cliffhanger_unit_id": "e43_u027",
+      "reason": "This window captures the full sequence of the guards' defiance and the reveal of the dossier, meeting the 20-second duration requirement."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 8.0,
+    "end": 30.0,
+    "duration": 22.0,
+    "segments": [
+      {
+        "start_unit": "e43_u006",
+        "end_unit": "e43_u027",
+        "start": 8.0,
+        "end": 30.0
+      }
+    ]
+  }
+]

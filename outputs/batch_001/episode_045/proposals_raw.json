@@ -1,0 +1,63 @@
+{
+  "episode": 45,
+  "prompt_hash": "edd46fe835ed8183",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.6,
+    "secs": 2.64,
+    "tokens_in": 4301,
+    "tokens_out": 503,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e45_u001",
+        "end_unit_id": "e45_u023",
+        "hook": {
+          "unit_ids": [
+            "e45_u001"
+          ],
+          "modality": "visual",
+          "description": "Alexander walking down the aisle toward a shackled Juliana.",
+          "evidence": "The immediate visual contrast between a powerful man and a woman in chains creates instant intrigue."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "This segment establishes the emotional core of the episode: the rescue and the revelation of Alexander's true identity."
+      },
+      {
+        "start_unit_id": "e45_u039",
+        "end_unit_id": "e45_u056",
+        "hook": {
+          "unit_ids": [
+            "e45_u039"
+          ],
+          "modality": "visual",
+          "description": "Alexander towering over Catherine with righteous fury.",
+          "evidence": "The sudden shift to confrontation and the accusation of poisoning creates high-stakes drama."
+        },
+        "cliffhanger_unit_id": "e45_u056",
+        "reason": "The public humiliation of the antagonist and the bold proclamation of the heroine's status provides a satisfying payoff."
+      },
+      {
+        "start_unit_id": "e45_u057",
+        "end_unit_id": "e45_u074",
+        "hook": {
+          "unit_ids": [
+            "e45_u057",
+            "e45_u058"
+          ],
+          "modality": "audio",
+          "description": "The cathedral doors slamming open violently.",
+          "evidence": "The loud, sudden sound effect immediately grabs attention and signals a major disruption."
+        },
+        "cliffhanger_unit_id": "e45_u074",
+        "reason": "This captures the dramatic reversal where the marriage is declared invalid, ending on a high-tension cliffhanger."
+      }
+    ]
+  },
+  "note": null
+}

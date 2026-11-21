@@ -1,0 +1,69 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "affb21317a090aa4",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 9.6,
+      "secs": 3.17,
+      "tokens_in": 1925,
+      "tokens_out": 1108
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e10_u003",
+          "e10_u005"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e10_u005",
+          "e10_u007",
+          "e10_u009",
+          "e10_u011",
+          "e10_u013"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e10_u006",
+          "e10_u009",
+          "e10_u016",
+          "e10_u029",
+          "e10_u030"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e10_u003",
+          "e10_u009",
+          "e10_u025",
+          "e10_u028",
+          "e10_u029"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e10_u029",
+          "e10_u030"
+        ]
+      },
+      "hook_unit_id": "e10_u003",
+      "hook_type": "visual_shock",
+      "emotion_type": "shock",
+      "trope": "scarred veteran",
+      "central_conflict": "A wounded veteran refuses help while his caretaker insists on treating his hidden injuries.",
+      "spoils_main_twist": false
+    }
+  }
+]

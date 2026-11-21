@@ -1,0 +1,61 @@
+{
+  "episode": 25,
+  "prompt_hash": "209b55846e7eda96",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.61,
+    "tokens_in": 4939,
+    "tokens_out": 523
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e25_u009",
+        "end_unit_id": "e25_u024",
+        "hook": {
+          "unit_ids": [
+            "e25_u009"
+          ],
+          "modality": "visual",
+          "description": "Alexander grabs Juliana's shoulder, causing her to wince and gasp in pain.",
+          "evidence": "The immediate physical conflict and visible pain create instant tension and curiosity about the cause."
+        },
+        "cliffhanger_unit_id": "e25_u024",
+        "reason": "The reveal of the injury and the naming of the antagonist creates a high-stakes confrontation."
+      },
+      {
+        "start_unit_id": "e25_u038",
+        "end_unit_id": "e25_u051",
+        "hook": {
+          "unit_ids": [
+            "e25_u038"
+          ],
+          "modality": "visual",
+          "description": "Alexander's face freezes in shock as he realizes the Dowager Duchess is in danger.",
+          "evidence": "The sudden shift from suspicion to genuine alarm hooks the viewer into the mystery of the poisoning."
+        },
+        "cliffhanger_unit_id": "e25_u051",
+        "reason": "The revelation of arsenic poisoning raises the stakes from a personal dispute to a life-or-death conspiracy."
+      },
+      {
+        "start_unit_id": "e25_u072",
+        "end_unit_id": "e25_u091",
+        "hook": {
+          "unit_ids": [
+            "e25_u072"
+          ],
+          "modality": "visual",
+          "description": "Alexander grips Juliana's hands tightly, his face filled with intense, protective fury.",
+          "evidence": "The raw emotional intensity and physical intimacy between the characters immediately draws the viewer into their relationship dynamic."
+        },
+        "cliffhanger_unit_id": "e25_u091",
+        "reason": "The emotional climax of the argument highlights the protective bond and the dangerous mission ahead."
+      }
+    ]
+  },
+  "note": null
+}

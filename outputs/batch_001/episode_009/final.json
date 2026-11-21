@@ -1,0 +1,388 @@
+{
+  "episode": 9,
+  "logline": "When a frantic mother brings her critically ill child to the woodland cottage, Juliana successfully cures him with her mother's herbal remedies, unknowingly igniting dangerous rumors that reach the ears of the Blond Nobleman.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 3,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 1,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 1
+  },
+  "final": [
+    {
+      "candidate_id": "c01",
+      "episode": 9,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e09_u003",
+      "end_unit_id": "e09_u033",
+      "hook_unit_id": "e09_u003",
+      "hook": {
+        "unit_ids": [
+          "e09_u003"
+        ],
+        "modality": "audio",
+        "description": "Heavy, frantic pounding on the cottage door.",
+        "evidence": "The sudden, aggressive sound creates immediate tension and urgency.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": null,
+      "segments": [
+        {
+          "start_unit": "e09_u003",
+          "end_unit": "e09_u033",
+          "start": 2.0,
+          "end": 42.5
+        }
+      ],
+      "start": 2.0,
+      "end": 42.5,
+      "duration": 40.5,
+      "proposer_reason": "The high-stakes medical emergency establishes the protagonist's skill and the immediate danger of her situation.",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e09_u003",
+          "e09_u004"
+        ],
+        "clarity": [
+          "e09_u009",
+          "e09_u011",
+          "e09_u018",
+          "e09_u026"
+        ],
+        "emotion": [
+          "e09_u009",
+          "e09_u028",
+          "e09_u033",
+          "e09_u026"
+        ],
+        "escalation": [
+          "e09_u003",
+          "e09_u009",
+          "e09_u015",
+          "e09_u022",
+          "e09_u030",
+          "e09_u032"
+        ],
+        "ending": [
+          "e09_u032",
+          "e09_u033"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera shot e09_u001 (0.0-2.8) straddles a cut",
+        "camera-only stretch 3.3s (23.9-27.2)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "review",
+      "review_flags": [
+        "straddled_action_or_sfx"
+      ],
+      "review_details": [
+        "action e09_u002 (0.0-2.8) overlaps the clip from outside the window: check the cut on footage",
+        "action e09_u034 (42.2-43.5) overlaps the clip from outside the window: check the cut on footage"
+      ],
+      "trope": "desperate mother seeking cure",
+      "central_conflict": "A frantic mother begs the cottage’s healer to save her fever‑stricken child while the protector watches anxiously.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e09_u003",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 9,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e09_u003",
+      "end_unit_id": "e09_u033",
+      "hook_unit_id": "e09_u003",
+      "hook": {
+        "unit_ids": [
+          "e09_u003"
+        ],
+        "modality": "audio",
+        "description": "Heavy, frantic pounding on the cottage door.",
+        "evidence": "The sudden, aggressive sound creates immediate tension and urgency.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": null,
+      "segments": [
+        {
+          "start_unit": "e09_u003",
+          "end_unit": "e09_u033",
+          "start": 2.0,
+          "end": 42.5
+        }
+      ],
+      "start": 2.0,
+      "end": 42.5,
+      "duration": 40.5,
+      "proposer_reason": "The high-stakes medical emergency establishes the protagonist's skill and the immediate danger of her situation.",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e09_u003",
+          "e09_u004"
+        ],
+        "clarity": [
+          "e09_u009",
+          "e09_u011",
+          "e09_u018",
+          "e09_u026"
+        ],
+        "emotion": [
+          "e09_u009",
+          "e09_u028",
+          "e09_u033",
+          "e09_u026"
+        ],
+        "escalation": [
+          "e09_u003",
+          "e09_u009",
+          "e09_u015",
+          "e09_u022",
+          "e09_u030",
+          "e09_u032"
+        ],
+        "ending": [
+          "e09_u032",
+          "e09_u033"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera shot e09_u001 (0.0-2.8) straddles a cut",
+        "camera-only stretch 3.3s (23.9-27.2)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "review",
+      "review_flags": [
+        "straddled_action_or_sfx"
+      ],
+      "review_details": [
+        "action e09_u002 (0.0-2.8) overlaps the clip from outside the window: check the cut on footage",
+        "action e09_u034 (42.2-43.5) overlaps the clip from outside the window: check the cut on footage"
+      ],
+      "trope": "desperate mother seeking cure",
+      "central_conflict": "A frantic mother begs the cottage’s healer to save her fever‑stricken child while the protector watches anxiously.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e09_u003",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 9,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e09_u057",
+      "end_unit_id": "e09_u065",
+      "hook_unit_id": "e09_u057",
+      "hook": {
+        "unit_ids": [
+          "e09_u057"
+        ],
+        "modality": "visual",
+        "description": "Alexander slamming the door shut against the rain.",
+        "evidence": "The abrupt transition from a life-saving act to a tense, protective confrontation hooks the viewer.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e09_u065",
+      "segments": [
+        {
+          "start_unit": "e09_u057",
+          "end_unit": "e09_u065",
+          "start": 74.5,
+          "end": 83.8
+        }
+      ],
+      "start": 74.5,
+      "end": 83.8,
+      "duration": 9.3,
+      "proposer_reason": "This moment highlights the romantic tension and the looming threat of discovery, raising the stakes for the protagonists.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera shot e09_u055 (71.0-74.8) straddles a cut"
+      ],
+      "rejection_reasons": [
+        "validation:duration",
+        "validation:dialogue_cut"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "9.3s is under the 20s minimum",
+        "clip start 74.5s cuts through e09_u056 (71.2-74.8): \"I will tell the village what you did. Th\""
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 9,
+      "retry_of": null,
+      "retried_as": "c03r",
+      "retry_declined": null,
+      "start_unit_id": "e09_u074",
+      "end_unit_id": "e09_u089",
+      "hook_unit_id": "e09_u078",
+      "hook": {
+        "unit_ids": [
+          "e09_u078"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of the Former Groom's eyes widening in dread.",
+        "evidence": "The visceral reaction to a secret being revealed creates instant intrigue about the 'late Duke'.",
+        "delay_s": 5.2
+      },
+      "cliffhanger_unit_id": "e09_u089",
+      "segments": [
+        {
+          "start_unit": "e09_u074",
+          "end_unit": "e09_u089",
+          "start": 92.0,
+          "end": 115.5
+        }
+      ],
+      "start": 92.0,
+      "end": 115.5,
+      "duration": 23.5,
+      "proposer_reason": "The reveal of a potential ghost from the past threatening the antagonist's power is a classic, high-tension hook.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 3.9s (105.9-109.8)",
+        "camera-only stretch 4.3s (111.2-115.5)"
+      ],
+      "rejection_reasons": [
+        "validation:hook"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "hook e09_u078 begins 5.2s after clip start (limit 3.0s)"
+      ]
+    },
+    {
+      "candidate_id": "c03r",
+      "episode": 9,
+      "retry_of": "c03",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e09_u078",
+      "end_unit_id": "e09_u089",
+      "hook_unit_id": "e09_u078",
+      "hook": {
+        "unit_ids": [
+          "e09_u078"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of The Former Groom's eyes widening with urgent dread.",
+        "evidence": "The unit begins at 97.2s, which is the start of the clip, satisfying the 3-second hook rule.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e09_u089",
+      "segments": [
+        {
+          "start_unit": "e09_u078",
+          "end_unit": "e09_u089",
+          "start": 97.2,
+          "end": 115.5
+        }
+      ],
+      "start": 97.2,
+      "end": 115.5,
+      "duration": 18.3,
+      "proposer_reason": "Starting the clip on the extreme close-up of the groom's terrified eyes immediately establishes the high-stakes tension required for a scroll-stopping hook.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 3.9s (105.9-109.8)",
+        "camera-only stretch 4.3s (111.2-115.5)"
+      ],
+      "rejection_reasons": [
+        "validation:duration",
+        "validation:dialogue_cut"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "18.3s is under the 20s minimum",
+        "clip start 97.2s cuts through e09_u077 (95.3-97.3): \"People see ghosts whenever they want a s\""
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 20.0,
+    "calls": 3,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 8813,
+    "tokens_out": 1774,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 8.6,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 11.4
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "episode": 8,
+  "logline": "As Juliana inspects her late mother's weathered herbal grimoire, Alexander bonds with her over rustic medicinal knowledge and war-worn memories, gently altering her perception of what true wealth means.",
+  "counts": {
+    "proposed": 3,
+    "rejected_at_validation": 1,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 2,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 8,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e08_u025",
+      "end_unit_id": "e08_u044",
+      "hook_unit_id": "e08_u025",
+      "hook": {
+        "unit_ids": [
+          "e08_u025"
+        ],
+        "modality": "visual",
+        "description": "Juliana reaches out to touch Alexander's face, and he firmly catches her wrist.",
+        "evidence": "The sudden physical tension and the 'not yet' boundary creates immediate romantic intrigue.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e08_u044",
+      "segments": [
+        {
+          "start_unit": "e08_u025",
+          "end_unit": "e08_u044",
+          "start": 28.1,
+          "end": 51.3
+        }
+      ],
+      "start": 28.1,
+      "end": 51.3,
+      "duration": 23.2,
+      "proposer_reason": "The intimate tension and the power dynamic shift between the two characters creates a compelling romantic hook.",
+      "hook_type": "other",
+      "emotion_type": "romance",
+      "scores": {
+        "hook": 2,
+        "clarity": 1,
+        "emotion": 3,
+        "escalation": 2,
+        "ending": 2
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e08_u025",
+          "e08_u026"
+        ],
+        "clarity": [
+          "e08_u026",
+          "e08_u029",
+          "e08_u035",
+          "e08_u037"
+        ],
+        "emotion": [
+          "e08_u025",
+          "e08_u028",
+          "e08_u034",
+          "e08_u041"
+        ],
+        "escalation": [
+          "e08_u027",
+          "e08_u035",
+          "e08_u044"
+        ],
+        "ending": [
+          "e08_u043",
+          "e08_u044"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [
+        "floor:hook<3",
+        "floor:clarity<3"
+      ],
+      "final_score": 41.3,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "flirtatious teasing",
+      "central_conflict": "Juliana teases Alexander about his beard, and they exchange playful, affectionate banter that deepens their intimacy.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e08_u025",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 8,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e08_u048",
+      "end_unit_id": "e08_u063",
+      "hook_unit_id": "e08_u048",
+      "hook": {
+        "unit_ids": [
+          "e08_u048"
+        ],
+        "modality": "visual",
+        "description": "A wide shot of the two characters in a cozy, firelit cottage, contrasting with the mention of war scars.",
+        "evidence": "The visual warmth combined with the heavy, somber dialogue about war creates an emotional contrast that draws viewers in.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e08_u062",
+      "segments": [
+        {
+          "start_unit": "e08_u048",
+          "end_unit": "e08_u063",
+          "start": 57.1,
+          "end": 78.0
+        }
+      ],
+      "start": 57.1,
+      "end": 78.0,
+      "duration": 20.9,
+      "proposer_reason": "This moment highlights the emotional transformation of the protagonist as she redefines her values.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e08_u062 starts at 73.2s, before the final 20% of the clip (73.82s)"
+      ]
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 8,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e08_u027",
+      "end_unit_id": "e08_u063",
+      "hook_unit_id": "e08_u027",
+      "hook": {
+        "unit_ids": [
+          "e08_u027"
+        ],
+        "modality": "visual",
+        "description": "Alexander firmly catching Juliana's wrist in a moment of sudden, intense physical tension.",
+        "evidence": "The unit starts at 31.9s, which is within the 3s window of the clip start (31.9s).",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e08_u062",
+      "segments": [
+        {
+          "start_unit": "e08_u027",
+          "end_unit": "e08_u063",
+          "start": 31.9,
+          "end": 78.0
+        }
+      ],
+      "start": 31.9,
+      "end": 78.0,
+      "duration": 46.1,
+      "proposer_reason": "The window captures the shift from playful tension to emotional vulnerability, ending with the required cliffhanger in the final 20%.",
+      "hook_type": "other",
+      "emotion_type": "romance",
+      "scores": {
+        "hook": 2,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e08_u027",
+          "e08_u029"
+        ],
+        "clarity": [
+          "e08_u047",
+          "e08_u059",
+          "e08_u062"
+        ],
+        "emotion": [
+          "e08_u055",
+          "e08_u057",
+          "e08_u062"
+        ],
+        "escalation": [
+          "e08_u035",
+          "e08_u051",
+          "e08_u059"
+        ],
+        "ending": [
+          "e08_u062",
+          "e08_u063"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [
+        "floor:hook<3"
+      ],
+      "final_score": 58.7,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "healing bond",
+      "central_conflict": "Juliana confronts her past and redefines her idea of wealth through a heartfelt conversation with Alexander about healing herbs and war memories.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e08_u027",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    }
+  ],
+  "usage": {
+    "wall_s": 39.5,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 10825,
+    "tokens_out": 2859,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 11.1,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 28.3
+  }
+}

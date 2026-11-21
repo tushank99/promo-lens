@@ -1,0 +1,256 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "8dc0e8949acd1d38",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 0.7,
+      "secs": 4.38,
+      "tokens_in": 1763,
+      "tokens_out": 1301
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e06_u001",
+          "e06_u002",
+          "e06_u004"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e06_u009",
+          "e06_u011",
+          "e06_u013",
+          "e06_u015",
+          "e06_u020"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e06_u011",
+          "e06_u013",
+          "e06_u018"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e06_u015",
+          "e06_u019",
+          "e06_u020",
+          "e06_u022"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e06_u022",
+          "e06_u023"
+        ]
+      },
+      "hook_unit_id": "e06_u001",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "trope": "Rain-soaked bride",
+      "central_conflict": "Juliana, a newlywed, must endure a bleak, rainy journey with her enigmatic husband while questioning her new life.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "3ec04279cca6eca5",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 15.6,
+      "secs": 3.22,
+      "tokens_in": 1659,
+      "tokens_out": 1051
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e06_u031",
+          "e06_u032"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e06_u037",
+          "e06_u040",
+          "e06_u043",
+          "e06_u050"
+        ]
+      },
+      "emotion": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e06_u037",
+          "e06_u040",
+          "e06_u046",
+          "e06_u050"
+        ]
+      },
+      "escalation": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e06_u031",
+          "e06_u043",
+          "e06_u050"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e06_u049",
+          "e06_u050"
+        ]
+      },
+      "hook_unit_id": "e06_u031",
+      "hook_type": "visual_shock",
+      "emotion_type": "other",
+      "trope": "peaceful bride",
+      "central_conflict": "Juliana must decide whether to embrace the simple, quiet life offered by her mysterious husband.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03",
+    "prompt_hash": "39e03a4f14943536",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.8,
+      "secs": 3.7,
+      "tokens_in": 1748,
+      "tokens_out": 935
+    },
+    "raw": {
+      "hook": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e06_u057",
+          "e06_u058"
+        ]
+      },
+      "clarity": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e06_u058",
+          "e06_u063"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e06_u062",
+          "e06_u063",
+          "e06_u078"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e06_u065",
+          "e06_u069",
+          "e06_u071",
+          "e06_u074"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e06_u076",
+          "e06_u077",
+          "e06_u078"
+        ]
+      },
+      "hook_unit_id": "e06_u058",
+      "hook_type": "other",
+      "emotion_type": "other",
+      "trope": "healing hearth",
+      "central_conflict": "Juliana struggles to settle into her new home while confronting past loss, as her mysterious husband helps her create a sense of peace.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c04r",
+    "prompt_hash": "b5b12ad1d32b1693",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.3,
+      "secs": 2.96,
+      "tokens_in": 1520,
+      "tokens_out": 1044
+    },
+    "raw": {
+      "hook": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e06_u082",
+          "e06_u083"
+        ]
+      },
+      "clarity": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e06_u086",
+          "e06_u089",
+          "e06_u094"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e06_u086",
+          "e06_u087",
+          "e06_u088",
+          "e06_u089",
+          "e06_u094"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e06_u086",
+          "e06_u089",
+          "e06_u094",
+          "e06_u095"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e06_u096",
+          "e06_u097"
+        ]
+      },
+      "hook_unit_id": "e06_u082",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "trope": "comforting stranger",
+      "central_conflict": "Juliana, having lost her home and family, seeks safety and peace with a mysterious man in his cottage.",
+      "spoils_main_twist": false
+    }
+  }
+]

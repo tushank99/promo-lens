@@ -1,0 +1,54 @@
+[
+  {
+    "candidate_id": "c01r",
+    "proposal": {
+      "retry_of": "c01",
+      "start_unit_id": "e47_u026",
+      "end_unit_id": "e47_u041",
+      "hook": {
+        "unit_ids": [
+          "e47_u026"
+        ],
+        "modality": "visual",
+        "description": "Lady Ashbourne glaring down at a kneeling, destitute Catherine in the mud.",
+        "evidence": "The visual contrast between the powerful Lady Ashbourne and the broken Catherine immediately establishes the power dynamic."
+      },
+      "cliffhanger_unit_id": "e47_u041",
+      "reason": "This window captures the entire arc of Catherine's plea and Juliana's intervention within a single scene, ending on the authoritative cliffhanger."
+    },
+    "retry_of": "c01",
+    "norm": {
+      "start_unit_id": "e47_u026",
+      "end_unit_id": "e47_u041",
+      "hook": {
+        "unit_ids": [
+          "e47_u026"
+        ],
+        "modality": "visual",
+        "description": "Lady Ashbourne glaring down at a kneeling, destitute Catherine in the mud.",
+        "evidence": "The visual contrast between the powerful Lady Ashbourne and the broken Catherine immediately establishes the power dynamic."
+      },
+      "cliffhanger_unit_id": "e47_u041",
+      "reason": "This window captures the entire arc of Catherine's plea and Juliana's intervention within a single scene, ending on the authoritative cliffhanger."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 56.8,
+    "end": 83.5,
+    "duration": 26.7,
+    "segments": [
+      {
+        "start_unit": "e47_u026",
+        "end_unit": "e47_u041",
+        "start": 56.8,
+        "end": 83.5
+      }
+    ]
+  }
+]

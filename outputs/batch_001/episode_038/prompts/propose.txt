@@ -1,0 +1,109 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: A compassionate guard secretly feeds Juliana bread in the dungeon, strengthening her resolve to protect Alexander's secrets just as distant wedding bells signal the start of Rupert's nuptials and her impending execution.
+CONTINUITY NOTES: Following Rupert and Catherine's cruel announcement pairing their wedding with Juliana's public execution, Juliana remains starved in the subterranean dungeon awaiting her fate.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:27.9 (87.9 s).
+- Scene 01 (INT. DUNGEON CELL – DAY): 0.0-87.9 s, units e38_u001..e38_u057.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): none
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e38_u001 | 0.0-4.0 | CAMERA | Medium profile shot of Juliana slumped on the damp stone floor of her dark dungeon cell, her wrists bound in heavy iron shackles and chains draped over her lap.
+e38_u002 | 0.0-3.5 | ACTION | Juliana sits motionless against the cold masonry, weak and visibly drained from starvation, her eyes cast downward.
+e38_u003 | 3.2-6.0 | SFX | Echoing, heavy bootsteps approach down the corridor outside the cell.
+e38_u004 | 4.0-7.5 | CAMERA | Tight close-up on Juliana's profile as her head turns toward the corridor, her blue eyes widening with cautious alarm.
+e38_u005 | 5.0-7.5 | ACTION | Juliana blinks, lifting her gaze toward the heavy iron bars.
+e38_u006 | 7.5-11.0 | CAMERA | Medium shot through the cell bars as a Guard in a black collared uniform with silver buttons halts outside.
+e38_u007 | 8.5-11.0 | ACTION | The Guard pauses, glancing over his shoulder into the gloomy corridor to ensure he is unobserved.
+e38_u008 | 11.0-15.5 | CAMERA | Low-angle shot focusing on the wet flagstones at the base of the cell door.
+e38_u009 | 11.0-15.5 | ACTION | The Guard kneels down and slips a small loaf of rustic bread through the bottom gap between the iron bars, nudging it inside before withdrawing his gloved hand.
+e38_u010 | 15.5-17.5 | CAMERA | Low-angle close-up of Juliana crawling forward across the stone floor toward the bread, her gaze fixed on the offering in disbelief.
+e38_u011 | 16.0-17.3 | DIALOGUE | JULIANA (Breathless, Bewildered): "Why?"
+e38_u012 | 17.5-21.5 | CAMERA | Medium close-up of the Guard looking through the vertical bars with quiet compassion.
+e38_u013 | 17.5-20.3 | DIALOGUE | GUARD (Subdued, Sincere): "Because no one should die hungry."
+e38_u014 | 20.5-22.0 | DIALOGUE | GUARD (Urgent, Whispered): "Eat it before they see."
+e38_u015 | 21.5-23.2 | CAMERA | Over-the-shoulder shot through the cell bars as the Guard turns and walks swiftly away into the dark corridor.
+e38_u016 | 21.8-23.2 | ACTION | The Guard's silhouette retreats into the shadows.
+e38_u017 | 23.2-30.5 | CAMERA | Tight shot following Juliana's trembling, shackle-bound hands as she reaches out and drags the loaf toward her chest.
+e38_u018 | 23.5-27.5 | ACTION | Juliana clutches the bread tightly with both hands, tears welling in her eyes.
+e38_u019 | 26.0-27.5 | DIALOGUE | JULIANA (Choked Up, Tearful): "Thank you."
+e38_u020 | 27.8-31.0 | ACTION | Starving and overcome with emotion, Juliana presses the bread to her lips and tears off a desperate, ravenous bite.
+e38_u021 | 30.5-35.0 | CAMERA | Close-up profile of Juliana chewing the bread, tears rolling down her soot-streaked cheek.
+e38_u022 | 31.0-34.5 | ACTION | Juliana chews hungrily, closing her eyes as the agonizing reality of her plight hits her anew.
+e38_u023 | 34.5-36.5 | DIALOGUE | JULIANA (Sorrowful, Whispering): "Alexander..."
+e38_u024 | 35.0-39.5 | CAMERA | Low-angle wide shot of Juliana seated against the damp stone wall beneath high overhead iron ceiling grates, clutching the half-eaten bread in her lap.
+e38_u025 | 36.8-39.0 | DIALOGUE | JULIANA (Yearning): "...are you safe?"
+e38_u026 | 39.5-45.5 | CAMERA | Intimate close-up of Juliana looking upward, her tear-stained face filled with raw anguish.
+e38_u027 | 40.0-43.0 | DIALOGUE | JULIANA (Desperate, Trembling): "Do you even know what happened to me?"
+e38_u028 | 43.2-45.2 | DIALOGUE | JULIANA (Grief-Stricken): "Do you know they condemned me?"
+e38_u029 | 45.5-51.0 | CAMERA | Tight macro shot on Juliana's chin and throat as she presses a trembling hand against her chest.
+e38_u030 | 45.5-47.5 | DIALOGUE | JULIANA (Fearful, Pleading): "What if I die here?"
+e38_u031 | 47.8-50.5 | DIALOGUE | JULIANA (Heartbroken): "What if I never see you again?"
+e38_u032 | 48.5-51.0 | ACTION | A heavy tear drips down from her jaw, falling into the dark dampness below.
+e38_u033 | 51.0-55.5 | CAMERA | Medium close-up profile of Juliana closing her eyes, drawing a deep breath to steady herself.
+e38_u034 | 51.5-53.5 | DIALOGUE | JULIANA (Fervent Prayer): "Keep him safe."
+e38_u035 | 53.8-55.3 | DIALOGUE | JULIANA (Resigned): "Wherever he is."
+e38_u036 | 55.5-60.5 | CAMERA | Frontal medium shot of Juliana kneeling upright, her right hand pressed firmly over her heart, her posture transforming into quiet dignity.
+e38_u037 | 55.5-57.0 | DIALOGUE | JULIANA (Determined): "Let him live."
+e38_u038 | 57.5-60.5 | DIALOGUE | JULIANA (Steely): "And if I have only one thing left to give..."
+e38_u039 | 60.5-64.0 | CAMERA | Tight close-up of Juliana turning toward the cell wall, her blue eyes flashing with fierce loyalty.
+e38_u040 | 60.8-62.5 | DIALOGUE | JULIANA (Defiant, Unshakable): "I will not give them my husband."
+e38_u041 | 62.8-64.2 | DIALOGUE | JULIANA (Resolute): "I will not betray him."
+e38_u042 | 64.0-67.0 | CAMERA | Extreme close-up of Juliana's closed eyelids as she takes a sharp, startled breath.
+e38_u043 | 64.5-66.5 | ACTION | Juliana's eyes snap wide open in sudden realization as a deep resonant toll reverberates from above.
+e38_u044 | 64.8-87.0 | SFX | Solemn, resonant church bells begin tolling rhythmically from the cathedral above, echoing deep into the stone dungeon.
+e38_u045 | 67.0-70.5 | CAMERA | Low-angle shot looking up past Juliana kneeling on the wet floor toward the barred iron skylight above her cell.
+e38_u046 | 69.0-70.3 | DIALOGUE | JULIANA (Startled Whisper): "Bells."
+e38_u047 | 70.5-72.5 | CAMERA | Wide tracking shot as Juliana scrambles to her feet, chains clinking loudly against her skirts.
+e38_u048 | 71.0-73.5 | ACTION | Juliana rushes toward the front of the cell, clutching the iron bars with both hands.
+e38_u049 | 72.5-78.5 | CAMERA | Medium profile shot of Juliana gripping the heavy iron bars, gazing down the corridor toward the source of the sound.
+e38_u050 | 72.8-74.2 | DIALOGUE | JULIANA (Realizing): "The wedding."
+e38_u051 | 74.5-75.8 | DIALOGUE | JULIANA (Grim): "It's beginning."
+e38_u052 | 76.0-78.5 | DIALOGUE | JULIANA (Somber, Steely): "Then I suppose I'm next."
+e38_u053 | 78.5-84.5 | CAMERA | Close-up between the vertical iron bars framed directly on Juliana's face. The terror in her eyes softens into an unexpected, brave smile of enduring faith.
+e38_u054 | 81.0-84.0 | ACTION | Juliana grips the bars tightly, her lips curving into a warm, defiant smile as she whispers her husband's name.
+e38_u055 | 82.5-84.0 | DIALOGUE | JULIANA (Hopeful, Tender): "Alexander..."
+e38_u056 | 84.5-87.9 | CAMERA | Dramatic cut to black.
+e38_u057 | 84.5-87.9 | SFX | A sharp, high-tension dramatic swell strikes and echoes out into silence alongside the fading toll of the distant church bells.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

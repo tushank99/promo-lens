@@ -1,0 +1,71 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+A compassionate guard secretly feeds Juliana bread in the dungeon, strengthening her resolve to protect Alexander's secrets just as distant wedding bells signal the start of Rupert's nuptials and her impending execution.
+CONTINUITY NOTES: Following Rupert and Catherine's cruel announcement pairing their wedding with Juliana's public execution, Juliana remains starved in the subterranean dungeon awaiting her fate.
+
+CLIP: 55.5s to 87.91s (32.41s). Units below: id | seconds from clip start | type | text.
+e38_u036 | 0.0-5.0 | CAMERA | Frontal medium shot of Juliana kneeling upright, her right hand pressed firmly over her heart, her posture transforming into quiet dignity.
+e38_u037 | 0.0-1.5 | DIALOGUE | JULIANA (Determined): "Let him live."
+e38_u038 | 2.0-5.0 | DIALOGUE | JULIANA (Steely): "And if I have only one thing left to give..."
+e38_u039 | 5.0-8.5 | CAMERA | Tight close-up of Juliana turning toward the cell wall, her blue eyes flashing with fierce loyalty.
+e38_u040 | 5.3-7.0 | DIALOGUE | JULIANA (Defiant, Unshakable): "I will not give them my husband."
+e38_u041 | 7.3-8.7 | DIALOGUE | JULIANA (Resolute): "I will not betray him."
+e38_u042 | 8.5-11.5 | CAMERA | Extreme close-up of Juliana's closed eyelids as she takes a sharp, startled breath.
+e38_u043 | 9.0-11.0 | ACTION | Juliana's eyes snap wide open in sudden realization as a deep resonant toll reverberates from above.
+e38_u044 | 9.3-31.5 | SFX | Solemn, resonant church bells begin tolling rhythmically from the cathedral above, echoing deep into the stone dungeon.
+e38_u045 | 11.5-15.0 | CAMERA | Low-angle shot looking up past Juliana kneeling on the wet floor toward the barred iron skylight above her cell.
+e38_u046 | 13.5-14.8 | DIALOGUE | JULIANA (Startled Whisper): "Bells."
+e38_u047 | 15.0-17.0 | CAMERA | Wide tracking shot as Juliana scrambles to her feet, chains clinking loudly against her skirts.
+e38_u048 | 15.5-18.0 | ACTION | Juliana rushes toward the front of the cell, clutching the iron bars with both hands.
+e38_u049 | 17.0-23.0 | CAMERA | Medium profile shot of Juliana gripping the heavy iron bars, gazing down the corridor toward the source of the sound.
+e38_u050 | 17.3-18.7 | DIALOGUE | JULIANA (Realizing): "The wedding."
+e38_u051 | 19.0-20.3 | DIALOGUE | JULIANA (Grim): "It's beginning."
+e38_u052 | 20.5-23.0 | DIALOGUE | JULIANA (Somber, Steely): "Then I suppose I'm next."
+e38_u053 | 23.0-29.0 | CAMERA | Close-up between the vertical iron bars framed directly on Juliana's face. The terror in her eyes softens into an unexpected, brave smile of enduring faith.
+e38_u054 | 25.5-28.5 | ACTION | Juliana grips the bars tightly, her lips curving into a warm, defiant smile as she whispers her husband's name.
+e38_u055 | 27.0-28.5 | DIALOGUE | JULIANA (Hopeful, Tender): "Alexander..."
+e38_u056 | 29.0-32.4 | CAMERA | Dramatic cut to black.
+e38_u057 | 29.0-32.4 | SFX | A sharp, high-tension dramatic swell strikes and echoes out into silence alongside the fading toll of the distant church bells.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

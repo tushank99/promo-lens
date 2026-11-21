@@ -1,0 +1,69 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Thrown into the castle's subterranean wet cells as Catherine threatens to burn her mother's herbarium and frame her for witchcraft, Juliana breaks down in isolation before swearing that they will never take Alexander from her.
+CONTINUITY NOTES: Follows directly from Episode 28 where Rupert ordered the guards to drag Juliana down to the wet cells while Catherine seized her mother's herbarium.
+
+CLIP: 83.0s to 112.8s (29.8s). Units below: id | seconds from clip start | type | text.
+e29_u052 | 0.0-3.5 | CAMERA | Wide shot inside the pitch-dark cell as the heavy iron door swings open.
+e29_u053 | 1.0-3.5 | ACTION | The guards shove Juliana violently into the cell; she falls hard onto all fours across the cold, wet stone floor.
+e29_u054 | 2.7-3.5 | DIALOGUE | JULIANA (Crying Out, Broken): "Please!"
+e29_u055 | 3.5-5.0 | SFX | The heavy iron door slams shut with a deafening metallic thud, and the massive exterior bolt grates locked.
+e29_u056 | 3.5-5.8 | CAMERA | Static shot of the locked iron door, deadlocked in total isolation.
+e29_u057 | 5.8-10.7 | CAMERA | Medium close-up of Juliana kneeling on the floor, clutching her chest as hyperventilation overtakes her.
+e29_u058 | 6.5-10.7 | ACTION | Juliana trembles uncontrollably, her fingers digging into the collar of her rustic dress as terror washes over her.
+e29_u059 | 10.7-13.1 | CAMERA | Extreme close-up of Juliana's tear-drenched face crumpling in overwhelming grief.
+e29_u060 | 11.2-12.5 | DIALOGUE | JULIANA (Sobbing, Heartbroken): "Mother..."
+e29_u061 | 13.1-16.6 | CAMERA | Medium shot as Juliana pushes herself off the wet stone floor and dashes toward the barred wicket of the heavy door.
+e29_u062 | 14.3-16.5 | DIALOGUE | JULIANA (Desperate, Shouting): "I have done nothing!"
+e29_u063 | 16.6-19.5 | CAMERA | Tight profile close-up of Juliana gripping the rusted iron bars, screaming out into the empty stone corridor.
+e29_u064 | 16.7-19.3 | DIALOGUE | JULIANA (Screaming, Hysterical): "I saved her! I healed her!"
+e29_u065 | 19.5-22.9 | CAMERA | Medium shot from inside the cell as Juliana pounds her fists rhythmically against the reinforced iron door.
+e29_u066 | 19.5-22.2 | SFX | Muffled, dull metallic clanging reverberates as Juliana hammers against the iron door.
+e29_u067 | 19.6-22.3 | DIALOGUE | JULIANA (Shouting in Anguish): "I saved the Duchess!"
+e29_u068 | 22.9-26.0 | CAMERA | Medium shot of Juliana slumping down against the rough stone wall, pulling her knees to her chest while weeping softly.
+e29_u069 | 23.5-25.8 | DIALOGUE | JULIANA (Sorrowful, Wounded): "They took my mother's ledger..."
+e29_u070 | 26.0-29.8 | CAMERA | Front medium shot of Juliana slowly rising to her feet, crossing her arms firmly across her chest as her tears stop and her expression hardens into steely resolve.
+e29_u071 | 26.0-29.6 | DIALOGUE | JULIANA (Quiet Resolve, Unbreakable): "They took her locket. But they will not take Alexander from me."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

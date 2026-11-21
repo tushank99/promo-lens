@@ -1,0 +1,63 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When their cottage is deliberately set ablaze in the dead of night, Alexander risks his life to rescue Juliana and her mother's cherished ledger from the inferno, vowing relentless vengeance against those responsible.
+CONTINUITY NOTES: Picks up directly from Episode 17's intimate hearthside moment; their peaceful sanctuary is shattered when arsonists trap Juliana and Alexander inside their burning home.
+
+CLIP: 128.5s to 179.5s (51.0s). Units below: id | seconds from clip start | type | text.
+e18_u065 | 0.0-6.0 | CAMERA | Close-up of Juliana kneeling in the mud, her face blackened with soot and tears streaming down her cheeks as she clutches the charred ledger.
+e18_u066 | 6.0-11.5 | CAMERA | Wide shot of the cottage completely consumed by towering flames against the dark night sky.
+e18_u067 | 7.7-9.5 | DIALOGUE | JULIANA (Sobbing, Heartbroken): "Our home..."
+e18_u068 | 11.3-14.0 | DIALOGUE | JULIANA (Crying, Shattered): "Everything we had is gone."
+e18_u069 | 12.0-15.5 | ACTION | Alexander kneels beside her in the grass, resting a steady, protective hand on her back.
+e18_u070 | 15.5-26.5 | ACTION | Juliana turns toward Alexander, her hand trembling as she reaches out and touches his chest.
+e18_u071 | 17.3-20.0 | DIALOGUE | JULIANA (Voice Breaking, Anguished): "Why would anyone do this?"
+e18_u072 | 24.7-26.3 | DIALOGUE | JULIANA (Whispering, Tearful): "Alexander..."
+e18_u073 | 26.5-32.5 | ACTION | Alexander draws her firmly into his arms, wrapping both burly arms around her as she buries her face into his shoulder, weeping uncontrollably.
+e18_u074 | 29.5-32.3 | DIALOGUE | ALEXANDER (Cold, Ominous): "Someone wanted us out."
+e18_u075 | 34.5-37.0 | DIALOGUE | JULIANA (Despairing, Weeping): "We have nowhere to go."
+e18_u076 | 37.0-42.5 | CAMERA | Slow push-in on Alexander's face over Juliana's shoulder. His expression hardens into a mask of pure, lethal fury.
+e18_u077 | 42.5-51.0 | CAMERA | Extreme close-up of Alexander's piercing eyes and combat scar bathed in the flickering orange glow of the fire.
+e18_u078 | 43.3-48.7 | DIALOGUE | ALEXANDER (Cold Fury, Resolute): "They took our home. I will not let them take anything else now."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

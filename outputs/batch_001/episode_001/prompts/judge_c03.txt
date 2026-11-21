@@ -1,0 +1,79 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Lady Juliana arrives at the cathedral in her late mother's bridal gown, only to suffer the ultimate betrayal when her fiancé Gerald abandons her at the altar for her cruel sister Clarissa with her family's full blessing.
+CONTINUITY NOTES: First episode of the series. Establishes Juliana's humiliation and abandonment by her betrothed, Gerald, and her noble family in favor of her sister, Clarissa.
+
+CLIP: 95.8s to 138.0s (42.2s). Units below: id | seconds from clip start | type | text.
+e01_u066 | 0.0-2.8 | CAMERA | Close-up on Juliana as she rises, stung by the utter betrayal.
+e01_u067 | 0.4-2.4 | DIALOGUE | LADY JULIANA (Incredulous): "Embarrassed you?"
+e01_u068 | 2.8-6.7 | CAMERA | Medium shot of the Matriarch gesturing toward Clarissa, who stands elegantly in gold.
+e01_u069 | 3.0-5.7 | DIALOGUE | MATRIARCH (Haughty): "Clarissa knows how to carry herself."
+e01_u070 | 5.8-9.2 | DIALOGUE | MATRIARCH (Proud): "She has beauty, connections, and a future worth protecting."
+e01_u071 | 6.7-9.5 | CAMERA | Medium profile two-shot of the Matriarch confronting Juliana face to face.
+e01_u072 | 9.5-11.6 | CAMERA | Close-up on Juliana, demanding answers in spite of her humiliation.
+e01_u073 | 9.6-11.5 | DIALOGUE | LADY JULIANA (Raw, Painful): "And I am what?"
+e01_u074 | 11.6-14.2 | CAMERA | Medium tracking shot showing the Lady in Gold Gown stepping past Juliana toward the center.
+e01_u075 | 11.7-15.0 | DIALOGUE | LADY IN GOLD GOWN (Viciously Calm): "You are the daughter people tolerate because they have to."
+e01_u076 | 14.2-17.2 | CAMERA | Close-up on Juliana absorbing the venomous words, her breathing shallow.
+e01_u077 | 15.3-17.2 | DIALOGUE | LADY IN GOLD GOWN (Gloating): "I am the daughter they choose."
+e01_u078 | 17.2-19.4 | CAMERA | Medium shot of the Lady in Gold Gown smiling warmly at Gerald beside the altar candles.
+e01_u079 | 17.5-19.9 | DIALOGUE | MATRIARCH (Firm): "Clarissa is the jewel of this family."
+e01_u080 | 19.4-21.2 | CAMERA | Close two-shot of the Matriarch and Juliana standing side by side in profile.
+e01_u081 | 21.2-23.7 | CAMERA | Medium shot framing Juliana looking directly at Gerald, who towers over her coldly.
+e01_u082 | 21.2-23.2 | DIALOGUE | LADY JULIANA (Trembling, Dignified): "So that is what I was worth to you?"
+e01_u083 | 23.7-26.7 | CAMERA | Close-up on Gerald's sharp jawline as he looks down at her without an ounce of remorse.
+e01_u084 | 24.0-26.5 | DIALOGUE | THE FORMER GROOM (Scornful, Hard): "You have nothing to offer me anymore."
+e01_u085 | 26.7-28.4 | CAMERA | Extreme close-up on Juliana's eye as a single tear rolls down her cheek.
+e01_u086 | 28.4-32.7 | CAMERA | Full shot tracking Gerald as he turns his back on Juliana and walks back toward Clarissa and the altar.
+e01_u087 | 28.4-31.7 | DIALOGUE | THE FORMER GROOM (Arrogant, Dismissive): "I cannot marry a woman of such plainness and low value..."
+e01_u088 | 32.7-35.5 | CAMERA | Close-up on Clarissa's radiant, conceited smile basking in Gerald's words.
+e01_u089 | 32.7-35.4 | DIALOGUE | THE FORMER GROOM (Reverent toward Clarissa): "...when Clarissa is the true jewel of the county."
+e01_u090 | 35.5-38.0 | ACTION | Juliana's hand clenches fiercely into the folds of her mother's silk bridal gown, knuckles whitening with suppressed fury.
+e01_u091 | 35.5-38.0 | CAMERA | Tight insert on Juliana's white-knuckled hand clutching the gown fabric.
+e01_u092 | 38.0-41.2 | CAMERA | Push-in close-up on Juliana's tearful face. Her trembling mouth straightens, her tear-filled blue eyes hardening from sheer devastation into cold, resolute defiance.
+e01_u093 | 38.0-41.2 | ACTION | Juliana breathes through the agony, refusing to break down further in front of the congregation.
+e01_u094 | 39.2-41.7 | SFX | Solemn low-pitched string drone swells to an ominous cliffhanger peak.
+e01_u095 | 41.2-42.2 | CAMERA | Cut to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

@@ -1,0 +1,160 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e49_u013",
+      "end_unit_id": "e49_u031",
+      "hook": {
+        "unit_ids": [
+          "e49_u013"
+        ],
+        "modality": "visual",
+        "description": "Tight close-up on Father Thomas's face, the candlelight dancing in his calculating eyes.",
+        "evidence": "The intense, intimate visual of a priest in a secret meeting immediately establishes a forbidden, high-stakes atmosphere."
+      },
+      "cliffhanger_unit_id": "e49_u031",
+      "reason": "This segment captures the tension of a secret alliance and the high-stakes demand for control over the council."
+    },
+    "norm": {
+      "start_unit_id": "e49_u013",
+      "end_unit_id": "e49_u031",
+      "hook": {
+        "unit_ids": [
+          "e49_u013"
+        ],
+        "modality": "visual",
+        "description": "Tight close-up on Father Thomas's face, the candlelight dancing in his calculating eyes.",
+        "evidence": "The intense, intimate visual of a priest in a secret meeting immediately establishes a forbidden, high-stakes atmosphere."
+      },
+      "cliffhanger_unit_id": "e49_u031",
+      "reason": "This segment captures the tension of a secret alliance and the high-stakes demand for control over the council."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 22.0,
+    "end": 72.4,
+    "duration": 50.4,
+    "segments": [
+      {
+        "start_unit": "e49_u013",
+        "end_unit": "e49_u031",
+        "start": 22.0,
+        "end": 72.4
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e49_u033",
+      "end_unit_id": "e49_u054",
+      "hook": {
+        "unit_ids": [
+          "e49_u033"
+        ],
+        "modality": "spoken",
+        "description": "Father Thomas demands, 'What is it you actually need from me, Catherine? Say it plainly, for once.'",
+        "evidence": "The direct, confrontational question cuts through the mystery and forces the viewer to listen for the dangerous terms of their deal."
+      },
+      "cliffhanger_unit_id": "e49_u054",
+      "reason": "The negotiation of treasonous terms between a disgraced bride and a priest creates immediate narrative stakes."
+    },
+    "norm": {
+      "start_unit_id": "e49_u033",
+      "end_unit_id": "e49_u054",
+      "hook": {
+        "unit_ids": [
+          "e49_u033"
+        ],
+        "modality": "spoken",
+        "description": "Father Thomas demands, 'What is it you actually need from me, Catherine? Say it plainly, for once.'",
+        "evidence": "The direct, confrontational question cuts through the mystery and forces the viewer to listen for the dangerous terms of their deal."
+      },
+      "cliffhanger_unit_id": "e49_u054",
+      "reason": "The negotiation of treasonous terms between a disgraced bride and a priest creates immediate narrative stakes."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "61.9s is over the 60s maximum"
+    ],
+    "warnings": [
+      "camera shot e49_u032 (72.4-77.0) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 72.6,
+    "end": 134.5,
+    "duration": 61.9,
+    "segments": [
+      {
+        "start_unit": "e49_u033",
+        "end_unit": "e49_u054",
+        "start": 72.6,
+        "end": 134.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e49_u046",
+      "end_unit_id": "e49_u063",
+      "hook": {
+        "unit_ids": [
+          "e49_u046"
+        ],
+        "modality": "spoken",
+        "description": "Father Thomas asks, 'what happens to me when the Duke finds out a crowned priest conspired against him?'",
+        "evidence": "The mention of treason against a Duke provides a clear, life-or-death consequence that hooks the viewer."
+      },
+      "cliffhanger_unit_id": "e49_u063",
+      "reason": "The final moments of the pact, ending with a tender but dangerous touch, provide a compelling emotional payoff."
+    },
+    "norm": {
+      "start_unit_id": "e49_u046",
+      "end_unit_id": "e49_u063",
+      "hook": {
+        "unit_ids": [
+          "e49_u046"
+        ],
+        "modality": "spoken",
+        "description": "Father Thomas asks, 'what happens to me when the Duke finds out a crowned priest conspired against him?'",
+        "evidence": "The mention of treason against a Duke provides a clear, life-or-death consequence that hooks the viewer."
+      },
+      "cliffhanger_unit_id": "e49_u063",
+      "reason": "The final moments of the pact, ending with a tender but dangerous touch, provide a compelling emotional payoff."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera shot e49_u045 (103.8-113.0) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 104.2,
+    "end": 144.75,
+    "duration": 40.55,
+    "segments": [
+      {
+        "start_unit": "e49_u046",
+        "end_unit": "e49_u063",
+        "start": 104.2,
+        "end": 144.75
+      }
+    ]
+  }
+]

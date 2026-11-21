@@ -1,0 +1,175 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e09_u003",
+      "end_unit_id": "e09_u033",
+      "hook": {
+        "unit_ids": [
+          "e09_u003"
+        ],
+        "modality": "audio",
+        "description": "Heavy, frantic pounding on the cottage door.",
+        "evidence": "The sudden, aggressive sound creates immediate tension and urgency."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "The high-stakes medical emergency establishes the protagonist's skill and the immediate danger of her situation."
+    },
+    "norm": {
+      "start_unit_id": "e09_u003",
+      "end_unit_id": "e09_u033",
+      "hook": {
+        "unit_ids": [
+          "e09_u003"
+        ],
+        "modality": "audio",
+        "description": "Heavy, frantic pounding on the cottage door.",
+        "evidence": "The sudden, aggressive sound creates immediate tension and urgency."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "The high-stakes medical emergency establishes the protagonist's skill and the immediate danger of her situation."
+    },
+    "ok": true,
+    "status": "review",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera shot e09_u001 (0.0-2.8) straddles a cut",
+      "camera-only stretch 3.3s (23.9-27.2)"
+    ],
+    "review": [
+      "straddled_action_or_sfx"
+    ],
+    "review_details": [
+      "action e09_u002 (0.0-2.8) overlaps the clip from outside the window: check the cut on footage",
+      "action e09_u034 (42.2-43.5) overlaps the clip from outside the window: check the cut on footage"
+    ],
+    "hook_delay": 0.0,
+    "start": 2.0,
+    "end": 42.5,
+    "duration": 40.5,
+    "segments": [
+      {
+        "start_unit": "e09_u003",
+        "end_unit": "e09_u033",
+        "start": 2.0,
+        "end": 42.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e09_u057",
+      "end_unit_id": "e09_u065",
+      "hook": {
+        "unit_ids": [
+          "e09_u057"
+        ],
+        "modality": "visual",
+        "description": "Alexander slamming the door shut against the rain.",
+        "evidence": "The abrupt transition from a life-saving act to a tense, protective confrontation hooks the viewer."
+      },
+      "cliffhanger_unit_id": "e09_u065",
+      "reason": "This moment highlights the romantic tension and the looming threat of discovery, raising the stakes for the protagonists."
+    },
+    "norm": {
+      "start_unit_id": "e09_u057",
+      "end_unit_id": "e09_u065",
+      "hook": {
+        "unit_ids": [
+          "e09_u057"
+        ],
+        "modality": "visual",
+        "description": "Alexander slamming the door shut against the rain.",
+        "evidence": "The abrupt transition from a life-saving act to a tense, protective confrontation hooks the viewer."
+      },
+      "cliffhanger_unit_id": "e09_u065",
+      "reason": "This moment highlights the romantic tension and the looming threat of discovery, raising the stakes for the protagonists."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration",
+      "dialogue_cut"
+    ],
+    "details": [
+      "9.3s is under the 20s minimum",
+      "clip start 74.5s cuts through e09_u056 (71.2-74.8): \"I will tell the village what you did. Th\""
+    ],
+    "warnings": [
+      "camera shot e09_u055 (71.0-74.8) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 74.5,
+    "end": 83.8,
+    "duration": 9.3,
+    "segments": [
+      {
+        "start_unit": "e09_u057",
+        "end_unit": "e09_u065",
+        "start": 74.5,
+        "end": 83.8
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e09_u074",
+      "end_unit_id": "e09_u089",
+      "hook": {
+        "unit_ids": [
+          "e09_u078"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of the Former Groom's eyes widening in dread.",
+        "evidence": "The visceral reaction to a secret being revealed creates instant intrigue about the 'late Duke'."
+      },
+      "cliffhanger_unit_id": "e09_u089",
+      "reason": "The reveal of a potential ghost from the past threatening the antagonist's power is a classic, high-tension hook."
+    },
+    "norm": {
+      "start_unit_id": "e09_u074",
+      "end_unit_id": "e09_u089",
+      "hook": {
+        "unit_ids": [
+          "e09_u078"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of the Former Groom's eyes widening in dread.",
+        "evidence": "The visceral reaction to a secret being revealed creates instant intrigue about the 'late Duke'."
+      },
+      "cliffhanger_unit_id": "e09_u089",
+      "reason": "The reveal of a potential ghost from the past threatening the antagonist's power is a classic, high-tension hook."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "hook"
+    ],
+    "details": [
+      "hook e09_u078 begins 5.2s after clip start (limit 3.0s)"
+    ],
+    "warnings": [
+      "camera-only stretch 3.9s (105.9-109.8)",
+      "camera-only stretch 4.3s (111.2-115.5)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 5.2,
+    "start": 92.0,
+    "end": 115.5,
+    "duration": 23.5,
+    "segments": [
+      {
+        "start_unit": "e09_u074",
+        "end_unit": "e09_u089",
+        "start": 92.0,
+        "end": 115.5
+      }
+    ]
+  }
+]

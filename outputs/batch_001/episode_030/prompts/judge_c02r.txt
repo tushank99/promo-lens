@@ -1,0 +1,65 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When rumors of the poisoned Duchess begin spreading among the servants, Rupert and Catherine conspire with an elder nobleman to fabricate a witchcraft charge against Juliana, sealing her fate for the gallows.
+CONTINUITY NOTES: Follows directly from Episode 29 where Juliana was locked away in the castle's subterranean wet cells, vowing never to let them take Alexander from her.
+
+CLIP: 74.8s to 106.6s (31.8s). Units below: id | seconds from clip start | type | text.
+e30_u038 | 0.0-8.0 | CAMERA | Medium shot framing the Elder Nobleman seated at the desk beside Catherine standing in the firelight.
+e30_u039 | 0.2-7.7 | DIALOGUE | ELDER NOBLEMAN (Cold, Calculating): "Give those facts to a magistrate in the right order, and she becomes a poisoner."
+e30_u040 | 8.0-10.8 | CAMERA | Medium close-up of Catherine gently moving her fan, raising an intrigued brow.
+e30_u041 | 8.4-10.6 | DIALOGUE | CATHERINE (Curious, Conniving): "And if she claims she is a healer?"
+e30_u042 | 10.8-13.7 | CAMERA | Tight close-up of the Elder Nobleman's face illuminated by warm firelight.
+e30_u043 | 11.0-13.0 | DIALOGUE | ELDER NOBLEMAN (Sinister): "Then call it witchcraft."
+e30_u044 | 13.7-17.0 | CAMERA | Close-up of Rupert wide-eyed with shock at the severity of the plan.
+e30_u045 | 14.2-16.5 | DIALOGUE | RUPERT (Stunned): "Witchcraft is a capital charge."
+e30_u046 | 17.0-19.7 | CAMERA | Straight-on close-up of the Elder Nobleman staring back without a flicker of remorse.
+e30_u047 | 17.2-18.6 | DIALOGUE | ELDER NOBLEMAN (Unflinching): "Precisely."
+e30_u048 | 19.7-27.1 | CAMERA | Medium three-shot framing Rupert, the Elder Nobleman between them, and Catherine listening closely.
+e30_u049 | 19.8-27.0 | DIALOGUE | ELDER NOBLEMAN (Authoritative, Command): "Do not hide the evidence, manufacture it. Drag her before the magistrate tomorrow, frame the trial, buy the jury, and let the State hang her."
+e30_u050 | 27.1-29.6 | CAMERA | Close-up of Catherine smiling with malicious satisfaction, fluttering her fan.
+e30_u051 | 27.4-29.1 | DIALOGUE | CATHERINE (Scheming): "Her botanical ledger..."
+e30_u052 | 29.6-31.8 | CAMERA | Close-up of the Elder Nobleman nodding slowly.
+e30_u053 | 30.0-31.2 | DIALOGUE | ELDER NOBLEMAN (Confirming): "Exactly."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

@@ -1,0 +1,74 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Standing before the smoldering ash of their home, Juliana and Alexander receive shelter and food from grateful villagers before Alexander meets in secret with a loyal spy, learning that his usurping enemies have imprisoned his mother and claimed his ducal seat.
+CONTINUITY NOTES: Picks up directly from Episode 18's devastating fire; Juliana and Alexander stand amidst the morning ruins of Blackwood cottage with her mother's surviving herbal book before retreating to an abandoned barn.
+
+CLIP: 41.5s to 89.5s (48.0s). Units below: id | seconds from clip start | type | text.
+e19_u026 | 0.0-2.7 | CAMERA | Medium shot tracking Alexander from behind as he stands waiting beside a moss-covered ancient tree trunk in the dense, fog-laden forest.
+e19_u027 | 1.5-4.5 | ACTION | A bald, scarred man dressed in a dark coat emerges from between the trees, immediately coming to a halt and bowing with clasped hands in formal deference.
+e19_u028 | 2.8-4.3 | DIALOGUE | INFORMANT (Subservient, Urgent): "Your Grace."
+e19_u029 | 4.5-7.7 | CAMERA | Medium close-up of Alexander turning toward his operative, his eyes dark with calculating authority.
+e19_u030 | 5.6-7.7 | DIALOGUE | ALEXANDER (Authoritative, Direct): "Tell me what is happening in Ashburg."
+e19_u031 | 8.0-13.3 | DIALOGUE | INFORMANT (Grave, Cautious): "Lord Sterling's influence has grown since your disappearance. He has men in the county offices, the courts, even among the household staff."
+e19_u032 | 13.8-19.9 | CAMERA | Slow push-in on Alexander's rugged, scarred face, his jaw tightening with simmering rage as he listens.
+e19_u033 | 13.8-19.8 | DIALOGUE | INFORMANT: "Rupert has become the face of Ashburg. He sits in your father's room, signs your estate papers, gives orders as though the title already belongs to him."
+e19_u034 | 19.9-23.3 | CAMERA | Medium shot of the bald informant standing among the towering trees, reporting solemnly.
+e19_u035 | 20.1-23.3 | DIALOGUE | INFORMANT (Earnest): "And Lady Catherine, she behaves as though she is already the future duchess."
+e19_u036 | 23.3-29.1 | CAMERA | Close-up of the informant, his voice dropping into urgent, discreet concern.
+e19_u037 | 23.6-29.0 | DIALOGUE | INFORMANT (Whispering, Alarmed): "But they have separated her from the household. She is watched constantly. Every letter she sends is checked. Every visitor is questioned."
+e19_u038 | 29.1-31.8 | CAMERA | Extreme close-up of Alexander's right hand clenching into a powerful, trembling fist at his coat seam, veins bulging with restrained violence.
+e19_u039 | 29.4-31.7 | DIALOGUE | INFORMANT: "There are almost no loyal servants left around her."
+e19_u040 | 31.8-34.7 | CAMERA | Low-angle shot past Alexander toward the informant.
+e19_u041 | 32.0-34.9 | DIALOGUE | INFORMANT (Grave): "The people who served your family for years have been dismissed, frightened away, or replaced."
+e19_u042 | 34.7-37.3 | ACTION | Alexander lifts his gaze toward the cold forest canopy, his breathing heavy with profound anguish.
+e19_u043 | 35.0-37.3 | DIALOGUE | ALEXANDER (Cold, Pained Fury): "My mother is a prisoner in her own house."
+e19_u044 | 37.3-39.7 | CAMERA | Close-up of the informant looking steadily at Alexander.
+e19_u045 | 37.5-39.5 | DIALOGUE | INFORMANT (Quiet, Solemn): "And everyone believes you are dead."
+e19_u046 | 39.7-42.3 | CAMERA | Extreme close-up of Alexander's scarred eye and grimly set mouth.
+e19_u047 | 40.0-42.2 | DIALOGUE | ALEXANDER (Lethal, Calculating): "Then let them believe it a little longer."
+e19_u048 | 42.5-44.0 | DIALOGUE | INFORMANT (Inquiring, Tense): "And when we have the proof?"
+e19_u049 | 44.0-48.0 | CAMERA | Dramatic low-angle push-in on Alexander's commanding silhouette, his combat scar etched sharply against the fog.
+e19_u050 | 44.4-47.4 | DIALOGUE | ALEXANDER (Vow of Vengeance, Resolute): "Then Ashburg will remember who it belongs to."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

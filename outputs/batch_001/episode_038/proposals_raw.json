@@ -1,0 +1,48 @@
+{
+  "episode": 38,
+  "prompt_hash": "d1741cf42f4e87b9",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.7,
+    "secs": 3.56,
+    "tokens_in": 3404,
+    "tokens_out": 357,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e38_u001",
+        "end_unit_id": "e38_u022",
+        "hook": {
+          "unit_ids": [
+            "e38_u001"
+          ],
+          "modality": "visual",
+          "description": "Juliana slumped on the dungeon floor in chains.",
+          "evidence": "The immediate visual of a helpless, shackled woman in a dark dungeon establishes high stakes and immediate sympathy."
+        },
+        "cliffhanger_unit_id": "e38_u022",
+        "reason": "This clip captures the emotional core of the prisoner's plight and the unexpected act of kindness from the guard."
+      },
+      {
+        "start_unit_id": "e38_u036",
+        "end_unit_id": "e38_u057",
+        "hook": {
+          "unit_ids": [
+            "e38_u036"
+          ],
+          "modality": "visual",
+          "description": "Juliana kneeling with a hand over her heart, transforming into a posture of dignity.",
+          "evidence": "The sudden shift from victim to defiant survivor is a powerful visual hook that promises a character arc."
+        },
+        "cliffhanger_unit_id": "e38_u057",
+        "reason": "The juxtaposition of her internal resolve with the external threat of the wedding bells creates a high-tension narrative arc."
+      }
+    ]
+  },
+  "note": null
+}

@@ -1,0 +1,61 @@
+{
+  "episode": 7,
+  "prompt_hash": "a780c58cd09e167c",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.19,
+    "tokens_in": 3716,
+    "tokens_out": 484
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e07_u009",
+        "end_unit_id": "e07_u033",
+        "hook": {
+          "unit_ids": [
+            "e07_u009"
+          ],
+          "modality": "spoken",
+          "description": "Aristocratic woman mocks Juliana's humble home.",
+          "evidence": "Immediate conflict and class-based tension hook the viewer into the power dynamic."
+        },
+        "cliffhanger_unit_id": "e07_u033",
+        "reason": "The confrontation escalates quickly, ending on a direct threat to the protagonist's husband."
+      },
+      {
+        "start_unit_id": "e07_u034",
+        "end_unit_id": "e07_u052",
+        "hook": {
+          "unit_ids": [
+            "e07_u034"
+          ],
+          "modality": "visual",
+          "description": "A towering, scarred man emerges from the mist.",
+          "evidence": "The visual reveal of the mysterious, imposing husband creates immediate intrigue."
+        },
+        "cliffhanger_unit_id": "e07_u052",
+        "reason": "The silent, intimidating presence of the husband forces the arrogant antagonists to flee in terror."
+      },
+      {
+        "start_unit_id": "e07_u040",
+        "end_unit_id": "e07_u058",
+        "hook": {
+          "unit_ids": [
+            "e07_u040"
+          ],
+          "modality": "visual",
+          "description": "The scarred man towers over the arrogant Gerald.",
+          "evidence": "The sudden shift in power dynamics as the bully becomes the victim is highly satisfying."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "This clip captures the satisfying payoff of the husband's silent dominance and the couple's intimate moment."
+      }
+    ]
+  },
+  "note": null
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "2a8bc3de5eca75c3",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 12.4,
+      "secs": 2.85,
+      "tokens_in": 2133,
+      "tokens_out": 1048
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e16_u012",
+          "e16_u014"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e16_u014",
+          "e16_u017",
+          "e16_u036",
+          "e16_u044"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e16_u028",
+          "e16_u036",
+          "e16_u040",
+          "e16_u044"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e16_u014",
+          "e16_u025",
+          "e16_u036",
+          "e16_u044"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "payoff",
+        "evidence_unit_ids": [
+          "e16_u044"
+        ]
+      },
+      "hook_unit_id": "e16_u012",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "shock",
+      "trope": "interrogation confession",
+      "central_conflict": "Alexander battles thugs attacking Juliana’s garden and forces a confession about who sent them.",
+      "spoils_main_twist": true
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "f2bbbd0d0c5638a2",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.1,
+      "secs": 2.54,
+      "tokens_in": 1741,
+      "tokens_out": 958
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e16_u034",
+          "e16_u035"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e16_u036",
+          "e16_u044",
+          "e16_u045"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e16_u039",
+          "e16_u043",
+          "e16_u045",
+          "e16_u046"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e16_u034",
+          "e16_u044",
+          "e16_u050",
+          "e16_u052"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e16_u054",
+          "e16_u055"
+        ]
+      },
+      "hook_unit_id": "e16_u034",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "shock",
+      "trope": "betrayal revelation",
+      "central_conflict": "Alexander confronts the thugs attacking Juliana's garden and forces a confession that Gerald Harrington ordered the assault.",
+      "spoils_main_twist": true
+    }
+  },
+  {
+    "candidate_id": "c03",
+    "prompt_hash": "dc1dd7bc6cd223c7",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.4,
+      "secs": 3.21,
+      "tokens_in": 1412,
+      "tokens_out": 1076
+    },
+    "raw": {
+      "hook": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e16_u053"
+        ]
+      },
+      "clarity": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e16_u052",
+          "e16_u053",
+          "e16_u055",
+          "e16_u057",
+          "e16_u059",
+          "e16_u063"
+        ]
+      },
+      "emotion": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e16_u053",
+          "e16_u055",
+          "e16_u057",
+          "e16_u059",
+          "e16_u063"
+        ]
+      },
+      "escalation": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e16_u053",
+          "e16_u057",
+          "e16_u063",
+          "e16_u064"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e16_u063",
+          "e16_u064"
+        ]
+      },
+      "hook_unit_id": "e16_u053",
+      "hook_type": "shocking_line",
+      "emotion_type": "romance",
+      "trope": "battle scarred hero",
+      "central_conflict": "Juliana is awed by Alexander's combat skill and they share a tender, emotionally charged moment despite his hidden, painful past.",
+      "spoils_main_twist": false
+    }
+  }
+]

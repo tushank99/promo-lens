@@ -1,0 +1,63 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+In the aftermath of the brutal attack, Alexander repairs Juliana's devastated garden and swears to protect her with his life, drawing them into a tender, intimate embrace by the hearth.
+CONTINUITY NOTES: Picks up the morning after Episode 16's moonlit confrontation where Alexander defended Juliana and defeated Harrington's hired thugs in her medicinal garden.
+
+CLIP: 54.0s to 83.5s (29.5s). Units below: id | seconds from clip start | type | text.
+e17_u040 | 0.0-4.5 | CAMERA | Medium close-up of Juliana looking up at him, her vulnerability resurfacing in the warm amber glow.
+e17_u041 | 2.5-4.0 | DIALOGUE | JULIANA (Vulnerable, Sincere): "I was frightened."
+e17_u042 | 4.5-6.5 | CAMERA | Close-up of Alexander, his brow furrowing with sudden concern.
+e17_u043 | 4.8-5.8 | DIALOGUE | ALEXANDER (Questioning): "Of them?"
+e17_u044 | 6.5-9.5 | CAMERA | Close-up of Juliana gazing directly into his eyes, her heart laid bare.
+e17_u045 | 6.8-8.2 | DIALOGUE | JULIANA (Whispering, Earnest): "Of losing you."
+e17_u046 | 9.5-12.0 | CAMERA | Close-up of Alexander visibly moved, his gaze softening with profound emotion.
+e17_u047 | 12.0-19.5 | CAMERA | Medium shot as Alexander stands and pulls Juliana gently to her feet against his broad chest.
+e17_u048 | 12.0-19.5 | ACTION | Juliana rests her cheek against Alexander's chest, closing her eyes as his strong arms wrap around her shoulders, holding her safe against his frame.
+e17_u049 | 19.5-24.0 | CAMERA | Close-up on their faces nestled together in the firelight, Alexander resting his bearded chin against her hair.
+e17_u050 | 23.0-27.0 | ACTION | Juliana nestles deeper into his coat, listening intently to the rapid thudding beneath his chest.
+e17_u051 | 24.5-26.0 | DIALOGUE | JULIANA (Soft, Playful): "Your heart is racing."
+e17_u052 | 26.5-29.5 | CAMERA | Close-up of Alexander tilting his head down toward her, a tender smile breaking through his rugged beard.
+e17_u053 | 27.2-28.5 | DIALOGUE | ALEXANDER (Warm, Whispering): "So is yours."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

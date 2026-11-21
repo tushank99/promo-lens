@@ -1,0 +1,66 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When their cottage is deliberately set ablaze in the dead of night, Alexander risks his life to rescue Juliana and her mother's cherished ledger from the inferno, vowing relentless vengeance against those responsible.
+CONTINUITY NOTES: Picks up directly from Episode 17's intimate hearthside moment; their peaceful sanctuary is shattered when arsonists trap Juliana and Alexander inside their burning home.
+
+CLIP: 63.0s to 98.2s (35.2s). Units below: id | seconds from clip start | type | text.
+e18_u036 | 0.0-2.5 | CAMERA | Low-angle shot pointing up at the ceiling beams overhead, engulfed in roaring fire and splitting down the center.
+e18_u037 | 2.5-5.0 | ACTION | Alexander points upward with urgency, pulling her under his arm.
+e18_u038 | 2.8-5.0 | DIALOGUE | ALEXANDER (Loud, Alarmed): "Juliana, the ceiling is coming down!"
+e18_u039 | 5.0-7.5 | ACTION | Juliana wrests her hand from his grasp and charges straight toward the burning desk.
+e18_u040 | 7.5-10.5 | CAMERA | Wide shot of the room as a massive burning crossbeam collapses into the floorboards with a fiery explosion.
+e18_u041 | 10.5-12.5 | DIALOGUE | ALEXANDER (Roaring in Terror): "Juliana!"
+e18_u042 | 12.0-13.8 | DIALOGUE | JULIANA (Defiant, Weeping): "It's my mother's!"
+e18_u043 | 13.8-18.5 | ACTION | Juliana snatches the scorched leather ledger from the burning table, pulling it tightly against her chest with both bandaged hands.
+e18_u044 | 18.5-20.5 | CAMERA | Close-up of the ceiling rafter splitting violently apart above her.
+e18_u045 | 20.5-23.5 | CAMERA | Close-up of Juliana looking up in sheer terror, firelight dancing across her tearful face.
+e18_u046 | 21.0-23.2 | DIALOGUE | JULIANA (Screaming, Blood-Curdling): "Alexander!"
+e18_u047 | 23.5-26.5 | ACTION | Alexander lunges across the room, tackling her to the wooden floor and covering her body entirely with his own.
+e18_u048 | 23.5-24.5 | DIALOGUE | ALEXANDER (Screaming Command): "Down!"
+e18_u049 | 24.8-27.0 | SFX | Massive wooden beam crashes directly where Juliana had been standing, showering them in sparks.
+e18_u050 | 26.5-31.0 | CAMERA | Ground-level shot of Alexander lying on top of Juliana, his chest shielding her, his face smeared with soot.
+e18_u051 | 28.5-35.0 | ACTION | Alexander lifts his head slightly, checking her face and cradling her cheek tenderly.
+e18_u052 | 33.5-35.2 | DIALOGUE | ALEXANDER (Panting, Reassuring): "I've got you."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

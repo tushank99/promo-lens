@@ -1,0 +1,60 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e07_u034",
+      "end_unit_id": "e07_u037",
+      "hook": {
+        "unit_ids": [
+          "e07_u034"
+        ],
+        "modality": "visual",
+        "description": "A wide shot of a towering, shadowed figure emerging from a dark, fog-drenched forest path.",
+        "evidence": "The unit e07_u034 establishes the intimidating presence of the husband immediately at the start of the clip."
+      },
+      "cliffhanger_unit_id": "e07_u037",
+      "reason": "This window focuses exclusively on the husband's arrival within Scene 02, satisfying the scene-consistency rule while maintaining the tension of his approach."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e07_u034",
+      "end_unit_id": "e07_u037",
+      "hook": {
+        "unit_ids": [
+          "e07_u034"
+        ],
+        "modality": "visual",
+        "description": "A wide shot of a towering, shadowed figure emerging from a dark, fog-drenched forest path.",
+        "evidence": "The unit e07_u034 establishes the intimidating presence of the husband immediately at the start of the clip."
+      },
+      "cliffhanger_unit_id": "e07_u037",
+      "reason": "This window focuses exclusively on the husband's arrival within Scene 02, satisfying the scene-consistency rule while maintaining the tension of his approach."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration",
+      "cliffhanger"
+    ],
+    "details": [
+      "6.0s is under the 20s minimum",
+      "cliffhanger e07_u037 starts at 74.0s, before the final 20% of the clip (74.3s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 69.5,
+    "end": 75.5,
+    "duration": 6.0,
+    "segments": [
+      {
+        "start_unit": "e07_u034",
+        "end_unit": "e07_u037",
+        "start": 69.5,
+        "end": 75.5
+      }
+    ]
+  }
+]

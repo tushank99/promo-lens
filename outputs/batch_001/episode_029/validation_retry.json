@@ -1,0 +1,54 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e29_u029",
+      "end_unit_id": "e29_u044",
+      "hook": {
+        "unit_ids": [
+          "e29_u029"
+        ],
+        "modality": "visual",
+        "description": "Tight close-up of Catherine's eyes narrowing into an icy, venomous gaze.",
+        "evidence": "The visual intensity of the villain's gaze establishes the immediate threat within 3 seconds of the start."
+      },
+      "cliffhanger_unit_id": "e29_u044",
+      "reason": "This window captures the escalation of the threat and ends on the protagonist's defiant declaration."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e29_u029",
+      "end_unit_id": "e29_u044",
+      "hook": {
+        "unit_ids": [
+          "e29_u029"
+        ],
+        "modality": "visual",
+        "description": "Tight close-up of Catherine's eyes narrowing into an icy, venomous gaze.",
+        "evidence": "The visual intensity of the villain's gaze establishes the immediate threat within 3 seconds of the start."
+      },
+      "cliffhanger_unit_id": "e29_u044",
+      "reason": "This window captures the escalation of the threat and ends on the protagonist's defiant declaration."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 46.9,
+    "end": 71.8,
+    "duration": 24.9,
+    "segments": [
+      {
+        "start_unit": "e29_u029",
+        "end_unit": "e29_u044",
+        "start": 46.9,
+        "end": 71.8
+      }
+    ]
+  }
+]

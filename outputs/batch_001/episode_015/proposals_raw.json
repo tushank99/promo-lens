@@ -1,0 +1,47 @@
+{
+  "episode": 15,
+  "prompt_hash": "ff0e3c4b8374dc18",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 4.0,
+    "tokens_in": 3434,
+    "tokens_out": 350
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e15_u001",
+        "end_unit_id": "e15_u035",
+        "hook": {
+          "unit_ids": [
+            "e15_u004"
+          ],
+          "modality": "visual",
+          "description": "A thug brutally smashes a wooden planter box with a heavy club.",
+          "evidence": "The sudden, violent destruction of property immediately establishes high stakes and conflict."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "This segment establishes the conflict and Juliana's desperate attempt to protect her mother's legacy, ending on her being shoved to the ground."
+      },
+      {
+        "start_unit_id": "e15_u030",
+        "end_unit_id": "e15_u055",
+        "hook": {
+          "unit_ids": [
+            "e15_u030"
+          ],
+          "modality": "visual",
+          "description": "A thug aggressively steps into Juliana's personal space, snarling at her.",
+          "evidence": "The immediate physical intimidation and the victim's defiance create instant tension."
+        },
+        "cliffhanger_unit_id": "e15_u055",
+        "reason": "This segment focuses on the escalation of violence and the arrival of Alexander as a savior, ending on a high-tension cliffhanger."
+      }
+    ]
+  },
+  "note": null
+}

@@ -1,0 +1,69 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+In the aftermath of the brutal attack, Alexander repairs Juliana's devastated garden and swears to protect her with his life, drawing them into a tender, intimate embrace by the hearth.
+CONTINUITY NOTES: Picks up the morning after Episode 16's moonlit confrontation where Alexander defended Juliana and defeated Harrington's hired thugs in her medicinal garden.
+
+CLIP: 14.0s to 39.0s (25.0s). Units below: id | seconds from clip start | type | text.
+e17_u010 | 0.0-2.2 | CAMERA | Wide shot framing Juliana kneeling on the wet cobblestones in the foreground while Alexander stands by the fence behind her, lowering his hammer.
+e17_u011 | 0.3-1.3 | DIALOGUE | JULIANA (Grateful, Sincere): "Thank you."
+e17_u012 | 2.2-4.0 | CAMERA | Close-up of Alexander turning toward her, his scarred face stoic and intense.
+e17_u013 | 2.8-3.8 | DIALOGUE | ALEXANDER (Gruff, Low): "For what?"
+e17_u014 | 4.0-7.0 | CAMERA | Close-up of Juliana looking up at him with deep emotional vulnerability, her eyes shimmering with tears.
+e17_u015 | 4.2-6.5 | DIALOGUE | JULIANA (Trembling, Heartfelt): "For standing between me and those men."
+e17_u016 | 7.0-9.5 | CAMERA | Close-up of Alexander, his piercing blue-grey eyes fixed upon her with absolute conviction.
+e17_u017 | 7.5-9.0 | DIALOGUE | ALEXANDER (Unwavering, Firm): "I would do it again."
+e17_u018 | 9.5-11.8 | CAMERA | Close-up of Juliana, her lips parting as her voice wavers with emotion.
+e17_u019 | 10.0-11.7 | DIALOGUE | JULIANA (Whispering, Awed): "Even if there were ten of them?"
+e17_u020 | 12.0-13.7 | DIALOGUE | ALEXANDER (Deep, Resolute): "As long as I draw breath..."
+e17_u021 | 12.5-16.0 | CAMERA | Tracking shot following Alexander as he strides across the muddy garden and approaches Juliana.
+e17_u022 | 14.0-17.5 | ACTION | Alexander drops to one knee before Juliana, gently taking her trembling, bandaged hands into his large, weathered palms.
+e17_u023 | 14.8-17.0 | DIALOGUE | ALEXANDER (Gentle, Vowing): "...no one will hurt you again."
+e17_u024 | 17.5-20.5 | CAMERA | Close-up on Juliana's tear-filled face, overwhelmed by his fierce devotion.
+e17_u025 | 18.8-20.2 | DIALOGUE | JULIANA (Choked Up, Pained): "You cannot promise that."
+e17_u026 | 20.5-22.5 | CAMERA | Extreme close-up of Alexander's intense, protective gaze locking onto hers.
+e17_u027 | 20.8-21.8 | DIALOGUE | ALEXANDER (Quiet, Absolute): "I just did."
+e17_u028 | 22.5-25.0 | CAMERA | Close-up of their joined hands, his rugged, scarred fingers wrapping securely around her bandaged fingers.
+e17_u029 | 22.5-25.0 | ACTION | Alexander squeezes Juliana's hands reassuringly as she rests her fingertips against his skin. The scene fades to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

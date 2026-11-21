@@ -1,0 +1,154 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e35_u017",
+      "end_unit_id": "e35_u028",
+      "hook": {
+        "unit_ids": [
+          "e35_u017"
+        ],
+        "modality": "visual",
+        "description": "An elderly woman enters a dark cabin and discovers her presumed-dead son.",
+        "evidence": "The visual shock of a mother finding her dead son alive is an immediate emotional hook."
+      },
+      "cliffhanger_unit_id": "e35_u028",
+      "reason": "The emotional reunion between a mother and her 'dead' son creates instant intrigue."
+    },
+    "norm": {
+      "start_unit_id": "e35_u017",
+      "end_unit_id": "e35_u028",
+      "hook": {
+        "unit_ids": [
+          "e35_u017"
+        ],
+        "modality": "visual",
+        "description": "An elderly woman enters a dark cabin and discovers her presumed-dead son.",
+        "evidence": "The visual shock of a mother finding her dead son alive is an immediate emotional hook."
+      },
+      "cliffhanger_unit_id": "e35_u028",
+      "reason": "The emotional reunion between a mother and her 'dead' son creates instant intrigue."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 6.2s (30.8-37.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 30.8,
+    "end": 58.0,
+    "duration": 27.2,
+    "segments": [
+      {
+        "start_unit": "e35_u017",
+        "end_unit": "e35_u028",
+        "start": 30.8,
+        "end": 58.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e35_u056",
+      "end_unit_id": "e35_u072",
+      "hook": {
+        "unit_ids": [
+          "e35_u056"
+        ],
+        "modality": "visual",
+        "description": "The mother's face shifts from shock to profound outrage as she realizes the truth.",
+        "evidence": "The shift in expression signals a major betrayal, pulling the viewer into the conspiracy."
+      },
+      "cliffhanger_unit_id": "e35_u072",
+      "reason": "The revelation that the people ruling the kingdom are the ones who tried to kill the protagonist is a high-stakes cliffhanger."
+    },
+    "norm": {
+      "start_unit_id": "e35_u056",
+      "end_unit_id": "e35_u072",
+      "hook": {
+        "unit_ids": [
+          "e35_u056"
+        ],
+        "modality": "visual",
+        "description": "The mother's face shifts from shock to profound outrage as she realizes the truth.",
+        "evidence": "The shift in expression signals a major betrayal, pulling the viewer into the conspiracy."
+      },
+      "cliffhanger_unit_id": "e35_u072",
+      "reason": "The revelation that the people ruling the kingdom are the ones who tried to kill the protagonist is a high-stakes cliffhanger."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 122.0,
+    "end": 157.5,
+    "duration": 35.5,
+    "segments": [
+      {
+        "start_unit": "e35_u056",
+        "end_unit": "e35_u072",
+        "start": 122.0,
+        "end": 157.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e35_u035",
+      "end_unit_id": "e35_u050",
+      "hook": {
+        "unit_ids": [
+          "e35_u035"
+        ],
+        "modality": "visual",
+        "description": "Alexander points to a red-circled location on a tactical map while discussing a betrayal.",
+        "evidence": "The visual of a tactical map and the mention of a 'traitor' immediately establishes a military thriller tone."
+      },
+      "cliffhanger_unit_id": "e35_u050",
+      "reason": "The exposition of a classified mission gone wrong provides clear stakes for the viewer."
+    },
+    "norm": {
+      "start_unit_id": "e35_u035",
+      "end_unit_id": "e35_u050",
+      "hook": {
+        "unit_ids": [
+          "e35_u035"
+        ],
+        "modality": "visual",
+        "description": "Alexander points to a red-circled location on a tactical map while discussing a betrayal.",
+        "evidence": "The visual of a tactical map and the mention of a 'traitor' immediately establishes a military thriller tone."
+      },
+      "cliffhanger_unit_id": "e35_u050",
+      "reason": "The exposition of a classified mission gone wrong provides clear stakes for the viewer."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 78.0,
+    "end": 110.0,
+    "duration": 32.0,
+    "segments": [
+      {
+        "start_unit": "e35_u035",
+        "end_unit": "e35_u050",
+        "start": 78.0,
+        "end": 110.0
+      }
+    ]
+  }
+]

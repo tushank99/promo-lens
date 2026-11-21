@@ -1,0 +1,73 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Under cruel coercion and threats to send her seven-year-old brother to the county gaol, a young maid is manipulated into giving false testimony framing Juliana for witchcraft.
+CONTINUITY NOTES: Following Catherine's dungeon interrogation of Juliana, the conspiracy against Juliana deepens as an aristocratic lord forces a testimony of witchcraft out of the young maid whose brother Juliana saved.
+
+CLIP: 113.8s to 156.2s (42.4s). Units below: id | seconds from clip start | type | text.
+e33_u069 | 0.0-5.7 | CAMERA | Medium shot as the Lord paces slowly, pointing his finger with clinical, legal precision.
+e33_u070 | 0.2-2.7 | DIALOGUE | LORD (Calculating, Relentless): "You saw a woman draw a circle of herbs."
+e33_u071 | 3.0-5.7 | DIALOGUE | LORD (Relentless): "You saw her use a forbidden book."
+e33_u072 | 5.7-9.7 | CAMERA | Close-up profile of the Lord leaning in right in front of the sobbing maid.
+e33_u073 | 6.0-9.0 | DIALOGUE | LORD (Condemning): "You heard words you could not understand."
+e33_u074 | 9.7-13.0 | CAMERA | Extreme close-up of the Lord's mouth and calculating eyes as he pronounces the lethal word.
+e33_u075 | 10.7-12.7 | DIALOGUE | LORD (Deadly, Resolute): "That is witchcraft."
+e33_u076 | 13.0-18.0 | CAMERA | Medium two-shot as the maid steps forward, pleading passionately against his chest.
+e33_u077 | 13.0-17.7 | DIALOGUE | MAID (Crying Out, Desperate): "No! She saved Toby! She made him breathe again!"
+e33_u078 | 18.0-20.7 | CAMERA | Close-up of the Lord calmly watching her futile resistance.
+e33_u079 | 18.2-20.2 | DIALOGUE | LORD (Cold, Final): "That will be your testimony."
+e33_u080 | 20.7-24.0 | CAMERA | Close-up of the maid's face frozen in horrified realization.
+e33_u081 | 20.7-23.2 | DIALOGUE | MAID (Gasping, Shocked): "My testimony?!"
+e33_u082 | 24.0-26.7 | CAMERA | Close-up of the Lord delivering the ultimatum without blinking.
+e33_u083 | 24.2-26.2 | DIALOGUE | LORD (Unyielding): "Before the magistrate."
+e33_u084 | 26.7-31.0 | CAMERA | Close-up of the maid grabbing both sides of her head, screaming out in utter grief and guilt.
+e33_u085 | 26.7-30.2 | DIALOGUE | MAID (Wailing, Tormented): "I never said she was a witch!"
+e33_u086 | 31.0-35.4 | CAMERA | Medium tracking shot of the Lord turning his back and walking back behind his desk.
+e33_u087 | 31.2-32.7 | DIALOGUE | LORD (Chillingly Detached): "You do not need to."
+e33_u088 | 33.0-35.2 | DIALOGUE | LORD (Chillingly Detached): "I have already written the story for you."
+e33_u089 | 35.4-38.4 | CAMERA | Close-up of the maid clutching her cheeks, crying in heartbreak.
+e33_u090 | 35.7-38.2 | DIALOGUE | MAID (Sobbing): "She saved my brother..."
+e33_u091 | 38.4-42.4 | CAMERA | Close-up of the Lord turning back, resting one hand upon the desk with cold finality.
+e33_u092 | 38.7-42.2 | DIALOGUE | LORD (Inexorable): "And now... you will save your brother."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

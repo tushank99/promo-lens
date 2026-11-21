@@ -1,0 +1,76 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: As Rupert and Catherine issue wedding invitations paired with Juliana's public execution decree to terrorize the county, Juliana endures starvation in the dungeon, refusing to break her spirit.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c01: window e37_u009..e37_u020 (15.0-34.5 s, 19.5 s); hook ['e37_u009'] modality visual (delay 0.0 s)
+  FAILED: duration: 19.5s is under the 20s minimum
+  Original idea: The juxtaposition of a wedding and a public execution creates an immediate, chilling hook for the viewer.
+  Scene 01: units e37_u001..e37_u020, 0.0-34.5 s. Units of that scene:
+    e37_u001 | 0.0-5.5 | CAMERA | Low-angle shot tilting down to a polished mahogany table as a white-gloved servant places a tall stack of wax-sealed wedding invitations onto a silver tray.
+    e37_u002 | 1.5-3.2 | SFX | The crisp tap of heavy cardstock envelopes being set down onto silver.
+    e37_u003 | 5.5-9.5 | CAMERA | Medium two-shot framed symmetrically down the vaulted, sunlit hallway. Blond Nobleman Rupert stands tall in a black embroidered frock coat, facing Catherine in an ornate pink gown.
+    e37_u004 | 6.0-9.3 | DIALOGUE | BLOND NOBLEMAN (Cold, Calculating): "Every important family in the county should witness it."
+    e37_u005 | 9.5-12.5 | CAMERA | Close-up of Catherine looking down at the invitations, her braided blonde hair immaculately pinned, before she raises her eyes with a slight smirk.
+    e37_u006 | 10.8-12.4 | DIALOGUE | CATHERINE (Inquiring, Smug): "The wedding?"
+    e37_u007 | 12.5-15.0 | CAMERA | Close-up on Rupert, his sharp aristocratic features set in cold conviction.
+    e37_u008 | 12.8-14.8 | DIALOGUE | BLOND NOBLEMAN (Authoritative): "The transfer of Ashbridge."
+    e37_u009 | 15.0-18.8 | CAMERA | Medium close-up of Catherine picking up one of the invitations, turning it over in her gloved hands with predatory delight.
+    e37_u010 | 15.6-18.8 | DIALOGUE | CATHERINE (Gloating): "After the ceremony, no one will question who owns this house."
+    e37_u011 | 18.8-23.2 | CAMERA | Intense close-up of Rupert leaning in slightly, his eyes narrowing with venomous malice.
+    e37_u012 | 19.0-23.0 | DIALOGUE | BLOND NOBLEMAN (Sinister, Ruthless): "And no one will question what happened to the woman who tried to stop us."
+    e37_u013 | 23.2-26.5 | CAMERA | Tight close-up of Catherine as a cruel sneer twists her lips.
+    e37_u014 | 23.8-26.4 | DIALOGUE | CATHERINE (Venomous Satisfaction): "Juliana's execution comes after the wedding."
+    e37_u015 | 26.5-30.0 | CAMERA | Wide shot framing the two conspirators beneath the towering archways of the estate.
+    e37_u016 | 26.6-29.8 | DIALOGUE | CATHERINE (Gleeful): "Perfect timing. It will be a feast for our guests."
+    e37_u017 | 30.0-32.5 | CAMERA | Medium close-up of Rupert turning his gaze toward the grand entrance.
+    e37_u018 | 30.2-32.2 | DIALOGUE | BLOND NOBLEMAN (Decisive): "Send the invitations."
+    e37_u019 | 32.5-34.5 | CAMERA | Close-up of Catherine looking sideways with narrowed eyes.
+    e37_u020 | 32.8-34.5 | DIALOGUE | CATHERINE (Spiteful): "Especially to the Ashcrofts."
+
+- c03: window e37_u064..e37_u079 (116.5-156.47 s, 39.97 s); hook ['e37_u074'] modality spoken (delay 17.5 s)
+  FAILED: hook, cliffhanger: hook e37_u074 begins 17.5s after clip start (limit 3.0s) | cliffhanger e37_u079 starts at 148.0s, before the final 20% of the clip (148.48s)
+  Original idea: The villain's cold, calculated monologue builds intense anticipation for the protagonist's inevitable retaliation.
+  Scene 04: units e37_u064..e37_u079, 116.5-156.5 s. Units of that scene:
+    e37_u064 | 116.5-120.0 | CAMERA | Medium two-shot in the dimly lit parlor, illuminated by the warm glow of the fireplace. Clarissa now wears a deep blue velvet gown, reclining in an armchair beside the nobleman.
+    e37_u065 | 117.2-119.8 | DIALOGUE | NOBLEMAN (Quietly Skeptical): "Do you think she'll actually be executed?"
+    e37_u066 | 120.0-124.5 | CAMERA | Close-up of Clarissa giving a slight, dismissive scoff before turning to him with cold certainty.
+    e37_u067 | 120.5-124.2 | DIALOGUE | LADY CLARISSA (Dismissive, Certain): "After what she has been accused of? Of course."
+    e37_u068 | 124.5-127.0 | CAMERA | Medium close-up of the nobleman looking down pensively at the open execution clause on the table.
+    e37_u069 | 124.8-126.5 | DIALOGUE | NOBLEMAN (Musing): "She was always stubborn."
+    e37_u070 | 127.0-132.5 | CAMERA | Close-up on Clarissa's face hardening with bitter resentment.
+    e37_u071 | 127.5-132.0 | DIALOGUE | LADY CLARISSA (Bitter, Cold): "That was her greatest mistake. She could have accepted what happened. She could have disappeared quietly."
+    e37_u072 | 132.5-136.0 | ACTION | Clarissa rises from her armchair holding a cut crystal glass filled with dark red wine, pacing toward the fireplace.
+    e37_u073 | 132.5-141.5 | CAMERA | Medium tracking shot showing Clarissa standing tall beside her husband, her posture regal and vindictive.
+    e37_u074 | 134.0-141.0 | DIALOGUE | LADY CLARISSA (Venomous Monologue): "Instead she married a nobody, played healer to peasants, challenged people above her. And now the whole county will watch her pay for it."
+    e37_u075 | 141.5-147.5 | CAMERA | Tight close-up on Clarissa's face glowing in the firelight. Her lips curl into a merciless smile as she lifts the crystal glass to her mouth and drinks.
+    e37_u076 | 142.5-146.5 | DIALOGUE | LADY CLARISSA (Chilling Proclamation): "Let them see what happens when a woman forgets her place."
+    e37_u077 | 145.5-148.0 | ACTION | Clarissa takes a slow sip of the red wine, her eyes gleaming with dark relish.
+    e37_u078 | 147.5-156.5 | CAMERA | Slow push-in on the dark polished tabletop where the open invitation lies beside the wax seal. The bold Gothic lettering "EXECUTION CLAUSE" sits beneath the gold crest, while the fire dances reflected on the mahogany.
+    e37_u079 | 148.0-156.5 | SFX | A deep, ominous cello rumble builds alongside the crackle of the fireplace into an unresolved, tension-filled cliffhanger sting before fading out.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

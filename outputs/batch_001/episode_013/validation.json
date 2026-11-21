@@ -1,0 +1,104 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e13_u026",
+      "end_unit_id": "e13_u052",
+      "hook": {
+        "unit_ids": [
+          "e13_u026"
+        ],
+        "modality": "visual",
+        "description": "Juliana drops to her knees in front of the frozen blackthorn branches.",
+        "evidence": "The immediate visual of a woman kneeling before a lethal, frozen garden creates instant tension and curiosity about her fate."
+      },
+      "cliffhanger_unit_id": "e13_u052",
+      "reason": "The sequence captures the brutal stakes of the challenge as Juliana begins her agonizing crawl through the thorns."
+    },
+    "norm": {
+      "start_unit_id": "e13_u026",
+      "end_unit_id": "e13_u052",
+      "hook": {
+        "unit_ids": [
+          "e13_u026"
+        ],
+        "modality": "visual",
+        "description": "Juliana drops to her knees in front of the frozen blackthorn branches.",
+        "evidence": "The immediate visual of a woman kneeling before a lethal, frozen garden creates instant tension and curiosity about her fate."
+      },
+      "cliffhanger_unit_id": "e13_u052",
+      "reason": "The sequence captures the brutal stakes of the challenge as Juliana begins her agonizing crawl through the thorns."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 45.8,
+    "end": 80.5,
+    "duration": 34.7,
+    "segments": [
+      {
+        "start_unit": "e13_u026",
+        "end_unit": "e13_u052",
+        "start": 45.8,
+        "end": 80.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e13_u053",
+      "end_unit_id": "e13_u075",
+      "hook": {
+        "unit_ids": [
+          "e13_u053"
+        ],
+        "modality": "visual",
+        "description": "Alexander violently lunging past the Constable toward the briars.",
+        "evidence": "The sudden, high-energy action of a man breaking his restraints to save his partner provides an immediate, high-stakes hook."
+      },
+      "cliffhanger_unit_id": "e13_u075",
+      "reason": "This window focuses on the climax of the search, showing the physical toll and the final discovery of the ring."
+    },
+    "norm": {
+      "start_unit_id": "e13_u053",
+      "end_unit_id": "e13_u075",
+      "hook": {
+        "unit_ids": [
+          "e13_u053"
+        ],
+        "modality": "visual",
+        "description": "Alexander violently lunging past the Constable toward the briars.",
+        "evidence": "The sudden, high-energy action of a man breaking his restraints to save his partner provides an immediate, high-stakes hook."
+      },
+      "cliffhanger_unit_id": "e13_u075",
+      "reason": "This window focuses on the climax of the search, showing the physical toll and the final discovery of the ring."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 6.88s (112.0-118.88)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 80.5,
+    "end": 118.88,
+    "duration": 38.38,
+    "segments": [
+      {
+        "start_unit": "e13_u053",
+        "end_unit": "e13_u075",
+        "start": 80.5,
+        "end": 118.88
+      }
+    ]
+  }
+]

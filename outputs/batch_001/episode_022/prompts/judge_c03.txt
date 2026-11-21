@@ -1,0 +1,68 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Disguised as a common scullery maid, Lady Juliana infiltrates Ashbury Manor alongside Prudence and slips into the forbidden West Wing, where she discovers the dying Dowager Duchess suffering from an unnatural, poisoned affliction.
+CONTINUITY NOTES: Directly follows Episode 21 where Prudence revealed that the Dowager Duchess is dying from a mysterious illness; Juliana sets aside her aristocratic identity to sneak into Ashbury Manor under the guise of domestic help to save her.
+
+CLIP: 102.0s to 131.0s (29.0s). Units below: id | seconds from clip start | type | text.
+e22_u063 | 0.0-3.5 | CAMERA | Medium shot of Lady Juliana standing outside a massive carved mahogany door, glancing around the empty hallway to ensure she is unobserved.
+e22_u064 | 3.5-6.5 | ACTION | Lady Juliana reaches out with a trembling hand and quietly turns the ornate brass and glass door knob.
+e22_u065 | 3.5-6.5 | CAMERA | Close-up of Lady Juliana's hand twisting the latch handle.
+e22_u066 | 4.5-6.5 | SFX | Faint, muffled click of the heavy door lock turning.
+e22_u067 | 6.5-11.8 | CAMERA | Slow tracking shot into the cavernous, shadowy bedchamber. In the center stands an ornate four-poster canopy bed draped in pale silk where a frail, silver-haired figure lies motionless.
+e22_u068 | 7.0-12.0 | SFX | Labored, raspy, shallow breathing echoing in the quiet room.
+e22_u069 | 11.8-14.0 | ACTION | Lady Juliana hurries inside, sets the wooden bucket onto the floor, and rushes to the bedside.
+e22_u070 | 12.0-13.5 | DIALOGUE | LADY JULIANA (Gentle, Concerned): "Your Grace?"
+e22_u071 | 13.5-16.2 | CAMERA | Close-up of the Dowager Duchess lying propped on pillows, her face gaunt, ashen, and drenched in cold sweat, her eyes half-fluttering.
+e22_u072 | 16.2-18.8 | CAMERA | Medium close-up of Lady Juliana taking the Duchess's fragile, cold hands into her own.
+e22_u073 | 16.2-17.8 | DIALOGUE | LADY JULIANA (Soft, Comforting): "Do not speak."
+e22_u074 | 18.8-23.5 | CAMERA | Close-up of Lady Juliana checking the Duchess's pulse and gently pressing her fingertips against the Duchess's chest and neck, her herbalist instincts taking over.
+e22_u075 | 21.0-23.8 | ACTION | Lady Juliana's eyes widen with sudden, horrifying realization.
+e22_u076 | 21.5-23.8 | DIALOGUE | LADY JULIANA (Shocked, Murmuring): "This isn't ordinary fever."
+e22_u077 | 23.8-25.0 | ACTION | The Dowager Duchess suddenly gasps violently for breath, convulsing weakly as her eyes snap open in agony.
+e22_u078 | 23.8-25.0 | CAMERA | Close-up of the Duchess gasping in sudden spasms.
+e22_u079 | 25.0-26.8 | CAMERA | Intense two-shot as Lady Juliana leans in close, gripping the Duchess's shoulder with urgent desperation.
+e22_u080 | 25.2-26.8 | DIALOGUE | LADY JULIANA (Urgent, Alarmed): "Who has been treating you?"
+e22_u081 | 26.8-29.0 | CAMERA | Extreme close-up on the Dowager Duchess's terrified, wide eyes staring up as she chokes for air, the haunting realization of poison lingering as dramatic music hits an abrupt, suspenseful cliffhanger.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

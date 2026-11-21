@@ -1,0 +1,160 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e31_u001",
+      "end_unit_id": "e31_u023",
+      "hook": {
+        "unit_ids": [
+          "e31_u001",
+          "e31_u002"
+        ],
+        "modality": "audio",
+        "description": "The heavy iron dungeon door creaks open with a loud, metallic clang.",
+        "evidence": "The ominous sound of a dungeon door opening immediately establishes high stakes and a sense of danger."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This segment establishes the power dynamic between the imprisoned heiress and her tormentor, setting the stage for their intense confrontation."
+    },
+    "norm": {
+      "start_unit_id": "e31_u001",
+      "end_unit_id": "e31_u023",
+      "hook": {
+        "unit_ids": [
+          "e31_u001",
+          "e31_u002"
+        ],
+        "modality": "audio",
+        "description": "The heavy iron dungeon door creaks open with a loud, metallic clang.",
+        "evidence": "The ominous sound of a dungeon door opening immediately establishes high stakes and a sense of danger."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This segment establishes the power dynamic between the imprisoned heiress and her tormentor, setting the stage for their intense confrontation."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 0.0,
+    "end": 43.0,
+    "duration": 43.0,
+    "segments": [
+      {
+        "start_unit": "e31_u001",
+        "end_unit": "e31_u023",
+        "start": 0.0,
+        "end": 43.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e31_u057",
+      "end_unit_id": "e31_u087",
+      "hook": {
+        "unit_ids": [
+          "e31_u057"
+        ],
+        "modality": "visual",
+        "description": "Catherine flaunts her wealth and status while mocking the chained Juliana.",
+        "evidence": "The visual contrast between the opulent villain and the suffering victim creates an immediate emotional hook."
+      },
+      "cliffhanger_unit_id": "e31_u087",
+      "reason": "This sequence captures the peak of the psychological torture, ending on a terrifying visual cliffhanger that demands a resolution."
+    },
+    "norm": {
+      "start_unit_id": "e31_u057",
+      "end_unit_id": "e31_u087",
+      "hook": {
+        "unit_ids": [
+          "e31_u057"
+        ],
+        "modality": "visual",
+        "description": "Catherine flaunts her wealth and status while mocking the chained Juliana.",
+        "evidence": "The visual contrast between the opulent villain and the suffering victim creates an immediate emotional hook."
+      },
+      "cliffhanger_unit_id": "e31_u087",
+      "reason": "This sequence captures the peak of the psychological torture, ending on a terrifying visual cliffhanger that demands a resolution."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "61.8s is over the 60s maximum"
+    ],
+    "warnings": [
+      "camera-only stretch 4.8s (155.2-160.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 98.2,
+    "end": 160.0,
+    "duration": 61.8,
+    "segments": [
+      {
+        "start_unit": "e31_u057",
+        "end_unit": "e31_u087",
+        "start": 98.2,
+        "end": 160.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e31_u033",
+      "end_unit_id": "e31_u060",
+      "hook": {
+        "unit_ids": [
+          "e31_u033"
+        ],
+        "modality": "visual",
+        "description": "A tight close-up on Juliana's face as she maintains her dignity despite being chained.",
+        "evidence": "The raw emotion and defiance in Juliana's eyes immediately draw the viewer into her struggle."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This moment highlights the core conflict of the episode: the clash between Catherine's cruelty and Juliana's unwavering moral strength."
+    },
+    "norm": {
+      "start_unit_id": "e31_u033",
+      "end_unit_id": "e31_u060",
+      "hook": {
+        "unit_ids": [
+          "e31_u033"
+        ],
+        "modality": "visual",
+        "description": "A tight close-up on Juliana's face as she maintains her dignity despite being chained.",
+        "evidence": "The raw emotion and defiance in Juliana's eyes immediately draw the viewer into her struggle."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This moment highlights the core conflict of the episode: the clash between Catherine's cruelty and Juliana's unwavering moral strength."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 59.0,
+    "end": 108.8,
+    "duration": 49.8,
+    "segments": [
+      {
+        "start_unit": "e31_u033",
+        "end_unit": "e31_u060",
+        "start": 59.0,
+        "end": 108.8
+      }
+    ]
+  }
+]

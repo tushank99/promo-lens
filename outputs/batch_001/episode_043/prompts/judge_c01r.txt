@@ -1,0 +1,71 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When Rupert frantically orders Alexander's arrest, the royal guards refuse and salute the true Duke, before damning Crown intelligence documents expose Rupert and Lord Sterling's treasonous plot.
+CONTINUITY NOTES: Follows directly from Episode 42; inside the ruined cathedral, Alexander confronts Rupert before the congregation, armed with evidence from the Crown to reclaim his rightful title.
+
+CLIP: 8.0s to 30.0s (22.0s). Units below: id | seconds from clip start | type | text.
+e43_u006 | 0.0-2.5 | CAMERA | Wide symmetrical shot framing Alexander Ashburn standing immovable in the center of the cathedral, flanking lines of red-coated guards on both sides.
+e43_u007 | 0.2-2.5 | ACTION | Alexander stands completely composed in his dark embroidered aristocratic coat, staring Rupert down with unyielding authority.
+e43_u008 | 2.5-5.5 | CAMERA | Extreme close-up on Rupert's furious face, veins bulging at his temples.
+e43_u009 | 2.5-5.2 | DIALOGUE | BLOND NOBLEMAN (Enraged, Screaming): "I said arrest him!"
+e43_u010 | 5.5-8.2 | CAMERA | Medium shot on the Royal Guard Captain in ceremonial bearskin uniform standing steadfast.
+e43_u011 | 5.8-8.0 | ACTION | The Guard Captain brings his ceremonial sword upright to attention, his expression stern and resolute.
+e43_u012 | 6.2-7.8 | DIALOGUE | ROYAL GUARD (Firm, Defiant): "We will not."
+e43_u013 | 8.2-9.8 | CAMERA | Low-angle shot looking down along the polished stone floor as the guard's sword tip grounds firmly between Rupert and the guards.
+e43_u014 | 8.2-10.0 | DIALOGUE | BLOND NOBLEMAN (Outraged, Stunned): "I am Lord Rupert Ashburn!"
+e43_u015 | 9.8-11.2 | CAMERA | Medium close-up on Rupert thumping his chest in indignant disbelief.
+e43_u016 | 10.1-11.0 | DIALOGUE | BLOND NOBLEMAN (Desperate): "Your Duke!"
+e43_u017 | 11.2-13.8 | CAMERA | Medium shot framing the Guard Captain and Alexander in profile.
+e43_u018 | 11.2-13.6 | ACTION | The Guard Captain snaps a crisp salute toward Alexander.
+e43_u019 | 11.2-13.5 | DIALOGUE | ROYAL GUARD (Calm, Resolute): "No. He is your Duke."
+e43_u020 | 13.8-16.0 | CAMERA | Medium shot on Catherine in her bridal gown and Lord Henry Sterling seated in the front pew, both frozen in stunned shock.
+e43_u021 | 14.0-16.0 | ACTION | Lord Sterling clutches his gold-headed walking cane tightly, his jaw clenching as tension spreads through the church.
+e43_u022 | 16.0-18.0 | CAMERA | Medium shot on Rupert spinning toward the gathered congregation, his hands flailing.
+e43_u023 | 16.1-17.8 | DIALOGUE | BLOND NOBLEMAN (Desperate, Flustered): "You have all been deceived!"
+e43_u024 | 18.0-20.0 | CAMERA | Medium close-up on Alexander, commanding and icy.
+e43_u025 | 18.1-20.0 | DIALOGUE | ALEXANDER (Cold, Authoritative): "Then let the Crown decide."
+e43_u026 | 20.0-22.0 | CAMERA | Close-up on Alexander's hands holding an official War Office document bundle sealed with red wax and ribbon.
+e43_u027 | 20.2-22.0 | ACTION | Alexander brings forth the dossier stamped "WAR OFFICE - TOP SECRET" with the royal crest.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

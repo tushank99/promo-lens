@@ -1,0 +1,68 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When Gerald and his spiteful companion arrive at the woodland cottage to mock Juliana's fallen status, her stoic new husband returns from the forest to silently send them fleeing.
+CONTINUITY NOTES: Follows Episode 6, where Juliana found refuge and warmth beside the hearth with her mysterious husband; morning brings unwelcome visitors from her former life to their humble doorstep.
+
+CLIP: 78.5s to 116.0s (37.5s). Units below: id | seconds from clip start | type | text.
+e07_u040 | 0.0-2.5 | CAMERA | Medium full shot as the Scarred Bearded Man straightens to his full imposing height and steps directly toward Gerald.
+e07_u041 | 2.5-5.0 | CAMERA | Two-shot framing the Scarred Bearded Man towering menacingly over Gerald, staring down at him with unyielding intensity.
+e07_u042 | 3.0-5.5 | ACTION | Gerald freezes, his arrogant bravado instantly vanishing as cold dread overtakes his face.
+e07_u043 | 5.0-9.5 | CAMERA | Low-angle close-up of Gerald looking up in sheer terror, his adam's apple bobbing nervously.
+e07_u044 | 8.0-10.0 | DIALOGUE | ARISTOCRATIC WOMAN (Urgent, Annoyed): "Gerald, don't let him frighten you."
+e07_u045 | 10.1-11.5 | DIALOGUE | GERALD (Trembling, Trying to Save Face): "What are you staring at?"
+e07_u046 | 11.5-13.0 | ACTION | Gerald rapidly turns on his heel toward the carriage, unwilling to face another second of the silent glare.
+e07_u047 | 11.6-12.9 | DIALOGUE | GERALD (Nervous, Hurried): "We are leaving."
+e07_u048 | 13.0-15.3 | CAMERA | Medium shot of Aristocratic Woman, shocked and indignant as Gerald flees past her.
+e07_u049 | 13.5-15.3 | DIALOGUE | ARISTOCRATIC WOMAN (Outraged, Flustered): "Leaving? Gerald!"
+e07_u050 | 15.3-18.0 | ACTION | Aristocratic Woman scrambles back into the carriage, hiking up her gown in a fluster before slamming the door shut.
+e07_u051 | 16.5-17.5 | SFX | Carriage door slamming shut.
+e07_u052 | 17.5-20.5 | CAMERA | Wide shot of the carriage rapidly jolting forward and disappearing down the misty road away from the cottage.
+e07_u053 | 20.5-25.0 | CAMERA | Medium profile two-shot of Juliana turning toward the Scarred Bearded Man, her eyes gleaming with genuine admiration.
+e07_u054 | 22.3-24.7 | DIALOGUE | JULIANA (Impressed, Softly Amused): "You didn't say a word."
+e07_u055 | 25.0-29.0 | CAMERA | Close-up on the Scarred Bearded Man looking down at her, his rugged features softening with quiet affection.
+e07_u056 | 27.5-29.3 | DIALOGUE | SCARRED BEARDED MAN (Low, Gentle, Confident): "I didn't need to."
+e07_u057 | 29.0-33.0 | CAMERA | Medium shot as the Scarred Bearded Man stoops down, scoops up the heavy bundle of firewood in one arm, and walks calmly past Juliana toward their door.
+e07_u058 | 33.0-37.5 | CAMERA | Close-up of Juliana looking after him, a radiant and grateful smile blooming across her face as the scene fades out.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

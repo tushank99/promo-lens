@@ -1,0 +1,125 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: When rumors of the poisoned Duchess begin spreading among the servants, Rupert and Catherine conspire with an elder nobleman to fabricate a witchcraft charge against Juliana, sealing her fate for the gallows.
+CONTINUITY NOTES: Follows directly from Episode 29 where Juliana was locked away in the castle's subterranean wet cells, vowing never to let them take Alexander from her.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:31.2 (151.2 s).
+- Scene 01 (INT. CASTLE CORRIDOR – DAY): 0.0-47.6 s, units e30_u001..e30_u023.
+- Scene 02 (INT. CASTLE STUDY / LIBRARY – CONTINUOUS): 47.6-144.5 s, units e30_u024..e30_u067.
+- Scene 03 (INT. CASTLE SUBTERRANEAN WET CELLS – NIGHT): 144.5-151.2 s, units e30_u068..e30_u071.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 116.5-120.0 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e30_u001 | 0.0-5.2 | CAMERA | Low-angle tracking shot following polished black dress shoes and the tip of a gold-handled cane striding deliberately along a sunlit marble hallway, tilting up gradually to reveal an austere, grey-haired elder nobleman.
+e30_u002 | 0.0-4.5 | SFX | Rhythmic, heavy footsteps and the sharp metallic click of a cane striking the polished stone floor.
+e30_u003 | 3.0-5.5 | ACTION | The Elder Nobleman walks with stern, unhurried authority, dressed in an immaculate black tailcoat and dark vest with a gold pocket watch chain.
+e30_u004 | 5.2-7.5 | CAMERA | Medium close-up of Rupert standing nervously beside ornate double doors, wearing black gloves and an embroidered dark coat, glancing up with anxiety.
+e30_u005 | 6.8-7.9 | SFX | A firm tap of the wooden walking stick halting against the floor.
+e30_u006 | 7.5-13.5 | CAMERA | Two-shot profile of the Elder Nobleman facing Rupert in the vaulted corridor.
+e30_u007 | 8.8-13.3 | DIALOGUE | ELDER NOBLEMAN (Cold, Accusatory): "You have a rat in your cellar, Rupert. And the servants are beginning to smell it."
+e30_u008 | 13.5-16.9 | CAMERA | Close-up of Rupert defensive and agitated.
+e30_u009 | 13.6-16.8 | DIALOGUE | RUPERT (Defensive, Anxious): "The Ashcroft girl is locked tight. Nobody knows she is down there."
+e30_u010 | 16.9-26.0 | CAMERA | Medium close-up of the Elder Nobleman fixing Rupert with a piercing, contemptuous glare.
+e30_u011 | 17.3-25.8 | DIALOGUE | ELDER NOBLEMAN (Stern, Disapproving): "The kitchen maids are whispering. They see the soup bowls returned unwiped. They see your guards outside the lower grates."
+e30_u012 | 26.0-29.8 | CAMERA | Medium shot of Rupert looking down, nervously pulling at his black leather gloves as dread creeps over his face.
+e30_u013 | 26.5-29.2 | DIALOGUE | RUPERT (Muttered, Paranoid): "She knows the Duchess was poisoned."
+e30_u014 | 29.8-32.0 | CAMERA | Tight close-up on the Elder Nobleman's unyielding eyes narrowing in cold calculation.
+e30_u015 | 32.0-33.4 | CAMERA | Tight close-up of Rupert swallows hard, breathless with dread.
+e30_u016 | 32.1-33.3 | DIALOGUE | RUPERT (Fearful): "If she speaks..."
+e30_u017 | 33.4-39.8 | CAMERA | Medium two-shot as the Elder Nobleman lunges forward aggressively, stepping into Rupert's personal space.
+e30_u018 | 33.4-35.2 | ACTION | The Elder Nobleman thrusts the gold knob of his walking stick directly against Rupert's chest, pinning him against the wall.
+e30_u019 | 33.6-39.8 | DIALOGUE | ELDER NOBLEMAN (Fierce, Venomous): "Then make certain she isn't! A peasant weed, Rupert! You do not store weeds in your cellar, you burn them!"
+e30_u020 | 39.8-43.8 | CAMERA | Low-angle close-up of Rupert gasping softly, intimidated by the cane pressed firmly beneath his cravat.
+e30_u021 | 41.8-43.5 | DIALOGUE | RUPERT (Faltering, Submissive): "What are you suggesting?"
+e30_u022 | 43.8-47.6 | CAMERA | Medium shot as the Elder Nobleman withdraws his cane and turns sharply toward the library doors.
+e30_u023 | 44.8-47.3 | DIALOGUE | ELDER NOBLEMAN (Calculated, Ominous): "We stop hiding the prisoner."
+e30_u024 | 47.6-51.0 | CAMERA | Tracking shot from behind the Elder Nobleman as he pushes open the heavy double doors into the dark wood-paneled library.
+e30_u025 | 48.0-50.5 | SFX | The heavy creak of massive mahogany doors gliding open on brass hinges.
+e30_u026 | 51.0-54.6 | CAMERA | Front medium shot of the Elder Nobleman pausing inside the library doorway, Rupert following behind him.
+e30_u027 | 51.2-54.0 | DIALOGUE | ELDER NOBLEMAN (Deadpan, Sinister): "We give them a reason to condemn her."
+e30_u028 | 54.6-58.8 | CAMERA | Wide shot of Catherine standing regally before the roaring stone hearth, dressed in an ornate burgundy and gold brocade gown, slowly unfurling a red lace fan.
+e30_u029 | 57.0-58.8 | DIALOGUE | CATHERINE (Inquiring, Sharp): "You have a solution?"
+e30_u030 | 58.8-62.8 | CAMERA | Side profile close-up of the Elder Nobleman speaking with icy confidence.
+e30_u031 | 59.4-62.5 | DIALOGUE | ELDER NOBLEMAN (Ruthless): "We use the law to destroy her."
+e30_u032 | 62.8-64.8 | CAMERA | Close-up of Rupert looking bewildered.
+e30_u033 | 63.1-64.3 | DIALOGUE | RUPERT (Confused): "The law?"
+e30_u034 | 64.8-73.5 | CAMERA | Tracking medium shot as the Elder Nobleman paces slowly behind the massive mahogany desk lined with books and a glass of whiskey.
+e30_u035 | 65.3-72.8 | DIALOGUE | ELDER NOBLEMAN (Pragmatic, Scheming): "A maid with herbs in her possession, a secret medicine, an unauthorized visit to the Duchess's chamber."
+e30_u036 | 70.8-73.2 | ACTION | The Elder Nobleman leans both hands against the desk, leaning forward intently.
+e30_u037 | 73.5-74.8 | CAMERA | Medium close-up of Catherine fluttering her fan beneath her chin, smirking approvingly.
+e30_u038 | 74.8-82.8 | CAMERA | Medium shot framing the Elder Nobleman seated at the desk beside Catherine standing in the firelight.
+e30_u039 | 75.0-82.5 | DIALOGUE | ELDER NOBLEMAN (Cold, Calculating): "Give those facts to a magistrate in the right order, and she becomes a poisoner."
+e30_u040 | 82.8-85.6 | CAMERA | Medium close-up of Catherine gently moving her fan, raising an intrigued brow.
+e30_u041 | 83.2-85.4 | DIALOGUE | CATHERINE (Curious, Conniving): "And if she claims she is a healer?"
+e30_u042 | 85.6-88.5 | CAMERA | Tight close-up of the Elder Nobleman's face illuminated by warm firelight.
+e30_u043 | 85.8-87.8 | DIALOGUE | ELDER NOBLEMAN (Sinister): "Then call it witchcraft."
+e30_u044 | 88.5-91.8 | CAMERA | Close-up of Rupert wide-eyed with shock at the severity of the plan.
+e30_u045 | 89.0-91.3 | DIALOGUE | RUPERT (Stunned): "Witchcraft is a capital charge."
+e30_u046 | 91.8-94.5 | CAMERA | Straight-on close-up of the Elder Nobleman staring back without a flicker of remorse.
+e30_u047 | 92.0-93.4 | DIALOGUE | ELDER NOBLEMAN (Unflinching): "Precisely."
+e30_u048 | 94.5-101.9 | CAMERA | Medium three-shot framing Rupert, the Elder Nobleman between them, and Catherine listening closely.
+e30_u049 | 94.6-101.8 | DIALOGUE | ELDER NOBLEMAN (Authoritative, Command): "Do not hide the evidence, manufacture it. Drag her before the magistrate tomorrow, frame the trial, buy the jury, and let the State hang her."
+e30_u050 | 101.9-104.4 | CAMERA | Close-up of Catherine smiling with malicious satisfaction, fluttering her fan.
+e30_u051 | 102.2-103.9 | DIALOGUE | CATHERINE (Scheming): "Her botanical ledger..."
+e30_u052 | 104.4-106.6 | CAMERA | Close-up of the Elder Nobleman nodding slowly.
+e30_u053 | 104.8-106.0 | DIALOGUE | ELDER NOBLEMAN (Confirming): "Exactly."
+e30_u054 | 106.6-109.0 | CAMERA | Close-up of Catherine leaning slightly forward.
+e30_u055 | 107.3-108.8 | DIALOGUE | CATHERINE (Inquiring): "And the Dowager?"
+e30_u056 | 109.0-116.8 | CAMERA | Medium shot of the Elder Nobleman gesturing dismissively with one gloved hand.
+e30_u057 | 109.5-116.5 | DIALOGUE | ELDER NOBLEMAN (Dismissive): "She is weak, confused. No magistrate will trust a dying woman's accusations against a respected household."
+e30_u058 | 116.8-121.9 | CAMERA | Medium close-up of Rupert exhaling deeply, processing the horrifying certainty of their conspiracy.
+e30_u059 | 120.0-121.5 | DIALOGUE | RUPERT (Hesitant): "And Juliana?"
+e30_u060 | 121.9-125.1 | CAMERA | Medium close-up of the Elder Nobleman staring sternly across the desk.
+e30_u061 | 122.4-124.9 | DIALOGUE | ELDER NOBLEMAN (Cold, Resolute): "She goes before the magistrate tomorrow."
+e30_u062 | 125.1-133.5 | CAMERA | Close-up of Catherine beaming with venomous glee, spreading her red fan wide.
+e30_u063 | 125.5-133.0 | DIALOGUE | CATHERINE (Cruel, Exultant): "She will hang. A perfect solution. The town will cheer as the witch's disgraced daughter faces the noose."
+e30_u064 | 133.5-136.8 | CAMERA | Medium shot of Rupert pulling out the desk chair and seating himself with dark resolve.
+e30_u065 | 134.1-136.2 | DIALOGUE | RUPERT (Resolute, Vengeful): "I will write the arrest warrant myself."
+e30_u066 | 136.8-144.5 | CAMERA | Extreme close-up of the Elder Nobleman's weathered face, his eyes cold and predatory in the firelight.
+e30_u067 | 137.5-143.5 | DIALOGUE | ELDER NOBLEMAN (Chilling, Decisive): "Tomorrow, she stops being a prisoner. She becomes a witch."
+e30_u068 | 144.5-148.5 | CAMERA | High-angle shot peering down through the heavy iron dungeon grate into the flooded, pitch-black subterranean wet cells where water drips continuously.
+e30_u069 | 144.5-151.2 | SFX | Echoing, hollow water droplets splashing into dark pools beneath stone vaults, accompanied by a somber orchestral swell.
+e30_u070 | 148.5-151.2 | CAMERA | Low-angle medium shot pushing in on Juliana huddled against the wet stone wall, chained by the wrists, shivering in wet rags as faint moonlight filters down through the grate above.
+e30_u071 | 148.5-151.2 | ACTION | Juliana clutches a rough burlap rag to her trembling chest, her tear-stained face lifting upward in dread and fragile hope as the frame holds, cutting abruptly to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

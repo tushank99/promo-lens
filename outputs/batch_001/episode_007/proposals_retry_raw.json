@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "bdd9c14375b263b5",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.8,
+    "secs": 2.32,
+    "tokens_in": 932,
+    "tokens_out": 224
+  },
+  "asked_for": [
+    "c02"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e07_u034",
+        "end_unit_id": "e07_u037",
+        "hook": {
+          "unit_ids": [
+            "e07_u034"
+          ],
+          "modality": "visual",
+          "description": "A wide shot of a towering, shadowed figure emerging from a dark, fog-drenched forest path.",
+          "evidence": "The unit e07_u034 establishes the intimidating presence of the husband immediately at the start of the clip."
+        },
+        "cliffhanger_unit_id": "e07_u037",
+        "reason": "This window focuses exclusively on the husband's arrival within Scene 02, satisfying the scene-consistency rule while maintaining the tension of his approach."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

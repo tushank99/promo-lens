@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "44da9432110f677d",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 1.71,
+    "tokens_in": 3661,
+    "tokens_out": 226
+  },
+  "asked_for": [
+    "c04"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c04",
+        "start_unit_id": "e06_u082",
+        "end_unit_id": "e06_u097",
+        "hook": {
+          "unit_ids": [
+            "e06_u082"
+          ],
+          "modality": "visual",
+          "description": "Juliana kneeling before the blazing hearth, finding a moment of peace.",
+          "evidence": "The visual of the firelight illuminating her face immediately establishes the emotional shift."
+        },
+        "cliffhanger_unit_id": "e06_u096",
+        "reason": "By starting at unit e06_u082 and ending at e06_u097, the cliffhanger unit e06_u096 falls within the final 20% of the 21.2-second duration."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

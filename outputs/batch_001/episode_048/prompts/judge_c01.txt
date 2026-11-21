@@ -1,0 +1,63 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+While feigning submission after her public humiliation, Catherine schemes in secret, plotting to use the council's ten-day reprieve to strike back at Alexander and Juliana with the aid of Father Thomas.
+CONTINUITY NOTES: Directly follows Episode 47's public disgrace where Catherine bowed to Juliana and accepted the position of a maid; in private, Catherine sheds her feigned defeat and initiates her counter-plot.
+
+CLIP: 0.0s to 26.7s (26.7s). Units below: id | seconds from clip start | type | text.
+e48_u001 | 0.0-4.5 | CAMERA | Medium shot tracking slightly as Catherine stands beside a tall mullioned stone window, silhouetted against the moonlight over the distant castle spires.
+e48_u002 | 0.0-3.0 | ACTION | Catherine, adorned in an ornate dark burgundy gown with braided golden hair, gazes out the dark window before turning slowly with a cold, venomous smirk.
+e48_u003 | 2.4-7.5 | DIALOGUE | CATHERINE (Vindictive, Cold): "Two words, and that healer's crown rolls right back into the gutter where it belongs."
+e48_u004 | 4.5-8.5 | CAMERA | Close-up on Catherine's profile and jewelry as she speaks with calculating contempt.
+e48_u005 | 7.8-12.3 | ACTION | Catherine glides across the chamber past a roaring stone hearth, picking up an orange from a silver platter on the table.
+e48_u006 | 8.0-12.3 | DIALOGUE | CATHERINE (Scheming): "Ten days. He gave himself ten days to fix it."
+e48_u007 | 12.3-20.0 | CAMERA | Medium close-up frontal shot of Catherine turning directly toward the viewer, her expression tightening into ruthless determination.
+e48_u008 | 12.6-14.9 | DIALOGUE | CATHERINE (Intense, Measured): "Ten days for the council to sit."
+e48_u009 | 15.0-18.5 | ACTION | Catherine raises a gloved index finger, emphasizing each point with sinister precision.
+e48_u010 | 15.1-17.2 | DIALOGUE | CATHERINE (Calculating): "Ten days for witnesses to be gathered."
+e48_u011 | 17.4-19.7 | DIALOGUE | CATHERINE (Dark, Threatening): "Ten days for a decree to be undone."
+e48_u012 | 20.0-26.7 | CAMERA | Slight push-in on Catherine as she clenches her fist against her chest, her eyes blazing with malice.
+e48_u013 | 20.1-23.7 | DIALOGUE | CATHERINE (Menacing, Resolute): "Ten days is not a wall, Alexander. It's a door."
+e48_u014 | 23.9-26.5 | DIALOGUE | CATHERINE (Chillingly Calm): "And doors can be closed from the other side."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

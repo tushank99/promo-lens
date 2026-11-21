@@ -1,0 +1,128 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "296fdcec88cd69ec",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 13.9,
+      "secs": 3.02,
+      "tokens_in": 1467,
+      "tokens_out": 1084
+    },
+    "raw": {
+      "hook": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e26_u022"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e26_u026",
+          "e26_u028",
+          "e26_u031",
+          "e26_u033"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e26_u026",
+          "e26_u031",
+          "e26_u033"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e26_u026",
+          "e26_u028",
+          "e26_u031",
+          "e26_u033"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e26_u033"
+        ]
+      },
+      "hook_unit_id": "e26_u022",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "trope": "exiled noble maid",
+      "central_conflict": "The poisoned Dowager Duchess fights for her life while the maid Juliana, an exiled noble, tries to save her and reveals her hidden past.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "f987130194fe6e8d",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.0,
+      "secs": 3.61,
+      "tokens_in": 1686,
+      "tokens_out": 1371
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e26_u034",
+          "e26_u035"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e26_u037",
+          "e26_u040",
+          "e26_u049"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e26_u036",
+          "e26_u037",
+          "e26_u040",
+          "e26_u042",
+          "e26_u048"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e26_u036",
+          "e26_u037",
+          "e26_u040",
+          "e26_u046",
+          "e26_u049",
+          "e26_u051"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e26_u051"
+        ]
+      },
+      "hook_unit_id": "e26_u034",
+      "hook_type": "reveal",
+      "emotion_type": "shock",
+      "trope": "hidden identity",
+      "central_conflict": "Juliana is confronted by the Dowager Duchess, who recognizes a family signet ring on Juliana's hand and demands to know its origin, threatening to expose her secret.",
+      "spoils_main_twist": true
+    }
+  }
+]

@@ -1,0 +1,106 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: High society gathers at the grand cathedral for Rupert and Catherine's lavish wedding, while the conspirators ensure every exit is sealed to seal Juliana's execution—unaware that Alexander's retribution is already at their gates.
+CONTINUITY NOTES: Picks up right after Alexander commands his men to secure the chapel and vows to reclaim his house and rescue Juliana; inside the cathedral, the wedding guests arrive and the conspirators finalize their sinister plot.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:50.1 (110.1 s).
+- Scene 01 (EXT. CATHEDRAL STEPS – DAY): 0.0-34.2 s, units e40_u001..e40_u017.
+- Scene 02 (INT. CATHEDRAL – CONTINUOUS): 34.2-49.8 s, units e40_u018..e40_u025.
+- Scene 03 (INT. CATHEDRAL – ALTAR & BALCONY – CONTINUOUS): 49.8-78.5 s, units e40_u026..e40_u038.
+- Scene 04 (INT. CATHEDRAL – CONTINUOUS): 78.5-110.1 s, units e40_u039..e40_u051.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 55.8-65.0 s; 81.0-92.0 s; 94.2-100.0 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e40_u001 | 0.0-4.8 | CAMERA | Wide establishing shot looking up at the imposing stone Gothic cathedral as noble guests in formal Regency attire ascend the grand steps.
+e40_u002 | 0.0-4.8 | SFX | Somber cathedral bells tolling and the distant murmur of arriving carriages.
+e40_u003 | 4.8-8.5 | CAMERA | Medium wide shot of an ornate black and gold royal carriage pulling up to the cobblestone courtyard. A footman in white gloves steps forward and opens the carriage door.
+e40_u004 | 5.5-7.4 | DIALOGUE | FOOTMAN (Formal, Resonant): "The Harrington family."
+e40_u005 | 8.5-12.2 | CAMERA | Medium shot as Lord Harrington in a tailored black tailcoat and white waistcoat steps down from the carriage, turning to extend his gloved hand to Lady Harrington, who gracefully descends.
+e40_u006 | 10.0-12.4 | ACTION | Lady Harrington takes his hand and steps onto the pavement, clutching a velvet reticule.
+e40_u007 | 12.4-17.3 | DIALOGUE | LADY HARRINGTON (Smug, Impressed): "Look at them. Every noble family in the county is here today."
+e40_u008 | 12.4-19.0 | CAMERA | Medium two-shot tracking slightly as Lord and Lady Harrington pause arm-in-arm, taking in the gathering crowd of high society.
+e40_u009 | 19.0-23.0 | CAMERA | Low-angle shot from behind as they ascend the stone steps toward the arched cathedral entrance.
+e40_u010 | 19.2-23.0 | DIALOGUE | LORD HARRINGTON (Ambitious, Proud): "And soon, we'll be connected to the Duchess of Ashburgh."
+e40_u011 | 23.0-26.2 | CAMERA | Tight close-up profile of Lady Harrington, her eyes glistening with cruel satisfaction in the soft sunlight.
+e40_u012 | 23.2-26.0 | DIALOGUE | LADY HARRINGTON (Malicious, Taunting): "Imagine Juliana seeing this."
+e40_u013 | 26.2-30.0 | CAMERA | Tight close-up of Lord Harrington looking down at her, his expression cold and ruthless.
+e40_u014 | 26.2-28.9 | DIALOGUE | LORD HARRINGTON (Sinister, Dismissive): "She won't be seeing anything for long."
+e40_u015 | 29.0-29.9 | DIALOGUE | LADY HARRINGTON (Pleased, Cold): "Good."
+e40_u016 | 30.1-33.2 | DIALOGUE | LORD HARRINGTON (Chuckling, Scornful): "This place has always been unlucky for Juliana."
+e40_u017 | 32.8-34.2 | ACTION | Lady Harrington lets out a soft, amused laugh as they reach the heavy wooden cathedral doors.
+e40_u018 | 34.2-40.5 | CAMERA | Dramatic tracking shot following Lord and Lady Harrington from behind as they stride down the candlelit aisle of the cathedral toward their reserved pew.
+e40_u019 | 34.4-39.0 | DIALOGUE | LADY HARRINGTON (Vindictive, Pious): "She stands beneath God's watch and still gets exactly what she deserves."
+e40_u020 | 40.5-42.2 | ACTION | Lord and Lady Harrington slide gracefully into the polished wooden pew, smoothing their garments.
+e40_u021 | 40.5-45.2 | CAMERA | Medium profile shot of the couple seated in the pew, looking toward the grand altar.
+e40_u022 | 42.0-44.0 | DIALOGUE | LADY HARRINGTON (Anticipatory, Eager): "We have an excellent view."
+e40_u023 | 44.1-45.2 | DIALOGUE | LORD HARRINGTON (Inquiring, Subdued): "Of the wedding?"
+e40_u024 | 45.2-49.8 | CAMERA | Close-up two-shot as Lady Harrington turns her head toward Lord Harrington with a dark, knowing smirk.
+e40_u025 | 45.3-48.3 | DIALOGUE | LADY HARRINGTON (Chilling, Sarcastic): "And everything that comes after it."
+e40_u026 | 49.8-55.8 | CAMERA | Medium shot of Rupert, the Blond Nobleman, standing before the altar draped in floral garlands. He wears an ornate silver-embroidered black formal coat and nervously adjusts his pristine white gloves.
+e40_u027 | 50.8-53.2 | DIALOGUE | BLOND NOBLEMAN (Nervous, Determined): "Everything must go perfectly."
+e40_u028 | 53.2-55.8 | ACTION | Rupert smooths the lapels of his coat, checking his posture as he waits for the bride.
+e40_u029 | 55.8-58.2 | CAMERA | Medium shot up on the stone balcony overlooking the nave, where an elder conspirator nobleman in black gloves stands gripping a cane.
+e40_u030 | 58.2-63.8 | CAMERA | High-angle wide shot looking down from the balcony across the entire cathedral filled with guests, candles lining the central aisle, and royal guards standing at attention.
+e40_u031 | 63.8-69.5 | CAMERA | Medium shot on the balcony as a Royal Guard in red uniform and tall bearskin hat steps up and bows respectfully to the elder nobleman.
+e40_u032 | 65.0-66.8 | DIALOGUE | ELDER NOBLEMAN (Stern, Scheming): "All entrances are covered?"
+e40_u033 | 66.9-68.2 | DIALOGUE | ROYAL GUARD (Obedient, Firm): "Every one, my Lord."
+e40_u034 | 68.3-69.3 | DIALOGUE | ELDER NOBLEMAN (Calculating): "Good."
+e40_u035 | 69.5-74.5 | CAMERA | Over-the-shoulder shot from behind the elder nobleman, his gloved hand resting on the stone balustrade, looking down upon the altar and seated aristocrats.
+e40_u036 | 69.8-74.2 | DIALOGUE | ELDER NOBLEMAN (Ruthless, Victorious): "By sunset, Ashburgh will have its new Duke and Duchess."
+e40_u037 | 74.5-78.5 | CAMERA | Tight, menacing close-up on the elder nobleman's face as a cold, sinister smile spreads across his lips.
+e40_u038 | 74.8-77.4 | DIALOGUE | ELDER NOBLEMAN (Deadly, Uncompromising): "And its witch will be dead."
+e40_u039 | 78.5-81.0 | SFX | The heavy creak of massive wooden cathedral doors swinging open, accompanied by swelling bridal organ music.
+e40_u040 | 78.5-81.0 | CAMERA | Wide symmetrical shot down the candlelit aisle as the double doors part, flooding the cathedral with brilliant golden daylight.
+e40_u041 | 81.0-82.5 | CAMERA | Close-up of Rupert turning his head sharply, his eyes widening in awe.
+e40_u042 | 82.5-85.8 | CAMERA | Framed wide shot of Catherine silhouetted in the bright doorway, wearing a breathtaking cream and gold imperial bridal gown with puffed sleeves and an exquisite sheer veil.
+e40_u043 | 85.8-90.8 | CAMERA | Majestic high-angle wide tracking shot following Catherine from behind as her magnificent cathedral-length veil trails down the aisle between seated guests.
+e40_u044 | 90.8-94.5 | CAMERA | Medium close-up of Lady Harrington leaning forward from her pew, utterly captivated.
+e40_u045 | 92.0-94.2 | DIALOGUE | LADY HARRINGTON (Awestruck, Whispering): "She looks like a queen."
+e40_u046 | 94.5-97.5 | CAMERA | Medium shot of Rupert at the altar, a proud, possessive smile breaking across his handsome face.
+e40_u047 | 97.5-102.8 | CAMERA | Full shot as Catherine reaches the top of the altar steps. Rupert steps forward and takes her gloved hands into his.
+e40_u048 | 100.0-102.8 | DIALOGUE | BLOND NOBLEMAN (Enamored, Flattering): "You look more queen than bride."
+e40_u049 | 102.8-110.1 | CAMERA | Tight two-shot profile of Catherine and Rupert clasping hands intimately, gazing into each other's eyes with shared aristocratic vanity.
+e40_u050 | 105.0-109.0 | DIALOGUE | CATHERINE (Smug, Coquettish): "And you look better in silk than you ever did as an ignored cousin."
+e40_u051 | 109.0-110.1 | ACTION | Rupert and Catherine exchange conspiratorial, triumphant smiles at the altar as the solemn organ chord holds and the scene cuts to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

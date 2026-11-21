@@ -1,0 +1,69 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+As Rupert and Catherine issue wedding invitations paired with Juliana's public execution decree to terrorize the county, Juliana endures starvation in the dungeon, refusing to break her spirit.
+CONTINUITY NOTES: Following Alexander's vow to return in two days to disrupt the wedding, Rupert and Catherine prepare to cement their coup by inviting high society to celebrate their nuptials and witness Juliana's execution.
+
+CLIP: 0.0s to 34.5s (34.5s). Units below: id | seconds from clip start | type | text.
+e37_u001 | 0.0-5.5 | CAMERA | Low-angle shot tilting down to a polished mahogany table as a white-gloved servant places a tall stack of wax-sealed wedding invitations onto a silver tray.
+e37_u002 | 1.5-3.2 | SFX | The crisp tap of heavy cardstock envelopes being set down onto silver.
+e37_u003 | 5.5-9.5 | CAMERA | Medium two-shot framed symmetrically down the vaulted, sunlit hallway. Blond Nobleman Rupert stands tall in a black embroidered frock coat, facing Catherine in an ornate pink gown.
+e37_u004 | 6.0-9.3 | DIALOGUE | BLOND NOBLEMAN (Cold, Calculating): "Every important family in the county should witness it."
+e37_u005 | 9.5-12.5 | CAMERA | Close-up of Catherine looking down at the invitations, her braided blonde hair immaculately pinned, before she raises her eyes with a slight smirk.
+e37_u006 | 10.8-12.4 | DIALOGUE | CATHERINE (Inquiring, Smug): "The wedding?"
+e37_u007 | 12.5-15.0 | CAMERA | Close-up on Rupert, his sharp aristocratic features set in cold conviction.
+e37_u008 | 12.8-14.8 | DIALOGUE | BLOND NOBLEMAN (Authoritative): "The transfer of Ashbridge."
+e37_u009 | 15.0-18.8 | CAMERA | Medium close-up of Catherine picking up one of the invitations, turning it over in her gloved hands with predatory delight.
+e37_u010 | 15.6-18.8 | DIALOGUE | CATHERINE (Gloating): "After the ceremony, no one will question who owns this house."
+e37_u011 | 18.8-23.2 | CAMERA | Intense close-up of Rupert leaning in slightly, his eyes narrowing with venomous malice.
+e37_u012 | 19.0-23.0 | DIALOGUE | BLOND NOBLEMAN (Sinister, Ruthless): "And no one will question what happened to the woman who tried to stop us."
+e37_u013 | 23.2-26.5 | CAMERA | Tight close-up of Catherine as a cruel sneer twists her lips.
+e37_u014 | 23.8-26.4 | DIALOGUE | CATHERINE (Venomous Satisfaction): "Juliana's execution comes after the wedding."
+e37_u015 | 26.5-30.0 | CAMERA | Wide shot framing the two conspirators beneath the towering archways of the estate.
+e37_u016 | 26.6-29.8 | DIALOGUE | CATHERINE (Gleeful): "Perfect timing. It will be a feast for our guests."
+e37_u017 | 30.0-32.5 | CAMERA | Medium close-up of Rupert turning his gaze toward the grand entrance.
+e37_u018 | 30.2-32.2 | DIALOGUE | BLOND NOBLEMAN (Decisive): "Send the invitations."
+e37_u019 | 32.5-34.5 | CAMERA | Close-up of Catherine looking sideways with narrowed eyes.
+e37_u020 | 32.8-34.5 | DIALOGUE | CATHERINE (Spiteful): "Especially to the Ashcrofts."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

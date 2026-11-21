@@ -1,0 +1,82 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When ruthless thugs desecrate Juliana's medicinal garden and trample her late mother's herbs, a protective Alexander charges into the night to defend her.
+CONTINUITY NOTES: Follows Episode 14 where Alexander solemnly vowed Juliana would never be hurt again; Juliana's hands remain heavily bandaged from retrieving the emerald ring.
+
+CLIP: 3.5s to 49.5s (46.0s). Units below: id | seconds from clip start | type | text.
+e15_u003 | 0.0-1.5 | CAMERA | Low-angle medium shot focusing on one thug raising a heavy wooden club overhead.
+e15_u004 | 0.1-1.4 | ACTION | The thug brutally smashes his club down into a wooden planter box, shattering the frame.
+e15_u005 | 0.3-1.4 | SFX | A splintering wooden crash echoing through the night air.
+e15_u006 | 1.5-4.0 | CAMERA | Medium close-up of a bald thug leaning over a lush bed of white medicinal chamomile herbs.
+e15_u007 | 1.6-3.9 | ACTION | The bald thug roughly rips a massive handful of flowering herbs up by their roots, scattering soil across the path.
+e15_u008 | 4.0-8.3 | CAMERA | Medium shot framing the open doorway of the stone cottage, bathed in warm interior light against the dark night.
+e15_u009 | 4.1-8.3 | ACTION | Juliana bursts through the cottage doorway, her hands wrapped in clean white bandages, freezing in horror at the destruction.
+e15_u010 | 5.0-8.2 | DIALOGUE | JULIANA (Desperate, Alarmed): "Stop! What are you doing?!"
+e15_u011 | 8.3-12.3 | CAMERA | Medium close-up of the Thug with Cap holding the uprooted chamomile bouquet, sneering with cruel amusement.
+e15_u012 | 9.5-12.2 | DIALOGUE | THUG WITH CAP (Mocking, Smug): "We're clearing this rubbish."
+e15_u013 | 12.3-15.3 | CAMERA | Close-up on Juliana, her face tight with anguish and fury as she clutches her bandaged hands against her chest.
+e15_u014 | 12.9-15.2 | DIALOGUE | JULIANA (Furious, Pleading): "Those are medicinal plants!"
+e15_u015 | 15.3-19.0 | CAMERA | Low-angle shot tracking down from the bald thug's grinning face to his worn leather boots on the muddy flagstones.
+e15_u016 | 16.5-18.8 | DIALOGUE | BALD THUG (Callous): "They look like weeds to me."
+e15_u017 | 17.0-19.0 | ACTION | The bald thug flings the bouquet into the mud and grinds his heavy boot directly onto the delicate flowers.
+e15_u018 | 19.0-23.3 | CAMERA | High-angle two-shot as Juliana rushes forward and drops directly onto her knees in the cold mud before the thug.
+e15_u019 | 19.3-23.0 | ACTION | Juliana frantically tries to scoop the crushed soil and torn stems back into the bed with her bandaged hands.
+e15_u020 | 19.7-22.8 | DIALOGUE | JULIANA (Choked with Tears, Desperate): "Please! Those plants took months to grow!"
+e15_u021 | 23.3-28.0 | CAMERA | Medium two-shot of the Tall Thug with the club and the Thug with Cap bursting into raucous laughter under the full moon.
+e15_u022 | 24.0-27.7 | DIALOGUE | TALL THUG (Contemptuous, Derisive): "Months? You actually spend your days growing this filth?"
+e15_u023 | 28.0-30.5 | CAMERA | Tight close-up of Juliana's bandaged hands trembling as she tenderly gathers the soiled white flowers from the puddles.
+e15_u024 | 30.5-33.5 | CAMERA | Low-angle medium shot tilting up as Juliana rises from the ground, standing tall despite her trembling frame.
+e15_u025 | 31.3-33.3 | DIALOGUE | JULIANA (Defiant, Firm): "Leave my garden alone."
+e15_u026 | 33.5-37.0 | CAMERA | Medium close-up of the Thug with Cap scoffing derisively.
+e15_u027 | 33.7-36.9 | DIALOGUE | THUG WITH CAP (Sneering, Disdainful): "A noble lady playing in the dirt. What a joke."
+e15_u028 | 37.0-40.7 | CAMERA | Medium close-up of Juliana, her eyes blazing with indignation and wounded pride.
+e15_u029 | 37.5-40.5 | DIALOGUE | JULIANA (Resolute, Dignified): "It is my home. You have no right to destroy anything here."
+e15_u030 | 40.7-43.0 | CAMERA | Tight close-up of the Thug with Cap stepping aggressively into Juliana's personal space, snarling with venom.
+e15_u031 | 41.3-42.9 | DIALOGUE | THUG WITH CAP (Menacing Snarl): "Get out of the way!"
+e15_u032 | 43.0-44.5 | CAMERA | Extreme close-up on Juliana's piercing blue eyes and set jaw, unflinching.
+e15_u033 | 43.0-43.8 | DIALOGUE | JULIANA (Steely, Fearless): "No."
+e15_u034 | 43.9-46.0 | ACTION | The Thug with Cap violently shoves Juliana back with both hands; she cries out as she loses her balance and crashes hard onto the wet stone path.
+e15_u035 | 44.3-45.5 | DIALOGUE | JULIANA (Gasping Cry): "Ah!"
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

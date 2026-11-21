@@ -1,0 +1,61 @@
+{
+  "episode": 19,
+  "prompt_hash": "f7e03005e3269289",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.04,
+    "tokens_in": 4050,
+    "tokens_out": 534
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e19_u026",
+        "end_unit_id": "e19_u050",
+        "hook": {
+          "unit_ids": [
+            "e19_u026"
+          ],
+          "modality": "visual",
+          "description": "Alexander standing in a misty, fog-laden forest waiting for a secret informant.",
+          "evidence": "The atmospheric, high-stakes visual of a hidden nobleman meeting a spy immediately establishes a mystery/revenge genre."
+        },
+        "cliffhanger_unit_id": "e19_u050",
+        "reason": "This sequence reveals the protagonist's secret identity and his vow to reclaim his stolen dukedom from usurpers."
+      },
+      {
+        "start_unit_id": "e19_u001",
+        "end_unit_id": "e19_u025",
+        "hook": {
+          "unit_ids": [
+            "e19_u001"
+          ],
+          "modality": "visual",
+          "description": "Juliana and Alexander standing amidst the smoldering, charred ruins of their home.",
+          "evidence": "The immediate visual of total destruction and loss creates instant empathy and curiosity about how they survived."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "This captures the emotional aftermath of the fire and the kindness of the villagers, grounding the story in human stakes."
+      },
+      {
+        "start_unit_id": "e19_u051",
+        "end_unit_id": "e19_u063",
+        "hook": {
+          "unit_ids": [
+            "e19_u051"
+          ],
+          "modality": "visual",
+          "description": "Juliana sitting alone in a dark, moonlit barn, clutching a charred book.",
+          "evidence": "The contrast between the dark, lonely setting and the glowing lantern creates a poignant, intimate mood that draws viewers into their struggle."
+        },
+        "cliffhanger_unit_id": "e19_u063",
+        "reason": "This highlights the romantic tension and the couple's shared resolve to rebuild their lives from nothing."
+      }
+    ]
+  },
+  "note": null
+}

@@ -1,0 +1,122 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: Catherine enters the wet cells armed with a red-hot iron and Juliana's late mother's botanical book, subjecting the chained heiress to ruthless psychological torment until Juliana's unyielding pride pushes Catherine to a violent brink.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c02: window e31_u057..e31_u087 (98.2-160.0 s, 61.8 s); hook ['e31_u057'] modality visual (delay 0.0 s)
+  FAILED: duration: 61.8s is over the 60s maximum
+  Original idea: This sequence captures the peak of the psychological torture, ending on a terrifying visual cliffhanger that demands a resolution.
+  Scene 01: units e31_u001..e31_u087, 0.0-160.0 s. Units of that scene:
+    e31_u001 | 0.0-2.8 | CAMERA | Static medium shot of the heavy, iron-studded dungeon door as the massive bolt loudly slides open.
+    e31_u002 | 0.0-2.8 | SFX | Heavy iron latch sliding back with an ominous, echoing metallic clang, followed by the deep groaning creak of the cell door swinging inward.
+    e31_u003 | 2.8-4.2 | CAMERA | Medium close-up of Juliana huddled against the stone wall, bound in heavy iron chains, shivering in her torn apron and lifting her tear-streaked face in dread.
+    e31_u004 | 2.8-4.2 | ACTION | Juliana recoils against the damp stonework, her eyes wide with terror as light floods into the dark cell.
+    e31_u005 | 4.2-9.5 | CAMERA | Full shot framed through the arched doorway. Catherine stands imperiously in an ornate, gold-embroidered violet gown, holding a smoldering hot poker and a charred leather-bound book, flanked by two stone-faced guards with lanterns.
+    e31_u006 | 6.9-8.8 | DIALOGUE | CATHERINE (Cruel, Condescending): "Look at you."
+    e31_u007 | 9.5-10.5 | CAMERA | Low-angle close-up of Juliana looking up from the stone floor, her gaze hardening despite her fear.
+    e31_u008 | 10.5-13.8 | CAMERA | Tight close-up of Catherine's face, bathed in the orange flickering glow of the red-hot branding iron, smiling with pure malice.
+    e31_u009 | 10.5-13.8 | DIALOGUE | CATHERINE (Mocking, Venomous): "The great Lady Juliana Ashcroft."
+    e31_u010 | 13.8-17.6 | CAMERA | Over-the-shoulder wide shot past Catherine looking down at Juliana shackled helplessly on the wet stone floor.
+    e31_u011 | 14.0-17.6 | DIALOGUE | CATHERINE (Taunting): "Chained in a dungeon like a common criminal."
+    e31_u012 | 17.6-20.8 | CAMERA | Close-up of Juliana, her eyes glistening with unshed tears, speaking with quiet defiance.
+    e31_u013 | 17.8-20.5 | DIALOGUE | JULIANA (Defiant, Steady): "You seem very pleased."
+    e31_u014 | 20.8-24.5 | CAMERA | Low-angle shot looking up at Catherine towering over Juliana, holding the glowing poker at her side.
+    e31_u015 | 21.0-23.5 | DIALOGUE | CATHERINE (Smug, Chilling): "I am."
+    e31_u016 | 24.5-29.0 | CAMERA | Extreme close-up of the bent, white-hot tip of the poker radiating heat, with Catherine's face blurred in the background as she gazes down with predatory pleasure.
+    e31_u017 | 25.0-28.9 | DIALOGUE | CATHERINE (Whispering, Sinister): "Because this is what you were always meant to be."
+    e31_u018 | 29.0-34.8 | CAMERA | Over-the-shoulder medium shot focusing on Juliana as Catherine presents the charred, singed pages of the botanical book.
+    e31_u019 | 29.3-34.8 | DIALOGUE | CATHERINE (Scornful): "Your family dressed you like a lady. They educated you. They gave you a respectable name."
+    e31_u020 | 34.8-39.0 | CAMERA | Close-up of Catherine's face breaking into an arrogant, haughty laugh.
+    e31_u021 | 35.0-38.9 | DIALOGUE | CATHERINE (Amused, Spiteful): "[chuckles] And still you became a disgrace."
+    e31_u022 | 39.0-43.0 | CAMERA | Tight close-up of Juliana's fierce, unwavering gaze as she retorts without hesitation.
+    e31_u023 | 39.2-43.0 | DIALOGUE | JULIANA (Fierce, Unbroken): "I became a disgrace when I refused to become cruel."
+    e31_u024 | 43.0-48.5 | CAMERA | Close-up of Catherine scowling, cutting back to a shot of Juliana's bare, chained feet locked in iron manacles against the cold stone floor.
+    e31_u025 | 43.2-48.5 | DIALOGUE | CATHERINE (Cold, Bitter): "No. You became a disgrace when Gerald left you standing at the altar."
+    e31_u026 | 48.5-54.8 | CAMERA | Medium shot from floor level looking up at Catherine leaning closer, savoring Juliana's humiliation.
+    e31_u027 | 48.9-50.8 | DIALOGUE | CATHERINE (Gloating): "Do you remember?"
+    e31_u028 | 49.0-52.0 | ACTION | Juliana stares up, her breathing steadying as she refuses to break under Catherine's barbs.
+    e31_u029 | 51.0-54.8 | DIALOGUE | CATHERINE (Viciously Delighted): "Everyone saw you. Everyone watched him chose Clarisse."
+    e31_u030 | 54.8-59.0 | CAMERA | Close-up of the red-hot iron hovering over the damp stone floor, rising steam and heat waves warping the air, before cutting to Catherine's gloating expression.
+    e31_u031 | 55.2-57.5 | SFX | Faint sizzling and hissing as ambient moisture touches the scalding iron tip.
+    e31_u032 | 55.5-58.8 | DIALOGUE | CATHERINE (Quietly Venomous): "And everyone watched you walk away alone."
+    e31_u033 | 59.0-65.5 | CAMERA | Close-up pushing in on Juliana's illuminated, dignified face.
+    e31_u034 | 59.2-61.3 | DIALOGUE | JULIANA (Proud, Measured): "Gerald chose money."
+    e31_u035 | 61.5-63.5 | DIALOGUE | JULIANA (Resolute): "Clarissa chose a coward."
+    e31_u036 | 63.8-65.3 | DIALOGUE | JULIANA (Unyielding): "I chose myself."
+    e31_u037 | 65.5-67.5 | CAMERA | Close-up of Catherine's face tightening in disgust.
+    e31_u038 | 65.6-67.4 | DIALOGUE | CATHERINE (Disgusted): "You chose a beggar."
+    e31_u039 | 67.5-70.5 | CAMERA | Low-angle shot of Juliana lifting her chin with unwavering pride.
+    e31_u040 | 67.6-69.8 | DIALOGUE | JULIANA (Fierce, Proud): "I chose a man."
+    e31_u041 | 70.5-73.3 | CAMERA | Medium shot of Catherine sneering down at her.
+    e31_u042 | 70.8-73.2 | DIALOGUE | CATHERINE (Contemptuous): "A scarred nobody."
+    e31_u043 | 73.3-77.6 | CAMERA | Medium shot of Juliana sitting erect against the dungeon wall, her hands resting calmly in her lap.
+    e31_u044 | 73.5-77.6 | DIALOGUE | JULIANA (Resolute, Dignified): "A man with more honor than the people sitting above this dungeon."
+    e31_u045 | 77.6-80.5 | CAMERA | Medium close-up of Catherine, holding the smoldering iron between them.
+    e31_u046 | 77.8-80.2 | DIALOGUE | CATHERINE (Incredulous, Mocking): "You call that marriage?"
+    e31_u047 | 80.5-83.2 | CAMERA | Extreme close-up of Juliana's clear blue eyes, shining with profound conviction.
+    e31_u048 | 80.8-83.2 | DIALOGUE | JULIANA (Pure, Sincere): "I call it love."
+    e31_u049 | 83.2-88.0 | CAMERA | High-angle wide shot looking straight down through the ceiling iron grating into the deep dungeon shaft where Catherine looms over Juliana.
+    e31_u050 | 83.5-87.4 | DIALOGUE | CATHERINE (Mocking, Hysterical Laugh): "[laughs] Love? Look where your precious love brought you."
+    e31_u051 | 87.5-91.2 | CAMERA | Medium close-up of Juliana looking directly up past the glowing tip of the iron poker into Catherine's eyes.
+    e31_u052 | 87.8-91.2 | DIALOGUE | JULIANA (Firm, Piercing): "To a place where I can still look you in the eyes."
+    e31_u053 | 91.2-94.2 | CAMERA | Close-up of Catherine, her lips curling in indignant disbelief.
+    e31_u054 | 91.4-94.2 | DIALOGUE | CATHERINE (Incredulous, Offended): "You think love makes you better than me?"
+    e31_u055 | 94.2-98.2 | CAMERA | Close-up of Juliana speaking calmly and razor-sharp.
+    e31_u056 | 94.5-98.2 | DIALOGUE | JULIANA (Calm, Cutting): "No. But cruelty certainly doesn't make you better than me."
+    e31_u057 | 98.2-103.5 | CAMERA | Medium shot of Catherine sweeping her arm out, flaunting her aristocratic privilege and opulence.
+    e31_u058 | 98.5-103.3 | DIALOGUE | CATHERINE (Incensed, Boastful): "I have beauty, money, family, status! What do you have?"
+    e31_u059 | 103.5-108.8 | CAMERA | Close-up of Juliana, her expression serene and grounded in moral superiority.
+    e31_u060 | 103.7-108.5 | DIALOGUE | JULIANA (Quiet, Powerful): "Knowledge. Love. And people who need me."
+    e31_u061 | 108.8-110.5 | CAMERA | Tight shot of Catherine's gloved hands holding Juliana's mother's partially burned botanical volume, 'The Virtues of Plants & Herbs'.
+    e31_u062 | 110.2-111.4 | DIALOGUE | CATHERINE (Sneering, Derisive): "[scoffs] Peasants? People?"
+    e31_u063 | 111.5-118.2 | CAMERA | Medium shot of Catherine casually holding the ancient book while pacing slowly before Juliana.
+    e31_u064 | 111.6-118.2 | DIALOGUE | CATHERINE (Arrogant, Elitist): "That is why you were born in the wrong world. Women like me are meant to be admired. Women like you are meant to serve."
+    e31_u065 | 118.2-122.5 | CAMERA | Tight close-up of Juliana's face, tilting her head with an insightful, knowing smirk.
+    e31_u066 | 118.4-122.0 | DIALOGUE | JULIANA (Piercing, Provocative): "Then why are you so desperate to make me kneel?"
+    e31_u067 | 122.0-124.0 | ACTION | Catherine's smug expression freezes, her eyes widening in momentary shock and fury as the blow lands squarely.
+    e31_u068 | 124.0-130.8 | CAMERA | Low-angle medium shot of Juliana, her voice ringing clearly through the subterranean chamber.
+    e31_u069 | 124.2-130.5 | DIALOGUE | JULIANA (Accusatory, Commanding): "If you were truly powerful, Catherine, you wouldn't need me to bow."
+    e31_u070 | 130.8-133.0 | CAMERA | Close-up of Catherine completely losing control, her aristocratic facade shattering into sheer rage.
+    e31_u071 | 131.0-132.8 | DIALOGUE | CATHERINE (Enraged Scream): "Enough!"
+    e31_u072 | 133.0-134.5 | CAMERA | Close-up of the red-hot poker pressing directly down into the delicate open pages of the botanical book.
+    e31_u073 | 133.2-134.5 | SFX | Hiss of scorched parchment and curling white smoke rising as paper blackens under extreme heat.
+    e31_u074 | 134.5-138.0 | CAMERA | Medium two-shot. Catherine holds the smoldering book right before Juliana's face.
+    e31_u075 | 134.5-138.0 | DIALOGUE | CATHERINE (Hateful, Malicious): "This pathetic book is the only thing you still have from your mother."
+    e31_u076 | 138.0-140.5 | CAMERA | Extreme close-up of Juliana, her emotional composure breaking into pure grief and panic.
+    e31_u077 | 138.0-140.5 | ACTION | Tears spill rapidly down Juliana's cheeks as she reaches forward in vain, restrained by her heavy iron chains.
+    e31_u078 | 138.4-140.4 | DIALOGUE | JULIANA (Desperate, Weeping): "[gasping] Give it back!"
+    e31_u079 | 140.5-143.8 | CAMERA | Low-angle shot of Catherine grinning with sadistic triumph, looking down at Juliana's despair.
+    e31_u080 | 140.7-143.8 | DIALOGUE | CATHERINE (Gloating, Sadistic): "There. Finally. Something still hurts you."
+    e31_u081 | 143.8-145.5 | CAMERA | Close-up of Juliana screaming out in absolute anguish.
+    e31_u082 | 144.0-145.5 | DIALOGUE | JULIANA (Screaming, Agonized): "No!"
+    e31_u083 | 145.5-151.2 | CAMERA | Medium close-up of Catherine slowly driving the glowing branding tip into the spine of the open book, watching the embers consume the pages.
+    e31_u084 | 145.6-151.2 | DIALOGUE | CATHERINE (Vicious, Final): "One flame, and your mother's life's work becomes ash."
+    e31_u085 | 151.2-155.2 | CAMERA | Low-angle medium shot. Catherine lowers the charred book and suddenly swings the glowing orange iron tip straight up toward Juliana's face.
+    e31_u086 | 151.5-155.2 | ACTION | Juliana recoils back against the hard dungeon wall, gasping for breath in raw terror as the searing iron stops inches from her eyes.
+    e31_u087 | 155.2-160.0 | CAMERA | Extreme macro close-up of Juliana's wide, trembling eye. The brilliant orange ember of the hot poker reflects clearly in the center of her pupil, holding on the terrifying cliffhanger before an abrupt cut.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

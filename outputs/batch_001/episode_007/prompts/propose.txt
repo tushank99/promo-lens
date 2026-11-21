@@ -1,0 +1,112 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: When Gerald and his spiteful companion arrive at the woodland cottage to mock Juliana's fallen status, her stoic new husband returns from the forest to silently send them fleeing.
+CONTINUITY NOTES: Follows Episode 6, where Juliana found refuge and warmth beside the hearth with her mysterious husband; morning brings unwelcome visitors from her former life to their humble doorstep.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:56.0 (116.0 s).
+- Scene 01 (EXT. WOODLAND COTTAGE - DAY): 0.0-69.5 s, units e07_u001..e07_u033.
+- Scene 02 (EXT. FOREST PATH - CONTINUOUS): 69.5-75.5 s, units e07_u034..e07_u037.
+- Scene 03 (EXT. WOODLAND COTTAGE - CONTINUOUS): 75.5-116.0 s, units e07_u038..e07_u058.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 11.5-19.5 s; 54.6-57.8 s; 77.5-81.5 s; 96.5-100.8 s; 107.8-116.0 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e07_u001 | 0.0-4.8 | CAMERA | Medium shot of Juliana kneeling on the cold, damp ground outside the stone cottage, pulling weeds from the dirt with her bare hands.
+e07_u002 | 0.0-4.8 | ACTION | Juliana, dressed in her simple grey long-sleeved gown, works tirelessly with soil caked beneath her fingernails.
+e07_u003 | 4.8-11.8 | CAMERA | Low-angle tracking shot as an ornate black-and-gold carriage with crest emblazoned on the door rolls to a stop on the muddy path outside the gate.
+e07_u004 | 5.0-11.5 | SFX | Heavy carriage wheels grinding in mud, horse snorts, and rhythmic hoofbeats halting.
+e07_u005 | 11.8-15.0 | CAMERA | Medium shot as Aristocratic Woman steps out of the carriage into the misty air, shielding herself under an intricate lace parasol in an elegant lavender gown.
+e07_u006 | 15.0-19.5 | CAMERA | Gerald steps down from the carriage behind her, looking immaculate in a high-collared navy frock coat, white waistcoat, and dark cravat.
+e07_u007 | 19.5-21.0 | ACTION | Aristocratic Woman smirks cruelly as she surveys the humble stone cottage.
+e07_u008 | 21.0-24.0 | ACTION | Juliana rinses the heavy mud from her hands in a cold rainwater puddle and rises to her feet, holding her head high.
+e07_u009 | 22.0-24.5 | DIALOGUE | ARISTOCRATIC WOMAN (Mocking, Condescending): "This is where you live now?"
+e07_u010 | 24.5-29.8 | CAMERA | Medium shot of Gerald standing beside Aristocratic Woman, sneering disdainfully.
+e07_u011 | 25.0-29.8 | DIALOGUE | GERALD (Arrogant, Scornful): "A fitting home for a woman who threw away everything for a penniless soldier."
+e07_u012 | 29.8-32.8 | CAMERA | Medium close-up of Juliana, defiant and unflinching despite her soiled dress and damp hair.
+e07_u013 | 30.0-32.6 | DIALOGUE | JULIANA (Sharp, Unintimidated): "You came all this way just to insult my home?"
+e07_u014 | 32.8-37.5 | CAMERA | Close-up of Aristocratic Woman erupting into high-pitched, malicious laughter beneath her parasol.
+e07_u015 | 33.2-37.8 | DIALOGUE | ARISTOCRATIC WOMAN (Gloating, Mocking): "Home? Look at your hands, Juliana."
+e07_u016 | 37.8-39.8 | CAMERA | Close-up of Juliana's mud-stained palms held open against her apron.
+e07_u017 | 38.2-39.8 | DIALOGUE | ARISTOCRATIC WOMAN (Cruel): "You look like a servant."
+e07_u018 | 39.8-41.0 | CAMERA | Close-up of Gerald's smug expression watching Juliana.
+e07_u019 | 41.0-45.0 | CAMERA | Medium close-up of Juliana lifting her chin with unwavering dignity.
+e07_u020 | 41.2-44.8 | DIALOGUE | JULIANA (Proud, Resolute): "I work with my hands. There is no shame in that."
+e07_u021 | 45.0-47.0 | CAMERA | Close-up on Gerald's tightening jaw.
+e07_u022 | 45.2-46.8 | DIALOGUE | GERALD (Biting, Condescending): "You were born a lady."
+e07_u023 | 47.0-50.8 | CAMERA | Close-up on Juliana's clear blue eyes, shining with unbroken pride.
+e07_u024 | 48.8-50.4 | DIALOGUE | JULIANA (Firm, Unapologetic): "And I remain one."
+e07_u025 | 50.8-54.8 | CAMERA | Wide shot framing Juliana facing off against Gerald and Aristocratic Woman in the bleak courtyard.
+e07_u026 | 51.5-54.6 | DIALOGUE | GERALD (Bitter, Sneering): "You chose that scarred beggar over a life of comfort."
+e07_u027 | 54.8-61.5 | CAMERA | Two-shot profile of Juliana looking straight into Gerald's eyes without flinching.
+e07_u028 | 57.8-61.0 | DIALOGUE | JULIANA (Passionate, Defiant): "I chose a man who stood beside me when you walked away."
+e07_u029 | 61.5-65.2 | CAMERA | Intense close-up of Juliana dismissing him with utter contempt.
+e07_u030 | 61.8-64.8 | DIALOGUE | JULIANA (Cold, Commanding): "You have no authority here. Leave."
+e07_u031 | 65.2-69.5 | CAMERA | Close-up of Gerald lunging forward, aggressively pointing his finger into Juliana's face.
+e07_u032 | 65.6-68.5 | DIALOGUE | GERALD (Furious, Threatening): "I have enough influence to make a beggar disappear."
+e07_u033 | 68.6-69.5 | DIALOGUE | GERALD (Spiteful, Boastful): "And your husband?"
+e07_u034 | 69.5-74.0 | CAMERA | Wide shot down a dark, fog-drenched forest path. A towering, shadowed figure walks steadily forward through the mist.
+e07_u035 | 69.5-71.2 | DIALOGUE | GERALD (Snarl): "Where is that beggar husband?"
+e07_u036 | 70.0-75.5 | ACTION | The Scarred Bearded Man marches purposefully toward the cottage, carrying a heavy bundle of chopped firewood bound tightly with hemp cord.
+e07_u037 | 74.0-75.5 | CAMERA | Medium tracking shot pushing in on the Scarred Bearded Man's stern, rugged face as he approaches the gate.
+e07_u038 | 75.5-78.5 | CAMERA | Low shot of the Scarred Bearded Man bending down and dropping the bundle of logs by the stone wall.
+e07_u039 | 76.2-77.5 | SFX | A dull, heavy thud of timber striking the mud.
+e07_u040 | 78.5-81.0 | CAMERA | Medium full shot as the Scarred Bearded Man straightens to his full imposing height and steps directly toward Gerald.
+e07_u041 | 81.0-83.5 | CAMERA | Two-shot framing the Scarred Bearded Man towering menacingly over Gerald, staring down at him with unyielding intensity.
+e07_u042 | 81.5-84.0 | ACTION | Gerald freezes, his arrogant bravado instantly vanishing as cold dread overtakes his face.
+e07_u043 | 83.5-88.0 | CAMERA | Low-angle close-up of Gerald looking up in sheer terror, his adam's apple bobbing nervously.
+e07_u044 | 86.5-88.5 | DIALOGUE | ARISTOCRATIC WOMAN (Urgent, Annoyed): "Gerald, don't let him frighten you."
+e07_u045 | 88.6-90.0 | DIALOGUE | GERALD (Trembling, Trying to Save Face): "What are you staring at?"
+e07_u046 | 90.0-91.5 | ACTION | Gerald rapidly turns on his heel toward the carriage, unwilling to face another second of the silent glare.
+e07_u047 | 90.1-91.4 | DIALOGUE | GERALD (Nervous, Hurried): "We are leaving."
+e07_u048 | 91.5-93.8 | CAMERA | Medium shot of Aristocratic Woman, shocked and indignant as Gerald flees past her.
+e07_u049 | 92.0-93.8 | DIALOGUE | ARISTOCRATIC WOMAN (Outraged, Flustered): "Leaving? Gerald!"
+e07_u050 | 93.8-96.5 | ACTION | Aristocratic Woman scrambles back into the carriage, hiking up her gown in a fluster before slamming the door shut.
+e07_u051 | 95.0-96.0 | SFX | Carriage door slamming shut.
+e07_u052 | 96.0-99.0 | CAMERA | Wide shot of the carriage rapidly jolting forward and disappearing down the misty road away from the cottage.
+e07_u053 | 99.0-103.5 | CAMERA | Medium profile two-shot of Juliana turning toward the Scarred Bearded Man, her eyes gleaming with genuine admiration.
+e07_u054 | 100.8-103.2 | DIALOGUE | JULIANA (Impressed, Softly Amused): "You didn't say a word."
+e07_u055 | 103.5-107.5 | CAMERA | Close-up on the Scarred Bearded Man looking down at her, his rugged features softening with quiet affection.
+e07_u056 | 106.0-107.8 | DIALOGUE | SCARRED BEARDED MAN (Low, Gentle, Confident): "I didn't need to."
+e07_u057 | 107.5-111.5 | CAMERA | Medium shot as the Scarred Bearded Man stoops down, scoops up the heavy bundle of firewood in one arm, and walks calmly past Juliana toward their door.
+e07_u058 | 111.5-116.0 | CAMERA | Close-up of Juliana looking after him, a radiant and grateful smile blooming across her face as the scene fades out.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

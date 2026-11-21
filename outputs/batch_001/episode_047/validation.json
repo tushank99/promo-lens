@@ -1,0 +1,106 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e47_u040",
+      "end_unit_id": "e47_u069",
+      "hook": {
+        "unit_ids": [
+          "e47_u040"
+        ],
+        "modality": "visual",
+        "description": "Juliana raises her hand to stop the guards from throwing Catherine out.",
+        "evidence": "The sudden shift from the antagonist's expected punishment to the protagonist's unexpected mercy creates immediate intrigue."
+      },
+      "cliffhanger_unit_id": "e47_u069",
+      "reason": "The power dynamic shift where the villain is forced to become a servant is a classic, high-satisfaction trope."
+    },
+    "norm": {
+      "start_unit_id": "e47_u040",
+      "end_unit_id": "e47_u069",
+      "hook": {
+        "unit_ids": [
+          "e47_u040"
+        ],
+        "modality": "visual",
+        "description": "Juliana raises her hand to stop the guards from throwing Catherine out.",
+        "evidence": "The sudden shift from the antagonist's expected punishment to the protagonist's unexpected mercy creates immediate intrigue."
+      },
+      "cliffhanger_unit_id": "e47_u069",
+      "reason": "The power dynamic shift where the villain is forced to become a servant is a classic, high-satisfaction trope."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "scene"
+    ],
+    "details": [
+      "window crosses scenes ['03', '04']"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 81.8,
+    "end": 131.5,
+    "duration": 49.7,
+    "segments": [
+      {
+        "start_unit": "e47_u040",
+        "end_unit": "e47_u069",
+        "start": 81.8,
+        "end": 131.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e47_u050",
+      "end_unit_id": "e47_u070",
+      "hook": {
+        "unit_ids": [
+          "e47_u050"
+        ],
+        "modality": "visual",
+        "description": "Catherine's face shifts from despair to pure, offended shock.",
+        "evidence": "The visceral reaction to being offered a job as a scullery maid hooks viewers interested in revenge and humiliation."
+      },
+      "cliffhanger_unit_id": "e47_u070",
+      "reason": "This segment focuses on the intense psychological battle and the final, total humiliation of the antagonist."
+    },
+    "norm": {
+      "start_unit_id": "e47_u050",
+      "end_unit_id": "e47_u070",
+      "hook": {
+        "unit_ids": [
+          "e47_u050"
+        ],
+        "modality": "visual",
+        "description": "Catherine's face shifts from despair to pure, offended shock.",
+        "evidence": "The visceral reaction to being offered a job as a scullery maid hooks viewers interested in revenge and humiliation."
+      },
+      "cliffhanger_unit_id": "e47_u070",
+      "reason": "This segment focuses on the intense psychological battle and the final, total humiliation of the antagonist."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 95.5,
+    "end": 134.0,
+    "duration": 38.5,
+    "segments": [
+      {
+        "start_unit": "e47_u050",
+        "end_unit": "e47_u070",
+        "start": 95.5,
+        "end": 134.0
+      }
+    ]
+  }
+]

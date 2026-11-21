@@ -1,0 +1,245 @@
+{
+  "episode": 34,
+  "logline": "Put on trial for witchcraft and poisoning, Lady Juliana stands proud and defiant in the prisoner's dock, refusing to renounce her mother's herbal medicine even after her coerced maid gives false testimony against her.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 3,
+    "rejected_at_judge": 1,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 1,
+    "retry_recovered": 0,
+    "judge_failed": 1,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 34,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e34_u007",
+      "end_unit_id": "e34_u021",
+      "hook_unit_id": "e34_u007",
+      "hook": {
+        "unit_ids": [
+          "e34_u007"
+        ],
+        "modality": "visual",
+        "description": "Low-angle medium close-up of Lady Juliana standing erect in the dock, her prisoner label pinned to her rustic buttoned gown, her expression resolute.",
+        "evidence": "The visual of a woman in a prisoner's dock immediately establishes high stakes and a 'wrongfully accused' narrative.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e34_u021",
+      "segments": [
+        {
+          "start_unit": "e34_u007",
+          "end_unit": "e34_u021",
+          "start": 13.1,
+          "end": 37.4
+        }
+      ],
+      "start": 13.1,
+      "end": 37.4,
+      "duration": 24.3,
+      "proposer_reason": "The rapid escalation from the accusation to the judge slamming his gavel creates immediate tension.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 5.7s (21.8-27.5)"
+      ],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 34,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e34_u048",
+      "end_unit_id": "e34_u064",
+      "hook_unit_id": "e34_u048",
+      "hook": {
+        "unit_ids": [
+          "e34_u048"
+        ],
+        "modality": "visual",
+        "description": "Lady Juliana slams her cuffed hands against the wooden railing of the dock, her voice ringing out in indignant fury.",
+        "evidence": "The physical outburst of a prisoner fighting back against false testimony is a classic, high-energy hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e34_u064",
+      "segments": [
+        {
+          "start_unit": "e34_u048",
+          "end_unit": "e34_u064",
+          "start": 85.0,
+          "end": 107.3
+        }
+      ],
+      "start": 85.0,
+      "end": 107.3,
+      "duration": 22.3,
+      "proposer_reason": "The betrayal by the maid followed by the townspeople turning on her creates a 'world against one' dynamic.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera shot e34_u046 (81.0-85.2) straddles a cut"
+      ],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e34_u064 starts at 102.3s, before the final 20% of the clip (102.84s)"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 34,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": "The scene lacks a sufficiently dramatic cliffhanger in the final 20% of the remaining dialogue that doesn't involve cutting off mid-sentence or violating the 60s duration limit.",
+      "start_unit_id": "e34_u093",
+      "end_unit_id": "e34_u106",
+      "hook_unit_id": "e34_u093",
+      "hook": {
+        "unit_ids": [
+          "e34_u093"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Lady Juliana lifting her chin without an ounce of hesitation.",
+        "evidence": "The visual of a defiant protagonist refusing to break under pressure is highly engaging for viewers.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e34_u106",
+      "segments": [
+        {
+          "start_unit": "e34_u093",
+          "end_unit": "e34_u106",
+          "start": 148.9,
+          "end": 174.4
+        }
+      ],
+      "start": 148.9,
+      "end": 174.4,
+      "duration": 25.5,
+      "proposer_reason": "Her powerful declaration that she will not call healing evil despite the threat of death is a strong emotional payoff.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e34_u106 starts at 167.0s, before the final 20% of the clip (169.3s)"
+      ]
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 34,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e34_u048",
+      "end_unit_id": "e34_u064",
+      "hook_unit_id": "e34_u048",
+      "hook": {
+        "unit_ids": [
+          "e34_u048"
+        ],
+        "modality": "visual",
+        "description": "Lady Juliana slams her cuffed hands against the wooden railing in a display of defiance.",
+        "evidence": "The action begins at 85.0s, which is 0.0s from the start of the clip.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e34_u064",
+      "segments": [
+        {
+          "start_unit": "e34_u048",
+          "end_unit": "e34_u064",
+          "start": 85.0,
+          "end": 107.3
+        }
+      ],
+      "start": 85.0,
+      "end": 107.3,
+      "duration": 22.3,
+      "proposer_reason": "The window is 22.0s long, and the cliffhanger unit starts at 102.3s, which is within the final 20% (102.6s-107.0s).",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera shot e34_u046 (81.0-85.2) straddles a cut"
+      ],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e34_u064 starts at 102.3s, before the final 20% of the clip (102.84s)"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 3,
+    "cached_calls": 0,
+    "checkpoint_reused": 2,
+    "tokens_in": 17176,
+    "tokens_out": 858,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 6.8,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 1,
+    "judge_failed": 1,
+    "waited_s": 2.2
+  }
+}

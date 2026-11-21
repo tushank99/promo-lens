@@ -1,0 +1,61 @@
+{
+  "episode": 17,
+  "prompt_hash": "867a67c7c055d06d",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 4.53,
+    "tokens_in": 4305,
+    "tokens_out": 542
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e17_u010",
+        "end_unit_id": "e17_u029",
+        "hook": {
+          "unit_ids": [
+            "e17_u010"
+          ],
+          "modality": "visual",
+          "description": "A wide shot of Juliana kneeling in the ruins of her garden while Alexander stands over her with a heavy hammer.",
+          "evidence": "The visual contrast between the vulnerable woman and the protective, armed man immediately establishes the stakes of the aftermath."
+        },
+        "cliffhanger_unit_id": "e17_u027",
+        "reason": "This moment captures the core dynamic of the show: a protector vowing to keep his wife safe against impossible odds."
+      },
+      {
+        "start_unit_id": "e17_u040",
+        "end_unit_id": "e17_u053",
+        "hook": {
+          "unit_ids": [
+            "e17_u040"
+          ],
+          "modality": "visual",
+          "description": "Juliana looking up at Alexander in the warm, intimate glow of the hearth.",
+          "evidence": "The shift from the brutal garden to the tender, romantic atmosphere of the cottage creates an immediate emotional hook."
+        },
+        "cliffhanger_unit_id": "e17_u053",
+        "reason": "It highlights the growing intimacy and vulnerability between the two leads, pulling viewers into their developing romance."
+      },
+      {
+        "start_unit_id": "e17_u063",
+        "end_unit_id": "e17_u075",
+        "hook": {
+          "unit_ids": [
+            "e17_u063"
+          ],
+          "modality": "visual",
+          "description": "Juliana reaching out to touch Alexander's beard with her bandaged hand.",
+          "evidence": "The visual of the bandaged hand against his rugged face emphasizes their shared trauma and growing bond."
+        },
+        "cliffhanger_unit_id": "e17_u074",
+        "reason": "The dialogue about not knowing the man she married creates a compelling mystery that encourages viewers to watch the full series."
+      }
+    ]
+  },
+  "note": null
+}

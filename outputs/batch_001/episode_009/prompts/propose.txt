@@ -1,0 +1,142 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: When a frantic mother brings her critically ill child to the woodland cottage, Juliana successfully cures him with her mother's herbal remedies, unknowingly igniting dangerous rumors that reach the ears of the Blond Nobleman.
+CONTINUITY NOTES: Picks up immediately after Episode 8, continuing the peaceful evening inside the cottage before an urgent knock shatters the calm.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:55.5 (115.5 s).
+- Scene 01 (INT. WOODLAND COTTAGE – NIGHT): 0.0-83.8 s, units e09_u001..e09_u065.
+- Scene 02 (INT. LORD'S STUDY – NIGHT): 83.8-115.5 s, units e09_u066..e09_u089.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 23.9-27.2 s; 48.2-52.5 s; 55.2-58.8 s; 105.9-109.8 s; 111.2-115.5 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e09_u001 | 0.0-2.8 | CAMERA | Medium close-up of Juliana at the wooden table by candlelight, grinding dried herbs with a pestle inside a stone mortar.
+e09_u002 | 0.0-2.8 | ACTION | Juliana methodically crushes herbs in the mortar beside her open herbal grimoire.
+e09_u003 | 2.0-3.5 | SFX | Heavy, frantic pounding echoes against the heavy wooden cottage door.
+e09_u004 | 2.8-4.0 | ACTION | Juliana stops grinding and lifts her head sharply toward the entrance in alarm.
+e09_u005 | 3.5-5.5 | CAMERA | Close-up of Alexander turning toward the doorway, his eyes sharp and vigilant.
+e09_u006 | 3.6-5.0 | DIALOGUE | ALEXANDER (Authoritative, Protective): "Stay back. I'll open it."
+e09_u007 | 4.8-6.6 | ACTION | Alexander steps forward and unlatches the cottage door, opening it into the pouring rain.
+e09_u008 | 5.5-11.2 | CAMERA | Medium shot framing the doorway as a soaked, distraught peasant mother steps across the threshold clutching a swaddled child.
+e09_u009 | 6.3-11.1 | DIALOGUE | PEASANT MOTHER (Frantic, Weeping): "Please! They told me there was a woman here who knows herbs. My boy is burning with fever!"
+e09_u010 | 11.2-13.5 | CAMERA | Medium shot of Juliana rushing to the front of the table, extending her arms urgently.
+e09_u011 | 11.4-13.3 | DIALOGUE | JULIANA (Urgent, Compassionate): "Bring him here. Quickly."
+e09_u012 | 12.0-14.2 | ACTION | The trembling mother gently lays the feverish boy down atop the wooden table as Juliana leans in close.
+e09_u013 | 13.8-15.2 | CAMERA | Close-up of Juliana gently placing her fingers against the boy's burning forehead.
+e09_u014 | 15.2-17.8 | CAMERA | Medium close-up of Juliana examining the boy's breathing, looking up toward the frantic mother.
+e09_u015 | 15.5-19.8 | DIALOGUE | JULIANA (Reassuring, Focused): "He seems very unwell, but he is resting steadily. How long has he been like this?"
+e09_u016 | 17.8-20.0 | CAMERA | Medium two-shot of Alexander watching anxiously over the child's shoulder as Juliana tends to him.
+e09_u017 | 20.0-24.0 | CAMERA | Medium close-up of the peasant mother clutching her shawl, tears running down her cheeks.
+e09_u018 | 20.5-23.9 | DIALOGUE | PEASANT MOTHER (Trembling, Anxious): "Since yesterday morning. He has barely eaten since sunset."
+e09_u019 | 24.0-27.5 | CAMERA | Close-up of Juliana resting two fingers against the boy's wrist, measuring his shallow pulse.
+e09_u020 | 27.2-28.8 | ACTION | Juliana lifts the weathered herbal book and rapidly browses the handwritten pages.
+e09_u021 | 28.8-31.0 | CAMERA | Insert close-up of the open page illustrated with botanical drawings labeled 'Feverfew'.
+e09_u022 | 29.0-30.8 | DIALOGUE | JULIANA (Muttering, Intent): "Feverfew... Not alone."
+e09_u023 | 31.0-34.0 | CAMERA | Profile close-up of Juliana studying the grimoire's remedies intently while the mother weeps in the soft background.
+e09_u024 | 31.8-33.8 | DIALOGUE | JULIANA (Determined): "Chamomile... and willow bark."
+e09_u025 | 34.0-36.0 | CAMERA | Close-up of Alexander leaning over the table, gazing at her with intense concern.
+e09_u026 | 34.9-35.8 | DIALOGUE | ALEXANDER (Grave): "You're certain?"
+e09_u027 | 36.0-38.0 | CAMERA | Close-up of Juliana looking up into his eyes with resolute conviction.
+e09_u028 | 36.3-37.4 | DIALOGUE | JULIANA (Resolute): "I have to be."
+e09_u029 | 38.0-39.8 | ACTION | Juliana quickly grabs bundles of dried herbs from the table and turns to Alexander.
+e09_u030 | 38.2-39.8 | DIALOGUE | JULIANA (Urgent): "Alexander, I need hot water."
+e09_u031 | 39.9-40.8 | DIALOGUE | ALEXANDER (Prompt): "I'm on it."
+e09_u032 | 40.8-42.5 | ACTION | Alexander hurries to the hearth and lifts a boiling iron kettle from the hearth chain, while the mother buries her face in her hands.
+e09_u033 | 41.0-42.5 | DIALOGUE | PEASANT MOTHER (Sobbing): "Please save him."
+e09_u034 | 42.2-43.5 | ACTION | Alexander returns and pours steaming hot water into the stone mortar as Juliana prepares the remedy.
+e09_u035 | 43.0-46.0 | CAMERA | Medium close-up of Juliana clasping the mother's trembling hand across the wooden table.
+e09_u036 | 43.8-45.6 | DIALOGUE | JULIANA (Gentle, Steadfast): "He is not beyond saving."
+e09_u037 | 46.0-48.0 | CAMERA | Close-up of Juliana carefully administering the herbal brew with a small wooden spoon into the sick boy's mouth.
+e09_u038 | 47.0-48.2 | ACTION | The child swallows weakly and lets out a soft cough.
+e09_u039 | 48.0-50.5 | CAMERA | Close-up of the mother clutching her chest in anxious suspense.
+e09_u040 | 50.5-52.5 | CAMERA | Medium close-up of Juliana sitting quietly beside the boy, holding two fingers over his wrist to monitor his pulse.
+e09_u041 | 52.5-54.0 | CAMERA | Over-the-shoulder shot from behind the mother leaning across the table in panic.
+e09_u042 | 52.5-54.0 | DIALOGUE | PEASANT MOTHER (Despairing): "Why isn't it working?"
+e09_u043 | 54.0-56.0 | CAMERA | Close-up of Juliana raising a calm finger, urging patience.
+e09_u044 | 54.3-55.2 | DIALOGUE | JULIANA (Quiet, Focused): "Wait."
+e09_u045 | 56.0-58.5 | CAMERA | Close-up of the sleeping boy as beads of sweat form on his forehead, his breathing deepening.
+e09_u046 | 58.5-62.0 | CAMERA | Close-up of the mother gently caressing her son's cheek, sobbing with relief.
+e09_u047 | 58.8-61.8 | DIALOGUE | PEASANT MOTHER (Overcome with Emotion): "His fever... it's breaking."
+e09_u048 | 62.0-64.0 | CAMERA | Close-up of Juliana exhaling a deep breath of relief, smiling gently.
+e09_u049 | 64.0-65.6 | CAMERA | Close-up of the mother looking up at Juliana with overwhelming gratitude.
+e09_u050 | 64.2-65.5 | DIALOGUE | PEASANT MOTHER (Tearful, Grateful): "You saved him."
+e09_u051 | 65.6-68.5 | CAMERA | Medium close-up of Juliana grasping the mother's hand with warm modesty.
+e09_u052 | 65.8-68.2 | DIALOGUE | JULIANA (Soft, Gracious): "The herbs did their work. Let him rest."
+e09_u053 | 68.0-70.5 | ACTION | Juliana places a comforting hand over the mother's hands.
+e09_u054 | 70.5-73.0 | ACTION | The mother gathers her sleeping son in her arms and steps back toward the rainy doorway.
+e09_u055 | 71.0-74.8 | CAMERA | Medium shot from inside the cottage framing the mother standing at the open door looking back.
+e09_u056 | 71.2-74.8 | DIALOGUE | PEASANT MOTHER (Reverent, Vowing): "I will tell the village what you did. They will never forget you."
+e09_u057 | 74.5-75.5 | ACTION | The mother exits into the rainy twilight as Alexander pushes the door shut.
+e09_u058 | 74.8-77.5 | CAMERA | Close-up of Alexander turning from the door, his expression deeply troubled.
+e09_u059 | 75.1-77.5 | DIALOGUE | ALEXANDER (Stern, Warning): "You cannot let the whole village start talking about you."
+e09_u060 | 77.5-79.5 | CAMERA | Medium close-up of Juliana placing the mortar back onto the table, unflinching.
+e09_u061 | 77.6-79.4 | DIALOGUE | JULIANA (Defiant, Principled): "A child's life matters more than gossip."
+e09_u062 | 79.5-81.7 | CAMERA | Close-up of Alexander, his jaw clenched with protective anxiety.
+e09_u063 | 79.6-81.6 | DIALOGUE | ALEXANDER (Dark, Cautionary): "Gossip has a way of becoming dangerous."
+e09_u064 | 81.7-83.8 | CAMERA | Medium two-shot profile of Juliana stepping directly in front of Alexander, looking steadfastly up into his eyes.
+e09_u065 | 82.0-83.8 | DIALOGUE | JULIANA (Committed, Unshakable): "Then we will face it together."
+e09_u066 | 83.8-86.5 | CAMERA | Wide shot of an opulent gothic manor study. The Blond Nobleman sits in a velvet armchair beside a roaring fireplace, reading an open leather-bound book.
+e09_u067 | 84.0-86.5 | ACTION | The Former Groom, soaked from the rain and clutching his hat, walks nervously through the double doors into the study.
+e09_u068 | 86.5-88.0 | CAMERA | Medium shot framing the Blond Nobleman in the foreground as The Former Groom halts respectfully behind his chair.
+e09_u069 | 86.6-87.4 | DIALOGUE | BLOND NOBLEMAN (Aloof, Without Looking Up): "What is it?"
+e09_u070 | 88.0-90.2 | CAMERA | Medium close-up of The Former Groom, damp dark hair plastered to his forehead.
+e09_u071 | 88.0-90.3 | DIALOGUE | THE FORMER GROOM (Hesitant, Deferential): "There is a rumor going around, my Lord."
+e09_u072 | 90.2-92.0 | CAMERA | Close-up of the Blond Nobleman lowering his book, gazing across with mild annoyance.
+e09_u073 | 90.6-91.4 | DIALOGUE | BLOND NOBLEMAN (Coldly Curious): "What rumor?"
+e09_u074 | 92.0-95.0 | CAMERA | Close-up of The Former Groom speaking cautiously.
+e09_u075 | 92.1-95.1 | DIALOGUE | THE FORMER GROOM (Uneasy): "About a war veteran. Some say he resembles the late Duke."
+e09_u076 | 95.0-97.2 | CAMERA | Medium close-up of the Blond Nobleman scoffing dismissively as he closes the book.
+e09_u077 | 95.3-97.3 | DIALOGUE | BLOND NOBLEMAN (Mocking, Arrogant): "People see ghosts whenever they want a story."
+e09_u078 | 97.2-101.0 | CAMERA | Extreme close-up of The Former Groom's eyes widening with urgent dread.
+e09_u079 | 97.5-101.2 | DIALOGUE | THE FORMER GROOM (Tense, Solemn): "The man is said to have the same kind of scar the Duke carried after the war."
+e09_u080 | 101.0-102.2 | CAMERA | Close-up of the Blond Nobleman snapping his head around, his smug expression freezing into sudden alarm.
+e09_u081 | 101.4-101.9 | DIALOGUE | BLOND NOBLEMAN (Sharp, Demanding): "Where?"
+e09_u082 | 102.2-104.0 | CAMERA | Medium close-up of The Former Groom shifting uncomfortably.
+e09_u083 | 102.3-103.6 | DIALOGUE | THE FORMER GROOM (Cautious): "No one seems certain."
+e09_u084 | 104.0-106.0 | CAMERA | Close-up of the Blond Nobleman composing his features into cold disdain, though tension trembles beneath his tone.
+e09_u085 | 104.2-105.9 | DIALOGUE | BLOND NOBLEMAN (Dismissive, Masking Panic): "Then let it remain a rumor."
+e09_u086 | 106.0-108.0 | CAMERA | Medium shot as The Former Groom turns and retreats silently out of the study, leaving the doors closed.
+e09_u087 | 108.0-112.0 | CAMERA | Side profile shot of the Blond Nobleman seated alone before the roaring fire, staring blankly into the flames in creeping paranoia.
+e09_u088 | 109.8-111.2 | DIALOGUE | BLOND NOBLEMAN (Whispering, Shaken): "Impossible."
+e09_u089 | 112.0-115.5 | CAMERA | Extreme close-up macro shot of the Blond Nobleman's eye, the flickering fireplace flames dancing across his widening iris as dark dread paralyzes him, holding until the screen cuts to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

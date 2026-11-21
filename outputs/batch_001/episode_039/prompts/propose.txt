@@ -1,0 +1,115 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: While Alexander's loyal men infiltrate and neutralize the royal guards stationed outside the cathedral, Alexander sheds his rugged disguise, dons his ducal regalia, and marches forth to reclaim his house and rescue Juliana.
+CONTINUITY NOTES: Picks up as the wedding bells toll for Rupert and Catherine's ceremony. While Juliana prepares for execution in the dungeon below, Alexander's coordinated strike to liberate the cathedral and reclaim his birthright begins.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:38.4 (98.4 s).
+- Scene 01 (EXT. COBBLESTONE STREET - DAY): 0.0-13.8 s, units e39_u001..e39_u006.
+- Scene 02 (EXT. CATHEDRAL ENTRANCE & ALLEY - CONTINUOUS): 13.8-24.2 s, units e39_u007..e39_u015.
+- Scene 03 (EXT. CATHEDRAL ENTRANCE - CONTINUOUS): 24.2-50.0 s, units e39_u016..e39_u030.
+- Scene 04 (INT. WOODEN CABIN - DAY): 50.0-68.5 s, units e39_u031..e39_u043.
+- Scene 05 (EXT. WOODEN OUTPOST / SNOWY PATH - DAY): 68.5-98.4 s, units e39_u044..e39_u059.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 7.1-13.8 s; 42.5-47.0 s; 52.8-56.5 s; 71.8-75.8 s; 77.2-80.5 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e39_u001 | 0.0-4.6 | CAMERA | Low-angle tracking shot from behind wagon wheels framing laborers unloading wooden crates from a horse-drawn cart in the bustling town square.
+e39_u002 | 0.0-4.6 | ACTION | Men in work clothes stack wooden crates onto the back of a large carriage as horses snort restlessly in the morning mist.
+e39_u003 | 4.6-7.1 | CAMERA | Medium close-up profile shot of a vigilant scout in a dark brimmed hat holding reins and surveying the street.
+e39_u004 | 4.6-7.1 | ACTION | The scout stands quietly by a wooden rail, keeping a sharp eye on passing civilians.
+e39_u005 | 7.1-9.6 | CAMERA | Artistic framing through the spokes of a large wooden wagon wheel looking out across the cobblestones toward church spires in the distance.
+e39_u006 | 9.6-13.8 | CAMERA | Close-up of a disguised loyalist adjusting his flat cap, followed by a low-angle tracking shot of two men walking briskly over the wet cobblestones.
+e39_u007 | 13.8-15.8 | CAMERA | Wide symmetrical establishing shot of the grand Gothic cathedral entrance flanked by armed royal guards in red uniforms and bearskin hats standing on stone steps.
+e39_u008 | 13.8-15.8 | ACTION | Four royal guards in red ceremonial tunics and tall black bearskin hats stand rigidly at attention with rifles on the grand cathedral staircase.
+e39_u009 | 15.8-18.0 | CAMERA | Medium shot in a nearby alleyway where two loyalist conspirators huddle beside bundles of hay, discreetly passing a folded message.
+e39_u010 | 18.0-22.4 | CAMERA | Close profile two-shot of the two loyalist soldiers watching the cathedral spires in the distance.
+e39_u011 | 18.3-19.9 | DIALOGUE | LOYALIST SCOUT (Low, Urgent): "Six at the front."
+e39_u012 | 20.2-21.8 | DIALOGUE | LOYALIST FIGHTER (Grave): "Four more inside."
+e39_u013 | 22.4-24.2 | CAMERA | Medium over-the-shoulder shot of the two men conferring as townsfolk pass in the foreground.
+e39_u014 | 22.5-23.2 | DIALOGUE | LOYALIST SCOUT (Focused): "And the east gate?"
+e39_u015 | 23.3-24.2 | DIALOGUE | LOYALIST FIGHTER (Determined): "Ours."
+e39_u016 | 24.2-29.6 | CAMERA | Wide crane shot panning down as a horse-drawn cart loaded with cut firewood pulls up along the wet stone pavement in front of the cathedral steps.
+e39_u017 | 24.2-29.6 | ACTION | A lone driver in rugged attire guides the horse cart slowly toward the sentries guarding the arched entryway.
+e39_u018 | 29.6-32.4 | CAMERA | Medium two-shot of the royal sentry stepping forward and extending a white-gloved hand to halt the cart.
+e39_u019 | 29.8-30.6 | DIALOGUE | ROYAL SENTRY (Commanding): "Stop!"
+e39_u020 | 30.8-32.4 | DIALOGUE | CART DRIVER (Meek, Deferential): "Firewood for the kitchens, sir."
+e39_u021 | 32.4-36.5 | CAMERA | Fast dynamic medium shot as the cart driver suddenly lunges off the wooden bench.
+e39_u022 | 32.8-36.5 | ACTION | The driver leaps off the cart, striking the sentry across the chest, seizing his neck, and tackling him violently against the wooden carriage wheel.
+e39_u023 | 33.1-36.0 | SFX | Dull physical thuds and scuffling boots on wet stone as the guard groans in surprise.
+e39_u024 | 36.5-42.8 | CAMERA | Medium close-up as a second loyalist emerges from behind the doorway, wrapping his arms around the remaining royal guard's throat from behind.
+e39_u025 | 37.0-42.5 | ACTION | The loyalist locks the sentry into a tight sleeper hold, clamping a hand firmly over his mouth until his eyes roll back and he goes limp.
+e39_u026 | 41.0-42.2 | DIALOGUE | LOYALIST FIGHTER (Whispering, Cold): "Sleep."
+e39_u027 | 42.8-46.8 | CAMERA | Wide high-angle shot overlooking the stone cathedral steps where both royal guards lie unconscious on the fallen autumn leaves while more men slip inside the opened doors.
+e39_u028 | 46.8-50.0 | CAMERA | Medium low-angle shot of the two loyalist fighters looking up into the overcast sky outside the stone sanctuary.
+e39_u029 | 47.0-48.1 | DIALOGUE | CART DRIVER (Relieved, Firm): "The road is clear."
+e39_u030 | 48.2-49.2 | DIALOGUE | LOYALIST FIGHTER (Resolute): "Tell the Duke."
+e39_u031 | 50.0-52.8 | CAMERA | Close-up framed into a cracked wooden wall mirror reflecting Alexander with long unkempt hair, a thick beard, and combat scars across his cheek.
+e39_u032 | 50.0-52.8 | ACTION | Alexander stares solemnly at his rugged reflection, his expression dark and resolute.
+e39_u033 | 52.8-55.8 | CAMERA | Tilt-down medium close-up over a wooden table displaying a pristine navy-and-gold embroidered ducal uniform, ornate lion crest brooch, white cravat, razor, and scissors.
+e39_u034 | 55.8-59.8 | CAMERA | Medium profile shot of Alexander lifting the metal shears beside the window light, raising them toward his hair.
+e39_u035 | 56.5-59.8 | ACTION | Alexander snips through his overgrown locks, shedding the years of exile and camouflage.
+e39_u036 | 57.2-60.8 | SFX | Rhythmic, metallic snips of heavy shears cutting through thick hair.
+e39_u037 | 59.8-61.2 | CAMERA | Medium shot as Alexander trims his beard at the jawline.
+e39_u038 | 61.2-66.6 | CAMERA | Medium shot framed in the mirror of Alexander now handsomely groomed, his trimmed beard framing his fierce, scarred features.
+e39_u039 | 62.0-66.6 | ACTION | Alexander lightly traces the jagged combat scar across his cheek, eyes burning with reclaimed power.
+e39_u040 | 62.0-62.8 | DIALOGUE | ALEXANDER (Deep, Steely Resolve): "Enough hiding."
+e39_u041 | 63.0-65.5 | DIALOGUE | ALEXANDER (Dark, Unforgiving): "They buried Alexander Ashwin three years ago."
+e39_u042 | 65.6-66.9 | DIALOGUE | ALEXANDER (Fierce, Commanding): "Today, he comes home."
+e39_u043 | 66.6-68.5 | CAMERA | Medium shot of Alexander lifting his royal navy-blue embroidered ducal coat from the wooden bench.
+e39_u044 | 68.5-71.8 | CAMERA | Wide tracking shot through double wooden barn doors opening outward onto a vast, snow-covered landscape as Alexander steps forward into the light.
+e39_u045 | 68.5-71.8 | ACTION | Alexander emerges in full ducal splendor—dressed in an immaculate navy tailcoat lined with gold embroidery, double-breasted brass buttons, and a crisp white cravat.
+e39_u046 | 71.8-74.8 | CAMERA | Extreme close-up of Alexander's hand adjusting the ornate golden lion crest pinned at his cravat.
+e39_u047 | 74.8-77.8 | CAMERA | Medium low-angle shot as a loyalist soldier drops down onto one knee before him in the snow.
+e39_u048 | 75.8-77.2 | DIALOGUE | LOYALIST (Reverent, Submissive): "Your Grace."
+e39_u049 | 77.8-82.5 | CAMERA | Close-up profile of Alexander, his breath pluming in the winter cold, his eyes hardened like steel.
+e39_u050 | 80.5-82.2 | DIALOGUE | ALEXANDER (Authoritative, Command): "Secure the chapel."
+e39_u051 | 82.5-85.2 | CAMERA | Medium close-up of the soldier rising and snapping a crisp military salute.
+e39_u052 | 83.8-85.2 | DIALOGUE | LOYALIST (Resolute): "Yes, Your Grace."
+e39_u053 | 85.2-95.0 | CAMERA | Slow dramatic tracking shot moving backward in front of Alexander as he strides purposefully through the deep snow, the wooden chapel looming in the distance behind him.
+e39_u054 | 85.5-87.2 | DIALOGUE | ALEXANDER (Powerful, Roaring Defiance): "No more hiding."
+e39_u055 | 87.5-90.2 | DIALOGUE | ALEXANDER (Fierce, Unyielding): "I am taking back my house."
+e39_u056 | 90.2-95.0 | ACTION | Alexander marches forward unstoppably, his long coat fluttering in the winter wind as his icy gaze locks forward.
+e39_u057 | 95.0-98.4 | CAMERA | Dramatic push-in close-up directly onto Alexander's scarred, fierce face as he speaks with absolute conviction.
+e39_u058 | 95.0-98.0 | DIALOGUE | ALEXANDER (Passionate, Unstoppable Vow): "And I am bringing my wife home."
+e39_u059 | 97.8-98.4 | ACTION | Alexander's eyes burn with furious determination as the screen cuts sharply to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

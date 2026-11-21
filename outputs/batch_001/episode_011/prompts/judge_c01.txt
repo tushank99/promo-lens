@@ -1,0 +1,77 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Gerald and Clarissa arrive at the cottage with an armed constable accusing Alexander of grand theft, culminating in a devastating planted discovery that threatens to tear the newlyweds apart.
+CONTINUITY NOTES: Picks up immediately after the intimate moment between Juliana and Alexander in Episode 10, interrupted by the ominous arrival of an aristocratic carriage carrying Gerald.
+
+CLIP: 4.0s to 37.1s (33.1s). Units below: id | seconds from clip start | type | text.
+e11_u005 | 0.0-2.5 | CAMERA | Tight shot tilting up as polished black boots step down directly into the muck, revealing Gerald clad in an opulent burgundy double-breasted coat.
+e11_u006 | 1.5-3.0 | ACTION | Gerald buttons his coat, smug self-satisfaction radiating from his expression.
+e11_u007 | 3.0-4.2 | CAMERA | Medium shot of a uniformed Constable descending from the carriage, firmly gripping a wooden truncheon.
+e11_u008 | 4.2-6.8 | CAMERA | Medium tracking shot as Juliana steps defensively toward Gerald, her face full of shock and anger.
+e11_u009 | 4.3-6.7 | DIALOGUE | JULIANA (Startled, Indignant): "Gerald? What are you doing here?"
+e11_u010 | 6.8-9.0 | CAMERA | Wide two-shot across the puddle-strewn ground between Gerald and Juliana against the misty landscape.
+e11_u011 | 7.1-9.2 | DIALOGUE | GERALD (Arrogant, Smooth): "I came for something that belongs to me."
+e11_u012 | 9.0-10.3 | CAMERA | Close-up of Clarissa peering from the carriage window in her violet silk gown, a venomous, triumphant smile curling her lips.
+e11_u013 | 10.3-12.8 | CAMERA | Close-up of Juliana, her anger flaring as she gestures sharply.
+e11_u014 | 10.4-12.7 | DIALOGUE | JULIANA (Furious, Defiant): "You have already taken enough from me. Leave!"
+e11_u015 | 12.8-14.5 | CAMERA | Medium close-up of Gerald pointing an accusatory finger, his composure snapping into hostile anger.
+e11_u016 | 12.8-14.7 | DIALOGUE | GERALD (Aggressive, Snarl): "Your husband stole my gold pocket watch!"
+e11_u017 | 14.5-16.0 | CAMERA | Close-up of Juliana recoiling in utter disbelief.
+e11_u018 | 15.0-16.0 | DIALOGUE | JULIANA (Incredulous, Gasping): "What? When?"
+e11_u019 | 16.0-18.0 | CAMERA | Close-up of Gerald narrowing his eyes vindictively.
+e11_u020 | 16.9-18.3 | DIALOGUE | GERALD (Cold, Certain): "The last time I came here."
+e11_u021 | 18.0-20.6 | CAMERA | Medium shot of Juliana scoffing, stepping forward as Alexander stands motionless behind her.
+e11_u022 | 19.0-20.8 | DIALOGUE | JULIANA (Contemptuous, Outraged): "You never even entered the cottage!"
+e11_u023 | 20.6-22.9 | CAMERA | Close-up of Gerald smirking with condescending amusement.
+e11_u024 | 21.2-23.0 | DIALOGUE | GERALD (Smug, Threatening): "Then you should have nothing to fear from a search."
+e11_u025 | 22.9-24.9 | CAMERA | Three-shot of Alexander, Juliana, and Gerald in the bleak drizzle.
+e11_u026 | 23.3-25.0 | DIALOGUE | JULIANA (Adamant, Protective): "Alexander would never steal from you."
+e11_u027 | 24.9-28.4 | CAMERA | Low-angle shot of Gerald throwing his head back in arrogant, mocking laughter.
+e11_u028 | 25.3-28.8 | DIALOGUE | GERALD (Mocking, Spiteful): "Of course you would defend him. You married a beggar!"
+e11_u029 | 28.4-30.9 | CAMERA | Medium close-up of Alexander stepping past Juliana, his gaze murderous and jaw rigid.
+e11_u030 | 29.0-30.9 | DIALOGUE | ALEXANDER (Low, Menacing): "Choose your next words carefully."
+e11_u031 | 30.9-33.0 | CAMERA | Medium shot of Gerald pointing back toward the approaching Constable, feigning alarm.
+e11_u032 | 31.1-33.1 | DIALOGUE | GERALD (Shouting, Dramatic): "You hear that? He threatens me again!"
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

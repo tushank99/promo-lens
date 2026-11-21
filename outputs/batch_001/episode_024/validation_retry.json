@@ -1,0 +1,54 @@
+[
+  {
+    "candidate_id": "c01r",
+    "proposal": {
+      "retry_of": "c01",
+      "start_unit_id": "e24_u001",
+      "end_unit_id": "e24_u036",
+      "hook": {
+        "unit_ids": [
+          "e24_u001"
+        ],
+        "modality": "visual",
+        "description": "The ornate brass handle of the chamber door turns slowly, signaling an intruder.",
+        "evidence": "The unit begins at 0.0s, perfectly capturing the suspenseful entry."
+      },
+      "cliffhanger_unit_id": "e24_u036",
+      "reason": "The full scene duration of 48.5 seconds satisfies the 20-60s requirement while maintaining the narrative arc."
+    },
+    "retry_of": "c01",
+    "norm": {
+      "start_unit_id": "e24_u001",
+      "end_unit_id": "e24_u036",
+      "hook": {
+        "unit_ids": [
+          "e24_u001"
+        ],
+        "modality": "visual",
+        "description": "The ornate brass handle of the chamber door turns slowly, signaling an intruder.",
+        "evidence": "The unit begins at 0.0s, perfectly capturing the suspenseful entry."
+      },
+      "cliffhanger_unit_id": "e24_u036",
+      "reason": "The full scene duration of 48.5 seconds satisfies the 20-60s requirement while maintaining the narrative arc."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 0.0,
+    "end": 48.5,
+    "duration": 48.5,
+    "segments": [
+      {
+        "start_unit": "e24_u001",
+        "end_unit": "e24_u036",
+        "start": 0.0,
+        "end": 48.5
+      }
+    ]
+  }
+]

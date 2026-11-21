@@ -1,0 +1,62 @@
+{
+  "episode": 39,
+  "prompt_hash": "7380883ca4ceb7c7",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.4,
+    "secs": 3.23,
+    "tokens_in": 3892,
+    "tokens_out": 538,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e39_u031",
+        "end_unit_id": "e39_u043",
+        "hook": {
+          "unit_ids": [
+            "e39_u031"
+          ],
+          "modality": "visual",
+          "description": "Alexander staring at his rugged, scarred reflection in a cracked mirror.",
+          "evidence": "The visual contrast of a man shedding his disguise and revealing his true, scarred identity is an immediate character hook."
+        },
+        "cliffhanger_unit_id": "e39_u043",
+        "reason": "The transformation sequence builds intense anticipation for the protagonist's return to power."
+      },
+      {
+        "start_unit_id": "e39_u044",
+        "end_unit_id": "e39_u059",
+        "hook": {
+          "unit_ids": [
+            "e39_u044"
+          ],
+          "modality": "visual",
+          "description": "Alexander stepping out of a barn into the snow in full, immaculate ducal regalia.",
+          "evidence": "The sudden reveal of the protagonist in high-status attire after a rugged transformation is visually arresting."
+        },
+        "cliffhanger_unit_id": "e39_u059",
+        "reason": "This sequence delivers the emotional payoff of the protagonist reclaiming his title and vowing to rescue his wife."
+      },
+      {
+        "start_unit_id": "e39_u016",
+        "end_unit_id": "e39_u030",
+        "hook": {
+          "unit_ids": [
+            "e39_u016"
+          ],
+          "modality": "visual",
+          "description": "A horse-drawn cart approaching royal guards at a cathedral entrance.",
+          "evidence": "The tension of an infiltration mission starting under the guise of a mundane delivery creates immediate stakes."
+        },
+        "cliffhanger_unit_id": "e39_u030",
+        "reason": "The successful neutralization of the guards provides a satisfying action beat that establishes the protagonist's competence."
+      }
+    ]
+  },
+  "note": null
+}

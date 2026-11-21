@@ -1,0 +1,62 @@
+[
+  {
+    "candidate_id": "c03r",
+    "proposal": {
+      "retry_of": "c03",
+      "start_unit_id": "e17_u063",
+      "end_unit_id": "e17_u075",
+      "hook": {
+        "unit_ids": [
+          "e17_u063"
+        ],
+        "modality": "visual",
+        "description": "Juliana playfully reaching toward Alexander's beard with her bandaged hand.",
+        "evidence": "The visual of the bandaged hand against his rugged face establishes the intimacy and the aftermath of the attack immediately."
+      },
+      "cliffhanger_unit_id": "e17_u074",
+      "reason": "The window now starts at 96.0s and ends at 118.9s (22.9s total), placing the cliffhanger dialogue at 112.2s, which is within the final 20% of the clip."
+    },
+    "retry_of": "c03",
+    "norm": {
+      "start_unit_id": "e17_u063",
+      "end_unit_id": "e17_u075",
+      "hook": {
+        "unit_ids": [
+          "e17_u063"
+        ],
+        "modality": "visual",
+        "description": "Juliana playfully reaching toward Alexander's beard with her bandaged hand.",
+        "evidence": "The visual of the bandaged hand against his rugged face establishes the intimacy and the aftermath of the attack immediately."
+      },
+      "cliffhanger_unit_id": "e17_u074",
+      "reason": "The window now starts at 96.0s and ends at 118.9s (22.9s total), placing the cliffhanger dialogue at 112.2s, which is within the final 20% of the clip."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "cliffhanger"
+    ],
+    "details": [
+      "cliffhanger e17_u074 starts at 112.2s, before the final 20% of the clip (114.3s)"
+    ],
+    "warnings": [],
+    "review": [
+      "straddled_action_or_sfx"
+    ],
+    "review_details": [
+      "action e17_u062 (95.5-97.0) overlaps the clip from outside the window: check the cut on footage"
+    ],
+    "hook_delay": 0.0,
+    "start": 96.0,
+    "end": 118.88,
+    "duration": 22.88,
+    "segments": [
+      {
+        "start_unit": "e17_u063",
+        "end_unit": "e17_u075",
+        "start": 96.0,
+        "end": 118.88
+      }
+    ]
+  }
+]

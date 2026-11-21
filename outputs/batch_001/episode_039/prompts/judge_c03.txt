@@ -1,0 +1,64 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+While Alexander's loyal men infiltrate and neutralize the royal guards stationed outside the cathedral, Alexander sheds his rugged disguise, dons his ducal regalia, and marches forth to reclaim his house and rescue Juliana.
+CONTINUITY NOTES: Picks up as the wedding bells toll for Rupert and Catherine's ceremony. While Juliana prepares for execution in the dungeon below, Alexander's coordinated strike to liberate the cathedral and reclaim his birthright begins.
+
+CLIP: 24.2s to 50.0s (25.8s). Units below: id | seconds from clip start | type | text.
+e39_u016 | 0.0-5.4 | CAMERA | Wide crane shot panning down as a horse-drawn cart loaded with cut firewood pulls up along the wet stone pavement in front of the cathedral steps.
+e39_u017 | 0.0-5.4 | ACTION | A lone driver in rugged attire guides the horse cart slowly toward the sentries guarding the arched entryway.
+e39_u018 | 5.4-8.2 | CAMERA | Medium two-shot of the royal sentry stepping forward and extending a white-gloved hand to halt the cart.
+e39_u019 | 5.6-6.4 | DIALOGUE | ROYAL SENTRY (Commanding): "Stop!"
+e39_u020 | 6.6-8.2 | DIALOGUE | CART DRIVER (Meek, Deferential): "Firewood for the kitchens, sir."
+e39_u021 | 8.2-12.3 | CAMERA | Fast dynamic medium shot as the cart driver suddenly lunges off the wooden bench.
+e39_u022 | 8.6-12.3 | ACTION | The driver leaps off the cart, striking the sentry across the chest, seizing his neck, and tackling him violently against the wooden carriage wheel.
+e39_u023 | 8.9-11.8 | SFX | Dull physical thuds and scuffling boots on wet stone as the guard groans in surprise.
+e39_u024 | 12.3-18.6 | CAMERA | Medium close-up as a second loyalist emerges from behind the doorway, wrapping his arms around the remaining royal guard's throat from behind.
+e39_u025 | 12.8-18.3 | ACTION | The loyalist locks the sentry into a tight sleeper hold, clamping a hand firmly over his mouth until his eyes roll back and he goes limp.
+e39_u026 | 16.8-18.0 | DIALOGUE | LOYALIST FIGHTER (Whispering, Cold): "Sleep."
+e39_u027 | 18.6-22.6 | CAMERA | Wide high-angle shot overlooking the stone cathedral steps where both royal guards lie unconscious on the fallen autumn leaves while more men slip inside the opened doors.
+e39_u028 | 22.6-25.8 | CAMERA | Medium low-angle shot of the two loyalist fighters looking up into the overcast sky outside the stone sanctuary.
+e39_u029 | 22.8-23.9 | DIALOGUE | CART DRIVER (Relieved, Firm): "The road is clear."
+e39_u030 | 24.0-25.0 | DIALOGUE | LOYALIST FIGHTER (Resolute): "Tell the Duke."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

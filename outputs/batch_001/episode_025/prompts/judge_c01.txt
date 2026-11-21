@@ -1,0 +1,65 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Deep in the misty forest, Alexander confronts an injured Juliana and uncovers the wound inflicted by Lady Catherine, reacting with fury and protective concern upon learning that someone is systematically poisoning the Dowager Duchess with arsenic.
+CONTINUITY NOTES: Picks up immediately following Juliana's ordeal at Ashburg Manor, where she escaped punishment after hiding the antidote and now encounters Alexander awaiting her on the woodland trail.
+
+CLIP: 13.2s to 38.5s (25.3s). Units below: id | seconds from clip start | type | text.
+e25_u009 | 0.0-2.8 | ACTION | Alexander steps forward and reaches out, his gloved hand firmly grasping her left shoulder. Juliana winces sharply and gasps in sudden pain.
+e25_u010 | 0.0-3.0 | CAMERA | Two-shot profile of Alexander grabbing Juliana's shoulder as she recoils.
+e25_u011 | 1.7-2.9 | DIALOGUE | ALEXANDER (Sharp, Alarmed): "You're hurt."
+e25_u012 | 3.0-5.6 | CAMERA | Close-up of Juliana gritting her teeth against the pain, shaking her head.
+e25_u013 | 3.6-5.3 | DIALOGUE | JULIANA (Strained, Minimizing): "It is nothing."
+e25_u014 | 5.6-9.3 | ACTION | Alexander's gloved fingers pull back the torn fabric of her cloak and sleeve, revealing a raw, bloody welt slashing across her bare shoulder.
+e25_u015 | 5.6-9.6 | CAMERA | Tight close-up of the fresh riding-crop laceration cut across Juliana's shoulder.
+e25_u016 | 9.6-12.6 | CAMERA | Close-up of Alexander's scarred face darkening with volatile fury, his jaw tightening.
+e25_u017 | 10.8-12.3 | DIALOGUE | ALEXANDER (Seething, Dangerous): "Who did this?"
+e25_u018 | 12.6-16.6 | CAMERA | Medium close-up of Juliana averting her eyes, her head bowed in quiet resignation.
+e25_u019 | 14.3-16.1 | DIALOGUE | JULIANA (Subdued, Weary): "It does not matter."
+e25_u020 | 16.6-19.6 | CAMERA | Tight shot of Alexander, his eyes burning with intense anger.
+e25_u021 | 19.6-21.3 | ACTION | Alexander steps directly into her space, firmly taking her hand in his.
+e25_u022 | 19.6-20.6 | DIALOGUE | ALEXANDER (Demanding, Stern): "Who?"
+e25_u023 | 21.3-25.3 | CAMERA | Close-up of Juliana looking up into his eyes, whispering the truth.
+e25_u024 | 22.8-24.6 | DIALOGUE | JULIANA (Quiet, Apprehensive): "Lady Catherine."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

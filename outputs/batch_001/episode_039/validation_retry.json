@@ -1,0 +1,60 @@
+[
+  {
+    "candidate_id": "c01r",
+    "proposal": {
+      "retry_of": "c01",
+      "start_unit_id": "e39_u031",
+      "end_unit_id": "e39_u043",
+      "hook": {
+        "unit_ids": [
+          "e39_u031"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Alexander's rugged, scarred reflection in a cracked mirror.",
+        "evidence": "The visual reveal of the protagonist's hidden identity serves as an immediate hook."
+      },
+      "cliffhanger_unit_id": "e39_u043",
+      "reason": "The window duration is extended to 20.5 seconds by including the full sequence from the mirror reveal to the coat pickup."
+    },
+    "retry_of": "c01",
+    "norm": {
+      "start_unit_id": "e39_u031",
+      "end_unit_id": "e39_u043",
+      "hook": {
+        "unit_ids": [
+          "e39_u031"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Alexander's rugged, scarred reflection in a cracked mirror.",
+        "evidence": "The visual reveal of the protagonist's hidden identity serves as an immediate hook."
+      },
+      "cliffhanger_unit_id": "e39_u043",
+      "reason": "The window duration is extended to 20.5 seconds by including the full sequence from the mirror reveal to the coat pickup."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "18.5s is under the 20s minimum"
+    ],
+    "warnings": [
+      "camera-only stretch 3.7s (52.8-56.5)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 50.0,
+    "end": 68.5,
+    "duration": 18.5,
+    "segments": [
+      {
+        "start_unit": "e39_u031",
+        "end_unit": "e39_u043",
+        "start": 50.0,
+        "end": 68.5
+      }
+    ]
+  }
+]

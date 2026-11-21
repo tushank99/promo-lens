@@ -1,0 +1,882 @@
+{
+  "episode": 28,
+  "logline": "Rupert and Catherine frame Juliana for poisoning the Duchess despite the bedridden matriarch's protests, uncovering Juliana's true noble identity and her mother's herbarium before ordering her to the castle dungeons.",
+  "counts": {
+    "proposed": 7,
+    "rejected_at_validation": 3,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 4,
+    "retried": 3,
+    "retry_declined": 0,
+    "retry_recovered": 3,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c01r",
+      "episode": 28,
+      "retry_of": "c01",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e28_u001",
+      "end_unit_id": "e28_u018",
+      "hook_unit_id": "e28_u004",
+      "hook": {
+        "unit_ids": [
+          "e28_u004"
+        ],
+        "modality": "visual",
+        "description": "Catherine's silk slipper crushing the herbarium",
+        "evidence": "The visual impact of the destruction of the book occurs at 2.3s, within the 3s limit.",
+        "delay_s": 2.3
+      },
+      "cliffhanger_unit_id": "e28_u018",
+      "segments": [
+        {
+          "start_unit": "e28_u001",
+          "end_unit": "e28_u018",
+          "start": 0.0,
+          "end": 22.8
+        }
+      ],
+      "start": 0.0,
+      "end": 22.8,
+      "duration": 22.8,
+      "proposer_reason": "This window captures the initial framing and the threat of torture, meeting the 20s duration requirement.",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e28_u001",
+          "e28_u002"
+        ],
+        "clarity": [
+          "e28_u007",
+          "e28_u010",
+          "e28_u011",
+          "e28_u015",
+          "e28_u017",
+          "e28_u018"
+        ],
+        "emotion": [
+          "e28_u012",
+          "e28_u014",
+          "e28_u015",
+          "e28_u017",
+          "e28_u018"
+        ],
+        "escalation": [
+          "e28_u001",
+          "e28_u007",
+          "e28_u015",
+          "e28_u017"
+        ],
+        "ending": [
+          "e28_u018"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "framed heroine",
+      "central_conflict": "Catherine accuses Juliana of poisoning the Duchess while Rupert and a nobleman threaten her, forcing her to defend her innocence.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e28_u001",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 28,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e28_u021",
+      "end_unit_id": "e28_u042",
+      "hook_unit_id": "e28_u022",
+      "hook": {
+        "unit_ids": [
+          "e28_u022"
+        ],
+        "modality": "spoken",
+        "description": "The Dowager Duchess commanding Rupert to stop",
+        "evidence": "The dialogue starts at 26.7s, which is within 3s of the 26.7s start time.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e28_u042",
+      "segments": [
+        {
+          "start_unit": "e28_u021",
+          "end_unit": "e28_u042",
+          "start": 26.7,
+          "end": 56.8
+        }
+      ],
+      "start": 26.7,
+      "end": 56.8,
+      "duration": 30.1,
+      "proposer_reason": "This window focuses on the high-stakes confrontation between the Duchess and her son, lasting 21.5s.",
+      "hook_type": "shocking_line",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e28_u022"
+        ],
+        "clarity": [
+          "e28_u031",
+          "e28_u032",
+          "e28_u038",
+          "e28_u040"
+        ],
+        "emotion": [
+          "e28_u028",
+          "e28_u026",
+          "e28_u040",
+          "e28_u036"
+        ],
+        "escalation": [
+          "e28_u022",
+          "e28_u036",
+          "e28_u037",
+          "e28_u040",
+          "e28_u042"
+        ],
+        "ending": [
+          "e28_u041",
+          "e28_u042"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "framed noble",
+      "central_conflict": "The dowager Duchess accuses Rupert and Catherine of poisoning her, while Juliana tries to help her but is stopped by a guard as Rupert watches with a chilling smile.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e28_u022",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    },
+    {
+      "candidate_id": "c04r",
+      "episode": 28,
+      "retry_of": "c04",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e28_u078",
+      "end_unit_id": "e28_u096",
+      "hook_unit_id": "e28_u078",
+      "hook": {
+        "unit_ids": [
+          "e28_u078"
+        ],
+        "modality": "visual",
+        "description": "Catherine leaning in to taunt Juliana",
+        "evidence": "The visual unit begins at 107.8s, which is within 3s of the 107.8s start time.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e28_u096",
+      "segments": [
+        {
+          "start_unit": "e28_u078",
+          "end_unit": "e28_u096",
+          "start": 107.8,
+          "end": 138.5
+        }
+      ],
+      "start": 107.8,
+      "end": 138.5,
+      "duration": 30.7,
+      "proposer_reason": "This window captures the climax of the scene, lasting 30.7s and ending on the final dramatic beat.",
+      "hook_type": "public_humiliation",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e28_u078",
+          "e28_u079"
+        ],
+        "clarity": [
+          "e28_u079",
+          "e28_u080",
+          "e28_u087",
+          "e28_u092"
+        ],
+        "emotion": [
+          "e28_u080",
+          "e28_u082",
+          "e28_u084",
+          "e28_u085",
+          "e28_u092",
+          "e28_u096"
+        ],
+        "escalation": [
+          "e28_u079",
+          "e28_u080",
+          "e28_u087",
+          "e28_u090",
+          "e28_u094",
+          "e28_u096"
+        ],
+        "ending": [
+          "e28_u096"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "humiliated heroine",
+      "central_conflict": "Catherine humiliates and accuses Juliana, ordering her imprisonment while Juliana desperately defends her mother's herbarium.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e28_u079",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 3
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 28,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e28_u067",
+      "end_unit_id": "e28_u082",
+      "hook_unit_id": "e28_u069",
+      "hook": {
+        "unit_ids": [
+          "e28_u069"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of the name 'Juliana Ashcroft' in the book.",
+        "evidence": "The reveal of a secret noble identity is a classic trope that hooks viewers interested in 'hidden identity' dramas.",
+        "delay_s": 2.8
+      },
+      "cliffhanger_unit_id": "e28_u082",
+      "segments": [
+        {
+          "start_unit": "e28_u067",
+          "end_unit": "e28_u082",
+          "start": 91.0,
+          "end": 116.4
+        }
+      ],
+      "start": 91.0,
+      "end": 116.4,
+      "duration": 25.4,
+      "proposer_reason": "The exposure of a secret noble identity combined with the villain's taunting creates immediate tension.",
+      "hook_type": "reveal",
+      "emotion_type": "humiliation",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e28_u067",
+          "e28_u068"
+        ],
+        "clarity": [
+          "e28_u072",
+          "e28_u073",
+          "e28_u075",
+          "e28_u076",
+          "e28_u077",
+          "e28_u078",
+          "e28_u082"
+        ],
+        "emotion": [
+          "e28_u072",
+          "e28_u073",
+          "e28_u076",
+          "e28_u077",
+          "e28_u080",
+          "e28_u082"
+        ],
+        "escalation": [
+          "e28_u069",
+          "e28_u072",
+          "e28_u075",
+          "e28_u079",
+          "e28_u080",
+          "e28_u082"
+        ],
+        "ending": [
+          "e28_u082"
+        ]
+      },
+      "spoils_main_twist": true,
+      "flags": [
+        "spoils_main_twist"
+      ],
+      "rejection_reasons": [],
+      "final_score": 62.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "hidden noble identity",
+      "central_conflict": "Catherine publicly exposes and humiliates Juliana by revealing her noble lineage and accusing her of disgrace, while Juliana defiantly defends her husband.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e28_u068",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 4
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 28,
+      "retry_of": null,
+      "retried_as": "c01r",
+      "retry_declined": null,
+      "start_unit_id": "e28_u001",
+      "end_unit_id": "e28_u015",
+      "hook_unit_id": "e28_u004",
+      "hook": {
+        "unit_ids": [
+          "e28_u004"
+        ],
+        "modality": "visual",
+        "description": "Catherine steps hard on the herbarium book.",
+        "evidence": "The aggressive, deliberate destruction of a personal item immediately establishes the villain's cruelty.",
+        "delay_s": 2.3
+      },
+      "cliffhanger_unit_id": "e28_u015",
+      "segments": [
+        {
+          "start_unit": "e28_u001",
+          "end_unit": "e28_u015",
+          "start": 0.0,
+          "end": 18.5
+        }
+      ],
+      "start": 0.0,
+      "end": 18.5,
+      "duration": 18.5,
+      "proposer_reason": "The immediate framing of an innocent maid for poisoning creates high stakes and instant conflict.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "18.5s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 28,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e28_u023",
+      "end_unit_id": "e28_u036",
+      "hook_unit_id": "e28_u023",
+      "hook": {
+        "unit_ids": [
+          "e28_u023"
+        ],
+        "modality": "visual",
+        "description": "The Duchess points an accusing finger at her own son.",
+        "evidence": "A bedridden matriarch accusing her son of poisoning her is a powerful, high-drama hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e28_u036",
+      "segments": [
+        {
+          "start_unit": "e28_u023",
+          "end_unit": "e28_u036",
+          "start": 28.4,
+          "end": 48.0
+        }
+      ],
+      "start": 28.4,
+      "end": 48.0,
+      "duration": 19.6,
+      "proposer_reason": "The betrayal of a mother by her son provides a compelling emotional hook for new viewers.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera shot e28_u037 (47.4-52.2) straddles a cut"
+      ],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "19.6s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 28,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e28_u067",
+      "end_unit_id": "e28_u082",
+      "hook_unit_id": "e28_u069",
+      "hook": {
+        "unit_ids": [
+          "e28_u069"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of the name 'Juliana Ashcroft' in the book.",
+        "evidence": "The reveal of a secret noble identity is a classic trope that hooks viewers interested in 'hidden identity' dramas.",
+        "delay_s": 2.8
+      },
+      "cliffhanger_unit_id": "e28_u082",
+      "segments": [
+        {
+          "start_unit": "e28_u067",
+          "end_unit": "e28_u082",
+          "start": 91.0,
+          "end": 116.4
+        }
+      ],
+      "start": 91.0,
+      "end": 116.4,
+      "duration": 25.4,
+      "proposer_reason": "The exposure of a secret noble identity combined with the villain's taunting creates immediate tension.",
+      "hook_type": "reveal",
+      "emotion_type": "humiliation",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e28_u067",
+          "e28_u068"
+        ],
+        "clarity": [
+          "e28_u072",
+          "e28_u073",
+          "e28_u075",
+          "e28_u076",
+          "e28_u077",
+          "e28_u078",
+          "e28_u082"
+        ],
+        "emotion": [
+          "e28_u072",
+          "e28_u073",
+          "e28_u076",
+          "e28_u077",
+          "e28_u080",
+          "e28_u082"
+        ],
+        "escalation": [
+          "e28_u069",
+          "e28_u072",
+          "e28_u075",
+          "e28_u079",
+          "e28_u080",
+          "e28_u082"
+        ],
+        "ending": [
+          "e28_u082"
+        ]
+      },
+      "spoils_main_twist": true,
+      "flags": [
+        "spoils_main_twist"
+      ],
+      "rejection_reasons": [],
+      "final_score": 62.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "hidden noble identity",
+      "central_conflict": "Catherine publicly exposes and humiliates Juliana by revealing her noble lineage and accusing her of disgrace, while Juliana defiantly defends her husband.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e28_u068",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 4
+    },
+    {
+      "candidate_id": "c04",
+      "episode": 28,
+      "retry_of": null,
+      "retried_as": "c04r",
+      "retry_declined": null,
+      "start_unit_id": "e28_u086",
+      "end_unit_id": "e28_u096",
+      "hook_unit_id": "e28_u087",
+      "hook": {
+        "unit_ids": [
+          "e28_u087"
+        ],
+        "modality": "spoken",
+        "description": "Rupert orders the guard to drag Juliana to the wet cells.",
+        "evidence": "The immediate threat of imprisonment and the gallows creates a sense of urgency.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e28_u096",
+      "segments": [
+        {
+          "start_unit": "e28_u086",
+          "end_unit": "e28_u096",
+          "start": 122.0,
+          "end": 138.5
+        }
+      ],
+      "start": 122.0,
+      "end": 138.5,
+      "duration": 16.5,
+      "proposer_reason": "The finality of the order to the gallows leaves the viewer desperate to know if she survives.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "16.5s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c01r",
+      "episode": 28,
+      "retry_of": "c01",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e28_u001",
+      "end_unit_id": "e28_u018",
+      "hook_unit_id": "e28_u004",
+      "hook": {
+        "unit_ids": [
+          "e28_u004"
+        ],
+        "modality": "visual",
+        "description": "Catherine's silk slipper crushing the herbarium",
+        "evidence": "The visual impact of the destruction of the book occurs at 2.3s, within the 3s limit.",
+        "delay_s": 2.3
+      },
+      "cliffhanger_unit_id": "e28_u018",
+      "segments": [
+        {
+          "start_unit": "e28_u001",
+          "end_unit": "e28_u018",
+          "start": 0.0,
+          "end": 22.8
+        }
+      ],
+      "start": 0.0,
+      "end": 22.8,
+      "duration": 22.8,
+      "proposer_reason": "This window captures the initial framing and the threat of torture, meeting the 20s duration requirement.",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e28_u001",
+          "e28_u002"
+        ],
+        "clarity": [
+          "e28_u007",
+          "e28_u010",
+          "e28_u011",
+          "e28_u015",
+          "e28_u017",
+          "e28_u018"
+        ],
+        "emotion": [
+          "e28_u012",
+          "e28_u014",
+          "e28_u015",
+          "e28_u017",
+          "e28_u018"
+        ],
+        "escalation": [
+          "e28_u001",
+          "e28_u007",
+          "e28_u015",
+          "e28_u017"
+        ],
+        "ending": [
+          "e28_u018"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "framed heroine",
+      "central_conflict": "Catherine accuses Juliana of poisoning the Duchess while Rupert and a nobleman threaten her, forcing her to defend her innocence.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e28_u001",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 28,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e28_u021",
+      "end_unit_id": "e28_u042",
+      "hook_unit_id": "e28_u022",
+      "hook": {
+        "unit_ids": [
+          "e28_u022"
+        ],
+        "modality": "spoken",
+        "description": "The Dowager Duchess commanding Rupert to stop",
+        "evidence": "The dialogue starts at 26.7s, which is within 3s of the 26.7s start time.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e28_u042",
+      "segments": [
+        {
+          "start_unit": "e28_u021",
+          "end_unit": "e28_u042",
+          "start": 26.7,
+          "end": 56.8
+        }
+      ],
+      "start": 26.7,
+      "end": 56.8,
+      "duration": 30.1,
+      "proposer_reason": "This window focuses on the high-stakes confrontation between the Duchess and her son, lasting 21.5s.",
+      "hook_type": "shocking_line",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e28_u022"
+        ],
+        "clarity": [
+          "e28_u031",
+          "e28_u032",
+          "e28_u038",
+          "e28_u040"
+        ],
+        "emotion": [
+          "e28_u028",
+          "e28_u026",
+          "e28_u040",
+          "e28_u036"
+        ],
+        "escalation": [
+          "e28_u022",
+          "e28_u036",
+          "e28_u037",
+          "e28_u040",
+          "e28_u042"
+        ],
+        "ending": [
+          "e28_u041",
+          "e28_u042"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "framed noble",
+      "central_conflict": "The dowager Duchess accuses Rupert and Catherine of poisoning her, while Juliana tries to help her but is stopped by a guard as Rupert watches with a chilling smile.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e28_u022",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    },
+    {
+      "candidate_id": "c04r",
+      "episode": 28,
+      "retry_of": "c04",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e28_u078",
+      "end_unit_id": "e28_u096",
+      "hook_unit_id": "e28_u078",
+      "hook": {
+        "unit_ids": [
+          "e28_u078"
+        ],
+        "modality": "visual",
+        "description": "Catherine leaning in to taunt Juliana",
+        "evidence": "The visual unit begins at 107.8s, which is within 3s of the 107.8s start time.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e28_u096",
+      "segments": [
+        {
+          "start_unit": "e28_u078",
+          "end_unit": "e28_u096",
+          "start": 107.8,
+          "end": 138.5
+        }
+      ],
+      "start": 107.8,
+      "end": 138.5,
+      "duration": 30.7,
+      "proposer_reason": "This window captures the climax of the scene, lasting 30.7s and ending on the final dramatic beat.",
+      "hook_type": "public_humiliation",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e28_u078",
+          "e28_u079"
+        ],
+        "clarity": [
+          "e28_u079",
+          "e28_u080",
+          "e28_u087",
+          "e28_u092"
+        ],
+        "emotion": [
+          "e28_u080",
+          "e28_u082",
+          "e28_u084",
+          "e28_u085",
+          "e28_u092",
+          "e28_u096"
+        ],
+        "escalation": [
+          "e28_u079",
+          "e28_u080",
+          "e28_u087",
+          "e28_u090",
+          "e28_u094",
+          "e28_u096"
+        ],
+        "ending": [
+          "e28_u096"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "humiliated heroine",
+      "central_conflict": "Catherine humiliates and accuses Juliana, ordering her imprisonment while Juliana desperately defends her mother's herbarium.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e28_u079",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 3
+    }
+  ],
+  "usage": {
+    "wall_s": 98.8,
+    "calls": 6,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 25543,
+    "tokens_out": 6083,
+    "retries": 1,
+    "fallback_calls": 0,
+    "llm_secs": 21.3,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 77.2
+  }
+}

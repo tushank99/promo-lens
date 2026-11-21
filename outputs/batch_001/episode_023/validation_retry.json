@@ -1,0 +1,58 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e23_u053",
+      "end_unit_id": "e23_u067",
+      "hook": {
+        "unit_ids": [
+          "e23_u053"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Juliana's soot-smudged hands frantically mixing a dark, medicinal antidote.",
+        "evidence": "The visual of the hands working with the mortar and pestle establishes the high-stakes preparation of the cure immediately."
+      },
+      "cliffhanger_unit_id": "e23_u067",
+      "reason": "This 28.2-second window captures the preparation of the antidote and the suspenseful arrival of an intruder, meeting all duration and cliffhanger requirements."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e23_u053",
+      "end_unit_id": "e23_u067",
+      "hook": {
+        "unit_ids": [
+          "e23_u053"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Juliana's soot-smudged hands frantically mixing a dark, medicinal antidote.",
+        "evidence": "The visual of the hands working with the mortar and pestle establishes the high-stakes preparation of the cure immediately."
+      },
+      "cliffhanger_unit_id": "e23_u067",
+      "reason": "This 28.2-second window captures the preparation of the antidote and the suspenseful arrival of an intruder, meeting all duration and cliffhanger requirements."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 4.0s (100.5-104.5)",
+      "camera-only stretch 4.8s (114.0-118.8)",
+      "camera-only stretch 5.2s (124.0-129.2)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 100.5,
+    "end": 131.5,
+    "duration": 31.0,
+    "segments": [
+      {
+        "start_unit": "e23_u053",
+        "end_unit": "e23_u067",
+        "start": 100.5,
+        "end": 131.5
+      }
+    ]
+  }
+]

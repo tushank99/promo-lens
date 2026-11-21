@@ -1,0 +1,166 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e41_u002",
+      "end_unit_id": "e41_u017",
+      "hook": {
+        "unit_ids": [
+          "e41_u002"
+        ],
+        "modality": "visual",
+        "description": "Catherine abruptly halts her own wedding ceremony to command the room.",
+        "evidence": "The sudden disruption of a lavish wedding creates immediate intrigue about the bride's true intentions."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "Focuses on the power dynamic and the cruel public humiliation of the protagonist."
+    },
+    "norm": {
+      "start_unit_id": "e41_u002",
+      "end_unit_id": "e41_u017",
+      "hook": {
+        "unit_ids": [
+          "e41_u002"
+        ],
+        "modality": "visual",
+        "description": "Catherine abruptly halts her own wedding ceremony to command the room.",
+        "evidence": "The sudden disruption of a lavish wedding creates immediate intrigue about the bride's true intentions."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "Focuses on the power dynamic and the cruel public humiliation of the protagonist."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 6.8s (20.0-26.8)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 1.8,
+    "end": 28.8,
+    "duration": 27.0,
+    "segments": [
+      {
+        "start_unit": "e41_u002",
+        "end_unit": "e41_u017",
+        "start": 1.8,
+        "end": 28.8
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e41_u013",
+      "end_unit_id": "e41_u034",
+      "hook": {
+        "unit_ids": [
+          "e41_u013"
+        ],
+        "modality": "visual",
+        "description": "Juliana is paraded into the cathedral in chains.",
+        "evidence": "The visual contrast between a wedding setting and a prisoner in chains is a classic, high-stakes hook."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "Highlights the protagonist's resilience against her tormentor's public shaming."
+    },
+    "norm": {
+      "start_unit_id": "e41_u013",
+      "end_unit_id": "e41_u034",
+      "hook": {
+        "unit_ids": [
+          "e41_u013"
+        ],
+        "modality": "visual",
+        "description": "Juliana is paraded into the cathedral in chains.",
+        "evidence": "The visual contrast between a wedding setting and a prisoner in chains is a classic, high-stakes hook."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "Highlights the protagonist's resilience against her tormentor's public shaming."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera shot e41_u012 (15.5-20.0) straddles a cut",
+      "camera-only stretch 6.8s (20.0-26.8)",
+      "camera-only stretch 4.2s (36.8-41.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 17.5,
+    "end": 60.8,
+    "duration": 43.3,
+    "segments": [
+      {
+        "start_unit": "e41_u013",
+        "end_unit": "e41_u034",
+        "start": 17.5,
+        "end": 60.8
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e41_u046",
+      "end_unit_id": "e41_u053",
+      "hook": {
+        "unit_ids": [
+          "e41_u047"
+        ],
+        "modality": "audio",
+        "description": "An ear-splitting explosion shatters the cathedral entrance.",
+        "evidence": "The sudden, violent disruption of a quiet, formal scene is a high-impact audio hook."
+      },
+      "cliffhanger_unit_id": "e41_u053",
+      "reason": "Captures the explosive climax and the arrival of the protagonist's savior."
+    },
+    "norm": {
+      "start_unit_id": "e41_u046",
+      "end_unit_id": "e41_u053",
+      "hook": {
+        "unit_ids": [
+          "e41_u047"
+        ],
+        "modality": "audio",
+        "description": "An ear-splitting explosion shatters the cathedral entrance.",
+        "evidence": "The sudden, violent disruption of a quiet, formal scene is a high-impact audio hook."
+      },
+      "cliffhanger_unit_id": "e41_u053",
+      "reason": "Captures the explosive climax and the arrival of the protagonist's savior."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration",
+      "cliffhanger"
+    ],
+    "details": [
+      "15.59s is under the 20s minimum",
+      "cliffhanger e41_u053 starts at 92.0s, before the final 20% of the clip (92.97s)"
+    ],
+    "warnings": [
+      "camera-only stretch 3.5s (85.5-89.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.5,
+    "start": 80.5,
+    "end": 96.09,
+    "duration": 15.59,
+    "segments": [
+      {
+        "start_unit": "e41_u046",
+        "end_unit": "e41_u053",
+        "start": 80.5,
+        "end": 96.09
+      }
+    ]
+  }
+]

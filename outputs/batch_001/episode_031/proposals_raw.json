@@ -1,0 +1,63 @@
+{
+  "episode": 31,
+  "prompt_hash": "50ec946ae7abcf72",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 5.25,
+    "tokens_in": 4962,
+    "tokens_out": 528,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e31_u001",
+        "end_unit_id": "e31_u023",
+        "hook": {
+          "unit_ids": [
+            "e31_u001",
+            "e31_u002"
+          ],
+          "modality": "audio",
+          "description": "The heavy iron dungeon door creaks open with a loud, metallic clang.",
+          "evidence": "The ominous sound of a dungeon door opening immediately establishes high stakes and a sense of danger."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "This segment establishes the power dynamic between the imprisoned heiress and her tormentor, setting the stage for their intense confrontation."
+      },
+      {
+        "start_unit_id": "e31_u057",
+        "end_unit_id": "e31_u087",
+        "hook": {
+          "unit_ids": [
+            "e31_u057"
+          ],
+          "modality": "visual",
+          "description": "Catherine flaunts her wealth and status while mocking the chained Juliana.",
+          "evidence": "The visual contrast between the opulent villain and the suffering victim creates an immediate emotional hook."
+        },
+        "cliffhanger_unit_id": "e31_u087",
+        "reason": "This sequence captures the peak of the psychological torture, ending on a terrifying visual cliffhanger that demands a resolution."
+      },
+      {
+        "start_unit_id": "e31_u033",
+        "end_unit_id": "e31_u060",
+        "hook": {
+          "unit_ids": [
+            "e31_u033"
+          ],
+          "modality": "visual",
+          "description": "A tight close-up on Juliana's face as she maintains her dignity despite being chained.",
+          "evidence": "The raw emotion and defiance in Juliana's eyes immediately draw the viewer into her struggle."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "This moment highlights the core conflict of the episode: the clash between Catherine's cruelty and Juliana's unwavering moral strength."
+      }
+    ]
+  },
+  "note": null
+}

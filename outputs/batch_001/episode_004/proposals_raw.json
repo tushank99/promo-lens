@@ -1,0 +1,62 @@
+{
+  "episode": 4,
+  "prompt_hash": "5a3f4e096c1587c8",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.12,
+    "tokens_in": 5600,
+    "tokens_out": 521,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e04_u001",
+        "end_unit_id": "e04_u031",
+        "hook": {
+          "unit_ids": [
+            "e04_u001"
+          ],
+          "modality": "visual",
+          "description": "Close-up of the Mysterious Bearded Man's scarred hand holding out a ring.",
+          "evidence": "The visual contrast of the scarred hand and the ring immediately establishes a high-stakes romantic mystery."
+        },
+        "cliffhanger_unit_id": "e04_u031",
+        "reason": "The clip captures the tension of a rejected bride being offered a mysterious lifeline while her family mocks her."
+      },
+      {
+        "start_unit_id": "e04_u040",
+        "end_unit_id": "e04_u068",
+        "hook": {
+          "unit_ids": [
+            "e04_u040"
+          ],
+          "modality": "spoken",
+          "description": "Juliana defiantly tells the stranger to take back his ring if it is pity.",
+          "evidence": "The immediate display of pride and vulnerability hooks the viewer into the power dynamic between the two leads."
+        },
+        "cliffhanger_unit_id": "e04_u068",
+        "reason": "This moment focuses on the emotional decision to accept the proposal despite the social consequences."
+      },
+      {
+        "start_unit_id": "e04_u086",
+        "end_unit_id": "e04_u109",
+        "hook": {
+          "unit_ids": [
+            "e04_u086"
+          ],
+          "modality": "spoken",
+          "description": "Gerald lunging forward and shouting that Juliana has thrown herself away.",
+          "evidence": "The sudden outburst of rage and the public shaming of the bride creates instant conflict."
+        },
+        "cliffhanger_unit_id": "e04_u109",
+        "reason": "The climax of the episode where the couple chooses exile over family cruelty provides a satisfying and dramatic conclusion."
+      }
+    ]
+  },
+  "note": null
+}

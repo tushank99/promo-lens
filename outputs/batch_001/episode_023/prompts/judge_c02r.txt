@@ -1,0 +1,64 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+After examining the dying Dowager Duchess's blackened fingernails and consulting her late mother's remedy journal, Lady Juliana discovers the Duchess is being poisoned with arsenic—only for someone to arrive at the bedroom door just as she begins concocting the antidote.
+CONTINUITY NOTES: Picks up immediately from the Episode 22 cliffhanger inside the forbidden West Wing of Ashbury Manor, where Lady Juliana crouches beside the bedridden Dowager Duchess, racing against time to determine the source of her fatal illness.
+
+CLIP: 100.5s to 131.5s (31.0s). Units below: id | seconds from clip start | type | text.
+e23_u053 | 0.0-4.0 | CAMERA | Top-down close-up of Juliana's soot-smudged hands pouring powdered activated charcoal from a vial into a stone mortar, then tossing in a pinch of crushed dried leaves.
+e23_u054 | 4.0-6.5 | CAMERA | Close-up of Juliana's hands vigorously grinding the pestle inside the stone mortar.
+e23_u055 | 4.0-11.5 | SFX | Heavy, rhythmic scraping of stone pestle grinding charcoal and dried herbs.
+e23_u056 | 6.5-12.0 | CAMERA | Medium close-up of Juliana grinding intensely, her brow furrowed as she speaks with urgent authority.
+e23_u057 | 7.0-11.5 | DIALOGUE | LADY JULIANA (Urgent, Focused): "The charcoal may help remove what is still inside her. We must act quickly."
+e23_u058 | 11.7-13.5 | SFX | Sudden muffled thump and heavy footsteps echoing from the hallway outside the door!
+e23_u059 | 12.0-14.5 | CAMERA | Wide shot of the bedroom door framed through the bed curtains as the Duchess gasps in the bed.
+e23_u060 | 14.5-16.0 | CAMERA | Medium shot of Juliana freezing mid-motion, turning her head sharply toward the chamber door.
+e23_u061 | 16.0-18.0 | CAMERA | Close-up of the ornate brass door handle on the dark carved wooden door.
+e23_u062 | 18.0-24.0 | CAMERA | Close-up of Prudence staring at the door in utter terror, her face drained of all color.
+e23_u063 | 18.3-23.5 | DIALOGUE | PRUDENCE (Terrified, Hoarse Whisper): "Juliana... someone is coming."
+e23_u064 | 24.0-27.0 | CAMERA | Quick cut to Juliana looking back toward the bed and then toward the door, trapped with an unfinished cure.
+e23_u065 | 27.0-29.0 | CAMERA | Tight close-up of Juliana's charcoal-blackened hand clutching the glass medicine vial firmly.
+e23_u066 | 28.7-30.7 | SFX | Loud, metallic clack of the door latch turning, followed by the slow creak of wood hinges.
+e23_u067 | 29.0-31.0 | CAMERA | Close-up on the brass door lever as it slowly rotates downward, and the heavy door cracks open inward into the room—cutting to an intense, heart-stopping cliffhanger.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

@@ -1,0 +1,210 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e06_u001",
+      "end_unit_id": "e06_u023",
+      "hook": {
+        "unit_ids": [
+          "e06_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana in a white wedding gown trudging through mud and rain in the dark woods.",
+        "evidence": "The visual contrast of a bride in a ruined gown in a dark, hostile environment immediately establishes high stakes and mystery."
+      },
+      "cliffhanger_unit_id": "e06_u023",
+      "reason": "The journey from the wedding to a desolate cabin creates immediate intrigue about the bride's tragic circumstances."
+    },
+    "norm": {
+      "start_unit_id": "e06_u001",
+      "end_unit_id": "e06_u023",
+      "hook": {
+        "unit_ids": [
+          "e06_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana in a white wedding gown trudging through mud and rain in the dark woods.",
+        "evidence": "The visual contrast of a bride in a ruined gown in a dark, hostile environment immediately establishes high stakes and mystery."
+      },
+      "cliffhanger_unit_id": "e06_u023",
+      "reason": "The journey from the wedding to a desolate cabin creates immediate intrigue about the bride's tragic circumstances."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 3.6s (20.9-24.5)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 0.0,
+    "end": 27.9,
+    "duration": 27.9,
+    "segments": [
+      {
+        "start_unit": "e06_u001",
+        "end_unit": "e06_u023",
+        "start": 0.0,
+        "end": 27.9
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e06_u031",
+      "end_unit_id": "e06_u050",
+      "hook": {
+        "unit_ids": [
+          "e06_u031"
+        ],
+        "modality": "visual",
+        "description": "Juliana stepping into a dark, barren, leaking cabin in her wedding dress.",
+        "evidence": "The stark transition from a wedding to a dilapidated, leaking shack creates an immediate emotional hook regarding her fall from grace."
+      },
+      "cliffhanger_unit_id": "e06_u050",
+      "reason": "The contrast between her former life and this new, humble reality highlights her resilience and the mystery of her husband."
+    },
+    "norm": {
+      "start_unit_id": "e06_u031",
+      "end_unit_id": "e06_u050",
+      "hook": {
+        "unit_ids": [
+          "e06_u031"
+        ],
+        "modality": "visual",
+        "description": "Juliana stepping into a dark, barren, leaking cabin in her wedding dress.",
+        "evidence": "The stark transition from a wedding to a dilapidated, leaking shack creates an immediate emotional hook regarding her fall from grace."
+      },
+      "cliffhanger_unit_id": "e06_u050",
+      "reason": "The contrast between her former life and this new, humble reality highlights her resilience and the mystery of her husband."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 33.7,
+    "end": 58.2,
+    "duration": 24.5,
+    "segments": [
+      {
+        "start_unit": "e06_u031",
+        "end_unit": "e06_u050",
+        "start": 33.7,
+        "end": 58.2
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e06_u057",
+      "end_unit_id": "e06_u078",
+      "hook": {
+        "unit_ids": [
+          "e06_u057"
+        ],
+        "modality": "visual",
+        "description": "Juliana aggressively scrubbing a dirty table in her wedding dress.",
+        "evidence": "The sight of a bride frantically cleaning a hovel in her gown is a powerful, relatable image of someone trying to maintain control amidst total loss."
+      },
+      "cliffhanger_unit_id": "e06_u078",
+      "reason": "The emotional vulnerability of the character as she tries to build a home out of nothing is deeply compelling."
+    },
+    "norm": {
+      "start_unit_id": "e06_u057",
+      "end_unit_id": "e06_u078",
+      "hook": {
+        "unit_ids": [
+          "e06_u057"
+        ],
+        "modality": "visual",
+        "description": "Juliana aggressively scrubbing a dirty table in her wedding dress.",
+        "evidence": "The sight of a bride frantically cleaning a hovel in her gown is a powerful, relatable image of someone trying to maintain control amidst total loss."
+      },
+      "cliffhanger_unit_id": "e06_u078",
+      "reason": "The emotional vulnerability of the character as she tries to build a home out of nothing is deeply compelling."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera shot e06_u079 (89.8-91.7) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 64.1,
+    "end": 90.0,
+    "duration": 25.9,
+    "segments": [
+      {
+        "start_unit": "e06_u057",
+        "end_unit": "e06_u078",
+        "start": 64.1,
+        "end": 90.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c04",
+    "proposal": {
+      "start_unit_id": "e06_u082",
+      "end_unit_id": "e06_u097",
+      "hook": {
+        "unit_ids": [
+          "e06_u082"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling before a roaring hearth fire in her wedding dress.",
+        "evidence": "The warm, intimate visual of the firelight against the cold, dark cabin provides a strong emotional payoff and sense of safety."
+      },
+      "cliffhanger_unit_id": "e06_u094",
+      "reason": "The shift from despair to finding unexpected peace with a mysterious stranger provides a satisfying emotional arc for a short promo."
+    },
+    "norm": {
+      "start_unit_id": "e06_u082",
+      "end_unit_id": "e06_u097",
+      "hook": {
+        "unit_ids": [
+          "e06_u082"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling before a roaring hearth fire in her wedding dress.",
+        "evidence": "The warm, intimate visual of the firelight against the cold, dark cabin provides a strong emotional payoff and sense of safety."
+      },
+      "cliffhanger_unit_id": "e06_u094",
+      "reason": "The shift from despair to finding unexpected peace with a mysterious stranger provides a satisfying emotional arc for a short promo."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "cliffhanger"
+    ],
+    "details": [
+      "cliffhanger e06_u094 starts at 106.2s, before the final 20% of the clip (110.76s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 93.8,
+    "end": 115.0,
+    "duration": 21.2,
+    "segments": [
+      {
+        "start_unit": "e06_u082",
+        "end_unit": "e06_u097",
+        "start": 93.8,
+        "end": 115.0
+      }
+    ]
+  }
+]

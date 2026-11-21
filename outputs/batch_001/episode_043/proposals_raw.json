@@ -1,0 +1,62 @@
+{
+  "episode": 43,
+  "prompt_hash": "0a59af42a2bc809d",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.2,
+    "secs": 3.4,
+    "tokens_in": 4581,
+    "tokens_out": 514,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e43_u008",
+        "end_unit_id": "e43_u025",
+        "hook": {
+          "unit_ids": [
+            "e43_u008"
+          ],
+          "modality": "visual",
+          "description": "Extreme close-up on Rupert's furious face, veins bulging at his temples.",
+          "evidence": "The intense, visceral display of rage and panic immediately signals a high-stakes confrontation."
+        },
+        "cliffhanger_unit_id": "e43_u025",
+        "reason": "The moment the Royal Guard defies the villain to salute the true Duke is a classic, satisfying power shift."
+      },
+      {
+        "start_unit_id": "e43_u034",
+        "end_unit_id": "e43_u053",
+        "hook": {
+          "unit_ids": [
+            "e43_u034"
+          ],
+          "modality": "visual",
+          "description": "Crown Official opening the binder and reading aloud.",
+          "evidence": "The formal, cold delivery of a 'Top Secret' betrayal report creates immediate intrigue."
+        },
+        "cliffhanger_unit_id": "e43_u053",
+        "reason": "The public exposure of treason and the villain's crumbling reaction provides high emotional payoff."
+      },
+      {
+        "start_unit_id": "e43_u077",
+        "end_unit_id": "e43_u087",
+        "hook": {
+          "unit_ids": [
+            "e43_u077"
+          ],
+          "modality": "visual",
+          "description": "Rupert whirling around in a frenzy, pointing his finger toward Lord Sterling.",
+          "evidence": "The sudden shift from confrontation to desperate betrayal between co-conspirators is highly engaging."
+        },
+        "cliffhanger_unit_id": "e43_u087",
+        "reason": "The villain's escape attempt being blocked by the police provides a perfect, high-tension conclusion."
+      }
+    ]
+  },
+  "note": null
+}

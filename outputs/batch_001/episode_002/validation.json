@@ -1,0 +1,152 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e02_u001",
+      "end_unit_id": "e02_u021",
+      "hook": {
+        "unit_ids": [
+          "e02_u002"
+        ],
+        "modality": "spoken",
+        "description": "The groom publicly rejects the bride at the altar.",
+        "evidence": "The immediate, high-stakes conflict of a wedding abandonment is a classic, high-retention hook."
+      },
+      "cliffhanger_unit_id": "e02_u021",
+      "reason": "Captures the initial shock and the groom's cruel justification for the betrayal."
+    },
+    "norm": {
+      "start_unit_id": "e02_u001",
+      "end_unit_id": "e02_u021",
+      "hook": {
+        "unit_ids": [
+          "e02_u002"
+        ],
+        "modality": "spoken",
+        "description": "The groom publicly rejects the bride at the altar.",
+        "evidence": "The immediate, high-stakes conflict of a wedding abandonment is a classic, high-retention hook."
+      },
+      "cliffhanger_unit_id": "e02_u021",
+      "reason": "Captures the initial shock and the groom's cruel justification for the betrayal."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 0.0,
+    "end": 30.6,
+    "duration": 30.6,
+    "segments": [
+      {
+        "start_unit": "e02_u001",
+        "end_unit": "e02_u021",
+        "start": 0.0,
+        "end": 30.6
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e02_u022",
+      "end_unit_id": "e02_u045",
+      "hook": {
+        "unit_ids": [
+          "e02_u022"
+        ],
+        "modality": "visual",
+        "description": "Juliana looks to her father for support, only to be met with cold rejection.",
+        "evidence": "The visual of a daughter being abandoned by her own father in a moment of crisis creates immediate emotional investment."
+      },
+      "cliffhanger_unit_id": "e02_u045",
+      "reason": "Focuses on the betrayal by family and the sister's vicious verbal assault."
+    },
+    "norm": {
+      "start_unit_id": "e02_u022",
+      "end_unit_id": "e02_u045",
+      "hook": {
+        "unit_ids": [
+          "e02_u022"
+        ],
+        "modality": "visual",
+        "description": "Juliana looks to her father for support, only to be met with cold rejection.",
+        "evidence": "The visual of a daughter being abandoned by her own father in a moment of crisis creates immediate emotional investment."
+      },
+      "cliffhanger_unit_id": "e02_u045",
+      "reason": "Focuses on the betrayal by family and the sister's vicious verbal assault."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 30.6,
+    "end": 63.5,
+    "duration": 32.9,
+    "segments": [
+      {
+        "start_unit": "e02_u022",
+        "end_unit": "e02_u045",
+        "start": 30.6,
+        "end": 63.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e02_u054",
+      "end_unit_id": "e02_u074",
+      "hook": {
+        "unit_ids": [
+          "e02_u054"
+        ],
+        "modality": "visual",
+        "description": "Juliana's expression shifts from heartbreak to a steely, defiant smile.",
+        "evidence": "The 'heroine's turn' is a powerful visual hook that signals a shift from victim to protagonist."
+      },
+      "cliffhanger_unit_id": "e02_u074",
+      "reason": "Highlights the protagonist's reclamation of dignity and her powerful public indictment of the groom."
+    },
+    "norm": {
+      "start_unit_id": "e02_u054",
+      "end_unit_id": "e02_u074",
+      "hook": {
+        "unit_ids": [
+          "e02_u054"
+        ],
+        "modality": "visual",
+        "description": "Juliana's expression shifts from heartbreak to a steely, defiant smile.",
+        "evidence": "The 'heroine's turn' is a powerful visual hook that signals a shift from victim to protagonist."
+      },
+      "cliffhanger_unit_id": "e02_u074",
+      "reason": "Highlights the protagonist's reclamation of dignity and her powerful public indictment of the groom."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 74.2,
+    "end": 110.0,
+    "duration": 35.8,
+    "segments": [
+      {
+        "start_unit": "e02_u054",
+        "end_unit": "e02_u074",
+        "start": 74.2,
+        "end": 110.0
+      }
+    ]
+  }
+]

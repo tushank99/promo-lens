@@ -1,0 +1,67 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Alexander frees Juliana from her chains and proclaims her the Duchess of Ashburton before the stunned congregation, only for an ecclesiastical authority to burst in and declare their marriage legally invalid.
+CONTINUITY NOTES: Picks up directly from Episode 44's climax where Alexander walked away from Catherine towards Juliana standing in chains at the church doorway.
+
+CLIP: 51.8s to 86.5s (34.7s). Units below: id | seconds from clip start | type | text.
+e45_u039 | 0.0-6.4 | CAMERA | Medium shot as Alexander steps right up to Catherine, towering over her with righteous fury.
+e45_u040 | 2.2-6.2 | DIALOGUE | ALEXANDER (Furious, Cold): "You poisoned my mother. You tortured my wife."
+e45_u041 | 6.4-10.7 | CAMERA | Extreme close-up split profile between Alexander's angry face and Catherine's gasping, terrified expression.
+e45_u042 | 6.4-8.0 | DIALOGUE | CATHERINE (Gasping, Lying): "I didn't know!"
+e45_u043 | 8.2-10.6 | DIALOGUE | ALEXANDER (Thunderous, Biting): "You knew exactly what you were doing!"
+e45_u044 | 10.7-15.2 | CAMERA | Medium close-up of Alexander turning slightly toward the gathered congregation as his voice rings across the cathedral.
+e45_u045 | 10.8-15.0 | DIALOGUE | ALEXANDER (Booming, Condemning): "You hurt the two women who mattered most to me: my mother, and my wife."
+e45_u046 | 15.2-19.4 | CAMERA | Close-up on Catherine's devastated, terrified face as the word shatters her entire worldview.
+e45_u047 | 17.0-18.7 | DIALOGUE | CATHERINE (Trembling, Stunned): "Wife?!"
+e45_u048 | 19.4-22.7 | CAMERA | Grand wide shot of the ruined cathedral nave as Alexander takes Juliana's hand and walks her proudly down the center aisle.
+e45_u049 | 19.4-22.7 | ACTION | Alexander and Juliana advance side-by-side between the rows of shocked aristocratic guests.
+e45_u050 | 19.7-22.2 | DIALOGUE | ALEXANDER (Authoritative, Resounding): "Before the Crown and before God..."
+e45_u051 | 22.7-28.7 | CAMERA | Medium shot as Alexander stops in the center of the nave and raises Juliana's hand high above their heads.
+e45_u052 | 22.8-28.2 | ACTION | Alexander hoists Juliana's hand triumphantly into the air, presenting her to the nobility.
+e45_u053 | 23.0-28.6 | DIALOGUE | ALEXANDER (Proclaiming, Powerful): "Lady Juliana Ashcroft is my lawful wife... and the Duchess of Ashburton!"
+e45_u054 | 28.7-31.7 | CAMERA | Close-up on Rupert and Mary standing in the pews, their eyes wide with horrified disbelief.
+e45_u055 | 29.7-31.2 | DIALOGUE | RUPERT (Gasping, Shellshocked): "Juliana?!"
+e45_u056 | 31.7-34.7 | CAMERA | Wide shot of Alexander and Juliana standing proudly together, exchanging a loving gaze amid the awestruck crowd.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

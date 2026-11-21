@@ -1,0 +1,74 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+After Juliana secures Alexander's freedom with the unearthed emerald signet ring, he carries her home to bandage her torn hands, silently swearing that no one will ever harm her again.
+CONTINUITY NOTES: Picks up immediately from Episode 13's cliffhanger where Juliana grasped the emerald ring beneath the razor-sharp blackthorns.
+
+CLIP: 0.0s to 40.5s (40.5s). Units below: id | seconds from clip start | type | text.
+e14_u001 | 0.0-5.6 | CAMERA | Close-up low angle looking through dense, sharp blackthorn branches onto the cracked, frozen soil.
+e14_u002 | 0.5-5.5 | ACTION | Juliana's blood-streaked, mud-caked hand slowly uncurls amidst the thorns, revealing the ornate emerald signet ring resting in her palm.
+e14_u003 | 1.0-5.5 | SFX | Eerie cold wind whistling over the briars with deep, atmospheric cello chords.
+e14_u004 | 5.6-9.5 | CAMERA | Medium close-up of Juliana stepping out from the briar patch, her cloak torn, cheeks scratched, holding the ring outward with unwavering resolve.
+e14_u005 | 7.7-9.0 | DIALOGUE | JULIANA (Exhausted, Resolute): "I found it."
+e14_u006 | 9.5-13.5 | CAMERA | Wide shot of Juliana holding the ring out toward the austere Police Constable standing guard beside the frozen garden.
+e14_u007 | 10.5-12.7 | DIALOGUE | JULIANA (Firm, Commanding): "Now release my husband."
+e14_u008 | 12.5-13.5 | ACTION | The Constable takes the ring from her bloodied fingers.
+e14_u009 | 13.5-15.5 | CAMERA | Tight shot on the iron shackles locking Alexander's wrists together against the thorny backdrop.
+e14_u010 | 14.2-15.4 | SFX | Sharp metallic click and clinking rattle of heavy iron handcuffs unlocking and falling away.
+e14_u011 | 14.5-15.6 | ACTION | The Constable unlocks the cuffs, freeing Alexander's large hands.
+e14_u012 | 15.6-18.5 | CAMERA | Tracking shot as Alexander lunges forward without hesitation, rushing past the Constable straight to Juliana.
+e14_u013 | 16.8-18.0 | DIALOGUE | ALEXANDER (Gasping, Urgent): "Juliana."
+e14_u014 | 18.5-23.0 | CAMERA | Close-up on Alexander's rugged hands tenderly grasping Juliana's bloodied, lacerated hands, turning them over with immense care.
+e14_u015 | 18.8-23.0 | ACTION | Alexander gently turns her palms up, his thumbs trembling as he inspects the deep, bleeding gashes gouged into her skin.
+e14_u016 | 23.0-25.5 | CAMERA | Close-up on Alexander's agonized, furious expression as he stares at her wounds.
+e14_u017 | 23.1-25.0 | DIALOGUE | ALEXANDER (Trembling, Heartbroken): "What have they done to you?"
+e14_u018 | 25.5-29.5 | CAMERA | Close-up on Juliana's pale, tear-streaked face looking back into his eyes with tender relief.
+e14_u019 | 26.5-28.5 | DIALOGUE | JULIANA (Softly, Stifling Pain): "Nothing they didn't promise."
+e14_u020 | 29.5-32.5 | CAMERA | Medium profile two-shot of Alexander and Juliana gazing into each other's eyes amidst the cold mist.
+e14_u021 | 29.8-32.0 | DIALOGUE | JULIANA (Faint, Pleading): "Take me home."
+e14_u022 | 32.5-38.5 | CAMERA | Low-angle medium shot as Alexander effortlessly scoops Juliana into his arms, gathering her up against his chest.
+e14_u023 | 33.2-37.0 | ACTION | Alexander lifts Juliana bridal-style, wrapping his strong arms protectively around her as she rests against his shoulder.
+e14_u024 | 35.8-38.5 | DIALOGUE | ALEXANDER (Deep, Sorrowful): "You should never have had to bleed for me."
+e14_u025 | 38.5-40.5 | CAMERA | Medium tracking shot behind stone balustrades as Alexander carries Juliana past the foggy estate grounds.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

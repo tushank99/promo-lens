@@ -1,0 +1,138 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "7c14fca86e0d5cb8",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 13.2,
+      "secs": 3.42,
+      "tokens_in": 1911,
+      "tokens_out": 1094
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e13_u028",
+          "e13_u029",
+          "e13_u030",
+          "e13_u026"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e13_u026",
+          "e13_u028",
+          "e13_u029",
+          "e13_u044"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e13_u036",
+          "e13_u037",
+          "e13_u039",
+          "e13_u041",
+          "e13_u044",
+          "e13_u048"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e13_u029",
+          "e13_u031",
+          "e13_u036",
+          "e13_u044",
+          "e13_u049",
+          "e13_u051"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e13_u051",
+          "e13_u052"
+        ]
+      },
+      "hook_unit_id": "e13_u028",
+      "hook_type": "visual_shock",
+      "emotion_type": "shock",
+      "trope": "tortured heroine",
+      "central_conflict": "Juliana must endure brutal thorns and cruel taunts to find the lost emerald signet ring that can free Alexander from execution.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "452edc924188aac6",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.6,
+      "secs": 2.74,
+      "tokens_in": 1792,
+      "tokens_out": 1062
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e13_u053",
+          "e13_u054",
+          "e13_u055"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e13_u053",
+          "e13_u056",
+          "e13_u059",
+          "e13_u066",
+          "e13_u068"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e13_u058",
+          "e13_u060",
+          "e13_u066",
+          "e13_u072",
+          "e13_u074"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e13_u053",
+          "e13_u056",
+          "e13_u067",
+          "e13_u075"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e13_u075"
+        ]
+      },
+      "hook_unit_id": "e13_u053",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "rage",
+      "trope": "bloody treasure hunt",
+      "central_conflict": "Juliana must retrieve the emerald signet ring from a deadly thorn garden while Alexander fights the constable to stop her.",
+      "spoils_main_twist": false
+    }
+  }
+]

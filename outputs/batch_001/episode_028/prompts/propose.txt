@@ -1,0 +1,148 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Rupert and Catherine frame Juliana for poisoning the Duchess despite the bedridden matriarch's protests, uncovering Juliana's true noble identity and her mother's herbarium before ordering her to the castle dungeons.
+CONTINUITY NOTES: Picks up directly from Episode 27 as Rupert orders the guard to seize Juliana, ignoring the waking Duchess.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:18.5 (138.5 s).
+- Scene 01 (INT. DUCHESS'S BEDCHAMBER – DAY): 0.0-138.5 s, units e28_u001..e28_u096.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 84.4-88.0 s
+- Overlapping dialogue exchanges (include all members or none): e28_u038 + e28_u039; e28_u044 + e28_u045
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e28_u001 | 0.0-2.3 | CAMERA | Medium shot as the guard drags Juliana toward the doorway, wrestling her backward.
+e28_u002 | 0.0-2.1 | ACTION | Juliana struggles against the guard's grip; the leather-bound herbarium slips from her apron pocket and falls to the stone floor.
+e28_u003 | 1.8-3.2 | SFX | Heavy thud of the leather journal hitting the polished floor.
+e28_u004 | 2.3-4.7 | CAMERA | Low-angle close-up of the leather-bound herbarium on the floor as Catherine's silk slipper steps down hard upon its embossed cover.
+e28_u005 | 3.2-4.6 | ACTION | Catherine plants her embroidered shoe deliberately atop the fallen book.
+e28_u006 | 4.7-10.0 | CAMERA | Medium two-shot tracking Catherine as she strides gracefully across the chamber toward Juliana, Rupert standing stoically behind her near the bed.
+e28_u007 | 4.9-6.3 | DIALOGUE | CATHERINE (Mocking, Cruel): "Look at her, Rupert."
+e28_u008 | 6.6-8.1 | DIALOGUE | CATHERINE (Scoffing): "Soot on her face..."
+e28_u009 | 8.2-12.6 | CAMERA | Over-the-shoulder shot from behind Catherine as she faces Juliana, who is pinned in the doorway by the guard.
+e28_u010 | 8.4-10.0 | DIALOGUE | CATHERINE (Accusing, Smug): "...herbs in her pockets..."
+e28_u011 | 10.2-12.3 | DIALOGUE | CATHERINE (Cold): "...a secret medicine in her hand."
+e28_u012 | 12.6-15.2 | CAMERA | Tight close-up of Catherine's smiling face, her eyes gleaming with vindictive pleasure.
+e28_u013 | 12.7-15.0 | DIALOGUE | CATHERINE (Venomous): "She looks exactly like a poisoner."
+e28_u014 | 15.2-18.5 | CAMERA | Close-up of Juliana glaring back in fierce indignation, breathing heavily as she resists the guard's arm across her shoulder.
+e28_u015 | 15.3-18.4 | DIALOGUE | JULIANA (Furious, Defiant): "I did not poison her! Look at her eyes, the fever has broken!"
+e28_u016 | 18.5-22.8 | CAMERA | Medium full shot of Rupert standing beside the four-poster bed, calmly pulling on his black leather gloves.
+e28_u017 | 18.9-20.3 | DIALOGUE | BLOND NOBLEMAN (Sardonic, Chilling): "A clever story, girl."
+e28_u018 | 20.4-22.7 | DIALOGUE | BLOND NOBLEMAN (Threatening): "But the guards know how to extract the truth."
+e28_u019 | 22.8-26.7 | CAMERA | Medium close-up of the Dowager Duchess stirring against her pillows, lifting her trembling head with visible effort.
+e28_u020 | 24.8-26.5 | DIALOGUE | DOWAGER DUCHESS (Weak, Straining): "Rupert..."
+e28_u021 | 26.7-28.4 | CAMERA | Medium shot of Rupert pausing mid-stride as he hears his mother's voice, slowly turning his head toward the bed.
+e28_u022 | 26.7-28.2 | DIALOGUE | DOWAGER DUCHESS (Commanding): "Stop this!"
+e28_u023 | 28.4-32.8 | CAMERA | Wide shot of the bedchamber framed through the bed curtains as the Duchess props herself up on one elbow and points an accusing finger.
+e28_u024 | 28.8-30.3 | DIALOGUE | DOWAGER DUCHESS (Desperate, Firm): "She is innocent."
+e28_u025 | 30.8-32.4 | DIALOGUE | DOWAGER DUCHESS (Adamant): "She saved me!"
+e28_u026 | 32.8-34.9 | CAMERA | Close-up of Juliana, tears of relief welling in her eyes.
+e28_u027 | 33.2-34.6 | DIALOGUE | JULIANA (Breathless, Relieved): "Your Grace..."
+e28_u028 | 34.9-37.7 | CAMERA | Close-up of the Duchess clutching at her nightgown, her face twisted in mounting fury and horror.
+e28_u029 | 35.0-37.4 | DIALOGUE | DOWAGER DUCHESS (Trembling, Shouting): "I know what happened to me!"
+e28_u030 | 37.7-43.0 | CAMERA | Medium low-angle shot past the Duchess pointing directly at Rupert, who stands rigid and expressionless.
+e28_u031 | 38.2-40.0 | DIALOGUE | DOWAGER DUCHESS (Fierce, Condemning): "I was poisoned!"
+e28_u032 | 40.3-42.2 | DIALOGUE | DOWAGER DUCHESS (Accusing): "And you... you knew!"
+e28_u033 | 43.0-47.4 | CAMERA | Medium shot of the Duchess lunging forward from the pillows, gasping for breath as she points toward Catherine.
+e28_u034 | 43.6-45.3 | DIALOGUE | DOWAGER DUCHESS (Choking, Weakening): "Catherine knew!"
+e28_u035 | 45.6-47.0 | DIALOGUE | DOWAGER DUCHESS (Gasping): "They have been—"
+e28_u036 | 46.8-48.0 | ACTION | The Duchess collapses back onto the pillows, coughing violently and clutching her chest.
+e28_u037 | 47.4-52.2 | CAMERA | Wide shot as Juliana lunges across the room toward the bed, but the armed guard seizes her from behind and drags her back.
+e28_u038 | 48.2-49.7 | DIALOGUE | JULIANA (Panicked, Screaming): "Let me help her!"
+e28_u039 | 49.5-52.1 | DIALOGUE | JULIANA (Desperate): "She's still weak, you cannot leave her like this!"
+e28_u040 | 52.2-56.8 | CAMERA | Medium close-up of Rupert smoothing down his black leather gloves, a chilling smile forming on his lips.
+e28_u041 | 52.8-53.6 | DIALOGUE | BLOND NOBLEMAN (Smooth, Feigning Concern): "You see?"
+e28_u042 | 54.0-56.6 | DIALOGUE | BLOND NOBLEMAN (Sinister): "The poison has clearly damaged her mind."
+e28_u043 | 56.8-61.3 | CAMERA | Over-the-shoulder shot of Rupert leaning menacingly over the gasping Duchess in bed.
+e28_u044 | 57.0-58.7 | DIALOGUE | DOWAGER DUCHESS (Hoarse, Straining): "I am not delusional!"
+e28_u045 | 58.6-60.0 | DIALOGUE | BLOND NOBLEMAN (Condescending, Whispering): "Of course you are not."
+e28_u046 | 60.1-61.2 | DIALOGUE | BLOND NOBLEMAN (Dismissive): "You are merely confused."
+e28_u047 | 61.3-66.8 | CAMERA | Medium profile tracking shot of Catherine walking deliberately toward Juliana, speaking with airy cynicism.
+e28_u048 | 61.6-64.8 | DIALOGUE | CATHERINE (Amused, Mocking): "How convenient that the only person who can prove the poison exists..."
+e28_u049 | 64.9-66.8 | DIALOGUE | CATHERINE (Smug): "...is the maid who claims to have discovered it."
+e28_u050 | 66.8-70.5 | CAMERA | Low-angle medium shot of Rupert turning sharply toward the guard, his eyes icy and authoritative.
+e28_u051 | 67.2-70.2 | DIALOGUE | BLOND NOBLEMAN (Commanding, Resolute): "Take her away before she poisons the rest of this house."
+e28_u052 | 70.5-72.0 | CAMERA | Tight close-up of Catherine's gloved hands grabbing the delicate chain around Juliana's neck.
+e28_u053 | 70.8-72.0 | ACTION | Catherine ruthlessly yanks the silver locket off Juliana's neck.
+e28_u054 | 71.2-72.0 | DIALOGUE | JULIANA (Crying Out): "No!"
+e28_u055 | 72.0-75.3 | CAMERA | Medium close-up of Catherine holding up the oval silver and amethyst pendant, inspecting it with disdain.
+e28_u056 | 72.2-75.1 | DIALOGUE | CATHERINE (Insolent, Sneering): "Where did a gutter rat like you find a silver locket?"
+e28_u057 | 75.3-78.9 | CAMERA | Close-up of Juliana crying out in agony, writhing in the guard's iron grip.
+e28_u058 | 75.4-76.4 | DIALOGUE | JULIANA (Screaming, Weeping): "Give it back!"
+e28_u059 | 76.8-78.6 | DIALOGUE | JULIANA (Anguished): "It belonged to my mother!"
+e28_u060 | 78.9-82.3 | CAMERA | Low-angle shot tracking the silver locket as Catherine casually flings it across the stone corridor floor.
+e28_u061 | 79.0-81.9 | DIALOGUE | CATHERINE (Cruel): "A witch has no need for family heirlooms in the gallows."
+e28_u062 | 81.0-82.4 | SFX | Metallic clatter as the silver pendant bounces against the wooden baseboard.
+e28_u063 | 82.3-86.5 | CAMERA | Medium shot of Juliana being dragged further into the doorway, staring helplessly toward her discarded locket.
+e28_u064 | 82.5-84.4 | DIALOGUE | JULIANA (Heartbroken): "My mother's locket!"
+e28_u065 | 86.5-91.0 | CAMERA | Medium shot of Catherine walking toward the fallen leather-bound book and kneeling gracefully to pick it up.
+e28_u066 | 88.0-91.0 | ACTION | Catherine lifts the heavy herbarium, dusting off the cover before opening its aged parchment pages.
+e28_u067 | 91.0-93.8 | CAMERA | Tight close-up of Catherine reading the elegant cursive script inside the front cover.
+e28_u068 | 91.2-92.8 | DIALOGUE | CATHERINE (Intrigued, Murmuring): "Juliana..."
+e28_u069 | 93.8-95.0 | CAMERA | Extreme close-up on the handwritten inscription: 'Juliana Ashcroft'.
+e28_u070 | 95.0-97.4 | CAMERA | Medium shot of Juliana freezing in the doorway as she sees Catherine opening her mother's book.
+e28_u071 | 95.2-97.0 | ACTION | Juliana gasps in horror, realizing her secret identity has been laid bare.
+e28_u072 | 97.4-101.2 | CAMERA | Close-up of Catherine raising her gaze slowly from the book, a wicked, triumphant grin spreading across her face.
+e28_u073 | 98.2-100.8 | DIALOGUE | CATHERINE (Triumphant, Venomous): "Lady Juliana Ashcroft."
+e28_u074 | 101.2-107.8 | CAMERA | Medium two-shot as Catherine steps deliberately up to Juliana, circling her like a predator savoring its prey.
+e28_u075 | 101.5-103.7 | DIALOGUE | CATHERINE (Mocking, Reveling): "I knew I had seen those eyes before."
+e28_u076 | 104.2-105.6 | DIALOGUE | CATHERINE (Cruel): "The disgraced daughter..."
+e28_u077 | 105.6-107.8 | DIALOGUE | CATHERINE (Scornful): "...the girl thrown out of her own family home."
+e28_u078 | 107.8-113.0 | CAMERA | Close-up two-shot of Catherine leaning inches from Juliana's face, whispering her humiliating past.
+e28_u079 | 108.1-111.0 | DIALOGUE | CATHERINE (Taunting): "The bride who married a penniless war veteran..."
+e28_u080 | 111.1-113.0 | DIALOGUE | CATHERINE (Vicious): "...because no respectable man would have her."
+e28_u081 | 113.0-116.4 | CAMERA | Tight close-up of Juliana's eyes blazing with explosive fury and defensive loyalty.
+e28_u082 | 113.3-115.8 | DIALOGUE | JULIANA (Screaming, Wildly Defiant): "Do not speak about my husband!"
+e28_u083 | 116.4-122.0 | CAMERA | Medium two-shot as Catherine throws her head back in derisive laughter, brandishing the herbarium book.
+e28_u084 | 116.4-119.1 | DIALOGUE | CATHERINE (Laughing, Scornful): "And look at you now. Scrubbing fireplaces in my house."
+e28_u085 | 119.2-121.8 | DIALOGUE | CATHERINE (Mocking): "What a magnificent fall, Lady Juliana."
+e28_u086 | 122.0-124.9 | CAMERA | Medium shot of Rupert gesturing toward the exit with an outstretched arm.
+e28_u087 | 122.0-124.7 | DIALOGUE | BLOND NOBLEMAN (Harsh, Authoritative): "Drag her to the wet cells beneath the south tower."
+e28_u088 | 124.9-128.8 | CAMERA | Close-up of Catherine fanning open the illustrated botanical pages of the herbarium with gloved fingers.
+e28_u089 | 125.0-125.7 | DIALOGUE | CATHERINE (Smug): "And this?"
+e28_u090 | 125.9-128.7 | DIALOGUE | CATHERINE (Gleeful): "This book of weeds will hang her before the magistrate."
+e28_u091 | 128.8-131.2 | CAMERA | Medium shot of Juliana thrashing frantically against the guard's grip, her arm reaching out toward the book.
+e28_u092 | 129.1-131.0 | DIALOGUE | JULIANA (Screaming, Desperate): "That book is my mother's life's work!"
+e28_u093 | 131.2-136.8 | CAMERA | Medium close-up of Catherine smiling coldly, clutching the closed book against her bodice.
+e28_u094 | 131.4-134.2 | DIALOGUE | CATHERINE (Icy, Threatening): "Then perhaps you can explain every page to the magistrate..."
+e28_u095 | 134.6-136.7 | DIALOGUE | CATHERINE (Fateful, Vengeful): "...before he sends you to the gallows."
+e28_u096 | 136.8-138.5 | CAMERA | Extreme close-up of Juliana's wide, trembling eyes as the guard wrenches her backward into the dark hallway, cutting sharply to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

@@ -1,0 +1,56 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e31_u065",
+      "end_unit_id": "e31_u087",
+      "hook": {
+        "unit_ids": [
+          "e31_u065"
+        ],
+        "modality": "visual",
+        "description": "Juliana's defiant, knowing smirk while chained in the dungeon.",
+        "evidence": "The unit starts at 118.2s, which is within 3 seconds of the clip start (118.2s)."
+      },
+      "cliffhanger_unit_id": "e31_u087",
+      "reason": "This window captures the escalation from verbal sparring to the physical threat against the book and Juliana, ending on the high-stakes visual cliffhanger."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e31_u065",
+      "end_unit_id": "e31_u087",
+      "hook": {
+        "unit_ids": [
+          "e31_u065"
+        ],
+        "modality": "visual",
+        "description": "Juliana's defiant, knowing smirk while chained in the dungeon.",
+        "evidence": "The unit starts at 118.2s, which is within 3 seconds of the clip start (118.2s)."
+      },
+      "cliffhanger_unit_id": "e31_u087",
+      "reason": "This window captures the escalation from verbal sparring to the physical threat against the book and Juliana, ending on the high-stakes visual cliffhanger."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 4.8s (155.2-160.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 118.2,
+    "end": 160.0,
+    "duration": 41.8,
+    "segments": [
+      {
+        "start_unit": "e31_u065",
+        "end_unit": "e31_u087",
+        "start": 118.2,
+        "end": 160.0
+      }
+    ]
+  }
+]

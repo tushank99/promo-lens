@@ -1,0 +1,151 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Under cruel coercion and threats to send her seven-year-old brother to the county gaol, a young maid is manipulated into giving false testimony framing Juliana for witchcraft.
+CONTINUITY NOTES: Following Catherine's dungeon interrogation of Juliana, the conspiracy against Juliana deepens as an aristocratic lord forces a testimony of witchcraft out of the young maid whose brother Juliana saved.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:54.0 (174.0 s).
+- Scene 01 (INT. STUDY – NIGHT): 0.0-174.0 s, units e33_u001..e33_u099.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): none
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e33_u001 | 0.0-5.2 | CAMERA | Wide shot of a dimly lit, wood-paneled library study. An aristocratic lord in formal dark attire stands facing a young maid standing nervously by the open door.
+e33_u002 | 2.5-4.8 | DIALOGUE | LORD (Cold, Authoritative): "Your brother is breathing again."
+e33_u003 | 4.0-6.5 | ACTION | The young maid steps inside, bowing with a submissive curtsy, keeping her head low and hands clasped.
+e33_u004 | 5.2-8.8 | CAMERA | Medium close-up of the maid trembling as she raises her eyes hesitantly.
+e33_u005 | 6.5-8.5 | DIALOGUE | MAID (Meek, Hesitant): "Yes, my Lord."
+e33_u006 | 8.8-12.0 | CAMERA | Medium shot of the Lord standing beside his mahogany desk, looking down with cold, calculating scrutiny.
+e33_u007 | 9.5-11.8 | DIALOGUE | LORD (Probing): "And who saved him?"
+e33_u008 | 12.0-14.8 | CAMERA | Close-up of the maid's anxious, innocent face.
+e33_u009 | 13.0-14.5 | DIALOGUE | MAID (Quiet, Truthful): "Lady Juliana."
+e33_u010 | 14.8-17.8 | CAMERA | Close-up of the Lord's hand slowly rotating the heavy gold signet ring on his pinky finger.
+e33_u011 | 15.5-17.5 | DIALOGUE | LORD (Measured, Demanding): "Tell me how."
+e33_u012 | 17.8-21.0 | CAMERA | Medium close-up of the maid nervously wringing her apron fabric.
+e33_u013 | 19.5-21.0 | DIALOGUE | MAID (Faltering): "She... she used herbs."
+e33_u014 | 21.0-23.0 | CAMERA | Close-up on the Lord leaning forward abruptly, his piercing gaze bearing down.
+e33_u015 | 21.2-22.8 | DIALOGUE | LORD (Sharp, Intimidating): "What herbs?"
+e33_u016 | 23.0-26.5 | CAMERA | Close-up of the frightened maid looking down, shrinking back.
+e33_u017 | 24.5-26.2 | DIALOGUE | MAID (Whispering, Nervous): "I don't know."
+e33_u018 | 26.5-29.2 | CAMERA | Low-angle shot looking up at the imposing Lord towering above her.
+e33_u019 | 27.5-29.0 | DIALOGUE | LORD (Stern): "You watched her."
+e33_u020 | 29.2-32.8 | CAMERA | Close-up of the maid, tears beginning to glisten on her cheeks as she defends Juliana.
+e33_u021 | 29.8-32.0 | DIALOGUE | MAID (Tearful, Sincere): "I watched her save him."
+e33_u022 | 32.8-36.5 | CAMERA | Medium tracking shot of the Lord turning away slowly past the lamp-lit desk toward the rain-streaked window.
+e33_u023 | 34.0-36.2 | DIALOGUE | LORD (Coldly Dismissive): "That is not what I asked."
+e33_u024 | 36.5-40.2 | CAMERA | Medium two-shot framing the maid from behind as the Lord steps back toward her with commanding stillness.
+e33_u025 | 37.5-40.0 | DIALOGUE | LORD (Accusatory): "Did she use her mother's book?"
+e33_u026 | 40.2-44.2 | CAMERA | Close-up of the maid trembling, tears spilling down her face.
+e33_u027 | 42.2-43.6 | DIALOGUE | MAID (Quietly Weeping): "Yes."
+e33_u028 | 44.2-49.2 | CAMERA | Close-up of the Lord's sinister, unyielding face.
+e33_u029 | 44.8-48.8 | DIALOGUE | LORD (Insistent, Cornering): "Did she prepare things no physician had prescribed?"
+e33_u030 | 49.2-52.5 | CAMERA | Medium shot of the maid clutching her hands together tightly, overwhelmed with guilt.
+e33_u031 | 50.0-51.6 | DIALOGUE | MAID (Choked Sob): "Yes."
+e33_u032 | 52.5-56.8 | CAMERA | Close-up of the Lord's mouth curling into a sinister, predatory smile.
+e33_u033 | 53.0-56.5 | DIALOGUE | LORD (Sly, Sinister): "And did she perform anything unusual?"
+e33_u034 | 56.8-59.0 | CAMERA | Close-up of the maid gasping, shaking her head vigorously in panic.
+e33_u035 | 57.4-58.8 | DIALOGUE | MAID (Desperate, Denying): "No!"
+e33_u036 | 59.0-64.2 | CAMERA | Profile medium two-shot as the Lord looms inches from the maid's face.
+e33_u037 | 59.0-61.0 | DIALOGUE | LORD (Low, Menacing): "Think carefully."
+e33_u038 | 61.2-63.5 | DIALOGUE | LORD (Ruthless): "Your brother is still a pauper."
+e33_u039 | 64.2-68.8 | CAMERA | Extreme close-up of the Lord's cold eyes and hawkish profile speaking with chilling finality.
+e33_u040 | 64.4-68.5 | DIALOGUE | LORD (Threatening): "One word from me, and the county gaol will take him before sunrise."
+e33_u041 | 68.5-70.0 | ACTION | The maid gasps in sheer terror, her chest heaving as tears stream.
+e33_u042 | 68.8-73.2 | CAMERA | Close-up of the maid clutching her chest with trembling hands, crying desperately.
+e33_u043 | 69.5-73.0 | DIALOGUE | MAID (Begging, Heartbroken): "Please, my Lord... he is only seven!"
+e33_u044 | 73.2-75.5 | CAMERA | Close-up of the Lord staring down without an ounce of pity.
+e33_u045 | 73.2-75.0 | DIALOGUE | LORD (Cold, Unwavering): "Then help him."
+e33_u046 | 75.5-79.5 | CAMERA | Close-up of the maid weeping profusely, cornered and helpless.
+e33_u047 | 76.8-79.0 | DIALOGUE | MAID (Crying, Shattered): "What do you want me to say?!"
+e33_u048 | 79.5-84.8 | CAMERA | Wide shot of the study as the Lord stands calmly before the trembling servant.
+e33_u049 | 79.6-80.5 | DIALOGUE | LORD (Deceptive): "The truth."
+e33_u050 | 81.0-84.5 | DIALOGUE | LORD (Leading, Deliberate): "She drew something around the bed, did she not?"
+e33_u051 | 84.8-89.0 | CAMERA | Close-up of the maid stammering through her tears.
+e33_u052 | 85.5-88.8 | DIALOGUE | MAID (Trembling, Reluctant): "She... placed dried herbs around him."
+e33_u053 | 89.0-94.8 | CAMERA | Medium close-up of the Lord standing right beside her shoulder, whispering in her ear like an insidious specter.
+e33_u054 | 89.0-90.5 | DIALOGUE | LORD (Hypnotic, Coercive): "Around him."
+e33_u055 | 91.0-92.5 | DIALOGUE | LORD (Coercive): "Like a circle?"
+e33_u056 | 93.0-94.5 | DIALOGUE | MAID (Faint, Defeated): "Yes."
+e33_u057 | 94.8-98.5 | CAMERA | Close-up from behind the maid as the Lord leans close to her ear.
+e33_u058 | 95.0-98.0 | DIALOGUE | LORD (Whispering, Trap Snapping): "And she opened her mother's book..."
+e33_u059 | 98.5-100.8 | CAMERA | Extreme close-up of the maid's tear-drenched eyes and quivering lips.
+e33_u060 | 98.5-100.0 | DIALOGUE | MAID (Sobbing): "Yes."
+e33_u061 | 100.8-104.2 | CAMERA | Close-up of the Lord delivering the final trap.
+e33_u062 | 101.0-104.0 | DIALOGUE | LORD (Sinister): "...and spoke words you could not understand."
+e33_u063 | 104.2-107.5 | CAMERA | Close-up of the maid gasping out in desperate agony.
+e33_u064 | 104.5-106.5 | DIALOGUE | MAID (Desperately Defending): "She was praying!"
+e33_u065 | 107.5-111.8 | CAMERA | Close-up of the Lord grinning with sinister triumph.
+e33_u066 | 108.0-111.5 | DIALOGUE | LORD (Taunting): "Praying... or chanting?"
+e33_u067 | 111.8-113.8 | CAMERA | Close-up of the maid breaking down completely.
+e33_u068 | 112.0-113.5 | DIALOGUE | MAID (Hysterically Sobbing): "I don't know!"
+e33_u069 | 113.8-119.5 | CAMERA | Medium shot as the Lord paces slowly, pointing his finger with clinical, legal precision.
+e33_u070 | 114.0-116.5 | DIALOGUE | LORD (Calculating, Relentless): "You saw a woman draw a circle of herbs."
+e33_u071 | 116.8-119.5 | DIALOGUE | LORD (Relentless): "You saw her use a forbidden book."
+e33_u072 | 119.5-123.5 | CAMERA | Close-up profile of the Lord leaning in right in front of the sobbing maid.
+e33_u073 | 119.8-122.8 | DIALOGUE | LORD (Condemning): "You heard words you could not understand."
+e33_u074 | 123.5-126.8 | CAMERA | Extreme close-up of the Lord's mouth and calculating eyes as he pronounces the lethal word.
+e33_u075 | 124.5-126.5 | DIALOGUE | LORD (Deadly, Resolute): "That is witchcraft."
+e33_u076 | 126.8-131.8 | CAMERA | Medium two-shot as the maid steps forward, pleading passionately against his chest.
+e33_u077 | 126.8-131.5 | DIALOGUE | MAID (Crying Out, Desperate): "No! She saved Toby! She made him breathe again!"
+e33_u078 | 131.8-134.5 | CAMERA | Close-up of the Lord calmly watching her futile resistance.
+e33_u079 | 132.0-134.0 | DIALOGUE | LORD (Cold, Final): "That will be your testimony."
+e33_u080 | 134.5-137.8 | CAMERA | Close-up of the maid's face frozen in horrified realization.
+e33_u081 | 134.5-137.0 | DIALOGUE | MAID (Gasping, Shocked): "My testimony?!"
+e33_u082 | 137.8-140.5 | CAMERA | Close-up of the Lord delivering the ultimatum without blinking.
+e33_u083 | 138.0-140.0 | DIALOGUE | LORD (Unyielding): "Before the magistrate."
+e33_u084 | 140.5-144.8 | CAMERA | Close-up of the maid grabbing both sides of her head, screaming out in utter grief and guilt.
+e33_u085 | 140.5-144.0 | DIALOGUE | MAID (Wailing, Tormented): "I never said she was a witch!"
+e33_u086 | 144.8-149.2 | CAMERA | Medium tracking shot of the Lord turning his back and walking back behind his desk.
+e33_u087 | 145.0-146.5 | DIALOGUE | LORD (Chillingly Detached): "You do not need to."
+e33_u088 | 146.8-149.0 | DIALOGUE | LORD (Chillingly Detached): "I have already written the story for you."
+e33_u089 | 149.2-152.2 | CAMERA | Close-up of the maid clutching her cheeks, crying in heartbreak.
+e33_u090 | 149.5-152.0 | DIALOGUE | MAID (Sobbing): "She saved my brother..."
+e33_u091 | 152.2-156.2 | CAMERA | Close-up of the Lord turning back, resting one hand upon the desk with cold finality.
+e33_u092 | 152.5-156.0 | DIALOGUE | LORD (Inexorable): "And now... you will save your brother."
+e33_u093 | 156.2-159.5 | ACTION | The maid's knees buckle completely. She collapses forward onto the polished dark wood floor, groveling in total despair.
+e33_u094 | 156.2-159.5 | CAMERA | High angle looking down as the maid falls prostrate on the floor.
+e33_u095 | 159.0-161.5 | DIALOGUE | MAID (Weeping, Broken): "I am sorry, Lady Juliana..."
+e33_u096 | 159.5-163.8 | CAMERA | Low-angle shot of the Lord looking down dismissively at the prostrate maid.
+e33_u097 | 161.8-164.5 | DIALOGUE | LORD (Cold, Merciless): "Save your tears for the trial."
+e33_u098 | 163.8-174.0 | CAMERA | Side medium shot of the maid kneeling crumpled on the floor in the dimly lit study, her face buried in both hands, weeping uncontrollably as the scene slowly fades into the dark silence.
+e33_u099 | 164.5-174.0 | ACTION | The heartbroken maid weeps silently in the shadow of the desk, consumed by guilt and powerlessness.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

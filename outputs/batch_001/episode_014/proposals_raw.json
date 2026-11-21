@@ -1,0 +1,47 @@
+{
+  "episode": 14,
+  "prompt_hash": "bf4f811839c176ee",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.22,
+    "tokens_in": 3329,
+    "tokens_out": 366
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e14_u001",
+        "end_unit_id": "e14_u025",
+        "hook": {
+          "unit_ids": [
+            "e14_u002"
+          ],
+          "modality": "visual",
+          "description": "Juliana's blood-streaked hand uncurls to reveal an emerald ring amidst sharp thorns.",
+          "evidence": "The visceral imagery of blood and sharp thorns immediately establishes high stakes and mystery."
+        },
+        "cliffhanger_unit_id": "e14_u025",
+        "reason": "This sequence captures the entire rescue arc, from the discovery of the ring to the emotional reunion and the promise of protection."
+      },
+      {
+        "start_unit_id": "e14_u028",
+        "end_unit_id": "e14_u051",
+        "hook": {
+          "unit_ids": [
+            "e14_u028"
+          ],
+          "modality": "visual",
+          "description": "Alexander kneeling before Juliana, washing her bloodied hands by the fire.",
+          "evidence": "The intimate, tender contrast between the violence of her wounds and his gentle care creates an immediate emotional hook."
+        },
+        "cliffhanger_unit_id": "e14_u051",
+        "reason": "This focuses on the romantic tension and the shift from rescue to the vow of vengeance, ending on a powerful, ominous note."
+      }
+    ]
+  },
+  "note": null
+}

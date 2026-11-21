@@ -1,0 +1,269 @@
+[
+  {
+    "candidate_id": "c03",
+    "prompt_hash": "af9bff69b505d201",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 8.0,
+      "secs": 3.81,
+      "tokens_in": 1503,
+      "tokens_out": 1534
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e28_u067",
+          "e28_u068"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e28_u072",
+          "e28_u073",
+          "e28_u075",
+          "e28_u076",
+          "e28_u077",
+          "e28_u078",
+          "e28_u082"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e28_u072",
+          "e28_u073",
+          "e28_u076",
+          "e28_u077",
+          "e28_u080",
+          "e28_u082"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e28_u069",
+          "e28_u072",
+          "e28_u075",
+          "e28_u079",
+          "e28_u080",
+          "e28_u082"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e28_u082"
+        ]
+      },
+      "hook_unit_id": "e28_u068",
+      "hook_type": "reveal",
+      "emotion_type": "humiliation",
+      "trope": "hidden noble identity",
+      "central_conflict": "Catherine publicly exposes and humiliates Juliana by revealing her noble lineage and accusing her of disgrace, while Juliana defiantly defends her husband.",
+      "spoils_main_twist": true
+    }
+  },
+  {
+    "candidate_id": "c01r",
+    "prompt_hash": "25fb68017699035e",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 2,
+      "waited_s": 35.9,
+      "secs": 3.11,
+      "tokens_in": 1603,
+      "tokens_out": 1132
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e28_u001",
+          "e28_u002"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e28_u007",
+          "e28_u010",
+          "e28_u011",
+          "e28_u015",
+          "e28_u017",
+          "e28_u018"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e28_u012",
+          "e28_u014",
+          "e28_u015",
+          "e28_u017",
+          "e28_u018"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e28_u001",
+          "e28_u007",
+          "e28_u015",
+          "e28_u017"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e28_u018"
+        ]
+      },
+      "hook_unit_id": "e28_u001",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "rage",
+      "trope": "framed heroine",
+      "central_conflict": "Catherine accuses Juliana of poisoning the Duchess while Rupert and a nobleman threaten her, forcing her to defend her innocence.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02r",
+    "prompt_hash": "f21b6046316c4a8f",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.9,
+      "secs": 3.62,
+      "tokens_in": 1741,
+      "tokens_out": 1151
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e28_u022"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e28_u031",
+          "e28_u032",
+          "e28_u038",
+          "e28_u040"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e28_u028",
+          "e28_u026",
+          "e28_u040",
+          "e28_u036"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e28_u022",
+          "e28_u036",
+          "e28_u037",
+          "e28_u040",
+          "e28_u042"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e28_u041",
+          "e28_u042"
+        ]
+      },
+      "hook_unit_id": "e28_u022",
+      "hook_type": "shocking_line",
+      "emotion_type": "rage",
+      "trope": "framed noble",
+      "central_conflict": "The dowager Duchess accuses Rupert and Catherine of poisoning her, while Juliana tries to help her but is stopped by a guard as Rupert watches with a chilling smile.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c04r",
+    "prompt_hash": "b8fd942f535a7474",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.4,
+      "secs": 2.66,
+      "tokens_in": 1653,
+      "tokens_out": 1011
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e28_u078",
+          "e28_u079"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e28_u079",
+          "e28_u080",
+          "e28_u087",
+          "e28_u092"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e28_u080",
+          "e28_u082",
+          "e28_u084",
+          "e28_u085",
+          "e28_u092",
+          "e28_u096"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e28_u079",
+          "e28_u080",
+          "e28_u087",
+          "e28_u090",
+          "e28_u094",
+          "e28_u096"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e28_u096"
+        ]
+      },
+      "hook_unit_id": "e28_u079",
+      "hook_type": "public_humiliation",
+      "emotion_type": "rage",
+      "trope": "humiliated heroine",
+      "central_conflict": "Catherine humiliates and accuses Juliana, ordering her imprisonment while Juliana desperately defends her mother's herbarium.",
+      "spoils_main_twist": false
+    }
+  }
+]

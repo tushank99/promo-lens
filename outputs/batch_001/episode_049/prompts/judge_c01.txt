@@ -1,0 +1,68 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Meeting Father Thomas in an abandoned wing of the manor before dawn, Catherine orchestrates a calculated conspiracy to stall the council hearing and extract inside intelligence, sealing their treasonous alliance with intimate assurance.
+CONTINUITY NOTES: Directly follows Catherine sending Agnes to fetch Father Thomas under cover of darkness; now in Episode 49, Father Thomas slips into the secluded wing for their covert rendezvous.
+
+CLIP: 22.0s to 72.4s (50.4s). Units below: id | seconds from clip start | type | text.
+e49_u013 | 0.0-5.5 | CAMERA | Tight close-up on Father Thomas's face, the candlelight dancing in his calculating eyes.
+e49_u014 | 0.2-5.2 | DIALOGUE | FATHER THOMAS (Grave): "No shadows tonight, Catherine. Just us and an empty wing."
+e49_u015 | 5.5-11.2 | CAMERA | Close-up on Catherine, her blonde ringlets peeking from beneath her velvet hood as she smiles faintly.
+e49_u016 | 5.8-11.0 | DIALOGUE | CATHERINE (Unfazed): "You didn't need them the first time, either. I just prefer my secrets thorough."
+e49_u017 | 11.2-19.8 | CAMERA | Medium close-up of Father Thomas, glancing down momentarily before fixing his piercing gaze back on her.
+e49_u018 | 11.5-19.5 | DIALOGUE | FATHER THOMAS (Dry, Cynical): "A priest and a disgraced bride meeting before dawn in her bedchamber. I'd say thoroughness served us both rather well."
+e49_u019 | 19.8-24.8 | CAMERA | Close-up of Catherine's face hardening into a stern, focused expression.
+e49_u020 | 20.0-24.5 | DIALOGUE | CATHERINE (Assertive, Warning): "It will keep serving us as long as neither of us gets careless. No one in this house so much as suspects your face belongs to that morning. Let's keep it that way."
+e49_u021 | 24.8-26.5 | CAMERA | Close-up on Father Thomas listening impassively.
+e49_u022 | 26.5-31.0 | CAMERA | Medium wide two-shot across the candlelit table, Catherine leaning slightly forward.
+e49_u023 | 26.8-30.8 | DIALOGUE | CATHERINE (Scheming): "Today went better than either of us planned for. The whole court watched you humiliate her."
+e49_u024 | 31.0-37.8 | CAMERA | Medium close-up on Father Thomas as he turns his head slightly, scanning the dusty shadowed recesses of the abandoned room.
+e49_u025 | 31.2-37.5 | DIALOGUE | FATHER THOMAS (Reflective, Brooding): "Fitting choice, this room. A place the family forgot for a conversation they mustn't remember."
+e49_u026 | 37.8-40.8 | CAMERA | Close-up on Catherine, her lips curling into an amused, knowing smile.
+e49_u027 | 38.0-40.5 | DIALOGUE | CATHERINE (Amused): "You always did have a taste for symbolism."
+e49_u028 | 40.8-45.2 | CAMERA | Medium shot of Father Thomas, a subtle smirk breaking through his austere demeanor.
+e49_u029 | 41.0-45.1 | DIALOGUE | FATHER THOMAS (Intimate, Candid): "And you always did have a taste for using me. It's why we suit each other."
+e49_u030 | 45.2-50.4 | CAMERA | Close-up on Catherine, her expression turning razor-sharp and commanding.
+e49_u031 | 45.4-50.2 | DIALOGUE | CATHERINE (Strict, Urgent): "Then make certain the council remembers that for the full ten days, not just the first hour."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

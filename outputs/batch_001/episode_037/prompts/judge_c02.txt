@@ -1,0 +1,64 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+As Rupert and Catherine issue wedding invitations paired with Juliana's public execution decree to terrorize the county, Juliana endures starvation in the dungeon, refusing to break her spirit.
+CONTINUITY NOTES: Following Alexander's vow to return in two days to disrupt the wedding, Rupert and Catherine prepare to cement their coup by inviting high society to celebrate their nuptials and witness Juliana's execution.
+
+CLIP: 88.0s to 116.5s (28.5s). Units below: id | seconds from clip start | type | text.
+e37_u049 | 0.0-4.0 | CAMERA | Wide, dim shot of the subterranean stone dungeon. Juliana sits slumped against a weeping stone wall on the wet floor, dressed in a tattered prison smock, illuminated only by faint overhead moonlight piercing a ceiling grate.
+e37_u050 | 0.5-4.0 | SFX | Rhythmic water drips splashing onto stagnant dungeon puddles and a low, mournful ambient drone.
+e37_u051 | 4.0-7.5 | CAMERA | Close-up on Juliana's bruised hand, locked in a heavy iron shackle chained to the wall, trembling as she hesitates inches away from a dirty earthen bowl filled with murky liquid.
+e37_u052 | 5.5-7.5 | ACTION | Juliana curls her fingers back, pulling away from the foul sustenance in defiance.
+e37_u053 | 7.5-12.5 | CAMERA | Tight close-up of Juliana's dirty, tear-stained face. Her eyes squeeze shut as tears stream down her cheeks from overwhelming physical agony and hunger.
+e37_u054 | 8.0-11.5 | DIALOGUE | JULIANA (Weak, Whispering through Tears): "They think hunger will make me surrender."
+e37_u055 | 12.5-15.5 | CAMERA | Extreme close-up of Juliana's blue eyes snapping open, blazing with unyielding defiance.
+e37_u056 | 12.8-15.2 | DIALOGUE | JULIANA (Fierce Resolve): "They think fear will make me beg."
+e37_u057 | 15.5-20.5 | CAMERA | Full shot of Juliana using her bare hands against the slimy stone floor to drag herself upright to her knees, chains rattling loudly.
+e37_u058 | 16.0-19.0 | SFX | The harsh scrape and clatter of heavy iron chains dragging across wet stone.
+e37_u059 | 17.5-19.8 | DIALOGUE | JULIANA (Straining, Defiant Gasps): "I will not!"
+e37_u060 | 20.5-25.5 | CAMERA | Low-angle shot looking up at Juliana as she thrusts her chin high toward the iron ceiling grate, bathed in cold shafts of light.
+e37_u061 | 21.0-24.5 | DIALOGUE | JULIANA (Passionate Defiance): "They can take my name. They can take my home."
+e37_u062 | 25.5-28.5 | CAMERA | Tight close-up of Juliana's iron-shackled hand reaching out and gripping the massive iron ring anchored into the dungeon pillar with crushing determination.
+e37_u063 | 25.6-28.2 | DIALOGUE | JULIANA (Indomitable Spirit): "They cannot take who I am!"
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

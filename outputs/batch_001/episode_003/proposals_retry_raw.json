@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "568ca03252a3adcf",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.14,
+    "tokens_in": 2333,
+    "tokens_out": 229
+  },
+  "asked_for": [
+    "c01"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c01",
+        "start_unit_id": "e03_u036",
+        "end_unit_id": "e03_u054",
+        "hook": {
+          "unit_ids": [
+            "e03_u036"
+          ],
+          "modality": "visual",
+          "description": "A low-angle close-up of Juliana's hand desperately clutching her mother's locket, signaling her emotional stakes.",
+          "evidence": "The unit begins at 45.9s, which is within 3 seconds of the clip start (45.9s)."
+        },
+        "cliffhanger_unit_id": "e03_u054",
+        "reason": "This window captures the emotional climax of the scene within the chapel, ending on the high-tension moment of Juliana being forcibly dragged away."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

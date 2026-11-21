@@ -1,0 +1,160 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e43_u008",
+      "end_unit_id": "e43_u025",
+      "hook": {
+        "unit_ids": [
+          "e43_u008"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up on Rupert's furious face, veins bulging at his temples.",
+        "evidence": "The intense, visceral display of rage and panic immediately signals a high-stakes confrontation."
+      },
+      "cliffhanger_unit_id": "e43_u025",
+      "reason": "The moment the Royal Guard defies the villain to salute the true Duke is a classic, satisfying power shift."
+    },
+    "norm": {
+      "start_unit_id": "e43_u008",
+      "end_unit_id": "e43_u025",
+      "hook": {
+        "unit_ids": [
+          "e43_u008"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up on Rupert's furious face, veins bulging at his temples.",
+        "evidence": "The intense, visceral display of rage and panic immediately signals a high-stakes confrontation."
+      },
+      "cliffhanger_unit_id": "e43_u025",
+      "reason": "The moment the Royal Guard defies the villain to salute the true Duke is a classic, satisfying power shift."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "17.5s is under the 20s minimum"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 10.5,
+    "end": 28.0,
+    "duration": 17.5,
+    "segments": [
+      {
+        "start_unit": "e43_u008",
+        "end_unit": "e43_u025",
+        "start": 10.5,
+        "end": 28.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e43_u034",
+      "end_unit_id": "e43_u053",
+      "hook": {
+        "unit_ids": [
+          "e43_u034"
+        ],
+        "modality": "visual",
+        "description": "Crown Official opening the binder and reading aloud.",
+        "evidence": "The formal, cold delivery of a 'Top Secret' betrayal report creates immediate intrigue."
+      },
+      "cliffhanger_unit_id": "e43_u053",
+      "reason": "The public exposure of treason and the villain's crumbling reaction provides high emotional payoff."
+    },
+    "norm": {
+      "start_unit_id": "e43_u034",
+      "end_unit_id": "e43_u053",
+      "hook": {
+        "unit_ids": [
+          "e43_u034"
+        ],
+        "modality": "visual",
+        "description": "Crown Official opening the binder and reading aloud.",
+        "evidence": "The formal, cold delivery of a 'Top Secret' betrayal report creates immediate intrigue."
+      },
+      "cliffhanger_unit_id": "e43_u053",
+      "reason": "The public exposure of treason and the villain's crumbling reaction provides high emotional payoff."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 37.0,
+    "end": 66.0,
+    "duration": 29.0,
+    "segments": [
+      {
+        "start_unit": "e43_u034",
+        "end_unit": "e43_u053",
+        "start": 37.0,
+        "end": 66.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e43_u077",
+      "end_unit_id": "e43_u087",
+      "hook": {
+        "unit_ids": [
+          "e43_u077"
+        ],
+        "modality": "visual",
+        "description": "Rupert whirling around in a frenzy, pointing his finger toward Lord Sterling.",
+        "evidence": "The sudden shift from confrontation to desperate betrayal between co-conspirators is highly engaging."
+      },
+      "cliffhanger_unit_id": "e43_u087",
+      "reason": "The villain's escape attempt being blocked by the police provides a perfect, high-tension conclusion."
+    },
+    "norm": {
+      "start_unit_id": "e43_u077",
+      "end_unit_id": "e43_u087",
+      "hook": {
+        "unit_ids": [
+          "e43_u077"
+        ],
+        "modality": "visual",
+        "description": "Rupert whirling around in a frenzy, pointing his finger toward Lord Sterling.",
+        "evidence": "The sudden shift from confrontation to desperate betrayal between co-conspirators is highly engaging."
+      },
+      "cliffhanger_unit_id": "e43_u087",
+      "reason": "The villain's escape attempt being blocked by the police provides a perfect, high-tension conclusion."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "15.16s is under the 20s minimum"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 99.8,
+    "end": 114.96,
+    "duration": 15.16,
+    "segments": [
+      {
+        "start_unit": "e43_u077",
+        "end_unit": "e43_u087",
+        "start": 99.8,
+        "end": 114.96
+      }
+    ]
+  }
+]

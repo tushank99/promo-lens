@@ -1,0 +1,48 @@
+{
+  "episode": 44,
+  "prompt_hash": "cd750361ac9483d0",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.6,
+    "secs": 3.16,
+    "tokens_in": 3342,
+    "tokens_out": 342,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e44_u025",
+        "end_unit_id": "e44_u054",
+        "hook": {
+          "unit_ids": [
+            "e44_u025"
+          ],
+          "modality": "visual",
+          "description": "Catherine standing in the center of the aisle before the congregation.",
+          "evidence": "The visual of a bride in a ruined cathedral immediately establishes a high-stakes, dramatic setting."
+        },
+        "cliffhanger_unit_id": "e44_u054",
+        "reason": "A powerful confrontation where a jilted bride is rejected by her former lover in favor of a shackled woman."
+      },
+      {
+        "start_unit_id": "e44_u036",
+        "end_unit_id": "e44_u054",
+        "hook": {
+          "unit_ids": [
+            "e44_u036"
+          ],
+          "modality": "spoken",
+          "description": "Catherine and Alexander confronting each other.",
+          "evidence": "The immediate tension of a direct confrontation between a bride and her former lover hooks the viewer instantly."
+        },
+        "cliffhanger_unit_id": "e44_u054",
+        "reason": "Focuses on the emotional climax of the rejection and the shocking reveal of the rival."
+      }
+    ]
+  },
+  "note": null
+}

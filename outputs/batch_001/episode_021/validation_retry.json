@@ -1,0 +1,58 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e21_u063",
+      "end_unit_id": "e21_u076",
+      "hook": {
+        "unit_ids": [
+          "e21_u063"
+        ],
+        "modality": "visual",
+        "description": "A low-angle shot past the sleeping boy toward Prudence, whose face is twisted in sudden, dark resentment.",
+        "evidence": "The visual shift from the relief of the cure to Prudence's ominous expression immediately signals a change in tone."
+      },
+      "cliffhanger_unit_id": "e21_u076",
+      "reason": "The window is shortened to 23 seconds, ensuring the cliffhanger unit starts at 108.5s, which is within the final 20% of the total duration."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e21_u063",
+      "end_unit_id": "e21_u076",
+      "hook": {
+        "unit_ids": [
+          "e21_u063"
+        ],
+        "modality": "visual",
+        "description": "A low-angle shot past the sleeping boy toward Prudence, whose face is twisted in sudden, dark resentment.",
+        "evidence": "The visual shift from the relief of the cure to Prudence's ominous expression immediately signals a change in tone."
+      },
+      "cliffhanger_unit_id": "e21_u076",
+      "reason": "The window is shortened to 23 seconds, ensuring the cliffhanger unit starts at 108.5s, which is within the final 20% of the total duration."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "cliffhanger"
+    ],
+    "details": [
+      "cliffhanger e21_u076 starts at 108.5s, before the final 20% of the clip (109.4s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 91.0,
+    "end": 114.0,
+    "duration": 23.0,
+    "segments": [
+      {
+        "start_unit": "e21_u063",
+        "end_unit": "e21_u076",
+        "start": 91.0,
+        "end": 114.0
+      }
+    ]
+  }
+]

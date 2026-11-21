@@ -1,0 +1,60 @@
+[
+  {
+    "candidate_id": "c01r",
+    "proposal": {
+      "retry_of": "c01",
+      "start_unit_id": "e03_u036",
+      "end_unit_id": "e03_u054",
+      "hook": {
+        "unit_ids": [
+          "e03_u036"
+        ],
+        "modality": "visual",
+        "description": "A low-angle close-up of Juliana's hand desperately clutching her mother's locket, signaling her emotional stakes.",
+        "evidence": "The unit begins at 45.9s, which is within 3 seconds of the clip start (45.9s)."
+      },
+      "cliffhanger_unit_id": "e03_u054",
+      "reason": "This window captures the emotional climax of the scene within the chapel, ending on the high-tension moment of Juliana being forcibly dragged away."
+    },
+    "retry_of": "c01",
+    "norm": {
+      "start_unit_id": "e03_u036",
+      "end_unit_id": "e03_u054",
+      "hook": {
+        "unit_ids": [
+          "e03_u036"
+        ],
+        "modality": "visual",
+        "description": "A low-angle close-up of Juliana's hand desperately clutching her mother's locket, signaling her emotional stakes.",
+        "evidence": "The unit begins at 45.9s, which is within 3 seconds of the clip start (45.9s)."
+      },
+      "cliffhanger_unit_id": "e03_u054",
+      "reason": "This window captures the emotional climax of the scene within the chapel, ending on the high-tension moment of Juliana being forcibly dragged away."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration",
+      "dialogue_cut"
+    ],
+    "details": [
+      "18.6s is under the 20s minimum",
+      "clip start 45.9s cuts through e03_u035 (43.4-46.0): \"Wherever a discarded daughter belongs.\""
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 45.9,
+    "end": 64.5,
+    "duration": 18.6,
+    "segments": [
+      {
+        "start_unit": "e03_u036",
+        "end_unit": "e03_u054",
+        "start": 45.9,
+        "end": 64.5
+      }
+    ]
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "prompt_hash": "26f7038d866c2954",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.2,
+    "secs": 2.02,
+    "tokens_in": 2359,
+    "tokens_out": 221,
+    "checkpoint": true
+  },
+  "asked_for": [
+    "c01",
+    "c02"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e40_u026",
+        "end_unit_id": "e40_u038",
+        "hook": {
+          "unit_ids": [
+            "e40_u026"
+          ],
+          "modality": "visual",
+          "description": "Rupert standing nervously at the altar, establishing the high-stakes wedding setting.",
+          "evidence": "The unit begins at 49.8s, well within the 3s limit of the clip start."
+        },
+        "cliffhanger_unit_id": "e40_u038",
+        "reason": "Expanding the window to include the groom's preparation meets the 20s duration requirement and places the final line in the last 20% of the 28.7s clip."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

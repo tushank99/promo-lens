@@ -1,0 +1,38 @@
+{
+  "prompt_hash": "0b4f8ce4456ffb71",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 2.59,
+    "tokens_in": 1617,
+    "tokens_out": 207,
+    "checkpoint": true
+  },
+  "asked_for": [
+    "c03"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c03",
+        "start_unit_id": "e18_u065",
+        "end_unit_id": "e18_u078",
+        "hook": {
+          "unit_ids": [
+            "e18_u065"
+          ],
+          "modality": "visual",
+          "description": "Close-up of Juliana in the mud, soot-covered and clutching the charred ledger.",
+          "evidence": "The visual impact of the survivor holding the only remnant of her life immediately establishes the stakes."
+        },
+        "cliffhanger_unit_id": "e18_u078",
+        "reason": "This window captures the emotional core and the transition to the vow of vengeance within the 60-second limit."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

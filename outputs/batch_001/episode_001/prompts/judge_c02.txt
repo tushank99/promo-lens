@@ -1,0 +1,71 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Lady Juliana arrives at the cathedral in her late mother's bridal gown, only to suffer the ultimate betrayal when her fiancé Gerald abandons her at the altar for her cruel sister Clarissa with her family's full blessing.
+CONTINUITY NOTES: First episode of the series. Establishes Juliana's humiliation and abandonment by her betrothed, Gerald, and her noble family in favor of her sister, Clarissa.
+
+CLIP: 46.8s to 79.0s (32.2s). Units below: id | seconds from clip start | type | text.
+e01_u031 | 0.0-3.6 | CAMERA | Close-up on Juliana clutching her chest, her sorrow turning into burning outrage.
+e01_u032 | 0.0-3.2 | DIALOGUE | LADY JULIANA (Outraged, Accusing): "You knew this before I walked through those doors!"
+e01_u033 | 3.6-5.2 | CAMERA | Medium shot of Gerald standing stoic and impassive next to the smug Lady in Gold Gown.
+e01_u034 | 5.2-7.8 | CAMERA | Close-up on Juliana's hands desperately clenching fistfuls of her white dress fabric.
+e01_u035 | 6.0-7.8 | DIALOGUE | LADY JULIANA (Choking on Tears): "You let me come here..."
+e01_u036 | 7.8-10.8 | CAMERA | Close-up on Juliana's tear-streaked face as she shakes with grief.
+e01_u037 | 7.9-10.1 | DIALOGUE | LADY JULIANA (Crushed, Shaking): "You let me dress in my mother's gown..."
+e01_u038 | 10.2-13.2 | DIALOGUE | LADY JULIANA (Crying Out): "You let me believe I was walking toward my husband!"
+e01_u039 | 10.8-13.3 | CAMERA | Medium shot on Gerald stepping forward, cold and indifferent, with the Lady in Gold Gown lingering in soft focus behind him.
+e01_u040 | 13.3-16.2 | CAMERA | Tight close-up on Gerald's hardened profile as he glances down.
+e01_u041 | 13.3-15.0 | DIALOGUE | THE FORMER GROOM (Cold, Callous): "I changed my mind."
+e01_u042 | 16.2-19.2 | CAMERA | Extreme close-up on Juliana's furious, weeping face.
+e01_u043 | 16.6-18.8 | DIALOGUE | LADY JULIANA (Betrayed, Piercing): "You swore you loved me!"
+e01_u044 | 19.2-22.0 | CAMERA | Close-up on the Lady in Gold Gown smiling condescendingly.
+e01_u045 | 19.7-22.0 | DIALOGUE | LADY IN GOLD GOWN (Mocking): "People change their minds, sister."
+e01_u046 | 22.0-25.6 | CAMERA | Medium profile shot of the Lady in Gold Gown turning her head subtly toward Gerald with satisfied malice.
+e01_u047 | 22.3-23.6 | DIALOGUE | LADY JULIANA (Horrified): "And you knew?"
+e01_u048 | 23.8-25.3 | DIALOGUE | LADY IN GOLD GOWN (Unapologetic, Cheerful): "Of course I knew."
+e01_u049 | 25.6-27.8 | CAMERA | Close-up on Juliana, stunned by the callous depth of the conspiracy.
+e01_u050 | 26.3-27.5 | DIALOGUE | LADY JULIANA (Trembling): "How long?"
+e01_u051 | 27.8-32.2 | CAMERA | Medium two-shot of the Lady in Gold Gown and Gerald looking together down at Juliana.
+e01_u052 | 28.2-31.7 | DIALOGUE | LADY IN GOLD GOWN (Cruel, Poised): "Long enough to know he was never going to marry you."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

@@ -1,0 +1,137 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: When their cottage is deliberately set ablaze in the dead of night, Alexander risks his life to rescue Juliana and her mother's cherished ledger from the inferno, vowing relentless vengeance against those responsible.
+CONTINUITY NOTES: Picks up directly from Episode 17's intimate hearthside moment; their peaceful sanctuary is shattered when arsonists trap Juliana and Alexander inside their burning home.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-03:12.0 (192.0 s).
+- Scene 01 (INT. COTTAGE - BEDROOM - NIGHT): 0.0-28.9 s, units e18_u001..e18_u018.
+- Scene 02 (INT. COTTAGE - HALLWAY - CONTINUOUS): 28.9-52.5 s, units e18_u019..e18_u029.
+- Scene 03 (INT. COTTAGE - PARLOR / WORKROOM - CONTINUOUS): 52.5-98.2 s, units e18_u030..e18_u052.
+- Scene 04 (INT. COTTAGE - PARLOR / EXT. COTTAGE - CONTINUOUS): 98.5-124.0 s, units e18_u053..e18_u063.
+- Scene 05 (EXT. COTTAGE - FRONT YARD - CONTINUOUS): 124.0-192.0 s, units e18_u064..e18_u081.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 12.3-16.2 s; 28.9-32.5 s; 48.5-52.5 s; 52.5-56.2 s; 106.8-111.5 s; 115.5-124.0 s; 124.0-136.2 s; 165.5-171.8 s; 186.5-192.0 s
+- Overlapping dialogue exchanges (include all members or none): e18_u041 + e18_u042
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e18_u001 | 0.0-2.1 | CAMERA | Low-angle shot on the wooden floor as bright orange flames crackle beneath the closed bedroom door, thick smoke billowing through the crevices.
+e18_u002 | 0.0-2.1 | SFX | Muffled crackle and roar of an encroaching blaze.
+e18_u003 | 2.1-5.8 | CAMERA | Close-up overhead shot of Juliana asleep on her pillow as her eyelids flutter open, gasping and coughing violently from the choking smoke.
+e18_u004 | 3.5-6.0 | ACTION | Juliana coughs, her eyes widening in immediate alarm as the smell of burning wood fills her lungs.
+e18_u005 | 6.0-9.5 | ACTION | Juliana bolts upright in bed, tossing off the woolen quilt as she sees the orange glow under the door.
+e18_u006 | 6.5-8.5 | DIALOGUE | JULIANA (Screaming, Terrified): "Alexander!"
+e18_u007 | 9.5-12.8 | CAMERA | Medium shot as Juliana swings her bare legs out of bed onto the floor, trembling with panic.
+e18_u008 | 10.5-12.3 | DIALOGUE | JULIANA (Desperate, Shouting): "Alexander!"
+e18_u009 | 12.8-16.2 | CAMERA | Low-angle close shot of the bedroom door glowing intensely, fire licking the wooden floorboards as smoke pours inward.
+e18_u010 | 16.2-20.1 | ACTION | Juliana sits huddled at the edge of the bed, pressing her bandaged hands against her mouth, coughing and sobbing in fear.
+e18_u011 | 17.8-19.8 | DIALOGUE | JULIANA (Muffled, Weeping): "Alexander..."
+e18_u012 | 19.5-21.0 | SFX | A violent crash as the bedroom door is kicked open.
+e18_u013 | 20.1-22.8 | CAMERA | Framed in the doorway engulfed by blazing orange light, Alexander bursts in, his dark hair flying, looking like an imposing guardian amid the smoke.
+e18_u014 | 20.8-22.5 | DIALOGUE | ALEXANDER (Authoritative, Urgency): "Juliana! Get up!"
+e18_u015 | 22.8-26.0 | CAMERA | Wide tracking shot as Alexander rushes across the burning, smoke-choked room toward her bed.
+e18_u016 | 24.5-28.9 | ACTION | Alexander reaches the bed, hoisting Juliana up by her arms into a standing embrace.
+e18_u017 | 26.5-28.0 | DIALOGUE | JULIANA (Breathless, Distressed): "What happened?"
+e18_u018 | 28.1-28.9 | DIALOGUE | ALEXANDER (Grim, Urgent): "Fire."
+e18_u019 | 28.9-30.8 | CAMERA | Over-the-shoulder shot past Alexander toward the blazing threshold of the main room, beams collapsing across the doorway.
+e18_u020 | 30.8-33.0 | CAMERA | Medium close-up of Alexander wrapping a heavy coat tightly around Juliana's shoulders.
+e18_u021 | 32.5-36.5 | ACTION | Alexander clutches Juliana against his chest with one strong arm, shielding her face from the sparks.
+e18_u022 | 33.2-35.2 | DIALOGUE | ALEXANDER (Firm, Protective): "Stay close to me."
+e18_u023 | 36.5-39.0 | CAMERA | Reverse shot from behind them facing the burning door frame as wall-high flames roar, completely sealing their exit.
+e18_u024 | 38.0-41.5 | ACTION | Juliana recoils from the heat, clutching Alexander's coat tightly.
+e18_u025 | 39.5-41.8 | DIALOGUE | JULIANA (Panic-Stricken, Choked): "We cannot get through!"
+e18_u026 | 42.0-43.5 | DIALOGUE | ALEXANDER (Resolute, Calm Under Pressure): "Then we go another way."
+e18_u027 | 43.5-48.8 | CAMERA | Tracking shot as Alexander turns, grabbing Juliana's hand, and pulls her quickly through the burning corridors.
+e18_u028 | 45.0-48.5 | SFX | Loud wooden groaning and thunderous crash of burning rafters falling behind them.
+e18_u029 | 48.8-52.5 | CAMERA | Medium tracking shot focusing on Juliana's wide, soot-streaked eyes as they navigate through falling embers.
+e18_u030 | 52.5-56.2 | CAMERA | Close-up of the antique, leather-bound herbal ledger resting on a burning wooden table, the edges of its pages beginning to curl and singe in the heat.
+e18_u031 | 56.2-58.5 | ACTION | Juliana spots the book and halts abruptly, pointing back toward the burning desk.
+e18_u032 | 56.5-57.8 | DIALOGUE | JULIANA (Frantic, Desperate): "The ledger!"
+e18_u033 | 57.8-60.0 | ACTION | Alexander firmly grips her arm, pulling her back toward safety.
+e18_u034 | 58.0-59.2 | DIALOGUE | ALEXANDER (Stern, Shouting): "Leave it!"
+e18_u035 | 59.3-62.5 | DIALOGUE | JULIANA (Hysterical, Screaming): "No! No!"
+e18_u036 | 63.0-65.5 | CAMERA | Low-angle shot pointing up at the ceiling beams overhead, engulfed in roaring fire and splitting down the center.
+e18_u037 | 65.5-68.0 | ACTION | Alexander points upward with urgency, pulling her under his arm.
+e18_u038 | 65.8-68.0 | DIALOGUE | ALEXANDER (Loud, Alarmed): "Juliana, the ceiling is coming down!"
+e18_u039 | 68.0-70.5 | ACTION | Juliana wrests her hand from his grasp and charges straight toward the burning desk.
+e18_u040 | 70.5-73.5 | CAMERA | Wide shot of the room as a massive burning crossbeam collapses into the floorboards with a fiery explosion.
+e18_u041 | 73.5-75.5 | DIALOGUE | ALEXANDER (Roaring in Terror): "Juliana!"
+e18_u042 | 75.0-76.8 | DIALOGUE | JULIANA (Defiant, Weeping): "It's my mother's!"
+e18_u043 | 76.8-81.5 | ACTION | Juliana snatches the scorched leather ledger from the burning table, pulling it tightly against her chest with both bandaged hands.
+e18_u044 | 81.5-83.5 | CAMERA | Close-up of the ceiling rafter splitting violently apart above her.
+e18_u045 | 83.5-86.5 | CAMERA | Close-up of Juliana looking up in sheer terror, firelight dancing across her tearful face.
+e18_u046 | 84.0-86.2 | DIALOGUE | JULIANA (Screaming, Blood-Curdling): "Alexander!"
+e18_u047 | 86.5-89.5 | ACTION | Alexander lunges across the room, tackling her to the wooden floor and covering her body entirely with his own.
+e18_u048 | 86.5-87.5 | DIALOGUE | ALEXANDER (Screaming Command): "Down!"
+e18_u049 | 87.8-90.0 | SFX | Massive wooden beam crashes directly where Juliana had been standing, showering them in sparks.
+e18_u050 | 89.5-94.0 | CAMERA | Ground-level shot of Alexander lying on top of Juliana, his chest shielding her, his face smeared with soot.
+e18_u051 | 91.5-98.0 | ACTION | Alexander lifts his head slightly, checking her face and cradling her cheek tenderly.
+e18_u052 | 96.5-98.2 | DIALOGUE | ALEXANDER (Panting, Reassuring): "I've got you."
+e18_u053 | 98.5-101.5 | CAMERA | Wide shot of the walls collapsing in curtains of flame, cutting off all interior hallways.
+e18_u054 | 101.5-104.5 | ACTION | Alexander scoops Juliana up in his arms, carrying her bridal-style as she clutches the ledger.
+e18_u055 | 103.5-105.5 | ACTION | Juliana looks toward the side wall and points frantically at the parlor window.
+e18_u056 | 103.8-105.0 | DIALOGUE | JULIANA (Urgent, Shouting): "The window!"
+e18_u057 | 105.2-106.8 | DIALOGUE | ALEXANDER (Steely, Determined): "Hold on to me."
+e18_u058 | 106.8-109.5 | CAMERA | Medium close-up of Alexander gritting his teeth, holding Juliana securely as she buries her face into his neck.
+e18_u059 | 109.5-114.0 | CAMERA | Slow-motion shot as Alexander sprints through the burning room toward the framed glass window.
+e18_u060 | 111.5-115.5 | ACTION | Alexander leaps forward, using his shoulder and back to shatter through the burning window frame, carrying Juliana safely in his arms out into the night.
+e18_u061 | 112.0-115.5 | SFX | Loud explosion of shattering window glass and splintering wood.
+e18_u062 | 115.5-119.8 | CAMERA | Wide interior shot as the entire parlor collapses into an uncontrollable inferno of roaring flames.
+e18_u063 | 119.8-124.0 | CAMERA | Night exterior shot in the dark grass outside. Juliana sits over Alexander, brushing ashes from his face as he coughs and catches his breath.
+e18_u064 | 124.0-128.5 | CAMERA | Wide shot of villagers running toward the cottage carrying wooden water buckets through the smoke-filled darkness.
+e18_u065 | 128.5-134.5 | CAMERA | Close-up of Juliana kneeling in the mud, her face blackened with soot and tears streaming down her cheeks as she clutches the charred ledger.
+e18_u066 | 134.5-140.0 | CAMERA | Wide shot of the cottage completely consumed by towering flames against the dark night sky.
+e18_u067 | 136.2-138.0 | DIALOGUE | JULIANA (Sobbing, Heartbroken): "Our home..."
+e18_u068 | 139.8-142.5 | DIALOGUE | JULIANA (Crying, Shattered): "Everything we had is gone."
+e18_u069 | 140.5-144.0 | ACTION | Alexander kneels beside her in the grass, resting a steady, protective hand on her back.
+e18_u070 | 144.0-155.0 | ACTION | Juliana turns toward Alexander, her hand trembling as she reaches out and touches his chest.
+e18_u071 | 145.8-148.5 | DIALOGUE | JULIANA (Voice Breaking, Anguished): "Why would anyone do this?"
+e18_u072 | 153.2-154.8 | DIALOGUE | JULIANA (Whispering, Tearful): "Alexander..."
+e18_u073 | 155.0-161.0 | ACTION | Alexander draws her firmly into his arms, wrapping both burly arms around her as she buries her face into his shoulder, weeping uncontrollably.
+e18_u074 | 158.0-160.8 | DIALOGUE | ALEXANDER (Cold, Ominous): "Someone wanted us out."
+e18_u075 | 163.0-165.5 | DIALOGUE | JULIANA (Despairing, Weeping): "We have nowhere to go."
+e18_u076 | 165.5-171.0 | CAMERA | Slow push-in on Alexander's face over Juliana's shoulder. His expression hardens into a mask of pure, lethal fury.
+e18_u077 | 171.0-179.5 | CAMERA | Extreme close-up of Alexander's piercing eyes and combat scar bathed in the flickering orange glow of the fire.
+e18_u078 | 171.8-177.2 | DIALOGUE | ALEXANDER (Cold Fury, Resolute): "They took our home. I will not let them take anything else now."
+e18_u079 | 179.5-184.0 | ACTION | Juliana slowly pulls back slightly from his embrace, her tear-filled blue eyes looking up into his hardened features.
+e18_u080 | 184.2-186.5 | DIALOGUE | JULIANA (Trembling, Apprehensive): "What are you going to do?"
+e18_u081 | 186.5-192.0 | CAMERA | Dramatic hold on Alexander's grim, unyielding profile as he stares into the inferno with unshakeable resolve, the swelling score echoing a vow of vengeance into the final cut to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

@@ -1,0 +1,57 @@
+[
+  {
+    "candidate_id": "c03r",
+    "proposal": {
+      "retry_of": "c03",
+      "start_unit_id": "e18_u065",
+      "end_unit_id": "e18_u078",
+      "hook": {
+        "unit_ids": [
+          "e18_u065"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Juliana in the mud, soot-covered and clutching the charred ledger.",
+        "evidence": "The visual impact of the survivor holding the only remnant of her life immediately establishes the stakes."
+      },
+      "cliffhanger_unit_id": "e18_u078",
+      "reason": "This window captures the emotional core and the transition to the vow of vengeance within the 60-second limit."
+    },
+    "retry_of": "c03",
+    "norm": {
+      "start_unit_id": "e18_u065",
+      "end_unit_id": "e18_u078",
+      "hook": {
+        "unit_ids": [
+          "e18_u065"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Juliana in the mud, soot-covered and clutching the charred ledger.",
+        "evidence": "The visual impact of the survivor holding the only remnant of her life immediately establishes the stakes."
+      },
+      "cliffhanger_unit_id": "e18_u078",
+      "reason": "This window captures the emotional core and the transition to the vow of vengeance within the 60-second limit."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 7.7s (128.5-136.2)",
+      "camera-only stretch 6.3s (165.5-171.8)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 128.5,
+    "end": 179.5,
+    "duration": 51.0,
+    "segments": [
+      {
+        "start_unit": "e18_u065",
+        "end_unit": "e18_u078",
+        "start": 128.5,
+        "end": 179.5
+      }
+    ]
+  }
+]

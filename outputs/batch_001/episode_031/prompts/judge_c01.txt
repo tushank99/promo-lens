@@ -1,0 +1,72 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Catherine enters the wet cells armed with a red-hot iron and Juliana's late mother's botanical book, subjecting the chained heiress to ruthless psychological torment until Juliana's unyielding pride pushes Catherine to a violent brink.
+CONTINUITY NOTES: Follows directly from Episode 30 where Rupert and Catherine plotted to frame Juliana as a witch while Juliana huddled chained in the subterranean dungeon.
+
+CLIP: 0.0s to 43.0s (43.0s). Units below: id | seconds from clip start | type | text.
+e31_u001 | 0.0-2.8 | CAMERA | Static medium shot of the heavy, iron-studded dungeon door as the massive bolt loudly slides open.
+e31_u002 | 0.0-2.8 | SFX | Heavy iron latch sliding back with an ominous, echoing metallic clang, followed by the deep groaning creak of the cell door swinging inward.
+e31_u003 | 2.8-4.2 | CAMERA | Medium close-up of Juliana huddled against the stone wall, bound in heavy iron chains, shivering in her torn apron and lifting her tear-streaked face in dread.
+e31_u004 | 2.8-4.2 | ACTION | Juliana recoils against the damp stonework, her eyes wide with terror as light floods into the dark cell.
+e31_u005 | 4.2-9.5 | CAMERA | Full shot framed through the arched doorway. Catherine stands imperiously in an ornate, gold-embroidered violet gown, holding a smoldering hot poker and a charred leather-bound book, flanked by two stone-faced guards with lanterns.
+e31_u006 | 6.9-8.8 | DIALOGUE | CATHERINE (Cruel, Condescending): "Look at you."
+e31_u007 | 9.5-10.5 | CAMERA | Low-angle close-up of Juliana looking up from the stone floor, her gaze hardening despite her fear.
+e31_u008 | 10.5-13.8 | CAMERA | Tight close-up of Catherine's face, bathed in the orange flickering glow of the red-hot branding iron, smiling with pure malice.
+e31_u009 | 10.5-13.8 | DIALOGUE | CATHERINE (Mocking, Venomous): "The great Lady Juliana Ashcroft."
+e31_u010 | 13.8-17.6 | CAMERA | Over-the-shoulder wide shot past Catherine looking down at Juliana shackled helplessly on the wet stone floor.
+e31_u011 | 14.0-17.6 | DIALOGUE | CATHERINE (Taunting): "Chained in a dungeon like a common criminal."
+e31_u012 | 17.6-20.8 | CAMERA | Close-up of Juliana, her eyes glistening with unshed tears, speaking with quiet defiance.
+e31_u013 | 17.8-20.5 | DIALOGUE | JULIANA (Defiant, Steady): "You seem very pleased."
+e31_u014 | 20.8-24.5 | CAMERA | Low-angle shot looking up at Catherine towering over Juliana, holding the glowing poker at her side.
+e31_u015 | 21.0-23.5 | DIALOGUE | CATHERINE (Smug, Chilling): "I am."
+e31_u016 | 24.5-29.0 | CAMERA | Extreme close-up of the bent, white-hot tip of the poker radiating heat, with Catherine's face blurred in the background as she gazes down with predatory pleasure.
+e31_u017 | 25.0-28.9 | DIALOGUE | CATHERINE (Whispering, Sinister): "Because this is what you were always meant to be."
+e31_u018 | 29.0-34.8 | CAMERA | Over-the-shoulder medium shot focusing on Juliana as Catherine presents the charred, singed pages of the botanical book.
+e31_u019 | 29.3-34.8 | DIALOGUE | CATHERINE (Scornful): "Your family dressed you like a lady. They educated you. They gave you a respectable name."
+e31_u020 | 34.8-39.0 | CAMERA | Close-up of Catherine's face breaking into an arrogant, haughty laugh.
+e31_u021 | 35.0-38.9 | DIALOGUE | CATHERINE (Amused, Spiteful): "[chuckles] And still you became a disgrace."
+e31_u022 | 39.0-43.0 | CAMERA | Tight close-up of Juliana's fierce, unwavering gaze as she retorts without hesitation.
+e31_u023 | 39.2-43.0 | DIALOGUE | JULIANA (Fierce, Unbroken): "I became a disgrace when I refused to become cruel."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

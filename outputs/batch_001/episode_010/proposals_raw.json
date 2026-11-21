@@ -1,0 +1,47 @@
+{
+  "episode": 10,
+  "prompt_hash": "eedace5012794724",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.31,
+    "tokens_in": 3550,
+    "tokens_out": 351
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e10_u003",
+        "end_unit_id": "e10_u030",
+        "hook": {
+          "unit_ids": [
+            "e10_u003"
+          ],
+          "modality": "audio",
+          "description": "A heavy wooden door suddenly creaks and bangs open.",
+          "evidence": "The sudden, jarring sound creates immediate tension and curiosity about the intruder."
+        },
+        "cliffhanger_unit_id": "e10_u030",
+        "reason": "The sudden arrival of a bloodied man followed by the reveal of his horrific scars creates high stakes and immediate emotional investment."
+      },
+      {
+        "start_unit_id": "e10_u031",
+        "end_unit_id": "e10_u060",
+        "hook": {
+          "unit_ids": [
+            "e10_u032"
+          ],
+          "modality": "visual",
+          "description": "Extreme close-up of Juliana's trembling fingers hovering over a jagged scar.",
+          "evidence": "The intimate, vulnerable visual of the scars immediately establishes the show's romantic and dramatic tone."
+        },
+        "cliffhanger_unit_id": "e10_u060",
+        "reason": "This segment focuses on the intense, slow-burn romantic tension and the emotional confession between the two leads."
+      }
+    ]
+  },
+  "note": null
+}

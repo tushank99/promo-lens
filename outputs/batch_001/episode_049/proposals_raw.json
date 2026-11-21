@@ -1,0 +1,62 @@
+{
+  "episode": 49,
+  "prompt_hash": "93661e62803e9e4c",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.9,
+    "secs": 2.98,
+    "tokens_in": 3960,
+    "tokens_out": 556,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e49_u013",
+        "end_unit_id": "e49_u031",
+        "hook": {
+          "unit_ids": [
+            "e49_u013"
+          ],
+          "modality": "visual",
+          "description": "Tight close-up on Father Thomas's face, the candlelight dancing in his calculating eyes.",
+          "evidence": "The intense, intimate visual of a priest in a secret meeting immediately establishes a forbidden, high-stakes atmosphere."
+        },
+        "cliffhanger_unit_id": "e49_u031",
+        "reason": "This segment captures the tension of a secret alliance and the high-stakes demand for control over the council."
+      },
+      {
+        "start_unit_id": "e49_u033",
+        "end_unit_id": "e49_u054",
+        "hook": {
+          "unit_ids": [
+            "e49_u033"
+          ],
+          "modality": "spoken",
+          "description": "Father Thomas demands, 'What is it you actually need from me, Catherine? Say it plainly, for once.'",
+          "evidence": "The direct, confrontational question cuts through the mystery and forces the viewer to listen for the dangerous terms of their deal."
+        },
+        "cliffhanger_unit_id": "e49_u054",
+        "reason": "The negotiation of treasonous terms between a disgraced bride and a priest creates immediate narrative stakes."
+      },
+      {
+        "start_unit_id": "e49_u046",
+        "end_unit_id": "e49_u063",
+        "hook": {
+          "unit_ids": [
+            "e49_u046"
+          ],
+          "modality": "spoken",
+          "description": "Father Thomas asks, 'what happens to me when the Duke finds out a crowned priest conspired against him?'",
+          "evidence": "The mention of treason against a Duke provides a clear, life-or-death consequence that hooks the viewer."
+        },
+        "cliffhanger_unit_id": "e49_u063",
+        "reason": "The final moments of the pact, ending with a tender but dangerous touch, provide a compelling emotional payoff."
+      }
+    ]
+  },
+  "note": null
+}

@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "04cb337714da14e7",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.1,
+    "secs": 2.86,
+    "tokens_in": 2480,
+    "tokens_out": 205
+  },
+  "asked_for": [
+    "c02"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e29_u029",
+        "end_unit_id": "e29_u044",
+        "hook": {
+          "unit_ids": [
+            "e29_u029"
+          ],
+          "modality": "visual",
+          "description": "Tight close-up of Catherine's eyes narrowing into an icy, venomous gaze.",
+          "evidence": "The visual intensity of the villain's gaze establishes the immediate threat within 3 seconds of the start."
+        },
+        "cliffhanger_unit_id": "e29_u044",
+        "reason": "This window captures the escalation of the threat and ends on the protagonist's defiant declaration."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

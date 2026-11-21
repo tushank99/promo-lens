@@ -1,0 +1,77 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When Alexander returns to the cottage gravely wounded and soaked in blood, Juliana tends to his injuries, leading to an intimate confrontation where their unspoken feelings and scarred pasts finally collide.
+CONTINUITY NOTES: Follows the ominous revelation from Episode 9 of rumors circulating about a scarred war veteran, cutting directly to the secluded cottage where Alexander arrives bearing fresh wounds.
+
+CLIP: 2.1s to 39.2s (37.1s). Units below: id | seconds from clip start | type | text.
+e10_u003 | 0.0-1.2 | SFX | A heavy wooden door suddenly creaks and bangs open in the quiet cottage.
+e10_u004 | 0.1-1.4 | ACTION | Juliana jerks her head up from the book, startled by the sudden intrusion.
+e10_u005 | 0.5-2.1 | CAMERA | Medium wide shot framing the doorway as Alexander stands framed in the dark threshold, panting heavily, his hand pressed against his blood-soaked chest.
+e10_u006 | 2.1-4.7 | CAMERA | Medium close-up of Juliana rising swiftly from her chair, shock and terror flashing across her face.
+e10_u007 | 3.0-4.5 | DIALOGUE | JULIANA (Alarmed, Breathless): "Alexander!"
+e10_u008 | 4.7-7.0 | CAMERA | Close-up of Alexander struggling to breathe, clutching his bloodied coat over his chest.
+e10_u009 | 5.4-6.9 | DIALOGUE | ALEXANDER (Gruff, Strained): "It is nothing."
+e10_u010 | 7.0-9.4 | CAMERA | Medium shot of Juliana hurriedly stepping toward him across the stone floor.
+e10_u011 | 7.1-9.3 | DIALOGUE | JULIANA (Urgent, Worried): "There is blood running down your arm."
+e10_u012 | 9.4-12.1 | CAMERA | Medium profile two-shot as Alexander stands rigid while Juliana confronts him.
+e10_u013 | 9.8-12.2 | DIALOGUE | ALEXANDER (Stiff, Dismissive): "A cut from the tenant fields."
+e10_u014 | 12.1-13.9 | CAMERA | Wide shot of the hearth room as Juliana firmly points toward a wooden armchair beside the fire.
+e10_u015 | 12.4-13.9 | DIALOGUE | JULIANA (Commanding, Resolute): "Sit down."
+e10_u016 | 13.9-15.7 | CAMERA | Close-up of Juliana's determined, unyielding expression.
+e10_u017 | 14.1-15.2 | DIALOGUE | JULIANA (Stern): "Now."
+e10_u018 | 15.7-17.9 | CAMERA | Medium shot of Alexander reluctantly lowering his heavy frame onto the chair in front of the fire.
+e10_u019 | 17.9-20.9 | CAMERA | Medium tracking shot following Juliana as she brings a wooden washbowl, fresh cloth, and an earthen jar of ointment to the foot of his chair.
+e10_u020 | 18.8-20.8 | DIALOGUE | JULIANA (Gentle, Insistent): "I need to see the wound."
+e10_u021 | 20.9-23.1 | CAMERA | Low-angle close-up of Alexander looking up at her stubbornly.
+e10_u022 | 21.1-22.8 | DIALOGUE | ALEXANDER (Low, Defiant): "It is only a scratch."
+e10_u023 | 23.1-25.9 | CAMERA | Medium shot of Juliana crossing her arms over her chest, eyeing him with quiet defiance.
+e10_u024 | 23.4-25.9 | DIALOGUE | JULIANA (Sarcastic, Challenging): "Then removing your shirt should not trouble you."
+e10_u025 | 25.9-29.7 | CAMERA | Medium shot as Alexander stares at her for a beat before pushing himself up from the chair and shedding his heavy leather coat.
+e10_u026 | 29.7-31.1 | CAMERA | Close-up of Juliana observing him with guarded anticipation.
+e10_u027 | 31.1-34.4 | CAMERA | Close-up shot of Alexander pulling his dark shirt over his head, revealing his muscular torso crisscrossed with jagged battle scars and fresh bleeding lacerations.
+e10_u028 | 34.4-35.9 | CAMERA | Tight pan over the scarred, wounded flesh along his chest and ribs.
+e10_u029 | 35.9-37.1 | CAMERA | Close-up of Juliana's eyes widening in horror and deep pity.
+e10_u030 | 36.0-36.8 | DIALOGUE | JULIANA (Whispering, Distressed): "Dear God."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

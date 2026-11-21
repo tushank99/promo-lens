@@ -1,0 +1,63 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Emerging from the smoke of the shattered cathedral gates in full ducal regalia, Alexander confronts Rupert, wins the loyalty of the royal guards, and is proclaimed the rightful Duke of Ashburn by his weeping mother.
+CONTINUITY NOTES: Directly follows Episode 41 where Alexander's forces breached the cathedral entrance; Alexander now steps through the ruins, halting the wedding and unmasking Rupert's illegitimate reign.
+
+CLIP: 39.9s to 77.8s (37.9s). Units below: id | seconds from clip start | type | text.
+e42_u024 | 0.0-4.9 | CAMERA | Medium shot of an elderly silver-haired woman in simple ivory robes stepping into the aisle, her hands outstretched in trembling awe.
+e42_u025 | 0.3-2.6 | DIALOGUE | ALEXANDER'S MOTHER (Choked with Tears): "Alexander..."
+e42_u026 | 4.9-8.1 | ACTION | Alexander halts his march as his mother reaches him, placing her frail hands gently upon his chest.
+e42_u027 | 8.1-9.1 | DIALOGUE | ALEXANDER (Soft, Reverent): "Mother."
+e42_u028 | 9.1-14.1 | ACTION | His mother gently cradles Alexander's scarred cheek, tears streaming down her face as guests in the background watch in stunned silence.
+e42_u029 | 9.3-13.9 | DIALOGUE | ALEXANDER'S MOTHER (Overcome, Loving): "Look at you... my beautiful boy."
+e42_u030 | 14.1-23.6 | CAMERA | Medium two-shot framed down the ruined nave between Alexander and his mother.
+e42_u031 | 14.1-21.9 | DIALOGUE | ALEXANDER'S MOTHER (Tearful, Proud): "I saw you again... but seeing you like this... I see my son as he was always meant to be."
+e42_u032 | 22.1-24.1 | DIALOGUE | ALEXANDER (Tender, Resolute): "I have come home, Mother."
+e42_u033 | 24.1-32.6 | ACTION | Alexander's mother turns toward the gathered nobility and guards, raising her chin and pointing proudly toward Alexander.
+e42_u034 | 24.3-32.5 | DIALOGUE | ALEXANDER'S MOTHER (Ringing, Authoritative): "Let everyone hear me! This is my son... Alexander Ashburn. The rightful Duke of Ashburn!"
+e42_u035 | 32.6-33.9 | CAMERA | Medium shot of Rupert cowering on the altar steps beside Catherine and her father, utterly defeated.
+e42_u036 | 33.9-37.9 | CAMERA | Tight close-up on Alexander, his hand resting on the hilt of his sabre as his eyes burn with fierce, cold retribution.
+e42_u037 | 33.9-37.6 | DIALOGUE | ALEXANDER (Grim, Vengeful): "And now, Rupert... we settle what you stole."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

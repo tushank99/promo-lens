@@ -1,0 +1,134 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "9d9ce1acbdfc47b6",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 10.6,
+      "secs": 3.28,
+      "tokens_in": 1989,
+      "tokens_out": 1164
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e12_u018",
+          "e12_u019",
+          "e12_u020"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e12_u024",
+          "e12_u032",
+          "e12_u039",
+          "e12_u045"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e12_u019",
+          "e12_u024",
+          "e12_u032",
+          "e12_u045"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e12_u019",
+          "e12_u032",
+          "e12_u037",
+          "e12_u045"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e12_u044",
+          "e12_u045"
+        ]
+      },
+      "hook_unit_id": "e12_u019",
+      "hook_type": "shocking_line",
+      "emotion_type": "fear",
+      "trope": "threatened spouse",
+      "central_conflict": "Juliana must retrieve Clarissa's emerald signet ring from frozen blackthorn briars with her bare hands or her husband will be executed.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02r",
+    "prompt_hash": "a329db4080707a2b",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 2,
+      "waited_s": 36.3,
+      "secs": 3.52,
+      "tokens_in": 1869,
+      "tokens_out": 1401
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e12_u034",
+          "e12_u033"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e12_u039",
+          "e12_u045",
+          "e12_u048",
+          "e12_u054"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e12_u041",
+          "e12_u045",
+          "e12_u048",
+          "e12_u049",
+          "e12_u051",
+          "e12_u054"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e12_u039",
+          "e12_u045",
+          "e12_u048",
+          "e12_u054",
+          "e12_u055"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e12_u054",
+          "e12_u055"
+        ]
+      },
+      "hook_unit_id": "e12_u034",
+      "hook_type": "shocking_line",
+      "emotion_type": "fear",
+      "trope": "deadly retrieval ultimatum",
+      "central_conflict": "Juliana must retrieve Clarissa's emerald signet ring from frozen blackthorn briars with her bare hands or her husband will be executed.",
+      "spoils_main_twist": false
+    }
+  }
+]

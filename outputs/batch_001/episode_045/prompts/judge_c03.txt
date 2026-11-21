@@ -1,0 +1,67 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Alexander frees Juliana from her chains and proclaims her the Duchess of Ashburton before the stunned congregation, only for an ecclesiastical authority to burst in and declare their marriage legally invalid.
+CONTINUITY NOTES: Picks up directly from Episode 44's climax where Alexander walked away from Catherine towards Juliana standing in chains at the church doorway.
+
+CLIP: 86.5s to 121.75s (35.25s). Units below: id | seconds from clip start | type | text.
+e45_u057 | 0.0-4.0 | CAMERA | Wide tracking shot down the cathedral aisle as the massive wooden entrance doors slam open, framed by blinding daylight and mist.
+e45_u058 | 0.0-1.7 | SFX | Loud, echoing thud of cathedral doors swinging open violently.
+e45_u059 | 1.0-4.5 | ACTION | A Catholic Bishop in dark vestments steps through the cathedral doors accompanied by an armed Crown officer.
+e45_u060 | 1.9-4.3 | DIALOGUE | HIGH PRIEST (Booming, Stern): "No one will bow yet!"
+e45_u061 | 4.3-6.5 | CAMERA | Low-angle shot on Alexander and Juliana turning in alarm toward the rear of the cathedral.
+e45_u062 | 6.5-14.7 | CAMERA | Medium shot of the High Priest striding down the aisle, holding up an official royal parchment bearing red wax seals.
+e45_u063 | 6.7-14.5 | ACTION | The Priest holds up the sealed royal proclamation, holding his rosary beads as he marches forward.
+e45_u064 | 6.7-14.6 | DIALOGUE | HIGH PRIEST (Commanding, Severe): "This ceremony was performed without a Crown marriage license, by a priest without authority to sanctify a ducal union."
+e45_u065 | 14.7-19.3 | CAMERA | Close-up on the High Priest unfolding the document, reading aloud to the congregation.
+e45_u066 | 15.0-19.0 | DIALOGUE | HIGH PRIEST (Stern, Official): "These vows were never entered into the Royal Matrimonial Register."
+e45_u067 | 19.3-22.3 | CAMERA | Medium shot of Alexander shielding Juliana behind him as the Crown officer approaches with drawn sword.
+e45_u068 | 19.7-22.3 | DIALOGUE | HIGH PRIEST (Harsh, Resolute): "Before the Crown, you are not Duchess of Ashburton."
+e45_u069 | 22.3-26.7 | CAMERA | Close-up of the High Priest scowling directly at Juliana with unyielding authority.
+e45_u070 | 22.5-26.5 | DIALOGUE | HIGH PRIEST (Unyielding, Condemning): "You are not Alexander Ashburton's lawful wife."
+e45_u071 | 26.7-31.0 | CAMERA | Close-up two-shot of Juliana gasping in terror, clutching Alexander's hand tightly as Alexander glares at the Priest.
+e45_u072 | 27.0-30.7 | ACTION | Juliana looks up at Alexander in sudden panic, her fingers gripping his leather-gloved hand.
+e45_u073 | 31.0-35.2 | CAMERA | Slow push-in close-up on Catherine beneath her veil, her initial despair morphing into a cold, venomous, triumphant smile as the episode cuts.
+e45_u074 | 31.5-35.2 | ACTION | Catherine raises her chin, a vindictive smirk spreading across her lips as she realizes her rival's claim has just been torn to pieces.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

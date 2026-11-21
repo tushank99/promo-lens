@@ -1,0 +1,107 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: When the Constable attempts to arrest Alexander for grand theft, Clarissa offers Juliana a sadistic ultimatum: retrieve a signet ring from frozen, razor-sharp blackthorn briars with her bare hands, or watch her husband hang.
+CONTINUITY NOTES: Picks up directly from Episode 11's cliffhanger where the Constable pulls Gerald's planted gold pocket watch from Alexander's trench coat.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:27.2 (87.2 s).
+- Scene 01 (INT. COTTAGE – CONTINUOUS): 0.0-87.2 s, units e12_u001..e12_u055.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 78.2-81.5 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e12_u001 | 0.0-4.6 | CAMERA | Medium shot of the Constable raising a set of heavy iron handcuffs, addressing Alexander sternly in front of the stone hearth.
+e12_u002 | 0.5-4.5 | DIALOGUE | CONSTABLE (Authoritative, Stern): "Put out your hands, veteran. You are under arrest for theft."
+e12_u003 | 4.6-9.1 | CAMERA | Medium shot of Juliana swiftly moving in front of Alexander, placing herself defiantly between him and the Constable's outstretched handcuffs.
+e12_u004 | 4.8-6.0 | ACTION | Juliana steps firmly forward, shielding Alexander with her body.
+e12_u005 | 5.7-8.8 | DIALOGUE | JULIANA (Furious, Defiant): "No! That watch was not in his coat!"
+e12_u006 | 9.1-11.8 | CAMERA | Close-up of the Constable narrowing his eyes coldly at Juliana.
+e12_u007 | 10.0-11.7 | DIALOGUE | CONSTABLE (Blunt, Unyielding): "I found it there myself."
+e12_u008 | 11.8-13.9 | CAMERA | Close-up of Juliana glaring back with unwavering conviction.
+e12_u009 | 12.3-13.9 | DIALOGUE | JULIANA (Passionate, Accusatory): "Then someone put it there!"
+e12_u010 | 13.9-20.8 | CAMERA | Medium full shot of Gerald framed in the open cottage doorway holding his riding crop, stepping inside with a patronizing, gloating grin.
+e12_u011 | 14.3-20.6 | DIALOGUE | GERALD (Smug, Condescending): "The proof is in his coat, Juliana. A valuable pocket watch doesn't just walk into a beggar's pocket."
+e12_u012 | 20.8-23.7 | CAMERA | Close-up of Alexander, his scarred brow furrowed in dark, quiet defiance.
+e12_u013 | 21.6-23.6 | DIALOGUE | ALEXANDER (Low, Steady, Dangerous): "I have never touched your property."
+e12_u014 | 23.7-26.9 | CAMERA | Medium shot of Gerald pointing his riding crop toward them, with Clarissa hovering behind him in her violet silk gown.
+e12_u015 | 23.7-26.8 | DIALOGUE | GERALD (Mocking, Malicious): "Then perhaps your wife should explain why it was found in your coat."
+e12_u016 | 26.8-28.0 | ACTION | Juliana lunges a step forward, jabbing an accusing finger toward Gerald.
+e12_u017 | 26.8-27.9 | DIALOGUE | JULIANA (Enraged, Shouting): "You planted it!"
+e12_u018 | 28.0-29.8 | CAMERA | Medium shot of Clarissa gliding past Gerald, a venomous, amused smile playing upon her lips.
+e12_u019 | 28.1-30.0 | DIALOGUE | CLARISSA (Purring, Taunting): "Oh, dear sister..."
+e12_u020 | 29.8-31.0 | CAMERA | Tight shot of Alexander's hand clenching into a tight, trembling fist against the glow of the roaring fireplace.
+e12_u021 | 31.0-32.4 | CAMERA | Close-up of Alexander glaring daggers at Clarissa.
+e12_u022 | 30.0-32.4 | DIALOGUE | CLARISSA (Continuing taunt): "...still defending your broken scrap of a man?"
+e12_u023 | 32.4-35.3 | CAMERA | Medium close-up of Juliana, her eyes narrowing with sharp perception.
+e12_u024 | 32.4-35.2 | DIALOGUE | JULIANA (Steely, Resolute): "Name your price, Clarissa. I know you."
+e12_u025 | 35.3-40.0 | CAMERA | Medium close-up of Clarissa smiling with vicious delight.
+e12_u026 | 35.4-40.0 | DIALOGUE | CLARISSA (Smooth, Derisive): "You always were clever, Juliana. Always searching for some way to escape."
+e12_u027 | 40.0-41.8 | CAMERA | Tight shot of Clarissa smoothing her long purple evening glove along her wrist.
+e12_u028 | 40.1-41.5 | DIALOGUE | CLARISSA (Scheming): "Perhaps I can give you one."
+e12_u029 | 41.8-43.7 | CAMERA | Close-up of Juliana watching her with cautious skepticism.
+e12_u030 | 42.2-43.5 | DIALOGUE | JULIANA (Guarded, Cold): "What do you want?"
+e12_u031 | 43.7-46.6 | CAMERA | Medium two-shot of Clarissa in the foreground, turning slowly to face Juliana.
+e12_u032 | 44.0-46.4 | DIALOGUE | CLARISSA (Cruel, Savoring): "I want to see you crawl, sister."
+e12_u033 | 46.6-52.4 | CAMERA | Medium close-up profile tracking shot of Clarissa pacing slowly as she spins her sadistic tale.
+e12_u034 | 46.7-52.3 | DIALOGUE | CLARISSA (Theatrical, Vindictive): "My emerald signet ring fell deep into the frozen blackthorn briars at Ashworth Manor. The thorns have grown over it..."
+e12_u035 | 52.4-56.8 | CAMERA | Close-up of Clarissa flexing her gloved fingers theatrically in front of her face.
+e12_u036 | 52.4-56.7 | DIALOGUE | CLARISSA (Chilling, Sarcastic): "...sharp as steel. The ground is frozen, like pure ice."
+e12_u037 | 56.8-58.0 | ACTION | Gerald bursts into a loud, mocking laugh beside the stony Constable.
+e12_u038 | 56.8-60.8 | CAMERA | Medium two-shot of Clarissa stepping closer to Juliana, peering down into her eyes with a predatory smile.
+e12_u039 | 57.3-60.6 | DIALOGUE | CLARISSA (Demanding, Brutal): "You will retrieve it with your bare hands before the magistrate arrives."
+e12_u040 | 60.8-63.2 | CAMERA | Medium shot of Gerald tapping his whip against his palm and laughing heartily beside the Constable.
+e12_u041 | 60.8-63.1 | DIALOGUE | GERALD (Gleeful, Derisive): "A lady's hands will be shredded to ribbons!"
+e12_u042 | 63.2-65.2 | CAMERA | Medium three-shot of Clarissa stepping behind Juliana, as Alexander watches helplessly with dark fury.
+e12_u043 | 63.3-65.1 | DIALOGUE | CLARISSA (Cold, Transactional): "Do it, and we withdraw the charges."
+e12_u044 | 65.2-69.5 | CAMERA | Extreme close-up of Clarissa's mouth leaning directly into Juliana's ear, whispering venomously.
+e12_u045 | 65.4-69.2 | DIALOGUE | CLARISSA (Whispering, Menacing): "Fail, or refuse, and your husband hangs from the gallows."
+e12_u046 | 69.5-74.0 | CAMERA | Medium close-up of Alexander stepping up beside Juliana, tenderly placing his large hand on her shoulder.
+e12_u047 | 69.6-71.2 | ACTION | Alexander rests his scarred hand reassuringly on Juliana's shoulder, leaning in toward her.
+e12_u048 | 69.8-73.8 | DIALOGUE | ALEXANDER (Desperate, Protective, Urgent): "Juliana, no. Do not let them hurt you. I can handle the law."
+e12_u049 | 74.0-81.8 | CAMERA | Close-up of Juliana, her eyes glistening with unshed tears, her hand gripping the fabric over her heart in agony and resolve.
+e12_u050 | 74.2-76.0 | ACTION | Juliana clutches the front of her rustic grey dress, her breathing trembling.
+e12_u051 | 75.3-78.2 | DIALOGUE | JULIANA (Fierce, Emotional, Sacrificial): "I am not letting them take you."
+e12_u052 | 81.5-83.0 | ACTION | Juliana turns her head sharply back toward Clarissa, her expression hardening with fierce resolution.
+e12_u053 | 81.8-87.2 | CAMERA | Over-the-shoulder shot past Clarissa onto Juliana's determined face, holding on her fierce, defiant stare as the tension peaks.
+e12_u054 | 82.8-84.7 | DIALOGUE | JULIANA (Steely, Resolute): "Tell me where the garden is."
+e12_u055 | 84.7-87.2 | ACTION | Juliana locks eyes with Clarissa without flinching as the scene freezes on her brave, sacrificial defiance.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

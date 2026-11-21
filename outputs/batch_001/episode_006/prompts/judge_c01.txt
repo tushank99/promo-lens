@@ -1,0 +1,72 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Seeking shelter from the cold rain, Juliana arrives at her new husband's modest woodland cottage and discovers an unexpected sense of peace beside the hearth.
+CONTINUITY NOTES: Picks up immediately from Episode 5, as Juliana and her mysterious new husband leave the Ashcroft estate behind and venture out into the rainy countryside.
+
+CLIP: 0.0s to 27.9s (27.9s). Units below: id | seconds from clip start | type | text.
+e06_u001 | 0.0-2.3 | CAMERA | Medium full tracking shot of Juliana and the Mysterious Bearded Man trudging along a muddy, rain-soaked path in the dark woods.
+e06_u002 | 0.0-3.4 | ACTION | Juliana lifts the hem of her white satin wedding gown to keep it out of the pooling mud, shivering under her dark hooded cloak.
+e06_u003 | 2.3-3.5 | CAMERA | Close-up on Juliana's wet hand clutching her muddy dress.
+e06_u004 | 2.3-6.5 | SFX | Heavy rain pouring through dense tree canopies with steady footfalls on wet earth.
+e06_u005 | 3.5-4.2 | CAMERA | Upward shot through the dripping, silhouetted branches into the stormy night sky.
+e06_u006 | 4.2-7.1 | CAMERA | Medium two-shot framing Juliana and the Mysterious Bearded Man as they pause in the misty woods.
+e06_u007 | 4.5-7.1 | ACTION | Juliana turns back toward him, water glistening on her face and hair.
+e06_u008 | 7.1-9.9 | CAMERA | Close-up on the Mysterious Bearded Man, his dark hair soaked and rain running down the scars on his cheek.
+e06_u009 | 7.2-9.8 | DIALOGUE | MYSTERIOUS BEARDED MAN (Solemn, Gentle): "I know this is not the life you came from."
+e06_u010 | 9.9-14.9 | CAMERA | Close-up on Juliana looking up into the rain, exhaling a soft breath of resignation.
+e06_u011 | 10.1-11.2 | DIALOGUE | JULIANA (Quiet, Melancholic): "No."
+e06_u012 | 11.3-13.0 | ACTION | Juliana looks upward into the canopy, gathering herself with a faint nod.
+e06_u013 | 13.4-14.6 | DIALOGUE | JULIANA (Resigned, Soft): "It isn't."
+e06_u014 | 14.9-17.2 | CAMERA | Medium close-up of the Mysterious Bearded Man, gazing down at her with quiet remorse.
+e06_u015 | 15.2-18.2 | DIALOGUE | MYSTERIOUS BEARDED MAN (Guilt-ridden): "You should not have had to walk through this rain tonight."
+e06_u016 | 17.2-18.3 | CAMERA | Close-up on Juliana's bodice and mother's pendant as she gathers her cloak closer.
+e06_u017 | 18.3-21.0 | CAMERA | Close-up of Juliana's face, offering a wistful, comforting smile.
+e06_u018 | 18.5-20.9 | DIALOGUE | JULIANA (Faintly Ironic, Resilient): "I suppose the day was already ruined."
+e06_u019 | 21.0-24.0 | CAMERA | Extreme close-up on the Mysterious Bearded Man's piercing eyes, touched by her lack of bitterness.
+e06_u020 | 24.0-26.1 | CAMERA | Wide establishing shot through tree branches showing a secluded, rustic stone cottage nestled among the misty trees.
+e06_u021 | 24.5-26.1 | ACTION | They walk forward toward the cottage emerging from the dark woods.
+e06_u022 | 26.1-27.9 | CAMERA | Medium close-up on Juliana's face, wide-eyed with realization.
+e06_u023 | 26.5-27.7 | DIALOGUE | JULIANA (Surprised, Hesitant): "That is it?"
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

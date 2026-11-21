@@ -1,0 +1,47 @@
+{
+  "episode": 24,
+  "prompt_hash": "8990b4b4ad351e6a",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 2.83,
+    "tokens_in": 4127,
+    "tokens_out": 333
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e24_u024",
+        "end_unit_id": "e24_u036",
+        "hook": {
+          "unit_ids": [
+            "e24_u024"
+          ],
+          "modality": "visual",
+          "description": "The noblewoman strikes Juliana with a riding crop.",
+          "evidence": "Immediate physical violence and power imbalance creates instant tension."
+        },
+        "cliffhanger_unit_id": "e24_u036",
+        "reason": "The brutal assault and the noblewoman's condescending threat establish high stakes and a clear villain."
+      },
+      {
+        "start_unit_id": "e24_u041",
+        "end_unit_id": "e24_u069",
+        "hook": {
+          "unit_ids": [
+            "e24_u041"
+          ],
+          "modality": "spoken",
+          "description": "The noblewoman commands Juliana to clean the hearth.",
+          "evidence": "The harsh command immediately establishes the maid's humiliation and the noblewoman's cruelty."
+        },
+        "cliffhanger_unit_id": "e24_u069",
+        "reason": "The transition from humiliation to secret defiance and the promise of revenge makes for a compelling character arc."
+      }
+    ]
+  },
+  "note": null
+}

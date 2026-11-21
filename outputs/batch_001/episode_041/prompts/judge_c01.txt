@@ -1,0 +1,65 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+At the height of Catherine and Rupert's lavish wedding, Juliana is paraded before high society in chains to be publicly disgraced—until a deafening explosion shatters the cathedral entrance, heralding Alexander's vengeful assault.
+CONTINUITY NOTES: Follows Episode 40 where Rupert and Catherine met at the altar; Catherine halts the vows to stage a public humiliation of Juliana, unaware that Alexander's forces are already detonating the cathedral gates.
+
+CLIP: 1.8s to 28.8s (27.0s). Units below: id | seconds from clip start | type | text.
+e41_u002 | 0.0-2.7 | ACTION | Catherine abruptly pulls away from Rupert and raises her white-gloved hand high, commanding silence from the congregation.
+e41_u003 | 0.0-1.0 | DIALOGUE | CATHERINE (Imperious, Commanding): "Wait."
+e41_u004 | 2.7-6.7 | CAMERA | Medium shot tracking Catherine as she pivots toward the seated aristocracy, her veil floating gracefully behind her.
+e41_u005 | 3.1-6.4 | DIALOGUE | CATHERINE (Haughty, Loud): "Before I become Duchess of Ashburgh..."
+e41_u006 | 6.7-11.2 | CAMERA | Close-up of Catherine's face, her lips curling into a sadistic, triumphant sneer.
+e41_u007 | 6.7-10.9 | DIALOGUE | CATHERINE (Cruel, Resonant): "...I want everyone to see what happens to a woman who dares defy this family."
+e41_u008 | 11.2-13.7 | CAMERA | Two-shot profile of Rupert and Catherine. Rupert turns to her with mild caution.
+e41_u009 | 11.4-12.2 | DIALOGUE | BLOND NOBLEMAN (Subdued, Inquiring): "Catherine..."
+e41_u010 | 12.2-13.5 | DIALOGUE | CATHERINE (Callous, Projecting): "Bring her in."
+e41_u011 | 13.7-15.7 | SFX | Heavy wooden creak of the cathedral double doors swinging open.
+e41_u012 | 13.7-18.2 | CAMERA | Wide shot from behind the altar down the aisle as the great church doors slowly open, revealing the silhouette of three figures against the daylight.
+e41_u013 | 15.7-18.2 | ACTION | Juliana, dressed in a coarse drab prison dress with a numbered identification badge, is marched forward by two armed constables holding her by the arms.
+e41_u014 | 18.2-21.0 | CAMERA | Extreme close-up of Juliana's scarred, dirtied wrists bound tight in heavy iron shackles.
+e41_u015 | 21.0-24.2 | CAMERA | Intense close-up of Juliana's bruised, dirt-streaked face. Her piercing blue eyes burn with fierce dignity despite her captive state.
+e41_u016 | 24.2-27.0 | CAMERA | Medium shot of Catherine standing beside the altar, watching Juliana's entrance with gloating satisfaction.
+e41_u017 | 25.0-26.6 | DIALOGUE | CATHERINE (Smug, Taunting): "There she is."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

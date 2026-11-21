@@ -1,0 +1,47 @@
+{
+  "episode": 21,
+  "prompt_hash": "95daa7839d032b4a",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 2.95,
+    "tokens_in": 4731,
+    "tokens_out": 344
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e21_u003",
+        "end_unit_id": "e21_u025",
+        "hook": {
+          "unit_ids": [
+            "e21_u003"
+          ],
+          "modality": "audio",
+          "description": "A loud wooden slam as the barn doors fly open.",
+          "evidence": "The sudden, violent sound immediately disrupts the quiet atmosphere and signals an urgent crisis."
+        },
+        "cliffhanger_unit_id": "e21_u025",
+        "reason": "This segment establishes the high-stakes medical emergency and the class conflict between the village and the manor."
+      },
+      {
+        "start_unit_id": "e21_u063",
+        "end_unit_id": "e21_u076",
+        "hook": {
+          "unit_ids": [
+            "e21_u063"
+          ],
+          "modality": "visual",
+          "description": "Prudence's expression darkening with anger as she speaks about the manor.",
+          "evidence": "The shift from relief to intense, ominous resentment creates immediate intrigue about the secret illness."
+        },
+        "cliffhanger_unit_id": "e21_u076",
+        "reason": "This moment pivots from a successful cure to a dark, dangerous secret regarding the Dowager Duchess."
+      }
+    ]
+  },
+  "note": null
+}

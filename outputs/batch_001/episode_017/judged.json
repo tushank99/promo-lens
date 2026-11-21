@@ -1,0 +1,134 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "22c1f6010295a231",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 10.4,
+      "secs": 3.17,
+      "tokens_in": 1654,
+      "tokens_out": 1235
+    },
+    "raw": {
+      "hook": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e17_u010",
+          "e17_u011"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e17_u011",
+          "e17_u013",
+          "e17_u015",
+          "e17_u023"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e17_u014",
+          "e17_u016",
+          "e17_u024",
+          "e17_u025",
+          "e17_u027"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e17_u013",
+          "e17_u017",
+          "e17_u019",
+          "e17_u020",
+          "e17_u025",
+          "e17_u027"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e17_u028",
+          "e17_u029"
+        ]
+      },
+      "hook_unit_id": "e17_u010",
+      "hook_type": "visual_shock",
+      "emotion_type": "romance",
+      "trope": "protective lover",
+      "central_conflict": "Alexander vows to protect Juliana from any future threats after she thanks him for defending her against attackers.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "9571fe21e628d641",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.8,
+      "secs": 3.05,
+      "tokens_in": 1430,
+      "tokens_out": 981
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e17_u040",
+          "e17_u041"
+        ]
+      },
+      "clarity": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e17_u041",
+          "e17_u045",
+          "e17_u047"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e17_u041",
+          "e17_u045",
+          "e17_u046",
+          "e17_u048",
+          "e17_u049",
+          "e17_u053"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e17_u041",
+          "e17_u045",
+          "e17_u048",
+          "e17_u051",
+          "e17_u053"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e17_u053"
+        ]
+      },
+      "hook_unit_id": "e17_u040",
+      "hook_type": "visual_shock",
+      "emotion_type": "romance",
+      "trope": "post‑battle romance",
+      "central_conflict": "After a brutal attack, Alexander comforts a frightened Juliana, promising to protect her as they share an intimate, tender moment.",
+      "spoils_main_twist": false
+    }
+  }
+]

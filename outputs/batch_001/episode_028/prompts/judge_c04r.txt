@@ -1,0 +1,68 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Rupert and Catherine frame Juliana for poisoning the Duchess despite the bedridden matriarch's protests, uncovering Juliana's true noble identity and her mother's herbarium before ordering her to the castle dungeons.
+CONTINUITY NOTES: Picks up directly from Episode 27 as Rupert orders the guard to seize Juliana, ignoring the waking Duchess.
+
+CLIP: 107.8s to 138.5s (30.7s). Units below: id | seconds from clip start | type | text.
+e28_u078 | 0.0-5.2 | CAMERA | Close-up two-shot of Catherine leaning inches from Juliana's face, whispering her humiliating past.
+e28_u079 | 0.3-3.2 | DIALOGUE | CATHERINE (Taunting): "The bride who married a penniless war veteran..."
+e28_u080 | 3.3-5.2 | DIALOGUE | CATHERINE (Vicious): "...because no respectable man would have her."
+e28_u081 | 5.2-8.6 | CAMERA | Tight close-up of Juliana's eyes blazing with explosive fury and defensive loyalty.
+e28_u082 | 5.5-8.0 | DIALOGUE | JULIANA (Screaming, Wildly Defiant): "Do not speak about my husband!"
+e28_u083 | 8.6-14.2 | CAMERA | Medium two-shot as Catherine throws her head back in derisive laughter, brandishing the herbarium book.
+e28_u084 | 8.6-11.3 | DIALOGUE | CATHERINE (Laughing, Scornful): "And look at you now. Scrubbing fireplaces in my house."
+e28_u085 | 11.4-14.0 | DIALOGUE | CATHERINE (Mocking): "What a magnificent fall, Lady Juliana."
+e28_u086 | 14.2-17.1 | CAMERA | Medium shot of Rupert gesturing toward the exit with an outstretched arm.
+e28_u087 | 14.2-16.9 | DIALOGUE | BLOND NOBLEMAN (Harsh, Authoritative): "Drag her to the wet cells beneath the south tower."
+e28_u088 | 17.1-21.0 | CAMERA | Close-up of Catherine fanning open the illustrated botanical pages of the herbarium with gloved fingers.
+e28_u089 | 17.2-17.9 | DIALOGUE | CATHERINE (Smug): "And this?"
+e28_u090 | 18.1-20.9 | DIALOGUE | CATHERINE (Gleeful): "This book of weeds will hang her before the magistrate."
+e28_u091 | 21.0-23.4 | CAMERA | Medium shot of Juliana thrashing frantically against the guard's grip, her arm reaching out toward the book.
+e28_u092 | 21.3-23.2 | DIALOGUE | JULIANA (Screaming, Desperate): "That book is my mother's life's work!"
+e28_u093 | 23.4-29.0 | CAMERA | Medium close-up of Catherine smiling coldly, clutching the closed book against her bodice.
+e28_u094 | 23.6-26.4 | DIALOGUE | CATHERINE (Icy, Threatening): "Then perhaps you can explain every page to the magistrate..."
+e28_u095 | 26.8-28.9 | DIALOGUE | CATHERINE (Fateful, Vengeful): "...before he sends you to the gallows."
+e28_u096 | 29.0-30.7 | CAMERA | Extreme close-up of Juliana's wide, trembling eyes as the guard wrenches her backward into the dark hallway, cutting sharply to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

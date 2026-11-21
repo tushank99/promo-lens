@@ -1,0 +1,64 @@
+{
+  "episode": 16,
+  "prompt_hash": "a8e2928c0fae5414",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.78,
+    "tokens_in": 3744,
+    "tokens_out": 539
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e16_u012",
+        "end_unit_id": "e16_u044",
+        "hook": {
+          "unit_ids": [
+            "e16_u012",
+            "e16_u014"
+          ],
+          "modality": "visual",
+          "description": "Alexander catches a thug's iron pipe mid-air with his bare hand.",
+          "evidence": "The sudden display of superhuman combat prowess immediately establishes the protagonist's power."
+        },
+        "cliffhanger_unit_id": "e16_u044",
+        "reason": "This sequence captures the high-octane fight and the shocking reveal of the mastermind's identity."
+      },
+      {
+        "start_unit_id": "e16_u034",
+        "end_unit_id": "e16_u055",
+        "hook": {
+          "unit_ids": [
+            "e16_u034",
+            "e16_u035"
+          ],
+          "modality": "visual",
+          "description": "Alexander yanks a thug off the ground by his collar with one arm.",
+          "evidence": "The aggressive, dominant physical action creates an immediate sense of danger and intensity."
+        },
+        "cliffhanger_unit_id": "e16_u055",
+        "reason": "Focuses on the interrogation and the emotional fallout of the betrayal, highlighting the mystery."
+      },
+      {
+        "start_unit_id": "e16_u052",
+        "end_unit_id": "e16_u064",
+        "hook": {
+          "unit_ids": [
+            "e16_u052",
+            "e16_u053"
+          ],
+          "modality": "spoken",
+          "description": "Juliana confronts Alexander about his combat skills: 'You knew exactly what to do.'",
+          "evidence": "The dialogue immediately raises questions about the protagonist's mysterious and dangerous past."
+        },
+        "cliffhanger_unit_id": "e16_u064",
+        "reason": "Highlights the romantic tension and the deepening mystery surrounding Alexander's true identity."
+      }
+    ]
+  },
+  "note": null
+}

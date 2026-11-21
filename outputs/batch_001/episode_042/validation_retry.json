@@ -1,0 +1,54 @@
+[
+  {
+    "candidate_id": "c01r",
+    "proposal": {
+      "retry_of": "c01",
+      "start_unit_id": "e42_u009",
+      "end_unit_id": "e42_u026",
+      "hook": {
+        "unit_ids": [
+          "e42_u009"
+        ],
+        "modality": "visual",
+        "description": "Rupert furiously pointing at Alexander, establishing the immediate conflict.",
+        "evidence": "The unit starts at 17.9s, which is the start of the window."
+      },
+      "cliffhanger_unit_id": "e42_u026",
+      "reason": "The window ends on the emotional reunion action, fitting the cliffhanger requirement within the final 20% of the 29.1s duration."
+    },
+    "retry_of": "c01",
+    "norm": {
+      "start_unit_id": "e42_u009",
+      "end_unit_id": "e42_u026",
+      "hook": {
+        "unit_ids": [
+          "e42_u009"
+        ],
+        "modality": "visual",
+        "description": "Rupert furiously pointing at Alexander, establishing the immediate conflict.",
+        "evidence": "The unit starts at 17.9s, which is the start of the window."
+      },
+      "cliffhanger_unit_id": "e42_u026",
+      "reason": "The window ends on the emotional reunion action, fitting the cliffhanger requirement within the final 20% of the 29.1s duration."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 17.9,
+    "end": 48.0,
+    "duration": 30.1,
+    "segments": [
+      {
+        "start_unit": "e42_u009",
+        "end_unit": "e42_u026",
+        "start": 17.9,
+        "end": 48.0
+      }
+    ]
+  }
+]

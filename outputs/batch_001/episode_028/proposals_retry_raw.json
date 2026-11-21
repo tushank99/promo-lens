@@ -1,0 +1,69 @@
+{
+  "prompt_hash": "bf3f935c739b1416",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.77,
+    "tokens_in": 13829,
+    "tokens_out": 579
+  },
+  "asked_for": [
+    "c01",
+    "c02",
+    "c04"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c01",
+        "start_unit_id": "e28_u001",
+        "end_unit_id": "e28_u018",
+        "hook": {
+          "unit_ids": [
+            "e28_u004"
+          ],
+          "modality": "visual",
+          "description": "Catherine's silk slipper crushing the herbarium",
+          "evidence": "The visual impact of the destruction of the book occurs at 2.3s, within the 3s limit."
+        },
+        "cliffhanger_unit_id": "e28_u018",
+        "reason": "This window captures the initial framing and the threat of torture, meeting the 20s duration requirement."
+      },
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e28_u021",
+        "end_unit_id": "e28_u042",
+        "hook": {
+          "unit_ids": [
+            "e28_u022"
+          ],
+          "modality": "spoken",
+          "description": "The Dowager Duchess commanding Rupert to stop",
+          "evidence": "The dialogue starts at 26.7s, which is within 3s of the 26.7s start time."
+        },
+        "cliffhanger_unit_id": "e28_u042",
+        "reason": "This window focuses on the high-stakes confrontation between the Duchess and her son, lasting 21.5s."
+      },
+      {
+        "retry_of": "c04",
+        "start_unit_id": "e28_u078",
+        "end_unit_id": "e28_u096",
+        "hook": {
+          "unit_ids": [
+            "e28_u078"
+          ],
+          "modality": "visual",
+          "description": "Catherine leaning in to taunt Juliana",
+          "evidence": "The visual unit begins at 107.8s, which is within 3s of the 107.8s start time."
+        },
+        "cliffhanger_unit_id": "e28_u096",
+        "reason": "This window captures the climax of the scene, lasting 30.7s and ending on the final dramatic beat."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

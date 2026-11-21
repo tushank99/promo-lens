@@ -1,0 +1,195 @@
+{
+  "episode": 44,
+  "logline": "As Lord Sterling and Rupert are apprehended by the Crown, Catherine pleads with Alexander for their past love, only to be coldly rejected as he walks toward his chained bride, Juliana.",
+  "counts": {
+    "proposed": 3,
+    "rejected_at_validation": 1,
+    "rejected_at_judge": 2,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 2,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 44,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e44_u025",
+      "end_unit_id": "e44_u054",
+      "hook_unit_id": "e44_u025",
+      "hook": {
+        "unit_ids": [
+          "e44_u025"
+        ],
+        "modality": "visual",
+        "description": "Catherine standing in the center of the aisle before the congregation.",
+        "evidence": "The visual of a bride in a ruined cathedral immediately establishes a high-stakes, dramatic setting.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e44_u054",
+      "segments": [
+        {
+          "start_unit": "e44_u025",
+          "end_unit": "e44_u054",
+          "start": 34.0,
+          "end": 70.5
+        }
+      ],
+      "start": 34.0,
+      "end": 70.5,
+      "duration": 36.5,
+      "proposer_reason": "A powerful confrontation where a jilted bride is rejected by her former lover in favor of a shackled woman.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 4.6s (63.4-68.0)"
+      ],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 44,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e44_u036",
+      "end_unit_id": "e44_u054",
+      "hook_unit_id": "e44_u036",
+      "hook": {
+        "unit_ids": [
+          "e44_u036"
+        ],
+        "modality": "spoken",
+        "description": "Catherine and Alexander confronting each other.",
+        "evidence": "The immediate tension of a direct confrontation between a bride and her former lover hooks the viewer instantly.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e44_u054",
+      "segments": [
+        {
+          "start_unit": "e44_u036",
+          "end_unit": "e44_u054",
+          "start": 49.0,
+          "end": 70.5
+        }
+      ],
+      "start": 49.0,
+      "end": 70.5,
+      "duration": 21.5,
+      "proposer_reason": "Focuses on the emotional climax of the rejection and the shocking reveal of the rival.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 4.6s (63.4-68.0)"
+      ],
+      "rejection_reasons": [
+        "validation:hook_modality"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "spoken hook claimed but hook units are ['camera']"
+      ]
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 44,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e44_u036",
+      "end_unit_id": "e44_u054",
+      "hook_unit_id": "e44_u036",
+      "hook": {
+        "unit_ids": [
+          "e44_u036"
+        ],
+        "modality": "visual",
+        "description": "Medium two-shot of Catherine and Alexander confronting each other.",
+        "evidence": "The unit begins at 49.0s, which is the start of the clip, establishing the immediate emotional confrontation.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e44_u054",
+      "segments": [
+        {
+          "start_unit": "e44_u036",
+          "end_unit": "e44_u054",
+          "start": 49.0,
+          "end": 70.5
+        }
+      ],
+      "start": 49.0,
+      "end": 70.5,
+      "duration": 21.5,
+      "proposer_reason": "The window captures the intense emotional rejection and the final shocking reveal of the rival, fitting within the required duration.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 4.6s (63.4-68.0)"
+      ],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 2,
+    "tokens_in": 6045,
+    "tokens_out": 549,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 5.5,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 2,
+    "judge_failed": 2,
+    "waited_s": 1.4
+  }
+}

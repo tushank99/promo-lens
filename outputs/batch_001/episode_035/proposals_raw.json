@@ -1,0 +1,62 @@
+{
+  "episode": 35,
+  "prompt_hash": "b666d1418d6d01dd",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.3,
+    "secs": 3.89,
+    "tokens_in": 4270,
+    "tokens_out": 523,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e35_u017",
+        "end_unit_id": "e35_u028",
+        "hook": {
+          "unit_ids": [
+            "e35_u017"
+          ],
+          "modality": "visual",
+          "description": "An elderly woman enters a dark cabin and discovers her presumed-dead son.",
+          "evidence": "The visual shock of a mother finding her dead son alive is an immediate emotional hook."
+        },
+        "cliffhanger_unit_id": "e35_u028",
+        "reason": "The emotional reunion between a mother and her 'dead' son creates instant intrigue."
+      },
+      {
+        "start_unit_id": "e35_u056",
+        "end_unit_id": "e35_u072",
+        "hook": {
+          "unit_ids": [
+            "e35_u056"
+          ],
+          "modality": "visual",
+          "description": "The mother's face shifts from shock to profound outrage as she realizes the truth.",
+          "evidence": "The shift in expression signals a major betrayal, pulling the viewer into the conspiracy."
+        },
+        "cliffhanger_unit_id": "e35_u072",
+        "reason": "The revelation that the people ruling the kingdom are the ones who tried to kill the protagonist is a high-stakes cliffhanger."
+      },
+      {
+        "start_unit_id": "e35_u035",
+        "end_unit_id": "e35_u050",
+        "hook": {
+          "unit_ids": [
+            "e35_u035"
+          ],
+          "modality": "visual",
+          "description": "Alexander points to a red-circled location on a tactical map while discussing a betrayal.",
+          "evidence": "The visual of a tactical map and the mention of a 'traitor' immediately establishes a military thriller tone."
+        },
+        "cliffhanger_unit_id": "e35_u050",
+        "reason": "The exposition of a classified mission gone wrong provides clear stakes for the viewer."
+      }
+    ]
+  },
+  "note": null
+}

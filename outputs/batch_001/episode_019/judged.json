@@ -1,0 +1,134 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "83937f3009e1e8f7",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 9.6,
+      "secs": 2.9,
+      "tokens_in": 1936,
+      "tokens_out": 1160
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e19_u026",
+          "e19_u027"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e19_u030",
+          "e19_u031",
+          "e19_u033",
+          "e19_u043",
+          "e19_u045",
+          "e19_u050"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e19_u038",
+          "e19_u042",
+          "e19_u043",
+          "e19_u047",
+          "e19_u050"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e19_u031",
+          "e19_u033",
+          "e19_u043",
+          "e19_u045",
+          "e19_u050"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e19_u050"
+        ]
+      },
+      "hook_unit_id": "e19_u027",
+      "hook_type": "visual_shock",
+      "emotion_type": "revenge",
+      "trope": "usurped heir",
+      "central_conflict": "Alexander must reclaim his dukedom and rescue his imprisoned mother from the usurpers who have taken over Ashburg while everyone believes he is dead.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "82e49a9b7db7a4e4",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.1,
+      "secs": 2.66,
+      "tokens_in": 1935,
+      "tokens_out": 915
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e19_u001",
+          "e19_u002"
+        ]
+      },
+      "clarity": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e19_u001",
+          "e19_u003",
+          "e19_u009",
+          "e19_u011"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e19_u003",
+          "e19_u005",
+          "e19_u018",
+          "e19_u019",
+          "e19_u024"
+        ]
+      },
+      "escalation": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e19_u001",
+          "e19_u009",
+          "e19_u016",
+          "e19_u025"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e19_u024",
+          "e19_u025"
+        ]
+      },
+      "hook_unit_id": "e19_u001",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "trope": "burned home",
+      "central_conflict": "Juliana and Alexander must cope with the loss of their home and rely on the villagers' aid.",
+      "spoils_main_twist": false
+    }
+  }
+]

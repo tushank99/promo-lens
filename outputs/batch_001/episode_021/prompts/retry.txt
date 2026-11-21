@@ -1,0 +1,84 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: After defying her own despair to cure a fever-stricken village boy with her mother's herbal remedies, Lady Juliana learns that the Dowager Duchess is secretly withering away from a mysterious illness inside Ashbury Manor.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c02: window e21_u063..e21_u076 (91.0-114.0 s, 23.0 s); hook ['e21_u063'] modality visual (delay 0.0 s)
+  FAILED: cliffhanger: cliffhanger e21_u076 starts at 108.5s, before the final 20% of the clip (109.4s)
+  Original idea: This moment pivots from a successful cure to a dark, dangerous secret regarding the Dowager Duchess.
+  Scene 03: units e21_u028..e21_u076, 42.8-114.0 s. Units of that scene:
+    e21_u028 | 42.8-45.5 | CAMERA | Low-angle medium shot of seven-year-old Toby lying on a makeshift straw pallet before a roaring fireplace, coughing weakly.
+    e21_u029 | 42.8-45.5 | SFX | Heavy, raspy chest coughs echoing in the small room, accompanied by crackling hearth fire.
+    e21_u030 | 45.5-48.0 | ACTION | Lady Juliana rushes in, sets the ledger on the rustic wooden table, and quickly flips open the pages.
+    e21_u031 | 45.5-48.5 | CAMERA | Close-up of Lady Juliana rapidly scanning the botanical illustrations and handwritten remedies in the book.
+    e21_u032 | 47.3-48.8 | DIALOGUE | LADY JULIANA (Alarmed, Focused): "His skin is burning hot."
+    e21_u033 | 48.8-50.5 | ACTION | Lady Juliana places her bandaged hand against Toby's flushed, sweating forehead as he wheezes painfully.
+    e21_u034 | 48.8-51.2 | CAMERA | Medium close-up of Lady Juliana tending to Toby, with Prudence standing anxiously in the background.
+    e21_u035 | 48.9-50.8 | DIALOGUE | LADY JULIANA (Commanding): "Prudence, fetch hot water immediately!"
+    e21_u036 | 51.2-54.0 | CAMERA | Medium shot of Prudence nodding rapidly, rushing toward the stone hearth.
+    e21_u037 | 51.2-53.0 | DIALOGUE | PRUDENCE (Hurried, Obedient): "Yes! Right away, I will get it!"
+    e21_u038 | 53.0-55.0 | ACTION | Prudence wraps a cloth around the iron handle of the steaming kettle resting over the hearth fire and lifts it.
+    e21_u039 | 54.0-56.2 | CAMERA | Close-up top-down view of Lady Juliana's bandaged fingers gently touching an ink illustration of chamomile flowers in the open ledger.
+    e21_u040 | 54.1-58.2 | DIALOGUE | LADY JULIANA (Introspective, Determined): "I cannot let my own weariness stop me. This boy needs my mother's knowledge."
+    e21_u041 | 58.2-60.5 | ACTION | Lady Juliana crushes dried herbal leaves into a dark wooden bowl between her bandaged hands, then pours steaming water over them from the kettle.
+    e21_u042 | 58.5-60.8 | CAMERA | Close-up of hot water pouring into the bowl, releasing aromatic vapors from the dried herbs.
+    e21_u043 | 60.8-64.0 | ACTION | Lady Juliana sits beside the pallet and brings the steaming herbal bowl close to Toby's face while Prudence cradles his shoulders.
+    e21_u044 | 60.8-64.5 | CAMERA | Medium shot of Lady Juliana, Prudence, and Toby huddled together by the warm glow of the fire.
+    e21_u045 | 61.0-64.0 | DIALOGUE | LADY JULIANA (Instructive, Calm): "Lift his shoulders, Prudence. Hold the steam close. Let him inhale."
+    e21_u046 | 64.5-66.8 | CAMERA | Close-up of Prudence supporting Toby's head, whispering tenderly into his ear.
+    e21_u047 | 64.5-66.6 | DIALOGUE | PRUDENCE (Tearful, Coaxing): "Like this? Toby, breathe it in, sweet boy."
+    e21_u048 | 66.8-70.5 | CAMERA | Close-up of Lady Juliana gently waving her hand to direct the medicinal steam toward Toby's nose and mouth.
+    e21_u049 | 66.8-70.4 | DIALOGUE | LADY JULIANA (Encouraging, Reassuring): "Yes, just like that. Keep breathing, Toby. Let the vapor clear your chest."
+    e21_u050 | 70.5-73.5 | ACTION | Toby's strained wheezing eases into quiet, rhythmic breathing as he slips into peaceful sleep on his pillow.
+    e21_u051 | 70.5-72.0 | CAMERA | Close-up of Toby's face relaxing, his chest falling still and calm.
+    e21_u052 | 72.0-76.0 | CAMERA | Close-up of Prudence covering her mouth in overwhelmed relief, tears streaming down her face.
+    e21_u053 | 72.0-75.5 | DIALOGUE | PRUDENCE (Overwhelmed, Relieved): "Oh, thank God! His chest is quiet! The rattling has stopped!"
+    e21_u054 | 75.5-79.5 | ACTION | Lady Juliana pulls the plaid wool blanket snug over Toby's chest, smiling softly with profound relief.
+    e21_u055 | 76.0-79.8 | CAMERA | Medium shot of Lady Juliana sitting on a stool beside Toby's bedside, placing a cup of coltsfoot tea on a small wooden table.
+    e21_u056 | 76.0-79.6 | DIALOGUE | LADY JULIANA (Gentle, Caring): "Keep him warm. Give him three drops of this coltsfoot tea every morning."
+    e21_u057 | 79.8-87.5 | CAMERA | Medium close-up of Prudence looking at Lady Juliana with awe and boundless gratitude, her hands clasped in front of her.
+    e21_u058 | 79.8-83.0 | DIALOGUE | PRUDENCE (Grateful, Choked with Emotion): "You saved him. The grand doctors left him to choke, but you..."
+    e21_u059 | 83.0-87.5 | DIALOGUE | PRUDENCE (Fervent, Devoted): "I have no money, Lady Juliana, but I swear on my life, I will do anything to repay you."
+    e21_u060 | 87.5-90.8 | ACTION | Lady Juliana takes Prudence's trembling hands into hers, smiling with heartfelt warmth.
+    e21_u061 | 87.5-91.0 | CAMERA | Close-up of Lady Juliana comforting Prudence warmly.
+    e21_u062 | 87.7-90.5 | DIALOGUE | LADY JULIANA (Warm, Sincere): "Your brother's breath is payment enough for me, Prudence."
+    e21_u063 | 91.0-96.5 | CAMERA | Low-angle shot past sleeping Toby toward Prudence standing in the room, her expression darkening with anger.
+    e21_u064 | 91.0-94.5 | DIALOGUE | PRUDENCE (Indignant, Resentful): "At the grand manor, they ignore us. They only care about their own luxury."
+    e21_u065 | 94.6-96.4 | DIALOGUE | PRUDENCE (Ominous): "But their gold cannot buy them health."
+    e21_u066 | 96.5-98.2 | ACTION | Lady Juliana turns sharply, her eyes widening with sudden recognition.
+    e21_u067 | 96.5-99.2 | CAMERA | Close-up of Lady Juliana looking directly into Prudence's eyes with startled concern.
+    e21_u068 | 96.5-99.2 | DIALOGUE | LADY JULIANA (Startled, Curious): "What do you mean? Is someone ill? The Dowager Duchess?"
+    e21_u069 | 99.2-101.2 | CAMERA | Low-angle cut to Toby sleeping peacefully as the fire crackles behind him.
+    e21_u070 | 99.2-101.2 | DIALOGUE | PRUDENCE (Solemn, O.S.): "She is dying, Lady Juliana."
+    e21_u071 | 101.2-106.8 | CAMERA | Close-up of Prudence leaning in close to Lady Juliana, whispering with grave intensity.
+    e21_u072 | 101.2-103.4 | DIALOGUE | PRUDENCE (Conspiratorial, Grim): "A strange, mysterious illness is eating her away."
+    e21_u073 | 103.5-108.4 | DIALOGUE | PRUDENCE (Dark, Chilling): "Inside that massive house with all their wealth, she is fading to nothing, and no one can stop it."
+    e21_u074 | 106.8-108.5 | CAMERA | Brief cut back to Toby sleeping peacefully on his straw pillow by the warm fireplace.
+    e21_u075 | 108.5-114.0 | ACTION | Lady Juliana sits motionless at the rustic wooden table, her bandaged hands holding open her late mother's leather-bound herbal ledger. Her eyes reflect deep apprehension as the dire truth settles over her.
+    e21_u076 | 108.5-114.0 | CAMERA | Slow push-in on Lady Juliana staring down at the ancient pages, her expression filled with profound realization and growing resolve as dramatic strings swell to a gripping cliffhanger.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

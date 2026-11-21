@@ -1,0 +1,174 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: After examining the dying Dowager Duchess's blackened fingernails and consulting her late mother's remedy journal, Lady Juliana discovers the Duchess is being poisoned with arsenic—only for someone to arrive at the bedroom door just as she begins concocting the antidote.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c01: window e23_u038..e23_u045 (76.0-88.0 s, 12.0 s); hook ['e23_u038'] modality visual (delay 0.0 s)
+  FAILED: duration: 12.0s is under the 20s minimum
+  Original idea: This clip delivers the high-stakes reveal that the Duchess is being poisoned, establishing the central mystery.
+  Scene 01: units e23_u001..e23_u067, 0.0-131.5 s. Units of that scene:
+    e23_u001 | 0.0-1.8 | CAMERA | Wide shot through dark draped bed curtains into the shadowy bedchamber, showing Prudence keeping watch with a single candle while Lady Juliana sits beside the grand four-poster bed.
+    e23_u002 | 1.8-6.5 | CAMERA | Medium close-up of Prudence holding a brass candlestick with trembling hands, glancing nervously toward the doorway.
+    e23_u003 | 1.8-6.0 | DIALOGUE | PRUDENCE (Anxious, Whispering): "Juliana, we cannot stay for long. Someone will come."
+    e23_u004 | 6.5-11.8 | CAMERA | Medium shot of Lady Juliana gently lifting the frail, trembling hands of the Dowager Duchess resting atop the linen covers.
+    e23_u005 | 7.5-11.8 | ACTION | Juliana cradles the Duchess's frail hands in hers, inspecting her fingers with furrowed brows.
+    e23_u006 | 11.8-16.8 | CAMERA | Close-up of the Duchess's fingertips, revealing pronounced dark, purplish-black discoloration beneath the nails.
+    e23_u007 | 13.5-16.0 | DIALOGUE | LADY JULIANA (Hushed, Grave): "How long has she been like this?"
+    e23_u008 | 16.8-20.0 | CAMERA | Medium shot of Prudence leaning against the bedpost, tears glistening in her eyes.
+    e23_u009 | 16.8-19.5 | DIALOGUE | PRUDENCE (Tearful, Trembling): "Weeks."
+    e23_u010 | 20.0-24.0 | CAMERA | High-angle two-shot as Lady Juliana leans closer over the gasping Duchess, gently touching her parched lips.
+    e23_u011 | 24.0-27.5 | CAMERA | Close-up on Lady Juliana's concerned face as she withdraws her finger from the Duchess's mouth.
+    e23_u012 | 24.0-27.5 | DIALOGUE | LADY JULIANA (Solemn): "Her mouth is terribly dry."
+    e23_u013 | 27.5-31.5 | CAMERA | Medium shot as Lady Juliana presses her fingertips gently against the Duchess's wrist, feeling for a pulse.
+    e23_u014 | 29.0-31.5 | DIALOGUE | LADY JULIANA (Quiet, Grim): "Her pulse is weak."
+    e23_u015 | 31.5-36.0 | CAMERA | Close-up of Prudence holding the flickering candle, crying openly in distress.
+    e23_u016 | 32.0-36.0 | DIALOGUE | PRUDENCE (Despairing, Weeping): "The physician said her heart is failing."
+    e23_u017 | 36.0-38.5 | CAMERA | Close-up of the Dowager Duchess gasping hoarsely for air, her throat straining as she weakly fights to breathe.
+    e23_u018 | 36.0-38.5 | SFX | Duchess's raspy, labored inhalation.
+    e23_u019 | 38.5-43.0 | CAMERA | Medium shot of Lady Juliana standing upright, her expression hardening with fierce skepticism.
+    e23_u020 | 40.8-43.0 | DIALOGUE | LADY JULIANA (Firm, Resolute): "No."
+    e23_u021 | 43.0-46.5 | CAMERA | Medium shot panning down as Juliana reaches into her deep apron pocket and pulls out a worn, leather-bound notebook.
+    e23_u022 | 43.8-46.5 | DIALOGUE | LADY JULIANA (Certain, Focused): "This is not simply old age."
+    e23_u023 | 46.5-48.0 | CAMERA | Quick reaction shot of Prudence staring with wide, bewildered eyes.
+    e23_u024 | 48.0-53.5 | CAMERA | Medium shot of Juliana sitting at the foot of the bed, carefully opening the leather journal across her lap and flipping through hand-annotated botanical pages.
+    e23_u025 | 53.5-57.5 | CAMERA | Close-up overhead of the yellowed parchment, showing botanical sketches of toxic herbs and handwritten diagnostic notes as Juliana's finger traces along the script.
+    e23_u026 | 57.5-58.5 | ACTION | Juliana draws in a sharp, startled breath, her eyes widening in horror.
+    e23_u027 | 58.5-60.8 | CAMERA | Close-up of Juliana looking up from the page, stunned by her mother's written words.
+    e23_u028 | 58.5-60.0 | DIALOGUE | LADY JULIANA (Breathless, Reverent): "Mother."
+    e23_u029 | 60.8-62.0 | CAMERA | Medium shot of Prudence leaning in, candle trembling.
+    e23_u030 | 60.8-62.0 | DIALOGUE | PRUDENCE (Urgent, Baffled): "What is it?"
+    e23_u031 | 62.0-69.5 | CAMERA | Two-shot of Juliana holding the open journal, reciting the matching symptoms to Prudence while the Duchess lies motionless in the background.
+    e23_u032 | 62.0-68.5 | DIALOGUE | LADY JULIANA (Shocked, Deliberate): "Weakness. Dry mouth. The discoloration beneath the nails. The slow wasting."
+    e23_u033 | 69.5-70.5 | CAMERA | Close-up of Prudence staring back in stunned disbelief.
+    e23_u034 | 70.5-73.8 | CAMERA | Medium close-up of Juliana speaking with absolute certainty.
+    e23_u035 | 70.5-73.5 | DIALOGUE | LADY JULIANA (Serious, Chilled): "I have seen these symptoms before."
+    e23_u036 | 73.8-76.0 | CAMERA | Close-up of Prudence's terrified face.
+    e23_u037 | 73.8-75.8 | DIALOGUE | PRUDENCE (Panicked, Shaken): "What are you saying?"
+    e23_u038 | 76.0-78.5 | CAMERA | Close-up of Juliana's hands snapping the leather journal shut on the bedside table beside an oil lamp.
+    e23_u039 | 78.5-81.5 | CAMERA | Medium close-up of Juliana resting her hands on the closed journal, looking squarely at Prudence.
+    e23_u040 | 79.0-81.5 | DIALOGUE | LADY JULIANA (Cold, Deadly Serious): "Someone is poisoning her."
+    e23_u041 | 81.5-84.5 | CAMERA | Medium shot of Prudence gasping sharply and clamping both hands over her mouth in sheer horror.
+    e23_u042 | 81.5-82.5 | SFX | Sharp intake of breath from Prudence.
+    e23_u043 | 82.0-84.0 | DIALOGUE | PRUDENCE (Muffled, Horrified): "Poison?"
+    e23_u044 | 84.5-88.0 | CAMERA | Extreme close-up pushing in tight on Lady Juliana's eyes as her expression hardens into fury and righteous disgust.
+    e23_u045 | 86.0-88.0 | DIALOGUE | LADY JULIANA (Venomous, Resolute): "Arsenic."
+    e23_u046 | 88.0-90.5 | SFX | Sudden violent coughing and sputtering from the Duchess.
+    e23_u047 | 88.0-91.0 | CAMERA | Medium shot as the Duchess chokes and spasms on the bed; Juliana whips around immediately.
+    e23_u048 | 91.0-94.5 | CAMERA | Medium tracking shot of Juliana rushing to the side table by the window, opening her satchel and setting out glass vials, a bowl, and dried herbal bundles.
+    e23_u049 | 94.5-97.5 | CAMERA | Close-up of Prudence pleading desperately, tears flowing down her cheeks.
+    e23_u050 | 94.5-97.0 | DIALOGUE | PRUDENCE (Desperate, Begging): "Can you save her?"
+    e23_u051 | 97.5-100.5 | CAMERA | Medium shot of Juliana uncorking a glass apothecary bottle as the Duchess rests behind her.
+    e23_u052 | 97.5-100.0 | DIALOGUE | LADY JULIANA (Focused, Resolute): "I can try."
+    e23_u053 | 100.5-104.5 | CAMERA | Top-down close-up of Juliana's soot-smudged hands pouring powdered activated charcoal from a vial into a stone mortar, then tossing in a pinch of crushed dried leaves.
+    e23_u054 | 104.5-107.0 | CAMERA | Close-up of Juliana's hands vigorously grinding the pestle inside the stone mortar.
+    e23_u055 | 104.5-112.0 | SFX | Heavy, rhythmic scraping of stone pestle grinding charcoal and dried herbs.
+    e23_u056 | 107.0-112.5 | CAMERA | Medium close-up of Juliana grinding intensely, her brow furrowed as she speaks with urgent authority.
+    e23_u057 | 107.5-112.0 | DIALOGUE | LADY JULIANA (Urgent, Focused): "The charcoal may help remove what is still inside her. We must act quickly."
+    e23_u058 | 112.2-114.0 | SFX | Sudden muffled thump and heavy footsteps echoing from the hallway outside the door!
+    e23_u059 | 112.5-115.0 | CAMERA | Wide shot of the bedroom door framed through the bed curtains as the Duchess gasps in the bed.
+    e23_u060 | 115.0-116.5 | CAMERA | Medium shot of Juliana freezing mid-motion, turning her head sharply toward the chamber door.
+    e23_u061 | 116.5-118.5 | CAMERA | Close-up of the ornate brass door handle on the dark carved wooden door.
+    e23_u062 | 118.5-124.5 | CAMERA | Close-up of Prudence staring at the door in utter terror, her face drained of all color.
+    e23_u063 | 118.8-124.0 | DIALOGUE | PRUDENCE (Terrified, Hoarse Whisper): "Juliana... someone is coming."
+    e23_u064 | 124.5-127.5 | CAMERA | Quick cut to Juliana looking back toward the bed and then toward the door, trapped with an unfinished cure.
+    e23_u065 | 127.5-129.5 | CAMERA | Tight close-up of Juliana's charcoal-blackened hand clutching the glass medicine vial firmly.
+    e23_u066 | 129.2-131.2 | SFX | Loud, metallic clack of the door latch turning, followed by the slow creak of wood hinges.
+    e23_u067 | 129.5-131.5 | CAMERA | Close-up on the brass door lever as it slowly rotates downward, and the heavy door cracks open inward into the room—cutting to an intense, heart-stopping cliffhanger.
+
+- c02: window e23_u058..e23_u067 (112.2-131.5 s, 19.3 s); hook ['e23_u058'] modality audio (delay 0.0 s)
+  FAILED: duration: 19.3s is under the 20s minimum
+  Original idea: This captures the peak tension of the episode as the protagonist is caught in the act of preparing an antidote.
+  Scene 01: units e23_u001..e23_u067, 0.0-131.5 s. Units of that scene:
+    e23_u001 | 0.0-1.8 | CAMERA | Wide shot through dark draped bed curtains into the shadowy bedchamber, showing Prudence keeping watch with a single candle while Lady Juliana sits beside the grand four-poster bed.
+    e23_u002 | 1.8-6.5 | CAMERA | Medium close-up of Prudence holding a brass candlestick with trembling hands, glancing nervously toward the doorway.
+    e23_u003 | 1.8-6.0 | DIALOGUE | PRUDENCE (Anxious, Whispering): "Juliana, we cannot stay for long. Someone will come."
+    e23_u004 | 6.5-11.8 | CAMERA | Medium shot of Lady Juliana gently lifting the frail, trembling hands of the Dowager Duchess resting atop the linen covers.
+    e23_u005 | 7.5-11.8 | ACTION | Juliana cradles the Duchess's frail hands in hers, inspecting her fingers with furrowed brows.
+    e23_u006 | 11.8-16.8 | CAMERA | Close-up of the Duchess's fingertips, revealing pronounced dark, purplish-black discoloration beneath the nails.
+    e23_u007 | 13.5-16.0 | DIALOGUE | LADY JULIANA (Hushed, Grave): "How long has she been like this?"
+    e23_u008 | 16.8-20.0 | CAMERA | Medium shot of Prudence leaning against the bedpost, tears glistening in her eyes.
+    e23_u009 | 16.8-19.5 | DIALOGUE | PRUDENCE (Tearful, Trembling): "Weeks."
+    e23_u010 | 20.0-24.0 | CAMERA | High-angle two-shot as Lady Juliana leans closer over the gasping Duchess, gently touching her parched lips.
+    e23_u011 | 24.0-27.5 | CAMERA | Close-up on Lady Juliana's concerned face as she withdraws her finger from the Duchess's mouth.
+    e23_u012 | 24.0-27.5 | DIALOGUE | LADY JULIANA (Solemn): "Her mouth is terribly dry."
+    e23_u013 | 27.5-31.5 | CAMERA | Medium shot as Lady Juliana presses her fingertips gently against the Duchess's wrist, feeling for a pulse.
+    e23_u014 | 29.0-31.5 | DIALOGUE | LADY JULIANA (Quiet, Grim): "Her pulse is weak."
+    e23_u015 | 31.5-36.0 | CAMERA | Close-up of Prudence holding the flickering candle, crying openly in distress.
+    e23_u016 | 32.0-36.0 | DIALOGUE | PRUDENCE (Despairing, Weeping): "The physician said her heart is failing."
+    e23_u017 | 36.0-38.5 | CAMERA | Close-up of the Dowager Duchess gasping hoarsely for air, her throat straining as she weakly fights to breathe.
+    e23_u018 | 36.0-38.5 | SFX | Duchess's raspy, labored inhalation.
+    e23_u019 | 38.5-43.0 | CAMERA | Medium shot of Lady Juliana standing upright, her expression hardening with fierce skepticism.
+    e23_u020 | 40.8-43.0 | DIALOGUE | LADY JULIANA (Firm, Resolute): "No."
+    e23_u021 | 43.0-46.5 | CAMERA | Medium shot panning down as Juliana reaches into her deep apron pocket and pulls out a worn, leather-bound notebook.
+    e23_u022 | 43.8-46.5 | DIALOGUE | LADY JULIANA (Certain, Focused): "This is not simply old age."
+    e23_u023 | 46.5-48.0 | CAMERA | Quick reaction shot of Prudence staring with wide, bewildered eyes.
+    e23_u024 | 48.0-53.5 | CAMERA | Medium shot of Juliana sitting at the foot of the bed, carefully opening the leather journal across her lap and flipping through hand-annotated botanical pages.
+    e23_u025 | 53.5-57.5 | CAMERA | Close-up overhead of the yellowed parchment, showing botanical sketches of toxic herbs and handwritten diagnostic notes as Juliana's finger traces along the script.
+    e23_u026 | 57.5-58.5 | ACTION | Juliana draws in a sharp, startled breath, her eyes widening in horror.
+    e23_u027 | 58.5-60.8 | CAMERA | Close-up of Juliana looking up from the page, stunned by her mother's written words.
+    e23_u028 | 58.5-60.0 | DIALOGUE | LADY JULIANA (Breathless, Reverent): "Mother."
+    e23_u029 | 60.8-62.0 | CAMERA | Medium shot of Prudence leaning in, candle trembling.
+    e23_u030 | 60.8-62.0 | DIALOGUE | PRUDENCE (Urgent, Baffled): "What is it?"
+    e23_u031 | 62.0-69.5 | CAMERA | Two-shot of Juliana holding the open journal, reciting the matching symptoms to Prudence while the Duchess lies motionless in the background.
+    e23_u032 | 62.0-68.5 | DIALOGUE | LADY JULIANA (Shocked, Deliberate): "Weakness. Dry mouth. The discoloration beneath the nails. The slow wasting."
+    e23_u033 | 69.5-70.5 | CAMERA | Close-up of Prudence staring back in stunned disbelief.
+    e23_u034 | 70.5-73.8 | CAMERA | Medium close-up of Juliana speaking with absolute certainty.
+    e23_u035 | 70.5-73.5 | DIALOGUE | LADY JULIANA (Serious, Chilled): "I have seen these symptoms before."
+    e23_u036 | 73.8-76.0 | CAMERA | Close-up of Prudence's terrified face.
+    e23_u037 | 73.8-75.8 | DIALOGUE | PRUDENCE (Panicked, Shaken): "What are you saying?"
+    e23_u038 | 76.0-78.5 | CAMERA | Close-up of Juliana's hands snapping the leather journal shut on the bedside table beside an oil lamp.
+    e23_u039 | 78.5-81.5 | CAMERA | Medium close-up of Juliana resting her hands on the closed journal, looking squarely at Prudence.
+    e23_u040 | 79.0-81.5 | DIALOGUE | LADY JULIANA (Cold, Deadly Serious): "Someone is poisoning her."
+    e23_u041 | 81.5-84.5 | CAMERA | Medium shot of Prudence gasping sharply and clamping both hands over her mouth in sheer horror.
+    e23_u042 | 81.5-82.5 | SFX | Sharp intake of breath from Prudence.
+    e23_u043 | 82.0-84.0 | DIALOGUE | PRUDENCE (Muffled, Horrified): "Poison?"
+    e23_u044 | 84.5-88.0 | CAMERA | Extreme close-up pushing in tight on Lady Juliana's eyes as her expression hardens into fury and righteous disgust.
+    e23_u045 | 86.0-88.0 | DIALOGUE | LADY JULIANA (Venomous, Resolute): "Arsenic."
+    e23_u046 | 88.0-90.5 | SFX | Sudden violent coughing and sputtering from the Duchess.
+    e23_u047 | 88.0-91.0 | CAMERA | Medium shot as the Duchess chokes and spasms on the bed; Juliana whips around immediately.
+    e23_u048 | 91.0-94.5 | CAMERA | Medium tracking shot of Juliana rushing to the side table by the window, opening her satchel and setting out glass vials, a bowl, and dried herbal bundles.
+    e23_u049 | 94.5-97.5 | CAMERA | Close-up of Prudence pleading desperately, tears flowing down her cheeks.
+    e23_u050 | 94.5-97.0 | DIALOGUE | PRUDENCE (Desperate, Begging): "Can you save her?"
+    e23_u051 | 97.5-100.5 | CAMERA | Medium shot of Juliana uncorking a glass apothecary bottle as the Duchess rests behind her.
+    e23_u052 | 97.5-100.0 | DIALOGUE | LADY JULIANA (Focused, Resolute): "I can try."
+    e23_u053 | 100.5-104.5 | CAMERA | Top-down close-up of Juliana's soot-smudged hands pouring powdered activated charcoal from a vial into a stone mortar, then tossing in a pinch of crushed dried leaves.
+    e23_u054 | 104.5-107.0 | CAMERA | Close-up of Juliana's hands vigorously grinding the pestle inside the stone mortar.
+    e23_u055 | 104.5-112.0 | SFX | Heavy, rhythmic scraping of stone pestle grinding charcoal and dried herbs.
+    e23_u056 | 107.0-112.5 | CAMERA | Medium close-up of Juliana grinding intensely, her brow furrowed as she speaks with urgent authority.
+    e23_u057 | 107.5-112.0 | DIALOGUE | LADY JULIANA (Urgent, Focused): "The charcoal may help remove what is still inside her. We must act quickly."
+    e23_u058 | 112.2-114.0 | SFX | Sudden muffled thump and heavy footsteps echoing from the hallway outside the door!
+    e23_u059 | 112.5-115.0 | CAMERA | Wide shot of the bedroom door framed through the bed curtains as the Duchess gasps in the bed.
+    e23_u060 | 115.0-116.5 | CAMERA | Medium shot of Juliana freezing mid-motion, turning her head sharply toward the chamber door.
+    e23_u061 | 116.5-118.5 | CAMERA | Close-up of the ornate brass door handle on the dark carved wooden door.
+    e23_u062 | 118.5-124.5 | CAMERA | Close-up of Prudence staring at the door in utter terror, her face drained of all color.
+    e23_u063 | 118.8-124.0 | DIALOGUE | PRUDENCE (Terrified, Hoarse Whisper): "Juliana... someone is coming."
+    e23_u064 | 124.5-127.5 | CAMERA | Quick cut to Juliana looking back toward the bed and then toward the door, trapped with an unfinished cure.
+    e23_u065 | 127.5-129.5 | CAMERA | Tight close-up of Juliana's charcoal-blackened hand clutching the glass medicine vial firmly.
+    e23_u066 | 129.2-131.2 | SFX | Loud, metallic clack of the door latch turning, followed by the slow creak of wood hinges.
+    e23_u067 | 129.5-131.5 | CAMERA | Close-up on the brass door lever as it slowly rotates downward, and the heavy door cracks open inward into the room—cutting to an intense, heart-stopping cliffhanger.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

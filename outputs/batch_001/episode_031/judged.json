@@ -1,0 +1,92 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "9c470bba2fb63d2e",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 2,
+      "waited_s": 351.1,
+      "secs": 3.16,
+      "tokens_in": 1894,
+      "tokens_out": 1232
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e31_u001",
+          "e31_u002"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e31_u005",
+          "e31_u006",
+          "e31_u013",
+          "e31_u017"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e31_u008",
+          "e31_u012",
+          "e31_u022"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e31_u001",
+          "e31_u005",
+          "e31_u016",
+          "e31_u019",
+          "e31_u023"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e31_u023",
+          "e31_u022"
+        ]
+      },
+      "hook_unit_id": "e31_u001",
+      "hook_type": "visual_shock",
+      "emotion_type": "humiliation",
+      "trope": "tortured aristocrat",
+      "central_conflict": "Catherine torments the chained Juliana with a hot poker and scorn, while Juliana defiantly refuses to be broken.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03",
+    "prompt_hash": "6ce3ba96845de361",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "failed": true,
+      "quota_exhausted": true
+    },
+    "raw": null,
+    "error": "judge call failed: quota exhausted for groq/openai/gpt-oss-120b: Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set",
+    "error_kind": "judge_failed"
+  },
+  {
+    "candidate_id": "c02r",
+    "prompt_hash": "96b303f21d45115a",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "failed": true,
+      "quota_exhausted": true
+    },
+    "raw": null,
+    "error": "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set",
+    "error_kind": "judge_failed"
+  }
+]

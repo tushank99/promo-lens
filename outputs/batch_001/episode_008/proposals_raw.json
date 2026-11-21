@@ -1,0 +1,47 @@
+{
+  "episode": 8,
+  "prompt_hash": "d882d07028954bb5",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 2.83,
+    "tokens_in": 3592,
+    "tokens_out": 359
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e08_u025",
+        "end_unit_id": "e08_u044",
+        "hook": {
+          "unit_ids": [
+            "e08_u025"
+          ],
+          "modality": "visual",
+          "description": "Juliana reaches out to touch Alexander's face, and he firmly catches her wrist.",
+          "evidence": "The sudden physical tension and the 'not yet' boundary creates immediate romantic intrigue."
+        },
+        "cliffhanger_unit_id": "e08_u044",
+        "reason": "The intimate tension and the power dynamic shift between the two characters creates a compelling romantic hook."
+      },
+      {
+        "start_unit_id": "e08_u048",
+        "end_unit_id": "e08_u063",
+        "hook": {
+          "unit_ids": [
+            "e08_u048"
+          ],
+          "modality": "visual",
+          "description": "A wide shot of the two characters in a cozy, firelit cottage, contrasting with the mention of war scars.",
+          "evidence": "The visual warmth combined with the heavy, somber dialogue about war creates an emotional contrast that draws viewers in."
+        },
+        "cliffhanger_unit_id": "e08_u062",
+        "reason": "This moment highlights the emotional transformation of the protagonist as she redefines her values."
+      }
+    ]
+  },
+  "note": null
+}

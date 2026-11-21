@@ -1,0 +1,156 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e29_u012",
+      "end_unit_id": "e29_u034",
+      "hook": {
+        "unit_ids": [
+          "e29_u012"
+        ],
+        "modality": "visual",
+        "description": "Catherine holding the herbarium with a mocking expression.",
+        "evidence": "The immediate visual of a villain holding a victim's precious possession creates instant conflict."
+      },
+      "cliffhanger_unit_id": "e29_u034",
+      "reason": "The confrontation over the herbarium and the threat of framing the protagonist for witchcraft establishes high stakes."
+    },
+    "norm": {
+      "start_unit_id": "e29_u012",
+      "end_unit_id": "e29_u034",
+      "hook": {
+        "unit_ids": [
+          "e29_u012"
+        ],
+        "modality": "visual",
+        "description": "Catherine holding the herbarium with a mocking expression.",
+        "evidence": "The immediate visual of a villain holding a victim's precious possession creates instant conflict."
+      },
+      "cliffhanger_unit_id": "e29_u034",
+      "reason": "The confrontation over the herbarium and the threat of framing the protagonist for witchcraft establishes high stakes."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 20.1,
+    "end": 56.6,
+    "duration": 36.5,
+    "segments": [
+      {
+        "start_unit": "e29_u012",
+        "end_unit": "e29_u034",
+        "start": 20.1,
+        "end": 56.6
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e29_u035",
+      "end_unit_id": "e29_u051",
+      "hook": {
+        "unit_ids": [
+          "e29_u035"
+        ],
+        "modality": "spoken",
+        "description": "Juliana screaming in raw outrage at Catherine.",
+        "evidence": "The raw emotional intensity of the scream immediately grabs the viewer's attention."
+      },
+      "cliffhanger_unit_id": "e29_u051",
+      "reason": "This segment captures the peak of the verbal confrontation and the protagonist's defiance against her oppressor."
+    },
+    "norm": {
+      "start_unit_id": "e29_u035",
+      "end_unit_id": "e29_u051",
+      "hook": {
+        "unit_ids": [
+          "e29_u035"
+        ],
+        "modality": "spoken",
+        "description": "Juliana screaming in raw outrage at Catherine.",
+        "evidence": "The raw emotional intensity of the scream immediately grabs the viewer's attention."
+      },
+      "cliffhanger_unit_id": "e29_u051",
+      "reason": "This segment captures the peak of the verbal confrontation and the protagonist's defiance against her oppressor."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "hook_modality"
+    ],
+    "details": [
+      "spoken hook claimed but hook units are ['camera']"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 56.6,
+    "end": 83.0,
+    "duration": 26.4,
+    "segments": [
+      {
+        "start_unit": "e29_u035",
+        "end_unit": "e29_u051",
+        "start": 56.6,
+        "end": 83.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e29_u052",
+      "end_unit_id": "e29_u071",
+      "hook": {
+        "unit_ids": [
+          "e29_u052"
+        ],
+        "modality": "visual",
+        "description": "Juliana being violently shoved into a dark, wet dungeon cell.",
+        "evidence": "The sudden violence and the grim setting immediately signal a high-stakes drama."
+      },
+      "cliffhanger_unit_id": "e29_u071",
+      "reason": "The transition from despair to steely resolve provides a compelling character arc within a short window."
+    },
+    "norm": {
+      "start_unit_id": "e29_u052",
+      "end_unit_id": "e29_u071",
+      "hook": {
+        "unit_ids": [
+          "e29_u052"
+        ],
+        "modality": "visual",
+        "description": "Juliana being violently shoved into a dark, wet dungeon cell.",
+        "evidence": "The sudden violence and the grim setting immediately signal a high-stakes drama."
+      },
+      "cliffhanger_unit_id": "e29_u071",
+      "reason": "The transition from despair to steely resolve provides a compelling character arc within a short window."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 83.0,
+    "end": 112.8,
+    "duration": 29.8,
+    "segments": [
+      {
+        "start_unit": "e29_u052",
+        "end_unit": "e29_u071",
+        "start": 83.0,
+        "end": 112.8
+      }
+    ]
+  }
+]

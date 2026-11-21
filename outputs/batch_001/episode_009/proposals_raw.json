@@ -1,0 +1,61 @@
+{
+  "episode": 9,
+  "prompt_hash": "d6b45e9cf32d1c38",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.7,
+    "tokens_in": 4881,
+    "tokens_out": 500
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e09_u003",
+        "end_unit_id": "e09_u033",
+        "hook": {
+          "unit_ids": [
+            "e09_u003"
+          ],
+          "modality": "audio",
+          "description": "Heavy, frantic pounding on the cottage door.",
+          "evidence": "The sudden, aggressive sound creates immediate tension and urgency."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "The high-stakes medical emergency establishes the protagonist's skill and the immediate danger of her situation."
+      },
+      {
+        "start_unit_id": "e09_u057",
+        "end_unit_id": "e09_u065",
+        "hook": {
+          "unit_ids": [
+            "e09_u057"
+          ],
+          "modality": "visual",
+          "description": "Alexander slamming the door shut against the rain.",
+          "evidence": "The abrupt transition from a life-saving act to a tense, protective confrontation hooks the viewer."
+        },
+        "cliffhanger_unit_id": "e09_u065",
+        "reason": "This moment highlights the romantic tension and the looming threat of discovery, raising the stakes for the protagonists."
+      },
+      {
+        "start_unit_id": "e09_u074",
+        "end_unit_id": "e09_u089",
+        "hook": {
+          "unit_ids": [
+            "e09_u078"
+          ],
+          "modality": "visual",
+          "description": "Extreme close-up of the Former Groom's eyes widening in dread.",
+          "evidence": "The visceral reaction to a secret being revealed creates instant intrigue about the 'late Duke'."
+        },
+        "cliffhanger_unit_id": "e09_u089",
+        "reason": "The reveal of a potential ghost from the past threatening the antagonist's power is a classic, high-tension hook."
+      }
+    ]
+  },
+  "note": null
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "candidate_id": "c01r",
+    "proposal": {
+      "retry_of": "c01",
+      "start_unit_id": "e05_u023",
+      "end_unit_id": "e05_u044",
+      "hook": {
+        "unit_ids": [
+          "e05_u023"
+        ],
+        "modality": "visual",
+        "description": "Lady Ashcroft steps forward with a malicious smirk, signaling the start of the humiliation.",
+        "evidence": "The unit begins at 41.5s, which is within 3 seconds of the clip start."
+      },
+      "cliffhanger_unit_id": "e05_u044",
+      "reason": "This window captures the full arc of the humiliation and the immediate, protective response of the husband, meeting the 20s duration requirement."
+    },
+    "retry_of": "c01",
+    "norm": {
+      "start_unit_id": "e05_u023",
+      "end_unit_id": "e05_u044",
+      "hook": {
+        "unit_ids": [
+          "e05_u023"
+        ],
+        "modality": "visual",
+        "description": "Lady Ashcroft steps forward with a malicious smirk, signaling the start of the humiliation.",
+        "evidence": "The unit begins at 41.5s, which is within 3 seconds of the clip start."
+      },
+      "cliffhanger_unit_id": "e05_u044",
+      "reason": "This window captures the full arc of the humiliation and the immediate, protective response of the husband, meeting the 20s duration requirement."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "boundary"
+    ],
+    "details": [
+      "e05_u045 (dialogue 77.8-79.0) plays inside the clip but is outside the window"
+    ],
+    "warnings": [
+      "camera-only stretch 3.3s (74.5-77.8)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 41.5,
+    "end": 80.0,
+    "duration": 38.5,
+    "segments": [
+      {
+        "start_unit": "e05_u023",
+        "end_unit": "e05_u044",
+        "start": 41.5,
+        "end": 80.0
+      }
+    ]
+  }
+]

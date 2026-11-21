@@ -1,0 +1,329 @@
+{
+  "episode": 17,
+  "logline": "In the aftermath of the brutal attack, Alexander repairs Juliana's devastated garden and swears to protect her with his life, drawing them into a tender, intimate embrace by the hearth.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 2,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 2,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 17,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e17_u010",
+      "end_unit_id": "e17_u029",
+      "hook_unit_id": "e17_u010",
+      "hook": {
+        "unit_ids": [
+          "e17_u010"
+        ],
+        "modality": "visual",
+        "description": "A wide shot of Juliana kneeling in the ruins of her garden while Alexander stands over her with a heavy hammer.",
+        "evidence": "The visual contrast between the vulnerable woman and the protective, armed man immediately establishes the stakes of the aftermath.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e17_u027",
+      "segments": [
+        {
+          "start_unit": "e17_u010",
+          "end_unit": "e17_u029",
+          "start": 14.0,
+          "end": 39.0
+        }
+      ],
+      "start": 14.0,
+      "end": 39.0,
+      "duration": 25.0,
+      "proposer_reason": "This moment captures the core dynamic of the show: a protector vowing to keep his wife safe against impossible odds.",
+      "hook_type": "visual_shock",
+      "emotion_type": "romance",
+      "scores": {
+        "hook": 1,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e17_u010",
+          "e17_u011"
+        ],
+        "clarity": [
+          "e17_u011",
+          "e17_u013",
+          "e17_u015",
+          "e17_u023"
+        ],
+        "emotion": [
+          "e17_u014",
+          "e17_u016",
+          "e17_u024",
+          "e17_u025",
+          "e17_u027"
+        ],
+        "escalation": [
+          "e17_u013",
+          "e17_u017",
+          "e17_u019",
+          "e17_u020",
+          "e17_u025",
+          "e17_u027"
+        ],
+        "ending": [
+          "e17_u028",
+          "e17_u029"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [
+        "floor:hook<3"
+      ],
+      "final_score": 56.0,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "protective lover",
+      "central_conflict": "Alexander vows to protect Juliana from any future threats after she thanks him for defending her against attackers.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e17_u010",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 17,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e17_u040",
+      "end_unit_id": "e17_u053",
+      "hook_unit_id": "e17_u040",
+      "hook": {
+        "unit_ids": [
+          "e17_u040"
+        ],
+        "modality": "visual",
+        "description": "Juliana looking up at Alexander in the warm, intimate glow of the hearth.",
+        "evidence": "The shift from the brutal garden to the tender, romantic atmosphere of the cottage creates an immediate emotional hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e17_u053",
+      "segments": [
+        {
+          "start_unit": "e17_u040",
+          "end_unit": "e17_u053",
+          "start": 54.0,
+          "end": 83.5
+        }
+      ],
+      "start": 54.0,
+      "end": 83.5,
+      "duration": 29.5,
+      "proposer_reason": "It highlights the growing intimacy and vulnerability between the two leads, pulling viewers into their developing romance.",
+      "hook_type": "visual_shock",
+      "emotion_type": "romance",
+      "scores": {
+        "hook": 2,
+        "clarity": 1,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e17_u040",
+          "e17_u041"
+        ],
+        "clarity": [
+          "e17_u041",
+          "e17_u045",
+          "e17_u047"
+        ],
+        "emotion": [
+          "e17_u041",
+          "e17_u045",
+          "e17_u046",
+          "e17_u048",
+          "e17_u049",
+          "e17_u053"
+        ],
+        "escalation": [
+          "e17_u041",
+          "e17_u045",
+          "e17_u048",
+          "e17_u051",
+          "e17_u053"
+        ],
+        "ending": [
+          "e17_u053"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.8s (62.2-66.0)",
+        "camera-only stretch 3.5s (73.5-77.0)"
+      ],
+      "rejection_reasons": [
+        "floor:hook<3",
+        "floor:clarity<3"
+      ],
+      "final_score": 50.7,
+      "status": "rejected",
+      "review_status": "review",
+      "review_flags": [
+        "straddled_action_or_sfx"
+      ],
+      "review_details": [
+        "action e17_u039 (53.5-56.0) overlaps the clip from outside the window: check the cut on footage"
+      ],
+      "trope": "post‑battle romance",
+      "central_conflict": "After a brutal attack, Alexander comforts a frightened Juliana, promising to protect her as they share an intimate, tender moment.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e17_u040",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 17,
+      "retry_of": null,
+      "retried_as": "c03r",
+      "retry_declined": null,
+      "start_unit_id": "e17_u063",
+      "end_unit_id": "e17_u075",
+      "hook_unit_id": "e17_u063",
+      "hook": {
+        "unit_ids": [
+          "e17_u063"
+        ],
+        "modality": "visual",
+        "description": "Juliana reaching out to touch Alexander's beard with her bandaged hand.",
+        "evidence": "The visual of the bandaged hand against his rugged face emphasizes their shared trauma and growing bond.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e17_u074",
+      "segments": [
+        {
+          "start_unit": "e17_u063",
+          "end_unit": "e17_u075",
+          "start": 96.0,
+          "end": 118.88
+        }
+      ],
+      "start": 96.0,
+      "end": 118.88,
+      "duration": 22.88,
+      "proposer_reason": "The dialogue about not knowing the man she married creates a compelling mystery that encourages viewers to watch the full series.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [
+        "straddled_action_or_sfx"
+      ],
+      "review_details": [
+        "action e17_u062 (95.5-97.0) overlaps the clip from outside the window: check the cut on footage"
+      ],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e17_u074 starts at 112.2s, before the final 20% of the clip (114.3s)"
+      ]
+    },
+    {
+      "candidate_id": "c03r",
+      "episode": 17,
+      "retry_of": "c03",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e17_u063",
+      "end_unit_id": "e17_u075",
+      "hook_unit_id": "e17_u063",
+      "hook": {
+        "unit_ids": [
+          "e17_u063"
+        ],
+        "modality": "visual",
+        "description": "Juliana playfully reaching toward Alexander's beard with her bandaged hand.",
+        "evidence": "The visual of the bandaged hand against his rugged face establishes the intimacy and the aftermath of the attack immediately.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e17_u074",
+      "segments": [
+        {
+          "start_unit": "e17_u063",
+          "end_unit": "e17_u075",
+          "start": 96.0,
+          "end": 118.88
+        }
+      ],
+      "start": 96.0,
+      "end": 118.88,
+      "duration": 22.88,
+      "proposer_reason": "The window now starts at 96.0s and ends at 118.9s (22.9s total), placing the cliffhanger dialogue at 112.2s, which is within the final 20% of the clip.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [
+        "straddled_action_or_sfx"
+      ],
+      "review_details": [
+        "action e17_u062 (95.5-97.0) overlaps the clip from outside the window: check the cut on footage"
+      ],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e17_u074 starts at 112.2s, before the final 20% of the clip (114.3s)"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 39.8,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 10201,
+    "tokens_out": 2999,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 12.5,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 27.2
+  }
+}

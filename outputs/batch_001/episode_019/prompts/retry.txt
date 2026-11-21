@@ -1,0 +1,48 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: Standing before the smoldering ash of their home, Juliana and Alexander receive shelter and food from grateful villagers before Alexander meets in secret with a loyal spy, learning that his usurping enemies have imprisoned his mother and claimed his ducal seat.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c03: window e19_u051..e19_u063 (89.5-119.63 s, 30.13 s); hook ['e19_u051'] modality visual (delay 0.0 s)
+  FAILED: cliffhanger: cliffhanger e19_u063 starts at 112.5s, before the final 20% of the clip (113.6s)
+  Original idea: This highlights the romantic tension and the couple's shared resolve to rebuild their lives from nothing.
+  Scene 03: units e19_u051..e19_u063, 89.5-119.6 s. Units of that scene:
+    e19_u051 | 89.5-94.0 | CAMERA | Wide atmospheric shot of the shadowy barn loft. Moonlight filters through vertical wooden slats, illuminating Juliana seated on a pile of straw beside a warm, glowing kerosene lantern.
+    e19_u052 | 94.0-96.8 | CAMERA | Over-the-shoulder close-up of Juliana's bandaged hands tracing the detailed botanical drawing on the charred page of her mother's herbal.
+    e19_u053 | 96.8-97.8 | CAMERA | Close-up of Juliana's face, silent tears streaming down her soot-smudged cheeks as her chin quivers.
+    e19_u054 | 97.2-100.0 | ACTION | The heavy wooden barn doors creak open. Alexander steps into the lantern light, carrying a bundle of firewood and a thick blanket under his arm.
+    e19_u055 | 97.4-99.4 | DIALOGUE | JULIANA: "We have lost everything."
+    e19_u056 | 99.9-103.0 | CAMERA | Medium shot of Juliana breaking down in tears over her open book, struggling to breathe through her weeping.
+    e19_u057 | 100.4-102.6 | DIALOGUE | JULIANA (Despairing, Broken): "I don't know what we will do tomorrow."
+    e19_u058 | 103.0-106.0 | ACTION | Alexander steps up behind her and gently drapes the thick woolen blanket over her trembling shoulders, resting his hands reassuringly on her.
+    e19_u059 | 104.2-106.2 | DIALOGUE | ALEXANDER (Soft, Steadfast): "Tomorrow, we begin again."
+    e19_u060 | 106.0-109.8 | CAMERA | Close-up of Juliana turning her tear-drenched eyes up toward Alexander, her face filled with longing and newfound hope.
+    e19_u061 | 107.3-109.2 | DIALOGUE | JULIANA (Faint Smile, Emotional): "You make it sound so simple."
+    e19_u062 | 109.8-112.5 | ACTION | Alexander sits down beside her in the straw. Juliana leans gently against his shoulder, letting her weary head rest against his broad chest.
+    e19_u063 | 112.5-119.6 | CAMERA | Slow cinematic push-in on the couple nestled together in the warm lantern glow. Alexander wraps his arm firmly around Juliana as she closes her eyes in exhausted relief, while his piercing gaze stares resolutely into the darkness, determined to reclaim everything that was stolen.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

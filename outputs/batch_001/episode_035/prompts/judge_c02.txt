@@ -1,0 +1,66 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Fleeing her captivity through a secret passage, Alexander's elderly mother treks through a bitter blizzard to a secluded cabin, where she tearfully reunites with her presumed-dead son and learns the horrifying conspiracy behind his supposed demise.
+CONTINUITY NOTES: While Juliana faces trial and sentencing in the courtroom, this episode reveals Alexander's mother escaping confinement and tracking down Alexander in his mountain hideout, uncovering the dark treason that orchestrates both their fates.
+
+CLIP: 122.0s to 157.5s (35.5s). Units below: id | seconds from clip start | type | text.
+e35_u056 | 0.0-3.5 | CAMERA | Close-up on his mother as her expression shifts to profound bewilderment and outrage.
+e35_u057 | 0.0-3.5 | DIALOGUE | ALEXANDER'S MOTHER (Aghast, Stunned): "Then why did they never tell us?"
+e35_u058 | 3.5-7.5 | CAMERA | Close-up on Alexander's intense, piercing gaze.
+e35_u059 | 4.0-7.5 | DIALOGUE | ALEXANDER (Ominous, Deliberate): "Because someone wanted you to believe I was dead."
+e35_u060 | 7.5-8.5 | DIALOGUE | ALEXANDER'S MOTHER (Breathless): "Who?"
+e35_u061 | 8.5-12.0 | ACTION | Alexander turns away toward the frosted window, staring out into the dark raging blizzard outside.
+e35_u062 | 9.0-12.0 | DIALOGUE | ALEXANDER (Brooding): "I spent three years trying to find out."
+e35_u063 | 12.0-14.8 | ACTION | Alexander abruptly pushes away from the window, storming back toward the table with burning rage.
+e35_u064 | 12.0-15.0 | DIALOGUE | ALEXANDER (Fierce, Resolute): "The ambush was not an accident."
+e35_u065 | 15.0-22.0 | ACTION | He leans heavily over the wooden table, looming close as his fury boils over.
+e35_u066 | 15.0-18.5 | DIALOGUE | ALEXANDER (Vehement, Enraged): "Someone ordered my men to die."
+e35_u067 | 19.0-22.0 | DIALOGUE | ALEXANDER (Darkly Intimating): "Someone wanted me erased."
+e35_u068 | 22.0-23.0 | DIALOGUE | ALEXANDER'S MOTHER (Gasping, Terrified): "Who?"
+e35_u069 | 23.0-28.5 | CAMERA | Tight close-up on Alexander's scarred, grim visage, his voice dropping to a deadly chill.
+e35_u070 | 23.5-28.0 | DIALOGUE | ALEXANDER (Deadly, Chilling): "The men behind it... are the same men ruling Ashwood now."
+e35_u071 | 28.5-35.5 | CAMERA | Close-up on his mother's face as the horrifying realization hits her, her mouth open in a soundless gasp of sheer dread as the scene holds and slowly fades.
+e35_u072 | 28.8-35.5 | SFX | A sudden, ominous orchestral crescendo swells dramatically into silence.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

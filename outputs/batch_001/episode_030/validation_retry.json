@@ -1,0 +1,54 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e30_u038",
+      "end_unit_id": "e30_u053",
+      "hook": {
+        "unit_ids": [
+          "e30_u038"
+        ],
+        "modality": "visual",
+        "description": "The Elder Nobleman and Catherine plotting in the firelight.",
+        "evidence": "The unit begins at 74.8s, which is within 3 seconds of the clip start (74.8s)."
+      },
+      "cliffhanger_unit_id": "e30_u053",
+      "reason": "This window captures the core conspiracy dialogue and meets the 20-second duration requirement."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e30_u038",
+      "end_unit_id": "e30_u053",
+      "hook": {
+        "unit_ids": [
+          "e30_u038"
+        ],
+        "modality": "visual",
+        "description": "The Elder Nobleman and Catherine plotting in the firelight.",
+        "evidence": "The unit begins at 74.8s, which is within 3 seconds of the clip start (74.8s)."
+      },
+      "cliffhanger_unit_id": "e30_u053",
+      "reason": "This window captures the core conspiracy dialogue and meets the 20-second duration requirement."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 74.8,
+    "end": 106.6,
+    "duration": 31.8,
+    "segments": [
+      {
+        "start_unit": "e30_u038",
+        "end_unit": "e30_u053",
+        "start": 74.8,
+        "end": 106.6
+      }
+    ]
+  }
+]

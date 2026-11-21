@@ -1,0 +1,71 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When hired thugs attack Juliana's medicinal garden, Alexander unleashes his combat training to effortlessly overpower them, extracting a shocking confession that unmasks Gerald Harrington as the mastermind.
+CONTINUITY NOTES: Picks up immediately from Episode 15's cliffhanger where Alexander confronted the three thugs in the moonlit garden while Juliana huddled injured on the ground.
+
+CLIP: 40.8s to 70.5s (29.7s). Units below: id | seconds from clip start | type | text.
+e16_u034 | 0.0-3.4 | CAMERA | Medium shot as Alexander suddenly wheels around, strides to the groaning Thug with Cap, and yanks him straight off the ground by his coat collar with one arm.
+e16_u035 | 0.4-3.2 | ACTION | Alexander lifts the thug onto his tiptoes against the cottage wall, glaring with lethal intensity.
+e16_u036 | 1.7-3.2 | DIALOGUE | ALEXANDER (Demanding, Threatening): "Who sent you?"
+e16_u037 | 3.4-5.4 | CAMERA | Close-up of the Thug with Cap gagging under Alexander's iron fist.
+e16_u038 | 3.4-4.5 | DIALOGUE | THUG WITH CAP (Choking, Defiant): "No one!"
+e16_u039 | 5.4-7.7 | CAMERA | Close-up of Alexander, his eyes darkening with lethal fury.
+e16_u040 | 5.5-6.6 | DIALOGUE | ALEXANDER (Cold, Ominous): "Wrong answer."
+e16_u041 | 7.2-9.2 | ACTION | Alexander tightens his grip on the thug's throat, lifting him higher against the stone wall.
+e16_u042 | 8.0-8.8 | DIALOGUE | ALEXANDER (Roaring): "Who?!"
+e16_u043 | 9.0-12.0 | CAMERA | Extreme close-up of the terrified thug gasping for air, his eyes bulging.
+e16_u044 | 9.0-11.4 | DIALOGUE | THUG WITH CAP (Screaming, Panicked): "Harrington! Gerald Harrington paid us!"
+e16_u045 | 12.0-14.4 | CAMERA | Close-up of Juliana on the ground, reeling in devastated disbelief as the betrayal hits her.
+e16_u046 | 12.4-13.6 | DIALOGUE | JULIANA (Shaken, Heartbroken): "Gerald..."
+e16_u047 | 14.4-18.2 | CAMERA | Medium wide shot as Alexander releases the thug, sending him tumbling into the ruined flowerbeds.
+e16_u048 | 14.7-17.7 | ACTION | The Thug with Cap scrambles to his feet and sprints into the dark woods alongside his two limping accomplices.
+e16_u049 | 15.2-17.4 | DIALOGUE | THUG WITH CAP (Shouting, Retreating): "We were only paid to destroy the garden, that's all!"
+e16_u050 | 18.2-22.2 | CAMERA | Close-up on Alexander's hand hanging by his coat. Fresh blood trickles from his split knuckles, and he slowly curls his fingers into a tight fist.
+e16_u051 | 19.2-22.2 | ACTION | Alexander flexes his bleeding hand, showing no sign of pain.
+e16_u052 | 22.2-25.7 | CAMERA | Medium shot as Juliana gingerly rises to her feet, stepping toward Alexander with deep awe and wonder in her eyes.
+e16_u053 | 23.4-25.4 | DIALOGUE | JULIANA (Soft, Astounded): "You knew exactly what to do."
+e16_u054 | 25.7-29.7 | CAMERA | Close-up of Juliana looking up at him, searching his scarred face.
+e16_u055 | 27.0-29.4 | DIALOGUE | JULIANA (Wondering, Intrigued): "You fought like you've done this a hundred times."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

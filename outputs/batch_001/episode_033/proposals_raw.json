@@ -1,0 +1,62 @@
+{
+  "episode": 33,
+  "prompt_hash": "892b26afbc0d770f",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.3,
+    "secs": 3.22,
+    "tokens_in": 5025,
+    "tokens_out": 525,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e33_u036",
+        "end_unit_id": "e33_u060",
+        "hook": {
+          "unit_ids": [
+            "e33_u036"
+          ],
+          "modality": "visual",
+          "description": "The Lord looms inches from the maid's face, threatening her brother's life.",
+          "evidence": "The immediate physical intimidation and the high-stakes threat to a child create instant tension."
+        },
+        "cliffhanger_unit_id": "e33_u060",
+        "reason": "The scene captures the exact moment the maid is forced to betray her savior to save her brother."
+      },
+      {
+        "start_unit_id": "e33_u069",
+        "end_unit_id": "e33_u092",
+        "hook": {
+          "unit_ids": [
+            "e33_u069"
+          ],
+          "modality": "visual",
+          "description": "The Lord paces and points his finger with clinical, legal precision while the maid sobs.",
+          "evidence": "The contrast between the Lord's cold, calculated manipulation and the maid's visible emotional breakdown is highly engaging."
+        },
+        "cliffhanger_unit_id": "e33_u092",
+        "reason": "This segment highlights the chilling ultimatum that forces the maid to commit perjury."
+      },
+      {
+        "start_unit_id": "e33_u084",
+        "end_unit_id": "e33_u099",
+        "hook": {
+          "unit_ids": [
+            "e33_u084"
+          ],
+          "modality": "visual",
+          "description": "The maid grabs her head and screams in utter grief and guilt.",
+          "evidence": "The raw, visceral display of despair immediately draws the viewer into the emotional stakes of the scene."
+        },
+        "cliffhanger_unit_id": "e33_u099",
+        "reason": "The final collapse of the maid and the Lord's heartless dismissal provide a powerful, tragic conclusion."
+      }
+    ]
+  },
+  "note": null
+}

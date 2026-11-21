@@ -1,0 +1,193 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "b44cf3afdcf6d041",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 8.7,
+      "secs": 3.64,
+      "tokens_in": 1818,
+      "tokens_out": 1071
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e22_u001",
+          "e22_u002"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e22_u005",
+          "e22_u011",
+          "e22_u015",
+          "e22_u019"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e22_u005",
+          "e22_u017",
+          "e22_u021"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e22_u005",
+          "e22_u011",
+          "e22_u015",
+          "e22_u019",
+          "e22_u023"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e22_u022",
+          "e22_u023"
+        ]
+      },
+      "hook_unit_id": "e22_u002",
+      "hook_type": "reveal",
+      "emotion_type": "suspense",
+      "trope": "hidden identity",
+      "central_conflict": "Lady Juliana, disguised as a maid, must infiltrate Ashbury Manor to save the dying Duchess while avoiding detection.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "881fa2b74c151393",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.4,
+      "secs": 3.26,
+      "tokens_in": 1444,
+      "tokens_out": 1329
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e22_u042",
+          "e22_u043"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e22_u043",
+          "e22_u045",
+          "e22_u052",
+          "e22_u054"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e22_u043",
+          "e22_u047",
+          "e22_u048",
+          "e22_u050",
+          "e22_u052"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e22_u043",
+          "e22_u048",
+          "e22_u051",
+          "e22_u054"
+        ]
+      },
+      "ending": {
+        "score": 2,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e22_u054"
+        ]
+      },
+      "hook_unit_id": "e22_u043",
+      "hook_type": "threat",
+      "emotion_type": "fear",
+      "trope": "hidden identity",
+      "central_conflict": "A disguised noblewoman must evade a hostile housekeeper while trying to locate the forbidden West Wing of the manor.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03",
+    "prompt_hash": "c7b4444b8e6ff3b5",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 2,
+      "waited_s": 36.4,
+      "secs": 2.98,
+      "tokens_in": 1704,
+      "tokens_out": 1076
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e22_u063"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e22_u063",
+          "e22_u070",
+          "e22_u076",
+          "e22_u081"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e22_u073",
+          "e22_u076",
+          "e22_u077",
+          "e22_u080",
+          "e22_u081"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e22_u063",
+          "e22_u075",
+          "e22_u077",
+          "e22_u081"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e22_u081"
+        ]
+      },
+      "hook_unit_id": "e22_u063",
+      "hook_type": "visual_shock",
+      "emotion_type": "shock",
+      "trope": "poisoned noble",
+      "central_conflict": "Lady Juliana discovers the Dowager Duchess is suffering from a mysterious, possibly poisoned illness and must act quickly.",
+      "spoils_main_twist": false
+    }
+  }
+]

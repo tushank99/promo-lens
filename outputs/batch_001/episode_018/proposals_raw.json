@@ -1,0 +1,62 @@
+{
+  "episode": 18,
+  "prompt_hash": "4ac68858d4043290",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 2.3,
+    "secs": 3.97,
+    "tokens_in": 4813,
+    "tokens_out": 510,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e18_u001",
+        "end_unit_id": "e18_u018",
+        "hook": {
+          "unit_ids": [
+            "e18_u001"
+          ],
+          "modality": "visual",
+          "description": "Low-angle shot of flames crackling beneath a bedroom door.",
+          "evidence": "The immediate visual of a fire trapping someone in their bedroom creates instant high-stakes tension."
+        },
+        "cliffhanger_unit_id": "e18_u018",
+        "reason": "The intense rescue sequence establishes the immediate danger and the bond between the leads."
+      },
+      {
+        "start_unit_id": "e18_u036",
+        "end_unit_id": "e18_u052",
+        "hook": {
+          "unit_ids": [
+            "e18_u036"
+          ],
+          "modality": "visual",
+          "description": "Ceiling beams splitting and roaring with fire.",
+          "evidence": "The visual of a collapsing ceiling provides a visceral, life-or-death hook."
+        },
+        "cliffhanger_unit_id": "e18_u052",
+        "reason": "This segment captures the desperate struggle to save a precious item while the house collapses around them."
+      },
+      {
+        "start_unit_id": "e18_u065",
+        "end_unit_id": "e18_u081",
+        "hook": {
+          "unit_ids": [
+            "e18_u065"
+          ],
+          "modality": "visual",
+          "description": "Juliana kneeling in the mud, soot-covered, clutching a charred ledger.",
+          "evidence": "The emotional aftermath of the fire and the visual of the destroyed home immediately grounds the viewer in the tragedy."
+        },
+        "cliffhanger_unit_id": "e18_u081",
+        "reason": "The transition from grief to Alexander's vow of vengeance provides a powerful narrative arc for a promo."
+      }
+    ]
+  },
+  "note": null
+}

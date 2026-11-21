@@ -1,0 +1,72 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: Banished from her mother's chapel and seized by guards at her family's command, Juliana is rescued by an imposing, scarred stranger who intervenes with lethal grace—and drops to one knee with a proposal that shocks high society.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c01: window e03_u046..e03_u072 (58.2-85.5 s, 27.3 s); hook ['e03_u046', 'e03_u047'] modality spoken (delay 0.0 s)
+  FAILED: scene: window crosses scenes ['02', '03']
+  Original idea: The sudden intervention of a mysterious stranger against royal guards provides a high-octane rescue moment.
+  Scene 02: units e03_u018..e03_u054, 22.8-64.5 s. Units of that scene:
+    e03_u018 | 22.8-25.8 | CAMERA | Low-angle wide shot of an imperious Noble Matriarch in a lavish black velvet gown and jeweled tiara stepping forward.
+    e03_u019 | 23.1-25.5 | DIALOGUE | NOBLE MATRIARCH (Harsh, Authoritative): "Enough, Juliana."
+    e03_u020 | 25.8-28.0 | CAMERA | Medium close-up of the Noble Matriarch glaring down with icy contempt.
+    e03_u021 | 25.9-28.0 | DIALOGUE | NOBLE MATRIARCH (Cold, Disgusted): "You have humiliated this family enough for one day."
+    e03_u022 | 28.0-30.3 | CAMERA | Close-up on Juliana, tears shimmering in her eyes as betrayal strikes deep.
+    e03_u023 | 30.3-35.5 | CAMERA | Medium shot on Juliana as she speaks out against her family's injustice.
+    e03_u024 | 30.4-33.2 | DIALOGUE | LADY JULIANA (Pained, Betrayed): "I was humiliated by your family."
+    e03_u025 | 33.3-35.6 | DIALOGUE | LADY JULIANA (Accusing): "And my father said nothing."
+    e03_u026 | 35.5-38.2 | CAMERA | Medium close-up on the Noble Matriarch, completely unsympathetic.
+    e03_u027 | 36.5-38.4 | DIALOGUE | NOBLE MATRIARCH (Brutal, Dismissive): "Your father has made his choice."
+    e03_u028 | 38.2-40.4 | CAMERA | Close-up on Juliana's stricken, vulnerable face.
+    e03_u029 | 38.5-40.4 | DIALOGUE | LADY JULIANA (Choked, Vulnerable): "And what happens to me?"
+    e03_u030 | 40.4-42.0 | CAMERA | Close-up of the Noble Matriarch delivering her verdict.
+    e03_u031 | 40.5-41.9 | DIALOGUE | NOBLE MATRIARCH (Cold, Heartless): "You leave."
+    e03_u032 | 42.0-43.3 | CAMERA | Close-up on Juliana blinking in disbelief.
+    e03_u033 | 42.1-43.3 | DIALOGUE | LADY JULIANA (Disbelieving): "Leave where?"
+    e03_u034 | 43.3-45.9 | CAMERA | Medium shot of the Noble Matriarch looking down her nose in disdain.
+    e03_u035 | 43.4-46.0 | DIALOGUE | NOBLE MATRIARCH (Cruel, Scornful): "Wherever a discarded daughter belongs."
+    e03_u036 | 45.9-48.8 | CAMERA | Low-angle close-up focusing on Juliana's neck as her fingers desperately clutch the oval locket.
+    e03_u037 | 46.4-48.6 | DIALOGUE | LADY JULIANA (Fierce, Choked): "This is my mother's church."
+    e03_u038 | 48.8-51.2 | CAMERA | Close-up on Juliana's face, teeth clenched in desperate defiance.
+    e03_u039 | 48.9-51.1 | DIALOGUE | LADY JULIANA (Defiant, Firm): "I have every right to stand here."
+    e03_u040 | 51.2-53.0 | CAMERA | Tight close-up of the Noble Matriarch leaning in with vicious delight.
+    e03_u041 | 51.3-53.0 | DIALOGUE | NOBLE MATRIARCH (Venomous): "Not anymore."
+    e03_u042 | 53.0-56.2 | CAMERA | Medium shot on the Noble Matriarch gesturing expansively to the filled cathedral nave behind her.
+    e03_u043 | 53.3-56.2 | DIALOGUE | NOBLE MATRIARCH (Stern, Final): "Your father has chosen his family..."
+    e03_u044 | 56.2-58.2 | CAMERA | Close-up profile of the Noble Matriarch's piercing eyes glaring directly at Juliana.
+    e03_u045 | 56.3-58.2 | DIALOGUE | NOBLE MATRIARCH (Coldly Severing): "...and it isn't you."
+    e03_u046 | 58.2-59.8 | ACTION | The Noble Matriarch turns sharply toward the back of the chapel and barks an order.
+    e03_u047 | 58.3-60.0 | DIALOGUE | NOBLE MATRIARCH (Shouting, Imperious): "Guards! Remove her!"
+    e03_u048 | 60.0-62.0 | CAMERA | Medium shot as two royal guards in red uniforms and bearskin caps step in behind Juliana and seize her arms.
+    e03_u049 | 60.5-62.5 | ACTION | The guards forcefully grab Juliana by both shoulders and drag her backwards.
+    e03_u050 | 60.6-62.3 | DIALOGUE | LADY JULIANA (Screaming, Resisting): "Let me go!"
+    e03_u051 | 62.0-63.2 | CAMERA | Close-up of Juliana's hand frantically grabbing the wooden rim of a pew, knuckles white with strain.
+    e03_u052 | 62.4-63.5 | DIALOGUE | LADY JULIANA (Desperate, Begging): "Please! Someone!"
+    e03_u053 | 63.0-64.5 | ACTION | The guards tear her grip away from the pew.
+    e03_u054 | 63.0-64.5 | SFX | Muffled scuffle, rustle of heavy silk and frantic gasps echoing off cathedral stone.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

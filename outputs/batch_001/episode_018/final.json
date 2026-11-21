@@ -1,0 +1,596 @@
+{
+  "episode": 18,
+  "logline": "When their cottage is deliberately set ablaze in the dead of night, Alexander risks his life to rescue Juliana and her mother's cherished ledger from the inferno, vowing relentless vengeance against those responsible.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 1,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 3,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 1,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c03r",
+      "episode": 18,
+      "retry_of": "c03",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e18_u065",
+      "end_unit_id": "e18_u078",
+      "hook_unit_id": "e18_u065",
+      "hook": {
+        "unit_ids": [
+          "e18_u065"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Juliana in the mud, soot-covered and clutching the charred ledger.",
+        "evidence": "The visual impact of the survivor holding the only remnant of her life immediately establishes the stakes.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e18_u078",
+      "segments": [
+        {
+          "start_unit": "e18_u065",
+          "end_unit": "e18_u078",
+          "start": 128.5,
+          "end": 179.5
+        }
+      ],
+      "start": 128.5,
+      "end": 179.5,
+      "duration": 51.0,
+      "proposer_reason": "This window captures the emotional core and the transition to the vow of vengeance within the 60-second limit.",
+      "hook_type": "visual_shock",
+      "emotion_type": "revenge",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e18_u065"
+        ],
+        "clarity": [
+          "e18_u066",
+          "e18_u074",
+          "e18_u078"
+        ],
+        "emotion": [
+          "e18_u065",
+          "e18_u073",
+          "e18_u076",
+          "e18_u077",
+          "e18_u078"
+        ],
+        "escalation": [
+          "e18_u066",
+          "e18_u068",
+          "e18_u076",
+          "e18_u078"
+        ],
+        "ending": [
+          "e18_u077",
+          "e18_u078"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 7.7s (128.5-136.2)",
+        "camera-only stretch 6.3s (165.5-171.8)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "Vengeful survivor",
+      "central_conflict": "After their cottage is set ablaze, Juliana mourns the loss while Alexander vows to avenge the arsonists.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e18_u065",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c01",
+      "episode": 18,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e18_u001",
+      "end_unit_id": "e18_u018",
+      "hook_unit_id": "e18_u001",
+      "hook": {
+        "unit_ids": [
+          "e18_u001"
+        ],
+        "modality": "visual",
+        "description": "Low-angle shot of flames crackling beneath a bedroom door.",
+        "evidence": "The immediate visual of a fire trapping someone in their bedroom creates instant high-stakes tension.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e18_u018",
+      "segments": [
+        {
+          "start_unit": "e18_u001",
+          "end_unit": "e18_u018",
+          "start": 0.0,
+          "end": 28.9
+        }
+      ],
+      "start": 0.0,
+      "end": 28.9,
+      "duration": 28.9,
+      "proposer_reason": "The intense rescue sequence establishes the immediate danger and the bond between the leads.",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 2
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e18_u001",
+          "e18_u002"
+        ],
+        "clarity": [
+          "e18_u001",
+          "e18_u003",
+          "e18_u013",
+          "e18_u016"
+        ],
+        "emotion": [
+          "e18_u006",
+          "e18_u011",
+          "e18_u017",
+          "e18_u018"
+        ],
+        "escalation": [
+          "e18_u001",
+          "e18_u012",
+          "e18_u013",
+          "e18_u016"
+        ],
+        "ending": [
+          "e18_u017",
+          "e18_u018"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.9s (12.3-16.2)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 76.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "trapped in flames",
+      "central_conflict": "Juliana is trapped in a burning bedroom and Alexander must rescue her before the fire consumes them.",
+      "ending_type": "transition",
+      "judge_hook_unit_id": "e18_u001",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 18,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e18_u036",
+      "end_unit_id": "e18_u052",
+      "hook_unit_id": "e18_u036",
+      "hook": {
+        "unit_ids": [
+          "e18_u036"
+        ],
+        "modality": "visual",
+        "description": "Ceiling beams splitting and roaring with fire.",
+        "evidence": "The visual of a collapsing ceiling provides a visceral, life-or-death hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e18_u052",
+      "segments": [
+        {
+          "start_unit": "e18_u036",
+          "end_unit": "e18_u052",
+          "start": 63.0,
+          "end": 98.2
+        }
+      ],
+      "start": 63.0,
+      "end": 98.2,
+      "duration": 35.2,
+      "proposer_reason": "This segment captures the desperate struggle to save a precious item while the house collapses around them.",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e18_u036"
+        ],
+        "clarity": [
+          "e18_u036",
+          "e18_u038",
+          "e18_u042"
+        ],
+        "emotion": [
+          "e18_u041",
+          "e18_u042",
+          "e18_u046",
+          "e18_u048",
+          "e18_u051"
+        ],
+        "escalation": [
+          "e18_u036",
+          "e18_u040",
+          "e18_u049",
+          "e18_u050"
+        ],
+        "ending": [
+          "e18_u052"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 76.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "protective hero",
+      "central_conflict": "Alexander and Juliana must survive a raging fire while trying to save a treasured ledger.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e18_u036",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 3
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 18,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e18_u001",
+      "end_unit_id": "e18_u018",
+      "hook_unit_id": "e18_u001",
+      "hook": {
+        "unit_ids": [
+          "e18_u001"
+        ],
+        "modality": "visual",
+        "description": "Low-angle shot of flames crackling beneath a bedroom door.",
+        "evidence": "The immediate visual of a fire trapping someone in their bedroom creates instant high-stakes tension.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e18_u018",
+      "segments": [
+        {
+          "start_unit": "e18_u001",
+          "end_unit": "e18_u018",
+          "start": 0.0,
+          "end": 28.9
+        }
+      ],
+      "start": 0.0,
+      "end": 28.9,
+      "duration": 28.9,
+      "proposer_reason": "The intense rescue sequence establishes the immediate danger and the bond between the leads.",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 2
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e18_u001",
+          "e18_u002"
+        ],
+        "clarity": [
+          "e18_u001",
+          "e18_u003",
+          "e18_u013",
+          "e18_u016"
+        ],
+        "emotion": [
+          "e18_u006",
+          "e18_u011",
+          "e18_u017",
+          "e18_u018"
+        ],
+        "escalation": [
+          "e18_u001",
+          "e18_u012",
+          "e18_u013",
+          "e18_u016"
+        ],
+        "ending": [
+          "e18_u017",
+          "e18_u018"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.9s (12.3-16.2)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 76.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "trapped in flames",
+      "central_conflict": "Juliana is trapped in a burning bedroom and Alexander must rescue her before the fire consumes them.",
+      "ending_type": "transition",
+      "judge_hook_unit_id": "e18_u001",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 18,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e18_u036",
+      "end_unit_id": "e18_u052",
+      "hook_unit_id": "e18_u036",
+      "hook": {
+        "unit_ids": [
+          "e18_u036"
+        ],
+        "modality": "visual",
+        "description": "Ceiling beams splitting and roaring with fire.",
+        "evidence": "The visual of a collapsing ceiling provides a visceral, life-or-death hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e18_u052",
+      "segments": [
+        {
+          "start_unit": "e18_u036",
+          "end_unit": "e18_u052",
+          "start": 63.0,
+          "end": 98.2
+        }
+      ],
+      "start": 63.0,
+      "end": 98.2,
+      "duration": 35.2,
+      "proposer_reason": "This segment captures the desperate struggle to save a precious item while the house collapses around them.",
+      "hook_type": "visual_shock",
+      "emotion_type": "fear",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e18_u036"
+        ],
+        "clarity": [
+          "e18_u036",
+          "e18_u038",
+          "e18_u042"
+        ],
+        "emotion": [
+          "e18_u041",
+          "e18_u042",
+          "e18_u046",
+          "e18_u048",
+          "e18_u051"
+        ],
+        "escalation": [
+          "e18_u036",
+          "e18_u040",
+          "e18_u049",
+          "e18_u050"
+        ],
+        "ending": [
+          "e18_u052"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 76.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "protective hero",
+      "central_conflict": "Alexander and Juliana must survive a raging fire while trying to save a treasured ledger.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e18_u036",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 3
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 18,
+      "retry_of": null,
+      "retried_as": "c03r",
+      "retry_declined": null,
+      "start_unit_id": "e18_u065",
+      "end_unit_id": "e18_u081",
+      "hook_unit_id": "e18_u065",
+      "hook": {
+        "unit_ids": [
+          "e18_u065"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling in the mud, soot-covered, clutching a charred ledger.",
+        "evidence": "The emotional aftermath of the fire and the visual of the destroyed home immediately grounds the viewer in the tragedy.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e18_u081",
+      "segments": [
+        {
+          "start_unit": "e18_u065",
+          "end_unit": "e18_u081",
+          "start": 128.5,
+          "end": 192.0
+        }
+      ],
+      "start": 128.5,
+      "end": 192.0,
+      "duration": 63.5,
+      "proposer_reason": "The transition from grief to Alexander's vow of vengeance provides a powerful narrative arc for a promo.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 7.7s (128.5-136.2)",
+        "camera-only stretch 6.3s (165.5-171.8)",
+        "camera-only stretch 5.5s (186.5-192.0)"
+      ],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "63.5s is over the 60s maximum"
+      ]
+    },
+    {
+      "candidate_id": "c03r",
+      "episode": 18,
+      "retry_of": "c03",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e18_u065",
+      "end_unit_id": "e18_u078",
+      "hook_unit_id": "e18_u065",
+      "hook": {
+        "unit_ids": [
+          "e18_u065"
+        ],
+        "modality": "visual",
+        "description": "Close-up of Juliana in the mud, soot-covered and clutching the charred ledger.",
+        "evidence": "The visual impact of the survivor holding the only remnant of her life immediately establishes the stakes.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e18_u078",
+      "segments": [
+        {
+          "start_unit": "e18_u065",
+          "end_unit": "e18_u078",
+          "start": 128.5,
+          "end": 179.5
+        }
+      ],
+      "start": 128.5,
+      "end": 179.5,
+      "duration": 51.0,
+      "proposer_reason": "This window captures the emotional core and the transition to the vow of vengeance within the 60-second limit.",
+      "hook_type": "visual_shock",
+      "emotion_type": "revenge",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e18_u065"
+        ],
+        "clarity": [
+          "e18_u066",
+          "e18_u074",
+          "e18_u078"
+        ],
+        "emotion": [
+          "e18_u065",
+          "e18_u073",
+          "e18_u076",
+          "e18_u077",
+          "e18_u078"
+        ],
+        "escalation": [
+          "e18_u066",
+          "e18_u068",
+          "e18_u076",
+          "e18_u078"
+        ],
+        "ending": [
+          "e18_u077",
+          "e18_u078"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 7.7s (128.5-136.2)",
+        "camera-only stretch 6.3s (165.5-171.8)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "Vengeful survivor",
+      "central_conflict": "After their cottage is set ablaze, Juliana mourns the loss while Alexander vows to avenge the arsonists.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e18_u065",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 5,
+    "cached_calls": 0,
+    "checkpoint_reused": 5,
+    "tokens_in": 11053,
+    "tokens_out": 3524,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 15.9,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 36.4
+  }
+}

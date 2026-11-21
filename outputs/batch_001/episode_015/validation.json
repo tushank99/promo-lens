@@ -1,0 +1,110 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e15_u001",
+      "end_unit_id": "e15_u035",
+      "hook": {
+        "unit_ids": [
+          "e15_u004"
+        ],
+        "modality": "visual",
+        "description": "A thug brutally smashes a wooden planter box with a heavy club.",
+        "evidence": "The sudden, violent destruction of property immediately establishes high stakes and conflict."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This segment establishes the conflict and Juliana's desperate attempt to protect her mother's legacy, ending on her being shoved to the ground."
+    },
+    "norm": {
+      "start_unit_id": "e15_u001",
+      "end_unit_id": "e15_u035",
+      "hook": {
+        "unit_ids": [
+          "e15_u004"
+        ],
+        "modality": "visual",
+        "description": "A thug brutally smashes a wooden planter box with a heavy club.",
+        "evidence": "The sudden, violent destruction of property immediately establishes high stakes and conflict."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This segment establishes the conflict and Juliana's desperate attempt to protect her mother's legacy, ending on her being shoved to the ground."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "hook"
+    ],
+    "details": [
+      "hook e15_u004 begins 3.6s after clip start (limit 3.0s)"
+    ],
+    "warnings": [
+      "camera-only stretch 3.6s (31.2-34.8)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 3.6,
+    "start": 0.0,
+    "end": 49.5,
+    "duration": 49.5,
+    "segments": [
+      {
+        "start_unit": "e15_u001",
+        "end_unit": "e15_u035",
+        "start": 0.0,
+        "end": 49.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e15_u030",
+      "end_unit_id": "e15_u055",
+      "hook": {
+        "unit_ids": [
+          "e15_u030"
+        ],
+        "modality": "visual",
+        "description": "A thug aggressively steps into Juliana's personal space, snarling at her.",
+        "evidence": "The immediate physical intimidation and the victim's defiance create instant tension."
+      },
+      "cliffhanger_unit_id": "e15_u055",
+      "reason": "This segment focuses on the escalation of violence and the arrival of Alexander as a savior, ending on a high-tension cliffhanger."
+    },
+    "norm": {
+      "start_unit_id": "e15_u030",
+      "end_unit_id": "e15_u055",
+      "hook": {
+        "unit_ids": [
+          "e15_u030"
+        ],
+        "modality": "visual",
+        "description": "A thug aggressively steps into Juliana's personal space, snarling at her.",
+        "evidence": "The immediate physical intimidation and the victim's defiance create instant tension."
+      },
+      "cliffhanger_unit_id": "e15_u055",
+      "reason": "This segment focuses on the escalation of violence and the arrival of Alexander as a savior, ending on a high-tension cliffhanger."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 3.4s (72.6-76.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 44.2,
+    "end": 86.0,
+    "duration": 41.8,
+    "segments": [
+      {
+        "start_unit": "e15_u030",
+        "end_unit": "e15_u055",
+        "start": 44.2,
+        "end": 86.0
+      }
+    ]
+  }
+]

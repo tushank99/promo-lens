@@ -1,0 +1,64 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+The Dowager Duchess realizes Juliana's wedding ring bears the Ashbourne crest belonging to her lost son, but before Juliana can reveal Alexander's name, Rupert and Catherine storm the bedchamber and frame her for poisoning the Duchess.
+CONTINUITY NOTES: Picks up immediately from Episode 26's cliffhanger where the Dowager Duchess gripped Juliana's hand upon recognizing the family signet ring, frantically questioning her origin.
+
+CLIP: 16.8s to 46.4s (29.6s). Units below: id | seconds from clip start | type | text.
+e27_u011 | 0.0-4.8 | CAMERA | Medium two-shot as the Duchess leans forward slightly, staring at the ring between their joined hands.
+e27_u012 | 0.4-4.4 | DIALOGUE | DOWAGER DUCHESS (Trembling, Revelatory): "That is no ordinary band. It bears the Ashbourne crest."
+e27_u013 | 4.8-9.3 | CAMERA | Close-up on Juliana, shaking her head in disbelief and growing confusion.
+e27_u014 | 5.0-9.0 | DIALOGUE | JULIANA (Confused, Gentle): "No. He lives in a barn. He has nothing but his word."
+e27_u015 | 9.3-15.0 | CAMERA | Low-angle shot on the Duchess, tears welling in her eyes as grief and shock overtake her.
+e27_u016 | 9.8-14.6 | DIALOGUE | DOWAGER DUCHESS (Emotionally Strained, Weeping): "My lost son wore that exact ring. He went to war..."
+e27_u017 | 15.0-18.1 | CAMERA | Close-up of Juliana's eyes widening in stunned revelation.
+e27_u018 | 15.3-18.0 | DIALOGUE | JULIANA (Shocked, Breathless): "Your son? He told me he was only a sergeant."
+e27_u019 | 18.1-20.6 | CAMERA | Side-angle medium shot of the bed, the Duchess holding onto Juliana's forearm with fierce insistence.
+e27_u020 | 18.4-20.8 | DIALOGUE | DOWAGER DUCHESS (Desperate, Clinging): "My lost son wore that ring!"
+e27_u021 | 20.6-23.6 | CAMERA | Close-up of Juliana looking down with compassionate concern.
+e27_u022 | 21.0-23.4 | DIALOGUE | DOWAGER DUCHESS (Pleading): "Did your husband serve beside him?"
+e27_u023 | 24.2-27.4 | DIALOGUE | JULIANA (Soft, Reverent): "He never spoke of his officers. He only spoke of survival."
+e27_u024 | 27.4-29.6 | CAMERA | Close-up of the Duchess gazing up at Juliana, her voice barely a whisper.
+e27_u025 | 27.7-29.6 | DIALOGUE | DOWAGER DUCHESS (Hushed, Desperate): "What is your husband's name?"
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

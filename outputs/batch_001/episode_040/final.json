@@ -1,0 +1,248 @@
+{
+  "episode": 40,
+  "logline": "High society gathers at the grand cathedral for Rupert and Catherine's lavish wedding, while the conspirators ensure every exit is sealed to seal Juliana's execution—unaware that Alexander's retribution is already at their gates.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 2,
+    "rejected_at_judge": 2,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 2,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 40,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e40_u012",
+      "end_unit_id": "e40_u017",
+      "hook_unit_id": "e40_u012",
+      "hook": {
+        "unit_ids": [
+          "e40_u012"
+        ],
+        "modality": "spoken",
+        "description": "Lady Harrington tauntingly asks, 'Imagine Juliana seeing this.'",
+        "evidence": "The immediate mention of a victim and a cruel plot establishes high stakes and immediate conflict.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e40_u017",
+      "segments": [
+        {
+          "start_unit": "e40_u012",
+          "end_unit": "e40_u017",
+          "start": 23.2,
+          "end": 34.2
+        }
+      ],
+      "start": 23.2,
+      "end": 34.2,
+      "duration": 11.0,
+      "proposer_reason": "The dialogue establishes a clear villainous plot against a specific target, creating immediate intrigue.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera shot e40_u011 (23.0-26.2) straddles a cut"
+      ],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "11.0s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 40,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e40_u031",
+      "end_unit_id": "e40_u038",
+      "hook_unit_id": "e40_u031",
+      "hook": {
+        "unit_ids": [
+          "e40_u031"
+        ],
+        "modality": "visual",
+        "description": "A Royal Guard bows to an elder nobleman while discussing the sealing of all exits.",
+        "evidence": "The visual of a guard confirming a lockdown creates an immediate sense of danger and conspiracy.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e40_u038",
+      "segments": [
+        {
+          "start_unit": "e40_u031",
+          "end_unit": "e40_u038",
+          "start": 63.8,
+          "end": 78.5
+        }
+      ],
+      "start": 63.8,
+      "end": 78.5,
+      "duration": 14.7,
+      "proposer_reason": "The cold declaration that the 'witch' will be dead by sunset provides a high-stakes ticking clock.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:duration",
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "14.7s is under the 20s minimum",
+        "cliffhanger e40_u038 starts at 74.8s, before the final 20% of the clip (75.56s)"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 40,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e40_u042",
+      "end_unit_id": "e40_u051",
+      "hook_unit_id": "e40_u042",
+      "hook": {
+        "unit_ids": [
+          "e40_u042"
+        ],
+        "modality": "visual",
+        "description": "Catherine silhouetted in the bright doorway in a magnificent bridal gown.",
+        "evidence": "The visual contrast of the bride entering the cathedral is a classic, high-production-value hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e40_u051",
+      "segments": [
+        {
+          "start_unit": "e40_u042",
+          "end_unit": "e40_u051",
+          "start": 82.5,
+          "end": 110.08
+        }
+      ],
+      "start": 82.5,
+      "end": 110.08,
+      "duration": 27.58,
+      "proposer_reason": "The contrast between the beautiful wedding and the conspiratorial dialogue between the couple highlights the show's theme of betrayal.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 9.5s (82.5-92.0)",
+        "camera-only stretch 5.8s (94.2-100.0)"
+      ],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 40,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e40_u026",
+      "end_unit_id": "e40_u038",
+      "hook_unit_id": "e40_u026",
+      "hook": {
+        "unit_ids": [
+          "e40_u026"
+        ],
+        "modality": "visual",
+        "description": "Rupert standing nervously at the altar, establishing the high-stakes wedding setting.",
+        "evidence": "The unit begins at 49.8s, well within the 3s limit of the clip start.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e40_u038",
+      "segments": [
+        {
+          "start_unit": "e40_u026",
+          "end_unit": "e40_u038",
+          "start": 49.8,
+          "end": 78.5
+        }
+      ],
+      "start": 49.8,
+      "end": 78.5,
+      "duration": 28.7,
+      "proposer_reason": "Expanding the window to include the groom's preparation meets the 20s duration requirement and places the final line in the last 20% of the 28.7s clip.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 9.2s (55.8-65.0)"
+      ],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 2,
+    "tokens_in": 5912,
+    "tokens_out": 743,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 4.8,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 2,
+    "judge_failed": 2,
+    "waited_s": 3.5
+  }
+}

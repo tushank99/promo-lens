@@ -1,0 +1,176 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e05_u023",
+      "end_unit_id": "e05_u034",
+      "hook": {
+        "unit_ids": [
+          "e05_u023"
+        ],
+        "modality": "visual",
+        "description": "Lady Ashcroft steps forward with a smirk of malicious authority.",
+        "evidence": "The immediate display of villainy and power imbalance creates instant tension."
+      },
+      "cliffhanger_unit_id": "e05_u034",
+      "reason": "The act of throwing a family heirloom into the mud is a visceral moment of humiliation that demands justice."
+    },
+    "norm": {
+      "start_unit_id": "e05_u023",
+      "end_unit_id": "e05_u034",
+      "hook": {
+        "unit_ids": [
+          "e05_u023"
+        ],
+        "modality": "visual",
+        "description": "Lady Ashcroft steps forward with a smirk of malicious authority.",
+        "evidence": "The immediate display of villainy and power imbalance creates instant tension."
+      },
+      "cliffhanger_unit_id": "e05_u034",
+      "reason": "The act of throwing a family heirloom into the mud is a visceral moment of humiliation that demands justice."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "16.7s is under the 20s minimum"
+    ],
+    "warnings": [
+      "camera shot e05_u035 (57.8-63.0) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 41.5,
+    "end": 58.2,
+    "duration": 16.7,
+    "segments": [
+      {
+        "start_unit": "e05_u023",
+        "end_unit": "e05_u034",
+        "start": 41.5,
+        "end": 58.2
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e05_u038",
+      "end_unit_id": "e05_u053",
+      "hook": {
+        "unit_ids": [
+          "e05_u038"
+        ],
+        "modality": "visual",
+        "description": "Juliana weeping on the ground as her family mocks her.",
+        "evidence": "The emotional vulnerability of the protagonist immediately triggers viewer empathy."
+      },
+      "cliffhanger_unit_id": "e05_u053",
+      "reason": "The contrast between the family's cruelty and the husband's quiet, protective strength is highly satisfying."
+    },
+    "norm": {
+      "start_unit_id": "e05_u038",
+      "end_unit_id": "e05_u053",
+      "hook": {
+        "unit_ids": [
+          "e05_u038"
+        ],
+        "modality": "visual",
+        "description": "Juliana weeping on the ground as her family mocks her.",
+        "evidence": "The emotional vulnerability of the protagonist immediately triggers viewer empathy."
+      },
+      "cliffhanger_unit_id": "e05_u053",
+      "reason": "The contrast between the family's cruelty and the husband's quiet, protective strength is highly satisfying."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "dialogue_cut"
+    ],
+    "details": [
+      "clip start 63.0s cuts through e05_u037 (62.4-64.6): \"Perhaps that is where it belongs.\""
+    ],
+    "warnings": [
+      "camera-only stretch 3.3s (74.5-77.8)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 63.0,
+    "end": 91.0,
+    "duration": 28.0,
+    "segments": [
+      {
+        "start_unit": "e05_u038",
+        "end_unit": "e05_u053",
+        "start": 63.0,
+        "end": 91.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e05_u054",
+      "end_unit_id": "e05_u061",
+      "hook": {
+        "unit_ids": [
+          "e05_u054"
+        ],
+        "modality": "visual",
+        "description": "Gerald pointing an accusatory finger and mocking Juliana.",
+        "evidence": "The blatant arrogance of the antagonist creates an immediate desire for a comeback."
+      },
+      "cliffhanger_unit_id": "e05_u061",
+      "reason": "The moment of walking away from toxic family members into the unknown provides a strong sense of closure and new beginnings."
+    },
+    "norm": {
+      "start_unit_id": "e05_u054",
+      "end_unit_id": "e05_u061",
+      "hook": {
+        "unit_ids": [
+          "e05_u054"
+        ],
+        "modality": "visual",
+        "description": "Gerald pointing an accusatory finger and mocking Juliana.",
+        "evidence": "The blatant arrogance of the antagonist creates an immediate desire for a comeback."
+      },
+      "cliffhanger_unit_id": "e05_u061",
+      "reason": "The moment of walking away from toxic family members into the unknown provides a strong sense of closure and new beginnings."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration",
+      "cliffhanger"
+    ],
+    "details": [
+      "19.5s is under the 20s minimum",
+      "cliffhanger e05_u061 starts at 105.5s, before the final 20% of the clip (106.6s)"
+    ],
+    "warnings": [
+      "camera-only stretch 3.4s (100.8-104.2)"
+    ],
+    "review": [
+      "straddled_action_or_sfx"
+    ],
+    "review_details": [
+      "sfx e05_u062 (106.0-110.5) overlaps the clip from outside the window: check the cut on footage"
+    ],
+    "hook_delay": 0.0,
+    "start": 91.0,
+    "end": 110.5,
+    "duration": 19.5,
+    "segments": [
+      {
+        "start_unit": "e05_u054",
+        "end_unit": "e05_u061",
+        "start": 91.0,
+        "end": 110.5
+      }
+    ]
+  }
+]

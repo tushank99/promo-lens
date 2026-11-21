@@ -1,0 +1,88 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: At the height of Catherine and Rupert's lavish wedding, Juliana is paraded before high society in chains to be publicly disgraced—until a deafening explosion shatters the cathedral entrance, heralding Alexander's vengeful assault.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c03: window e41_u046..e41_u053 (80.5-96.09 s, 15.59 s); hook ['e41_u047'] modality audio (delay 0.5 s)
+  FAILED: duration, cliffhanger: 15.59s is under the 20s minimum | cliffhanger e41_u053 starts at 92.0s, before the final 20% of the clip (92.97s)
+  Original idea: Captures the explosive climax and the arrival of the protagonist's savior.
+  Scene 01: units e41_u001..e41_u053, 0.0-96.1 s. Units of that scene:
+    e41_u001 | 0.0-1.8 | CAMERA | Wide symmetrical shot looking down the candlelit, flower-strewn aisle toward the altar where Rupert, Catherine, and the Priest stand.
+    e41_u002 | 1.8-4.5 | ACTION | Catherine abruptly pulls away from Rupert and raises her white-gloved hand high, commanding silence from the congregation.
+    e41_u003 | 1.8-2.8 | DIALOGUE | CATHERINE (Imperious, Commanding): "Wait."
+    e41_u004 | 4.5-8.5 | CAMERA | Medium shot tracking Catherine as she pivots toward the seated aristocracy, her veil floating gracefully behind her.
+    e41_u005 | 4.9-8.2 | DIALOGUE | CATHERINE (Haughty, Loud): "Before I become Duchess of Ashburgh..."
+    e41_u006 | 8.5-13.0 | CAMERA | Close-up of Catherine's face, her lips curling into a sadistic, triumphant sneer.
+    e41_u007 | 8.5-12.7 | DIALOGUE | CATHERINE (Cruel, Resonant): "...I want everyone to see what happens to a woman who dares defy this family."
+    e41_u008 | 13.0-15.5 | CAMERA | Two-shot profile of Rupert and Catherine. Rupert turns to her with mild caution.
+    e41_u009 | 13.2-14.0 | DIALOGUE | BLOND NOBLEMAN (Subdued, Inquiring): "Catherine..."
+    e41_u010 | 14.0-15.3 | DIALOGUE | CATHERINE (Callous, Projecting): "Bring her in."
+    e41_u011 | 15.5-17.5 | SFX | Heavy wooden creak of the cathedral double doors swinging open.
+    e41_u012 | 15.5-20.0 | CAMERA | Wide shot from behind the altar down the aisle as the great church doors slowly open, revealing the silhouette of three figures against the daylight.
+    e41_u013 | 17.5-20.0 | ACTION | Juliana, dressed in a coarse drab prison dress with a numbered identification badge, is marched forward by two armed constables holding her by the arms.
+    e41_u014 | 20.0-22.8 | CAMERA | Extreme close-up of Juliana's scarred, dirtied wrists bound tight in heavy iron shackles.
+    e41_u015 | 22.8-26.0 | CAMERA | Intense close-up of Juliana's bruised, dirt-streaked face. Her piercing blue eyes burn with fierce dignity despite her captive state.
+    e41_u016 | 26.0-28.8 | CAMERA | Medium shot of Catherine standing beside the altar, watching Juliana's entrance with gloating satisfaction.
+    e41_u017 | 26.8-28.4 | DIALOGUE | CATHERINE (Smug, Taunting): "There she is."
+    e41_u018 | 28.8-30.0 | CAMERA | Medium tracking shot of Juliana marching between the stern constables down the central aisle toward the altar.
+    e41_u019 | 30.0-34.0 | CAMERA | Medium shot of a seated aristocratic couple in the pews, whispering and sneering behind an ivory lace fan.
+    e41_u020 | 30.5-31.6 | DIALOGUE | NOBLEWOMAN (Gleeful, Whispering): "Look at her."
+    e41_u021 | 31.7-33.8 | DIALOGUE | NOBLEMAN (Mocking, Chuckling): "She actually came back to the chapel."
+    e41_u022 | 34.0-36.8 | CAMERA | Close-up of the noblewoman giggling with hand over mouth, glancing spitefully at the disgraced bride.
+    e41_u023 | 34.8-36.8 | DIALOGUE | NOBLEWOMAN (Scornful, Smug): "Not as a bride this time."
+    e41_u024 | 36.8-39.8 | CAMERA | Medium shot of two senior aristocrats in the carved choir stalls, resting on their canes and nodding in smug agreement.
+    e41_u025 | 39.8-43.8 | CAMERA | Close profile of Juliana as she halts in the center aisle, lifting her chin proudly to face the sneering onlookers.
+    e41_u026 | 41.0-44.2 | DIALOGUE | CATHERINE (Derisive, Projecting): "Lady Juliana Ashcroft. Look around."
+    e41_u027 | 43.8-48.5 | CAMERA | High-angle wide shot showing Juliana flanked by guards in the center of the lavishly decorated nave, dwarfed by the grand cathedral.
+    e41_u028 | 45.0-48.0 | DIALOGUE | CATHERINE (Mocking, Resonant): "This is the world you thought you belonged to."
+    e41_u029 | 48.5-52.8 | CAMERA | Low-angle medium shot of Catherine gesturing broadly from the altar steps, looking down upon Juliana like an empress.
+    e41_u030 | 48.6-52.4 | DIALOGUE | CATHERINE (Spiteful, Boastful): "And now they can all see what you truly are."
+    e41_u031 | 52.8-57.8 | CAMERA | Medium shot of Juliana standing firmly between the guards, calmly meeting Catherine's venomous gaze.
+    e41_u032 | 54.8-57.5 | ACTION | Juliana looks around the cathedral at the sea of pompous faces, then raises her eyes straight back to Catherine with utter disdain.
+    e41_u033 | 57.8-60.8 | CAMERA | Tight close-up on Juliana's bruised, unshaken face.
+    e41_u034 | 58.0-60.5 | DIALOGUE | JULIANA (Defiant, Unbowed): "You needed an entire chapel to feel powerful over one chained woman?"
+    e41_u035 | 60.8-64.0 | CAMERA | Dramatic low-angle full shot looking up at Juliana, her posture straight, imposing, and regal despite the heavy chains.
+    e41_u036 | 61.0-63.5 | DIALOGUE | CATHERINE (Murmured, Cold): "Still arrogant. Still standing."
+    e41_u037 | 64.0-68.5 | CAMERA | Full shot of Catherine turning back to Rupert at the altar, dismissing Juliana's defiance as beneath her.
+    e41_u038 | 64.5-65.4 | DIALOGUE | CATHERINE (Dismissive): "Come."
+    e41_u039 | 68.5-70.5 | CAMERA | Close-up of Catherine's and Rupert's gloved hands clasping together over the velvet altar cushion.
+    e41_u040 | 70.5-75.0 | CAMERA | Medium two-shot of Catherine gazing up adoringly into Rupert's eyes, her tone intoxicatingly intimate.
+    e41_u041 | 70.5-74.8 | DIALOGUE | CATHERINE (Intimate, Ambitious): "Soon, there will be nothing left between us and the Ashburgh title."
+    e41_u042 | 75.0-77.5 | CAMERA | Close-up of Rupert's face breaking into a calculating, ambitious grin.
+    e41_u043 | 75.8-77.0 | DIALOGUE | BLOND NOBLEMAN (Quietly Triumphant): "Nothing."
+    e41_u044 | 77.5-80.5 | CAMERA | Medium shot of the elderly Priest opening the leather-bound liturgical book between Rupert and Catherine.
+    e41_u045 | 78.0-79.3 | DIALOGUE | PRIEST (Solemn, Polite): "Shall we?"
+    e41_u046 | 80.5-81.8 | CAMERA | Wide shot centered down the aisle toward the massive closed entrance doors.
+    e41_u047 | 81.0-85.5 | SFX | Ear-splitting detonation, shattering stone, wood splintering violently into kindling, followed by terrified screams of the congregation.
+    e41_u048 | 81.8-84.0 | ACTION | A violent fireball bursts inward as the entire cathedral entrance explodes, blasting the massive double doors and masonry into flying shrapnel and billowing smoke.
+    e41_u049 | 81.8-84.5 | CAMERA | Rapid series of panic shots: aristocratic guests ducking behind pews, covering their heads in terror, women shrieking as plaster rains down.
+    e41_u050 | 84.5-88.5 | CAMERA | Medium shot of Catherine and Rupert at the altar. Catherine gasps in horror, clutching her veil as debris rains over her bridal gown while Rupert spins around in shock.
+    e41_u051 | 88.5-92.0 | CAMERA | Medium wide shot of Juliana standing motionless in the middle of the aisle while thick smoke and dust billow from the demolished archway behind her.
+    e41_u052 | 89.0-93.5 | ACTION | Silhouetted armed figures emerge through the smoke and rubble of the breached doorway. Juliana slowly turns her head, glancing back toward the light.
+    e41_u053 | 92.0-96.1 | CAMERA | Extreme close-up pushing in on Juliana's bruised face. Her expression shifts from grim resolve into awe, breathless realization, and blooming hope as the orchestral score swells into an abrupt cliffhanger.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

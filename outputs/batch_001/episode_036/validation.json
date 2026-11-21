@@ -1,0 +1,156 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e36_u061",
+      "end_unit_id": "e36_u085",
+      "hook": {
+        "unit_ids": [
+          "e36_u061"
+        ],
+        "modality": "visual",
+        "description": "Alexander's mother wailing in horror.",
+        "evidence": "The raw, visceral emotion of a mother's despair immediately signals high-stakes drama."
+      },
+      "cliffhanger_unit_id": "e36_u085",
+      "reason": "This segment reveals the shocking betrayal and the immediate threat of execution for the protagonist's wife."
+    },
+    "norm": {
+      "start_unit_id": "e36_u061",
+      "end_unit_id": "e36_u085",
+      "hook": {
+        "unit_ids": [
+          "e36_u061"
+        ],
+        "modality": "visual",
+        "description": "Alexander's mother wailing in horror.",
+        "evidence": "The raw, visceral emotion of a mother's despair immediately signals high-stakes drama."
+      },
+      "cliffhanger_unit_id": "e36_u085",
+      "reason": "This segment reveals the shocking betrayal and the immediate threat of execution for the protagonist's wife."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 99.0,
+    "end": 139.0,
+    "duration": 40.0,
+    "segments": [
+      {
+        "start_unit": "e36_u061",
+        "end_unit": "e36_u085",
+        "start": 99.0,
+        "end": 139.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e36_u097",
+      "end_unit_id": "e36_u120",
+      "hook": {
+        "unit_ids": [
+          "e36_u097"
+        ],
+        "modality": "visual",
+        "description": "Alexander's face shifting into a predatory, vengeful glare.",
+        "evidence": "The transition from shock to cold, calculated rage is a classic trope that hooks viewers looking for a revenge arc."
+      },
+      "cliffhanger_unit_id": "e36_u120",
+      "reason": "The protagonist's vow to return from the dead to reclaim his life provides a powerful, high-stakes conclusion."
+    },
+    "norm": {
+      "start_unit_id": "e36_u097",
+      "end_unit_id": "e36_u120",
+      "hook": {
+        "unit_ids": [
+          "e36_u097"
+        ],
+        "modality": "visual",
+        "description": "Alexander's face shifting into a predatory, vengeful glare.",
+        "evidence": "The transition from shock to cold, calculated rage is a classic trope that hooks viewers looking for a revenge arc."
+      },
+      "cliffhanger_unit_id": "e36_u120",
+      "reason": "The protagonist's vow to return from the dead to reclaim his life provides a powerful, high-stakes conclusion."
+    },
+    "ok": true,
+    "status": "review",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [
+      "straddled_action_or_sfx"
+    ],
+    "review_details": [
+      "sfx e36_u121 (197.0-200.75) overlaps the clip from outside the window: check the cut on footage"
+    ],
+    "hook_delay": 0.0,
+    "start": 156.5,
+    "end": 200.75,
+    "duration": 44.25,
+    "segments": [
+      {
+        "start_unit": "e36_u097",
+        "end_unit": "e36_u120",
+        "start": 156.5,
+        "end": 200.75
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e36_u004",
+      "end_unit_id": "e36_u021",
+      "hook": {
+        "unit_ids": [
+          "e36_u004"
+        ],
+        "modality": "visual",
+        "description": "Close-up on Alexander's scarred face and intense, burning eyes.",
+        "evidence": "The visual of a scarred, mysterious survivor immediately establishes the 'hero returning from the dead' premise."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This establishes the core mystery of the betrayal and the identity of the villains, setting the stage for the conflict."
+    },
+    "norm": {
+      "start_unit_id": "e36_u004",
+      "end_unit_id": "e36_u021",
+      "hook": {
+        "unit_ids": [
+          "e36_u004"
+        ],
+        "modality": "visual",
+        "description": "Close-up on Alexander's scarred face and intense, burning eyes.",
+        "evidence": "The visual of a scarred, mysterious survivor immediately establishes the 'hero returning from the dead' premise."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This establishes the core mystery of the betrayal and the identity of the villains, setting the stage for the conflict."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 4.2,
+    "end": 38.9,
+    "duration": 34.7,
+    "segments": [
+      {
+        "start_unit": "e36_u004",
+        "end_unit": "e36_u021",
+        "start": 4.2,
+        "end": 38.9
+      }
+    ]
+  }
+]

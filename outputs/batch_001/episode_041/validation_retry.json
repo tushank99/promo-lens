@@ -1,0 +1,57 @@
+[
+  {
+    "candidate_id": "c03r",
+    "proposal": {
+      "retry_of": "c03",
+      "start_unit_id": "e41_u035",
+      "end_unit_id": "e41_u053",
+      "hook": {
+        "unit_ids": [
+          "e41_u035"
+        ],
+        "modality": "visual",
+        "description": "A dramatic low-angle shot of Juliana standing tall and regal in chains, immediately establishing her defiance.",
+        "evidence": "The unit starts at 60.8s, which is within 3 seconds of the clip start (60.8s)."
+      },
+      "cliffhanger_unit_id": "e41_u053",
+      "reason": "This 35.3s window captures the full tension of the confrontation, the wedding climax, and the explosive arrival of the savior, with the cliffhanger occurring in the final 20%."
+    },
+    "retry_of": "c03",
+    "norm": {
+      "start_unit_id": "e41_u035",
+      "end_unit_id": "e41_u053",
+      "hook": {
+        "unit_ids": [
+          "e41_u035"
+        ],
+        "modality": "visual",
+        "description": "A dramatic low-angle shot of Juliana standing tall and regal in chains, immediately establishing her defiance.",
+        "evidence": "The unit starts at 60.8s, which is within 3 seconds of the clip start (60.8s)."
+      },
+      "cliffhanger_unit_id": "e41_u053",
+      "reason": "This 35.3s window captures the full tension of the confrontation, the wedding climax, and the explosive arrival of the savior, with the cliffhanger occurring in the final 20%."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 5.1s (65.4-70.5)",
+      "camera-only stretch 3.5s (85.5-89.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 60.8,
+    "end": 96.09,
+    "duration": 35.29,
+    "segments": [
+      {
+        "start_unit": "e41_u035",
+        "end_unit": "e41_u053",
+        "start": 60.8,
+        "end": 96.09
+      }
+    ]
+  }
+]

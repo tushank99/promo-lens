@@ -1,0 +1,138 @@
+{
+  "episode": 38,
+  "logline": "A compassionate guard secretly feeds Juliana bread in the dungeon, strengthening her resolve to protect Alexander's secrets just as distant wedding bells signal the start of Rupert's nuptials and her impending execution.",
+  "counts": {
+    "proposed": 2,
+    "rejected_at_validation": 1,
+    "rejected_at_judge": 1,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 0,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 1,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 38,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e38_u001",
+      "end_unit_id": "e38_u022",
+      "hook_unit_id": "e38_u001",
+      "hook": {
+        "unit_ids": [
+          "e38_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana slumped on the dungeon floor in chains.",
+        "evidence": "The immediate visual of a helpless, shackled woman in a dark dungeon establishes high stakes and immediate sympathy.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e38_u022",
+      "segments": [
+        {
+          "start_unit": "e38_u001",
+          "end_unit": "e38_u022",
+          "start": 0.0,
+          "end": 35.0
+        }
+      ],
+      "start": 0.0,
+      "end": 35.0,
+      "duration": 35.0,
+      "proposer_reason": "This clip captures the emotional core of the prisoner's plight and the unexpected act of kindness from the guard.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:dialogue_cut"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "clip end 35.0s cuts through e38_u023 (34.5-36.5): \"Alexander...\""
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 38,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e38_u036",
+      "end_unit_id": "e38_u057",
+      "hook_unit_id": "e38_u036",
+      "hook": {
+        "unit_ids": [
+          "e38_u036"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling with a hand over her heart, transforming into a posture of dignity.",
+        "evidence": "The sudden shift from victim to defiant survivor is a powerful visual hook that promises a character arc.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e38_u057",
+      "segments": [
+        {
+          "start_unit": "e38_u036",
+          "end_unit": "e38_u057",
+          "start": 55.5,
+          "end": 87.91
+        }
+      ],
+      "start": 55.5,
+      "end": 87.91,
+      "duration": 32.41,
+      "proposer_reason": "The juxtaposition of her internal resolve with the external threat of the wedding bells creates a high-tension narrative arc.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 2,
+    "cached_calls": 0,
+    "checkpoint_reused": 1,
+    "tokens_in": 3404,
+    "tokens_out": 357,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 3.6,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 1,
+    "judge_failed": 1,
+    "waited_s": 0.7
+  }
+}

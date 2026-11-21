@@ -1,0 +1,115 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Meeting Father Thomas in an abandoned wing of the manor before dawn, Catherine orchestrates a calculated conspiracy to stall the council hearing and extract inside intelligence, sealing their treasonous alliance with intimate assurance.
+CONTINUITY NOTES: Directly follows Catherine sending Agnes to fetch Father Thomas under cover of darkness; now in Episode 49, Father Thomas slips into the secluded wing for their covert rendezvous.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:24.8 (144.8 s).
+- Scene 01 (INT. FORGOTTEN MANOR WING - NIGHT): 0.0-144.8 s, units e49_u001..e49_u063.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): none
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e49_u001 | 0.0-5.2 | CAMERA | Wide tracking shot down a dark, derelict hallway lined with dust-sheet draped furniture and peeling wallpaper. At the far end, a door creaks open, revealing a cloaked figure stepping in.
+e49_u002 | 1.0-4.5 | SFX | Hinges creaking softly followed by the muffled thud of a heavy wooden door clicking shut.
+e49_u003 | 1.8-5.2 | ACTION | Father Thomas, clad in a hooded dark mantle over priestly black robes, secures the door behind him and steps into the shadows of the abandoned corridor.
+e49_u004 | 5.2-7.0 | CAMERA | Medium shot on Catherine, draped in a dark hooded cloak over a lavish crimson bodice, holding a brass candlestick aloft.
+e49_u005 | 5.4-6.8 | DIALOGUE | CATHERINE (Quietly Chiding): "You took your time."
+e49_u006 | 7.0-8.8 | CAMERA | Over-the-shoulder shot past Father Thomas's cloaked back looking toward Catherine illuminated in warm candlelight.
+e49_u007 | 8.8-15.5 | CAMERA | Medium close-up of Father Thomas under his black hood, his stern face framed by the clerical collar and silver crucifix resting on his chest.
+e49_u008 | 9.0-15.2 | DIALOGUE | FATHER THOMAS (Low, Measured): "Agnes is thorough. She made me wait for a groom to finish his rounds before she'd let me past the stables."
+e49_u009 | 15.5-19.8 | CAMERA | Close-up profile of Catherine, turning with a slight, knowing smirk.
+e49_u010 | 15.8-18.8 | DIALOGUE | CATHERINE (Pleased, Cold): "Good. That's what I pay her for."
+e49_u011 | 19.8-22.0 | CAMERA | Medium two-shot as Catherine steps forward and sets the heavy candleholder onto a small round table draped in grey cloth between them.
+e49_u012 | 20.0-22.0 | ACTION | Catherine sets down the brass candleholder, the flame flickering across their faces.
+e49_u013 | 22.0-27.5 | CAMERA | Tight close-up on Father Thomas's face, the candlelight dancing in his calculating eyes.
+e49_u014 | 22.2-27.2 | DIALOGUE | FATHER THOMAS (Grave): "No shadows tonight, Catherine. Just us and an empty wing."
+e49_u015 | 27.5-33.2 | CAMERA | Close-up on Catherine, her blonde ringlets peeking from beneath her velvet hood as she smiles faintly.
+e49_u016 | 27.8-33.0 | DIALOGUE | CATHERINE (Unfazed): "You didn't need them the first time, either. I just prefer my secrets thorough."
+e49_u017 | 33.2-41.8 | CAMERA | Medium close-up of Father Thomas, glancing down momentarily before fixing his piercing gaze back on her.
+e49_u018 | 33.5-41.5 | DIALOGUE | FATHER THOMAS (Dry, Cynical): "A priest and a disgraced bride meeting before dawn in her bedchamber. I'd say thoroughness served us both rather well."
+e49_u019 | 41.8-46.8 | CAMERA | Close-up of Catherine's face hardening into a stern, focused expression.
+e49_u020 | 42.0-46.5 | DIALOGUE | CATHERINE (Assertive, Warning): "It will keep serving us as long as neither of us gets careless. No one in this house so much as suspects your face belongs to that morning. Let's keep it that way."
+e49_u021 | 46.8-48.5 | CAMERA | Close-up on Father Thomas listening impassively.
+e49_u022 | 48.5-53.0 | CAMERA | Medium wide two-shot across the candlelit table, Catherine leaning slightly forward.
+e49_u023 | 48.8-52.8 | DIALOGUE | CATHERINE (Scheming): "Today went better than either of us planned for. The whole court watched you humiliate her."
+e49_u024 | 53.0-59.8 | CAMERA | Medium close-up on Father Thomas as he turns his head slightly, scanning the dusty shadowed recesses of the abandoned room.
+e49_u025 | 53.2-59.5 | DIALOGUE | FATHER THOMAS (Reflective, Brooding): "Fitting choice, this room. A place the family forgot for a conversation they mustn't remember."
+e49_u026 | 59.8-62.8 | CAMERA | Close-up on Catherine, her lips curling into an amused, knowing smile.
+e49_u027 | 60.0-62.5 | DIALOGUE | CATHERINE (Amused): "You always did have a taste for symbolism."
+e49_u028 | 62.8-67.2 | CAMERA | Medium shot of Father Thomas, a subtle smirk breaking through his austere demeanor.
+e49_u029 | 63.0-67.1 | DIALOGUE | FATHER THOMAS (Intimate, Candid): "And you always did have a taste for using me. It's why we suit each other."
+e49_u030 | 67.2-72.4 | CAMERA | Close-up on Catherine, her expression turning razor-sharp and commanding.
+e49_u031 | 67.4-72.2 | DIALOGUE | CATHERINE (Strict, Urgent): "Then make certain the council remembers that for the full ten days, not just the first hour."
+e49_u032 | 72.4-77.0 | CAMERA | Side profile close-up on Father Thomas, his brow furrowing with impatient resolve.
+e49_u033 | 72.6-76.8 | DIALOGUE | FATHER THOMAS (Direct): "What is it you actually need from me, Catherine? Say it plainly, for once."
+e49_u034 | 77.0-84.0 | CAMERA | Medium close-up of Catherine raising one hand slightly, emphasizing her terms.
+e49_u035 | 77.2-83.8 | DIALOGUE | CATHERINE (Calculating, Determined): "First, the hearing stays unresolved as long as possible. Every extension, every delay, every excuse to reconvene."
+e49_u036 | 84.0-91.4 | CAMERA | Frontal close-up of Catherine raising two fingers in the candlelight, her eyes burning with ruthless intent.
+e49_u037 | 84.2-91.2 | DIALOGUE | CATHERINE (Fierce, Uncompromising): "Second, I want to know what the council knows before it decides anything. Every argument, every witness, every whisper against her."
+e49_u038 | 91.4-94.2 | CAMERA | Close-up on Father Thomas absorbing the audacity of her demand.
+e49_u039 | 91.6-94.0 | DIALOGUE | FATHER THOMAS (Skeptical): "You want eyes inside the council chamber itself?"
+e49_u040 | 94.2-98.0 | CAMERA | Close-up low angle on Catherine, tilting her chin up in defiant pride.
+e49_u041 | 94.4-97.8 | DIALOGUE | CATHERINE (Haughty, Imperious): "I want eyes and ears everywhere that decides my future."
+e49_u042 | 98.0-103.8 | CAMERA | Full two-shot of Catherine and Father Thomas facing off across the small table in the cavernous hallway.
+e49_u043 | 98.2-102.5 | ACTION | Father Thomas clasps his hands behind his back, turning slightly away to ponder the gravity of her words.
+e49_u044 | 98.3-103.2 | DIALOGUE | CATHERINE (Bitterly Resolute): "Is that so unreasonable coming from a woman the church itself just humiliated back into relevance?"
+e49_u045 | 103.8-113.0 | CAMERA | Medium shot on Father Thomas turning back around to face her, his countenance etched with genuine concern.
+e49_u046 | 104.2-112.8 | DIALOGUE | FATHER THOMAS (Wary, Grave): "If I keep the hearing open, if I feed you every word spoken behind those doors, what happens to me when the Duke finds out a crowned priest conspired against him?"
+e49_u047 | 113.0-118.0 | CAMERA | Medium two-shot tracking closer as Catherine steps closer toward him.
+e49_u048 | 113.2-117.8 | DIALOGUE | CATHERINE (Seductive, Reassuring): "Then make certain he doesn't find out. You're careful. I've seen how careful."
+e49_u049 | 118.0-124.8 | CAMERA | Tight close-up on Father Thomas's intense, brooding face.
+e49_u050 | 118.2-124.5 | DIALOGUE | FATHER THOMAS (Stern, Stark): "Careful men still hang, my lady, when the crime is treason against a Duke the King himself just restored."
+e49_u051 | 124.8-128.8 | CAMERA | Close-up on Catherine, her lips parting into an alluring, promising smile.
+e49_u052 | 125.0-128.5 | DIALOGUE | CATHERINE (Tempting): "Careful men who help me also get remembered."
+e49_u053 | 128.8-134.5 | CAMERA | Split focus close-up between Father Thomas's intense gaze and Catherine leaning in close, whispering with lethal conviction.
+e49_u054 | 129.2-134.2 | DIALOGUE | CATHERINE (Whispering, Promising): "A grateful Duchess collects debts differently than a desperate one."
+e49_u055 | 134.5-139.8 | CAMERA | Medium two-shot as Father Thomas extends his open right hand between them.
+e49_u056 | 135.0-139.5 | ACTION | Father Thomas slowly raises his right hand, palm turned upward in invitation and pact.
+e49_u057 | 135.2-139.5 | DIALOGUE | FATHER THOMAS (Low, Resigned): "The rest depends on how well you keep your part of this quiet."
+e49_u058 | 139.8-142.8 | CAMERA | Close-up on Father Thomas looking down into her eyes.
+e49_u059 | 140.0-142.5 | DIALOGUE | FATHER THOMAS (Softly): "Then we understand each other."
+e49_u060 | 140.5-142.8 | ACTION | Catherine reaches out and places her slender hand firmly into Father Thomas's open palm.
+e49_u061 | 142.8-144.0 | CAMERA | Close-up of Catherine gazing up at him, her eyes glistening in the candlelight.
+e49_u062 | 143.0-144.0 | DIALOGUE | CATHERINE (Intimate): "We always have."
+e49_u063 | 144.0-144.8 | CAMERA | Extreme close-up as Father Thomas gently raises his other hand and cups Catherine's cheek tenderly, her hand resting against his chest as she leans into his touch before cutting to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

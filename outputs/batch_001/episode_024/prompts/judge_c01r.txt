@@ -1,0 +1,85 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+When an arrogant noblewoman catches Juliana in the poisoned Dowager Duchess's chambers, she strikes Juliana with a riding crop and sentences her to scrub the hearth, unaware that Juliana has secretly hidden the antidote and remedy journal to finish the Duchess's cure.
+CONTINUITY NOTES: Picks up directly from Episode 23's cliffhanger inside the West Wing bedchamber, as the brass latch turns and the door swings open to reveal an unexpected intruder confronting Lady Juliana and Prudence.
+
+CLIP: 0.0s to 48.5s (48.5s). Units below: id | seconds from clip start | type | text.
+e24_u001 | 0.0-3.5 | CAMERA | Close-up of the ornate brass handle turning slowly on the dark wooden chamber door as it swings open.
+e24_u002 | 0.2-3.0 | SFX | Heavy metallic click of the latch and the ominous low creak of the door hinges.
+e24_u003 | 3.5-6.0 | CAMERA | Wide shot of the dimly lit, vaulted bedchamber. Lady Juliana and Prudence stand rigid beside the heavy four-poster bed as a haughty blonde noblewoman in an elegant lavender empire-line gown enters, clutching a riding crop.
+e24_u004 | 4.0-6.5 | ACTION | The noblewoman halts in the center of the chamber, tapping her riding crop against her gloved palm as her cold gaze sweeps across the two maids.
+e24_u005 | 6.0-8.5 | CAMERA | Medium shot of the noblewoman holding the riding crop upright, regarding Juliana with disdainful authority.
+e24_u006 | 6.8-8.4 | DIALOGUE | NOBLEWOMAN (Sharp, Demanding): "Who are you?"
+e24_u007 | 8.5-12.2 | CAMERA | Medium close-up of Juliana, her gaze lowered deferentially beside the carved wooden bedpost.
+e24_u008 | 8.5-12.0 | DIALOGUE | LADY JULIANA (Humble, Measured): "Juliana, my lady. I was hired for the winter cleaning."
+e24_u009 | 12.2-16.8 | CAMERA | Medium shot of the noblewoman, her chin tilted up in icy condescension.
+e24_u010 | 13.0-16.4 | DIALOGUE | NOBLEWOMAN (Accusatory, Strict): "And who gave you permission to enter this chamber?"
+e24_u011 | 16.8-18.8 | CAMERA | Close-up of the frail Dowager Duchess lying pale and unconscious against the white pillows, gasping weakly for air.
+e24_u012 | 18.8-20.5 | ACTION | Behind her grey skirt, Juliana quickly slips the small glass remedy vial into her apron pocket with her charcoal-dusted fingers.
+e24_u013 | 18.8-20.8 | CAMERA | Close-up on Juliana's hand swiftly concealing the medicine bottle.
+e24_u014 | 20.8-22.5 | CAMERA | Medium shot of Juliana facing the noblewoman, maintaining a calm, protective facade.
+e24_u015 | 20.8-22.2 | DIALOGUE | LADY JULIANA (Softly Defiant): "I heard her. I thought Her Grace needed help."
+e24_u016 | 22.5-26.8 | CAMERA | Two-shot framing the noblewoman looking down at Juliana, bursting into mocking laughter.
+e24_u017 | 22.5-26.5 | DIALOGUE | NOBLEWOMAN (Scoffing, Cruel): "You thought? A new maid thinks she knows better than the physicians?"
+e24_u018 | 26.8-28.8 | CAMERA | Close-up of Juliana's resolute expression, her eyes flashing with righteous urgency.
+e24_u019 | 27.0-28.6 | DIALOGUE | LADY JULIANA (Emphatic, Defiant): "She is suffering."
+e24_u020 | 28.8-30.8 | CAMERA | Tight close-up of the noblewoman's face twisting into a malicious sneer.
+e24_u021 | 29.0-30.8 | DIALOGUE | NOBLEWOMAN (Vicious, Venomous): "Then let her suffer."
+e24_u022 | 30.8-32.8 | CAMERA | Close-up of Juliana recoiling slightly in shock at the blatant cruelty.
+e24_u023 | 31.0-32.5 | DIALOGUE | LADY JULIANA (Steely, Steadfast): "I cannot do that."
+e24_u024 | 32.5-34.5 | ACTION | The noblewoman suddenly rears back her riding crop and strikes Juliana violently across the torso.
+e24_u025 | 32.8-33.8 | SFX | A sharp, stinging whip crack as the riding crop makes harsh contact.
+e24_u026 | 33.8-36.5 | ACTION | Juliana gasps in pain, clutching her stomach and bending over as she absorbs the brutal strike.
+e24_u027 | 33.8-36.8 | CAMERA | Medium shot of Juliana hunched over in pain, clutching her abdomen.
+e24_u028 | 35.0-36.8 | DIALOGUE | NOBLEWOMAN (Cold, Threatening): "You are a maid."
+e24_u029 | 36.8-38.8 | CAMERA | Low-angle shot looking past the bedpost toward the Duchess, whose trembling hand reaches out limply.
+e24_u030 | 37.0-38.8 | DIALOGUE | NOBLEWOMAN (Cold, Continuing): "Not a physician. Not a lady."
+e24_u031 | 38.8-43.0 | CAMERA | Dramatic low-angle wide shot of the noblewoman standing imperiously over the doubled-over Juliana.
+e24_u032 | 39.0-42.8 | DIALOGUE | NOBLEWOMAN (Disdainful, Final): "And certainly not a woman whose opinion matters."
+e24_u033 | 43.0-45.5 | CAMERA | Close-up of Juliana looking down, enduring the humiliation while stifling her breath.
+e24_u034 | 43.2-44.8 | DIALOGUE | LADY JULIANA (Subdued, Controlled): "Yes, my lady."
+e24_u035 | 45.5-48.5 | CAMERA | Medium shot of the noblewoman turning the crop in her white-gloved hands with smug satisfaction.
+e24_u036 | 45.5-48.0 | DIALOGUE | NOBLEWOMAN (Smug, Condescending): "Good. Perhaps we can teach you your place."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

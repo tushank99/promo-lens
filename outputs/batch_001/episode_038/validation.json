@@ -1,0 +1,106 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e38_u001",
+      "end_unit_id": "e38_u022",
+      "hook": {
+        "unit_ids": [
+          "e38_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana slumped on the dungeon floor in chains.",
+        "evidence": "The immediate visual of a helpless, shackled woman in a dark dungeon establishes high stakes and immediate sympathy."
+      },
+      "cliffhanger_unit_id": "e38_u022",
+      "reason": "This clip captures the emotional core of the prisoner's plight and the unexpected act of kindness from the guard."
+    },
+    "norm": {
+      "start_unit_id": "e38_u001",
+      "end_unit_id": "e38_u022",
+      "hook": {
+        "unit_ids": [
+          "e38_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana slumped on the dungeon floor in chains.",
+        "evidence": "The immediate visual of a helpless, shackled woman in a dark dungeon establishes high stakes and immediate sympathy."
+      },
+      "cliffhanger_unit_id": "e38_u022",
+      "reason": "This clip captures the emotional core of the prisoner's plight and the unexpected act of kindness from the guard."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "dialogue_cut"
+    ],
+    "details": [
+      "clip end 35.0s cuts through e38_u023 (34.5-36.5): \"Alexander...\""
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 0.0,
+    "end": 35.0,
+    "duration": 35.0,
+    "segments": [
+      {
+        "start_unit": "e38_u001",
+        "end_unit": "e38_u022",
+        "start": 0.0,
+        "end": 35.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e38_u036",
+      "end_unit_id": "e38_u057",
+      "hook": {
+        "unit_ids": [
+          "e38_u036"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling with a hand over her heart, transforming into a posture of dignity.",
+        "evidence": "The sudden shift from victim to defiant survivor is a powerful visual hook that promises a character arc."
+      },
+      "cliffhanger_unit_id": "e38_u057",
+      "reason": "The juxtaposition of her internal resolve with the external threat of the wedding bells creates a high-tension narrative arc."
+    },
+    "norm": {
+      "start_unit_id": "e38_u036",
+      "end_unit_id": "e38_u057",
+      "hook": {
+        "unit_ids": [
+          "e38_u036"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling with a hand over her heart, transforming into a posture of dignity.",
+        "evidence": "The sudden shift from victim to defiant survivor is a powerful visual hook that promises a character arc."
+      },
+      "cliffhanger_unit_id": "e38_u057",
+      "reason": "The juxtaposition of her internal resolve with the external threat of the wedding bells creates a high-tension narrative arc."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 55.5,
+    "end": 87.91,
+    "duration": 32.41,
+    "segments": [
+      {
+        "start_unit": "e38_u036",
+        "end_unit": "e38_u057",
+        "start": 55.5,
+        "end": 87.91
+      }
+    ]
+  }
+]

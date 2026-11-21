@@ -1,0 +1,76 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Banished from her mother's chapel and seized by guards at her family's command, Juliana is rescued by an imposing, scarred stranger who intervenes with lethal grace—and drops to one knee with a proposal that shocks high society.
+CONTINUITY NOTES: Follows directly from Episode 2's confrontation at the altar, where Juliana publicly exposed Gerald's dishonor before the entire aristocratic congregation.
+
+CLIP: 64.5s to 96.5s (32.0s). Units below: id | seconds from clip start | type | text.
+e03_u055 | 0.0-1.5 | CAMERA | High wide shot down the vaulted cathedral aisle showing the entire congregation watching in stunned silence as the guards drag Juliana.
+e03_u056 | 1.5-3.6 | CAMERA | Wide eye-level shot looking down the petal-strewn marble aisle. A tall, rugged man in a worn dark trench coat—The Bearded Stranger—emerges into the center of the nave.
+e03_u057 | 1.5-3.6 | ACTION | The Bearded Stranger steps deliberately into the aisle, his heavy boots echoing.
+e03_u058 | 3.6-6.0 | CAMERA | Close-up on the Noble Matriarch freezing in utter shock and outrage.
+e03_u059 | 5.4-7.6 | DIALOGUE | THE BEARDED STRANGER (Low, Thunderous, Imposing): "Take your hands off her."
+e03_u060 | 6.0-8.3 | CAMERA | Medium tracking shot front-on as The Bearded Stranger marches down the flower-strewn aisle with resolute purpose.
+e03_u061 | 8.3-10.6 | CAMERA | Medium shot on the Noble Matriarch stepping forward on the altar steps, furiously pointing a finger at him.
+e03_u062 | 8.5-12.3 | DIALOGUE | NOBLE MATRIARCH (Indignant, Screeching): "And who are you to give orders in my family's chapel?!"
+e03_u063 | 10.6-12.5 | CAMERA | High wide shot of the magnificent vaulted hall as The Bearded Stranger walks steadily forward, dwarfing the aisle.
+e03_u064 | 12.5-14.5 | CAMERA | Medium shot on the lead royal guard squaring his shoulders, barring the stranger's advance while Juliana stands behind him.
+e03_u065 | 12.7-14.4 | DIALOGUE | ROYAL GUARD (Aggressive, Threatening): "Stand aside, stranger!"
+e03_u066 | 14.5-16.5 | CAMERA | Medium close-up profile on The Bearded Stranger, eyes burning with quiet, lethal resolve.
+e03_u067 | 14.8-16.4 | DIALOGUE | THE BEARDED STRANGER (Quiet, Deadly): "I said..."
+e03_u068 | 16.5-19.5 | CAMERA | Close-up on The Bearded Stranger's intense, scarred face.
+e03_u069 | 17.3-19.4 | DIALOGUE | THE BEARDED STRANGER (Dangerous, Uncompromising): "...let her go."
+e03_u070 | 19.5-21.0 | CAMERA | Medium action shot as the guard charges toward The Bearded Stranger.
+e03_u071 | 19.5-21.0 | ACTION | The Bearded Stranger effortlessly blocks the guard's strike and drives a devastating strike into him, dropping the armed guard instantly to the floor.
+e03_u072 | 20.0-20.9 | SFX | A heavy, bone-rattling punch followed by the clatter and thud of the guard collapsing onto the stone floor.
+e03_u073 | 21.0-23.6 | CAMERA | Medium close-up of Gerald turning frantically to the remaining guards and congregation, panicking.
+e03_u074 | 21.1-23.5 | DIALOGUE | THE FORMER GROOM (Frantic, Shouting): "What are you waiting for?! He's only one man!"
+e03_u075 | 23.6-24.8 | CAMERA | Medium shot on The Bearded Stranger standing unmoved over the fallen guard, turning his gaze toward Juliana.
+e03_u076 | 24.8-27.2 | CAMERA | Two-shot profile of The Bearded Stranger stepping up to Lady Juliana, who gazes up at him in stunned breathlessness.
+e03_u077 | 25.9-27.1 | DIALOGUE | THE BEARDED STRANGER (Gentle, Protective): "Are you hurt?"
+e03_u078 | 27.2-29.5 | CAMERA | Close-up on Juliana's tear-streaked face as she shakes her head gently, overwhelmed with wonder.
+e03_u079 | 27.3-29.1 | ACTION | Juliana softly shakes her head 'no', her wide blue eyes locked onto him.
+e03_u080 | 29.5-32.0 | CAMERA | Close-up profile of The Bearded Stranger casting a sharp, menacing glance toward the other guard.
+e03_u081 | 29.6-31.8 | DIALOGUE | THE BEARDED STRANGER (Firm, Menacing): "Good. Then don't touch her again."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

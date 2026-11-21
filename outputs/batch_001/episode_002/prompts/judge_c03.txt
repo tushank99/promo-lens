@@ -1,0 +1,70 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Publicly cast aside at the altar by Gerald for her sister Clarissa and abandoned by her own family, Juliana stands tall and turns her public humiliation into an unyielding indictment of Gerald's honor.
+CONTINUITY NOTES: Picks up directly from Episode 1's cliffhanger. Gerald has turned away from Juliana at the altar, leaving her devastated before the entire aristocratic congregation.
+
+CLIP: 74.2s to 110.0s (35.8s). Units below: id | seconds from clip start | type | text.
+e02_u054 | 0.0-2.3 | CAMERA | Direct close-up on Juliana's face as a steely, defiant smile emerges through her pain.
+e02_u055 | 0.2-2.2 | DIALOGUE | LADY JULIANA (Bitter, Defiant): "Dignity?"
+e02_u056 | 2.3-4.8 | CAMERA | Full shot of Juliana standing tall, her posture completely transforming into regal composure before the seated guests.
+e02_u057 | 2.3-4.8 | DIALOGUE | LADY JULIANA (Clear, Accusing): "You abandoned a woman who trusted you..."
+e02_u058 | 4.8-7.6 | CAMERA | Medium profile close-up on Gerald's hardening jawline, Clarissa blurred in the background.
+e02_u059 | 5.0-8.3 | DIALOGUE | LADY JULIANA (Sharp, Piercing): "...because another woman promised you greater beauty and wealth."
+e02_u060 | 7.6-8.6 | CAMERA | Closer angle on Gerald's uneasy expression as Juliana's voice commands the room.
+e02_u061 | 8.6-12.5 | CAMERA | Medium wide shot framing Juliana confronting Gerald from the foot of the altar stairs.
+e02_u062 | 8.8-12.3 | DIALOGUE | LADY JULIANA (Steely, Resolute): "Do not mistake my heartbreak for your victory, Gerald."
+e02_u063 | 12.5-16.6 | CAMERA | Medium close-up push-in on Juliana, her blue eyes shining with fierce conviction.
+e02_u064 | 12.6-18.8 | DIALOGUE | LADY JULIANA (Powerful, Unyielding): "You wanted this entire chapel to believe that I was not worthy of you. But you have shown them something far more valuable."
+e02_u065 | 16.6-19.0 | CAMERA | Medium profile on Juliana looking up at Gerald, holding the entire hall spellbound.
+e02_u066 | 19.0-22.6 | CAMERA | Close-up on Juliana's face, calm, dignified, and unwavering.
+e02_u067 | 19.2-22.4 | DIALOGUE | LADY JULIANA (Decisive, Scathing): "You have shown them exactly what your word is worth."
+e02_u068 | 22.6-24.0 | CAMERA | Medium shot on Gerald standing frozen on the altar steps, stunned and speechless under her public rebuke.
+e02_u069 | 24.0-28.6 | CAMERA | Low-angle wide shot of the grand cathedral nave, framing Juliana in pristine white at the center of the vaulted aisle.
+e02_u070 | 24.0-28.6 | ACTION | Juliana lifts her chin high, commanding the space with unassailable dignity.
+e02_u071 | 24.3-28.2 | DIALOGUE | LADY JULIANA (Resolute, Proud): "I may leave this chapel without a husband..."
+e02_u072 | 28.6-35.8 | CAMERA | Dramatic medium close-up holding steadily on Juliana's radiant, proud face as she delivers her final proclamation.
+e02_u073 | 28.8-33.2 | DIALOGUE | LADY JULIANA (Defiant, Triumphant in Spirit): "...but I will not leave it believing I was the one who should be ashamed."
+e02_u074 | 33.2-35.8 | ACTION | Juliana breathes with steady resolve, holding her head high as the solemn orchestral score swells into the final beat.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

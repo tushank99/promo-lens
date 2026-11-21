@@ -1,0 +1,75 @@
+{
+  "episode": 6,
+  "prompt_hash": "ce0a3e1781a67359",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 5.4,
+    "tokens_in": 5105,
+    "tokens_out": 724
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e06_u001",
+        "end_unit_id": "e06_u023",
+        "hook": {
+          "unit_ids": [
+            "e06_u001"
+          ],
+          "modality": "visual",
+          "description": "Juliana in a white wedding gown trudging through mud and rain in the dark woods.",
+          "evidence": "The visual contrast of a bride in a ruined gown in a dark, hostile environment immediately establishes high stakes and mystery."
+        },
+        "cliffhanger_unit_id": "e06_u023",
+        "reason": "The journey from the wedding to a desolate cabin creates immediate intrigue about the bride's tragic circumstances."
+      },
+      {
+        "start_unit_id": "e06_u031",
+        "end_unit_id": "e06_u050",
+        "hook": {
+          "unit_ids": [
+            "e06_u031"
+          ],
+          "modality": "visual",
+          "description": "Juliana stepping into a dark, barren, leaking cabin in her wedding dress.",
+          "evidence": "The stark transition from a wedding to a dilapidated, leaking shack creates an immediate emotional hook regarding her fall from grace."
+        },
+        "cliffhanger_unit_id": "e06_u050",
+        "reason": "The contrast between her former life and this new, humble reality highlights her resilience and the mystery of her husband."
+      },
+      {
+        "start_unit_id": "e06_u057",
+        "end_unit_id": "e06_u078",
+        "hook": {
+          "unit_ids": [
+            "e06_u057"
+          ],
+          "modality": "visual",
+          "description": "Juliana aggressively scrubbing a dirty table in her wedding dress.",
+          "evidence": "The sight of a bride frantically cleaning a hovel in her gown is a powerful, relatable image of someone trying to maintain control amidst total loss."
+        },
+        "cliffhanger_unit_id": "e06_u078",
+        "reason": "The emotional vulnerability of the character as she tries to build a home out of nothing is deeply compelling."
+      },
+      {
+        "start_unit_id": "e06_u082",
+        "end_unit_id": "e06_u097",
+        "hook": {
+          "unit_ids": [
+            "e06_u082"
+          ],
+          "modality": "visual",
+          "description": "Juliana kneeling before a roaring hearth fire in her wedding dress.",
+          "evidence": "The warm, intimate visual of the firelight against the cold, dark cabin provides a strong emotional payoff and sense of safety."
+        },
+        "cliffhanger_unit_id": "e06_u094",
+        "reason": "The shift from despair to finding unexpected peace with a mysterious stranger provides a satisfying emotional arc for a short promo."
+      }
+    ]
+  },
+  "note": null
+}

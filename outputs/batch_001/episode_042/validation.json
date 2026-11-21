@@ -1,0 +1,106 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e42_u009",
+      "end_unit_id": "e42_u023",
+      "hook": {
+        "unit_ids": [
+          "e42_u009"
+        ],
+        "modality": "visual",
+        "description": "Rupert furiously pointing at Alexander while guards refuse to arrest him.",
+        "evidence": "The immediate conflict and the shock of the guards defying the antagonist creates instant tension."
+      },
+      "cliffhanger_unit_id": "e42_u023",
+      "reason": "The confrontation between the usurper and the guards establishes the power shift and the central conflict."
+    },
+    "norm": {
+      "start_unit_id": "e42_u009",
+      "end_unit_id": "e42_u023",
+      "hook": {
+        "unit_ids": [
+          "e42_u009"
+        ],
+        "modality": "visual",
+        "description": "Rupert furiously pointing at Alexander while guards refuse to arrest him.",
+        "evidence": "The immediate conflict and the shock of the guards defying the antagonist creates instant tension."
+      },
+      "cliffhanger_unit_id": "e42_u023",
+      "reason": "The confrontation between the usurper and the guards establishes the power shift and the central conflict."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "cliffhanger"
+    ],
+    "details": [
+      "cliffhanger e42_u023 starts at 34.0s, before the final 20% of the clip (35.5s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 17.9,
+    "end": 39.9,
+    "duration": 22.0,
+    "segments": [
+      {
+        "start_unit": "e42_u009",
+        "end_unit": "e42_u023",
+        "start": 17.9,
+        "end": 39.9
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e42_u024",
+      "end_unit_id": "e42_u037",
+      "hook": {
+        "unit_ids": [
+          "e42_u024"
+        ],
+        "modality": "visual",
+        "description": "Alexander's mother stepping into the aisle with trembling awe.",
+        "evidence": "The emotional weight of a mother recognizing her long-lost son provides a strong, character-driven hook."
+      },
+      "cliffhanger_unit_id": "e42_u037",
+      "reason": "This segment captures the emotional climax and the transition to the final act of vengeance."
+    },
+    "norm": {
+      "start_unit_id": "e42_u024",
+      "end_unit_id": "e42_u037",
+      "hook": {
+        "unit_ids": [
+          "e42_u024"
+        ],
+        "modality": "visual",
+        "description": "Alexander's mother stepping into the aisle with trembling awe.",
+        "evidence": "The emotional weight of a mother recognizing her long-lost son provides a strong, character-driven hook."
+      },
+      "cliffhanger_unit_id": "e42_u037",
+      "reason": "This segment captures the emotional climax and the transition to the final act of vengeance."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 39.9,
+    "end": 77.8,
+    "duration": 37.9,
+    "segments": [
+      {
+        "start_unit": "e42_u024",
+        "end_unit": "e42_u037",
+        "start": 39.9,
+        "end": 77.8
+      }
+    ]
+  }
+]

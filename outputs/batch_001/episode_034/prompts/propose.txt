@@ -1,0 +1,168 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Put on trial for witchcraft and poisoning, Lady Juliana stands proud and defiant in the prisoner's dock, refusing to renounce her mother's herbal medicine even after her coerced maid gives false testimony against her.
+CONTINUITY NOTES: Following the aristocratic Lord's ruthless extortion of the young maid in his study, Episode 34 transitions directly into the crowded courtroom trial where the conspirators unleash their manufactured charges and false witnesses against Lady Juliana.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-03:10.0 (190.0 s).
+- Scene 01 (INT. COURTROOM – DAY): 0.0-190.0 s, units e34_u001..e34_u116.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 21.8-27.5 s; 54.2-58.2 s; 75.5-78.8 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e34_u001 | 0.0-2.8 | CAMERA | High wide establishing shot from behind the presiding judge looking down into the grand, sunlit courtroom filled with stern spectators, armed bailiffs, and Lady Juliana standing confined in the wooden prisoner's dock on the left.
+e34_u002 | 1.2-7.8 | DIALOGUE | JUDGE (Booming, Authoritative): "Lady Juliana Ashcroft, you are accused of witchcraft, unlawful healing, and poisoning."
+e34_u003 | 2.8-7.8 | CAMERA | Medium close-up of the stern, elderly Judge seated at the high mahogany bench, resting both hands on the court documents.
+e34_u004 | 7.8-13.1 | CAMERA | Close-up of the charred, ancient botanical grimoire resting on the bench, its scorched pages open to an illustration of a wild rose, as a finger firmly taps the text.
+e34_u005 | 9.0-11.2 | SFX | [A firm, hollow tap of a finger striking the parchment]
+e34_u006 | 9.1-12.6 | DIALOGUE | JUDGE (Inquisitive, Severe): "Do you deny possessing this book?"
+e34_u007 | 13.1-15.5 | CAMERA | Low-angle medium close-up of Lady Juliana standing erect in the dock, her prisoner label pinned to her rustic buttoned gown, her expression resolute.
+e34_u008 | 13.8-14.8 | DIALOGUE | LADY JULIANA (Calm, Unflinching): "No."
+e34_u009 | 15.5-19.4 | CAMERA | Low-angle medium shot of the Judge leaning over his elevated bench, staring down critically.
+e34_u010 | 15.6-19.2 | DIALOGUE | JUDGE (Stern, Accusatory): "Do you deny using its remedies?"
+e34_u011 | 19.4-23.8 | CAMERA | Tight close-up of Lady Juliana's face, bruised cheekbone highlighting her calm defiance.
+e34_u012 | 20.8-21.8 | DIALOGUE | LADY JULIANA (Firm): "No."
+e34_u013 | 23.8-27.4 | CAMERA | Medium shot of the aristocratic Lord standing at the railing in his tailored dark coat, turning slowly with a smirk of malicious satisfaction.
+e34_u014 | 27.4-31.7 | CAMERA | Close-up of the Judge leaning forward across his bench, eyes narrowing with grim conviction.
+e34_u015 | 27.5-31.2 | DIALOGUE | JUDGE (Hard, Pressing): "Then you admit to practicing forbidden arts."
+e34_u016 | 31.7-35.3 | CAMERA | Close-up of Lady Juliana looking upward with quiet dignity, her eyes luminous.
+e34_u017 | 33.2-35.1 | DIALOGUE | LADY JULIANA (Proud, Dignified): "I admit to healing the sick."
+e34_u018 | 35.3-37.4 | ACTION | The Judge furiously raises his wooden gavel and strikes the sound block with sharp force.
+e34_u019 | 35.4-36.6 | DIALOGUE | JUDGE (Furious, Shouting): "Silence!"
+e34_u020 | 35.8-37.0 | SFX | [Sharp, echoing crack of the gavel slamming onto wood]
+e34_u021 | 35.8-37.4 | CAMERA | Medium shot of the Judge slamming the gavel down on his bench.
+e34_u022 | 37.4-42.5 | CAMERA | Tracking shot moving from the Judge on his bench as he points his outstretched arm across the courtroom floor toward the witness stand.
+e34_u023 | 37.5-41.2 | DIALOGUE | JUDGE (Commanding): "Prudence. You served beside the accused?"
+e34_u024 | 41.0-43.0 | ACTION | Prudence the young maid stands trembling in the center of the courtroom floor, her head bowed in deep shame, clutching the sides of her apron.
+e34_u025 | 42.5-44.8 | CAMERA | Medium close-up of Prudence looking up with tears streaming down her pale face.
+e34_u026 | 43.2-44.6 | DIALOGUE | PRUDENCE (Trembling, Tearful): "Yes, Your Honor."
+e34_u027 | 44.8-49.0 | CAMERA | Medium close-up of the Judge leaning forward with folded hands.
+e34_u028 | 45.3-48.8 | DIALOGUE | JUDGE (Probing, Formal): "Did you witness Lady Juliana perform these treatments?"
+e34_u029 | 49.0-51.5 | CAMERA | Profile over-the-shoulder shot from behind Prudence toward Lady Juliana standing bound in iron cuffs at the prisoner's dock.
+e34_u030 | 49.1-50.5 | DIALOGUE | LADY JULIANA (Softly, Urgent): "Tell the truth."
+e34_u031 | 51.5-54.8 | CAMERA | Close-up of Prudence breaking down in tears, squeezing her eyes shut as guilt overwhelms her.
+e34_u032 | 53.0-54.2 | DIALOGUE | PRUDENCE (Sobbing, Heartbroken): "Yes."
+e34_u033 | 54.8-57.6 | CAMERA | Close-up of Lady Juliana looking at her former maid, a momentary flicker of hurt passing through her eyes before settling into stoic composure.
+e34_u034 | 57.6-60.8 | CAMERA | Medium profile shot of the Judge recording notes in the open court ledger with a feather quill.
+e34_u035 | 58.2-60.1 | DIALOGUE | JUDGE (Measured, Stern): "What did you see?"
+e34_u036 | 60.8-64.6 | CAMERA | Medium close-up of Prudence clutching both hands to her chest in anguish.
+e34_u037 | 61.3-64.4 | DIALOGUE | PRUDENCE (Choked with Tears): "She used herbs... and her mother's book."
+e34_u038 | 64.6-66.8 | CAMERA | Medium shot of the Judge leaning back slightly, pointing his hand accusingly.
+e34_u039 | 64.8-66.7 | DIALOGUE | JUDGE (Pressing, Sharp): "Did she draw strange markings?"
+e34_u040 | 66.8-71.8 | CAMERA | Close-up of Prudence's tear-streaked face as she hesitates, her breath hitching.
+e34_u041 | 68.2-71.7 | DIALOGUE | PRUDENCE (Faltering, Desperate): "She... placed herbs around my brother's bed."
+e34_u042 | 71.8-75.8 | CAMERA | Medium shot of the Judge pointing an outstretched index finger with piercing intensity.
+e34_u043 | 72.1-75.5 | DIALOGUE | JUDGE (Accusatory, Forceful): "And did she speak words you could not understand?"
+e34_u044 | 75.8-81.0 | CAMERA | Extreme close-up of Prudence weeping uncontrollably, her face contorted in unbearable remorse.
+e34_u045 | 78.8-80.5 | DIALOGUE | PRUDENCE (Weeping, Shaken): "Yes."
+e34_u046 | 81.0-85.2 | CAMERA | Medium tracking shot of the Lord stepping into the open aisle of the courtroom with arms spread wide, turning triumphantly toward the Judge.
+e34_u047 | 81.3-84.9 | DIALOGUE | LORD (Triumphant, Smug): "Your Honor... the witness has confirmed the ritual."
+e34_u048 | 85.0-87.2 | ACTION | Lady Juliana slams her cuffed hands against the wooden railing of the dock, her voice ringing out in indignant fury.
+e34_u049 | 85.2-87.4 | CAMERA | Low-angle medium shot of Lady Juliana gripping the railing, leaning forward.
+e34_u050 | 85.2-87.2 | DIALOGUE | LADY JULIANA (Passionate, Indignant): "It was not a ritual!"
+e34_u051 | 87.2-90.2 | ACTION | The Judge repeatedly hammers his gavel down onto the desk, roaring over her.
+e34_u052 | 87.4-90.5 | CAMERA | Medium shot of the Judge striking the wooden block twice in rapid succession.
+e34_u053 | 87.8-89.2 | SFX | [Violent, resonant double bang of the wooden gavel]
+e34_u054 | 87.9-90.0 | DIALOGUE | JUDGE (Bellowing): "You will speak when addressed!"
+e34_u055 | 90.5-93.8 | CAMERA | Medium shot of the Lord extending his palm toward the gallery with theatrical composure.
+e34_u056 | 91.0-93.2 | DIALOGUE | LORD (Calm, Poisonous): "We have further witnesses."
+e34_u057 | 93.8-98.2 | CAMERA | Medium shot of an anxious townsman standing by the gallery pews, nervously wringing his woolen hat in his hands.
+e34_u058 | 94.2-98.0 | DIALOGUE | TOWNSMAN (Nervous, Fearful): "My wife took one of Lady Juliana's mixtures..."
+e34_u059 | 98.2-99.5 | CAMERA | Close-up of the Judge glaring down expectantly.
+e34_u060 | 98.3-99.1 | DIALOGUE | JUDGE (Sharp): "And?"
+e34_u061 | 99.5-102.1 | CAMERA | Close-up of the townsman's face tightening with coached distress.
+e34_u062 | 99.8-101.8 | DIALOGUE | TOWNSMAN (Agitated): "She became violently ill."
+e34_u063 | 102.1-107.3 | CAMERA | Medium shot among the spectators as an elderly peasant woman stands up from the wooden bench, pointing an accusatory finger across the courtroom.
+e34_u064 | 102.3-107.0 | DIALOGUE | OLD WOMAN (Shrill, Accusatory): "My daughter drank one of her herbal preparations! She was sick for three days!"
+e34_u065 | 107.3-110.0 | CAMERA | Side two-shot of the Lord stepping up to the dock, looming beside Lady Juliana as she looks him in the eye.
+e34_u066 | 108.0-109.8 | DIALOGUE | LORD (Mocking, Smug): "She calls it healing."
+e34_u067 | 110.0-112.8 | ACTION | The Lord turns dramatically to face the entire assembly, gesturing toward the spectators.
+e34_u068 | 110.0-112.8 | CAMERA | Medium shot of the Lord addressing the courtroom.
+e34_u069 | 110.1-112.6 | DIALOGUE | LORD (Resonant, Vindicative): "The people call it poisoning!"
+e34_u070 | 112.8-115.2 | CAMERA | Close-up of Lady Juliana looking past him directly toward the gallery with sharp clarity.
+e34_u071 | 113.2-115.0 | DIALOGUE | LADY JULIANA (Incisive, Defiant): "What were their illnesses?"
+e34_u072 | 115.2-117.2 | CAMERA | Low-angle close-up of the Lord looking down arrogantly over his shoulder.
+e34_u073 | 115.3-116.5 | DIALOGUE | LORD (Dismissive): "Irrelevant."
+e34_u074 | 117.2-119.8 | CAMERA | Close-up of Lady Juliana gritting her teeth in fierce defiance.
+e34_u075 | 117.4-119.6 | DIALOGUE | LADY JULIANA (Fierce): "It is not irrelevant!"
+e34_u076 | 119.8-123.4 | CAMERA | Low-angle medium shot of Lady Juliana standing tall against the courtroom window light, her chained hands resting on the balustrade as she addresses the entire hall.
+e34_u077 | 119.9-123.2 | DIALOGUE | LADY JULIANA (Clear, Unyielding): "Herbs are not magic! They are medicine!"
+e34_u078 | 123.4-126.8 | CAMERA | Medium shot of the Judge sitting with steepled fingers upon his high bench.
+e34_u079 | 123.6-126.4 | DIALOGUE | JUDGE (Coldly Inquisitive): "You admit you administered them?"
+e34_u080 | 126.8-129.1 | CAMERA | Close-up of Lady Juliana looking straight forward.
+e34_u081 | 127.2-128.2 | DIALOGUE | LADY JULIANA (Direct): "Yes."
+e34_u082 | 129.1-131.8 | CAMERA | Medium shot of the Judge gesturing with an open hand.
+e34_u083 | 129.3-131.6 | DIALOGUE | JUDGE (Challenging): "Without the approval of a licensed physician?"
+e34_u084 | 131.8-134.6 | CAMERA | Medium close-up of Lady Juliana shaking her head slightly, truth ringing in her voice.
+e34_u085 | 132.1-134.4 | DIALOGUE | LADY JULIANA (Steely, Earnest): "There was no physician willing to help them."
+e34_u086 | 134.6-139.2 | CAMERA | Close-up of Lady Juliana's steady gaze.
+e34_u087 | 136.2-138.4 | DIALOGUE | LADY JULIANA (Calm, Resolute): "So I helped them."
+e34_u088 | 139.2-142.2 | CAMERA | Medium close-up of the Lord smiling cynically as he turns back toward the magistrate.
+e34_u089 | 139.6-142.0 | DIALOGUE | LORD (Derisive): "Even now, she refuses to repent."
+e34_u090 | 142.2-147.4 | CAMERA | Low-angle medium shot of the Judge holding his hand over the open law book.
+e34_u091 | 142.4-147.0 | DIALOGUE | JUDGE (Grave, Stern): "Lady Juliana, if you wish to save yourself, renounce these practices."
+e34_u092 | 147.4-148.9 | CAMERA | Close-up of the burned grimoire resting on the green leather surface of the court table.
+e34_u093 | 148.9-151.2 | CAMERA | Close-up of Lady Juliana lifting her chin without an ounce of hesitation.
+e34_u094 | 149.8-150.8 | DIALOGUE | LADY JULIANA (Unyielding): "No."
+e34_u095 | 151.2-154.8 | CAMERA | Medium shot of the Judge lowering his brow with dark finality.
+e34_u096 | 151.8-153.8 | DIALOGUE | JUDGE (Ominous, Warning): "Think carefully."
+e34_u097 | 154.8-156.8 | CAMERA | Low-angle close-up of Lady Juliana looking skyward through the arched court windows.
+e34_u098 | 155.2-156.4 | DIALOGUE | LADY JULIANA (Firm, Resolute): "I have."
+e34_u099 | 156.8-162.0 | CAMERA | Medium shot of the Judge pointing an outstretched finger across the bench, his tone hardening into lethal severity.
+e34_u100 | 157.0-161.8 | DIALOGUE | JUDGE (Severe, Imposing): "You understand that refusal may be treated as proof that you knowingly practiced witchcraft?"
+e34_u101 | 162.0-163.6 | CAMERA | Close-up of Lady Juliana unflinchingly accepting her fate.
+e34_u102 | 162.1-163.5 | DIALOGUE | LADY JULIANA (Proud, Fearless): "Then let it be."
+e34_u103 | 163.6-166.8 | CAMERA | Medium shot of Prudence breaking into shattered sobs, pressing her apron to her face to muffle her tears.
+e34_u104 | 164.0-166.8 | ACTION | Prudence buries her face in her stained white apron, shuddering with grief.
+e34_u105 | 166.8-174.4 | CAMERA | Medium shot pushing into Lady Juliana's face as she speaks directly across the hall with compassionate, unwavering authority.
+e34_u106 | 167.0-173.6 | DIALOGUE | LADY JULIANA (Passionate, Defiant): "Do not be afraid. I will not call healing evil just because powerful people have decided to fear it."
+e34_u107 | 174.4-176.5 | CAMERA | Medium close-up profile of the Lord, his smirk instantly freezing into an irritated, malevolent scowl.
+e34_u108 | 176.5-178.2 | ACTION | The Judge furiously smashes his gavel down upon the sound block with a deafening crack.
+e34_u109 | 176.5-178.2 | CAMERA | Close-up of the Judge slamming the wooden gavel down.
+e34_u110 | 176.6-177.6 | SFX | [Violent, resonant smash of the wooden gavel]
+e34_u111 | 177.8-179.4 | DIALOGUE | JUDGE (Thunderous): "Enough!"
+e34_u112 | 179.5-184.5 | ACTION | The Judge rises to his full height behind the bench, towering over the silent court.
+e34_u113 | 179.5-184.5 | CAMERA | Low-angle medium shot looking up at the imposing Judge as he stands formally to deliver the judgment.
+e34_u114 | 181.0-184.2 | DIALOGUE | JUDGE (Booming, Solemn): "Lady Juliana Ashcroft..."
+e34_u115 | 184.5-190.0 | CAMERA | Over-the-shoulder shot from behind Lady Juliana in the prisoner's dock looking toward the Judge, who solemnly raises his right hand to pronounce the final sentence as the heavy silence hangs over the courtroom.
+e34_u116 | 185.0-190.0 | ACTION | The Judge extends his raised hand high in judgment over Lady Juliana as the scene holds on her standing still and unbroken before fading to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

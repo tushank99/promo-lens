@@ -1,0 +1,54 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e08_u027",
+      "end_unit_id": "e08_u063",
+      "hook": {
+        "unit_ids": [
+          "e08_u027"
+        ],
+        "modality": "visual",
+        "description": "Alexander firmly catching Juliana's wrist in a moment of sudden, intense physical tension.",
+        "evidence": "The unit starts at 31.9s, which is within the 3s window of the clip start (31.9s)."
+      },
+      "cliffhanger_unit_id": "e08_u062",
+      "reason": "The window captures the shift from playful tension to emotional vulnerability, ending with the required cliffhanger in the final 20%."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e08_u027",
+      "end_unit_id": "e08_u063",
+      "hook": {
+        "unit_ids": [
+          "e08_u027"
+        ],
+        "modality": "visual",
+        "description": "Alexander firmly catching Juliana's wrist in a moment of sudden, intense physical tension.",
+        "evidence": "The unit starts at 31.9s, which is within the 3s window of the clip start (31.9s)."
+      },
+      "cliffhanger_unit_id": "e08_u062",
+      "reason": "The window captures the shift from playful tension to emotional vulnerability, ending with the required cliffhanger in the final 20%."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 31.9,
+    "end": 78.0,
+    "duration": 46.1,
+    "segments": [
+      {
+        "start_unit": "e08_u027",
+        "end_unit": "e08_u063",
+        "start": 31.9,
+        "end": 78.0
+      }
+    ]
+  }
+]

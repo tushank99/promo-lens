@@ -1,0 +1,48 @@
+{
+  "episode": 23,
+  "prompt_hash": "34c130c565d0d424",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 3.3,
+    "secs": 3.41,
+    "tokens_in": 4036,
+    "tokens_out": 334,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e23_u038",
+        "end_unit_id": "e23_u045",
+        "hook": {
+          "unit_ids": [
+            "e23_u038"
+          ],
+          "modality": "visual",
+          "description": "Juliana slams the leather journal shut on the bedside table.",
+          "evidence": "The sudden, aggressive action creates an immediate sense of urgency and confrontation."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "This clip delivers the high-stakes reveal that the Duchess is being poisoned, establishing the central mystery."
+      },
+      {
+        "start_unit_id": "e23_u058",
+        "end_unit_id": "e23_u067",
+        "hook": {
+          "unit_ids": [
+            "e23_u058"
+          ],
+          "modality": "audio",
+          "description": "A sudden, loud, muffled thump and heavy footsteps echo from the hallway.",
+          "evidence": "The unexpected sound immediately signals danger and creates instant tension for the viewer."
+        },
+        "cliffhanger_unit_id": "e23_u067",
+        "reason": "This captures the peak tension of the episode as the protagonist is caught in the act of preparing an antidote."
+      }
+    ]
+  },
+  "note": null
+}

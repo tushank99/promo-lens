@@ -1,0 +1,131 @@
+[
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "679d26cb901f7522",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 9.9,
+      "secs": 3.31,
+      "tokens_in": 1716,
+      "tokens_out": 1187
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e03_u098",
+          "e03_u099"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e03_u101",
+          "e03_u106",
+          "e03_u116",
+          "e03_u104"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e03_u108",
+          "e03_u113",
+          "e03_u117",
+          "e03_u114"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e03_u100",
+          "e03_u106",
+          "e03_u111",
+          "e03_u113",
+          "e03_u117"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e03_u117",
+          "e03_u118"
+        ]
+      },
+      "hook_unit_id": "e03_u098",
+      "hook_type": "visual_shock",
+      "emotion_type": "romance",
+      "trope": "scarred stranger proposal",
+      "central_conflict": "A scarred stranger kneels to propose marriage to Juliana, confronting the shocked aristocracy and her former fiancé Gerald.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03",
+    "prompt_hash": "a71ccf1f636a56f8",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.7,
+      "secs": 2.87,
+      "tokens_in": 1976,
+      "tokens_out": 1006
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e03_u055",
+          "e03_u056"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e03_u055",
+          "e03_u059",
+          "e03_u065",
+          "e03_u071"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e03_u058",
+          "e03_u062",
+          "e03_u069",
+          "e03_u078"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e03_u059",
+          "e03_u071",
+          "e03_u075",
+          "e03_u080"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e03_u080",
+          "e03_u081"
+        ]
+      },
+      "hook_unit_id": "e03_u055",
+      "hook_type": "visual_shock",
+      "emotion_type": "shock",
+      "trope": "scarred stranger protector",
+      "central_conflict": "A mysterious, scarred stranger battles the chapel guards to free Juliana from her family's oppression.",
+      "spoils_main_twist": false
+    }
+  }
+]

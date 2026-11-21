@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "d0249daf19b8d62f",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.98,
+    "tokens_in": 3234,
+    "tokens_out": 226
+  },
+  "asked_for": [
+    "c01"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c01",
+        "start_unit_id": "e15_u003",
+        "end_unit_id": "e15_u035",
+        "hook": {
+          "unit_ids": [
+            "e15_u003"
+          ],
+          "modality": "visual",
+          "description": "A thug raises a heavy wooden club to destroy the garden.",
+          "evidence": "The unit begins at 3.5s, which is within the 3s limit relative to the start of the clip (3.5s - 3.5s = 0s)."
+        },
+        "cliffhanger_unit_id": "e15_u035",
+        "reason": "The window starts on the visual threat of the club and ends on the violent shove, creating a high-stakes conflict moment."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

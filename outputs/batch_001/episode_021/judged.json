@@ -1,0 +1,68 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "dfa810ce0fd1bb27",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 10.3,
+      "secs": 3.05,
+      "tokens_in": 1935,
+      "tokens_out": 1151
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e21_u003",
+          "e21_u004",
+          "e21_u005"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e21_u005",
+          "e21_u010",
+          "e21_u019"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e21_u005",
+          "e21_u010",
+          "e21_u014",
+          "e21_u018",
+          "e21_u022"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e21_u005",
+          "e21_u018",
+          "e21_u020",
+          "e21_u023"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e21_u023",
+          "e21_u024",
+          "e21_u025"
+        ]
+      },
+      "hook_unit_id": "e21_u003",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "trope": "desperate healer",
+      "central_conflict": "Lady Juliana must decide whether she can save the fever‑stricken boy Toby despite having lost her home and lacking medicine.",
+      "spoils_main_twist": false
+    }
+  }
+]

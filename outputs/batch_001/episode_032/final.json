@@ -1,0 +1,244 @@
+{
+  "episode": 32,
+  "logline": "Cornered and chained in the damp dungeon, Juliana shatters Catherine's cruelty with unshakeable dignity and the truth about love and worth, driving Catherine into a murderous fury.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 3,
+    "rejected_at_judge": 1,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 0,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 1,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 32,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e32_u014",
+      "end_unit_id": "e32_u031",
+      "hook_unit_id": "e32_u014",
+      "hook": {
+        "unit_ids": [
+          "e32_u014"
+        ],
+        "modality": "visual",
+        "description": "Catherine swings a glowing red-hot branding iron upward.",
+        "evidence": "The immediate threat of physical violence and the high-stakes visual of a weapon creates instant tension.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": null,
+      "segments": [
+        {
+          "start_unit": "e32_u014",
+          "end_unit": "e32_u031",
+          "start": 17.0,
+          "end": 42.8
+        }
+      ],
+      "start": 17.0,
+      "end": 42.8,
+      "duration": 25.8,
+      "proposer_reason": "This clip captures the pivotal moment Juliana shifts from victim to aggressor, turning the power dynamic against her captor.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera shot e32_u032 (41.0-43.5) straddles a cut"
+      ],
+      "rejection_reasons": [
+        "validation:dialogue_cut"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "clip start 17.0s cuts through e32_u013 (16.2-18.8): \"Say goodbye to your mother.\""
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 32,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e32_u041",
+      "end_unit_id": "e32_u062",
+      "hook_unit_id": "e32_u041",
+      "hook": {
+        "unit_ids": [
+          "e32_u041"
+        ],
+        "modality": "visual",
+        "description": "Catherine brandishes a glowing iron in Juliana's face while screaming.",
+        "evidence": "The extreme close-up of a weapon inches from a character's face is a classic, high-impact hook for vertical drama.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": null,
+      "segments": [
+        {
+          "start_unit": "e32_u041",
+          "end_unit": "e32_u062",
+          "start": 52.5,
+          "end": 82.5
+        }
+      ],
+      "start": 52.5,
+      "end": 82.5,
+      "duration": 30.0,
+      "proposer_reason": "Juliana's calm, cutting rejection of her former life provides a satisfying emotional payoff that contrasts with Catherine's hysteria.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 32,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e32_u080",
+      "end_unit_id": "e32_u103",
+      "hook_unit_id": "e32_u080",
+      "hook": {
+        "unit_ids": [
+          "e32_u080"
+        ],
+        "modality": "visual",
+        "description": "Catherine throws her hands up in an explosive, outraged tantrum.",
+        "evidence": "The sudden shift from cold cruelty to unhinged rage is visually arresting and signals a loss of control.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": null,
+      "segments": [
+        {
+          "start_unit": "e32_u080",
+          "end_unit": "e32_u103",
+          "start": 107.0,
+          "end": 138.6
+        }
+      ],
+      "start": 107.0,
+      "end": 138.6,
+      "duration": 31.6,
+      "proposer_reason": "Juliana systematically dismantling Catherine's worldview while chained on the floor is a powerful display of psychological dominance.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera shot e32_u104 (138.5-140.4) straddles a cut"
+      ],
+      "rejection_reasons": [
+        "validation:dialogue_cut"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "clip start 107.0s cuts through e32_u079 (103.8-107.2): \"And a woman who never embarrasses the pe\""
+      ]
+    },
+    {
+      "candidate_id": "c04",
+      "episode": 32,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e32_u104",
+      "end_unit_id": "e32_u117",
+      "hook_unit_id": "e32_u104",
+      "hook": {
+        "unit_ids": [
+          "e32_u104"
+        ],
+        "modality": "visual",
+        "description": "Catherine trembling with uncontrollable, teeth-baring rage.",
+        "evidence": "The raw, visceral anger of the antagonist immediately draws the viewer into the conflict.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e32_u117",
+      "segments": [
+        {
+          "start_unit": "e32_u104",
+          "end_unit": "e32_u117",
+          "start": 138.5,
+          "end": 154.38
+        }
+      ],
+      "start": 138.5,
+      "end": 154.38,
+      "duration": 15.88,
+      "proposer_reason": "This sequence builds to a terrifying climax where the branding iron is thrust toward the protagonist's eye.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:duration",
+        "validation:dialogue_cut"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "15.88s is under the 20s minimum",
+        "clip start 138.5s cuts through e32_u103 (135.0-138.6): \"You have to threaten a chained woman to \""
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 2,
+    "cached_calls": 0,
+    "checkpoint_reused": 1,
+    "tokens_in": 5874,
+    "tokens_out": 677,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 3.6,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 1,
+    "judge_failed": 1,
+    "waited_s": 0.0
+  }
+}

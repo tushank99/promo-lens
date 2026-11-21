@@ -1,0 +1,56 @@
+[
+  {
+    "candidate_id": "c01r",
+    "proposal": {
+      "retry_of": "c01",
+      "start_unit_id": "e15_u003",
+      "end_unit_id": "e15_u035",
+      "hook": {
+        "unit_ids": [
+          "e15_u003"
+        ],
+        "modality": "visual",
+        "description": "A thug raises a heavy wooden club to destroy the garden.",
+        "evidence": "The unit begins at 3.5s, which is within the 3s limit relative to the start of the clip (3.5s - 3.5s = 0s)."
+      },
+      "cliffhanger_unit_id": "e15_u035",
+      "reason": "The window starts on the visual threat of the club and ends on the violent shove, creating a high-stakes conflict moment."
+    },
+    "retry_of": "c01",
+    "norm": {
+      "start_unit_id": "e15_u003",
+      "end_unit_id": "e15_u035",
+      "hook": {
+        "unit_ids": [
+          "e15_u003"
+        ],
+        "modality": "visual",
+        "description": "A thug raises a heavy wooden club to destroy the garden.",
+        "evidence": "The unit begins at 3.5s, which is within the 3s limit relative to the start of the clip (3.5s - 3.5s = 0s)."
+      },
+      "cliffhanger_unit_id": "e15_u035",
+      "reason": "The window starts on the visual threat of the club and ends on the violent shove, creating a high-stakes conflict moment."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 3.6s (31.2-34.8)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 3.5,
+    "end": 49.5,
+    "duration": 46.0,
+    "segments": [
+      {
+        "start_unit": "e15_u003",
+        "end_unit": "e15_u035",
+        "start": 3.5,
+        "end": 49.5
+      }
+    ]
+  }
+]

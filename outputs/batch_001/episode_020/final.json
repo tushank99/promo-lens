@@ -1,0 +1,479 @@
+{
+  "episode": 20,
+  "logline": "Inside the opulent Ashbury estate, the treacherous Rupert and Catherine plot to seize the ducal title as the Dowager Duchess slowly withers, while in an icy barn, Juliana defiantly prepares remedies to save the fever-stricken villagers.",
+  "counts": {
+    "proposed": 3,
+    "rejected_at_validation": 0,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 1,
+    "alternates": 0,
+    "final": 2,
+    "retried": 0,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c03",
+      "episode": 20,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e20_u054",
+      "end_unit_id": "e20_u068",
+      "hook_unit_id": "e20_u054",
+      "hook": {
+        "unit_ids": [
+          "e20_u054"
+        ],
+        "modality": "visual",
+        "description": "Catherine setting down her teacup with a sharp, cold clatter.",
+        "evidence": "The sharp sound and decisive action signal a shift to a more ruthless, villainous tone.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e20_u068",
+      "segments": [
+        {
+          "start_unit": "e20_u054",
+          "end_unit": "e20_u068",
+          "start": 88.2,
+          "end": 114.75
+        }
+      ],
+      "start": 88.2,
+      "end": 114.75,
+      "duration": 26.55,
+      "proposer_reason": "Focuses on the villains' unchecked ambition and the looming threat to the estate.",
+      "hook_type": "shocking_line",
+      "emotion_type": "revenge",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e20_u054",
+          "e20_u055",
+          "e20_u056",
+          "e20_u057"
+        ],
+        "clarity": [
+          "e20_u057",
+          "e20_u058",
+          "e20_u060",
+          "e20_u063",
+          "e20_u067"
+        ],
+        "emotion": [
+          "e20_u056",
+          "e20_u057",
+          "e20_u062",
+          "e20_u067",
+          "e20_u068"
+        ],
+        "escalation": [
+          "e20_u057",
+          "e20_u060",
+          "e20_u063",
+          "e20_u065",
+          "e20_u068"
+        ],
+        "ending": [
+          "e20_u068"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 5.55s (109.2-114.75)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "scheming aristocrats",
+      "central_conflict": "Catherine and Rupert plot to seize the Ashbury ducal title, dismissing the peasants and the aging Duchess.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e20_u057",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 20,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e20_u035",
+      "end_unit_id": "e20_u053",
+      "hook_unit_id": "e20_u035",
+      "hook": {
+        "unit_ids": [
+          "e20_u035"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling in straw with bandaged hands, sorting herbs.",
+        "evidence": "The visual contrast between her noble status and current squalor creates immediate sympathy and intrigue.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e20_u053",
+      "segments": [
+        {
+          "start_unit": "e20_u035",
+          "end_unit": "e20_u053",
+          "start": 56.5,
+          "end": 88.2
+        }
+      ],
+      "start": 56.5,
+      "end": 88.2,
+      "duration": 31.7,
+      "proposer_reason": "Highlights the protagonist's resilience and moral struggle against the villains.",
+      "hook_type": "visual_shock",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e20_u035"
+        ],
+        "clarity": [
+          "e20_u041",
+          "e20_u042",
+          "e20_u048",
+          "e20_u049",
+          "e20_u052",
+          "e20_u053"
+        ],
+        "emotion": [
+          "e20_u041",
+          "e20_u042",
+          "e20_u044",
+          "e20_u045",
+          "e20_u046",
+          "e20_u048",
+          "e20_u052",
+          "e20_u053"
+        ],
+        "escalation": [
+          "e20_u035",
+          "e20_u041",
+          "e20_u048",
+          "e20_u052",
+          "e20_u053"
+        ],
+        "ending": [
+          "e20_u053"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.5s (56.5-60.0)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "defiant healer",
+      "central_conflict": "Juliana refuses to stop tending the fever‑stricken villagers despite Seamus' pleas that she rest, insisting she must keep healing the community.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e20_u035",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 20,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e20_u002",
+      "end_unit_id": "e20_u016",
+      "hook_unit_id": "e20_u003",
+      "hook": {
+        "unit_ids": [
+          "e20_u003"
+        ],
+        "modality": "spoken",
+        "description": "Catherine taunting Rupert about his sudden climb to power.",
+        "evidence": "The immediate power dynamic and sharp dialogue establish the high-stakes betrayal instantly.",
+        "delay_s": 0.1
+      },
+      "cliffhanger_unit_id": "e20_u016",
+      "segments": [
+        {
+          "start_unit": "e20_u002",
+          "end_unit": "e20_u016",
+          "start": 2.8,
+          "end": 25.5
+        }
+      ],
+      "start": 2.8,
+      "end": 25.5,
+      "duration": 22.7,
+      "proposer_reason": "Establishes the central conspiracy to steal the ducal title through murder.",
+      "hook_type": "other",
+      "emotion_type": "other",
+      "scores": {
+        "hook": 1,
+        "clarity": 3,
+        "emotion": 2,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e20_u002",
+          "e20_u003"
+        ],
+        "clarity": [
+          "e20_u009",
+          "e20_u015",
+          "e20_u016"
+        ],
+        "emotion": [
+          "e20_u006",
+          "e20_u011",
+          "e20_u015"
+        ],
+        "escalation": [
+          "e20_u008",
+          "e20_u009",
+          "e20_u015",
+          "e20_u016"
+        ],
+        "ending": [
+          "e20_u016"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [
+        "floor:hook<3"
+      ],
+      "final_score": 45.3,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "scheming aristocrats",
+      "central_conflict": "Rupert and Catherine plot to secure the ducal title by marrying and ensuring Alexander's death is sealed, threatening the rightful heir.",
+      "ending_type": "payoff",
+      "judge_hook_unit_id": "e20_u002",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 20,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e20_u035",
+      "end_unit_id": "e20_u053",
+      "hook_unit_id": "e20_u035",
+      "hook": {
+        "unit_ids": [
+          "e20_u035"
+        ],
+        "modality": "visual",
+        "description": "Juliana kneeling in straw with bandaged hands, sorting herbs.",
+        "evidence": "The visual contrast between her noble status and current squalor creates immediate sympathy and intrigue.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e20_u053",
+      "segments": [
+        {
+          "start_unit": "e20_u035",
+          "end_unit": "e20_u053",
+          "start": 56.5,
+          "end": 88.2
+        }
+      ],
+      "start": 56.5,
+      "end": 88.2,
+      "duration": 31.7,
+      "proposer_reason": "Highlights the protagonist's resilience and moral struggle against the villains.",
+      "hook_type": "visual_shock",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e20_u035"
+        ],
+        "clarity": [
+          "e20_u041",
+          "e20_u042",
+          "e20_u048",
+          "e20_u049",
+          "e20_u052",
+          "e20_u053"
+        ],
+        "emotion": [
+          "e20_u041",
+          "e20_u042",
+          "e20_u044",
+          "e20_u045",
+          "e20_u046",
+          "e20_u048",
+          "e20_u052",
+          "e20_u053"
+        ],
+        "escalation": [
+          "e20_u035",
+          "e20_u041",
+          "e20_u048",
+          "e20_u052",
+          "e20_u053"
+        ],
+        "ending": [
+          "e20_u053"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.5s (56.5-60.0)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 69.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "defiant healer",
+      "central_conflict": "Juliana refuses to stop tending the fever‑stricken villagers despite Seamus' pleas that she rest, insisting she must keep healing the community.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e20_u035",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 20,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e20_u054",
+      "end_unit_id": "e20_u068",
+      "hook_unit_id": "e20_u054",
+      "hook": {
+        "unit_ids": [
+          "e20_u054"
+        ],
+        "modality": "visual",
+        "description": "Catherine setting down her teacup with a sharp, cold clatter.",
+        "evidence": "The sharp sound and decisive action signal a shift to a more ruthless, villainous tone.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e20_u068",
+      "segments": [
+        {
+          "start_unit": "e20_u054",
+          "end_unit": "e20_u068",
+          "start": 88.2,
+          "end": 114.75
+        }
+      ],
+      "start": 88.2,
+      "end": 114.75,
+      "duration": 26.55,
+      "proposer_reason": "Focuses on the villains' unchecked ambition and the looming threat to the estate.",
+      "hook_type": "shocking_line",
+      "emotion_type": "revenge",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e20_u054",
+          "e20_u055",
+          "e20_u056",
+          "e20_u057"
+        ],
+        "clarity": [
+          "e20_u057",
+          "e20_u058",
+          "e20_u060",
+          "e20_u063",
+          "e20_u067"
+        ],
+        "emotion": [
+          "e20_u056",
+          "e20_u057",
+          "e20_u062",
+          "e20_u067",
+          "e20_u068"
+        ],
+        "escalation": [
+          "e20_u057",
+          "e20_u060",
+          "e20_u063",
+          "e20_u065",
+          "e20_u068"
+        ],
+        "ending": [
+          "e20_u068"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 5.55s (109.2-114.75)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "scheming aristocrats",
+      "central_conflict": "Catherine and Rupert plot to seize the Ashbury ducal title, dismissing the peasants and the aging Duchess.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e20_u057",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 4,
+    "cached_calls": 1,
+    "checkpoint_reused": 4,
+    "tokens_in": 7620,
+    "tokens_out": 3100,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 10.3,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 36.7
+  }
+}

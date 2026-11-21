@@ -1,0 +1,67 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Emerging from the smoke of the shattered cathedral gates in full ducal regalia, Alexander confronts Rupert, wins the loyalty of the royal guards, and is proclaimed the rightful Duke of Ashburn by his weeping mother.
+CONTINUITY NOTES: Directly follows Episode 41 where Alexander's forces breached the cathedral entrance; Alexander now steps through the ruins, halting the wedding and unmasking Rupert's illegitimate reign.
+
+CLIP: 17.9s to 48.0s (30.1s). Units below: id | seconds from clip start | type | text.
+e42_u009 | 0.0-3.6 | CAMERA | Medium shot of Rupert descending the altar steps, furiously pointing toward Alexander.
+e42_u010 | 0.1-3.3 | DIALOGUE | BLOND NOBLEMAN (Furious, Hysterical): "Guards! Arrest this imposter!"
+e42_u011 | 3.6-5.5 | CAMERA | Medium shot of the royal guardsman standing rigidly in red uniform and bearskin cap, resting his white-gloved hand on his sabre.
+e42_u012 | 4.1-5.5 | DIALOGUE | ROYAL GUARD (Stoic, Defiant): "We will not."
+e42_u013 | 5.5-8.6 | CAMERA | Close-up on Rupert, veins bulging in his neck as his composure shatters.
+e42_u014 | 5.6-7.3 | DIALOGUE | BLOND NOBLEMAN (Screaming, Outraged): "I said arrest him!"
+e42_u015 | 7.6-8.6 | DIALOGUE | BLOND NOBLEMAN (Desperate, Unhinged): "Why?!"
+e42_u016 | 8.6-10.9 | CAMERA | Close-up on the Royal Guard holding his upright blade with unwavering conviction.
+e42_u017 | 8.8-10.9 | DIALOGUE | ROYAL GUARD (Firm, Reverent): "Because we know who he is."
+e42_u018 | 10.9-12.5 | CAMERA | Medium shot of Catherine clutching her father's arm, her bridal bouquet drooping as panic seizes her face.
+e42_u019 | 11.1-12.4 | DIALOGUE | CATHERINE (Trembling, Apprehensive): "Rupert..."
+e42_u020 | 12.5-15.9 | CAMERA | Medium close-up of Rupert gripping the edge of a pew for balance, his eyes wild with terror.
+e42_u021 | 12.6-15.9 | DIALOGUE | BLOND NOBLEMAN (Denial, Shaken): "You cannot be him. Alexander died!"
+e42_u022 | 15.9-22.0 | CAMERA | Wide tracking shot behind Alexander as he advances down the center aisle, silhouetted against the ruins of the cathedral nave.
+e42_u023 | 16.1-21.9 | DIALOGUE | ALEXANDER (Cold, Commanding): "And yet, here I stand. That is the lie you built your life upon."
+e42_u024 | 22.0-26.9 | CAMERA | Medium shot of an elderly silver-haired woman in simple ivory robes stepping into the aisle, her hands outstretched in trembling awe.
+e42_u025 | 22.3-24.6 | DIALOGUE | ALEXANDER'S MOTHER (Choked with Tears): "Alexander..."
+e42_u026 | 26.9-30.1 | ACTION | Alexander halts his march as his mother reaches him, placing her frail hands gently upon his chest.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

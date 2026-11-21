@@ -1,0 +1,38 @@
+{
+  "prompt_hash": "006d6386b3881631",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 2.66,
+    "tokens_in": 4784,
+    "tokens_out": 214,
+    "checkpoint": true
+  },
+  "asked_for": [
+    "c02"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e31_u065",
+        "end_unit_id": "e31_u087",
+        "hook": {
+          "unit_ids": [
+            "e31_u065"
+          ],
+          "modality": "visual",
+          "description": "Juliana's defiant, knowing smirk while chained in the dungeon.",
+          "evidence": "The unit starts at 118.2s, which is within 3 seconds of the clip start (118.2s)."
+        },
+        "cliffhanger_unit_id": "e31_u087",
+        "reason": "This window captures the escalation from verbal sparring to the physical threat against the book and Juliana, ending on the high-stakes visual cliffhanger."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

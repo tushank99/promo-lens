@@ -1,0 +1,116 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: When hired thugs attack Juliana's medicinal garden, Alexander unleashes his combat training to effortlessly overpower them, extracting a shocking confession that unmasks Gerald Harrington as the mastermind.
+CONTINUITY NOTES: Picks up immediately from Episode 15's cliffhanger where Alexander confronted the three thugs in the moonlit garden while Juliana huddled injured on the ground.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:23.2 (83.2 s).
+- Scene 01 (EXT. JULIANA'S COTTAGE GARDEN – NIGHT): 0.0-83.2 s, units e16_u001..e16_u064.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 28.5-32.0 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e16_u001 | 0.0-2.1 | CAMERA | Wide shot from behind Alexander's trench coat looking toward the three thugs standing across the trampled garden under the full moon.
+e16_u002 | 0.0-2.1 | ACTION | Alexander stands tall and unyielding, blocking the path to Juliana, while the Thug with Cap steps forward clutching an iron pipe.
+e16_u003 | 2.1-4.5 | CAMERA | Medium close-up of the Thug with Cap, his eyes wide and sneering with false bravado as his bald accomplice watches from behind.
+e16_u004 | 2.1-4.2 | DIALOGUE | THUG WITH CAP (Menacing, Goading): "Move aside, soldier."
+e16_u005 | 4.5-6.4 | CAMERA | Extreme close-up of Alexander's scarred, weathered face, his cold blue-grey eyes fixed intently on his opponent.
+e16_u006 | 6.4-9.5 | CAMERA | Low-angle medium shot of the Thug with Cap gripping his weapon with both hands and roaring into the night air.
+e16_u007 | 6.4-8.8 | DIALOGUE | THUG WITH CAP (Furious, Shouting): "I said, move!"
+e16_u008 | 9.5-11.2 | CAMERA | Medium close-up of Alexander remaining completely motionless, his jaw clenched in stoic calm.
+e16_u009 | 11.2-13.1 | CAMERA | Close-up of Juliana kneeling in the mud against the ruined planter, clutching her bandaged hands to her chest in trembling fear.
+e16_u010 | 11.2-12.7 | DIALOGUE | JULIANA (Frightened, Whispering): "Alexander..."
+e16_u011 | 13.1-14.3 | DIALOGUE | ALEXANDER (Calm, Protective): "Stay behind me."
+e16_u012 | 14.3-16.0 | CAMERA | Medium action shot as the Thug with Cap lunges forward with his weapon raised high.
+e16_u013 | 14.4-15.5 | DIALOGUE | THUG WITH CAP (Roaring): "Aaargh!"
+e16_u014 | 14.4-16.8 | ACTION | The thug swings the club down with full force, but Alexander catches the weapon mid-air in his bare hand with chilling ease.
+e16_u015 | 15.8-16.5 | SFX | Heavy blunt impact of a solid hand gripping wood.
+e16_u016 | 16.8-19.5 | CAMERA | Close-up of the Thug with Cap staring in wide-eyed terror as Alexander grips the bar and wrenches it away effortlessly.
+e16_u017 | 19.2-21.8 | ACTION | Alexander strikes the thug across the chest and slams him violently into the muddy ground beside the stone wall.
+e16_u018 | 19.8-21.2 | SFX | Heavy thud of a body crashing into soil and wood.
+e16_u019 | 21.8-23.0 | CAMERA | Close-up of Juliana watching in breathless astonishment.
+e16_u020 | 23.0-25.8 | CAMERA | Medium tracking shot as the Bald Thug charges in with a shout, only for Alexander to pivot and seize him by the neck, hurling him across the garden path.
+e16_u021 | 23.0-23.8 | DIALOGUE | BALD THUG (Yelling): "Aaargh!"
+e16_u022 | 24.2-25.5 | SFX | Loud wooden scrape and crunch as the Bald Thug slides across the planks into the fence.
+e16_u023 | 25.8-28.5 | CAMERA | Medium shot of the Third Thug backing away nervously, raising a blunt rod with trembling arms before lunging.
+e16_u024 | 25.8-27.1 | DIALOGUE | THIRD THUG (Desperate, Shouting): "Stay back!"
+e16_u025 | 26.5-28.5 | ACTION | Alexander deflects the strike with his forearm, drives a swift counter-blow into the thug's torso, and spins him violently to the ground.
+e16_u026 | 27.0-28.2 | SFX | Solid bone-and-fist impact followed by a groaning thud.
+e16_u027 | 28.5-31.0 | CAMERA | Wide cinematic shot under the full moon. Alexander towers over the three writhing thugs groaning in the mud as Juliana looks up from her knees.
+e16_u028 | 31.0-34.5 | CAMERA | Low-angle close-up of Juliana looking up at Alexander, tears glistening on her mud-splattered cheeks in profound relief.
+e16_u029 | 32.0-33.8 | DIALOGUE | JULIANA (Breathless, Overwhelmed): "Alexander..."
+e16_u030 | 34.5-38.2 | CAMERA | Medium shot over Juliana's shoulder as Alexander turns his gaze toward her, his stern demeanor softening with concern.
+e16_u031 | 36.2-37.8 | DIALOGUE | ALEXANDER (Gentle, Concerned): "Are you hurt?"
+e16_u032 | 38.2-40.8 | CAMERA | Close-up of Juliana's trembling, soil-stained hands wrapped in blood-soaked bandages.
+e16_u033 | 38.2-40.0 | DIALOGUE | JULIANA (Fragile, Pain-filled): "Only my hands."
+e16_u034 | 40.8-44.2 | CAMERA | Medium shot as Alexander suddenly wheels around, strides to the groaning Thug with Cap, and yanks him straight off the ground by his coat collar with one arm.
+e16_u035 | 41.2-44.0 | ACTION | Alexander lifts the thug onto his tiptoes against the cottage wall, glaring with lethal intensity.
+e16_u036 | 42.5-44.0 | DIALOGUE | ALEXANDER (Demanding, Threatening): "Who sent you?"
+e16_u037 | 44.2-46.2 | CAMERA | Close-up of the Thug with Cap gagging under Alexander's iron fist.
+e16_u038 | 44.2-45.3 | DIALOGUE | THUG WITH CAP (Choking, Defiant): "No one!"
+e16_u039 | 46.2-48.5 | CAMERA | Close-up of Alexander, his eyes darkening with lethal fury.
+e16_u040 | 46.3-47.4 | DIALOGUE | ALEXANDER (Cold, Ominous): "Wrong answer."
+e16_u041 | 48.0-50.0 | ACTION | Alexander tightens his grip on the thug's throat, lifting him higher against the stone wall.
+e16_u042 | 48.8-49.6 | DIALOGUE | ALEXANDER (Roaring): "Who?!"
+e16_u043 | 49.8-52.8 | CAMERA | Extreme close-up of the terrified thug gasping for air, his eyes bulging.
+e16_u044 | 49.8-52.2 | DIALOGUE | THUG WITH CAP (Screaming, Panicked): "Harrington! Gerald Harrington paid us!"
+e16_u045 | 52.8-55.2 | CAMERA | Close-up of Juliana on the ground, reeling in devastated disbelief as the betrayal hits her.
+e16_u046 | 53.2-54.4 | DIALOGUE | JULIANA (Shaken, Heartbroken): "Gerald..."
+e16_u047 | 55.2-59.0 | CAMERA | Medium wide shot as Alexander releases the thug, sending him tumbling into the ruined flowerbeds.
+e16_u048 | 55.5-58.5 | ACTION | The Thug with Cap scrambles to his feet and sprints into the dark woods alongside his two limping accomplices.
+e16_u049 | 56.0-58.2 | DIALOGUE | THUG WITH CAP (Shouting, Retreating): "We were only paid to destroy the garden, that's all!"
+e16_u050 | 59.0-63.0 | CAMERA | Close-up on Alexander's hand hanging by his coat. Fresh blood trickles from his split knuckles, and he slowly curls his fingers into a tight fist.
+e16_u051 | 60.0-63.0 | ACTION | Alexander flexes his bleeding hand, showing no sign of pain.
+e16_u052 | 63.0-66.5 | CAMERA | Medium shot as Juliana gingerly rises to her feet, stepping toward Alexander with deep awe and wonder in her eyes.
+e16_u053 | 64.2-66.2 | DIALOGUE | JULIANA (Soft, Astounded): "You knew exactly what to do."
+e16_u054 | 66.5-70.5 | CAMERA | Close-up of Juliana looking up at him, searching his scarred face.
+e16_u055 | 67.8-70.2 | DIALOGUE | JULIANA (Wondering, Intrigued): "You fought like you've done this a hundred times."
+e16_u056 | 70.5-74.2 | CAMERA | Medium close-up of Alexander turning his profile away, shadowed by haunted memories of his past.
+e16_u057 | 71.0-74.0 | DIALOGUE | ALEXANDER (Somber, Heavy-Hearted): "A soldier learns things he wishes he could forget."
+e16_u058 | 74.2-76.8 | CAMERA | Close-up of Juliana softening with deep empathy as her eyes drop to his bleeding knuckle.
+e16_u059 | 74.8-75.8 | DIALOGUE | JULIANA (Tender, Concerned): "Are you hurt?"
+e16_u060 | 76.0-77.5 | ACTION | Juliana reaches out toward his injured hand with delicate concern.
+e16_u061 | 76.8-83.2 | CAMERA | Medium shot of Alexander and Juliana standing face-to-face in the moonlit garden, framed against the dark night.
+e16_u062 | 77.8-78.8 | DIALOGUE | ALEXANDER (Quiet, Steady): "No."
+e16_u063 | 78.8-83.2 | ACTION | Alexander and Juliana gaze deeply into each other's eyes, an unspoken bond forming between them as the ruined garden lies silent beneath the moon.
+e16_u064 | 80.0-83.2 | SFX | Slow, resonant emotional cello melody swelling to a dramatic cliffhanger hold.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

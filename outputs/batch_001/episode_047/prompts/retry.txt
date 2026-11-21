@@ -1,0 +1,52 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: While Alexander reassures Juliana of their unbreakable bond amid the council's opposition, a destitute Catherine begs for sanctuary at Ashbourne—only for Juliana to offer her survival under the strict humiliation of a scullery maid.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c01: window e47_u040..e47_u069 (81.8-131.5 s, 49.7 s); hook ['e47_u040'] modality visual (delay 0.0 s)
+  FAILED: scene: window crosses scenes ['03', '04']
+  Original idea: The power dynamic shift where the villain is forced to become a servant is a classic, high-satisfaction trope.
+  Scene 03: units e47_u025..e47_u041, 55.5-83.5 s. Units of that scene:
+    e47_u025 | 55.5-56.8 | CAMERA | Wide establishing shot of the rain-drenched cobblestone courtyard surrounded by imposing Gothic arches.
+    e47_u026 | 56.8-60.0 | CAMERA | Medium shot of Lady Ashbourne leaning heavily on her walking cane, glaring down at Catherine who kneels in the mud.
+    e47_u027 | 56.8-59.8 | DIALOGUE | LADY ASHBOURNE (Sharp, Contemptuous): "You dare show your face in Ashbourne courtyard?"
+    e47_u028 | 60.0-63.5 | CAMERA | High-angle shot looking down at Catherine in her disheveled burgundy gown, clutching her skirts and weeping profusely.
+    e47_u029 | 60.5-63.4 | DIALOGUE | CATHERINE (Desperate, Weeping): "I have nowhere to go, Your Grace."
+    e47_u030 | 63.5-67.0 | CAMERA | Low-angle shot tracking Catherine clutching her chest in agony.
+    e47_u031 | 63.5-66.8 | DIALOGUE | CATHERINE (Sobbing, Pleading): "London closed its doors! My family disowned me!"
+    e47_u032 | 67.0-71.5 | CAMERA | Medium close-up of Lady Ashbourne, her gloved hand resting on her cane as she delivers her cold judgment.
+    e47_u033 | 67.2-71.2 | DIALOGUE | LADY ASHBOURNE (Cold, Unforgiving): "She aided the poison in my veins. Cast her into the road."
+    e47_u034 | 71.5-74.8 | CAMERA | Medium shot of Vaughn drawing his baton, ready to seize Catherine from behind.
+    e47_u035 | 71.8-74.8 | DIALOGUE | VAUGHN (Gruff, Ready): "One command, Your Grace, and I drag her past the gates."
+    e47_u036 | 74.8-78.8 | CAMERA | Wide shot as Alexander strides purposefully into the courtyard alongside Juliana, his coat billowing behind him.
+    e47_u037 | 75.2-78.5 | DIALOGUE | ALEXANDER (Furious, Decisive): "Do it, Vaughn! Throw her past the estate perimeter!"
+    e47_u038 | 78.8-81.8 | CAMERA | Close-up of Catherine collapsed on the wet stones, looking up with tear-streaked panic.
+    e47_u039 | 78.8-81.8 | DIALOGUE | CATHERINE (Hysterical, Screaming): "Please, Alexander! Have mercy!"
+    e47_u040 | 81.8-83.5 | CAMERA | Medium shot of Juliana raising her right hand firmly to halt the guard.
+    e47_u041 | 82.2-83.4 | DIALOGUE | JULIANA (Clear, Authoritative): "Stop."
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

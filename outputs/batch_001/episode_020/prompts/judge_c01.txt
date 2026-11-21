@@ -1,0 +1,64 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Inside the opulent Ashbury estate, the treacherous Rupert and Catherine plot to seize the ducal title as the Dowager Duchess slowly withers, while in an icy barn, Juliana defiantly prepares remedies to save the fever-stricken villagers.
+CONTINUITY NOTES: Follows Episode 19's night in the barn; as Alexander begins his clandestine fight to reclaim his birthright, Juliana tends to the suffering village while Rupert and Catherine celebrate their anticipated ascension to the ducal throne.
+
+CLIP: 2.8s to 25.5s (22.7s). Units below: id | seconds from clip start | type | text.
+e20_u002 | 0.0-4.0 | CAMERA | Medium wide shot of the lavish drawing room. CATHERINE, dressed in an ornate lilac regency gown and white satin gloves, gracefully pours hot tea from an ornate silver teapot, while RUPERT stands elegantly by the tall window.
+e20_u003 | 0.1-1.6 | DIALOGUE | CATHERINE (Smug, Prim): "Two lumps of sugar, Rupert?"
+e20_u004 | 1.8-5.0 | DIALOGUE | CATHERINE (Taunting, Silkily): "Or has your sudden climb to power sweetened your taste already?"
+e20_u005 | 4.1-6.7 | CAMERA | Close-up of Catherine stirring her tea with a silver spoon, lifting her gaze with a haughty smirk.
+e20_u006 | 5.4-8.0 | DIALOGUE | RUPERT (Flirtatious, Sly): "Only if it sweetens your disposition, Catherine."
+e20_u007 | 6.8-12.4 | CAMERA | Medium shot tracking Rupert as he steps forward from the hearth, adjusting his dark leather gloves with an air of absolute triumph.
+e20_u008 | 8.1-9.9 | DIALOGUE | RUPERT (Boastful, Confident): "The estate is practically ours."
+e20_u009 | 10.0-12.3 | DIALOGUE | RUPERT (Smug): "The succession papers are being finalized as we speak."
+e20_u010 | 12.4-17.2 | CAMERA | Medium close-up of Catherine raising the porcelain teacup to her lips, her expression turning sharp and dismissive.
+e20_u011 | 12.6-15.9 | DIALOGUE | CATHERINE (Cold, Haughty): "'Practically' is a word for beggars. I do not marry a practical Duke."
+e20_u012 | 16.0-17.3 | DIALOGUE | CATHERINE (Stern, Ambitious): "I marry the Lord of Ashbury."
+e20_u013 | 17.2-22.7 | CAMERA | Medium shot of Rupert striding toward the tea table, leaning forward with predatory conviction.
+e20_u014 | 17.3-18.4 | DIALOGUE | RUPERT (Reassuring, Firm): "And so you shall."
+e20_u015 | 18.5-21.4 | DIALOGUE | RUPERT (Dark, Conspiratorial): "Once my cousin Alexander's death is formally sealed by the Crown..."
+e20_u016 | 21.5-22.6 | DIALOGUE | RUPERT (Decisive): "...the title is mine."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

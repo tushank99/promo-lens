@@ -1,0 +1,62 @@
+{
+  "episode": 41,
+  "prompt_hash": "f3b062e519a57814",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.9,
+    "secs": 2.28,
+    "tokens_in": 3451,
+    "tokens_out": 485,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e41_u002",
+        "end_unit_id": "e41_u017",
+        "hook": {
+          "unit_ids": [
+            "e41_u002"
+          ],
+          "modality": "visual",
+          "description": "Catherine abruptly halts her own wedding ceremony to command the room.",
+          "evidence": "The sudden disruption of a lavish wedding creates immediate intrigue about the bride's true intentions."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "Focuses on the power dynamic and the cruel public humiliation of the protagonist."
+      },
+      {
+        "start_unit_id": "e41_u013",
+        "end_unit_id": "e41_u034",
+        "hook": {
+          "unit_ids": [
+            "e41_u013"
+          ],
+          "modality": "visual",
+          "description": "Juliana is paraded into the cathedral in chains.",
+          "evidence": "The visual contrast between a wedding setting and a prisoner in chains is a classic, high-stakes hook."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "Highlights the protagonist's resilience against her tormentor's public shaming."
+      },
+      {
+        "start_unit_id": "e41_u046",
+        "end_unit_id": "e41_u053",
+        "hook": {
+          "unit_ids": [
+            "e41_u047"
+          ],
+          "modality": "audio",
+          "description": "An ear-splitting explosion shatters the cathedral entrance.",
+          "evidence": "The sudden, violent disruption of a quiet, formal scene is a high-impact audio hook."
+        },
+        "cliffhanger_unit_id": "e41_u053",
+        "reason": "Captures the explosive climax and the arrival of the protagonist's savior."
+      }
+    ]
+  },
+  "note": null
+}

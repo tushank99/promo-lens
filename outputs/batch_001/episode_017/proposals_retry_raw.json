@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "2e9cb48e1e2c28e1",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 1.74,
+    "tokens_in": 2812,
+    "tokens_out": 241
+  },
+  "asked_for": [
+    "c03"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c03",
+        "start_unit_id": "e17_u063",
+        "end_unit_id": "e17_u075",
+        "hook": {
+          "unit_ids": [
+            "e17_u063"
+          ],
+          "modality": "visual",
+          "description": "Juliana playfully reaching toward Alexander's beard with her bandaged hand.",
+          "evidence": "The visual of the bandaged hand against his rugged face establishes the intimacy and the aftermath of the attack immediately."
+        },
+        "cliffhanger_unit_id": "e17_u074",
+        "reason": "The window now starts at 96.0s and ends at 118.9s (22.9s total), placing the cliffhanger dialogue at 112.2s, which is within the final 20% of the clip."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

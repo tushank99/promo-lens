@@ -1,0 +1,63 @@
+[
+  {
+    "candidate_id": "c03r",
+    "proposal": {
+      "retry_of": "c03",
+      "start_unit_id": "e09_u078",
+      "end_unit_id": "e09_u089",
+      "hook": {
+        "unit_ids": [
+          "e09_u078"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of The Former Groom's eyes widening with urgent dread.",
+        "evidence": "The unit begins at 97.2s, which is the start of the clip, satisfying the 3-second hook rule."
+      },
+      "cliffhanger_unit_id": "e09_u089",
+      "reason": "Starting the clip on the extreme close-up of the groom's terrified eyes immediately establishes the high-stakes tension required for a scroll-stopping hook."
+    },
+    "retry_of": "c03",
+    "norm": {
+      "start_unit_id": "e09_u078",
+      "end_unit_id": "e09_u089",
+      "hook": {
+        "unit_ids": [
+          "e09_u078"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of The Former Groom's eyes widening with urgent dread.",
+        "evidence": "The unit begins at 97.2s, which is the start of the clip, satisfying the 3-second hook rule."
+      },
+      "cliffhanger_unit_id": "e09_u089",
+      "reason": "Starting the clip on the extreme close-up of the groom's terrified eyes immediately establishes the high-stakes tension required for a scroll-stopping hook."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration",
+      "dialogue_cut"
+    ],
+    "details": [
+      "18.3s is under the 20s minimum",
+      "clip start 97.2s cuts through e09_u077 (95.3-97.3): \"People see ghosts whenever they want a s\""
+    ],
+    "warnings": [
+      "camera-only stretch 3.9s (105.9-109.8)",
+      "camera-only stretch 4.3s (111.2-115.5)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 97.2,
+    "end": 115.5,
+    "duration": 18.3,
+    "segments": [
+      {
+        "start_unit": "e09_u078",
+        "end_unit": "e09_u089",
+        "start": 97.2,
+        "end": 115.5
+      }
+    ]
+  }
+]

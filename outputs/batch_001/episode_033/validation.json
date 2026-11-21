@@ -1,0 +1,156 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e33_u036",
+      "end_unit_id": "e33_u060",
+      "hook": {
+        "unit_ids": [
+          "e33_u036"
+        ],
+        "modality": "visual",
+        "description": "The Lord looms inches from the maid's face, threatening her brother's life.",
+        "evidence": "The immediate physical intimidation and the high-stakes threat to a child create instant tension."
+      },
+      "cliffhanger_unit_id": "e33_u060",
+      "reason": "The scene captures the exact moment the maid is forced to betray her savior to save her brother."
+    },
+    "norm": {
+      "start_unit_id": "e33_u036",
+      "end_unit_id": "e33_u060",
+      "hook": {
+        "unit_ids": [
+          "e33_u036"
+        ],
+        "modality": "visual",
+        "description": "The Lord looms inches from the maid's face, threatening her brother's life.",
+        "evidence": "The immediate physical intimidation and the high-stakes threat to a child create instant tension."
+      },
+      "cliffhanger_unit_id": "e33_u060",
+      "reason": "The scene captures the exact moment the maid is forced to betray her savior to save her brother."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 59.0,
+    "end": 100.8,
+    "duration": 41.8,
+    "segments": [
+      {
+        "start_unit": "e33_u036",
+        "end_unit": "e33_u060",
+        "start": 59.0,
+        "end": 100.8
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e33_u069",
+      "end_unit_id": "e33_u092",
+      "hook": {
+        "unit_ids": [
+          "e33_u069"
+        ],
+        "modality": "visual",
+        "description": "The Lord paces and points his finger with clinical, legal precision while the maid sobs.",
+        "evidence": "The contrast between the Lord's cold, calculated manipulation and the maid's visible emotional breakdown is highly engaging."
+      },
+      "cliffhanger_unit_id": "e33_u092",
+      "reason": "This segment highlights the chilling ultimatum that forces the maid to commit perjury."
+    },
+    "norm": {
+      "start_unit_id": "e33_u069",
+      "end_unit_id": "e33_u092",
+      "hook": {
+        "unit_ids": [
+          "e33_u069"
+        ],
+        "modality": "visual",
+        "description": "The Lord paces and points his finger with clinical, legal precision while the maid sobs.",
+        "evidence": "The contrast between the Lord's cold, calculated manipulation and the maid's visible emotional breakdown is highly engaging."
+      },
+      "cliffhanger_unit_id": "e33_u092",
+      "reason": "This segment highlights the chilling ultimatum that forces the maid to commit perjury."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 113.8,
+    "end": 156.2,
+    "duration": 42.4,
+    "segments": [
+      {
+        "start_unit": "e33_u069",
+        "end_unit": "e33_u092",
+        "start": 113.8,
+        "end": 156.2
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e33_u084",
+      "end_unit_id": "e33_u099",
+      "hook": {
+        "unit_ids": [
+          "e33_u084"
+        ],
+        "modality": "visual",
+        "description": "The maid grabs her head and screams in utter grief and guilt.",
+        "evidence": "The raw, visceral display of despair immediately draws the viewer into the emotional stakes of the scene."
+      },
+      "cliffhanger_unit_id": "e33_u099",
+      "reason": "The final collapse of the maid and the Lord's heartless dismissal provide a powerful, tragic conclusion."
+    },
+    "norm": {
+      "start_unit_id": "e33_u084",
+      "end_unit_id": "e33_u099",
+      "hook": {
+        "unit_ids": [
+          "e33_u084"
+        ],
+        "modality": "visual",
+        "description": "The maid grabs her head and screams in utter grief and guilt.",
+        "evidence": "The raw, visceral display of despair immediately draws the viewer into the emotional stakes of the scene."
+      },
+      "cliffhanger_unit_id": "e33_u099",
+      "reason": "The final collapse of the maid and the Lord's heartless dismissal provide a powerful, tragic conclusion."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "cliffhanger"
+    ],
+    "details": [
+      "cliffhanger e33_u099 starts at 164.5s, before the final 20% of the clip (167.33s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 140.5,
+    "end": 174.04,
+    "duration": 33.54,
+    "segments": [
+      {
+        "start_unit": "e33_u084",
+        "end_unit": "e33_u099",
+        "start": 140.5,
+        "end": 174.04
+      }
+    ]
+  }
+]

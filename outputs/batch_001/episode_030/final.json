@@ -1,0 +1,356 @@
+{
+  "episode": 30,
+  "logline": "When rumors of the poisoned Duchess begin spreading among the servants, Rupert and Catherine conspire with an elder nobleman to fabricate a witchcraft charge against Juliana, sealing her fate for the gallows.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 3,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 1,
+    "retried": 1,
+    "retry_declined": 1,
+    "retry_recovered": 1,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c02r",
+      "episode": 30,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e30_u038",
+      "end_unit_id": "e30_u053",
+      "hook_unit_id": "e30_u038",
+      "hook": {
+        "unit_ids": [
+          "e30_u038"
+        ],
+        "modality": "visual",
+        "description": "The Elder Nobleman and Catherine plotting in the firelight.",
+        "evidence": "The unit begins at 74.8s, which is within 3 seconds of the clip start (74.8s).",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e30_u053",
+      "segments": [
+        {
+          "start_unit": "e30_u038",
+          "end_unit": "e30_u053",
+          "start": 74.8,
+          "end": 106.6
+        }
+      ],
+      "start": 74.8,
+      "end": 106.6,
+      "duration": 31.8,
+      "proposer_reason": "This window captures the core conspiracy dialogue and meets the 20-second duration requirement.",
+      "hook_type": "shocking_line",
+      "emotion_type": "revenge",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e30_u039"
+        ],
+        "clarity": [
+          "e30_u039",
+          "e30_u043",
+          "e30_u045",
+          "e30_u049",
+          "e30_u053"
+        ],
+        "emotion": [
+          "e30_u039",
+          "e30_u045",
+          "e30_u050",
+          "e30_u047"
+        ],
+        "escalation": [
+          "e30_u039",
+          "e30_u045",
+          "e30_u049",
+          "e30_u053"
+        ],
+        "ending": [
+          "e30_u053"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "witch hunt conspiracy",
+      "central_conflict": "Elder Nobleman, Catherine, and Rupert conspire to fabricate witchcraft evidence to have Juliana executed.",
+      "ending_type": "payoff",
+      "judge_hook_unit_id": "e30_u039",
+      "judge_hook_evidence_delay_s": 0.2,
+      "rank": 1
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 30,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e30_u017",
+      "end_unit_id": "e30_u023",
+      "hook_unit_id": "e30_u018",
+      "hook": {
+        "unit_ids": [
+          "e30_u018"
+        ],
+        "modality": "visual",
+        "description": "The Elder Nobleman thrusts his cane into Rupert's chest, pinning him against the wall.",
+        "evidence": "The sudden, aggressive physical confrontation immediately establishes high stakes and power dynamics.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e30_u023",
+      "segments": [
+        {
+          "start_unit": "e30_u017",
+          "end_unit": "e30_u023",
+          "start": 33.4,
+          "end": 47.6
+        }
+      ],
+      "start": 33.4,
+      "end": 47.6,
+      "duration": 14.2,
+      "proposer_reason": "This clip captures the inciting moment of the conspiracy to frame the protagonist.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "14.2s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 30,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e30_u044",
+      "end_unit_id": "e30_u053",
+      "hook_unit_id": "e30_u044",
+      "hook": {
+        "unit_ids": [
+          "e30_u044"
+        ],
+        "modality": "visual",
+        "description": "Rupert's wide-eyed, shocked reaction to the suggestion of a capital charge.",
+        "evidence": "The visceral reaction to a life-or-death threat hooks the viewer into the gravity of the situation.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e30_u053",
+      "segments": [
+        {
+          "start_unit": "e30_u044",
+          "end_unit": "e30_u053",
+          "start": 88.5,
+          "end": 106.6
+        }
+      ],
+      "start": 88.5,
+      "end": 106.6,
+      "duration": 18.1,
+      "proposer_reason": "It highlights the cold, calculated decision to manufacture evidence for a death sentence.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "18.1s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 30,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": "The scene's dialogue structure makes it impossible to satisfy the 20% cliffhanger rule while maintaining a coherent narrative flow and the 3-second hook constraint.",
+      "start_unit_id": "e30_u060",
+      "end_unit_id": "e30_u067",
+      "hook_unit_id": "e30_u062",
+      "hook": {
+        "unit_ids": [
+          "e30_u062"
+        ],
+        "modality": "visual",
+        "description": "Catherine beaming with malicious satisfaction while spreading her red fan.",
+        "evidence": "The visual contrast of a beautiful woman expressing pure cruelty is a classic, effective hook for this genre.",
+        "delay_s": 3.2
+      },
+      "cliffhanger_unit_id": "e30_u067",
+      "segments": [
+        {
+          "start_unit": "e30_u060",
+          "end_unit": "e30_u067",
+          "start": 121.9,
+          "end": 144.5
+        }
+      ],
+      "start": 121.9,
+      "end": 144.5,
+      "duration": 22.6,
+      "proposer_reason": "The chilling finality of the plan to turn the prisoner into a 'witch' creates a strong narrative pull.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:hook",
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "hook e30_u062 begins 3.2s after clip start (limit 3.0s)",
+        "cliffhanger e30_u067 starts at 137.5s, before the final 20% of the clip (139.98s)"
+      ]
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 30,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e30_u038",
+      "end_unit_id": "e30_u053",
+      "hook_unit_id": "e30_u038",
+      "hook": {
+        "unit_ids": [
+          "e30_u038"
+        ],
+        "modality": "visual",
+        "description": "The Elder Nobleman and Catherine plotting in the firelight.",
+        "evidence": "The unit begins at 74.8s, which is within 3 seconds of the clip start (74.8s).",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e30_u053",
+      "segments": [
+        {
+          "start_unit": "e30_u038",
+          "end_unit": "e30_u053",
+          "start": 74.8,
+          "end": 106.6
+        }
+      ],
+      "start": 74.8,
+      "end": 106.6,
+      "duration": 31.8,
+      "proposer_reason": "This window captures the core conspiracy dialogue and meets the 20-second duration requirement.",
+      "hook_type": "shocking_line",
+      "emotion_type": "revenge",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e30_u039"
+        ],
+        "clarity": [
+          "e30_u039",
+          "e30_u043",
+          "e30_u045",
+          "e30_u049",
+          "e30_u053"
+        ],
+        "emotion": [
+          "e30_u039",
+          "e30_u045",
+          "e30_u050",
+          "e30_u047"
+        ],
+        "escalation": [
+          "e30_u039",
+          "e30_u045",
+          "e30_u049",
+          "e30_u053"
+        ],
+        "ending": [
+          "e30_u053"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "witch hunt conspiracy",
+      "central_conflict": "Elder Nobleman, Catherine, and Rupert conspire to fabricate witchcraft evidence to have Juliana executed.",
+      "ending_type": "payoff",
+      "judge_hook_unit_id": "e30_u039",
+      "judge_hook_evidence_delay_s": 0.2,
+      "rank": 1
+    }
+  ],
+  "usage": {
+    "wall_s": 19.0,
+    "calls": 3,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 12005,
+    "tokens_out": 1913,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 11.1,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 7.8
+  }
+}

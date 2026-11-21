@@ -1,0 +1,147 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Deep in the misty forest, Alexander confronts an injured Juliana and uncovers the wound inflicted by Lady Catherine, reacting with fury and protective concern upon learning that someone is systematically poisoning the Dowager Duchess with arsenic.
+CONTINUITY NOTES: Picks up immediately following Juliana's ordeal at Ashburg Manor, where she escaped punishment after hiding the antidote and now encounters Alexander awaiting her on the woodland trail.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:48.0 (168.0 s).
+- Scene 01 (EXT. MISTY FOREST TRAIL – DUSK): 0.0-168.0 s, units e25_u001..e25_u095.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 29.3-32.8 s; 57.2-60.8 s; 62.5-66.2 s; 159.2-162.5 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e25_u001 | 0.0-4.2 | CAMERA | Wide tracking shot through a dense, sun-dappled forest as mist curls around towering tree trunks and tangled roots.
+e25_u002 | 0.6-4.2 | ACTION | Juliana walks hurriedly along the leaf-strewn forest path, clutching her dark hooded cloak tightly around her shoulders, breathing heavily.
+e25_u003 | 4.2-7.0 | CAMERA | Medium low-angle shot panning up as Alexander emerges from behind a moss-covered tree, blocking the trail.
+e25_u004 | 5.1-6.4 | DIALOGUE | ALEXANDER (Grave, Alert): "Juliana."
+e25_u005 | 7.0-8.5 | CAMERA | Close-up of Juliana stopping abruptly, her expression guarded and weary.
+e25_u006 | 7.8-9.6 | DIALOGUE | ALEXANDER (Concerned, Suspicious): "Why are you walking like that?"
+e25_u007 | 8.5-13.2 | CAMERA | Medium close-up of Juliana clutching the collar of her cloak with trembling fingers.
+e25_u008 | 10.2-12.8 | DIALOGUE | JULIANA (Deflective, Breathless): "I am tired. That is all."
+e25_u009 | 13.2-16.0 | ACTION | Alexander steps forward and reaches out, his gloved hand firmly grasping her left shoulder. Juliana winces sharply and gasps in sudden pain.
+e25_u010 | 13.2-16.2 | CAMERA | Two-shot profile of Alexander grabbing Juliana's shoulder as she recoils.
+e25_u011 | 14.9-16.1 | DIALOGUE | ALEXANDER (Sharp, Alarmed): "You're hurt."
+e25_u012 | 16.2-18.8 | CAMERA | Close-up of Juliana gritting her teeth against the pain, shaking her head.
+e25_u013 | 16.8-18.5 | DIALOGUE | JULIANA (Strained, Minimizing): "It is nothing."
+e25_u014 | 18.8-22.5 | ACTION | Alexander's gloved fingers pull back the torn fabric of her cloak and sleeve, revealing a raw, bloody welt slashing across her bare shoulder.
+e25_u015 | 18.8-22.8 | CAMERA | Tight close-up of the fresh riding-crop laceration cut across Juliana's shoulder.
+e25_u016 | 22.8-25.8 | CAMERA | Close-up of Alexander's scarred face darkening with volatile fury, his jaw tightening.
+e25_u017 | 24.0-25.5 | DIALOGUE | ALEXANDER (Seething, Dangerous): "Who did this?"
+e25_u018 | 25.8-29.8 | CAMERA | Medium close-up of Juliana averting her eyes, her head bowed in quiet resignation.
+e25_u019 | 27.5-29.3 | DIALOGUE | JULIANA (Subdued, Weary): "It does not matter."
+e25_u020 | 29.8-32.8 | CAMERA | Tight shot of Alexander, his eyes burning with intense anger.
+e25_u021 | 32.8-34.5 | ACTION | Alexander steps directly into her space, firmly taking her hand in his.
+e25_u022 | 32.8-33.8 | DIALOGUE | ALEXANDER (Demanding, Stern): "Who?"
+e25_u023 | 34.5-38.5 | CAMERA | Close-up of Juliana looking up into his eyes, whispering the truth.
+e25_u024 | 36.0-37.8 | DIALOGUE | JULIANA (Quiet, Apprehensive): "Lady Catherine."
+e25_u025 | 38.5-41.2 | CAMERA | Close-up of Alexander, his gaze piercing and hard.
+e25_u026 | 39.2-41.0 | DIALOGUE | ALEXANDER (Low, Interrogating): "Where did you meet her?"
+e25_u027 | 41.2-44.4 | CAMERA | Close-up of Juliana recounting the incident.
+e25_u028 | 41.2-44.2 | DIALOGUE | JULIANA (Hedged): "I was in the wrong chamber. I was punished as a maid."
+e25_u029 | 44.4-46.8 | CAMERA | Close-up of Alexander, pressing her without hesitation.
+e25_u030 | 44.6-46.4 | DIALOGUE | ALEXANDER (Incredulous, Demanding): "What were you doing there?"
+e25_u031 | 46.8-51.5 | CAMERA | Medium two-shot of Alexander leaning down toward her against the dim forest backdrop.
+e25_u032 | 47.0-51.2 | DIALOGUE | ALEXANDER (Fierce, Urgent): "Juliana... why were you inside Ashburg Manor?"
+e25_u033 | 51.5-54.2 | CAMERA | Close-up of Juliana holding his gaze resolutely.
+e25_u034 | 52.2-54.2 | DIALOGUE | JULIANA (Earnest): "I went there to help someone."
+e25_u035 | 54.4-55.2 | DIALOGUE | ALEXANDER (Blunt): "Who?"
+e25_u036 | 54.5-57.5 | CAMERA | Medium close-up profile of both of them locked in stillness.
+e25_u037 | 55.6-57.2 | DIALOGUE | JULIANA (Solemn): "The Dowager Duchess."
+e25_u038 | 57.5-63.5 | CAMERA | Tight close-up of Alexander's face freezing in shock, his eyes widening as the revelation hits him.
+e25_u039 | 60.8-62.5 | DIALOGUE | ALEXANDER (Stunned, Disbelieving): "The Dowager?"
+e25_u040 | 63.5-68.5 | CAMERA | Medium profile tracking shot as Juliana begins walking slowly along the trail, Alexander following closely by her side.
+e25_u041 | 66.2-68.5 | DIALOGUE | JULIANA (Urgent): "Prudence told me she was dying."
+e25_u042 | 68.5-73.8 | CAMERA | Medium close-up of Juliana turning toward him, recounting the scene in the bedchamber.
+e25_u043 | 68.8-73.8 | DIALOGUE | JULIANA (Fervent): "She was barely breathing when I found her. The doctor said she was simply growing old."
+e25_u044 | 73.8-76.8 | CAMERA | Two-shot as Juliana stops and looks up into Alexander's grim expression.
+e25_u045 | 74.2-75.8 | DIALOGUE | JULIANA (Chilling, Definite): "But it wasn't age."
+e25_u046 | 76.8-79.5 | CAMERA | Medium shot of Alexander staring down at her, waiting for the dark truth.
+e25_u047 | 77.4-78.9 | DIALOGUE | ALEXANDER (Grim, Low): "What did you find?"
+e25_u048 | 79.5-82.5 | CAMERA | Tight close-up on Juliana's trembling lips.
+e25_u049 | 80.2-81.8 | DIALOGUE | JULIANA (Hushed, Horrified): "Poison."
+e25_u050 | 82.5-86.2 | CAMERA | Slightly wider close-up as Juliana's eyes well with distress.
+e25_u051 | 83.5-85.0 | DIALOGUE | JULIANA (Sober): "Arsenic."
+e25_u052 | 86.2-90.0 | ACTION | Alexander's hand drops to his side and clenches into a white-knuckled fist, the thick scar across his hand tightening with intense restraint.
+e25_u053 | 86.2-90.2 | CAMERA | Close-up on Alexander's fist clenching tightly in fury.
+e25_u054 | 90.2-97.8 | CAMERA | Medium close-up of Juliana, her voice filled with mounting dread.
+e25_u055 | 90.2-97.4 | DIALOGUE | JULIANA (Pained, Troubled): "Someone has been giving it to her again and again. Small amounts. Enough to make her weaker without killing her quickly."
+e25_u056 | 97.8-100.2 | CAMERA | Close-up of Alexander processing the sinister calculation behind the poisoning.
+e25_u057 | 100.2-105.2 | CAMERA | Two-shot as Juliana looks up at him with quiet hope.
+e25_u058 | 100.4-104.8 | DIALOGUE | JULIANA (Sincere, Earnest): "I made her medicine. She was still barely conscious, but her breathing became easier."
+e25_u059 | 105.2-107.8 | CAMERA | Close-up of Alexander's startled gaze.
+e25_u060 | 105.6-107.0 | DIALOGUE | ALEXANDER (Incredulous): "You treated her?"
+e25_u061 | 107.2-108.0 | DIALOGUE | JULIANA (Firm): "Yes."
+e25_u062 | 107.8-111.8 | CAMERA | Close-up profile of the two facing each other.
+e25_u063 | 108.4-109.4 | DIALOGUE | ALEXANDER (Tense): "Alone?"
+e25_u064 | 109.8-111.2 | DIALOGUE | JULIANA (Soft): "With Prudence."
+e25_u065 | 111.8-114.8 | CAMERA | Close-up of Alexander, his brow furrowed with deep protective worry.
+e25_u066 | 112.2-114.4 | DIALOGUE | ALEXANDER (Anxious): "Will you be going there again?"
+e25_u067 | 114.8-117.5 | CAMERA | Close-up of Juliana, her eyes filled with resolute purpose.
+e25_u068 | 115.2-116.8 | DIALOGUE | JULIANA (Determined): "I have to."
+e25_u069 | 117.5-121.0 | ACTION | Juliana places her gentle hand against Alexander's broad chest, trying to soothe his rising anger.
+e25_u070 | 117.5-121.5 | CAMERA | Two-shot of Juliana leaning in, her hand resting over Alexander's coat.
+e25_u071 | 117.5-120.2 | DIALOGUE | JULIANA (Pleading, Defiant): "She is still sick. I cannot leave her there."
+e25_u072 | 121.0-125.0 | ACTION | Alexander takes both of her hands into his own, gripping them tightly.
+e25_u073 | 121.5-125.5 | CAMERA | Medium two-shot of Alexander holding Juliana's hands in the dusky woods.
+e25_u074 | 125.5-128.0 | CAMERA | Close-up of Juliana looking up into his darkened face with questioning concern.
+e25_u075 | 125.8-127.5 | DIALOGUE | JULIANA (Gentle, Perplexed): "Alexander... why are you so angry?"
+e25_u076 | 128.0-134.5 | CAMERA | Close-up of Alexander speaking through clenched teeth, barely containing his protective fury.
+e25_u077 | 128.2-133.8 | DIALOGUE | ALEXANDER (Fierce, Reproachful): "Because you were standing inside a house where someone is poisoning a woman... and you never told me."
+e25_u078 | 134.5-137.2 | CAMERA | Medium shot of Juliana looking down sheepishly before raising her eyes.
+e25_u079 | 135.0-137.0 | DIALOGUE | JULIANA (Vulnerable): "I knew you would worry."
+e25_u080 | 137.2-142.0 | CAMERA | Tight close-up of Alexander, his voice trembling with terrified passion.
+e25_u081 | 137.4-142.4 | DIALOGUE | ALEXANDER (Furious, Tormented): "Worry? They struck you. They could have killed you."
+e25_u082 | 142.0-145.0 | CAMERA | Two-shot as Juliana looks up into his eyes, holding firm.
+e25_u083 | 143.2-144.6 | DIALOGUE | JULIANA (Defiant, Soothing): "But they didn't."
+e25_u084 | 145.0-148.5 | CAMERA | Close-up of their clasped hands, panning up to Alexander's tormented gaze.
+e25_u085 | 145.2-146.4 | DIALOGUE | ALEXANDER (Grim, Fearful): "This time."
+e25_u086 | 147.0-148.8 | DIALOGUE | JULIANA (Sincere, Steadfast): "I am being careful."
+e25_u087 | 148.5-152.0 | CAMERA | Two-shot as Juliana looks at him earnestly.
+e25_u088 | 149.0-151.2 | DIALOGUE | JULIANA (Resolute): "I cannot abandon her."
+e25_u089 | 151.2-154.0 | ACTION | Alexander closes his eyes for a brief, agonizing second, exhaling deeply as he yields to her unshakeable conviction.
+e25_u090 | 152.0-156.5 | CAMERA | Close-up of Alexander opening his piercing eyes, resignation and steadfast devotion washing over his features.
+e25_u091 | 153.8-156.2 | DIALOGUE | ALEXANDER (Resigned, Steely): "Then tell me everything."
+e25_u092 | 156.5-163.0 | CAMERA | Medium two-shot as Alexander holds her gaze in the twilight shadows.
+e25_u093 | 157.4-159.2 | DIALOGUE | ALEXANDER (Low, Uncompromising): "Everything you saw."
+e25_u094 | 162.5-168.0 | ACTION | Alexander turns, falling into step beside Juliana. Together, side by side, they begin their quiet walk down the darkening forest path into the twilight.
+e25_u095 | 163.0-168.0 | CAMERA | Wide tracking shot from behind Alexander and Juliana as their silhouettes disappear into the shadowy, mist-veiled forest as emotional strings swell to a resolving chord.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

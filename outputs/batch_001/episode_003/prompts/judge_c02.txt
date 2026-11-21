@@ -1,0 +1,70 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Banished from her mother's chapel and seized by guards at her family's command, Juliana is rescued by an imposing, scarred stranger who intervenes with lethal grace—and drops to one knee with a proposal that shocks high society.
+CONTINUITY NOTES: Follows directly from Episode 2's confrontation at the altar, where Juliana publicly exposed Gerald's dishonor before the entire aristocratic congregation.
+
+CLIP: 116.0s to 145.75s (29.75s). Units below: id | seconds from clip start | type | text.
+e03_u098 | 0.0-1.9 | CAMERA | Medium shot on The Bearded Stranger slipping his hand into his coat pocket.
+e03_u099 | 1.9-3.2 | CAMERA | Close-up of Juliana watching him with rapt, trembling anticipation.
+e03_u100 | 3.2-5.0 | CAMERA | Extreme close-up of The Bearded Stranger's rugged fingers holding up a simple, polished silver band.
+e03_u101 | 3.8-6.1 | DIALOGUE | THE BEARDED STRANGER (Honorable, Earnest): "You came here to become a wife."
+e03_u102 | 5.0-7.2 | CAMERA | Medium shot on The Bearded Stranger extending the ring toward Juliana.
+e03_u103 | 6.5-8.2 | DIALOGUE | THE BEARDED STRANGER (Quiet, Resolute): "They took that from you."
+e03_u104 | 7.2-9.1 | CAMERA | Over-the-shoulder medium shot past The Bearded Stranger onto Gerald standing petrified and humiliated in the aisle.
+e03_u105 | 9.1-11.4 | CAMERA | Medium close-up on The Bearded Stranger presenting the ring directly to Juliana.
+e03_u106 | 9.3-11.3 | DIALOGUE | THE BEARDED STRANGER (Earnest, Sincere): "I am offering it back."
+e03_u107 | 11.4-14.2 | CAMERA | Close-up on Juliana glancing down at the ring, breathless and overwhelmed.
+e03_u108 | 11.7-13.9 | DIALOGUE | LADY JULIANA (Soft, Hesitant): "You don't even know me."
+e03_u109 | 14.2-16.7 | CAMERA | Close-up on The Bearded Stranger's warm, piercing gaze.
+e03_u110 | 14.4-16.0 | DIALOGUE | THE BEARDED STRANGER (Quiet, Steady): "I know enough."
+e03_u111 | 16.7-19.5 | CAMERA | Full wide profile shot as The Bearded Stranger slowly and respectfully drops onto one knee before Lady Juliana.
+e03_u112 | 17.2-19.5 | ACTION | The Bearded Stranger sinks to one knee on the cathedral aisle, offering the silver ring up to Juliana.
+e03_u113 | 18.8-20.2 | SFX | A collective, stunned gasp rippling across the entire congregation.
+e03_u114 | 19.5-21.3 | CAMERA | Medium shot of the Noble Matriarch, Gerald, and the Lady in Gold Gown frozen in sheer, jaw-dropped bewilderment.
+e03_u115 | 21.3-24.5 | CAMERA | Low-angle medium close-up of The Bearded Stranger on his knee, holding the silver ring high with steady dignity.
+e03_u116 | 21.5-24.3 | DIALOGUE | THE BEARDED STRANGER (Solemn, Devoted): "Lady Juliana... accept my hand."
+e03_u117 | 24.5-29.8 | CAMERA | Close-up on Juliana looking down at him, fresh tears trailing down her flushed cheeks as a soft, trembling smile of hope touches her lips into a slow fade.
+e03_u118 | 24.5-29.8 | ACTION | Juliana gazes down at her rugged savior, overcome with emotion as the swelling score holds on the cliffhanger.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

@@ -1,0 +1,105 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e14_u001",
+      "end_unit_id": "e14_u025",
+      "hook": {
+        "unit_ids": [
+          "e14_u002"
+        ],
+        "modality": "visual",
+        "description": "Juliana's blood-streaked hand uncurls to reveal an emerald ring amidst sharp thorns.",
+        "evidence": "The visceral imagery of blood and sharp thorns immediately establishes high stakes and mystery."
+      },
+      "cliffhanger_unit_id": "e14_u025",
+      "reason": "This sequence captures the entire rescue arc, from the discovery of the ring to the emotional reunion and the promise of protection."
+    },
+    "norm": {
+      "start_unit_id": "e14_u001",
+      "end_unit_id": "e14_u025",
+      "hook": {
+        "unit_ids": [
+          "e14_u002"
+        ],
+        "modality": "visual",
+        "description": "Juliana's blood-streaked hand uncurls to reveal an emerald ring amidst sharp thorns.",
+        "evidence": "The visceral imagery of blood and sharp thorns immediately establishes high stakes and mystery."
+      },
+      "cliffhanger_unit_id": "e14_u025",
+      "reason": "This sequence captures the entire rescue arc, from the discovery of the ring to the emotional reunion and the promise of protection."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.5,
+    "start": 0.0,
+    "end": 40.5,
+    "duration": 40.5,
+    "segments": [
+      {
+        "start_unit": "e14_u001",
+        "end_unit": "e14_u025",
+        "start": 0.0,
+        "end": 40.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e14_u028",
+      "end_unit_id": "e14_u051",
+      "hook": {
+        "unit_ids": [
+          "e14_u028"
+        ],
+        "modality": "visual",
+        "description": "Alexander kneeling before Juliana, washing her bloodied hands by the fire.",
+        "evidence": "The intimate, tender contrast between the violence of her wounds and his gentle care creates an immediate emotional hook."
+      },
+      "cliffhanger_unit_id": "e14_u051",
+      "reason": "This focuses on the romantic tension and the shift from rescue to the vow of vengeance, ending on a powerful, ominous note."
+    },
+    "norm": {
+      "start_unit_id": "e14_u028",
+      "end_unit_id": "e14_u051",
+      "hook": {
+        "unit_ids": [
+          "e14_u028"
+        ],
+        "modality": "visual",
+        "description": "Alexander kneeling before Juliana, washing her bloodied hands by the fire.",
+        "evidence": "The intimate, tender contrast between the violence of her wounds and his gentle care creates an immediate emotional hook."
+      },
+      "cliffhanger_unit_id": "e14_u051",
+      "reason": "This focuses on the romantic tension and the shift from rescue to the vow of vengeance, ending on a powerful, ominous note."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 4.5s (54.0-58.5)",
+      "camera-only stretch 3.5s (62.5-66.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 43.5,
+    "end": 87.63,
+    "duration": 44.13,
+    "segments": [
+      {
+        "start_unit": "e14_u028",
+        "end_unit": "e14_u051",
+        "start": 43.5,
+        "end": 87.63
+      }
+    ]
+  }
+]

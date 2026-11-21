@@ -1,0 +1,59 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: When a frantic mother brings her critically ill child to the woodland cottage, Juliana successfully cures him with her mother's herbal remedies, unknowingly igniting dangerous rumors that reach the ears of the Blond Nobleman.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c03: window e09_u074..e09_u089 (92.0-115.5 s, 23.5 s); hook ['e09_u078'] modality visual (delay 5.2 s)
+  FAILED: hook: hook e09_u078 begins 5.2s after clip start (limit 3.0s)
+  Original idea: The reveal of a potential ghost from the past threatening the antagonist's power is a classic, high-tension hook.
+  Scene 02: units e09_u066..e09_u089, 83.8-115.5 s. Units of that scene:
+    e09_u066 | 83.8-86.5 | CAMERA | Wide shot of an opulent gothic manor study. The Blond Nobleman sits in a velvet armchair beside a roaring fireplace, reading an open leather-bound book.
+    e09_u067 | 84.0-86.5 | ACTION | The Former Groom, soaked from the rain and clutching his hat, walks nervously through the double doors into the study.
+    e09_u068 | 86.5-88.0 | CAMERA | Medium shot framing the Blond Nobleman in the foreground as The Former Groom halts respectfully behind his chair.
+    e09_u069 | 86.6-87.4 | DIALOGUE | BLOND NOBLEMAN (Aloof, Without Looking Up): "What is it?"
+    e09_u070 | 88.0-90.2 | CAMERA | Medium close-up of The Former Groom, damp dark hair plastered to his forehead.
+    e09_u071 | 88.0-90.3 | DIALOGUE | THE FORMER GROOM (Hesitant, Deferential): "There is a rumor going around, my Lord."
+    e09_u072 | 90.2-92.0 | CAMERA | Close-up of the Blond Nobleman lowering his book, gazing across with mild annoyance.
+    e09_u073 | 90.6-91.4 | DIALOGUE | BLOND NOBLEMAN (Coldly Curious): "What rumor?"
+    e09_u074 | 92.0-95.0 | CAMERA | Close-up of The Former Groom speaking cautiously.
+    e09_u075 | 92.1-95.1 | DIALOGUE | THE FORMER GROOM (Uneasy): "About a war veteran. Some say he resembles the late Duke."
+    e09_u076 | 95.0-97.2 | CAMERA | Medium close-up of the Blond Nobleman scoffing dismissively as he closes the book.
+    e09_u077 | 95.3-97.3 | DIALOGUE | BLOND NOBLEMAN (Mocking, Arrogant): "People see ghosts whenever they want a story."
+    e09_u078 | 97.2-101.0 | CAMERA | Extreme close-up of The Former Groom's eyes widening with urgent dread.
+    e09_u079 | 97.5-101.2 | DIALOGUE | THE FORMER GROOM (Tense, Solemn): "The man is said to have the same kind of scar the Duke carried after the war."
+    e09_u080 | 101.0-102.2 | CAMERA | Close-up of the Blond Nobleman snapping his head around, his smug expression freezing into sudden alarm.
+    e09_u081 | 101.4-101.9 | DIALOGUE | BLOND NOBLEMAN (Sharp, Demanding): "Where?"
+    e09_u082 | 102.2-104.0 | CAMERA | Medium close-up of The Former Groom shifting uncomfortably.
+    e09_u083 | 102.3-103.6 | DIALOGUE | THE FORMER GROOM (Cautious): "No one seems certain."
+    e09_u084 | 104.0-106.0 | CAMERA | Close-up of the Blond Nobleman composing his features into cold disdain, though tension trembles beneath his tone.
+    e09_u085 | 104.2-105.9 | DIALOGUE | BLOND NOBLEMAN (Dismissive, Masking Panic): "Then let it remain a rumor."
+    e09_u086 | 106.0-108.0 | CAMERA | Medium shot as The Former Groom turns and retreats silently out of the study, leaving the doors closed.
+    e09_u087 | 108.0-112.0 | CAMERA | Side profile shot of the Blond Nobleman seated alone before the roaring fire, staring blankly into the flames in creeping paranoia.
+    e09_u088 | 109.8-111.2 | DIALOGUE | BLOND NOBLEMAN (Whispering, Shaken): "Impossible."
+    e09_u089 | 112.0-115.5 | CAMERA | Extreme close-up macro shot of the Blond Nobleman's eye, the flickering fireplace flames dancing across his widening iris as dark dread paralyzes him, holding until the screen cuts to black.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

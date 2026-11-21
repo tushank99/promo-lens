@@ -1,0 +1,68 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+As Lord Sterling and Rupert are apprehended by the Crown, Catherine pleads with Alexander for their past love, only to be coldly rejected as he walks toward his chained bride, Juliana.
+CONTINUITY NOTES: Picks up immediately from Episode 43's cliffhanger at the church side exit; Lord Sterling's escape is blocked by the Police Constable, leading into the downfall of the conspirators.
+
+CLIP: 49.0s to 70.5s (21.5s). Units below: id | seconds from clip start | type | text.
+e44_u036 | 0.0-2.0 | CAMERA | Medium two-shot of Catherine and Alexander confronting each other.
+e44_u037 | 0.2-2.0 | DIALOGUE | ALEXANDER (Cold, Implacable): "You were never my Duchess."
+e44_u038 | 2.0-4.0 | CAMERA | Extreme close-up on Catherine's tearful face.
+e44_u039 | 2.1-3.8 | DIALOGUE | CATHERINE (Sobbing, Pleading): "But I loved you!"
+e44_u040 | 4.0-6.6 | CAMERA | Medium close-up on Alexander, his scarred jaw set firm.
+e44_u041 | 4.0-6.5 | DIALOGUE | ALEXANDER (Scornful, Biting): "You loved the Duke you thought you would marry."
+e44_u042 | 6.6-10.0 | CAMERA | Close-up on Catherine, gasping in protest.
+e44_u043 | 7.2-9.2 | DIALOGUE | CATHERINE (Defiant, Pained): "No!"
+e44_u044 | 10.0-13.4 | CAMERA | Medium shot as Catherine clutches her chest, pouring her heart out.
+e44_u045 | 10.8-13.4 | DIALOGUE | CATHERINE (Passionate, Crying): "I loved you before all this!"
+e44_u046 | 13.4-14.8 | CAMERA | Close-up on Alexander tilting his head slightly, his gaze piercing through her.
+e44_u047 | 13.5-14.4 | DIALOGUE | ALEXANDER (Skeptical, Cutting): "Did you?"
+e44_u048 | 14.8-16.0 | CAMERA | Close-up on Catherine, rendered speechless by his doubt.
+e44_u049 | 16.0-18.8 | CAMERA | Tilt-up shot starting from heavy iron chains resting on the wooden floor up to the shackled wrists of Juliana dressed in her rustic grey gown.
+e44_u050 | 18.8-20.6 | CAMERA | Wide shot from behind Catherine as Alexander turns his back on her and walks resolutely down the rubble-strewn aisle toward Juliana standing in chains at the doorway.
+e44_u051 | 19.0-20.6 | ACTION | Alexander walks away from Catherine toward Juliana, who waits solemnly by the cathedral entrance.
+e44_u052 | 20.6-21.1 | CAMERA | Medium close-up on Juliana looking down at her chained hands, lifting her gaze gently.
+e44_u053 | 21.1-21.5 | CAMERA | Extreme close-up on Catherine's horrified, bewildered expression as she realizes who Alexander chose.
+e44_u054 | 21.1-21.4 | DIALOGUE | CATHERINE (Gasping, Incredulous): "Her?!"
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

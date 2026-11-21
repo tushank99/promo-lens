@@ -1,0 +1,172 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Banished from her mother's chapel and seized by guards at her family's command, Juliana is rescued by an imposing, scarred stranger who intervenes with lethal grace—and drops to one knee with a proposal that shocks high society.
+CONTINUITY NOTES: Follows directly from Episode 2's confrontation at the altar, where Juliana publicly exposed Gerald's dishonor before the entire aristocratic congregation.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:25.8 (145.8 s).
+- Scene 01 (INT. CATHEDRAL NAVE – DAY): 0.0-22.8 s, units e03_u001..e03_u017.
+- Scene 02 (INT. CATHEDRAL – CONTINUOUS): 22.8-64.5 s, units e03_u018..e03_u054.
+- Scene 03 (INT. CATHEDRAL AISLE – CONTINUOUS): 64.5-145.8 s, units e03_u055..e03_u118.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 114.1-119.8 s
+- Overlapping dialogue exchanges (include all members or none): e03_u002 + e03_u004
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e03_u001 | 0.0-3.5 | CAMERA | Medium shot on Lady Juliana standing abandoned near the altar in her white gown, clutching her mother's medallion to her chest.
+e03_u002 | 2.1-4.2 | DIALOGUE | LADY IN GOLD GOWN (Mocking, Spiteful): "Look at you..."
+e03_u003 | 3.5-6.1 | CAMERA | Medium shot on the Lady in Gold Gown, smiling smugly in her gold gown beside Gerald.
+e03_u004 | 3.6-8.2 | DIALOGUE | LADY IN GOLD GOWN (Gloating, Scornful): "...still clinging to that little locket as if it can make you worthy of a place here."
+e03_u005 | 6.1-8.5 | CAMERA | Close-up profile of Juliana's hand tightly clutching the jeweled silver locket against her breast, tears welling in her eyes.
+e03_u006 | 8.5-11.1 | CAMERA | Medium close-up on Juliana looking across at her sister with wounded pride.
+e03_u007 | 8.8-10.8 | DIALOGUE | LADY JULIANA (Hurt, Bitter): "You stole my wedding."
+e03_u008 | 11.1-13.6 | CAMERA | Medium two-shot of Gerald and the Lady in Gold Gown standing together at the front of the nave.
+e03_u009 | 11.2-13.4 | DIALOGUE | LADY JULIANA (Defiant): "Don't pretend you've earned anything."
+e03_u010 | 13.6-16.4 | CAMERA | Close-up of the Lady in Gold Gown smirking derisively.
+e03_u011 | 13.8-16.3 | DIALOGUE | LADY IN GOLD GOWN (Smug, Malicious): "I didn't steal what was never truly yours."
+e03_u012 | 16.4-18.6 | CAMERA | Close-up on Juliana's trembling lips, refusing to break down.
+e03_u013 | 16.6-18.4 | DIALOGUE | LADY JULIANA (Trembling, Resolute): "This was my wedding."
+e03_u014 | 18.6-20.5 | CAMERA | Side medium shot of Gerald looking away impassively as the Lady in Gold Gown leans back against him.
+e03_u015 | 18.7-20.4 | DIALOGUE | LADY IN GOLD GOWN (Taunting, Cruel): "It was supposed to be."
+e03_u016 | 20.5-22.8 | CAMERA | Close-up of the Lady in Gold Gown beaming triumphantly.
+e03_u017 | 20.6-22.5 | DIALOGUE | LADY IN GOLD GOWN (Vindictive): "Now it is mine."
+e03_u018 | 22.8-25.8 | CAMERA | Low-angle wide shot of an imperious Noble Matriarch in a lavish black velvet gown and jeweled tiara stepping forward.
+e03_u019 | 23.1-25.5 | DIALOGUE | NOBLE MATRIARCH (Harsh, Authoritative): "Enough, Juliana."
+e03_u020 | 25.8-28.0 | CAMERA | Medium close-up of the Noble Matriarch glaring down with icy contempt.
+e03_u021 | 25.9-28.0 | DIALOGUE | NOBLE MATRIARCH (Cold, Disgusted): "You have humiliated this family enough for one day."
+e03_u022 | 28.0-30.3 | CAMERA | Close-up on Juliana, tears shimmering in her eyes as betrayal strikes deep.
+e03_u023 | 30.3-35.5 | CAMERA | Medium shot on Juliana as she speaks out against her family's injustice.
+e03_u024 | 30.4-33.2 | DIALOGUE | LADY JULIANA (Pained, Betrayed): "I was humiliated by your family."
+e03_u025 | 33.3-35.6 | DIALOGUE | LADY JULIANA (Accusing): "And my father said nothing."
+e03_u026 | 35.5-38.2 | CAMERA | Medium close-up on the Noble Matriarch, completely unsympathetic.
+e03_u027 | 36.5-38.4 | DIALOGUE | NOBLE MATRIARCH (Brutal, Dismissive): "Your father has made his choice."
+e03_u028 | 38.2-40.4 | CAMERA | Close-up on Juliana's stricken, vulnerable face.
+e03_u029 | 38.5-40.4 | DIALOGUE | LADY JULIANA (Choked, Vulnerable): "And what happens to me?"
+e03_u030 | 40.4-42.0 | CAMERA | Close-up of the Noble Matriarch delivering her verdict.
+e03_u031 | 40.5-41.9 | DIALOGUE | NOBLE MATRIARCH (Cold, Heartless): "You leave."
+e03_u032 | 42.0-43.3 | CAMERA | Close-up on Juliana blinking in disbelief.
+e03_u033 | 42.1-43.3 | DIALOGUE | LADY JULIANA (Disbelieving): "Leave where?"
+e03_u034 | 43.3-45.9 | CAMERA | Medium shot of the Noble Matriarch looking down her nose in disdain.
+e03_u035 | 43.4-46.0 | DIALOGUE | NOBLE MATRIARCH (Cruel, Scornful): "Wherever a discarded daughter belongs."
+e03_u036 | 45.9-48.8 | CAMERA | Low-angle close-up focusing on Juliana's neck as her fingers desperately clutch the oval locket.
+e03_u037 | 46.4-48.6 | DIALOGUE | LADY JULIANA (Fierce, Choked): "This is my mother's church."
+e03_u038 | 48.8-51.2 | CAMERA | Close-up on Juliana's face, teeth clenched in desperate defiance.
+e03_u039 | 48.9-51.1 | DIALOGUE | LADY JULIANA (Defiant, Firm): "I have every right to stand here."
+e03_u040 | 51.2-53.0 | CAMERA | Tight close-up of the Noble Matriarch leaning in with vicious delight.
+e03_u041 | 51.3-53.0 | DIALOGUE | NOBLE MATRIARCH (Venomous): "Not anymore."
+e03_u042 | 53.0-56.2 | CAMERA | Medium shot on the Noble Matriarch gesturing expansively to the filled cathedral nave behind her.
+e03_u043 | 53.3-56.2 | DIALOGUE | NOBLE MATRIARCH (Stern, Final): "Your father has chosen his family..."
+e03_u044 | 56.2-58.2 | CAMERA | Close-up profile of the Noble Matriarch's piercing eyes glaring directly at Juliana.
+e03_u045 | 56.3-58.2 | DIALOGUE | NOBLE MATRIARCH (Coldly Severing): "...and it isn't you."
+e03_u046 | 58.2-59.8 | ACTION | The Noble Matriarch turns sharply toward the back of the chapel and barks an order.
+e03_u047 | 58.3-60.0 | DIALOGUE | NOBLE MATRIARCH (Shouting, Imperious): "Guards! Remove her!"
+e03_u048 | 60.0-62.0 | CAMERA | Medium shot as two royal guards in red uniforms and bearskin caps step in behind Juliana and seize her arms.
+e03_u049 | 60.5-62.5 | ACTION | The guards forcefully grab Juliana by both shoulders and drag her backwards.
+e03_u050 | 60.6-62.3 | DIALOGUE | LADY JULIANA (Screaming, Resisting): "Let me go!"
+e03_u051 | 62.0-63.2 | CAMERA | Close-up of Juliana's hand frantically grabbing the wooden rim of a pew, knuckles white with strain.
+e03_u052 | 62.4-63.5 | DIALOGUE | LADY JULIANA (Desperate, Begging): "Please! Someone!"
+e03_u053 | 63.0-64.5 | ACTION | The guards tear her grip away from the pew.
+e03_u054 | 63.0-64.5 | SFX | Muffled scuffle, rustle of heavy silk and frantic gasps echoing off cathedral stone.
+e03_u055 | 64.5-66.0 | CAMERA | High wide shot down the vaulted cathedral aisle showing the entire congregation watching in stunned silence as the guards drag Juliana.
+e03_u056 | 66.0-68.1 | CAMERA | Wide eye-level shot looking down the petal-strewn marble aisle. A tall, rugged man in a worn dark trench coat—The Bearded Stranger—emerges into the center of the nave.
+e03_u057 | 66.0-68.1 | ACTION | The Bearded Stranger steps deliberately into the aisle, his heavy boots echoing.
+e03_u058 | 68.1-70.5 | CAMERA | Close-up on the Noble Matriarch freezing in utter shock and outrage.
+e03_u059 | 69.9-72.1 | DIALOGUE | THE BEARDED STRANGER (Low, Thunderous, Imposing): "Take your hands off her."
+e03_u060 | 70.5-72.8 | CAMERA | Medium tracking shot front-on as The Bearded Stranger marches down the flower-strewn aisle with resolute purpose.
+e03_u061 | 72.8-75.1 | CAMERA | Medium shot on the Noble Matriarch stepping forward on the altar steps, furiously pointing a finger at him.
+e03_u062 | 73.0-76.8 | DIALOGUE | NOBLE MATRIARCH (Indignant, Screeching): "And who are you to give orders in my family's chapel?!"
+e03_u063 | 75.1-77.0 | CAMERA | High wide shot of the magnificent vaulted hall as The Bearded Stranger walks steadily forward, dwarfing the aisle.
+e03_u064 | 77.0-79.0 | CAMERA | Medium shot on the lead royal guard squaring his shoulders, barring the stranger's advance while Juliana stands behind him.
+e03_u065 | 77.2-78.9 | DIALOGUE | ROYAL GUARD (Aggressive, Threatening): "Stand aside, stranger!"
+e03_u066 | 79.0-81.0 | CAMERA | Medium close-up profile on The Bearded Stranger, eyes burning with quiet, lethal resolve.
+e03_u067 | 79.3-80.9 | DIALOGUE | THE BEARDED STRANGER (Quiet, Deadly): "I said..."
+e03_u068 | 81.0-84.0 | CAMERA | Close-up on The Bearded Stranger's intense, scarred face.
+e03_u069 | 81.8-83.9 | DIALOGUE | THE BEARDED STRANGER (Dangerous, Uncompromising): "...let her go."
+e03_u070 | 84.0-85.5 | CAMERA | Medium action shot as the guard charges toward The Bearded Stranger.
+e03_u071 | 84.0-85.5 | ACTION | The Bearded Stranger effortlessly blocks the guard's strike and drives a devastating strike into him, dropping the armed guard instantly to the floor.
+e03_u072 | 84.5-85.4 | SFX | A heavy, bone-rattling punch followed by the clatter and thud of the guard collapsing onto the stone floor.
+e03_u073 | 85.5-88.1 | CAMERA | Medium close-up of Gerald turning frantically to the remaining guards and congregation, panicking.
+e03_u074 | 85.6-88.0 | DIALOGUE | THE FORMER GROOM (Frantic, Shouting): "What are you waiting for?! He's only one man!"
+e03_u075 | 88.1-89.3 | CAMERA | Medium shot on The Bearded Stranger standing unmoved over the fallen guard, turning his gaze toward Juliana.
+e03_u076 | 89.3-91.7 | CAMERA | Two-shot profile of The Bearded Stranger stepping up to Lady Juliana, who gazes up at him in stunned breathlessness.
+e03_u077 | 90.4-91.6 | DIALOGUE | THE BEARDED STRANGER (Gentle, Protective): "Are you hurt?"
+e03_u078 | 91.7-94.0 | CAMERA | Close-up on Juliana's tear-streaked face as she shakes her head gently, overwhelmed with wonder.
+e03_u079 | 91.8-93.6 | ACTION | Juliana softly shakes her head 'no', her wide blue eyes locked onto him.
+e03_u080 | 94.0-96.5 | CAMERA | Close-up profile of The Bearded Stranger casting a sharp, menacing glance toward the other guard.
+e03_u081 | 94.1-96.3 | DIALOGUE | THE BEARDED STRANGER (Firm, Menacing): "Good. Then don't touch her again."
+e03_u082 | 96.5-98.4 | CAMERA | Medium close-up on the Noble Matriarch shrieking in exasperation from the altar steps.
+e03_u083 | 96.5-98.5 | DIALOGUE | NOBLE MATRIARCH (Furious, Hysterical): "You cannot interfere in a family matter!"
+e03_u084 | 98.4-100.8 | CAMERA | Close-up of Juliana's elderly father looking down, gripping his hands nervously with profound guilt.
+e03_u085 | 98.8-100.8 | DIALOGUE | THE BEARDED STRANGER (Deep, Resonant): "I can..."
+e03_u086 | 100.8-103.0 | CAMERA | Medium shot of guests in the pews whispering and reacting in hushed shock.
+e03_u087 | 100.8-103.8 | DIALOGUE | THE BEARDED STRANGER (Stern, Accusing): "...when your family is dragging a defenseless woman from a church."
+e03_u088 | 103.0-105.9 | CAMERA | Two-shot profile of The Bearded Stranger and Lady Juliana framed against the illuminated stained-glass rose window.
+e03_u089 | 104.2-107.4 | DIALOGUE | THE BEARDED STRANGER (Solemn, Gentle): "You shouldn't have to beg anybody..."
+e03_u090 | 105.9-108.8 | CAMERA | Close-up on Juliana looking up into his eyes, moved to the core.
+e03_u091 | 107.4-109.0 | DIALOGUE | THE BEARDED STRANGER (Affirming, Sincere): "...to remember your worth."
+e03_u092 | 108.8-110.8 | CAMERA | Close-up on The Bearded Stranger's rugged, bearded face looking down at her with tender reverence.
+e03_u093 | 110.8-112.5 | CAMERA | Close-up on Juliana, her lips parting in quiet astonishment.
+e03_u094 | 110.9-112.5 | DIALOGUE | LADY JULIANA (Whispering, Bewildered): "Why are you doing this?"
+e03_u095 | 112.5-114.2 | CAMERA | Close-up on The Bearded Stranger, completely unfazed.
+e03_u096 | 112.8-114.1 | DIALOGUE | THE BEARDED STRANGER (Simple, Certain): "Because I want to."
+e03_u097 | 114.2-116.0 | CAMERA | Close-up on Juliana's father wringing his gold ring, eyes heavy with regret.
+e03_u098 | 116.0-117.9 | CAMERA | Medium shot on The Bearded Stranger slipping his hand into his coat pocket.
+e03_u099 | 117.9-119.2 | CAMERA | Close-up of Juliana watching him with rapt, trembling anticipation.
+e03_u100 | 119.2-121.0 | CAMERA | Extreme close-up of The Bearded Stranger's rugged fingers holding up a simple, polished silver band.
+e03_u101 | 119.8-122.1 | DIALOGUE | THE BEARDED STRANGER (Honorable, Earnest): "You came here to become a wife."
+e03_u102 | 121.0-123.2 | CAMERA | Medium shot on The Bearded Stranger extending the ring toward Juliana.
+e03_u103 | 122.5-124.2 | DIALOGUE | THE BEARDED STRANGER (Quiet, Resolute): "They took that from you."
+e03_u104 | 123.2-125.1 | CAMERA | Over-the-shoulder medium shot past The Bearded Stranger onto Gerald standing petrified and humiliated in the aisle.
+e03_u105 | 125.1-127.4 | CAMERA | Medium close-up on The Bearded Stranger presenting the ring directly to Juliana.
+e03_u106 | 125.3-127.3 | DIALOGUE | THE BEARDED STRANGER (Earnest, Sincere): "I am offering it back."
+e03_u107 | 127.4-130.2 | CAMERA | Close-up on Juliana glancing down at the ring, breathless and overwhelmed.
+e03_u108 | 127.7-129.9 | DIALOGUE | LADY JULIANA (Soft, Hesitant): "You don't even know me."
+e03_u109 | 130.2-132.7 | CAMERA | Close-up on The Bearded Stranger's warm, piercing gaze.
+e03_u110 | 130.4-132.0 | DIALOGUE | THE BEARDED STRANGER (Quiet, Steady): "I know enough."
+e03_u111 | 132.7-135.5 | CAMERA | Full wide profile shot as The Bearded Stranger slowly and respectfully drops onto one knee before Lady Juliana.
+e03_u112 | 133.2-135.5 | ACTION | The Bearded Stranger sinks to one knee on the cathedral aisle, offering the silver ring up to Juliana.
+e03_u113 | 134.8-136.2 | SFX | A collective, stunned gasp rippling across the entire congregation.
+e03_u114 | 135.5-137.3 | CAMERA | Medium shot of the Noble Matriarch, Gerald, and the Lady in Gold Gown frozen in sheer, jaw-dropped bewilderment.
+e03_u115 | 137.3-140.5 | CAMERA | Low-angle medium close-up of The Bearded Stranger on his knee, holding the silver ring high with steady dignity.
+e03_u116 | 137.5-140.3 | DIALOGUE | THE BEARDED STRANGER (Solemn, Devoted): "Lady Juliana... accept my hand."
+e03_u117 | 140.5-145.8 | CAMERA | Close-up on Juliana looking down at him, fresh tears trailing down her flushed cheeks as a soft, trembling smile of hope touches her lips into a slow fade.
+e03_u118 | 140.5-145.8 | ACTION | Juliana gazes down at her rugged savior, overcome with emotion as the swelling score holds on the cliffhanger.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

@@ -1,0 +1,68 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Inside the opulent Ashbury estate, the treacherous Rupert and Catherine plot to seize the ducal title as the Dowager Duchess slowly withers, while in an icy barn, Juliana defiantly prepares remedies to save the fever-stricken villagers.
+CONTINUITY NOTES: Follows Episode 19's night in the barn; as Alexander begins his clandestine fight to reclaim his birthright, Juliana tends to the suffering village while Rupert and Catherine celebrate their anticipated ascension to the ducal throne.
+
+CLIP: 56.5s to 88.2s (31.7s). Units below: id | seconds from clip start | type | text.
+e20_u035 | 0.0-3.8 | CAMERA | Medium close-up tilting down on JULIANA kneeling in the straw beside a rustic wooden crate, sorting sprigs of dried lavender and sage into a woven basket. Her hands are bound in linen bandages from the recent fire.
+e20_u036 | 3.5-8.0 | ACTION | The barn door opens, revealing daylight outside. SEAMUS, an older weathered villager in a waistcoat, carries a wooden bucket inside, his expression etched with deep sorrow and concern.
+e20_u037 | 4.0-6.0 | DIALOGUE | SEAMUS (Gentle, Concerned): "Let me take that basket, Lady Juliana."
+e20_u038 | 6.1-10.1 | DIALOGUE | SEAMUS (Empathetic): "Your palms are still raw from the fire. You shouldn't be working in this freezing draft."
+e20_u039 | 8.3-10.3 | ACTION | Seamus reaches down to take the handle of the basket from her.
+e20_u040 | 10.3-14.0 | CAMERA | Close-up of Juliana looking up at Seamus, her smudged face fierce with unyielding determination as she holds firmly onto the basket.
+e20_u041 | 10.2-12.6 | DIALOGUE | JULIANA (Fierce, Resolute): "If I stop, Seamus, the lung fever in the valley wins."
+e20_u042 | 12.7-14.0 | DIALOGUE | JULIANA (Defiant): "I do not yield to a cold draft."
+e20_u043 | 14.0-19.7 | CAMERA | Close-up of Seamus, his face agonizingly strained with grief for her lost status.
+e20_u044 | 14.1-15.8 | DIALOGUE | SEAMUS (Desperate, Grieving): "You are a viscount's daughter!"
+e20_u045 | 15.9-17.7 | DIALOGUE | SEAMUS (Pleading): "Sleeping on straw, sorting weeds!"
+e20_u046 | 17.8-19.7 | DIALOGUE | SEAMUS (Frustrated): "Let the village tend to itself for once!"
+e20_u047 | 19.7-24.5 | CAMERA | Medium close-up of Juliana, her jaw set with unwavering moral strength.
+e20_u048 | 19.8-23.3 | DIALOGUE | JULIANA (Passionate, Unflinching): "The chapel is gone, Seamus. I am the only healer these people have left."
+e20_u049 | 23.4-24.5 | DIALOGUE | JULIANA (Unyielding): "I keep the basket."
+e20_u050 | 24.5-31.7 | CAMERA | Medium two-shot of Juliana and Seamus standing facing each other in the barn, the lantern casting a warm amber glow between them.
+e20_u051 | 25.5-27.9 | DIALOGUE | SEAMUS (Saddened, Heartbroken): "They have reduced you to a peasant."
+e20_u052 | 28.3-30.0 | DIALOGUE | JULIANA (Proud, Indomitable): "They have reduced me to myself."
+e20_u053 | 30.1-31.5 | DIALOGUE | JULIANA (Steely): "And I am not finished."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

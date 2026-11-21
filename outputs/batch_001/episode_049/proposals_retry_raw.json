@@ -1,0 +1,38 @@
+{
+  "prompt_hash": "67cad624865a535a",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.0,
+    "secs": 1.75,
+    "tokens_in": 3763,
+    "tokens_out": 205,
+    "checkpoint": true
+  },
+  "asked_for": [
+    "c02"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e49_u033",
+        "end_unit_id": "e49_u054",
+        "hook": {
+          "unit_ids": [
+            "e49_u033"
+          ],
+          "modality": "spoken",
+          "description": "Father Thomas demands to know what Catherine needs, establishing the central conflict of the scene immediately.",
+          "evidence": "The dialogue starts at 72.6s, which is within the 3s window of the clip start."
+        },
+        "cliffhanger_unit_id": "e49_u054",
+        "reason": "This window captures the core negotiation and the final seductive promise within the 60-second limit."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

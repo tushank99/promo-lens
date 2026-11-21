@@ -1,0 +1,189 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "55f58dffd67fccd3",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 13.0,
+      "secs": 4.14,
+      "tokens_in": 1498,
+      "tokens_out": 1302
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e25_u009",
+          "e25_u011"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e25_u017",
+          "e25_u024",
+          "e25_u021",
+          "e25_u022"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e25_u016",
+          "e25_u017",
+          "e25_u020",
+          "e25_u021"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e25_u009",
+          "e25_u014",
+          "e25_u017",
+          "e25_u024"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "payoff",
+        "evidence_unit_ids": [
+          "e25_u024"
+        ]
+      },
+      "hook_unit_id": "e25_u009",
+      "hook_type": "visual_shock",
+      "emotion_type": "rage",
+      "trope": "villain reveal",
+      "central_conflict": "Alexander confronts Juliana about her wound and learns that Lady Catherine is responsible.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "0613e645773cafc9",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 15.8,
+      "secs": 2.79,
+      "tokens_in": 1427,
+      "tokens_out": 1038
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e25_u038",
+          "e25_u039"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e25_u039",
+          "e25_u045",
+          "e25_u049",
+          "e25_u051"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e25_u038",
+          "e25_u043",
+          "e25_u045",
+          "e25_u048",
+          "e25_u050"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e25_u038",
+          "e25_u045",
+          "e25_u049",
+          "e25_u051"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "payoff",
+        "evidence_unit_ids": [
+          "e25_u051"
+        ]
+      },
+      "hook_unit_id": "e25_u038",
+      "hook_type": "visual_shock",
+      "emotion_type": "shock",
+      "trope": "poisoned dowager",
+      "central_conflict": "Alexander discovers that the Dowager Duchess is being poisoned with arsenic and confronts Juliana about the deadly secret.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03",
+    "prompt_hash": "c9018ffad349d30a",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.2,
+      "secs": 2.64,
+      "tokens_in": 1641,
+      "tokens_out": 1009
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e25_u072",
+          "e25_u073"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e25_u077",
+          "e25_u081"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e25_u077",
+          "e25_u080",
+          "e25_u081",
+          "e25_u089"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e25_u077",
+          "e25_u081",
+          "e25_u090"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e25_u091"
+        ]
+      },
+      "hook_unit_id": "e25_u072",
+      "hook_type": "visual_shock",
+      "emotion_type": "rage",
+      "trope": "poisoned secret",
+      "central_conflict": "Alexander confronts Juliana about her secrecy regarding a poisoning, demanding she reveal who is behind the attacks.",
+      "spoils_main_twist": false
+    }
+  }
+]

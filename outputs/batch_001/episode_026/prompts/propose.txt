@@ -1,0 +1,103 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: While secretly administering a charcoal antidote to the poisoned Dowager Duchess in the dead of night, Juliana is stunned when the Duchess suddenly recognizes a distinctive family ring on her hand and fiercely demands the truth about her identity.
+CONTINUITY NOTES: Following her encounter with Alexander in the forest where she vowed to protect the Duchess, Juliana sneaks into the bedchamber at Ashburg Manor to deliver the remaining antidote before Rupert and Catherine's poison takes full hold.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:00.9 (120.9 s).
+- Scene 01 (INT. DOWAGER DUCHESS'S BEDCHAMBER – NIGHT): 0.0-120.9 s, units e26_u001..e26_u051.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 47.0-52.5 s; 66.7-73.8 s; 115.5-120.9 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e26_u001 | 0.0-5.8 | CAMERA | Wide shot framed through heavy bed curtains in a dark, candlelit bedchamber. Juliana in her maid's apron sits vigilantly beside the canopied bed where the frail Dowager Duchess lies.
+e26_u002 | 0.0-5.5 | ACTION | Juliana glances nervously back toward the door, ensuring no guards are near, before turning her full attention back to the ailing Duchess.
+e26_u003 | 5.8-10.5 | CAMERA | Close-up of Juliana's hands unscrewing the glass dropper from a small amber medicine bottle filled with dark medicinal liquid.
+e26_u004 | 6.5-9.0 | SFX | Tense, atmospheric orchestral score builds softly in the background.
+e26_u005 | 10.5-14.2 | CAMERA | Close-up of the Dowager Duchess resting against pale pillows as her heavy eyelids slowly open, her gaze weak and disoriented.
+e26_u006 | 11.0-14.0 | ACTION | The Dowager Duchess blinks against the dim lamplight, turning her head toward Juliana.
+e26_u007 | 14.2-20.5 | CAMERA | Low-angle medium two-shot looking past Juliana's silhouette down to the Duchess in bed.
+e26_u008 | 14.2-20.2 | DIALOGUE | DOWAGER DUCHESS (Weak, Raspy): "Who are you? Speak to me. I have not seen your face before."
+e26_u009 | 20.5-25.8 | CAMERA | Close-up of Juliana leaning over the bed, holding the dropper bottle carefully toward the Duchess's mouth, her expression urgent yet tender.
+e26_u010 | 20.6-25.4 | DIALOGUE | JULIANA (Urgent, Reassuring): "Please, Your Grace. Drink the last of this antidote. Drink it slowly."
+e26_u011 | 25.8-28.5 | CAMERA | Extreme close-up of the Duchess taking drops of the dark liquid from the glass bottle onto her lips.
+e26_u012 | 25.8-28.4 | ACTION | The Duchess swallows the remedy with difficulty as Juliana carefully tilts the amber bottle.
+e26_u013 | 28.5-30.8 | CAMERA | Medium two-shot as Juliana withdraws the medicine bottle, standing beside the bedside lamp.
+e26_u014 | 30.8-35.8 | CAMERA | Close-up of the Dowager Duchess observing Juliana with faint recognition through her exhaustion.
+e26_u015 | 30.8-35.5 | DIALOGUE | DOWAGER DUCHESS (Faint, Discerning): "You... you are no common servant. You took Catherine's whip for me the other day."
+e26_u016 | 35.8-40.2 | CAMERA | Close-up of Juliana, her eyes reflecting quiet resolve and pain.
+e26_u017 | 36.0-39.8 | DIALOGUE | JULIANA (Humble, Sincere): "I did what I had to. It does not change my duty."
+e26_u018 | 40.2-43.2 | CAMERA | Medium two-shot as Juliana leans closer to tuck the blankets securely over the Duchess.
+e26_u019 | 40.3-43.0 | DIALOGUE | JULIANA (Gentle, Calming): "Rest now, Your Grace. You are safe tonight."
+e26_u020 | 43.2-47.5 | CAMERA | Close-up of Juliana looking around the shadowy room, her voice dropping to a tense whisper.
+e26_u021 | 43.5-47.0 | DIALOGUE | JULIANA (Hushed, Tense Whisper): "If the guards hear us, we are both dead."
+e26_u022 | 47.5-50.8 | CAMERA | Static shot of the heavy carved double doors to the bedchamber, left slightly ajar with a sliver of hallway candlelight gleaming through the gap.
+e26_u023 | 50.8-55.8 | CAMERA | Close-up of the Dowager Duchess lying back, processing Juliana's warning as dark realization settles into her face.
+e26_u024 | 52.5-55.5 | ACTION | The Duchess clutches the blanket against her chest, her breathing quickening with dismay.
+e26_u025 | 55.8-62.5 | CAMERA | Medium close-up of the Duchess looking upward toward Juliana, her voice trembling with tragic certainty.
+e26_u026 | 56.0-62.0 | DIALOGUE | DOWAGER DUCHESS (Trembling, Heartbroken): "Rupert and Catherine want me dead. They are poisoning me in my own bed, aren't they?"
+e26_u027 | 62.5-67.0 | CAMERA | Medium shot of Juliana leaning over the edge of the mattress, nodding earnestly to soothe her fears.
+e26_u028 | 62.6-66.7 | DIALOGUE | JULIANA (Reassuring, Steadfast): "Yes. But the charcoal is fighting the poison. You are safe now."
+e26_u029 | 67.0-71.8 | CAMERA | Close-up of the small amber dropper bottle sitting atop the polished wooden bedside table in the dim glow of the lamp.
+e26_u030 | 71.8-79.6 | CAMERA | Medium shot of the Dowager Duchess looking intently at Juliana from her pillows, studying her bearing.
+e26_u031 | 73.8-79.4 | DIALOGUE | DOWAGER DUCHESS (Curious, Searching): "Then tell me... why is a girl of such noble spirit working as a common maid?"
+e26_u032 | 79.6-86.5 | CAMERA | Close-up of Juliana, her chin lifting with dignified sorrow and quiet defiance.
+e26_u033 | 80.0-85.8 | DIALOGUE | JULIANA (Painful, Proud): "Because my family cast me out to rot. I have nothing left in this world but my honor."
+e26_u034 | 86.5-90.8 | CAMERA | Medium tracking down Juliana's apron to her hand as she rests it against the bed linens, revealing a distinctive engraved signet ring on her finger.
+e26_u035 | 87.0-90.5 | ACTION | Juliana rests her right hand against the edge of the bedcover, unwittingly placing the unique ring directly within the Duchess's line of sight.
+e26_u036 | 90.2-92.0 | SFX | A sharp, stunned gasp.
+e26_u037 | 90.8-95.0 | CAMERA | Extreme close-up of the Dowager Duchess gasping sharply, her eyes widening in profound shock as all color drains from her face.
+e26_u038 | 90.8-95.0 | ACTION | The Duchess's mouth hangs open in pure disbelief as she stares fixedly at Juliana's hand.
+e26_u039 | 95.0-100.0 | CAMERA | Medium shot of the Duchess pushing herself up against the headboard, trembling as she stretches out her frail hand.
+e26_u040 | 96.0-99.8 | DIALOGUE | DOWAGER DUCHESS (Breathless, Shaken): "Your hand... Let me see your hand."
+e26_u041 | 100.0-105.5 | CAMERA | Close-up of Juliana reacting with confusion and growing concern at the elder woman's sudden frenzy.
+e26_u042 | 100.5-105.0 | DIALOGUE | JULIANA (Confused, Alarmed): "Your Grace? What is wrong? You look as though you've seen a ghost."
+e26_u043 | 105.5-109.0 | CAMERA | Close-up shot of the Duchess's withered, shaking hand reaching across the blanket toward Juliana's arm.
+e26_u044 | 106.0-109.0 | ACTION | The Duchess reaches outward with trembling fingers, grasping frantically for Juliana.
+e26_u045 | 108.8-110.0 | SFX | A sudden sharp rustle of fabric as her fingers snap tight.
+e26_u046 | 109.0-110.8 | CAMERA | Tight shot of the Duchess's frail hand clamping down with fierce, unexpected strength onto Juliana's dark sleeve.
+e26_u047 | 109.2-110.6 | DIALOGUE | DOWAGER DUCHESS (Stern, Desperate): "Do not move!"
+e26_u048 | 110.8-115.8 | CAMERA | Close-up of the Dowager Duchess looking up at Juliana with overwhelming urgency and tears brimming in her wide eyes.
+e26_u049 | 111.0-115.5 | DIALOGUE | DOWAGER DUCHESS (Intense, Demanding): "Where... where... Where did you get this ring? Speak to me!"
+e26_u050 | 115.8-119.5 | CAMERA | Medium close-up of Juliana frozen in shock, her breath catching as the Duchess's desperate words echo in the silence of the room.
+e26_u051 | 119.5-120.9 | CAMERA | Tight close-up of the Dowager Duchess's two weathered hands tightly clasping Juliana's hand, holding the signet ring between them as a dramatic orchestral cliffhanger chord swells, cutting sharply to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

@@ -1,0 +1,68 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "1cc600fd705832c4",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 11.1,
+      "secs": 3.1,
+      "tokens_in": 2043,
+      "tokens_out": 1051
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e09_u003",
+          "e09_u004"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e09_u009",
+          "e09_u011",
+          "e09_u018",
+          "e09_u026"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e09_u009",
+          "e09_u028",
+          "e09_u033",
+          "e09_u026"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e09_u003",
+          "e09_u009",
+          "e09_u015",
+          "e09_u022",
+          "e09_u030",
+          "e09_u032"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e09_u032",
+          "e09_u033"
+        ]
+      },
+      "hook_unit_id": "e09_u003",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "heartbreak",
+      "trope": "desperate mother seeking cure",
+      "central_conflict": "A frantic mother begs the cottage’s healer to save her fever‑stricken child while the protector watches anxiously.",
+      "spoils_main_twist": false
+    }
+  }
+]

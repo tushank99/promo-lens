@@ -1,0 +1,446 @@
+{
+  "episode": 15,
+  "logline": "When ruthless thugs desecrate Juliana's medicinal garden and trample her late mother's herbs, a protective Alexander charges into the night to defend her.",
+  "counts": {
+    "proposed": 3,
+    "rejected_at_validation": 1,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 2,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 1,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c02",
+      "episode": 15,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e15_u030",
+      "end_unit_id": "e15_u055",
+      "hook_unit_id": "e15_u030",
+      "hook": {
+        "unit_ids": [
+          "e15_u030"
+        ],
+        "modality": "visual",
+        "description": "A thug aggressively steps into Juliana's personal space, snarling at her.",
+        "evidence": "The immediate physical intimidation and the victim's defiance create instant tension.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e15_u055",
+      "segments": [
+        {
+          "start_unit": "e15_u030",
+          "end_unit": "e15_u055",
+          "start": 44.2,
+          "end": 86.0
+        }
+      ],
+      "start": 44.2,
+      "end": 86.0,
+      "duration": 41.8,
+      "proposer_reason": "This segment focuses on the escalation of violence and the arrival of Alexander as a savior, ending on a high-tension cliffhanger.",
+      "hook_type": "threat",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e15_u030",
+          "e15_u031"
+        ],
+        "clarity": [
+          "e15_u030",
+          "e15_u034",
+          "e15_u045",
+          "e15_u051"
+        ],
+        "emotion": [
+          "e15_u038",
+          "e15_u039",
+          "e15_u043",
+          "e15_u046"
+        ],
+        "escalation": [
+          "e15_u030",
+          "e15_u034",
+          "e15_u045",
+          "e15_u051",
+          "e15_u055"
+        ],
+        "ending": [
+          "e15_u053",
+          "e15_u054",
+          "e15_u055"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.4s (72.6-76.0)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "heroic rescue",
+      "central_conflict": "Juliana is attacked by thugs over her garden, and Alexander rushes in to protect her.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e15_u030",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c01r",
+      "episode": 15,
+      "retry_of": "c01",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e15_u003",
+      "end_unit_id": "e15_u035",
+      "hook_unit_id": "e15_u003",
+      "hook": {
+        "unit_ids": [
+          "e15_u003"
+        ],
+        "modality": "visual",
+        "description": "A thug raises a heavy wooden club to destroy the garden.",
+        "evidence": "The unit begins at 3.5s, which is within the 3s limit relative to the start of the clip (3.5s - 3.5s = 0s).",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e15_u035",
+      "segments": [
+        {
+          "start_unit": "e15_u003",
+          "end_unit": "e15_u035",
+          "start": 3.5,
+          "end": 49.5
+        }
+      ],
+      "start": 3.5,
+      "end": 49.5,
+      "duration": 46.0,
+      "proposer_reason": "The window starts on the visual threat of the club and ends on the violent shove, creating a high-stakes conflict moment.",
+      "hook_type": "visual_shock",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e15_u003",
+          "e15_u004",
+          "e15_u005"
+        ],
+        "clarity": [
+          "e15_u009",
+          "e15_u010",
+          "e15_u012",
+          "e15_u014"
+        ],
+        "emotion": [
+          "e15_u013",
+          "e15_u014",
+          "e15_u020",
+          "e15_u025",
+          "e15_u032"
+        ],
+        "escalation": [
+          "e15_u003",
+          "e15_u010",
+          "e15_u016",
+          "e15_u018",
+          "e15_u024",
+          "e15_u034"
+        ],
+        "ending": [
+          "e15_u033",
+          "e15_u034",
+          "e15_u035"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.6s (31.2-34.8)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "defiant garden protector",
+      "central_conflict": "Juliana fights to protect her medicinal garden from violent thugs who are destroying it.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e15_u003",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 15,
+      "retry_of": null,
+      "retried_as": "c01r",
+      "retry_declined": null,
+      "start_unit_id": "e15_u001",
+      "end_unit_id": "e15_u035",
+      "hook_unit_id": "e15_u004",
+      "hook": {
+        "unit_ids": [
+          "e15_u004"
+        ],
+        "modality": "visual",
+        "description": "A thug brutally smashes a wooden planter box with a heavy club.",
+        "evidence": "The sudden, violent destruction of property immediately establishes high stakes and conflict.",
+        "delay_s": 3.6
+      },
+      "cliffhanger_unit_id": null,
+      "segments": [
+        {
+          "start_unit": "e15_u001",
+          "end_unit": "e15_u035",
+          "start": 0.0,
+          "end": 49.5
+        }
+      ],
+      "start": 0.0,
+      "end": 49.5,
+      "duration": 49.5,
+      "proposer_reason": "This segment establishes the conflict and Juliana's desperate attempt to protect her mother's legacy, ending on her being shoved to the ground.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 3.6s (31.2-34.8)"
+      ],
+      "rejection_reasons": [
+        "validation:hook"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "hook e15_u004 begins 3.6s after clip start (limit 3.0s)"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 15,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e15_u030",
+      "end_unit_id": "e15_u055",
+      "hook_unit_id": "e15_u030",
+      "hook": {
+        "unit_ids": [
+          "e15_u030"
+        ],
+        "modality": "visual",
+        "description": "A thug aggressively steps into Juliana's personal space, snarling at her.",
+        "evidence": "The immediate physical intimidation and the victim's defiance create instant tension.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e15_u055",
+      "segments": [
+        {
+          "start_unit": "e15_u030",
+          "end_unit": "e15_u055",
+          "start": 44.2,
+          "end": 86.0
+        }
+      ],
+      "start": 44.2,
+      "end": 86.0,
+      "duration": 41.8,
+      "proposer_reason": "This segment focuses on the escalation of violence and the arrival of Alexander as a savior, ending on a high-tension cliffhanger.",
+      "hook_type": "threat",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e15_u030",
+          "e15_u031"
+        ],
+        "clarity": [
+          "e15_u030",
+          "e15_u034",
+          "e15_u045",
+          "e15_u051"
+        ],
+        "emotion": [
+          "e15_u038",
+          "e15_u039",
+          "e15_u043",
+          "e15_u046"
+        ],
+        "escalation": [
+          "e15_u030",
+          "e15_u034",
+          "e15_u045",
+          "e15_u051",
+          "e15_u055"
+        ],
+        "ending": [
+          "e15_u053",
+          "e15_u054",
+          "e15_u055"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.4s (72.6-76.0)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "heroic rescue",
+      "central_conflict": "Juliana is attacked by thugs over her garden, and Alexander rushes in to protect her.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e15_u030",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c01r",
+      "episode": 15,
+      "retry_of": "c01",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e15_u003",
+      "end_unit_id": "e15_u035",
+      "hook_unit_id": "e15_u003",
+      "hook": {
+        "unit_ids": [
+          "e15_u003"
+        ],
+        "modality": "visual",
+        "description": "A thug raises a heavy wooden club to destroy the garden.",
+        "evidence": "The unit begins at 3.5s, which is within the 3s limit relative to the start of the clip (3.5s - 3.5s = 0s).",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e15_u035",
+      "segments": [
+        {
+          "start_unit": "e15_u003",
+          "end_unit": "e15_u035",
+          "start": 3.5,
+          "end": 49.5
+        }
+      ],
+      "start": 3.5,
+      "end": 49.5,
+      "duration": 46.0,
+      "proposer_reason": "The window starts on the visual threat of the club and ends on the violent shove, creating a high-stakes conflict moment.",
+      "hook_type": "visual_shock",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e15_u003",
+          "e15_u004",
+          "e15_u005"
+        ],
+        "clarity": [
+          "e15_u009",
+          "e15_u010",
+          "e15_u012",
+          "e15_u014"
+        ],
+        "emotion": [
+          "e15_u013",
+          "e15_u014",
+          "e15_u020",
+          "e15_u025",
+          "e15_u032"
+        ],
+        "escalation": [
+          "e15_u003",
+          "e15_u010",
+          "e15_u016",
+          "e15_u018",
+          "e15_u024",
+          "e15_u034"
+        ],
+        "ending": [
+          "e15_u033",
+          "e15_u034",
+          "e15_u035"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 3.6s (31.2-34.8)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "defiant garden protector",
+      "central_conflict": "Juliana fights to protect her medicinal garden from violent thugs who are destroying it.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e15_u003",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    }
+  ],
+  "usage": {
+    "wall_s": 60.4,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 10760,
+    "tokens_out": 3587,
+    "retries": 1,
+    "fallback_calls": 0,
+    "llm_secs": 15.6,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 44.3
+  }
+}

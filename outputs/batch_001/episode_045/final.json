@@ -1,0 +1,191 @@
+{
+  "episode": 45,
+  "logline": "Alexander frees Juliana from her chains and proclaims her the Duchess of Ashburton before the stunned congregation, only for an ecclesiastical authority to burst in and declare their marriage legally invalid.",
+  "counts": {
+    "proposed": 3,
+    "rejected_at_validation": 0,
+    "rejected_at_judge": 3,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 0,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 3,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 45,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e45_u001",
+      "end_unit_id": "e45_u023",
+      "hook_unit_id": "e45_u001",
+      "hook": {
+        "unit_ids": [
+          "e45_u001"
+        ],
+        "modality": "visual",
+        "description": "Alexander walking down the aisle toward a shackled Juliana.",
+        "evidence": "The immediate visual contrast between a powerful man and a woman in chains creates instant intrigue.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": null,
+      "segments": [
+        {
+          "start_unit": "e45_u001",
+          "end_unit": "e45_u023",
+          "start": 0.0,
+          "end": 29.8
+        }
+      ],
+      "start": 0.0,
+      "end": 29.8,
+      "duration": 29.8,
+      "proposer_reason": "This segment establishes the emotional core of the episode: the rescue and the revelation of Alexander's true identity.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 45,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e45_u039",
+      "end_unit_id": "e45_u056",
+      "hook_unit_id": "e45_u039",
+      "hook": {
+        "unit_ids": [
+          "e45_u039"
+        ],
+        "modality": "visual",
+        "description": "Alexander towering over Catherine with righteous fury.",
+        "evidence": "The sudden shift to confrontation and the accusation of poisoning creates high-stakes drama.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e45_u056",
+      "segments": [
+        {
+          "start_unit": "e45_u039",
+          "end_unit": "e45_u056",
+          "start": 51.8,
+          "end": 86.5
+        }
+      ],
+      "start": 51.8,
+      "end": 86.5,
+      "duration": 34.7,
+      "proposer_reason": "The public humiliation of the antagonist and the bold proclamation of the heroine's status provides a satisfying payoff.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 3.5s (83.0-86.5)"
+      ],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 45,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e45_u057",
+      "end_unit_id": "e45_u074",
+      "hook_unit_id": "e45_u057",
+      "hook": {
+        "unit_ids": [
+          "e45_u057",
+          "e45_u058"
+        ],
+        "modality": "audio",
+        "description": "The cathedral doors slamming open violently.",
+        "evidence": "The loud, sudden sound effect immediately grabs attention and signals a major disruption.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e45_u074",
+      "segments": [
+        {
+          "start_unit": "e45_u057",
+          "end_unit": "e45_u074",
+          "start": 86.5,
+          "end": 121.75
+        }
+      ],
+      "start": 86.5,
+      "end": 121.75,
+      "duration": 35.25,
+      "proposer_reason": "This captures the dramatic reversal where the marriage is declared invalid, ending on a high-tension cliffhanger.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 1,
+    "tokens_in": 4301,
+    "tokens_out": 503,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 2.6,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 3,
+    "judge_failed": 3,
+    "waited_s": 1.6
+  }
+}

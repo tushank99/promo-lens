@@ -1,0 +1,110 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e11_u005",
+      "end_unit_id": "e11_u032",
+      "hook": {
+        "unit_ids": [
+          "e11_u005"
+        ],
+        "modality": "visual",
+        "description": "Gerald steps out of the carriage into the mud in an opulent coat.",
+        "evidence": "The visual contrast between the wealthy antagonist and the rustic setting immediately establishes a power imbalance."
+      },
+      "cliffhanger_unit_id": "e11_u032",
+      "reason": "The confrontation escalates quickly from a surprise visit to a false accusation of theft."
+    },
+    "norm": {
+      "start_unit_id": "e11_u005",
+      "end_unit_id": "e11_u032",
+      "hook": {
+        "unit_ids": [
+          "e11_u005"
+        ],
+        "modality": "visual",
+        "description": "Gerald steps out of the carriage into the mud in an opulent coat.",
+        "evidence": "The visual contrast between the wealthy antagonist and the rustic setting immediately establishes a power imbalance."
+      },
+      "cliffhanger_unit_id": "e11_u032",
+      "reason": "The confrontation escalates quickly from a surprise visit to a false accusation of theft."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera shot e11_u033 (37.0-39.1) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 4.0,
+    "end": 37.1,
+    "duration": 33.1,
+    "segments": [
+      {
+        "start_unit": "e11_u005",
+        "end_unit": "e11_u032",
+        "start": 4.0,
+        "end": 37.1
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e11_u048",
+      "end_unit_id": "e11_u085",
+      "hook": {
+        "unit_ids": [
+          "e11_u048",
+          "e11_u049"
+        ],
+        "modality": "visual",
+        "description": "The constable barges into the cottage and begins violently overturning furniture.",
+        "evidence": "The sudden, aggressive invasion of a private home creates immediate tension and high stakes."
+      },
+      "cliffhanger_unit_id": "e11_u085",
+      "reason": "The scene builds to the devastating discovery of the planted evidence, framing the hero for a crime he didn't commit."
+    },
+    "norm": {
+      "start_unit_id": "e11_u048",
+      "end_unit_id": "e11_u085",
+      "hook": {
+        "unit_ids": [
+          "e11_u048",
+          "e11_u049"
+        ],
+        "modality": "visual",
+        "description": "The constable barges into the cottage and begins violently overturning furniture.",
+        "evidence": "The sudden, aggressive invasion of a private home creates immediate tension and high stakes."
+      },
+      "cliffhanger_unit_id": "e11_u085",
+      "reason": "The scene builds to the devastating discovery of the planted evidence, framing the hero for a crime he didn't commit."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 4.5s (76.8-81.3)",
+      "camera-only stretch 5.2s (99.0-104.2)",
+      "camera-only stretch 6.15s (106.6-112.75)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 54.0,
+    "end": 112.75,
+    "duration": 58.75,
+    "segments": [
+      {
+        "start_unit": "e11_u048",
+        "end_unit": "e11_u085",
+        "start": 54.0,
+        "end": 112.75
+      }
+    ]
+  }
+]

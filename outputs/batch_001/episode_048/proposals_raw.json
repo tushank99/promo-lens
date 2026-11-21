@@ -1,0 +1,62 @@
+{
+  "episode": 48,
+  "prompt_hash": "4edf9846a42c56e0",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.8,
+    "secs": 2.88,
+    "tokens_in": 2998,
+    "tokens_out": 511,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e48_u001",
+        "end_unit_id": "e48_u014",
+        "hook": {
+          "unit_ids": [
+            "e48_u002"
+          ],
+          "modality": "visual",
+          "description": "Catherine gazes out a dark window before turning with a cold, venomous smirk.",
+          "evidence": "The immediate shift from a silhouette to a predatory, knowing smirk establishes a high-stakes villain protagonist."
+        },
+        "cliffhanger_unit_id": "e48_u014",
+        "reason": "This clip establishes the protagonist's secret plot to reclaim her power after a public humiliation."
+      },
+      {
+        "start_unit_id": "e48_u018",
+        "end_unit_id": "e48_u029",
+        "hook": {
+          "unit_ids": [
+            "e48_u018"
+          ],
+          "modality": "spoken",
+          "description": "Catherine commands her maid to lock the door.",
+          "evidence": "The sudden shift to secrecy and the locking of the door creates immediate tension and curiosity about what is being hidden."
+        },
+        "cliffhanger_unit_id": "e48_u029",
+        "reason": "It highlights the protagonist's transition from public victim to private mastermind."
+      },
+      {
+        "start_unit_id": "e48_u035",
+        "end_unit_id": "e48_u043",
+        "hook": {
+          "unit_ids": [
+            "e48_u035"
+          ],
+          "modality": "visual",
+          "description": "Catherine spins around with a terrifyingly firm expression.",
+          "evidence": "The intense close-up on her face signals a shift to a dangerous, decisive action."
+        },
+        "cliffhanger_unit_id": "e48_u043",
+        "reason": "The scene shows the protagonist setting her plan in motion, leaving the viewer wondering if she will succeed."
+      }
+    ]
+  },
+  "note": null
+}

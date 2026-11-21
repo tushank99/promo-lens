@@ -1,0 +1,126 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Fleeing her captivity through a secret passage, Alexander's elderly mother treks through a bitter blizzard to a secluded cabin, where she tearfully reunites with her presumed-dead son and learns the horrifying conspiracy behind his supposed demise.
+CONTINUITY NOTES: While Juliana faces trial and sentencing in the courtroom, this episode reveals Alexander's mother escaping confinement and tracking down Alexander in his mountain hideout, uncovering the dark treason that orchestrates both their fates.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:37.5 (157.5 s).
+- Scene 01 (INT. STONE CORRIDOR - NIGHT): 0.0-15.5 s, units e35_u001..e35_u007.
+- Scene 02 (EXT. SNOWY FOREST / CABIN - NIGHT): 15.5-27.5 s, units e35_u008..e35_u014.
+- Scene 03 (INT. SECLUDED CABIN - CONTINUOUS): 27.5-157.5 s, units e35_u015..e35_u072.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): 30.8-37.0 s
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e35_u001 | 0.0-5.2 | CAMERA | Medium tracking shot following an elderly hooded woman clutching an iron lantern as she stumbles anxiously through a damp subterranean stone tunnel.
+e35_u002 | 0.0-5.2 | ACTION | Alexander's mother, frail with silver hair under a dark hooded cloak, braces her hand against the rough stone wall, panting heavily in fear.
+e35_u003 | 5.5-8.5 | DIALOGUE | ALEXANDER'S MOTHER (Determined, Breathless): "I will not die in that house."
+e35_u004 | 9.0-12.8 | CAMERA | Close-up on her trembling, weathered hands gripping a mossy stone bolt set into a heavy iron plate on the stone wall.
+e35_u005 | 9.5-12.8 | ACTION | She uses all her strength to shove the stone bolt upward, disengaging the hidden lock mechanism.
+e35_u006 | 11.2-13.0 | SFX | Heavy stone grating and metallic latch clanging as the lock releases.
+e35_u007 | 13.0-15.5 | ACTION | The heavy stone doorway swings inward, and the elderly woman ducks low, crawling through the opening into the cold night outside.
+e35_u008 | 15.5-19.5 | CAMERA | Wide atmospheric shot of a deep, snow-covered pine forest at night. In the distance stands a small secluded log cabin nestled under towering snowy trees.
+e35_u009 | 15.5-19.5 | ACTION | Alexander's mother plods through the thick snow, leaning heavily on a wooden walking stick, her dark cloak dusted with snow.
+e35_u010 | 16.0-19.5 | SFX | Howling winter wind and crunching of footsteps in deep snow.
+e35_u011 | 19.5-24.0 | CAMERA | Medium close-up of Alexander's mother arriving beside the frosted wooden door frame under sharp hanging icicles, shivering violently from the freezing cold.
+e35_u012 | 21.0-23.0 | DIALOGUE | ALEXANDER'S MOTHER (Whispering, Weary): "This must be the place."
+e35_u013 | 24.0-27.5 | CAMERA | Close-up on her wool-gloved hand unlatching the icy wooden door handle and pushing it open.
+e35_u014 | 24.8-27.0 | SFX | Creak of cold wooden hinges opening.
+e35_u015 | 27.5-30.8 | CAMERA | Panning shot from the open doorway revealing the warm, dimly lit cabin interior, settling on Alexander standing over a rustic wooden table by lantern light.
+e35_u016 | 28.5-30.8 | ACTION | Alexander, wearing a rugged trench coat, his scarred face framed by long dark hair, stands studying an unfolded tactical map before snapping his head up in alarm.
+e35_u017 | 30.8-33.8 | CAMERA | Medium shot of Alexander's mother stepping across the threshold, holding up her burning lantern, her eyes wide with shock.
+e35_u018 | 33.8-36.5 | CAMERA | Extreme close-up on Alexander's scarred left cheek and wide, disbelieving blue eyes.
+e35_u019 | 36.5-40.5 | CAMERA | Close-up on his mother's tear-streaked face as her chin trembles and tears spill down her cheeks.
+e35_u020 | 37.0-40.0 | DIALOGUE | ALEXANDER'S MOTHER (Sobbing, Stunned): "Alexander!"
+e35_u021 | 40.5-44.2 | CAMERA | Close-up on Alexander as his hard expression crumbles into utter astonishment.
+e35_u022 | 42.5-44.2 | DIALOGUE | ALEXANDER (Breathless, In Disbelief): "Mother?"
+e35_u023 | 44.2-47.5 | ACTION | She drops her walking staff and rushes forward, throwing her arms around Alexander's neck. He pulls her tightly into his chest.
+e35_u024 | 45.5-48.0 | DIALOGUE | ALEXANDER'S MOTHER (Weeping, Overwhelmed): "You're alive."
+e35_u025 | 48.0-49.8 | DIALOGUE | ALEXANDER (Gentle, Choked Up): "Mother."
+e35_u026 | 50.0-55.5 | ACTION | She leans back slightly, her frail hand reaching up to gently cup his bearded, scarred cheek, staring into his eyes in disbelief.
+e35_u027 | 52.5-55.0 | DIALOGUE | ALEXANDER'S MOTHER (Tearful, Heartbroken): "I buried you."
+e35_u028 | 56.5-58.0 | DIALOGUE | ALEXANDER (Soft, Somber): "I know."
+e35_u029 | 59.5-66.0 | DIALOGUE | ALEXANDER'S MOTHER (Anguished, Accusing): "They told me you died. They told me your entire regiment was destroyed."
+e35_u030 | 66.5-71.0 | CAMERA | Close-up on Alexander's hardened, shadowed profile, his jaw tight with grim memories.
+e35_u031 | 68.5-70.8 | DIALOGUE | ALEXANDER (Dark, Resigned): "Most of them were."
+e35_u032 | 71.5-74.0 | DIALOGUE | ALEXANDER'S MOTHER (Searching, Desperate): "Then how did you survive?"
+e35_u033 | 74.2-78.0 | CAMERA | Side profile of Alexander as his eyes look into the distance, haunted by the past.
+e35_u034 | 75.0-77.5 | DIALOGUE | ALEXANDER (Grim, Quiet): "I wasn't supposed to."
+e35_u035 | 78.0-82.5 | ACTION | Alexander steps over to the wooden table, looking down at the parchment map spread out under the lantern.
+e35_u036 | 79.0-83.0 | DIALOGUE | ALEXANDER (Solemn): "Three years ago, I was sent to the Iberian front."
+e35_u037 | 83.0-87.0 | CAMERA | Close-up of Alexander's weathered face looking down pensively as he recounts the mission.
+e35_u038 | 83.0-89.0 | DIALOGUE | ALEXANDER (Steady, Focused): "It was a classified Crown mission. We were investigating a British officer selling military secrets to French spies."
+e35_u039 | 87.0-89.8 | ACTION | Alexander's scarred finger points to a red-circled location on the parchment map marked near Madrid.
+e35_u040 | 89.8-92.0 | CAMERA | Close-up on his mother, gasping with wide, horrified eyes.
+e35_u041 | 89.8-91.5 | DIALOGUE | ALEXANDER'S MOTHER (Shocked): "A traitor?"
+e35_u042 | 92.0-93.2 | DIALOGUE | ALEXANDER (Cold, Firm): "Yes."
+e35_u043 | 93.5-97.5 | CAMERA | Medium shot framing both of them across the wooden table bathed in amber lantern glow.
+e35_u044 | 94.5-97.0 | DIALOGUE | ALEXANDER (Grave): "We were close to finding him."
+e35_u045 | 98.5-101.0 | DIALOGUE | ALEXANDER (Hardened): "Then came the ambush."
+e35_u046 | 101.2-104.2 | CAMERA | Close-up on Alexander's scarred hand clenching into a fist, furiously crumbling the parchment map beneath his knuckles.
+e35_u047 | 101.5-104.2 | DIALOGUE | ALEXANDER (Bitter, Painful): "My men were slaughtered."
+e35_u048 | 104.2-106.5 | CAMERA | Close-up of his mother clutching at her throat, tears glistening in her eyes.
+e35_u049 | 104.5-106.0 | DIALOGUE | ALEXANDER'S MOTHER (Trembling, Anxious): "And you?"
+e35_u050 | 107.0-110.0 | DIALOGUE | ALEXANDER (Hollow): "I was shot. Left for dead."
+e35_u051 | 110.0-113.5 | CAMERA | Medium shot of his mother placing both hands on the table, leaning forward in disbelief.
+e35_u052 | 111.0-113.0 | DIALOGUE | ALEXANDER'S MOTHER (Pleading, Astonished): "How did you escape?"
+e35_u053 | 113.5-118.0 | CAMERA | Close-up on Alexander, his eyes dark with the harrowing memory.
+e35_u054 | 114.0-118.0 | DIALOGUE | ALEXANDER (Somber, Low): "I crawled away from the battlefield, half dead, alone."
+e35_u055 | 118.2-122.0 | DIALOGUE | ALEXANDER (Continuing): "I survived because the men who came looking for me believed I was already dead."
+e35_u056 | 122.0-125.5 | CAMERA | Close-up on his mother as her expression shifts to profound bewilderment and outrage.
+e35_u057 | 122.0-125.5 | DIALOGUE | ALEXANDER'S MOTHER (Aghast, Stunned): "Then why did they never tell us?"
+e35_u058 | 125.5-129.5 | CAMERA | Close-up on Alexander's intense, piercing gaze.
+e35_u059 | 126.0-129.5 | DIALOGUE | ALEXANDER (Ominous, Deliberate): "Because someone wanted you to believe I was dead."
+e35_u060 | 129.5-130.5 | DIALOGUE | ALEXANDER'S MOTHER (Breathless): "Who?"
+e35_u061 | 130.5-134.0 | ACTION | Alexander turns away toward the frosted window, staring out into the dark raging blizzard outside.
+e35_u062 | 131.0-134.0 | DIALOGUE | ALEXANDER (Brooding): "I spent three years trying to find out."
+e35_u063 | 134.0-136.8 | ACTION | Alexander abruptly pushes away from the window, storming back toward the table with burning rage.
+e35_u064 | 134.0-137.0 | DIALOGUE | ALEXANDER (Fierce, Resolute): "The ambush was not an accident."
+e35_u065 | 137.0-144.0 | ACTION | He leans heavily over the wooden table, looming close as his fury boils over.
+e35_u066 | 137.0-140.5 | DIALOGUE | ALEXANDER (Vehement, Enraged): "Someone ordered my men to die."
+e35_u067 | 141.0-144.0 | DIALOGUE | ALEXANDER (Darkly Intimating): "Someone wanted me erased."
+e35_u068 | 144.0-145.0 | DIALOGUE | ALEXANDER'S MOTHER (Gasping, Terrified): "Who?"
+e35_u069 | 145.0-150.5 | CAMERA | Tight close-up on Alexander's scarred, grim visage, his voice dropping to a deadly chill.
+e35_u070 | 145.5-150.0 | DIALOGUE | ALEXANDER (Deadly, Chilling): "The men behind it... are the same men ruling Ashwood now."
+e35_u071 | 150.5-157.5 | CAMERA | Close-up on his mother's face as the horrifying realization hits her, her mouth open in a soundless gasp of sheer dread as the scene holds and slowly fades.
+e35_u072 | 150.8-157.5 | SFX | A sudden, ominous orchestral crescendo swells dramatically into silence.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

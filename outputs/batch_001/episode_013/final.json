@@ -1,0 +1,391 @@
+{
+  "episode": 13,
+  "logline": "Defying Alexander's desperate pleas, Juliana crawls barehanded into the razor-sharp blackthorn garden, enduring brutal lacerations under Clarissa and Gerald's cruel taunts until she unearths the lost emerald signet ring.",
+  "counts": {
+    "proposed": 2,
+    "rejected_at_validation": 0,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 2,
+    "retried": 0,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c01",
+      "episode": 13,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e13_u026",
+      "end_unit_id": "e13_u052",
+      "hook_unit_id": "e13_u026",
+      "hook": {
+        "unit_ids": [
+          "e13_u026"
+        ],
+        "modality": "visual",
+        "description": "Juliana drops to her knees in front of the frozen blackthorn branches.",
+        "evidence": "The immediate visual of a woman kneeling before a lethal, frozen garden creates instant tension and curiosity about her fate.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e13_u052",
+      "segments": [
+        {
+          "start_unit": "e13_u026",
+          "end_unit": "e13_u052",
+          "start": 45.8,
+          "end": 80.5
+        }
+      ],
+      "start": 45.8,
+      "end": 80.5,
+      "duration": 34.7,
+      "proposer_reason": "The sequence captures the brutal stakes of the challenge as Juliana begins her agonizing crawl through the thorns.",
+      "hook_type": "visual_shock",
+      "emotion_type": "shock",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e13_u028",
+          "e13_u029",
+          "e13_u030",
+          "e13_u026"
+        ],
+        "clarity": [
+          "e13_u026",
+          "e13_u028",
+          "e13_u029",
+          "e13_u044"
+        ],
+        "emotion": [
+          "e13_u036",
+          "e13_u037",
+          "e13_u039",
+          "e13_u041",
+          "e13_u044",
+          "e13_u048"
+        ],
+        "escalation": [
+          "e13_u029",
+          "e13_u031",
+          "e13_u036",
+          "e13_u044",
+          "e13_u049",
+          "e13_u051"
+        ],
+        "ending": [
+          "e13_u051",
+          "e13_u052"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 76.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "tortured heroine",
+      "central_conflict": "Juliana must endure brutal thorns and cruel taunts to find the lost emerald signet ring that can free Alexander from execution.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e13_u028",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 13,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e13_u053",
+      "end_unit_id": "e13_u075",
+      "hook_unit_id": "e13_u053",
+      "hook": {
+        "unit_ids": [
+          "e13_u053"
+        ],
+        "modality": "visual",
+        "description": "Alexander violently lunging past the Constable toward the briars.",
+        "evidence": "The sudden, high-energy action of a man breaking his restraints to save his partner provides an immediate, high-stakes hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e13_u075",
+      "segments": [
+        {
+          "start_unit": "e13_u053",
+          "end_unit": "e13_u075",
+          "start": 80.5,
+          "end": 118.88
+        }
+      ],
+      "start": 80.5,
+      "end": 118.88,
+      "duration": 38.38,
+      "proposer_reason": "This window focuses on the climax of the search, showing the physical toll and the final discovery of the ring.",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e13_u053",
+          "e13_u054",
+          "e13_u055"
+        ],
+        "clarity": [
+          "e13_u053",
+          "e13_u056",
+          "e13_u059",
+          "e13_u066",
+          "e13_u068"
+        ],
+        "emotion": [
+          "e13_u058",
+          "e13_u060",
+          "e13_u066",
+          "e13_u072",
+          "e13_u074"
+        ],
+        "escalation": [
+          "e13_u053",
+          "e13_u056",
+          "e13_u067",
+          "e13_u075"
+        ],
+        "ending": [
+          "e13_u075"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 6.88s (112.0-118.88)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "bloody treasure hunt",
+      "central_conflict": "Juliana must retrieve the emerald signet ring from a deadly thorn garden while Alexander fights the constable to stop her.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e13_u053",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 13,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e13_u026",
+      "end_unit_id": "e13_u052",
+      "hook_unit_id": "e13_u026",
+      "hook": {
+        "unit_ids": [
+          "e13_u026"
+        ],
+        "modality": "visual",
+        "description": "Juliana drops to her knees in front of the frozen blackthorn branches.",
+        "evidence": "The immediate visual of a woman kneeling before a lethal, frozen garden creates instant tension and curiosity about her fate.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e13_u052",
+      "segments": [
+        {
+          "start_unit": "e13_u026",
+          "end_unit": "e13_u052",
+          "start": 45.8,
+          "end": 80.5
+        }
+      ],
+      "start": 45.8,
+      "end": 80.5,
+      "duration": 34.7,
+      "proposer_reason": "The sequence captures the brutal stakes of the challenge as Juliana begins her agonizing crawl through the thorns.",
+      "hook_type": "visual_shock",
+      "emotion_type": "shock",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e13_u028",
+          "e13_u029",
+          "e13_u030",
+          "e13_u026"
+        ],
+        "clarity": [
+          "e13_u026",
+          "e13_u028",
+          "e13_u029",
+          "e13_u044"
+        ],
+        "emotion": [
+          "e13_u036",
+          "e13_u037",
+          "e13_u039",
+          "e13_u041",
+          "e13_u044",
+          "e13_u048"
+        ],
+        "escalation": [
+          "e13_u029",
+          "e13_u031",
+          "e13_u036",
+          "e13_u044",
+          "e13_u049",
+          "e13_u051"
+        ],
+        "ending": [
+          "e13_u051",
+          "e13_u052"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 76.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "tortured heroine",
+      "central_conflict": "Juliana must endure brutal thorns and cruel taunts to find the lost emerald signet ring that can free Alexander from execution.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e13_u028",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 13,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e13_u053",
+      "end_unit_id": "e13_u075",
+      "hook_unit_id": "e13_u053",
+      "hook": {
+        "unit_ids": [
+          "e13_u053"
+        ],
+        "modality": "visual",
+        "description": "Alexander violently lunging past the Constable toward the briars.",
+        "evidence": "The sudden, high-energy action of a man breaking his restraints to save his partner provides an immediate, high-stakes hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e13_u075",
+      "segments": [
+        {
+          "start_unit": "e13_u053",
+          "end_unit": "e13_u075",
+          "start": 80.5,
+          "end": 118.88
+        }
+      ],
+      "start": 80.5,
+      "end": 118.88,
+      "duration": 38.38,
+      "proposer_reason": "This window focuses on the climax of the search, showing the physical toll and the final discovery of the ring.",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e13_u053",
+          "e13_u054",
+          "e13_u055"
+        ],
+        "clarity": [
+          "e13_u053",
+          "e13_u056",
+          "e13_u059",
+          "e13_u066",
+          "e13_u068"
+        ],
+        "emotion": [
+          "e13_u058",
+          "e13_u060",
+          "e13_u066",
+          "e13_u072",
+          "e13_u074"
+        ],
+        "escalation": [
+          "e13_u053",
+          "e13_u056",
+          "e13_u067",
+          "e13_u075"
+        ],
+        "ending": [
+          "e13_u075"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 6.88s (112.0-118.88)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "bloody treasure hunt",
+      "central_conflict": "Juliana must retrieve the emerald signet ring from a deadly thorn garden while Alexander fights the constable to stop her.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e13_u053",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    }
+  ],
+  "usage": {
+    "wall_s": 39.2,
+    "calls": 3,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 8010,
+    "tokens_out": 2518,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 9.3,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 29.8
+  }
+}

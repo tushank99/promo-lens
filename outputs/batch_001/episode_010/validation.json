@@ -1,0 +1,119 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e10_u003",
+      "end_unit_id": "e10_u030",
+      "hook": {
+        "unit_ids": [
+          "e10_u003"
+        ],
+        "modality": "audio",
+        "description": "A heavy wooden door suddenly creaks and bangs open.",
+        "evidence": "The sudden, jarring sound creates immediate tension and curiosity about the intruder."
+      },
+      "cliffhanger_unit_id": "e10_u030",
+      "reason": "The sudden arrival of a bloodied man followed by the reveal of his horrific scars creates high stakes and immediate emotional investment."
+    },
+    "norm": {
+      "start_unit_id": "e10_u003",
+      "end_unit_id": "e10_u030",
+      "hook": {
+        "unit_ids": [
+          "e10_u003"
+        ],
+        "modality": "audio",
+        "description": "A heavy wooden door suddenly creaks and bangs open.",
+        "evidence": "The sudden, jarring sound creates immediate tension and curiosity about the intruder."
+      },
+      "cliffhanger_unit_id": "e10_u030",
+      "reason": "The sudden arrival of a bloodied man followed by the reveal of his horrific scars creates high stakes and immediate emotional investment."
+    },
+    "ok": true,
+    "status": "review",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera shot e10_u001 (0.0-2.5) straddles a cut",
+      "camera-only stretch 3.6s (17.3-20.9)",
+      "camera-only stretch 10.1s (28.0-38.1)"
+    ],
+    "review": [
+      "straddled_action_or_sfx"
+    ],
+    "review_details": [
+      "action e10_u002 (0.0-2.2) overlaps the clip from outside the window: check the cut on footage"
+    ],
+    "hook_delay": 0.0,
+    "start": 2.1,
+    "end": 39.2,
+    "duration": 37.1,
+    "segments": [
+      {
+        "start_unit": "e10_u003",
+        "end_unit": "e10_u030",
+        "start": 2.1,
+        "end": 39.2
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e10_u031",
+      "end_unit_id": "e10_u060",
+      "hook": {
+        "unit_ids": [
+          "e10_u032"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of Juliana's trembling fingers hovering over a jagged scar.",
+        "evidence": "The intimate, vulnerable visual of the scars immediately establishes the show's romantic and dramatic tone."
+      },
+      "cliffhanger_unit_id": "e10_u060",
+      "reason": "This segment focuses on the intense, slow-burn romantic tension and the emotional confession between the two leads."
+    },
+    "norm": {
+      "start_unit_id": "e10_u031",
+      "end_unit_id": "e10_u060",
+      "hook": {
+        "unit_ids": [
+          "e10_u032"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up of Juliana's trembling fingers hovering over a jagged scar.",
+        "evidence": "The intimate, vulnerable visual of the scars immediately establishes the show's romantic and dramatic tone."
+      },
+      "cliffhanger_unit_id": "e10_u060",
+      "reason": "This segment focuses on the intense, slow-burn romantic tension and the emotional confession between the two leads."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "hook"
+    ],
+    "details": [
+      "hook e10_u032 begins 3.8s after clip start (limit 3.0s)"
+    ],
+    "warnings": [
+      "camera-only stretch 6.1s (39.2-45.3)",
+      "camera-only stretch 6.3s (57.6-63.9)",
+      "camera-only stretch 3.6s (79.0-82.6)",
+      "camera-only stretch 8.1s (85.9-94.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 3.8,
+    "start": 39.2,
+    "end": 94.0,
+    "duration": 54.8,
+    "segments": [
+      {
+        "start_unit": "e10_u031",
+        "end_unit": "e10_u060",
+        "start": 39.2,
+        "end": 94.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,73 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Learning from his mother that Rupert and Catherine framed Juliana for witchcraft and sentenced her to death right after their upcoming wedding, Alexander vows to return from the dead and reclaim everything stolen from him.
+CONTINUITY NOTES: Picking up immediately from the revelation in Episode 35 that the men ruling Ashwood orchestrated Alexander's ambush, Alexander learns of Juliana's imprisonment and looming execution.
+
+CLIP: 156.5s to 200.75s (44.25s). Units below: id | seconds from clip start | type | text.
+e36_u097 | 0.0-3.5 | CAMERA | Profile shot of Alexander as dark realization settles over his face, turning to a grim, predatory glare.
+e36_u098 | 0.3-3.3 | DIALOGUE | ALEXANDER (Simmering with Fury): "They are marrying in two days..."
+e36_u099 | 3.5-6.5 | CAMERA | Tight, terrifying close-up on Alexander's eyes flashing with murderous wrath.
+e36_u100 | 4.0-6.5 | DIALOGUE | ALEXANDER (Deadly, Throaty): "...and killing my wife afterward."
+e36_u101 | 6.5-10.5 | CAMERA | Medium shot as his mother urgently grabs Alexander's coat, pleading with him.
+e36_u102 | 6.7-10.3 | DIALOGUE | ALEXANDER'S MOTHER (Pleading, Terrified): "Alexander, you cannot go back there alone!"
+e36_u103 | 10.5-14.5 | CAMERA | Close-up on Alexander, towering over her, immovable and consumed by purpose.
+e36_u104 | 12.0-14.3 | DIALOGUE | ALEXANDER (Grave, Seething): "They already took my name."
+e36_u105 | 14.5-17.5 | CAMERA | Close-up on Alexander stepping forward, his voice rising with lethal thunder.
+e36_u106 | 15.1-17.1 | DIALOGUE | ALEXANDER (Roaring with Conviction): "They stole my home!"
+e36_u107 | 17.5-20.5 | CAMERA | Tight close-up on his furious, bared teeth and wild eyes.
+e36_u108 | 17.7-20.3 | DIALOGUE | ALEXANDER (Venomous): "And now they have taken Juliana!"
+e36_u109 | 20.5-23.0 | ACTION | Close-up of Alexander's gloved hand clenching into a tight, leather-creaking fist.
+e36_u110 | 21.0-22.7 | SFX | The sharp, taut creak of leather straining under monstrous grip strength.
+e36_u111 | 23.0-27.5 | CAMERA | Tracking shot following Alexander as he turns his back on the warmth of the cabin and walks boldly toward the open double barn doors.
+e36_u112 | 23.5-27.5 | ACTION | Alexander stands framed in the doorway, staring out into the vast, snow-covered pine forest under the cold moonlight.
+e36_u113 | 25.5-27.0 | DIALOGUE | ALEXANDER (Calm, Chilling): "Two days."
+e36_u114 | 27.5-31.5 | CAMERA | Medium shot from inside the cabin, showing his mother clutching her chest, looking after Alexander's imposing silhouette standing at the threshold of the blizzard.
+e36_u115 | 28.0-31.3 | DIALOGUE | ALEXANDER (Vow of Vengeance): "Then they have two days to celebrate."
+e36_u116 | 31.5-36.0 | CAMERA | Side profile close-up on Alexander as his breath fogs into the icy winter night air, his jaw clenched tight.
+e36_u117 | 33.0-35.7 | DIALOGUE | ALEXANDER (Low, Menacing Promise): "Because before that wedding begins..."
+e36_u118 | 36.0-44.2 | CAMERA | Tight side profile close-up of Alexander's battle-scarred cheek and burning gaze as he makes his final declaration.
+e36_u119 | 36.5-40.3 | DIALOGUE | ALEXANDER (Cold, Thunderous Finale): "...their dead Duke is coming home."
+e36_u120 | 40.5-44.2 | ACTION | Alexander stares resolutely ahead into the dark, snowy woods as the camera holds on his grim, determined expression before cutting to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

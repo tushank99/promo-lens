@@ -1,0 +1,159 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e19_u026",
+      "end_unit_id": "e19_u050",
+      "hook": {
+        "unit_ids": [
+          "e19_u026"
+        ],
+        "modality": "visual",
+        "description": "Alexander standing in a misty, fog-laden forest waiting for a secret informant.",
+        "evidence": "The atmospheric, high-stakes visual of a hidden nobleman meeting a spy immediately establishes a mystery/revenge genre."
+      },
+      "cliffhanger_unit_id": "e19_u050",
+      "reason": "This sequence reveals the protagonist's secret identity and his vow to reclaim his stolen dukedom from usurpers."
+    },
+    "norm": {
+      "start_unit_id": "e19_u026",
+      "end_unit_id": "e19_u050",
+      "hook": {
+        "unit_ids": [
+          "e19_u026"
+        ],
+        "modality": "visual",
+        "description": "Alexander standing in a misty, fog-laden forest waiting for a secret informant.",
+        "evidence": "The atmospheric, high-stakes visual of a hidden nobleman meeting a spy immediately establishes a mystery/revenge genre."
+      },
+      "cliffhanger_unit_id": "e19_u050",
+      "reason": "This sequence reveals the protagonist's secret identity and his vow to reclaim his stolen dukedom from usurpers."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 41.5,
+    "end": 89.5,
+    "duration": 48.0,
+    "segments": [
+      {
+        "start_unit": "e19_u026",
+        "end_unit": "e19_u050",
+        "start": 41.5,
+        "end": 89.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e19_u001",
+      "end_unit_id": "e19_u025",
+      "hook": {
+        "unit_ids": [
+          "e19_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana and Alexander standing amidst the smoldering, charred ruins of their home.",
+        "evidence": "The immediate visual of total destruction and loss creates instant empathy and curiosity about how they survived."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This captures the emotional aftermath of the fire and the kindness of the villagers, grounding the story in human stakes."
+    },
+    "norm": {
+      "start_unit_id": "e19_u001",
+      "end_unit_id": "e19_u025",
+      "hook": {
+        "unit_ids": [
+          "e19_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana and Alexander standing amidst the smoldering, charred ruins of their home.",
+        "evidence": "The immediate visual of total destruction and loss creates instant empathy and curiosity about how they survived."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This captures the emotional aftermath of the fire and the kindness of the villagers, grounding the story in human stakes."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 0.0,
+    "end": 41.5,
+    "duration": 41.5,
+    "segments": [
+      {
+        "start_unit": "e19_u001",
+        "end_unit": "e19_u025",
+        "start": 0.0,
+        "end": 41.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e19_u051",
+      "end_unit_id": "e19_u063",
+      "hook": {
+        "unit_ids": [
+          "e19_u051"
+        ],
+        "modality": "visual",
+        "description": "Juliana sitting alone in a dark, moonlit barn, clutching a charred book.",
+        "evidence": "The contrast between the dark, lonely setting and the glowing lantern creates a poignant, intimate mood that draws viewers into their struggle."
+      },
+      "cliffhanger_unit_id": "e19_u063",
+      "reason": "This highlights the romantic tension and the couple's shared resolve to rebuild their lives from nothing."
+    },
+    "norm": {
+      "start_unit_id": "e19_u051",
+      "end_unit_id": "e19_u063",
+      "hook": {
+        "unit_ids": [
+          "e19_u051"
+        ],
+        "modality": "visual",
+        "description": "Juliana sitting alone in a dark, moonlit barn, clutching a charred book.",
+        "evidence": "The contrast between the dark, lonely setting and the glowing lantern creates a poignant, intimate mood that draws viewers into their struggle."
+      },
+      "cliffhanger_unit_id": "e19_u063",
+      "reason": "This highlights the romantic tension and the couple's shared resolve to rebuild their lives from nothing."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "cliffhanger"
+    ],
+    "details": [
+      "cliffhanger e19_u063 starts at 112.5s, before the final 20% of the clip (113.6s)"
+    ],
+    "warnings": [
+      "camera-only stretch 7.7s (89.5-97.2)",
+      "camera-only stretch 7.13s (112.5-119.63)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 89.5,
+    "end": 119.63,
+    "duration": 30.13,
+    "segments": [
+      {
+        "start_unit": "e19_u051",
+        "end_unit": "e19_u063",
+        "start": 89.5,
+        "end": 119.63
+      }
+    ]
+  }
+]

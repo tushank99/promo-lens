@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "44e24d2012ac14ac",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.9,
+    "secs": 2.33,
+    "tokens_in": 3222,
+    "tokens_out": 199
+  },
+  "asked_for": [
+    "c02"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e12_u033",
+        "end_unit_id": "e12_u055",
+        "hook": {
+          "unit_ids": [
+            "e12_u033"
+          ],
+          "modality": "visual",
+          "description": "Clarissa pacing while delivering a sadistic ultimatum.",
+          "evidence": "The camera captures Clarissa's predatory movement and theatrical delivery immediately at the start of the window."
+        },
+        "cliffhanger_unit_id": "e12_u055",
+        "reason": "The window captures the full arc of the ultimatum and the protagonist's final, desperate decision to sacrifice herself."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

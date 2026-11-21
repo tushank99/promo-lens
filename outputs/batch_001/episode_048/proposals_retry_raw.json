@@ -1,0 +1,46 @@
+{
+  "prompt_hash": "cd38bce55c6ec534",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 1.1,
+    "secs": 2.05,
+    "tokens_in": 3556,
+    "tokens_out": 291,
+    "checkpoint": true
+  },
+  "asked_for": [
+    "c02",
+    "c03"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e48_u021",
+        "end_unit_id": "e48_u043",
+        "hook": {
+          "unit_ids": [
+            "e48_u021"
+          ],
+          "modality": "visual",
+          "description": "Catherine aggressively grabs Agnes, establishing a power dynamic shift.",
+          "evidence": "The action unit e48_u021 begins at 34.0s, which is within 3 seconds of the window start at 34.0s."
+        },
+        "cliffhanger_unit_id": "e48_u043",
+        "reason": "This window captures the full arc of the scheme from the physical confrontation to the final ominous shot, meeting the duration and cliffhanger requirements."
+      },
+      {
+        "retry_of": "c03",
+        "give_up": true,
+        "reason": "The remaining units from e48_u035 to e48_u043 total only 19 seconds, which is below the 20-second minimum requirement."
+      }
+    ]
+  },
+  "declined": {
+    "c03": "The remaining units from e48_u035 to e48_u043 total only 19 seconds, which is below the 20-second minimum requirement."
+  },
+  "ignored": []
+}

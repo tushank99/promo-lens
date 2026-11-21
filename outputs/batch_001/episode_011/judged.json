@@ -1,0 +1,138 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "6c5df2eeecf72e87",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 13.3,
+      "secs": 2.98,
+      "tokens_in": 1936,
+      "tokens_out": 1199
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e11_u005",
+          "e11_u006"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e11_u011",
+          "e11_u016",
+          "e11_u030"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e11_u009",
+          "e11_u014",
+          "e11_u016",
+          "e11_u028",
+          "e11_u030"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e11_u005",
+          "e11_u016",
+          "e11_u028",
+          "e11_u030",
+          "e11_u032"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e11_u032"
+        ]
+      },
+      "hook_unit_id": "e11_u005",
+      "hook_type": "visual_shock",
+      "emotion_type": "rage",
+      "trope": "accusation showdown",
+      "central_conflict": "Gerald accuses Alexander of stealing his gold pocket watch, threatening Juliana and the newlyweds.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "a8d89ddcc152a1b7",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.0,
+      "secs": 2.95,
+      "tokens_in": 2369,
+      "tokens_out": 974
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e11_u048",
+          "e11_u049",
+          "e11_u050"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e11_u060",
+          "e11_u061",
+          "e11_u063",
+          "e11_u069",
+          "e11_u078"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e11_u052",
+          "e11_u055",
+          "e11_u058",
+          "e11_u059",
+          "e11_u064",
+          "e11_u065",
+          "e11_u080",
+          "e11_u082"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e11_u048",
+          "e11_u050",
+          "e11_u060",
+          "e11_u069",
+          "e11_u078",
+          "e11_u083",
+          "e11_u085"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e11_u085"
+        ]
+      },
+      "hook_unit_id": "e11_u048",
+      "hook_type": "slap_or_violence",
+      "emotion_type": "heartbreak",
+      "trope": "framed bride",
+      "central_conflict": "Gerald frames Alexander for theft by planting a gold watch, endangering Juliana’s hopes and the newlyweds’ future.",
+      "spoils_main_twist": true
+    }
+  }
+]

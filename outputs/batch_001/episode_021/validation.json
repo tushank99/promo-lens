@@ -1,0 +1,106 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e21_u003",
+      "end_unit_id": "e21_u025",
+      "hook": {
+        "unit_ids": [
+          "e21_u003"
+        ],
+        "modality": "audio",
+        "description": "A loud wooden slam as the barn doors fly open.",
+        "evidence": "The sudden, violent sound immediately disrupts the quiet atmosphere and signals an urgent crisis."
+      },
+      "cliffhanger_unit_id": "e21_u025",
+      "reason": "This segment establishes the high-stakes medical emergency and the class conflict between the village and the manor."
+    },
+    "norm": {
+      "start_unit_id": "e21_u003",
+      "end_unit_id": "e21_u025",
+      "hook": {
+        "unit_ids": [
+          "e21_u003"
+        ],
+        "modality": "audio",
+        "description": "A loud wooden slam as the barn doors fly open.",
+        "evidence": "The sudden, violent sound immediately disrupts the quiet atmosphere and signals an urgent crisis."
+      },
+      "cliffhanger_unit_id": "e21_u025",
+      "reason": "This segment establishes the high-stakes medical emergency and the class conflict between the village and the manor."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 3.5,
+    "end": 40.5,
+    "duration": 37.0,
+    "segments": [
+      {
+        "start_unit": "e21_u003",
+        "end_unit": "e21_u025",
+        "start": 3.5,
+        "end": 40.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e21_u063",
+      "end_unit_id": "e21_u076",
+      "hook": {
+        "unit_ids": [
+          "e21_u063"
+        ],
+        "modality": "visual",
+        "description": "Prudence's expression darkening with anger as she speaks about the manor.",
+        "evidence": "The shift from relief to intense, ominous resentment creates immediate intrigue about the secret illness."
+      },
+      "cliffhanger_unit_id": "e21_u076",
+      "reason": "This moment pivots from a successful cure to a dark, dangerous secret regarding the Dowager Duchess."
+    },
+    "norm": {
+      "start_unit_id": "e21_u063",
+      "end_unit_id": "e21_u076",
+      "hook": {
+        "unit_ids": [
+          "e21_u063"
+        ],
+        "modality": "visual",
+        "description": "Prudence's expression darkening with anger as she speaks about the manor.",
+        "evidence": "The shift from relief to intense, ominous resentment creates immediate intrigue about the secret illness."
+      },
+      "cliffhanger_unit_id": "e21_u076",
+      "reason": "This moment pivots from a successful cure to a dark, dangerous secret regarding the Dowager Duchess."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "cliffhanger"
+    ],
+    "details": [
+      "cliffhanger e21_u076 starts at 108.5s, before the final 20% of the clip (109.4s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 91.0,
+    "end": 114.0,
+    "duration": 23.0,
+    "segments": [
+      {
+        "start_unit": "e21_u063",
+        "end_unit": "e21_u076",
+        "start": 91.0,
+        "end": 114.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e22_u001",
+      "end_unit_id": "e22_u023",
+      "hook": {
+        "unit_ids": [
+          "e22_u001"
+        ],
+        "modality": "visual",
+        "description": "Lady Juliana disguised as a maid sneaking into the gothic Ashbury Manor.",
+        "evidence": "The visual contrast of an aristocrat in rags infiltrating a dangerous manor creates immediate intrigue."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "Establishes the high-stakes mission and the dangerous disguise of the protagonist."
+    },
+    "norm": {
+      "start_unit_id": "e22_u001",
+      "end_unit_id": "e22_u023",
+      "hook": {
+        "unit_ids": [
+          "e22_u001"
+        ],
+        "modality": "visual",
+        "description": "Lady Juliana disguised as a maid sneaking into the gothic Ashbury Manor.",
+        "evidence": "The visual contrast of an aristocrat in rags infiltrating a dangerous manor creates immediate intrigue."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "Establishes the high-stakes mission and the dangerous disguise of the protagonist."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 0.0,
+    "end": 42.8,
+    "duration": 42.8,
+    "segments": [
+      {
+        "start_unit": "e22_u001",
+        "end_unit": "e22_u023",
+        "start": 0.0,
+        "end": 42.8
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e22_u042",
+      "end_unit_id": "e22_u054",
+      "hook": {
+        "unit_ids": [
+          "e22_u043"
+        ],
+        "modality": "spoken",
+        "description": "The Housekeeper menacingly asks if Juliana can keep her eyes and ears where they belong.",
+        "evidence": "The immediate threat of discovery creates high tension for a new viewer."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "Focuses on the immediate danger of being caught by the suspicious Housekeeper."
+    },
+    "norm": {
+      "start_unit_id": "e22_u042",
+      "end_unit_id": "e22_u054",
+      "hook": {
+        "unit_ids": [
+          "e22_u043"
+        ],
+        "modality": "spoken",
+        "description": "The Housekeeper menacingly asks if Juliana can keep her eyes and ears where they belong.",
+        "evidence": "The immediate threat of discovery creates high tension for a new viewer."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "Focuses on the immediate danger of being caught by the suspicious Housekeeper."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 1.8,
+    "start": 64.2,
+    "end": 88.5,
+    "duration": 24.3,
+    "segments": [
+      {
+        "start_unit": "e22_u042",
+        "end_unit": "e22_u054",
+        "start": 64.2,
+        "end": 88.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e22_u063",
+      "end_unit_id": "e22_u081",
+      "hook": {
+        "unit_ids": [
+          "e22_u063"
+        ],
+        "modality": "visual",
+        "description": "Juliana standing outside the forbidden West Wing door, checking for observers.",
+        "evidence": "The forbidden nature of the location and the stealthy approach hook the viewer instantly."
+      },
+      "cliffhanger_unit_id": "e22_u081",
+      "reason": "Delivers the core mystery of the poisoned Duchess and the suspense of the infiltration."
+    },
+    "norm": {
+      "start_unit_id": "e22_u063",
+      "end_unit_id": "e22_u081",
+      "hook": {
+        "unit_ids": [
+          "e22_u063"
+        ],
+        "modality": "visual",
+        "description": "Juliana standing outside the forbidden West Wing door, checking for observers.",
+        "evidence": "The forbidden nature of the location and the stealthy approach hook the viewer instantly."
+      },
+      "cliffhanger_unit_id": "e22_u081",
+      "reason": "Delivers the core mystery of the poisoned Duchess and the suspense of the infiltration."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 3.5s (102.0-105.5)",
+      "camera-only stretch 3.2s (119.8-123.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 102.0,
+    "end": 131.0,
+    "duration": 29.0,
+    "segments": [
+      {
+        "start_unit": "e22_u063",
+        "end_unit": "e22_u081",
+        "start": 102.0,
+        "end": 131.0
+      }
+    ]
+  }
+]

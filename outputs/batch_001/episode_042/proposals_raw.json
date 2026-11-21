@@ -1,0 +1,48 @@
+{
+  "episode": 42,
+  "prompt_hash": "8aa9be2e9cd3c749",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.9,
+    "secs": 3.2,
+    "tokens_in": 2664,
+    "tokens_out": 342,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e42_u009",
+        "end_unit_id": "e42_u023",
+        "hook": {
+          "unit_ids": [
+            "e42_u009"
+          ],
+          "modality": "visual",
+          "description": "Rupert furiously pointing at Alexander while guards refuse to arrest him.",
+          "evidence": "The immediate conflict and the shock of the guards defying the antagonist creates instant tension."
+        },
+        "cliffhanger_unit_id": "e42_u023",
+        "reason": "The confrontation between the usurper and the guards establishes the power shift and the central conflict."
+      },
+      {
+        "start_unit_id": "e42_u024",
+        "end_unit_id": "e42_u037",
+        "hook": {
+          "unit_ids": [
+            "e42_u024"
+          ],
+          "modality": "visual",
+          "description": "Alexander's mother stepping into the aisle with trembling awe.",
+          "evidence": "The emotional weight of a mother recognizing her long-lost son provides a strong, character-driven hook."
+        },
+        "cliffhanger_unit_id": "e42_u037",
+        "reason": "This segment captures the emotional climax and the transition to the final act of vengeance."
+      }
+    ]
+  },
+  "note": null
+}

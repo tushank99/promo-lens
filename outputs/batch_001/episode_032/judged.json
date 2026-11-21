@@ -1,0 +1,15 @@
+[
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "4cd40793fdd021ba",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "failed": true,
+      "quota_exhausted": true
+    },
+    "raw": null,
+    "error": "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set",
+    "error_kind": "judge_failed"
+  }
+]

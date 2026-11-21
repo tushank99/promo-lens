@@ -1,0 +1,243 @@
+{
+  "episode": 48,
+  "logline": "While feigning submission after her public humiliation, Catherine schemes in secret, plotting to use the council's ten-day reprieve to strike back at Alexander and Juliana with the aid of Father Thomas.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 2,
+    "rejected_at_judge": 2,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 1,
+    "retry_recovered": 0,
+    "judge_failed": 2,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 48,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e48_u001",
+      "end_unit_id": "e48_u014",
+      "hook_unit_id": "e48_u002",
+      "hook": {
+        "unit_ids": [
+          "e48_u002"
+        ],
+        "modality": "visual",
+        "description": "Catherine gazes out a dark window before turning with a cold, venomous smirk.",
+        "evidence": "The immediate shift from a silhouette to a predatory, knowing smirk establishes a high-stakes villain protagonist.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e48_u014",
+      "segments": [
+        {
+          "start_unit": "e48_u001",
+          "end_unit": "e48_u014",
+          "start": 0.0,
+          "end": 26.7
+        }
+      ],
+      "start": 0.0,
+      "end": 26.7,
+      "duration": 26.7,
+      "proposer_reason": "This clip establishes the protagonist's secret plot to reclaim her power after a public humiliation.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 48,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e48_u018",
+      "end_unit_id": "e48_u029",
+      "hook_unit_id": "e48_u018",
+      "hook": {
+        "unit_ids": [
+          "e48_u018"
+        ],
+        "modality": "spoken",
+        "description": "Catherine commands her maid to lock the door.",
+        "evidence": "The sudden shift to secrecy and the locking of the door creates immediate tension and curiosity about what is being hidden.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e48_u029",
+      "segments": [
+        {
+          "start_unit": "e48_u018",
+          "end_unit": "e48_u029",
+          "start": 30.9,
+          "end": 51.5
+        }
+      ],
+      "start": 30.9,
+      "end": 51.5,
+      "duration": 20.6,
+      "proposer_reason": "It highlights the protagonist's transition from public victim to private mastermind.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e48_u029 starts at 47.0s, before the final 20% of the clip (47.38s)"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 48,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": "The remaining units from e48_u035 to e48_u043 total only 19 seconds, which is below the 20-second minimum requirement.",
+      "start_unit_id": "e48_u035",
+      "end_unit_id": "e48_u043",
+      "hook_unit_id": "e48_u035",
+      "hook": {
+        "unit_ids": [
+          "e48_u035"
+        ],
+        "modality": "visual",
+        "description": "Catherine spins around with a terrifyingly firm expression.",
+        "evidence": "The intense close-up on her face signals a shift to a dangerous, decisive action.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e48_u043",
+      "segments": [
+        {
+          "start_unit": "e48_u035",
+          "end_unit": "e48_u043",
+          "start": 61.0,
+          "end": 80.0
+        }
+      ],
+      "start": 61.0,
+      "end": 80.0,
+      "duration": 19.0,
+      "proposer_reason": "The scene shows the protagonist setting her plan in motion, leaving the viewer wondering if she will succeed.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 6.6s (73.4-80.0)"
+      ],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "19.0s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 48,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e48_u021",
+      "end_unit_id": "e48_u043",
+      "hook_unit_id": "e48_u021",
+      "hook": {
+        "unit_ids": [
+          "e48_u021"
+        ],
+        "modality": "visual",
+        "description": "Catherine aggressively grabs Agnes, establishing a power dynamic shift.",
+        "evidence": "The action unit e48_u021 begins at 34.0s, which is within 3 seconds of the window start at 34.0s.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e48_u043",
+      "segments": [
+        {
+          "start_unit": "e48_u021",
+          "end_unit": "e48_u043",
+          "start": 34.0,
+          "end": 80.0
+        }
+      ],
+      "start": 34.0,
+      "end": 80.0,
+      "duration": 46.0,
+      "proposer_reason": "This window captures the full arc of the scheme from the physical confrontation to the final ominous shot, meeting the duration and cliffhanger requirements.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera-only stretch 6.6s (73.4-80.0)"
+      ],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 2,
+    "tokens_in": 6554,
+    "tokens_out": 802,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 4.9,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 2,
+    "judge_failed": 2,
+    "waited_s": 2.9
+  }
+}

@@ -1,0 +1,167 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e40_u012",
+      "end_unit_id": "e40_u017",
+      "hook": {
+        "unit_ids": [
+          "e40_u012"
+        ],
+        "modality": "spoken",
+        "description": "Lady Harrington tauntingly asks, 'Imagine Juliana seeing this.'",
+        "evidence": "The immediate mention of a victim and a cruel plot establishes high stakes and immediate conflict."
+      },
+      "cliffhanger_unit_id": "e40_u017",
+      "reason": "The dialogue establishes a clear villainous plot against a specific target, creating immediate intrigue."
+    },
+    "norm": {
+      "start_unit_id": "e40_u012",
+      "end_unit_id": "e40_u017",
+      "hook": {
+        "unit_ids": [
+          "e40_u012"
+        ],
+        "modality": "spoken",
+        "description": "Lady Harrington tauntingly asks, 'Imagine Juliana seeing this.'",
+        "evidence": "The immediate mention of a victim and a cruel plot establishes high stakes and immediate conflict."
+      },
+      "cliffhanger_unit_id": "e40_u017",
+      "reason": "The dialogue establishes a clear villainous plot against a specific target, creating immediate intrigue."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "11.0s is under the 20s minimum"
+    ],
+    "warnings": [
+      "camera shot e40_u011 (23.0-26.2) straddles a cut"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 23.2,
+    "end": 34.2,
+    "duration": 11.0,
+    "segments": [
+      {
+        "start_unit": "e40_u012",
+        "end_unit": "e40_u017",
+        "start": 23.2,
+        "end": 34.2
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e40_u031",
+      "end_unit_id": "e40_u038",
+      "hook": {
+        "unit_ids": [
+          "e40_u031"
+        ],
+        "modality": "visual",
+        "description": "A Royal Guard bows to an elder nobleman while discussing the sealing of all exits.",
+        "evidence": "The visual of a guard confirming a lockdown creates an immediate sense of danger and conspiracy."
+      },
+      "cliffhanger_unit_id": "e40_u038",
+      "reason": "The cold declaration that the 'witch' will be dead by sunset provides a high-stakes ticking clock."
+    },
+    "norm": {
+      "start_unit_id": "e40_u031",
+      "end_unit_id": "e40_u038",
+      "hook": {
+        "unit_ids": [
+          "e40_u031"
+        ],
+        "modality": "visual",
+        "description": "A Royal Guard bows to an elder nobleman while discussing the sealing of all exits.",
+        "evidence": "The visual of a guard confirming a lockdown creates an immediate sense of danger and conspiracy."
+      },
+      "cliffhanger_unit_id": "e40_u038",
+      "reason": "The cold declaration that the 'witch' will be dead by sunset provides a high-stakes ticking clock."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration",
+      "cliffhanger"
+    ],
+    "details": [
+      "14.7s is under the 20s minimum",
+      "cliffhanger e40_u038 starts at 74.8s, before the final 20% of the clip (75.56s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 63.8,
+    "end": 78.5,
+    "duration": 14.7,
+    "segments": [
+      {
+        "start_unit": "e40_u031",
+        "end_unit": "e40_u038",
+        "start": 63.8,
+        "end": 78.5
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e40_u042",
+      "end_unit_id": "e40_u051",
+      "hook": {
+        "unit_ids": [
+          "e40_u042"
+        ],
+        "modality": "visual",
+        "description": "Catherine silhouetted in the bright doorway in a magnificent bridal gown.",
+        "evidence": "The visual contrast of the bride entering the cathedral is a classic, high-production-value hook."
+      },
+      "cliffhanger_unit_id": "e40_u051",
+      "reason": "The contrast between the beautiful wedding and the conspiratorial dialogue between the couple highlights the show's theme of betrayal."
+    },
+    "norm": {
+      "start_unit_id": "e40_u042",
+      "end_unit_id": "e40_u051",
+      "hook": {
+        "unit_ids": [
+          "e40_u042"
+        ],
+        "modality": "visual",
+        "description": "Catherine silhouetted in the bright doorway in a magnificent bridal gown.",
+        "evidence": "The visual contrast of the bride entering the cathedral is a classic, high-production-value hook."
+      },
+      "cliffhanger_unit_id": "e40_u051",
+      "reason": "The contrast between the beautiful wedding and the conspiratorial dialogue between the couple highlights the show's theme of betrayal."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 9.5s (82.5-92.0)",
+      "camera-only stretch 5.8s (94.2-100.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 82.5,
+    "end": 110.08,
+    "duration": 27.58,
+    "segments": [
+      {
+        "start_unit": "e40_u042",
+        "end_unit": "e40_u051",
+        "start": 82.5,
+        "end": 110.08
+      }
+    ]
+  }
+]

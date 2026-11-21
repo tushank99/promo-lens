@@ -1,0 +1,72 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Catherine enters the wet cells armed with a red-hot iron and Juliana's late mother's botanical book, subjecting the chained heiress to ruthless psychological torment until Juliana's unyielding pride pushes Catherine to a violent brink.
+CONTINUITY NOTES: Follows directly from Episode 30 where Rupert and Catherine plotted to frame Juliana as a witch while Juliana huddled chained in the subterranean dungeon.
+
+CLIP: 118.2s to 160.0s (41.8s). Units below: id | seconds from clip start | type | text.
+e31_u065 | 0.0-4.3 | CAMERA | Tight close-up of Juliana's face, tilting her head with an insightful, knowing smirk.
+e31_u066 | 0.2-3.8 | DIALOGUE | JULIANA (Piercing, Provocative): "Then why are you so desperate to make me kneel?"
+e31_u067 | 3.8-5.8 | ACTION | Catherine's smug expression freezes, her eyes widening in momentary shock and fury as the blow lands squarely.
+e31_u068 | 5.8-12.6 | CAMERA | Low-angle medium shot of Juliana, her voice ringing clearly through the subterranean chamber.
+e31_u069 | 6.0-12.3 | DIALOGUE | JULIANA (Accusatory, Commanding): "If you were truly powerful, Catherine, you wouldn't need me to bow."
+e31_u070 | 12.6-14.8 | CAMERA | Close-up of Catherine completely losing control, her aristocratic facade shattering into sheer rage.
+e31_u071 | 12.8-14.6 | DIALOGUE | CATHERINE (Enraged Scream): "Enough!"
+e31_u072 | 14.8-16.3 | CAMERA | Close-up of the red-hot poker pressing directly down into the delicate open pages of the botanical book.
+e31_u073 | 15.0-16.3 | SFX | Hiss of scorched parchment and curling white smoke rising as paper blackens under extreme heat.
+e31_u074 | 16.3-19.8 | CAMERA | Medium two-shot. Catherine holds the smoldering book right before Juliana's face.
+e31_u075 | 16.3-19.8 | DIALOGUE | CATHERINE (Hateful, Malicious): "This pathetic book is the only thing you still have from your mother."
+e31_u076 | 19.8-22.3 | CAMERA | Extreme close-up of Juliana, her emotional composure breaking into pure grief and panic.
+e31_u077 | 19.8-22.3 | ACTION | Tears spill rapidly down Juliana's cheeks as she reaches forward in vain, restrained by her heavy iron chains.
+e31_u078 | 20.2-22.2 | DIALOGUE | JULIANA (Desperate, Weeping): "[gasping] Give it back!"
+e31_u079 | 22.3-25.6 | CAMERA | Low-angle shot of Catherine grinning with sadistic triumph, looking down at Juliana's despair.
+e31_u080 | 22.5-25.6 | DIALOGUE | CATHERINE (Gloating, Sadistic): "There. Finally. Something still hurts you."
+e31_u081 | 25.6-27.3 | CAMERA | Close-up of Juliana screaming out in absolute anguish.
+e31_u082 | 25.8-27.3 | DIALOGUE | JULIANA (Screaming, Agonized): "No!"
+e31_u083 | 27.3-33.0 | CAMERA | Medium close-up of Catherine slowly driving the glowing branding tip into the spine of the open book, watching the embers consume the pages.
+e31_u084 | 27.4-33.0 | DIALOGUE | CATHERINE (Vicious, Final): "One flame, and your mother's life's work becomes ash."
+e31_u085 | 33.0-37.0 | CAMERA | Low-angle medium shot. Catherine lowers the charred book and suddenly swings the glowing orange iron tip straight up toward Juliana's face.
+e31_u086 | 33.3-37.0 | ACTION | Juliana recoils back against the hard dungeon wall, gasping for breath in raw terror as the searing iron stops inches from her eyes.
+e31_u087 | 37.0-41.8 | CAMERA | Extreme macro close-up of Juliana's wide, trembling eye. The brilliant orange ember of the hot poker reflects clearly in the center of her pupil, holding on the terrifying cliffhanger before an abrupt cut.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

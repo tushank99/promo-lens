@@ -1,0 +1,38 @@
+{
+  "prompt_hash": "f3648ab165f6ea8c",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.8,
+    "secs": 2.67,
+    "tokens_in": 2464,
+    "tokens_out": 210,
+    "checkpoint": true
+  },
+  "asked_for": [
+    "c01"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c01",
+        "start_unit_id": "e42_u009",
+        "end_unit_id": "e42_u026",
+        "hook": {
+          "unit_ids": [
+            "e42_u009"
+          ],
+          "modality": "visual",
+          "description": "Rupert furiously pointing at Alexander, establishing the immediate conflict.",
+          "evidence": "The unit starts at 17.9s, which is the start of the window."
+        },
+        "cliffhanger_unit_id": "e42_u026",
+        "reason": "The window ends on the emotional reunion action, fitting the cliffhanger requirement within the final 20% of the 29.1s duration."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

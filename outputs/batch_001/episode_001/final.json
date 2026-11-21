@@ -1,0 +1,569 @@
+{
+  "episode": 1,
+  "logline": "Lady Juliana arrives at the cathedral in her late mother's bridal gown, only to suffer the ultimate betrayal when her fiancé Gerald abandons her at the altar for her cruel sister Clarissa with her family's full blessing.",
+  "counts": {
+    "proposed": 3,
+    "rejected_at_validation": 0,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 3,
+    "retried": 0,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c02",
+      "episode": 1,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e01_u031",
+      "end_unit_id": "e01_u052",
+      "hook_unit_id": "e01_u032",
+      "hook": {
+        "unit_ids": [
+          "e01_u032"
+        ],
+        "modality": "spoken",
+        "description": "Juliana confronts her fiancé and sister, realizing they conspired to humiliate her.",
+        "evidence": "The raw emotional accusation immediately draws the viewer into the high-stakes betrayal.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e01_u052",
+      "segments": [
+        {
+          "start_unit": "e01_u031",
+          "end_unit": "e01_u052",
+          "start": 46.8,
+          "end": 79.0
+        }
+      ],
+      "start": 46.8,
+      "end": 79.0,
+      "duration": 32.2,
+      "proposer_reason": "Focuses on the emotional fallout and the cruel confirmation of the conspiracy between the sister and the groom.",
+      "hook_type": "accusation",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e01_u031",
+          "e01_u032"
+        ],
+        "clarity": [
+          "e01_u032",
+          "e01_u041",
+          "e01_u043",
+          "e01_u045"
+        ],
+        "emotion": [
+          "e01_u036",
+          "e01_u042",
+          "e01_u043",
+          "e01_u045"
+        ],
+        "escalation": [
+          "e01_u032",
+          "e01_u041",
+          "e01_u045",
+          "e01_u047",
+          "e01_u052"
+        ],
+        "ending": [
+          "e01_u052"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "betrayed bride",
+      "central_conflict": "Lady Juliana confronts her fiancé Gerald and her sister, who have conspired to abandon her at the altar.",
+      "ending_type": "payoff",
+      "judge_hook_unit_id": "e01_u032",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c01",
+      "episode": 1,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e01_u001",
+      "end_unit_id": "e01_u029",
+      "hook_unit_id": "e01_u001",
+      "hook": {
+        "unit_ids": [
+          "e01_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana enters the cathedral in a bridal gown, only to see her fiancé holding another woman's hand at the altar.",
+        "evidence": "The immediate visual contrast between a bride's arrival and the shocking betrayal at the altar creates instant narrative tension.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e01_u029",
+      "segments": [
+        {
+          "start_unit": "e01_u001",
+          "end_unit": "e01_u029",
+          "start": 0.0,
+          "end": 43.9
+        }
+      ],
+      "start": 0.0,
+      "end": 43.9,
+      "duration": 43.9,
+      "proposer_reason": "This clip establishes the core conflict of the series: the public humiliation and abandonment of the protagonist at her own wedding.",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e01_u001",
+          "e01_u002"
+        ],
+        "clarity": [
+          "e01_u006",
+          "e01_u008",
+          "e01_u013",
+          "e01_u025"
+        ],
+        "emotion": [
+          "e01_u014",
+          "e01_u015",
+          "e01_u022",
+          "e01_u028"
+        ],
+        "escalation": [
+          "e01_u004",
+          "e01_u008",
+          "e01_u018",
+          "e01_u025",
+          "e01_u028"
+        ],
+        "ending": [
+          "e01_u026",
+          "e01_u027",
+          "e01_u028"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 4.0s (29.8-33.8)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "betrayed bride",
+      "central_conflict": "Juliana discovers her fiancé Gerald has abandoned her at the altar for her sister Clarissa, backed by their family.",
+      "ending_type": "payoff",
+      "judge_hook_unit_id": "e01_u001",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 1,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e01_u066",
+      "end_unit_id": "e01_u095",
+      "hook_unit_id": "e01_u067",
+      "hook": {
+        "unit_ids": [
+          "e01_u067"
+        ],
+        "modality": "spoken",
+        "description": "Juliana is told by her own family that she is a burden and her sister is the 'jewel' worth protecting.",
+        "evidence": "The verbal abuse from the family creates a strong 'underdog' hook that makes the viewer root for the protagonist's eventual revenge.",
+        "delay_s": 0.4
+      },
+      "cliffhanger_unit_id": "e01_u095",
+      "segments": [
+        {
+          "start_unit": "e01_u066",
+          "end_unit": "e01_u095",
+          "start": 95.8,
+          "end": 138.0
+        }
+      ],
+      "start": 95.8,
+      "end": 138.0,
+      "duration": 42.2,
+      "proposer_reason": "Highlights the total isolation of the protagonist and ends on her transition from heartbreak to cold, resolute defiance.",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e01_u066",
+          "e01_u067"
+        ],
+        "clarity": [
+          "e01_u069",
+          "e01_u070",
+          "e01_u073",
+          "e01_u075",
+          "e01_u079",
+          "e01_u082",
+          "e01_u084",
+          "e01_u087",
+          "e01_u089"
+        ],
+        "emotion": [
+          "e01_u073",
+          "e01_u075",
+          "e01_u076",
+          "e01_u085",
+          "e01_u092",
+          "e01_u094"
+        ],
+        "escalation": [
+          "e01_u069",
+          "e01_u070",
+          "e01_u084",
+          "e01_u087",
+          "e01_u088",
+          "e01_u089",
+          "e01_u090",
+          "e01_u092",
+          "e01_u094"
+        ],
+        "ending": [
+          "e01_u094",
+          "e01_u095"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "betrayed bride",
+      "central_conflict": "Juliana is abandoned at the altar as her family and fiancé choose her sister Clarissa, sparking a clash between the betrayed bride and her privileged sister.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e01_u066",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 3
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 1,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e01_u001",
+      "end_unit_id": "e01_u029",
+      "hook_unit_id": "e01_u001",
+      "hook": {
+        "unit_ids": [
+          "e01_u001"
+        ],
+        "modality": "visual",
+        "description": "Juliana enters the cathedral in a bridal gown, only to see her fiancé holding another woman's hand at the altar.",
+        "evidence": "The immediate visual contrast between a bride's arrival and the shocking betrayal at the altar creates instant narrative tension.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e01_u029",
+      "segments": [
+        {
+          "start_unit": "e01_u001",
+          "end_unit": "e01_u029",
+          "start": 0.0,
+          "end": 43.9
+        }
+      ],
+      "start": 0.0,
+      "end": 43.9,
+      "duration": 43.9,
+      "proposer_reason": "This clip establishes the core conflict of the series: the public humiliation and abandonment of the protagonist at her own wedding.",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e01_u001",
+          "e01_u002"
+        ],
+        "clarity": [
+          "e01_u006",
+          "e01_u008",
+          "e01_u013",
+          "e01_u025"
+        ],
+        "emotion": [
+          "e01_u014",
+          "e01_u015",
+          "e01_u022",
+          "e01_u028"
+        ],
+        "escalation": [
+          "e01_u004",
+          "e01_u008",
+          "e01_u018",
+          "e01_u025",
+          "e01_u028"
+        ],
+        "ending": [
+          "e01_u026",
+          "e01_u027",
+          "e01_u028"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [
+        "camera-only stretch 4.0s (29.8-33.8)"
+      ],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "betrayed bride",
+      "central_conflict": "Juliana discovers her fiancé Gerald has abandoned her at the altar for her sister Clarissa, backed by their family.",
+      "ending_type": "payoff",
+      "judge_hook_unit_id": "e01_u001",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 2
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 1,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e01_u031",
+      "end_unit_id": "e01_u052",
+      "hook_unit_id": "e01_u032",
+      "hook": {
+        "unit_ids": [
+          "e01_u032"
+        ],
+        "modality": "spoken",
+        "description": "Juliana confronts her fiancé and sister, realizing they conspired to humiliate her.",
+        "evidence": "The raw emotional accusation immediately draws the viewer into the high-stakes betrayal.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e01_u052",
+      "segments": [
+        {
+          "start_unit": "e01_u031",
+          "end_unit": "e01_u052",
+          "start": 46.8,
+          "end": 79.0
+        }
+      ],
+      "start": 46.8,
+      "end": 79.0,
+      "duration": 32.2,
+      "proposer_reason": "Focuses on the emotional fallout and the cruel confirmation of the conspiracy between the sister and the groom.",
+      "hook_type": "accusation",
+      "emotion_type": "rage",
+      "scores": {
+        "hook": 4,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e01_u031",
+          "e01_u032"
+        ],
+        "clarity": [
+          "e01_u032",
+          "e01_u041",
+          "e01_u043",
+          "e01_u045"
+        ],
+        "emotion": [
+          "e01_u036",
+          "e01_u042",
+          "e01_u043",
+          "e01_u045"
+        ],
+        "escalation": [
+          "e01_u032",
+          "e01_u041",
+          "e01_u045",
+          "e01_u047",
+          "e01_u052"
+        ],
+        "ending": [
+          "e01_u052"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 80.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "betrayed bride",
+      "central_conflict": "Lady Juliana confronts her fiancé Gerald and her sister, who have conspired to abandon her at the altar.",
+      "ending_type": "payoff",
+      "judge_hook_unit_id": "e01_u032",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 1,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e01_u066",
+      "end_unit_id": "e01_u095",
+      "hook_unit_id": "e01_u067",
+      "hook": {
+        "unit_ids": [
+          "e01_u067"
+        ],
+        "modality": "spoken",
+        "description": "Juliana is told by her own family that she is a burden and her sister is the 'jewel' worth protecting.",
+        "evidence": "The verbal abuse from the family creates a strong 'underdog' hook that makes the viewer root for the protagonist's eventual revenge.",
+        "delay_s": 0.4
+      },
+      "cliffhanger_unit_id": "e01_u095",
+      "segments": [
+        {
+          "start_unit": "e01_u066",
+          "end_unit": "e01_u095",
+          "start": 95.8,
+          "end": 138.0
+        }
+      ],
+      "start": 95.8,
+      "end": 138.0,
+      "duration": 42.2,
+      "proposer_reason": "Highlights the total isolation of the protagonist and ends on her transition from heartbreak to cold, resolute defiance.",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 3,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e01_u066",
+          "e01_u067"
+        ],
+        "clarity": [
+          "e01_u069",
+          "e01_u070",
+          "e01_u073",
+          "e01_u075",
+          "e01_u079",
+          "e01_u082",
+          "e01_u084",
+          "e01_u087",
+          "e01_u089"
+        ],
+        "emotion": [
+          "e01_u073",
+          "e01_u075",
+          "e01_u076",
+          "e01_u085",
+          "e01_u092",
+          "e01_u094"
+        ],
+        "escalation": [
+          "e01_u069",
+          "e01_u070",
+          "e01_u084",
+          "e01_u087",
+          "e01_u088",
+          "e01_u089",
+          "e01_u090",
+          "e01_u092",
+          "e01_u094"
+        ],
+        "ending": [
+          "e01_u094",
+          "e01_u095"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 73.3,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "betrayed bride",
+      "central_conflict": "Juliana is abandoned at the altar as her family and fiancé choose her sister Clarissa, sparking a clash between the betrayed bride and her privileged sister.",
+      "ending_type": "cliffhanger",
+      "judge_hook_unit_id": "e01_u066",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 3
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 4,
+    "cached_calls": 2,
+    "checkpoint_reused": 4,
+    "tokens_in": 7160,
+    "tokens_out": 1879,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 9.6,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 0.0
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "episode": 24,
+  "logline": "When an arrogant noblewoman catches Juliana in the poisoned Dowager Duchess's chambers, she strikes Juliana with a riding crop and sentences her to scrub the hearth, unaware that Juliana has secretly hidden the antidote and remedy journal to finish the Duchess's cure.",
+  "counts": {
+    "proposed": 3,
+    "rejected_at_validation": 1,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 2,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 24,
+      "retry_of": null,
+      "retried_as": "c01r",
+      "retry_declined": null,
+      "start_unit_id": "e24_u024",
+      "end_unit_id": "e24_u036",
+      "hook_unit_id": "e24_u024",
+      "hook": {
+        "unit_ids": [
+          "e24_u024"
+        ],
+        "modality": "visual",
+        "description": "The noblewoman strikes Juliana with a riding crop.",
+        "evidence": "Immediate physical violence and power imbalance creates instant tension.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e24_u036",
+      "segments": [
+        {
+          "start_unit": "e24_u024",
+          "end_unit": "e24_u036",
+          "start": 32.5,
+          "end": 48.5
+        }
+      ],
+      "start": 32.5,
+      "end": 48.5,
+      "duration": 16.0,
+      "proposer_reason": "The brutal assault and the noblewoman's condescending threat establish high stakes and a clear villain.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [
+        "camera shot e24_u022 (30.8-32.8) straddles a cut"
+      ],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "16.0s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 24,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e24_u041",
+      "end_unit_id": "e24_u069",
+      "hook_unit_id": "e24_u041",
+      "hook": {
+        "unit_ids": [
+          "e24_u041"
+        ],
+        "modality": "spoken",
+        "description": "The noblewoman commands Juliana to clean the hearth.",
+        "evidence": "The harsh command immediately establishes the maid's humiliation and the noblewoman's cruelty.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e24_u069",
+      "segments": [
+        {
+          "start_unit": "e24_u041",
+          "end_unit": "e24_u069",
+          "start": 53.6,
+          "end": 92.0
+        }
+      ],
+      "start": 53.6,
+      "end": 92.0,
+      "duration": 38.4,
+      "proposer_reason": "The transition from humiliation to secret defiance and the promise of revenge makes for a compelling character arc.",
+      "hook_type": "visual_shock",
+      "emotion_type": "revenge",
+      "scores": {
+        "hook": 2,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e24_u041",
+          "e24_u042"
+        ],
+        "clarity": [
+          "e24_u041",
+          "e24_u046",
+          "e24_u057",
+          "e24_u064",
+          "e24_u069"
+        ],
+        "emotion": [
+          "e24_u046",
+          "e24_u054",
+          "e24_u056",
+          "e24_u066",
+          "e24_u069"
+        ],
+        "escalation": [
+          "e24_u041",
+          "e24_u054",
+          "e24_u052",
+          "e24_u064",
+          "e24_u069"
+        ],
+        "ending": [
+          "e24_u068",
+          "e24_u069"
+        ]
+      },
+      "spoils_main_twist": true,
+      "flags": [
+        "camera shot e24_u040 (51.5-54.0) straddles a cut",
+        "spoils_main_twist"
+      ],
+      "rejection_reasons": [
+        "floor:hook<3"
+      ],
+      "final_score": 56.7,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "hidden cure",
+      "central_conflict": "A noblewoman forces Juliana to scrub the hearth as punishment while Juliana secretly hides a cure to save the Duchess.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e24_u041",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    },
+    {
+      "candidate_id": "c01r",
+      "episode": 24,
+      "retry_of": "c01",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e24_u001",
+      "end_unit_id": "e24_u036",
+      "hook_unit_id": "e24_u001",
+      "hook": {
+        "unit_ids": [
+          "e24_u001"
+        ],
+        "modality": "visual",
+        "description": "The ornate brass handle of the chamber door turns slowly, signaling an intruder.",
+        "evidence": "The unit begins at 0.0s, perfectly capturing the suspenseful entry.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e24_u036",
+      "segments": [
+        {
+          "start_unit": "e24_u001",
+          "end_unit": "e24_u036",
+          "start": 0.0,
+          "end": 48.5
+        }
+      ],
+      "start": 0.0,
+      "end": 48.5,
+      "duration": 48.5,
+      "proposer_reason": "The full scene duration of 48.5 seconds satisfies the 20-60s requirement while maintaining the narrative arc.",
+      "hook_type": "reveal",
+      "emotion_type": "humiliation",
+      "scores": {
+        "hook": 2,
+        "clarity": 4,
+        "emotion": 4,
+        "escalation": 4,
+        "ending": 3
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e24_u001",
+          "e24_u002"
+        ],
+        "clarity": [
+          "e24_u003",
+          "e24_u006",
+          "e24_u010",
+          "e24_u024",
+          "e24_u028"
+        ],
+        "emotion": [
+          "e24_u024",
+          "e24_u025",
+          "e24_u028",
+          "e24_u032",
+          "e24_u036"
+        ],
+        "escalation": [
+          "e24_u003",
+          "e24_u010",
+          "e24_u024",
+          "e24_u028",
+          "e24_u035"
+        ],
+        "ending": [
+          "e24_u035",
+          "e24_u036"
+        ]
+      },
+      "spoils_main_twist": true,
+      "flags": [
+        "spoils_main_twist"
+      ],
+      "rejection_reasons": [
+        "floor:hook<3"
+      ],
+      "final_score": 56.7,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "cruel aristocrat",
+      "central_conflict": "A haughty noblewoman punishes Juliana for trying to help the poisoned Duchess, asserting her authority over the servant.",
+      "ending_type": "payoff",
+      "judge_hook_unit_id": "e24_u001",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rejected_at": "floors"
+    }
+  ],
+  "usage": {
+    "wall_s": 40.2,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 10912,
+    "tokens_out": 3208,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 16.4,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 23.8
+  }
+}

@@ -1,0 +1,164 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: Formally disowned and stripped of her inheritance, Juliana is publicly humiliated when her stepmother throws her late mother's treasured ledger into the mud, but her rugged new husband defends her dignity and guides her away from her callous family.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c01: window e05_u023..e05_u034 (41.5-58.2 s, 16.7 s); hook ['e05_u023'] modality visual (delay 0.0 s)
+  FAILED: duration: 16.7s is under the 20s minimum
+  Original idea: The act of throwing a family heirloom into the mud is a visceral moment of humiliation that demands justice.
+  Scene 01: units e05_u001..e05_u062, 0.0-110.5 s. Units of that scene:
+    e05_u001 | 0.0-2.5 | CAMERA | Close-up on Lady Juliana's hands clutching an ancient, brass-bound leather ledger against the skirt of her white wedding gown as she walks.
+    e05_u002 | 0.0-2.5 | ACTION | Juliana grips the heirloom ledger tightly against her waist, her posture resolute despite the tension.
+    e05_u003 | 2.5-6.0 | CAMERA | Wide shot tracking Juliana and the Mysterious Bearded Man descending the grand stone steps of the cathedral courtyard. Behind them, Lord Ashcroft emerges from the vaulted doorway leaning on his cane.
+    e05_u004 | 4.2-5.8 | DIALOGUE | LORD ASHCROFT (Stern, Commanding): "Miss Ashcroft."
+    e05_u005 | 5.5-6.6 | ACTION | Juliana and the Mysterious Bearded Man pause on the stone steps, turning slightly back toward Lord Ashcroft.
+    e05_u006 | 6.6-10.5 | CAMERA | Close-up of Lord Ashcroft, his weathered face rigid with aristocratic pride and disgust.
+    e05_u007 | 6.8-10.4 | DIALOGUE | LORD ASHCROFT (Cold, Condemnatory): "You will not leave this church carrying the Ashcroft name."
+    e05_u008 | 10.5-15.8 | CAMERA | Medium close-up of Juliana looking up at her father. Her hand rises to touch the amethyst heirloom pendant resting at her throat.
+    e05_u009 | 11.7-15.5 | DIALOGUE | JULIANA (Defiant, Steadfast): "The vows are spoken, Father. I am his wife now."
+    e05_u010 | 15.8-20.8 | CAMERA | Medium shot of Lord Ashcroft standing rigid outside the chapel archway, unforgiving and unyielding.
+    e05_u011 | 16.0-18.0 | DIALOGUE | LORD ASHCROFT (Harsh, Final): "Then leave as his wife."
+    e05_u012 | 18.5-20.8 | DIALOGUE | LORD ASHCROFT (Harsh, Final): "You leave as no daughter of mine."
+    e05_u013 | 20.8-25.0 | CAMERA | Low-angle shot tracking Lord Ashcroft's polished black boots as he slowly descends the stone steps toward them.
+    e05_u014 | 21.0-23.0 | DIALOGUE | LORD ASHCROFT (O.S. / Continues): "Your dowry is revoked."
+    e05_u015 | 23.1-25.1 | DIALOGUE | LORD ASHCROFT (O.S. / Continues): "Your inheritance is revoked."
+    e05_u016 | 25.0-29.0 | CAMERA | Close-up of Juliana, her eyes wide with shock and heartbreak as she holds the ledger close against her chest.
+    e05_u017 | 25.4-28.9 | DIALOGUE | LORD ASHCROFT (O.S. / Continues): "From this moment, you are dead to the Ashcroft family."
+    e05_u018 | 29.5-33.4 | DIALOGUE | JULIANA (Shaking, Tearful): "You truly mean it? You are my father!"
+    e05_u019 | 33.5-36.5 | CAMERA | Close-up of the Mysterious Bearded Man, observing Lord Ashcroft with an unblinking, quietly threatening stare.
+    e05_u020 | 33.8-36.8 | DIALOGUE | LORD ASHCROFT: "And you have chosen to become a stranger."
+    e05_u021 | 36.5-41.5 | CAMERA | Profile medium two-shot of Juliana and Lord Ashcroft standing face-to-face against the backdrop of the towering gothic facade.
+    e05_u022 | 37.6-41.5 | DIALOGUE | JULIANA (Quietly Resolute): "No, Father. You chose that long before today."
+    e05_u023 | 41.5-46.0 | CAMERA | Medium close-up of Lady Ashcroft, resplendent in navy velvet and jewels, stepping forward with a smirk of malicious authority.
+    e05_u024 | 42.5-44.2 | DIALOGUE | LADY ASHCROFT (Sharply Dismissive): "Enough sentiment."
+    e05_u025 | 44.3-45.8 | DIALOGUE | LADY ASHCROFT (Cold, Demanding): "And the ledger..."
+    e05_u026 | 46.0-48.8 | CAMERA | Medium shot as Lady Ashcroft approaches Juliana menacingly.
+    e05_u027 | 46.8-48.8 | DIALOGUE | LADY ASHCROFT (Venomous): "...that belongs to this family."
+    e05_u028 | 49.0-51.8 | DIALOGUE | JULIANA (Alarmed, Protective): "It belonged to my mother! It is all I have left of her."
+    e05_u029 | 51.8-54.0 | CAMERA | Close-up of Lady Ashcroft laying a jeweled hand firmly on the bound book.
+    e05_u030 | 52.0-54.0 | DIALOGUE | LADY ASHCROFT (Cruel): "Then you should have guarded it better."
+    e05_u031 | 54.0-57.8 | CAMERA | Close-up on the ledger as Lady Ashcroft violently wrenches it out of Juliana's grip.
+    e05_u032 | 54.5-57.5 | ACTION | Lady Ashcroft snatches the heavy book away and flings it disdainfully into the rain-soaked courtyard.
+    e05_u033 | 55.5-56.8 | DIALOGUE | JULIANA (Screaming, Desperate): "Barbara, don't!"
+    e05_u034 | 57.0-58.2 | SFX | A heavy wet slap as the leather-bound book crashes into the puddle-slicked stone pavement.
+    e05_u035 | 57.8-63.0 | CAMERA | Medium shot of Clarissa and Gerald standing together on the cathedral steps. Clarissa clasps a gloved hand to her mouth in mock shock before bursting into gleeful laughter.
+    e05_u036 | 59.0-62.5 | DIALOGUE | CLARISSA (Gleeful, Mocking): "Even your mother's precious legacy has been cast into the dirt!"
+    e05_u037 | 62.4-64.6 | DIALOGUE | GERALD (Smug, Cruel): "Perhaps that is where it belongs."
+    e05_u038 | 63.0-66.5 | CAMERA | Close-up of Juliana looking down at the ground, tears streaming down her pale cheeks.
+    e05_u039 | 65.5-68.5 | ACTION | Juliana drops to her knees onto the wet courtyard pavement, oblivious to the dirt soaking through her white bridal gown.
+    e05_u040 | 66.5-69.0 | CAMERA | Low-angle close-up of Juliana's trembling hand reaching toward the leather ledger resting in the puddle.
+    e05_u041 | 69.0-72.5 | CAMERA | Wide shot of Juliana kneeling on the damp ground as the tall Mysterious Bearded Man strides purposefully into frame toward her.
+    e05_u042 | 70.5-74.5 | ACTION | The Mysterious Bearded Man bends his knees and kneels down beside Juliana, extending his scarred hand to retrieve the fallen ledger.
+    e05_u043 | 74.5-76.0 | CAMERA | Close-up of his large, weathered hands gently lifting the wet, embossed leather book from the ground.
+    e05_u044 | 76.0-80.0 | CAMERA | Medium two-shot as he holds out the retrieved ledger and places it into Juliana's trembling hands.
+    e05_u045 | 77.8-79.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Low, Gentle): "Here you go."
+    e05_u046 | 80.0-85.5 | CAMERA | Close-up of the Mysterious Bearded Man looking warmly down at Juliana, his rugged face full of quiet sincerity.
+    e05_u047 | 80.5-82.0 | DIALOGUE | JULIANA (Choked, Weeping): "They destroyed it."
+    e05_u048 | 82.5-85.4 | DIALOGUE | MYSTERIOUS BEARDED MAN (Calm, Grounded): "They dirtied it. That is not the same thing."
+    e05_u049 | 85.5-91.0 | CAMERA | Medium two-shot of Juliana pressing the soiled book tightly against her chest, weeping softly.
+    e05_u050 | 86.5-87.8 | DIALOGUE | JULIANA (Broken): "It was my mother's."
+    e05_u051 | 87.9-89.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Gentle, Protective): "Then keep it."
+    e05_u052 | 88.5-91.0 | ACTION | The Mysterious Bearded Man reaches out with both hands, clasping his strong hands tenderly over hers and the book.
+    e05_u053 | 89.4-91.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Firm, Comforting): "Let them keep everything else."
+    e05_u054 | 91.0-96.5 | CAMERA | Low-angle shot of Gerald standing high on the stone steps, grinning arrogantly as he points an accusatory finger down at them.
+    e05_u055 | 91.5-92.8 | DIALOGUE | GERALD (Mocking, Arrogant): "Look at you."
+    e05_u056 | 93.0-96.5 | DIALOGUE | GERALD (Scornful, Spiteful): "A noblewoman reduced to a beggar's wife!"
+    e05_u057 | 96.5-101.5 | CAMERA | Over-the-shoulder shot behind the Mysterious Bearded Man looking up toward Gerald on the stairs. Gerald's arrogant grin slowly wavers.
+    e05_u058 | 98.0-100.8 | DIALOGUE | MYSTERIOUS BEARDED MAN (Low, Lethally Cold): "Choose your next words carefully."
+    e05_u059 | 101.5-105.5 | CAMERA | Extreme close-up of the Mysterious Bearded Man's scarred hand completely covering and protecting Juliana's hands where they clasp the book.
+    e05_u060 | 104.2-105.2 | DIALOGUE | MYSTERIOUS BEARDED MAN (Soft, Reassuring): "Come."
+    e05_u061 | 105.5-110.5 | CAMERA | High wide shot from above the courtyard archway. Juliana, holding her mother's book, and the Mysterious Bearded Man, holding her hand firmly, walk together down the wet cobblestone path and through the towering iron gates into the misty rain, leaving her former family behind as the screen fades out.
+    e05_u062 | 106.0-110.5 | SFX | Rain gently pattering on cobblestones beneath a sweeping, melancholic orchestral swell that slowly fades to black.
+
+- c03: window e05_u054..e05_u061 (91.0-110.5 s, 19.5 s); hook ['e05_u054'] modality visual (delay 0.0 s)
+  FAILED: duration, cliffhanger: 19.5s is under the 20s minimum | cliffhanger e05_u061 starts at 105.5s, before the final 20% of the clip (106.6s)
+  Original idea: The moment of walking away from toxic family members into the unknown provides a strong sense of closure and new beginnings.
+  Scene 01: units e05_u001..e05_u062, 0.0-110.5 s. Units of that scene:
+    e05_u001 | 0.0-2.5 | CAMERA | Close-up on Lady Juliana's hands clutching an ancient, brass-bound leather ledger against the skirt of her white wedding gown as she walks.
+    e05_u002 | 0.0-2.5 | ACTION | Juliana grips the heirloom ledger tightly against her waist, her posture resolute despite the tension.
+    e05_u003 | 2.5-6.0 | CAMERA | Wide shot tracking Juliana and the Mysterious Bearded Man descending the grand stone steps of the cathedral courtyard. Behind them, Lord Ashcroft emerges from the vaulted doorway leaning on his cane.
+    e05_u004 | 4.2-5.8 | DIALOGUE | LORD ASHCROFT (Stern, Commanding): "Miss Ashcroft."
+    e05_u005 | 5.5-6.6 | ACTION | Juliana and the Mysterious Bearded Man pause on the stone steps, turning slightly back toward Lord Ashcroft.
+    e05_u006 | 6.6-10.5 | CAMERA | Close-up of Lord Ashcroft, his weathered face rigid with aristocratic pride and disgust.
+    e05_u007 | 6.8-10.4 | DIALOGUE | LORD ASHCROFT (Cold, Condemnatory): "You will not leave this church carrying the Ashcroft name."
+    e05_u008 | 10.5-15.8 | CAMERA | Medium close-up of Juliana looking up at her father. Her hand rises to touch the amethyst heirloom pendant resting at her throat.
+    e05_u009 | 11.7-15.5 | DIALOGUE | JULIANA (Defiant, Steadfast): "The vows are spoken, Father. I am his wife now."
+    e05_u010 | 15.8-20.8 | CAMERA | Medium shot of Lord Ashcroft standing rigid outside the chapel archway, unforgiving and unyielding.
+    e05_u011 | 16.0-18.0 | DIALOGUE | LORD ASHCROFT (Harsh, Final): "Then leave as his wife."
+    e05_u012 | 18.5-20.8 | DIALOGUE | LORD ASHCROFT (Harsh, Final): "You leave as no daughter of mine."
+    e05_u013 | 20.8-25.0 | CAMERA | Low-angle shot tracking Lord Ashcroft's polished black boots as he slowly descends the stone steps toward them.
+    e05_u014 | 21.0-23.0 | DIALOGUE | LORD ASHCROFT (O.S. / Continues): "Your dowry is revoked."
+    e05_u015 | 23.1-25.1 | DIALOGUE | LORD ASHCROFT (O.S. / Continues): "Your inheritance is revoked."
+    e05_u016 | 25.0-29.0 | CAMERA | Close-up of Juliana, her eyes wide with shock and heartbreak as she holds the ledger close against her chest.
+    e05_u017 | 25.4-28.9 | DIALOGUE | LORD ASHCROFT (O.S. / Continues): "From this moment, you are dead to the Ashcroft family."
+    e05_u018 | 29.5-33.4 | DIALOGUE | JULIANA (Shaking, Tearful): "You truly mean it? You are my father!"
+    e05_u019 | 33.5-36.5 | CAMERA | Close-up of the Mysterious Bearded Man, observing Lord Ashcroft with an unblinking, quietly threatening stare.
+    e05_u020 | 33.8-36.8 | DIALOGUE | LORD ASHCROFT: "And you have chosen to become a stranger."
+    e05_u021 | 36.5-41.5 | CAMERA | Profile medium two-shot of Juliana and Lord Ashcroft standing face-to-face against the backdrop of the towering gothic facade.
+    e05_u022 | 37.6-41.5 | DIALOGUE | JULIANA (Quietly Resolute): "No, Father. You chose that long before today."
+    e05_u023 | 41.5-46.0 | CAMERA | Medium close-up of Lady Ashcroft, resplendent in navy velvet and jewels, stepping forward with a smirk of malicious authority.
+    e05_u024 | 42.5-44.2 | DIALOGUE | LADY ASHCROFT (Sharply Dismissive): "Enough sentiment."
+    e05_u025 | 44.3-45.8 | DIALOGUE | LADY ASHCROFT (Cold, Demanding): "And the ledger..."
+    e05_u026 | 46.0-48.8 | CAMERA | Medium shot as Lady Ashcroft approaches Juliana menacingly.
+    e05_u027 | 46.8-48.8 | DIALOGUE | LADY ASHCROFT (Venomous): "...that belongs to this family."
+    e05_u028 | 49.0-51.8 | DIALOGUE | JULIANA (Alarmed, Protective): "It belonged to my mother! It is all I have left of her."
+    e05_u029 | 51.8-54.0 | CAMERA | Close-up of Lady Ashcroft laying a jeweled hand firmly on the bound book.
+    e05_u030 | 52.0-54.0 | DIALOGUE | LADY ASHCROFT (Cruel): "Then you should have guarded it better."
+    e05_u031 | 54.0-57.8 | CAMERA | Close-up on the ledger as Lady Ashcroft violently wrenches it out of Juliana's grip.
+    e05_u032 | 54.5-57.5 | ACTION | Lady Ashcroft snatches the heavy book away and flings it disdainfully into the rain-soaked courtyard.
+    e05_u033 | 55.5-56.8 | DIALOGUE | JULIANA (Screaming, Desperate): "Barbara, don't!"
+    e05_u034 | 57.0-58.2 | SFX | A heavy wet slap as the leather-bound book crashes into the puddle-slicked stone pavement.
+    e05_u035 | 57.8-63.0 | CAMERA | Medium shot of Clarissa and Gerald standing together on the cathedral steps. Clarissa clasps a gloved hand to her mouth in mock shock before bursting into gleeful laughter.
+    e05_u036 | 59.0-62.5 | DIALOGUE | CLARISSA (Gleeful, Mocking): "Even your mother's precious legacy has been cast into the dirt!"
+    e05_u037 | 62.4-64.6 | DIALOGUE | GERALD (Smug, Cruel): "Perhaps that is where it belongs."
+    e05_u038 | 63.0-66.5 | CAMERA | Close-up of Juliana looking down at the ground, tears streaming down her pale cheeks.
+    e05_u039 | 65.5-68.5 | ACTION | Juliana drops to her knees onto the wet courtyard pavement, oblivious to the dirt soaking through her white bridal gown.
+    e05_u040 | 66.5-69.0 | CAMERA | Low-angle close-up of Juliana's trembling hand reaching toward the leather ledger resting in the puddle.
+    e05_u041 | 69.0-72.5 | CAMERA | Wide shot of Juliana kneeling on the damp ground as the tall Mysterious Bearded Man strides purposefully into frame toward her.
+    e05_u042 | 70.5-74.5 | ACTION | The Mysterious Bearded Man bends his knees and kneels down beside Juliana, extending his scarred hand to retrieve the fallen ledger.
+    e05_u043 | 74.5-76.0 | CAMERA | Close-up of his large, weathered hands gently lifting the wet, embossed leather book from the ground.
+    e05_u044 | 76.0-80.0 | CAMERA | Medium two-shot as he holds out the retrieved ledger and places it into Juliana's trembling hands.
+    e05_u045 | 77.8-79.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Low, Gentle): "Here you go."
+    e05_u046 | 80.0-85.5 | CAMERA | Close-up of the Mysterious Bearded Man looking warmly down at Juliana, his rugged face full of quiet sincerity.
+    e05_u047 | 80.5-82.0 | DIALOGUE | JULIANA (Choked, Weeping): "They destroyed it."
+    e05_u048 | 82.5-85.4 | DIALOGUE | MYSTERIOUS BEARDED MAN (Calm, Grounded): "They dirtied it. That is not the same thing."
+    e05_u049 | 85.5-91.0 | CAMERA | Medium two-shot of Juliana pressing the soiled book tightly against her chest, weeping softly.
+    e05_u050 | 86.5-87.8 | DIALOGUE | JULIANA (Broken): "It was my mother's."
+    e05_u051 | 87.9-89.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Gentle, Protective): "Then keep it."
+    e05_u052 | 88.5-91.0 | ACTION | The Mysterious Bearded Man reaches out with both hands, clasping his strong hands tenderly over hers and the book.
+    e05_u053 | 89.4-91.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Firm, Comforting): "Let them keep everything else."
+    e05_u054 | 91.0-96.5 | CAMERA | Low-angle shot of Gerald standing high on the stone steps, grinning arrogantly as he points an accusatory finger down at them.
+    e05_u055 | 91.5-92.8 | DIALOGUE | GERALD (Mocking, Arrogant): "Look at you."
+    e05_u056 | 93.0-96.5 | DIALOGUE | GERALD (Scornful, Spiteful): "A noblewoman reduced to a beggar's wife!"
+    e05_u057 | 96.5-101.5 | CAMERA | Over-the-shoulder shot behind the Mysterious Bearded Man looking up toward Gerald on the stairs. Gerald's arrogant grin slowly wavers.
+    e05_u058 | 98.0-100.8 | DIALOGUE | MYSTERIOUS BEARDED MAN (Low, Lethally Cold): "Choose your next words carefully."
+    e05_u059 | 101.5-105.5 | CAMERA | Extreme close-up of the Mysterious Bearded Man's scarred hand completely covering and protecting Juliana's hands where they clasp the book.
+    e05_u060 | 104.2-105.2 | DIALOGUE | MYSTERIOUS BEARDED MAN (Soft, Reassuring): "Come."
+    e05_u061 | 105.5-110.5 | CAMERA | High wide shot from above the courtyard archway. Juliana, holding her mother's book, and the Mysterious Bearded Man, holding her hand firmly, walk together down the wet cobblestone path and through the towering iron gates into the misty rain, leaving her former family behind as the screen fades out.
+    e05_u062 | 106.0-110.5 | SFX | Rain gently pattering on cobblestones beneath a sweeping, melancholic orchestral swell that slowly fades to black.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

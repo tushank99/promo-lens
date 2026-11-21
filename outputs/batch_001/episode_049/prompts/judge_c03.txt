@@ -1,0 +1,67 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Meeting Father Thomas in an abandoned wing of the manor before dawn, Catherine orchestrates a calculated conspiracy to stall the council hearing and extract inside intelligence, sealing their treasonous alliance with intimate assurance.
+CONTINUITY NOTES: Directly follows Catherine sending Agnes to fetch Father Thomas under cover of darkness; now in Episode 49, Father Thomas slips into the secluded wing for their covert rendezvous.
+
+CLIP: 104.2s to 144.75s (40.55s). Units below: id | seconds from clip start | type | text.
+e49_u046 | 0.0-8.6 | DIALOGUE | FATHER THOMAS (Wary, Grave): "If I keep the hearing open, if I feed you every word spoken behind those doors, what happens to me when the Duke finds out a crowned priest conspired against him?"
+e49_u047 | 8.8-13.8 | CAMERA | Medium two-shot tracking closer as Catherine steps closer toward him.
+e49_u048 | 9.0-13.6 | DIALOGUE | CATHERINE (Seductive, Reassuring): "Then make certain he doesn't find out. You're careful. I've seen how careful."
+e49_u049 | 13.8-20.6 | CAMERA | Tight close-up on Father Thomas's intense, brooding face.
+e49_u050 | 14.0-20.3 | DIALOGUE | FATHER THOMAS (Stern, Stark): "Careful men still hang, my lady, when the crime is treason against a Duke the King himself just restored."
+e49_u051 | 20.6-24.6 | CAMERA | Close-up on Catherine, her lips parting into an alluring, promising smile.
+e49_u052 | 20.8-24.3 | DIALOGUE | CATHERINE (Tempting): "Careful men who help me also get remembered."
+e49_u053 | 24.6-30.3 | CAMERA | Split focus close-up between Father Thomas's intense gaze and Catherine leaning in close, whispering with lethal conviction.
+e49_u054 | 25.0-30.0 | DIALOGUE | CATHERINE (Whispering, Promising): "A grateful Duchess collects debts differently than a desperate one."
+e49_u055 | 30.3-35.6 | CAMERA | Medium two-shot as Father Thomas extends his open right hand between them.
+e49_u056 | 30.8-35.3 | ACTION | Father Thomas slowly raises his right hand, palm turned upward in invitation and pact.
+e49_u057 | 31.0-35.3 | DIALOGUE | FATHER THOMAS (Low, Resigned): "The rest depends on how well you keep your part of this quiet."
+e49_u058 | 35.6-38.6 | CAMERA | Close-up on Father Thomas looking down into her eyes.
+e49_u059 | 35.8-38.3 | DIALOGUE | FATHER THOMAS (Softly): "Then we understand each other."
+e49_u060 | 36.3-38.6 | ACTION | Catherine reaches out and places her slender hand firmly into Father Thomas's open palm.
+e49_u061 | 38.6-39.8 | CAMERA | Close-up of Catherine gazing up at him, her eyes glistening in the candlelight.
+e49_u062 | 38.8-39.8 | DIALOGUE | CATHERINE (Intimate): "We always have."
+e49_u063 | 39.8-40.5 | CAMERA | Extreme close-up as Father Thomas gently raises his other hand and cups Catherine's cheek tenderly, her hand resting against his chest as she leans into his touch before cutting to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

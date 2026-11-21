@@ -1,0 +1,114 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e23_u038",
+      "end_unit_id": "e23_u045",
+      "hook": {
+        "unit_ids": [
+          "e23_u038"
+        ],
+        "modality": "visual",
+        "description": "Juliana slams the leather journal shut on the bedside table.",
+        "evidence": "The sudden, aggressive action creates an immediate sense of urgency and confrontation."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This clip delivers the high-stakes reveal that the Duchess is being poisoned, establishing the central mystery."
+    },
+    "norm": {
+      "start_unit_id": "e23_u038",
+      "end_unit_id": "e23_u045",
+      "hook": {
+        "unit_ids": [
+          "e23_u038"
+        ],
+        "modality": "visual",
+        "description": "Juliana slams the leather journal shut on the bedside table.",
+        "evidence": "The sudden, aggressive action creates an immediate sense of urgency and confrontation."
+      },
+      "cliffhanger_unit_id": null,
+      "reason": "This clip delivers the high-stakes reveal that the Duchess is being poisoned, establishing the central mystery."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "12.0s is under the 20s minimum"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 76.0,
+    "end": 88.0,
+    "duration": 12.0,
+    "segments": [
+      {
+        "start_unit": "e23_u038",
+        "end_unit": "e23_u045",
+        "start": 76.0,
+        "end": 88.0
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e23_u058",
+      "end_unit_id": "e23_u067",
+      "hook": {
+        "unit_ids": [
+          "e23_u058"
+        ],
+        "modality": "audio",
+        "description": "A sudden, loud, muffled thump and heavy footsteps echo from the hallway.",
+        "evidence": "The unexpected sound immediately signals danger and creates instant tension for the viewer."
+      },
+      "cliffhanger_unit_id": "e23_u067",
+      "reason": "This captures the peak tension of the episode as the protagonist is caught in the act of preparing an antidote."
+    },
+    "norm": {
+      "start_unit_id": "e23_u058",
+      "end_unit_id": "e23_u067",
+      "hook": {
+        "unit_ids": [
+          "e23_u058"
+        ],
+        "modality": "audio",
+        "description": "A sudden, loud, muffled thump and heavy footsteps echo from the hallway.",
+        "evidence": "The unexpected sound immediately signals danger and creates instant tension for the viewer."
+      },
+      "cliffhanger_unit_id": "e23_u067",
+      "reason": "This captures the peak tension of the episode as the protagonist is caught in the act of preparing an antidote."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "19.3s is under the 20s minimum"
+    ],
+    "warnings": [
+      "camera shot e23_u056 (107.0-112.5) straddles a cut",
+      "camera-only stretch 4.8s (114.0-118.8)",
+      "camera-only stretch 5.2s (124.0-129.2)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 112.2,
+    "end": 131.5,
+    "duration": 19.3,
+    "segments": [
+      {
+        "start_unit": "e23_u058",
+        "end_unit": "e23_u067",
+        "start": 112.2,
+        "end": 131.5
+      }
+    ]
+  }
+]

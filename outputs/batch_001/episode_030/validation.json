@@ -1,0 +1,166 @@
+[
+  {
+    "candidate_id": "c01",
+    "proposal": {
+      "start_unit_id": "e30_u017",
+      "end_unit_id": "e30_u023",
+      "hook": {
+        "unit_ids": [
+          "e30_u018"
+        ],
+        "modality": "visual",
+        "description": "The Elder Nobleman thrusts his cane into Rupert's chest, pinning him against the wall.",
+        "evidence": "The sudden, aggressive physical confrontation immediately establishes high stakes and power dynamics."
+      },
+      "cliffhanger_unit_id": "e30_u023",
+      "reason": "This clip captures the inciting moment of the conspiracy to frame the protagonist."
+    },
+    "norm": {
+      "start_unit_id": "e30_u017",
+      "end_unit_id": "e30_u023",
+      "hook": {
+        "unit_ids": [
+          "e30_u018"
+        ],
+        "modality": "visual",
+        "description": "The Elder Nobleman thrusts his cane into Rupert's chest, pinning him against the wall.",
+        "evidence": "The sudden, aggressive physical confrontation immediately establishes high stakes and power dynamics."
+      },
+      "cliffhanger_unit_id": "e30_u023",
+      "reason": "This clip captures the inciting moment of the conspiracy to frame the protagonist."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "14.2s is under the 20s minimum"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 33.4,
+    "end": 47.6,
+    "duration": 14.2,
+    "segments": [
+      {
+        "start_unit": "e30_u017",
+        "end_unit": "e30_u023",
+        "start": 33.4,
+        "end": 47.6
+      }
+    ]
+  },
+  {
+    "candidate_id": "c02",
+    "proposal": {
+      "start_unit_id": "e30_u044",
+      "end_unit_id": "e30_u053",
+      "hook": {
+        "unit_ids": [
+          "e30_u044"
+        ],
+        "modality": "visual",
+        "description": "Rupert's wide-eyed, shocked reaction to the suggestion of a capital charge.",
+        "evidence": "The visceral reaction to a life-or-death threat hooks the viewer into the gravity of the situation."
+      },
+      "cliffhanger_unit_id": "e30_u053",
+      "reason": "It highlights the cold, calculated decision to manufacture evidence for a death sentence."
+    },
+    "norm": {
+      "start_unit_id": "e30_u044",
+      "end_unit_id": "e30_u053",
+      "hook": {
+        "unit_ids": [
+          "e30_u044"
+        ],
+        "modality": "visual",
+        "description": "Rupert's wide-eyed, shocked reaction to the suggestion of a capital charge.",
+        "evidence": "The visceral reaction to a life-or-death threat hooks the viewer into the gravity of the situation."
+      },
+      "cliffhanger_unit_id": "e30_u053",
+      "reason": "It highlights the cold, calculated decision to manufacture evidence for a death sentence."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "18.1s is under the 20s minimum"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 88.5,
+    "end": 106.6,
+    "duration": 18.1,
+    "segments": [
+      {
+        "start_unit": "e30_u044",
+        "end_unit": "e30_u053",
+        "start": 88.5,
+        "end": 106.6
+      }
+    ]
+  },
+  {
+    "candidate_id": "c03",
+    "proposal": {
+      "start_unit_id": "e30_u060",
+      "end_unit_id": "e30_u067",
+      "hook": {
+        "unit_ids": [
+          "e30_u062"
+        ],
+        "modality": "visual",
+        "description": "Catherine beaming with malicious satisfaction while spreading her red fan.",
+        "evidence": "The visual contrast of a beautiful woman expressing pure cruelty is a classic, effective hook for this genre."
+      },
+      "cliffhanger_unit_id": "e30_u067",
+      "reason": "The chilling finality of the plan to turn the prisoner into a 'witch' creates a strong narrative pull."
+    },
+    "norm": {
+      "start_unit_id": "e30_u060",
+      "end_unit_id": "e30_u067",
+      "hook": {
+        "unit_ids": [
+          "e30_u062"
+        ],
+        "modality": "visual",
+        "description": "Catherine beaming with malicious satisfaction while spreading her red fan.",
+        "evidence": "The visual contrast of a beautiful woman expressing pure cruelty is a classic, effective hook for this genre."
+      },
+      "cliffhanger_unit_id": "e30_u067",
+      "reason": "The chilling finality of the plan to turn the prisoner into a 'witch' creates a strong narrative pull."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "hook",
+      "cliffhanger"
+    ],
+    "details": [
+      "hook e30_u062 begins 3.2s after clip start (limit 3.0s)",
+      "cliffhanger e30_u067 starts at 137.5s, before the final 20% of the clip (139.98s)"
+    ],
+    "warnings": [],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 3.2,
+    "start": 121.9,
+    "end": 144.5,
+    "duration": 22.6,
+    "segments": [
+      {
+        "start_unit": "e30_u060",
+        "end_unit": "e30_u067",
+        "start": 121.9,
+        "end": 144.5
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "candidate_id": "c03r",
+    "proposal": {
+      "retry_of": "c03",
+      "start_unit_id": "e04_u086",
+      "end_unit_id": "e04_u109",
+      "hook": {
+        "unit_ids": [
+          "e04_u086"
+        ],
+        "modality": "visual",
+        "description": "Gerald lunging forward in a fit of rage.",
+        "evidence": "The unit begins at 114.8s, which is the start of the clip."
+      },
+      "cliffhanger_unit_id": "e04_u109",
+      "reason": "The window captures the dramatic confrontation and the couple's final exit into the light, satisfying all timing and hook requirements."
+    },
+    "retry_of": "c03",
+    "norm": {
+      "start_unit_id": "e04_u086",
+      "end_unit_id": "e04_u109",
+      "hook": {
+        "unit_ids": [
+          "e04_u086"
+        ],
+        "modality": "visual",
+        "description": "Gerald lunging forward in a fit of rage.",
+        "evidence": "The unit begins at 114.8s, which is the start of the clip."
+      },
+      "cliffhanger_unit_id": "e04_u109",
+      "reason": "The window captures the dramatic confrontation and the couple's final exit into the light, satisfying all timing and hook requirements."
+    },
+    "ok": true,
+    "status": "review",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 5.0s (134.5-139.5)",
+      "camera-only stretch 4.2s (140.8-145.0)"
+    ],
+    "review": [
+      "straddled_action_or_sfx"
+    ],
+    "review_details": [
+      "sfx e04_u085 (114.0-115.2) overlaps the clip from outside the window: check the cut on footage",
+      "sfx e04_u110 (147.0-149.0) overlaps the clip from outside the window: check the cut on footage"
+    ],
+    "hook_delay": 0.0,
+    "start": 114.8,
+    "end": 151.4,
+    "duration": 36.6,
+    "segments": [
+      {
+        "start_unit": "e04_u086",
+        "end_unit": "e04_u109",
+        "start": 114.8,
+        "end": 151.4
+      }
+    ]
+  }
+]

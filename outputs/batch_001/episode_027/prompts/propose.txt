@@ -1,0 +1,147 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: The Dowager Duchess realizes Juliana's wedding ring bears the Ashbourne crest belonging to her lost son, but before Juliana can reveal Alexander's name, Rupert and Catherine storm the bedchamber and frame her for poisoning the Duchess.
+CONTINUITY NOTES: Picks up immediately from Episode 26's cliffhanger where the Dowager Duchess gripped Juliana's hand upon recognizing the family signet ring, frantically questioning her origin.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:30.5 (150.5 s).
+- Scene 01 (INT. ASHBURG MANOR - DOWAGER DUCHESS'S BEDCHAMBER - NIGHT): 0.0-150.5 s, units e27_u001..e27_u095.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): none
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e27_u001 | 0.0-2.1 | CAMERA | Tight close-up of the Dowager Duchess's aged, trembling hands clutching Juliana's hand, examining the worn metal band on her finger.
+e27_u002 | 1.3-3.2 | DIALOGUE | DOWAGER DUCHESS (Shaken, Breathless): "This ring..."
+e27_u003 | 2.1-5.8 | CAMERA | Low-angle medium close-up of the Dowager Duchess lying propped against her pillows, gripping Juliana's wrist firmly as she gazes up in desperate demand.
+e27_u004 | 3.4-5.8 | DIALOGUE | DOWAGER DUCHESS (Urgent, Demanding): "Look at me, girl. Who gave this to you?"
+e27_u005 | 5.8-9.4 | CAMERA | Medium shot of Juliana in her maid's apron, startled and anxious as she answers.
+e27_u006 | 6.4-9.3 | DIALOGUE | JULIANA (Hesitant, Sincere): "My husband. He gave it to me when we wed."
+e27_u007 | 9.4-13.2 | CAMERA | Low angle on the Dowager Duchess, her eyes burning with intensity.
+e27_u008 | 9.7-12.8 | DIALOGUE | DOWAGER DUCHESS (Incredulous, Intense): "He is no commoner. What does he do?"
+e27_u009 | 13.2-16.8 | CAMERA | Close-up of Juliana, trying to keep her composure.
+e27_u010 | 13.4-16.4 | DIALOGUE | JULIANA (Earnest, Defending): "He is a soldier. A veteran from the Peninsula."
+e27_u011 | 16.8-21.6 | CAMERA | Medium two-shot as the Duchess leans forward slightly, staring at the ring between their joined hands.
+e27_u012 | 17.2-21.2 | DIALOGUE | DOWAGER DUCHESS (Trembling, Revelatory): "That is no ordinary band. It bears the Ashbourne crest."
+e27_u013 | 21.6-26.1 | CAMERA | Close-up on Juliana, shaking her head in disbelief and growing confusion.
+e27_u014 | 21.8-25.8 | DIALOGUE | JULIANA (Confused, Gentle): "No. He lives in a barn. He has nothing but his word."
+e27_u015 | 26.1-31.8 | CAMERA | Low-angle shot on the Duchess, tears welling in her eyes as grief and shock overtake her.
+e27_u016 | 26.6-31.4 | DIALOGUE | DOWAGER DUCHESS (Emotionally Strained, Weeping): "My lost son wore that exact ring. He went to war..."
+e27_u017 | 31.8-34.9 | CAMERA | Close-up of Juliana's eyes widening in stunned revelation.
+e27_u018 | 32.1-34.8 | DIALOGUE | JULIANA (Shocked, Breathless): "Your son? He told me he was only a sergeant."
+e27_u019 | 34.9-37.4 | CAMERA | Side-angle medium shot of the bed, the Duchess holding onto Juliana's forearm with fierce insistence.
+e27_u020 | 35.2-37.6 | DIALOGUE | DOWAGER DUCHESS (Desperate, Clinging): "My lost son wore that ring!"
+e27_u021 | 37.4-40.4 | CAMERA | Close-up of Juliana looking down with compassionate concern.
+e27_u022 | 37.8-40.2 | DIALOGUE | DOWAGER DUCHESS (Pleading): "Did your husband serve beside him?"
+e27_u023 | 41.0-44.2 | DIALOGUE | JULIANA (Soft, Reverent): "He never spoke of his officers. He only spoke of survival."
+e27_u024 | 44.2-46.4 | CAMERA | Close-up of the Duchess gazing up at Juliana, her voice barely a whisper.
+e27_u025 | 44.5-46.4 | DIALOGUE | DOWAGER DUCHESS (Hushed, Desperate): "What is your husband's name?"
+e27_u026 | 46.4-48.3 | SFX | Loud, violent pounding echoes on the wooden double doors.
+e27_u027 | 46.5-48.8 | CAMERA | Juliana gasps, snapping her head toward the entrance in alarm.
+e27_u028 | 48.8-51.5 | ACTION | The heavy mahogany double doors burst open, revealing the Blond Nobleman flanked by Lady Catherine and a royal guard in uniform.
+e27_u029 | 48.8-51.5 | CAMERA | Wide shot framing the open doorway as the aristocrats step into the dimly lit hallway.
+e27_u030 | 51.5-55.6 | CAMERA | Medium shot of Lady Catherine in her lavish cream gown and tiara, scowling with arrogant disdain.
+e27_u031 | 52.2-55.6 | DIALOGUE | LADY CATHERINE (Sharp, Accusatory): "What is that maid doing in Her Grace's private chamber?"
+e27_u032 | 55.6-58.6 | CAMERA | Medium shot of Juliana standing stiffly beside the bed, concealing her hands.
+e27_u033 | 56.8-58.4 | DIALOGUE | JULIANA (Calm, Defiant): "She needed help."
+e27_u034 | 58.6-62.0 | CAMERA | Close-up of Lady Catherine narrowing her eyes with venomous suspicion.
+e27_u035 | 60.0-61.8 | DIALOGUE | LADY CATHERINE (Piercing, Suspicious): "What are you hiding?"
+e27_u036 | 62.0-64.0 | CAMERA | Close-up of Juliana, her chin raised.
+e27_u037 | 62.2-63.5 | DIALOGUE | JULIANA (Firm): "Nothing."
+e27_u038 | 64.0-66.5 | CAMERA | Medium close-up of Lady Catherine pointing a white-gloved finger directly at Juliana.
+e27_u039 | 64.8-66.4 | DIALOGUE | LADY CATHERINE (Demanding, Harsh): "Show me your hand."
+e27_u040 | 66.5-70.5 | CAMERA | Medium shot of the Blond Nobleman stepping forward beside Lady Catherine, clad in a dark tailored coat with black leather gloves.
+e27_u041 | 66.6-70.1 | DIALOGUE | BLOND NOBLEMAN (Cold, Authoritative): "Girl. Show me what you are holding."
+e27_u042 | 70.5-73.8 | CAMERA | Two-shot of Juliana facing the Blond Nobleman as she slowly extends her palm, revealing the small amber glass dropper bottle.
+e27_u043 | 72.6-73.7 | DIALOGUE | BLOND NOBLEMAN (Skeptical): "What is this?"
+e27_u044 | 73.8-74.8 | DIALOGUE | JULIANA (Steady): "Medicine."
+e27_u045 | 74.8-77.8 | CAMERA | Close-up of Lady Catherine tapping her gloved finger to her lip, letting out a mocking scoff.
+e27_u046 | 75.2-77.8 | DIALOGUE | LADY CATHERINE (Mocking, Condescending): "Medicine? You are a new maid."
+e27_u047 | 77.8-80.8 | CAMERA | Medium shot of the Blond Nobleman staring down at the vial, as Catherine sneers from his side.
+e27_u048 | 78.1-80.5 | DIALOGUE | LADY CATHERINE (Incredulous, Accusing): "Who permitted you to give medicine to the Duchess?"
+e27_u049 | 80.8-83.0 | CAMERA | Close-up of Juliana holding her ground.
+e27_u050 | 81.0-82.0 | DIALOGUE | JULIANA (Quiet, Resolute): "No one."
+e27_u051 | 83.0-86.5 | CAMERA | Close-up of Lady Catherine turning fiercely triumphant.
+e27_u052 | 83.6-86.4 | DIALOGUE | LADY CATHERINE (Spiteful, Indignant): "Then you administered it without permission."
+e27_u053 | 86.5-88.0 | CAMERA | Close-up of Juliana, her voice rising passionately.
+e27_u054 | 86.5-87.8 | DIALOGUE | JULIANA (Passionate, Urgent): "Because she was dying!"
+e27_u055 | 88.0-92.8 | CAMERA | Medium shot of the Blond Nobleman pacing forward with calculating malice.
+e27_u056 | 88.2-92.4 | DIALOGUE | BLOND NOBLEMAN (Cold, Interrogating): "And you decided you knew better than every physician in this house?"
+e27_u057 | 92.8-95.0 | CAMERA | Close-up of Juliana retorting without hesitation.
+e27_u058 | 93.3-94.9 | DIALOGUE | JULIANA (Fierce): "The physicians were not saving her!"
+e27_u059 | 95.0-97.8 | CAMERA | Over-the-shoulder shot past the Blond Nobleman looking toward the frail Duchess watching helplessly from the bed.
+e27_u060 | 95.3-97.7 | DIALOGUE | BLOND NOBLEMAN (Measured, Menacing): "My aunt has been wasting away for months."
+e27_u061 | 97.8-103.6 | CAMERA | Medium shot of the Blond Nobleman turning slowly back toward Juliana, building his trap.
+e27_u062 | 98.8-103.4 | DIALOGUE | BLOND NOBLEMAN (Smooth, Threatening): "And now we find an unknown maid alone beside her bed..."
+e27_u063 | 103.6-107.8 | CAMERA | Close-up shot of his gloved black leather finger reaching down to tap against the glass dropper bottle in Juliana's open palm.
+e27_u064 | 104.2-107.5 | DIALOGUE | BLOND NOBLEMAN (Contemptuous): "...holding a substance no one authorized her to give."
+e27_u065 | 107.8-110.2 | CAMERA | Medium close-up of Juliana raising the small bottle high for them to see.
+e27_u066 | 108.3-109.8 | DIALOGUE | JULIANA (Unyielding): "It is an antidote."
+e27_u067 | 110.2-112.5 | CAMERA | Close-up of Lady Catherine sneering sharply.
+e27_u068 | 110.3-111.8 | DIALOGUE | LADY CATHERINE (Sharp, Provocative): "An antidote to what?"
+e27_u069 | 112.5-113.6 | CAMERA | Extreme close-up of Juliana's focused eyes.
+e27_u070 | 113.2-114.3 | DIALOGUE | BLOND NOBLEMAN (Stern, Barked): "Answer her."
+e27_u071 | 113.6-115.0 | CAMERA | Close-up on the Blond Nobleman's impatient scowl.
+e27_u072 | 115.0-117.2 | CAMERA | Close-up of Juliana speaking the truth clearly.
+e27_u073 | 115.1-116.5 | DIALOGUE | JULIANA (Unyielding, Resolute): "Poison."
+e27_u074 | 117.2-120.0 | CAMERA | Close-up on the Blond Nobleman, his expression freezing into a dark scowl.
+e27_u075 | 118.7-119.8 | DIALOGUE | BLOND NOBLEMAN (Whispering, Dangerous): "Poison."
+e27_u076 | 120.0-122.8 | CAMERA | Close-up of Juliana stating the grim reality.
+e27_u077 | 120.4-122.6 | DIALOGUE | JULIANA (Urgent): "Someone has been poisoning Her Grace."
+e27_u078 | 122.8-124.6 | CAMERA | Medium shot of Lady Catherine turning abruptly to the guard stationed by the open door, pointing with feigned outrage.
+e27_u079 | 123.1-124.5 | DIALOGUE | LADY CATHERINE (Shrieking, Feigning Horror): "You hear that?!"
+e27_u080 | 124.6-128.5 | CAMERA | Close-up of Lady Catherine twisting Juliana's words with malicious glee.
+e27_u081 | 124.8-128.4 | DIALOGUE | LADY CATHERINE (Venomous, Accusing): "She admits she has been giving the Duchess poison in secret!"
+e27_u082 | 128.5-131.0 | CAMERA | Close-up of Juliana recoiling in shock at the blatant lie.
+e27_u083 | 128.7-130.8 | DIALOGUE | JULIANA (Desperate, Outraged): "That is not what I said!"
+e27_u084 | 131.0-134.0 | CAMERA | Medium close-up of the Blond Nobleman raising his black-gloved hand, silencing the room.
+e27_u085 | 131.2-132.6 | DIALOGUE | BLOND NOBLEMAN (Authoritative, Icy): "Enough."
+e27_u086 | 134.0-139.4 | CAMERA | Medium two-shot as the Blond Nobleman steps into Juliana's personal space and plucks the glass dropper vial from her hand.
+e27_u087 | 134.8-138.5 | ACTION | The Blond Nobleman takes the medicine vial from Juliana's grasp, inspecting it under the candlelight.
+e27_u088 | 136.2-139.3 | DIALOGUE | BLOND NOBLEMAN (Cold, Calculating): "An unknown servant enters a restricted chamber."
+e27_u089 | 139.4-144.2 | CAMERA | Tight close-up of the Blond Nobleman holding the vial beside his temple, his blue eyes cold and triumphant.
+e27_u090 | 139.6-143.8 | DIALOGUE | BLOND NOBLEMAN (Condemning, Vindictive): "She secretly administers an unidentified substance to a helpless woman."
+e27_u091 | 144.0-144.9 | DIALOGUE | BLOND NOBLEMAN (To Guard, Stern): "Take her."
+e27_u092 | 144.2-147.5 | CAMERA | Wide shot as the armed guard storms forward, seizing Juliana roughly by both arms.
+e27_u093 | 145.0-148.0 | ACTION | The guard twists Juliana around and drags her forcibly toward the doorway as she struggles against his grip.
+e27_u094 | 147.5-149.2 | CAMERA | Medium shot of Juliana being pulled backward, casting a frantic glance back toward the bedridden Duchess.
+e27_u095 | 149.2-150.5 | CAMERA | Extreme close-up of Juliana's wide, terrified eyes as she realizes the deadly trap closing around her, cutting abruptly to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

@@ -1,0 +1,203 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "5f97cdf9824f50e1",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 0.0,
+      "secs": 3.02,
+      "tokens_in": 1724,
+      "tokens_out": 1012
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e02_u001",
+          "e02_u002"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e02_u002",
+          "e02_u006",
+          "e02_u010",
+          "e02_u017",
+          "e02_u021"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e02_u004",
+          "e02_u006",
+          "e02_u007",
+          "e02_u015",
+          "e02_u019"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e02_u002",
+          "e02_u006",
+          "e02_u012",
+          "e02_u017",
+          "e02_u021"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "payoff",
+        "evidence_unit_ids": [
+          "e02_u020",
+          "e02_u021"
+        ]
+      },
+      "hook_unit_id": "e02_u002",
+      "hook_type": "public_humiliation",
+      "emotion_type": "heartbreak",
+      "trope": "betrayed bride",
+      "central_conflict": "Juliana confronts Gerald as he publicly abandons her at the altar for his sister Clarissa, turning her humiliation into a fight over honor.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "b838f4277f851c95",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 17.0,
+      "secs": 3.48,
+      "tokens_in": 1846,
+      "tokens_out": 1185
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e02_u022",
+          "e02_u023",
+          "e02_u024"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e02_u023",
+          "e02_u026",
+          "e02_u027",
+          "e02_u030",
+          "e02_u033",
+          "e02_u045"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e02_u026",
+          "e02_u031",
+          "e02_u032",
+          "e02_u038",
+          "e02_u040",
+          "e02_u045"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e02_u023",
+          "e02_u027",
+          "e02_u030",
+          "e02_u033",
+          "e02_u045"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e02_u044",
+          "e02_u045"
+        ]
+      },
+      "hook_unit_id": "e02_u023",
+      "hook_type": "public_humiliation",
+      "emotion_type": "humiliation",
+      "trope": "spurned bride",
+      "central_conflict": "Juliana is publicly rejected by her father and mocked by her sister after Gerald abandons her at the altar, forcing her to confront her family's humiliation.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03",
+    "prompt_hash": "603ad2aef855b15e",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.5,
+      "secs": 2.9,
+      "tokens_in": 1754,
+      "tokens_out": 934
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e02_u054",
+          "e02_u055"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e02_u058",
+          "e02_u059",
+          "e02_u062",
+          "e02_u067"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e02_u054",
+          "e02_u059",
+          "e02_u064",
+          "e02_u067"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e02_u057",
+          "e02_u064",
+          "e02_u069",
+          "e02_u073"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e02_u073",
+          "e02_u074"
+        ]
+      },
+      "hook_unit_id": "e02_u055",
+      "hook_type": "shocking_line",
+      "emotion_type": "rage",
+      "trope": "betrayed bride",
+      "central_conflict": "Juliana confronts Gerald, accusing him of abandoning her at the altar for his sister, and vows to retain her dignity.",
+      "spoils_main_twist": false
+    }
+  }
+]

@@ -1,0 +1,74 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Learning from his mother that Rupert and Catherine framed Juliana for witchcraft and sentenced her to death right after their upcoming wedding, Alexander vows to return from the dead and reclaim everything stolen from him.
+CONTINUITY NOTES: Picking up immediately from the revelation in Episode 35 that the men ruling Ashwood orchestrated Alexander's ambush, Alexander learns of Juliana's imprisonment and looming execution.
+
+CLIP: 99.0s to 139.0s (40.0s). Units below: id | seconds from clip start | type | text.
+e36_u061 | 0.0-4.5 | CAMERA | Tight close-up on Alexander's mother crying out in wretched guilt and horror.
+e36_u062 | 0.5-4.2 | DIALOGUE | ALEXANDER'S MOTHER (Wailing): "They arrested her!"
+e36_u063 | 4.5-6.8 | CAMERA | Close-up on Alexander, his expression freezing in complete shock.
+e36_u064 | 5.0-6.5 | DIALOGUE | ALEXANDER (Stunned): "Arrested?"
+e36_u065 | 6.8-11.0 | CAMERA | Medium close-up as his mother clutches Alexander's forearms with desperate, pleading hands.
+e36_u066 | 6.9-10.8 | DIALOGUE | ALEXANDER'S MOTHER (Despairing): "Rupert and Catherine accused her of poisoning me!"
+e36_u067 | 11.0-15.0 | CAMERA | Close-up on Alexander, absolute fury erupting across his scarred face.
+e36_u068 | 12.8-14.8 | DIALOGUE | ALEXANDER (Shouting, Incredulous): "But she saved you!"
+e36_u069 | 15.0-18.0 | CAMERA | Close-up on his mother, clutching her chest in grief.
+e36_u070 | 15.2-17.5 | DIALOGUE | ALEXANDER'S MOTHER (Weeping): "I told them!"
+e36_u071 | 18.0-20.5 | CAMERA | Medium shot of Alexander clenching his fists at his sides, trembling with rage.
+e36_u072 | 18.5-20.3 | DIALOGUE | ALEXANDER (Furious): "You told them the truth!"
+e36_u073 | 20.5-24.0 | CAMERA | Close-up on his mother as she cries out, devastated by the memory of the kangaroo court.
+e36_u074 | 20.8-23.5 | DIALOGUE | ALEXANDER'S MOTHER (Agonized): "They called her a witch!"
+e36_u075 | 24.0-28.5 | CAMERA | Frontal medium shot of Alexander standing frozen, the weight of the realization crashing down on him.
+e36_u076 | 24.8-27.8 | DIALOGUE | ALEXANDER (Horrified): "Juliana... is in a cell?"
+e36_u077 | 28.5-31.8 | CAMERA | Close-up of his mother clutching her temple, reeling in remembered trauma.
+e36_u078 | 28.8-31.5 | DIALOGUE | ALEXANDER'S MOTHER (Weak, Trembling): "She was taken before a magistrate."
+e36_u079 | 31.8-33.0 | CAMERA | Tight shot of Alexander, his eyes wild with terror for his wife.
+e36_u080 | 31.9-32.8 | DIALOGUE | ALEXANDER (Barking): "And?!"
+e36_u081 | 33.0-36.0 | CAMERA | Close-up on his mother breaking down into inconsolable sobs.
+e36_u082 | 33.2-35.4 | DIALOGUE | ALEXANDER'S MOTHER (Weeping): "They condemned her."
+e36_u083 | 35.5-36.2 | DIALOGUE | ALEXANDER (Gasping): "No."
+e36_u084 | 36.0-40.0 | CAMERA | Close-up on his mother looking up through her tears, delivering the horrifying reality.
+e36_u085 | 37.0-39.8 | DIALOGUE | ALEXANDER'S MOTHER (Solemn, Shattered): "She is to be executed."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

@@ -1,0 +1,239 @@
+{
+  "episode": 43,
+  "logline": "When Rupert frantically orders Alexander's arrest, the royal guards refuse and salute the true Duke, before damning Crown intelligence documents expose Rupert and Lord Sterling's treasonous plot.",
+  "counts": {
+    "proposed": 4,
+    "rejected_at_validation": 2,
+    "rejected_at_judge": 2,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 1,
+    "retry_recovered": 0,
+    "judge_failed": 2,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 43,
+      "retry_of": null,
+      "retried_as": "c01r",
+      "retry_declined": null,
+      "start_unit_id": "e43_u008",
+      "end_unit_id": "e43_u025",
+      "hook_unit_id": "e43_u008",
+      "hook": {
+        "unit_ids": [
+          "e43_u008"
+        ],
+        "modality": "visual",
+        "description": "Extreme close-up on Rupert's furious face, veins bulging at his temples.",
+        "evidence": "The intense, visceral display of rage and panic immediately signals a high-stakes confrontation.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e43_u025",
+      "segments": [
+        {
+          "start_unit": "e43_u008",
+          "end_unit": "e43_u025",
+          "start": 10.5,
+          "end": 28.0
+        }
+      ],
+      "start": 10.5,
+      "end": 28.0,
+      "duration": 17.5,
+      "proposer_reason": "The moment the Royal Guard defies the villain to salute the true Duke is a classic, satisfying power shift.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "17.5s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 43,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e43_u034",
+      "end_unit_id": "e43_u053",
+      "hook_unit_id": "e43_u034",
+      "hook": {
+        "unit_ids": [
+          "e43_u034"
+        ],
+        "modality": "visual",
+        "description": "Crown Official opening the binder and reading aloud.",
+        "evidence": "The formal, cold delivery of a 'Top Secret' betrayal report creates immediate intrigue.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e43_u053",
+      "segments": [
+        {
+          "start_unit": "e43_u034",
+          "end_unit": "e43_u053",
+          "start": 37.0,
+          "end": 66.0
+        }
+      ],
+      "start": 37.0,
+      "end": 66.0,
+      "duration": 29.0,
+      "proposer_reason": "The public exposure of treason and the villain's crumbling reaction provides high emotional payoff.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c03",
+      "episode": 43,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": "The scene segment from unit 77 to 87 is only 15 seconds long, and extending it to 20 seconds would require including dialogue that breaks the scene's focus on the escape attempt.",
+      "start_unit_id": "e43_u077",
+      "end_unit_id": "e43_u087",
+      "hook_unit_id": "e43_u077",
+      "hook": {
+        "unit_ids": [
+          "e43_u077"
+        ],
+        "modality": "visual",
+        "description": "Rupert whirling around in a frenzy, pointing his finger toward Lord Sterling.",
+        "evidence": "The sudden shift from confrontation to desperate betrayal between co-conspirators is highly engaging.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e43_u087",
+      "segments": [
+        {
+          "start_unit": "e43_u077",
+          "end_unit": "e43_u087",
+          "start": 99.8,
+          "end": 114.96
+        }
+      ],
+      "start": 99.8,
+      "end": 114.96,
+      "duration": 15.16,
+      "proposer_reason": "The villain's escape attempt being blocked by the police provides a perfect, high-tension conclusion.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:duration"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "15.16s is under the 20s minimum"
+      ]
+    },
+    {
+      "candidate_id": "c01r",
+      "episode": 43,
+      "retry_of": "c01",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e43_u006",
+      "end_unit_id": "e43_u027",
+      "hook_unit_id": "e43_u006",
+      "hook": {
+        "unit_ids": [
+          "e43_u006"
+        ],
+        "modality": "visual",
+        "description": "Wide shot of Alexander standing immovable against the guards.",
+        "evidence": "The visual contrast of the lone Duke against the guards establishes the power shift immediately.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e43_u027",
+      "segments": [
+        {
+          "start_unit": "e43_u006",
+          "end_unit": "e43_u027",
+          "start": 8.0,
+          "end": 30.0
+        }
+      ],
+      "start": 8.0,
+      "end": 30.0,
+      "duration": 22.0,
+      "proposer_reason": "This window captures the full sequence of the guards' defiance and the reveal of the dossier, meeting the 20-second duration requirement.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 2,
+    "tokens_in": 12804,
+    "tokens_out": 787,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 6.8,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 2,
+    "judge_failed": 2,
+    "waited_s": 1.8
+  }
+}

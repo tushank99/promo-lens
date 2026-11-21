@@ -1,0 +1,102 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Some promo windows you proposed for this episode were rejected by the code checker. For each one,
+propose ONE new window for the same moment that satisfies every rule, or give up if no compliant window would
+still be a compelling promo. This is a fresh proposal: do not just nudge the old IDs.
+
+EPISODE LOGLINE: Seeking shelter from the cold rain, Juliana arrives at her new husband's modest woodland cottage and discovers an unexpected sense of peace beside the hearth.
+
+RULES: 20-60 seconds from the earliest start to the latest end of the units in the window; one scene only;
+the earliest hook unit must begin within 3 seconds of the clip start; never start/end inside a spoken line;
+include both sides of overlapping dialogue; if you give cliffhanger_unit_id it must start in the last 20%.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+REJECTED WINDOWS:
+- c04: window e06_u082..e06_u097 (93.8-115.0 s, 21.2 s); hook ['e06_u082'] modality visual (delay 0.0 s)
+  FAILED: cliffhanger: cliffhanger e06_u094 starts at 106.2s, before the final 20% of the clip (110.76s)
+  Original idea: The shift from despair to finding unexpected peace with a mysterious stranger provides a satisfying emotional arc for a short promo.
+  Scene 02: units e06_u031..e06_u097, 33.7-115.0 s. Units of that scene:
+    e06_u031 | 33.7-36.7 | ACTION | The heavy wooden cottage door creaks open. Juliana steps across the threshold into the dark, barren room.
+    e06_u032 | 33.8-36.5 | SFX | Door hinges groaning open followed by the hollow thump of footsteps on wet wood floorboards.
+    e06_u033 | 36.7-37.7 | CAMERA | Close-up overhead shot of a wooden bucket catching raindrops dripping steadily from a leak in the ceiling.
+    e06_u034 | 36.7-40.0 | SFX | Rhythmic water drips plinking into the metal-rimmed wooden bucket.
+    e06_u035 | 37.7-40.0 | CAMERA | Medium wide shot past the drip bucket as the Mysterious Bearded Man closes the door behind them.
+    e06_u036 | 40.0-42.0 | CAMERA | Medium close-up of the Mysterious Bearded Man standing in the dim light by the door.
+    e06_u037 | 40.7-41.9 | DIALOGUE | MYSTERIOUS BEARDED MAN (Humble, Apologetic): "I am sorry."
+    e06_u038 | 42.0-43.3 | CAMERA | Medium shot of Juliana gazing around the rustic interior, taking in the sparse surroundings.
+    e06_u039 | 43.3-46.4 | CAMERA | Medium close-up of the Mysterious Bearded Man looking at her with somber honesty.
+    e06_u040 | 43.6-45.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Grave, Sincere): "You came from comfort."
+    e06_u041 | 45.1-47.3 | DIALOGUE | MYSTERIOUS BEARDED MAN (Grave, Sincere): "This is all I can give you now."
+    e06_u042 | 46.4-48.8 | CAMERA | Medium shot of Juliana undoing the ribbon tie of her black cloak and letting it slide off her shoulders.
+    e06_u043 | 46.6-49.0 | ACTION | Juliana removes her dark cloak, revealing her damp white bridal dress underneath.
+    e06_u044 | 48.8-51.1 | CAMERA | Close-up of Juliana's hand pressing against the cold, condensation-fogged windowpane.
+    e06_u045 | 51.1-54.8 | CAMERA | Side profile shot of Juliana looking out the rain-streaked window into the quiet forest.
+    e06_u046 | 51.3-52.7 | DIALOGUE | JULIANA (Gentle, Peaceful): "It is quiet."
+    e06_u047 | 53.3-54.6 | DIALOGUE | JULIANA (Gentle, Peaceful): "Very quiet."
+    e06_u048 | 54.8-56.2 | CAMERA | Over-the-shoulder shot from behind Juliana looking at the Mysterious Bearded Man watching her attentively.
+    e06_u049 | 56.2-58.2 | CAMERA | Medium close-up of Juliana turning back toward him, a soft, genuine smile illuminating her face.
+    e06_u050 | 56.4-58.0 | DIALOGUE | JULIANA (Earnest, Content): "I think I like that."
+    e06_u051 | 58.2-59.8 | CAMERA | Close-up of the Mysterious Bearded Man, slightly surprised by her reaction.
+    e06_u052 | 58.4-60.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Incredulous): "You are not disappointed?"
+    e06_u053 | 59.8-61.3 | CAMERA | Medium close-up of Juliana meeting his gaze honestly.
+    e06_u054 | 60.3-61.3 | DIALOGUE | JULIANA (Direct, Soft): "I am."
+    e06_u055 | 61.3-64.1 | CAMERA | Over-the-shoulder shot behind Juliana as the Mysterious Bearded Man listens intently.
+    e06_u056 | 61.9-64.1 | DIALOGUE | JULIANA (Warm, Reassuring): "But not because of you."
+    e06_u057 | 64.1-66.6 | CAMERA | Medium shot as Juliana grabs a rag from the rustic wooden table and begins briskly scrubbing the damp surface.
+    e06_u058 | 64.3-66.8 | DIALOGUE | JULIANA (Determined, Practical): "If this is our home, I want it clean."
+    e06_u059 | 66.6-67.8 | CAMERA | Medium shot of the Mysterious Bearded Man stepping forward to intervene gently.
+    e06_u060 | 66.7-68.7 | DIALOGUE | MYSTERIOUS BEARDED MAN (Caring, Tender): "You don't have to do that tonight."
+    e06_u061 | 67.8-69.5 | CAMERA | Close-up on Juliana's hands vigorously scrubbing grime from the wooden tabletop.
+    e06_u062 | 69.5-72.1 | CAMERA | Close-up of Juliana's face, her voice catching with raw, suppressed emotion as she scrubs.
+    e06_u063 | 70.1-73.2 | DIALOGUE | JULIANA (Vulnerable, Trembling): "If I stop now, I will think about everything I lost."
+    e06_u064 | 72.1-74.3 | CAMERA | Full shot of the Mysterious Bearded Man standing motionless, his gaze filled with empathy and understanding.
+    e06_u065 | 74.3-76.8 | ACTION | Instead of stopping her, the Mysterious Bearded Man kneels beside the table and begins inspecting and adjusting the wobbly table leg to help.
+    e06_u066 | 74.3-76.8 | CAMERA | Medium low shot of the Mysterious Bearded Man kneeling beside Juliana as she wipes the table.
+    e06_u067 | 76.8-77.8 | ACTION | Juliana picks up a straw broom and sweeps the stone floor in front of the stone hearth.
+    e06_u068 | 76.8-77.8 | CAMERA | Wide shot of Juliana sweeping dust toward the large stone fireplace.
+    e06_u069 | 77.8-81.0 | ACTION | The Mysterious Bearded Man carries a heavy wooden log across the room and places it onto the iron grate in the hearth.
+    e06_u070 | 77.8-81.0 | CAMERA | Tracking shot following the Mysterious Bearded Man as he sets the firewood into the stone fireplace.
+    e06_u071 | 81.0-83.8 | ACTION | He strikes flint and steel together over dry kindling, igniting bright sparks that catch into a flickering flame.
+    e06_u072 | 81.0-83.8 | CAMERA | Extreme close-up on hands striking flint, sparks showering onto the twigs and catching fire.
+    e06_u073 | 83.8-85.0 | CAMERA | Medium close-up of vibrant orange flames rapidly spreading across the dry logs, crackling warmly.
+    e06_u074 | 83.8-90.0 | SFX | Crisp crackling and snapping of dry wood catching fire in the hearth.
+    e06_u075 | 85.0-87.5 | CAMERA | Medium shot of Juliana standing by the table, broom resting against her hip, bathed in the amber firelight.
+    e06_u076 | 87.5-89.8 | ACTION | The Mysterious Bearded Man stands up from the hearth, dusting his hands on his coat.
+    e06_u077 | 87.5-89.8 | CAMERA | Medium shot of the Mysterious Bearded Man rising before the blazing fireplace.
+    e06_u078 | 89.0-89.8 | DIALOGUE | MYSTERIOUS BEARDED MAN (Relieved): "There."
+    e06_u079 | 89.8-91.7 | CAMERA | Close-up of Juliana looking at him with radiant gratitude and a gentle smile.
+    e06_u080 | 91.7-93.8 | CAMERA | Medium close-up of the Mysterious Bearded Man gesturing faintly to the modest room.
+    e06_u081 | 92.1-93.6 | DIALOGUE | MYSTERIOUS BEARDED MAN (Quiet, Modest): "It is not much."
+    e06_u082 | 93.8-95.8 | CAMERA | Medium shot of Juliana kneeling on the stone floor before the blazing hearth, wrapping her dark cloak around her shoulders.
+    e06_u083 | 94.2-96.2 | DIALOGUE | JULIANA (Soft, Comforted): "It is enough for tonight."
+    e06_u084 | 95.8-98.2 | CAMERA | Wide shot framing the roaring hearth fire between them as the Mysterious Bearded Man crouches down beside her on the stone floor.
+    e06_u085 | 98.2-101.0 | CAMERA | Close-up of Juliana pulling her cloak tighter, her face glowing warmly in the firelight.
+    e06_u086 | 98.4-100.4 | DIALOGUE | JULIANA (Reflective, Vulnerable): "I lost my home today."
+    e06_u087 | 100.6-101.8 | DIALOGUE | JULIANA (Reflective, Vulnerable): "My family."
+    e06_u088 | 101.0-103.0 | CAMERA | Close-up of the glowing embers and dancing flames inside the fireplace.
+    e06_u089 | 102.0-104.8 | DIALOGUE | JULIANA (Reflective, Vulnerable): "Everything I thought my life would be."
+    e06_u090 | 103.0-104.3 | CAMERA | Close-up on the Mysterious Bearded Man's scarred, work-worn hands resting quietly on his knees.
+    e06_u091 | 104.3-106.0 | CAMERA | Medium close-up of Juliana looking down into the flames, a peaceful serenity washing over her features.
+    e06_u092 | 105.0-106.0 | DIALOGUE | JULIANA (Gentle, Surprised): "And yet..."
+    e06_u093 | 106.0-109.0 | CAMERA | Extreme close-up on the Mysterious Bearded Man's profile, his scarred cheek illuminated by the amber glow as he watches over her protectively.
+    e06_u094 | 106.2-109.0 | DIALOGUE | JULIANA (Tender, Safe): "Sitting here with him, I don't feel afraid."
+    e06_u095 | 109.0-111.5 | CAMERA | Close-up on Juliana looking up into the room with quiet hope in her blue eyes.
+    e06_u096 | 111.5-115.0 | CAMERA | Close-up on the crackling flames and glowing embers of the fireplace, slowly fading to black as the music swells warmly.
+    e06_u097 | 111.5-115.0 | SFX | Warm hearth crackles blending with gentle string music fading out.
+
+Return exactly:
+{"retries": [
+  {"retry_of": "c02", "start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio", "description": "...", "evidence": "..."},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"},
+  {"retry_of": "c03", "give_up": true, "reason": "why no compliant window works"}
+]}

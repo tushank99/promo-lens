@@ -1,0 +1,56 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e48_u021",
+      "end_unit_id": "e48_u043",
+      "hook": {
+        "unit_ids": [
+          "e48_u021"
+        ],
+        "modality": "visual",
+        "description": "Catherine aggressively grabs Agnes, establishing a power dynamic shift.",
+        "evidence": "The action unit e48_u021 begins at 34.0s, which is within 3 seconds of the window start at 34.0s."
+      },
+      "cliffhanger_unit_id": "e48_u043",
+      "reason": "This window captures the full arc of the scheme from the physical confrontation to the final ominous shot, meeting the duration and cliffhanger requirements."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e48_u021",
+      "end_unit_id": "e48_u043",
+      "hook": {
+        "unit_ids": [
+          "e48_u021"
+        ],
+        "modality": "visual",
+        "description": "Catherine aggressively grabs Agnes, establishing a power dynamic shift.",
+        "evidence": "The action unit e48_u021 begins at 34.0s, which is within 3 seconds of the window start at 34.0s."
+      },
+      "cliffhanger_unit_id": "e48_u043",
+      "reason": "This window captures the full arc of the scheme from the physical confrontation to the final ominous shot, meeting the duration and cliffhanger requirements."
+    },
+    "ok": true,
+    "status": "pass",
+    "reasons": [],
+    "details": [],
+    "warnings": [
+      "camera-only stretch 6.6s (73.4-80.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 34.0,
+    "end": 80.0,
+    "duration": 46.0,
+    "segments": [
+      {
+        "start_unit": "e48_u021",
+        "end_unit": "e48_u043",
+        "start": 34.0,
+        "end": 80.0
+      }
+    ]
+  }
+]

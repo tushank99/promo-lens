@@ -1,0 +1,47 @@
+{
+  "episode": 26,
+  "prompt_hash": "d0e663290a82a9cc",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.43,
+    "tokens_in": 3470,
+    "tokens_out": 362
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e26_u022",
+        "end_unit_id": "e26_u033",
+        "hook": {
+          "unit_ids": [
+            "e26_u022"
+          ],
+          "modality": "visual",
+          "description": "The heavy bedroom doors are left ajar, revealing a sliver of light from the hallway.",
+          "evidence": "The visual of a secret meeting in a dark, dangerous room immediately establishes high stakes and tension."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "This clip highlights the immediate danger of the poisoning plot and the mystery of Juliana's true identity."
+      },
+      {
+        "start_unit_id": "e26_u034",
+        "end_unit_id": "e26_u051",
+        "hook": {
+          "unit_ids": [
+            "e26_u034"
+          ],
+          "modality": "visual",
+          "description": "A close-up of a distinctive engraved signet ring on Juliana's finger.",
+          "evidence": "The reveal of a mysterious, noble object on a common maid's hand is a classic visual hook that promises a secret identity reveal."
+        },
+        "cliffhanger_unit_id": "e26_u051",
+        "reason": "The sudden recognition of the ring by the Duchess creates an intense, high-stakes confrontation that demands a resolution."
+      }
+    ]
+  },
+  "note": null
+}

@@ -1,0 +1,86 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+As Juliana inspects her late mother's weathered herbal grimoire, Alexander bonds with her over rustic medicinal knowledge and war-worn memories, gently altering her perception of what true wealth means.
+CONTINUITY NOTES: Picks up after Episode 7, where Alexander chased off Gerald and the mocking aristocratic visitors; quiet and intimacy now return inside the woodland cottage as evening approaches.
+
+CLIP: 31.9s to 78.0s (46.1s). Units below: id | seconds from clip start | type | text.
+e08_u027 | 0.0-1.3 | CAMERA | Close-up of Alexander's large, rough hand firmly but gently catching Juliana's wrist in midair.
+e08_u028 | 1.3-3.6 | CAMERA | Medium two-shot profile of Alexander holding her wrist, his piercing gaze locked onto hers.
+e08_u029 | 1.3-2.6 | DIALOGUE | ALEXANDER (Firm, Low): "Not yet."
+e08_u030 | 3.6-5.4 | CAMERA | Close-up of Juliana looking into his eyes, her brow lightly furrowed in bemused question.
+e08_u031 | 3.9-5.0 | DIALOGUE | JULIANA (Puzzled, Curious): "Not yet?"
+e08_u032 | 5.4-7.7 | CAMERA | Close-up of Alexander, still maintaining his gentle hold on her arm.
+e08_u033 | 5.8-7.0 | DIALOGUE | ALEXANDER (Grounded, Steady): "Let them grow."
+e08_u034 | 7.7-10.4 | CAMERA | Close-up of Juliana smiling with playful warmth.
+e08_u035 | 8.0-10.1 | DIALOGUE | JULIANA (Playful, Amused): "You prefer looking like a forest hermit?"
+e08_u036 | 10.4-13.0 | CAMERA | Intimate two-shot as Alexander slowly lowers her hand, his expression softening.
+e08_u037 | 11.8-13.0 | DIALOGUE | ALEXANDER (Dry, Droll): "It has advantages."
+e08_u038 | 13.0-15.0 | CAMERA | Medium shot of Juliana chuckling quietly as she steps back toward the table.
+e08_u039 | 13.6-14.9 | DIALOGUE | JULIANA (Fond, Resigned): "Very well."
+e08_u040 | 15.0-16.1 | CAMERA | Close-up of Alexander watching her with deep, affectionate attention.
+e08_u041 | 16.1-18.1 | CAMERA | Close-up of Juliana grinning with sparkling eyes.
+e08_u042 | 16.2-17.7 | DIALOGUE | JULIANA (Teasing, Determined): "But one day, I am trimming that beard."
+e08_u043 | 18.1-19.4 | CAMERA | Close-up of Alexander lowering his head slightly with a faint smirk.
+e08_u044 | 18.2-19.3 | DIALOGUE | ALEXANDER (Low, Amused): "We'll see."
+e08_u045 | 19.4-21.4 | CAMERA | Medium two-shot of both sitting back down at the table together, Alexander turning a brittle page of the herb book.
+e08_u046 | 21.4-25.2 | CAMERA | Close-up insert of Alexander's weathered finger pointing directly at a delicate botanical illustration of a flowering stem.
+e08_u047 | 21.4-25.1 | DIALOGUE | ALEXANDER (Instructional, Calm): "That one grows near the northern stream. Crushed leaves ease swelling."
+e08_u048 | 25.2-27.9 | CAMERA | Wide side-profile two-shot of Juliana and Alexander seated across from each other at the rustic table, the stone fireplace roaring warmly behind them.
+e08_u049 | 26.8-28.3 | DIALOGUE | JULIANA (Soft, Nostalgic): "My mother wrote the same thing."
+e08_u050 | 27.9-31.1 | CAMERA | Close-up of Juliana looking across at his battle-marked features with empathy.
+e08_u051 | 28.6-30.9 | DIALOGUE | JULIANA (Hesitant, Compassionate): "And the scars... were they from the war?"
+e08_u052 | 31.1-32.4 | CAMERA | Close-up of Alexander looking downward, memories clouding his eyes.
+e08_u053 | 31.3-32.3 | DIALOGUE | ALEXANDER (Quiet, Subdued): "Some were."
+e08_u054 | 32.4-34.6 | CAMERA | Close-up of Juliana, her eyes filled with gentle understanding.
+e08_u055 | 33.0-34.4 | DIALOGUE | JULIANA (Tender, Aching): "It must have been terrible."
+e08_u056 | 34.6-36.6 | CAMERA | Close-up of Alexander lifting his gaze, heavy with past battles.
+e08_u057 | 34.8-35.7 | DIALOGUE | ALEXANDER (Heavy, Somber): "It was."
+e08_u058 | 36.6-39.0 | CAMERA | Medium two-shot of Juliana smiling tenderly at him across the open book.
+e08_u059 | 37.1-40.2 | DIALOGUE | JULIANA (Reflective, Vulnerable): "I thought losing wealth meant losing everything."
+e08_u060 | 39.0-41.3 | CAMERA | Wide shot framing the warm silhouette of the two companions sitting peacefully beside the blazing stone hearth.
+e08_u061 | 41.3-46.1 | CAMERA | Extreme close-up of Juliana's radiant face illuminated by firelight, a peaceful, contented smile spreading across her lips as she looks at him until the shot gently fades out.
+e08_u062 | 41.3-43.4 | DIALOGUE | JULIANA (Quiet, Transformed): "Perhaps I was wrong."
+e08_u063 | 43.4-46.1 | ACTION | Juliana maintains her warm, peaceful gaze across the table as soft firelight flickers over her face into fade out.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

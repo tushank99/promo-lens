@@ -1,0 +1,68 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+At the height of Catherine and Rupert's lavish wedding, Juliana is paraded before high society in chains to be publicly disgraced—until a deafening explosion shatters the cathedral entrance, heralding Alexander's vengeful assault.
+CONTINUITY NOTES: Follows Episode 40 where Rupert and Catherine met at the altar; Catherine halts the vows to stage a public humiliation of Juliana, unaware that Alexander's forces are already detonating the cathedral gates.
+
+CLIP: 60.8s to 96.09s (35.29s). Units below: id | seconds from clip start | type | text.
+e41_u035 | 0.0-3.2 | CAMERA | Dramatic low-angle full shot looking up at Juliana, her posture straight, imposing, and regal despite the heavy chains.
+e41_u036 | 0.2-2.7 | DIALOGUE | CATHERINE (Murmured, Cold): "Still arrogant. Still standing."
+e41_u037 | 3.2-7.7 | CAMERA | Full shot of Catherine turning back to Rupert at the altar, dismissing Juliana's defiance as beneath her.
+e41_u038 | 3.7-4.6 | DIALOGUE | CATHERINE (Dismissive): "Come."
+e41_u039 | 7.7-9.7 | CAMERA | Close-up of Catherine's and Rupert's gloved hands clasping together over the velvet altar cushion.
+e41_u040 | 9.7-14.2 | CAMERA | Medium two-shot of Catherine gazing up adoringly into Rupert's eyes, her tone intoxicatingly intimate.
+e41_u041 | 9.7-14.0 | DIALOGUE | CATHERINE (Intimate, Ambitious): "Soon, there will be nothing left between us and the Ashburgh title."
+e41_u042 | 14.2-16.7 | CAMERA | Close-up of Rupert's face breaking into a calculating, ambitious grin.
+e41_u043 | 15.0-16.2 | DIALOGUE | BLOND NOBLEMAN (Quietly Triumphant): "Nothing."
+e41_u044 | 16.7-19.7 | CAMERA | Medium shot of the elderly Priest opening the leather-bound liturgical book between Rupert and Catherine.
+e41_u045 | 17.2-18.5 | DIALOGUE | PRIEST (Solemn, Polite): "Shall we?"
+e41_u046 | 19.7-21.0 | CAMERA | Wide shot centered down the aisle toward the massive closed entrance doors.
+e41_u047 | 20.2-24.7 | SFX | Ear-splitting detonation, shattering stone, wood splintering violently into kindling, followed by terrified screams of the congregation.
+e41_u048 | 21.0-23.2 | ACTION | A violent fireball bursts inward as the entire cathedral entrance explodes, blasting the massive double doors and masonry into flying shrapnel and billowing smoke.
+e41_u049 | 21.0-23.7 | CAMERA | Rapid series of panic shots: aristocratic guests ducking behind pews, covering their heads in terror, women shrieking as plaster rains down.
+e41_u050 | 23.7-27.7 | CAMERA | Medium shot of Catherine and Rupert at the altar. Catherine gasps in horror, clutching her veil as debris rains over her bridal gown while Rupert spins around in shock.
+e41_u051 | 27.7-31.2 | CAMERA | Medium wide shot of Juliana standing motionless in the middle of the aisle while thick smoke and dust billow from the demolished archway behind her.
+e41_u052 | 28.2-32.7 | ACTION | Silhouetted armed figures emerge through the smoke and rubble of the breached doorway. Juliana slowly turns her head, glancing back toward the light.
+e41_u053 | 31.2-35.3 | CAMERA | Extreme close-up pushing in on Juliana's bruised face. Her expression shifts from grim resolve into awe, breathless realization, and blooming hope as the orchestral score swells into an abrupt cliffhanger.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

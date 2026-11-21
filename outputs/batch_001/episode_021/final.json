@@ -1,0 +1,310 @@
+{
+  "episode": 21,
+  "logline": "After defying her own despair to cure a fever-stricken village boy with her mother's herbal remedies, Lady Juliana learns that the Dowager Duchess is secretly withering away from a mysterious illness inside Ashbury Manor.",
+  "counts": {
+    "proposed": 3,
+    "rejected_at_validation": 2,
+    "rejected_at_judge": 0,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 1,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 0,
+    "final_needing_review": 0
+  },
+  "final": [
+    {
+      "candidate_id": "c01",
+      "episode": 21,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e21_u003",
+      "end_unit_id": "e21_u025",
+      "hook_unit_id": "e21_u003",
+      "hook": {
+        "unit_ids": [
+          "e21_u003"
+        ],
+        "modality": "audio",
+        "description": "A loud wooden slam as the barn doors fly open.",
+        "evidence": "The sudden, violent sound immediately disrupts the quiet atmosphere and signals an urgent crisis.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e21_u025",
+      "segments": [
+        {
+          "start_unit": "e21_u003",
+          "end_unit": "e21_u025",
+          "start": 3.5,
+          "end": 40.5
+        }
+      ],
+      "start": 3.5,
+      "end": 40.5,
+      "duration": 37.0,
+      "proposer_reason": "This segment establishes the high-stakes medical emergency and the class conflict between the village and the manor.",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e21_u003",
+          "e21_u004",
+          "e21_u005"
+        ],
+        "clarity": [
+          "e21_u005",
+          "e21_u010",
+          "e21_u019"
+        ],
+        "emotion": [
+          "e21_u005",
+          "e21_u010",
+          "e21_u014",
+          "e21_u018",
+          "e21_u022"
+        ],
+        "escalation": [
+          "e21_u005",
+          "e21_u018",
+          "e21_u020",
+          "e21_u023"
+        ],
+        "ending": [
+          "e21_u023",
+          "e21_u024",
+          "e21_u025"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 72.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "desperate healer",
+      "central_conflict": "Lady Juliana must decide whether she can save the fever‑stricken boy Toby despite having lost her home and lacking medicine.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e21_u003",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    }
+  ],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 21,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e21_u003",
+      "end_unit_id": "e21_u025",
+      "hook_unit_id": "e21_u003",
+      "hook": {
+        "unit_ids": [
+          "e21_u003"
+        ],
+        "modality": "audio",
+        "description": "A loud wooden slam as the barn doors fly open.",
+        "evidence": "The sudden, violent sound immediately disrupts the quiet atmosphere and signals an urgent crisis.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e21_u025",
+      "segments": [
+        {
+          "start_unit": "e21_u003",
+          "end_unit": "e21_u025",
+          "start": 3.5,
+          "end": 40.5
+        }
+      ],
+      "start": 3.5,
+      "end": 40.5,
+      "duration": 37.0,
+      "proposer_reason": "This segment establishes the high-stakes medical emergency and the class conflict between the village and the manor.",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "scores": {
+        "hook": 4,
+        "clarity": 3,
+        "emotion": 4,
+        "escalation": 3,
+        "ending": 4
+      },
+      "evidence_unit_ids": {
+        "hook": [
+          "e21_u003",
+          "e21_u004",
+          "e21_u005"
+        ],
+        "clarity": [
+          "e21_u005",
+          "e21_u010",
+          "e21_u019"
+        ],
+        "emotion": [
+          "e21_u005",
+          "e21_u010",
+          "e21_u014",
+          "e21_u018",
+          "e21_u022"
+        ],
+        "escalation": [
+          "e21_u005",
+          "e21_u018",
+          "e21_u020",
+          "e21_u023"
+        ],
+        "ending": [
+          "e21_u023",
+          "e21_u024",
+          "e21_u025"
+        ]
+      },
+      "spoils_main_twist": false,
+      "flags": [],
+      "rejection_reasons": [],
+      "final_score": 72.0,
+      "status": "final",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "trope": "desperate healer",
+      "central_conflict": "Lady Juliana must decide whether she can save the fever‑stricken boy Toby despite having lost her home and lacking medicine.",
+      "ending_type": "emotional_resolution",
+      "judge_hook_unit_id": "e21_u003",
+      "judge_hook_evidence_delay_s": 0.0,
+      "rank": 1
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 21,
+      "retry_of": null,
+      "retried_as": "c02r",
+      "retry_declined": null,
+      "start_unit_id": "e21_u063",
+      "end_unit_id": "e21_u076",
+      "hook_unit_id": "e21_u063",
+      "hook": {
+        "unit_ids": [
+          "e21_u063"
+        ],
+        "modality": "visual",
+        "description": "Prudence's expression darkening with anger as she speaks about the manor.",
+        "evidence": "The shift from relief to intense, ominous resentment creates immediate intrigue about the secret illness.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e21_u076",
+      "segments": [
+        {
+          "start_unit": "e21_u063",
+          "end_unit": "e21_u076",
+          "start": 91.0,
+          "end": 114.0
+        }
+      ],
+      "start": 91.0,
+      "end": 114.0,
+      "duration": 23.0,
+      "proposer_reason": "This moment pivots from a successful cure to a dark, dangerous secret regarding the Dowager Duchess.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e21_u076 starts at 108.5s, before the final 20% of the clip (109.4s)"
+      ]
+    },
+    {
+      "candidate_id": "c02r",
+      "episode": 21,
+      "retry_of": "c02",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e21_u063",
+      "end_unit_id": "e21_u076",
+      "hook_unit_id": "e21_u063",
+      "hook": {
+        "unit_ids": [
+          "e21_u063"
+        ],
+        "modality": "visual",
+        "description": "A low-angle shot past the sleeping boy toward Prudence, whose face is twisted in sudden, dark resentment.",
+        "evidence": "The visual shift from the relief of the cure to Prudence's ominous expression immediately signals a change in tone.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e21_u076",
+      "segments": [
+        {
+          "start_unit": "e21_u063",
+          "end_unit": "e21_u076",
+          "start": 91.0,
+          "end": 114.0
+        }
+      ],
+      "start": 91.0,
+      "end": 114.0,
+      "duration": 23.0,
+      "proposer_reason": "The window is shortened to 23 seconds, ensuring the cliffhanger unit starts at 108.5s, which is within the final 20% of the total duration.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e21_u076 starts at 108.5s, before the final 20% of the clip (109.4s)"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 20.3,
+    "calls": 3,
+    "cached_calls": 0,
+    "checkpoint_reused": 0,
+    "tokens_in": 9798,
+    "tokens_out": 1722,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 8.9,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 0,
+    "judge_failed": 0,
+    "waited_s": 11.3
+  }
+}

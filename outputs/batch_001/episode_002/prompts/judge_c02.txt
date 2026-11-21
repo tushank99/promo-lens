@@ -1,0 +1,73 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Publicly cast aside at the altar by Gerald for her sister Clarissa and abandoned by her own family, Juliana stands tall and turns her public humiliation into an unyielding indictment of Gerald's honor.
+CONTINUITY NOTES: Picks up directly from Episode 1's cliffhanger. Gerald has turned away from Juliana at the altar, leaving her devastated before the entire aristocratic congregation.
+
+CLIP: 30.6s to 63.5s (32.9s). Units below: id | seconds from clip start | type | text.
+e02_u022 | 0.0-1.8 | CAMERA | Medium shot of Juliana's father seated prominently in the family pew, clutching his gold-topped cane.
+e02_u023 | 0.3-1.8 | DIALOGUE | LADY JULIANA (Vulnerable, Begging): "Father..."
+e02_u024 | 1.8-3.6 | CAMERA | Close-up of the father's stern, unyielding face.
+e02_u025 | 3.6-6.6 | CAMERA | Medium shot of Juliana turning toward her father in the pews, imploring him.
+e02_u026 | 3.7-6.5 | DIALOGUE | LADY JULIANA (Choked with Tears): "Surely you will not let him humiliate me like this?"
+e02_u027 | 6.6-11.9 | CAMERA | Medium shot tracking in on Juliana's father as he leans firmly upon his cane, looking down coldly.
+e02_u028 | 6.9-11.7 | DIALOGUE | BLOND NOBLEMAN (Stern, Cold): "Gerald has made his choice. Accept it, Juliana."
+e02_u029 | 11.9-14.2 | CAMERA | Close-up on the father's hardening eyes, entirely unsympathetic.
+e02_u030 | 11.9-14.1 | DIALOGUE | BLOND NOBLEMAN (Severely, Harsh): "Do not disgrace us further."
+e02_u031 | 14.2-17.0 | CAMERA | Extreme close-up on Juliana's tear-drenched eyes as the sting of her father's rejection lands.
+e02_u032 | 14.7-16.8 | DIALOGUE | LADY JULIANA (Whispering, Crushed): "You won't even look at me."
+e02_u033 | 17.0-20.9 | CAMERA | Medium shot on Clarissa, beaming smugly as she clings to Gerald's arm.
+e02_u034 | 17.2-20.8 | DIALOGUE | LADY IN GOLD GOWN (Mocking, Spiteful): "Why are you surprised, sister? Look at you."
+e02_u035 | 20.9-22.8 | CAMERA | Tight insert on Clarissa's gloved fingers contemptuously pinching the satin folds of Juliana's gown.
+e02_u036 | 21.0-22.6 | DIALOGUE | LADY IN GOLD GOWN (Scornful): "That plain, old-fashioned gown."
+e02_u037 | 22.8-26.1 | CAMERA | Medium shot of Clarissa smiling radiantly, condescendingly gesturing at Juliana.
+e02_u038 | 22.9-26.1 | DIALOGUE | LADY IN GOLD GOWN (Taunting, Giggling): "You look like a kitchen maid who wandered into the wrong wedding."
+e02_u039 | 26.1-27.6 | CAMERA | Close-up on Juliana, whose tearful expression begins to tighten with quiet indignation.
+e02_u040 | 26.2-27.6 | DIALOGUE | LADY IN GOLD GOWN (Snide): "And that quiet little face."
+e02_u041 | 27.6-28.0 | CAMERA | Wide over-the-shoulder shot from behind Clarissa and Gerald, framing Juliana standing solitary down the center aisle.
+e02_u042 | 28.0-29.9 | CAMERA | Medium shot returning to Clarissa laughing at Juliana's expense.
+e02_u043 | 28.1-29.9 | DIALOGUE | LADY IN GOLD GOWN (Conceited, Spiteful): "Gerald needs a real lady..."
+e02_u044 | 29.9-32.9 | CAMERA | Close-up on Juliana staring straight ahead as Clarissa insults her mother's memory.
+e02_u045 | 30.0-32.9 | DIALOGUE | LADY IN GOLD GOWN (Vicious): "...not a dull creature who hides in her mother's apothecary herbs."
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

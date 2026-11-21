@@ -1,0 +1,61 @@
+{
+  "episode": 30,
+  "prompt_hash": "18329323067f2c08",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 5.56,
+    "tokens_in": 4339,
+    "tokens_out": 518
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e30_u017",
+        "end_unit_id": "e30_u023",
+        "hook": {
+          "unit_ids": [
+            "e30_u018"
+          ],
+          "modality": "visual",
+          "description": "The Elder Nobleman thrusts his cane into Rupert's chest, pinning him against the wall.",
+          "evidence": "The sudden, aggressive physical confrontation immediately establishes high stakes and power dynamics."
+        },
+        "cliffhanger_unit_id": "e30_u023",
+        "reason": "This clip captures the inciting moment of the conspiracy to frame the protagonist."
+      },
+      {
+        "start_unit_id": "e30_u044",
+        "end_unit_id": "e30_u053",
+        "hook": {
+          "unit_ids": [
+            "e30_u044"
+          ],
+          "modality": "visual",
+          "description": "Rupert's wide-eyed, shocked reaction to the suggestion of a capital charge.",
+          "evidence": "The visceral reaction to a life-or-death threat hooks the viewer into the gravity of the situation."
+        },
+        "cliffhanger_unit_id": "e30_u053",
+        "reason": "It highlights the cold, calculated decision to manufacture evidence for a death sentence."
+      },
+      {
+        "start_unit_id": "e30_u060",
+        "end_unit_id": "e30_u067",
+        "hook": {
+          "unit_ids": [
+            "e30_u062"
+          ],
+          "modality": "visual",
+          "description": "Catherine beaming with malicious satisfaction while spreading her red fan.",
+          "evidence": "The visual contrast of a beautiful woman expressing pure cruelty is a classic, effective hook for this genre."
+        },
+        "cliffhanger_unit_id": "e30_u067",
+        "reason": "The chilling finality of the plan to turn the prisoner into a 'witch' creates a strong narrative pull."
+      }
+    ]
+  },
+  "note": null
+}

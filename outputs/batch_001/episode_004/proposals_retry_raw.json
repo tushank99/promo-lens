@@ -1,0 +1,38 @@
+{
+  "prompt_hash": "5da0176aaa4b177d",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.9,
+    "secs": 5.36,
+    "tokens_in": 5409,
+    "tokens_out": 196,
+    "checkpoint": true
+  },
+  "asked_for": [
+    "c03"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c03",
+        "start_unit_id": "e04_u086",
+        "end_unit_id": "e04_u109",
+        "hook": {
+          "unit_ids": [
+            "e04_u086"
+          ],
+          "modality": "visual",
+          "description": "Gerald lunging forward in a fit of rage.",
+          "evidence": "The unit begins at 114.8s, which is the start of the clip."
+        },
+        "cliffhanger_unit_id": "e04_u109",
+        "reason": "The window captures the dramatic confrontation and the couple's final exit into the light, satisfying all timing and hook requirements."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

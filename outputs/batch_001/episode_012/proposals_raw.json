@@ -1,0 +1,47 @@
+{
+  "episode": 12,
+  "prompt_hash": "a58ebeb5668655d8",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.06,
+    "tokens_in": 3421,
+    "tokens_out": 367
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e12_u018",
+        "end_unit_id": "e12_u045",
+        "hook": {
+          "unit_ids": [
+            "e12_u018"
+          ],
+          "modality": "visual",
+          "description": "Clarissa glides into the frame with a venomous, amused smile.",
+          "evidence": "The sudden shift in power dynamics and the villain's predatory entrance immediately signal a high-stakes confrontation."
+        },
+        "cliffhanger_unit_id": "e12_u045",
+        "reason": "This window captures the full escalation of the sadistic ultimatum, ending on the life-or-death threat to the husband."
+      },
+      {
+        "start_unit_id": "e12_u033",
+        "end_unit_id": "e12_u055",
+        "hook": {
+          "unit_ids": [
+            "e12_u033"
+          ],
+          "modality": "spoken",
+          "description": "Clarissa begins her sadistic tale about the frozen blackthorn briars.",
+          "evidence": "The vivid, cruel imagery of the torture method is an immediate hook that establishes the stakes of the episode."
+        },
+        "cliffhanger_unit_id": "e12_u055",
+        "reason": "Focuses on the core conflict of the episode, showing the villain's cruelty and the protagonist's desperate, heroic choice."
+      }
+    ]
+  },
+  "note": null
+}

@@ -1,0 +1,189 @@
+{
+  "episode": 42,
+  "logline": "Emerging from the smoke of the shattered cathedral gates in full ducal regalia, Alexander confronts Rupert, wins the loyalty of the royal guards, and is proclaimed the rightful Duke of Ashburn by his weeping mother.",
+  "counts": {
+    "proposed": 3,
+    "rejected_at_validation": 1,
+    "rejected_at_judge": 2,
+    "rejected_at_floors": 0,
+    "alternates": 0,
+    "final": 0,
+    "retried": 1,
+    "retry_declined": 0,
+    "retry_recovered": 0,
+    "judge_failed": 2,
+    "final_needing_review": 0
+  },
+  "final": [],
+  "all_candidates": [
+    {
+      "candidate_id": "c01",
+      "episode": 42,
+      "retry_of": null,
+      "retried_as": "c01r",
+      "retry_declined": null,
+      "start_unit_id": "e42_u009",
+      "end_unit_id": "e42_u023",
+      "hook_unit_id": "e42_u009",
+      "hook": {
+        "unit_ids": [
+          "e42_u009"
+        ],
+        "modality": "visual",
+        "description": "Rupert furiously pointing at Alexander while guards refuse to arrest him.",
+        "evidence": "The immediate conflict and the shock of the guards defying the antagonist creates instant tension.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e42_u023",
+      "segments": [
+        {
+          "start_unit": "e42_u009",
+          "end_unit": "e42_u023",
+          "start": 17.9,
+          "end": 39.9
+        }
+      ],
+      "start": 17.9,
+      "end": 39.9,
+      "duration": 22.0,
+      "proposer_reason": "The confrontation between the usurper and the guards establishes the power shift and the central conflict.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "validation:cliffhanger"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "reject",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "validation",
+      "rejection_details": [
+        "cliffhanger e42_u023 starts at 34.0s, before the final 20% of the clip (35.5s)"
+      ]
+    },
+    {
+      "candidate_id": "c02",
+      "episode": 42,
+      "retry_of": null,
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e42_u024",
+      "end_unit_id": "e42_u037",
+      "hook_unit_id": "e42_u024",
+      "hook": {
+        "unit_ids": [
+          "e42_u024"
+        ],
+        "modality": "visual",
+        "description": "Alexander's mother stepping into the aisle with trembling awe.",
+        "evidence": "The emotional weight of a mother recognizing her long-lost son provides a strong, character-driven hook.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e42_u037",
+      "segments": [
+        {
+          "start_unit": "e42_u024",
+          "end_unit": "e42_u037",
+          "start": 39.9,
+          "end": 77.8
+        }
+      ],
+      "start": 39.9,
+      "end": 77.8,
+      "duration": 37.9,
+      "proposer_reason": "This segment captures the emotional climax and the transition to the final act of vengeance.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    },
+    {
+      "candidate_id": "c01r",
+      "episode": 42,
+      "retry_of": "c01",
+      "retried_as": null,
+      "retry_declined": null,
+      "start_unit_id": "e42_u009",
+      "end_unit_id": "e42_u026",
+      "hook_unit_id": "e42_u009",
+      "hook": {
+        "unit_ids": [
+          "e42_u009"
+        ],
+        "modality": "visual",
+        "description": "Rupert furiously pointing at Alexander, establishing the immediate conflict.",
+        "evidence": "The unit starts at 17.9s, which is the start of the window.",
+        "delay_s": 0.0
+      },
+      "cliffhanger_unit_id": "e42_u026",
+      "segments": [
+        {
+          "start_unit": "e42_u009",
+          "end_unit": "e42_u026",
+          "start": 17.9,
+          "end": 48.0
+        }
+      ],
+      "start": 17.9,
+      "end": 48.0,
+      "duration": 30.1,
+      "proposer_reason": "The window ends on the emotional reunion action, fitting the cliffhanger requirement within the final 20% of the 29.1s duration.",
+      "hook_type": null,
+      "emotion_type": null,
+      "scores": null,
+      "evidence_unit_ids": null,
+      "spoils_main_twist": null,
+      "flags": [],
+      "rejection_reasons": [
+        "judge:failed"
+      ],
+      "final_score": null,
+      "status": "rejected",
+      "review_status": "pass",
+      "review_flags": [],
+      "review_details": [],
+      "rejected_at": "judge",
+      "rejection_details": [
+        "judge call failed: quota exhausted for groq/openai/gpt-oss-120b (not retried): Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m0cmxp5qe8hbvahpmcxw2qyn` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199680, Requested 3154. Please try again in 20m24.288s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/set"
+      ]
+    }
+  ],
+  "usage": {
+    "wall_s": 0.0,
+    "calls": 4,
+    "cached_calls": 0,
+    "checkpoint_reused": 2,
+    "tokens_in": 5128,
+    "tokens_out": 552,
+    "retries": 0,
+    "fallback_calls": 0,
+    "llm_secs": 5.9,
+    "models": [
+      "judge:groq/openai/gpt-oss-120b",
+      "propose:gemini/gemini-3.1-flash-lite",
+      "retry:gemini/gemini-3.1-flash-lite"
+    ],
+    "judge_errors": 2,
+    "judge_failed": 2,
+    "waited_s": 1.7
+  }
+}

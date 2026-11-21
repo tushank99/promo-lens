@@ -1,0 +1,64 @@
+[
+  {
+    "candidate_id": "c02r",
+    "proposal": {
+      "retry_of": "c02",
+      "start_unit_id": "e10_u027",
+      "end_unit_id": "e10_u060",
+      "hook": {
+        "unit_ids": [
+          "e10_u027"
+        ],
+        "modality": "visual",
+        "description": "Alexander reveals his scarred, bloodied torso.",
+        "evidence": "The unit begins at 33.2s, which is within 3 seconds of the clip start (33.2s)."
+      },
+      "cliffhanger_unit_id": "e10_u060",
+      "reason": "This window captures the emotional climax and confession while meeting all timing and hook requirements."
+    },
+    "retry_of": "c02",
+    "norm": {
+      "start_unit_id": "e10_u027",
+      "end_unit_id": "e10_u060",
+      "hook": {
+        "unit_ids": [
+          "e10_u027"
+        ],
+        "modality": "visual",
+        "description": "Alexander reveals his scarred, bloodied torso.",
+        "evidence": "The unit begins at 33.2s, which is within 3 seconds of the clip start (33.2s)."
+      },
+      "cliffhanger_unit_id": "e10_u060",
+      "reason": "This window captures the emotional climax and confession while meeting all timing and hook requirements."
+    },
+    "ok": false,
+    "status": "reject",
+    "reasons": [
+      "duration"
+    ],
+    "details": [
+      "60.8s is over the 60s maximum"
+    ],
+    "warnings": [
+      "camera-only stretch 4.9s (33.2-38.1)",
+      "camera-only stretch 6.4s (38.9-45.3)",
+      "camera-only stretch 6.3s (57.6-63.9)",
+      "camera-only stretch 3.6s (79.0-82.6)",
+      "camera-only stretch 8.1s (85.9-94.0)"
+    ],
+    "review": [],
+    "review_details": [],
+    "hook_delay": 0.0,
+    "start": 33.2,
+    "end": 94.0,
+    "duration": 60.8,
+    "segments": [
+      {
+        "start_unit": "e10_u027",
+        "end_unit": "e10_u060",
+        "start": 33.2,
+        "end": 94.0
+      }
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "405a39c2a8316b50",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 0.0,
+      "secs": 3.49,
+      "tokens_in": 2012,
+      "tokens_out": 1248,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e04_u001",
+          "e04_u002"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e04_u004",
+          "e04_u005",
+          "e04_u007",
+          "e04_u008",
+          "e04_u010",
+          "e04_u017",
+          "e04_u024"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e04_u003",
+          "e04_u007",
+          "e04_u009",
+          "e04_u013",
+          "e04_u017",
+          "e04_u020",
+          "e04_u029"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e04_u001",
+          "e04_u005",
+          "e04_u017",
+          "e04_u024",
+          "e04_u031"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e04_u031"
+        ]
+      },
+      "hook_unit_id": "e04_u001",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "trope": "betrayed bride",
+      "central_conflict": "Juliana must choose between her family's scornful mockery and a mysterious stranger's proposal.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "86f61e85f12c9d58",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.5,
+      "secs": 3.16,
+      "tokens_in": 1933,
+      "tokens_out": 1180,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e04_u040"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e04_u040",
+          "e04_u044",
+          "e04_u054",
+          "e04_u065",
+          "e04_u066"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e04_u041",
+          "e04_u045",
+          "e04_u053",
+          "e04_u054",
+          "e04_u066"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e04_u040",
+          "e04_u046",
+          "e04_u054",
+          "e04_u061",
+          "e04_u068"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e04_u068"
+        ]
+      },
+      "hook_unit_id": "e04_u040",
+      "hook_type": "shocking_line",
+      "emotion_type": "romance",
+      "trope": "defiant bride",
+      "central_conflict": "Juliana must decide whether to reject her family's cruelty and accept a marriage to the mysterious scarred warrior.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c03r",
+    "prompt_hash": "67e07637c80b08f7",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.8,
+      "secs": 3.22,
+      "tokens_in": 1809,
+      "tokens_out": 1112,
+      "checkpoint": true
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e04_u086",
+          "e04_u087"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e04_u087",
+          "e04_u099",
+          "e04_u103",
+          "e04_u106"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e04_u088",
+          "e04_u093",
+          "e04_u099",
+          "e04_u101",
+          "e04_u107"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e04_u086",
+          "e04_u099",
+          "e04_u103",
+          "e04_u108",
+          "e04_u109"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e04_u108",
+          "e04_u109"
+        ]
+      },
+      "hook_unit_id": "e04_u086",
+      "hook_type": "accusation",
+      "emotion_type": "rage",
+      "trope": "defiant bride",
+      "central_conflict": "Juliana must choose between her family's cruel control and the mysterious warrior who offers her freedom.",
+      "spoils_main_twist": false
+    }
+  }
+]

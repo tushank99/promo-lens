@@ -1,0 +1,125 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: While Alexander reassures Juliana of their unbreakable bond amid the council's opposition, a destitute Catherine begs for sanctuary at Ashbourne—only for Juliana to offer her survival under the strict humiliation of a scullery maid.
+CONTINUITY NOTES: Follows Episode 46's ecclesiastical challenge by the High Priest. While Catherine plots in secret to remain on the estate, the morning brings her disgrace to light as Juliana decides her fate.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-02:14.0 (134.0 s).
+- Scene 01 (INT. ESTATE CHAMBERS – NIGHT): 0.0-21.5 s, units e47_u001..e47_u009.
+- Scene 02 (INT. DUKE'S BEDCHAMBER – MORNING): 21.5-54.8 s, units e47_u010..e47_u024.
+- Scene 03 (EXT. ASHBOURNE COURTYARD – DAY): 55.5-83.5 s, units e47_u025..e47_u041.
+- Scene 04 (INT. ASHBOURNE GREAT HALL / VESTIBULE – CONTINUOUS): 83.5-134.0 s, units e47_u042..e47_u070.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): none
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e47_u001 | 0.0-1.8 | CAMERA | Low-angle focus on a dripping candle burning on a wooden table beside a dark window looking out into the misty night.
+e47_u002 | 1.8-8.5 | CAMERA | Medium close-up of Catherine in a lace nightgown and lilac robe, holding a goblet of red wine with cold determination.
+e47_u003 | 1.8-8.2 | DIALOGUE | CATHERINE (Calculated, Defiant): "Rupert is rotting in the undercroft cells. Not me. I intend to stay on this estate."
+e47_u004 | 8.5-14.8 | CAMERA | Two-shot framing Catherine in the background with a muscular, bare-chested conspirator standing in shadow beside her.
+e47_u005 | 8.8-14.5 | DIALOGUE | CONSPIRATOR (Low, Warning): "Alexander will scour the grounds at first light. The High Council has already blocked the marriage registry."
+e47_u006 | 14.8-18.3 | CAMERA | Close-up profile of Catherine leaning close to the man's shoulder, her eyes burning with ambition.
+e47_u007 | 15.0-18.2 | DIALOGUE | CATHERINE (Commanding, Scheming): "Then you will make sure I remain inside these walls."
+e47_u008 | 18.3-21.5 | CAMERA | Silhouette shot against the tall arched window as Catherine turns her back to him.
+e47_u009 | 18.5-21.2 | DIALOGUE | CATHERINE (Ruthless, Focused): "Keep the council paralyzed. I will do the rest."
+e47_u010 | 21.5-23.2 | CAMERA | Atmospheric wide pan across the spacious master bedroom, daylight spilling softly through tall Gothic windows onto the hearth fire.
+e47_u011 | 23.2-26.5 | CAMERA | Medium shot of Alexander and Juliana sitting together on the edge of the velvet bed, dressed in morning robes.
+e47_u012 | 23.4-26.8 | DIALOGUE | JULIANA (Anxious, Trembling): "What if Father Thomas sways the High Council?"
+e47_u013 | 26.5-30.5 | CAMERA | Close-up of Juliana's distressed face, tears shimmering in her eyes as she looks up at Alexander.
+e47_u014 | 27.0-30.3 | DIALOGUE | JULIANA (Vulnerable, Fearful): "What if they strip your title? Because of me?"
+e47_u015 | 30.5-35.0 | ACTION | Juliana looks down at her hands, turning over her scarred palms shaped by years of herbal work.
+e47_u016 | 31.0-35.2 | DIALOGUE | JULIANA (Despairing): "I am only a healer. The lords will never accept me."
+e47_u017 | 35.5-37.5 | CAMERA | Profile shot as Alexander reaches out and firmly clasps Juliana's trembling hands in his own.
+e47_u018 | 35.8-37.8 | DIALOGUE | ALEXANDER (Gentle, Resolute): "Look at me, Juliana."
+e47_u019 | 37.5-42.5 | CAMERA | Close-up of Alexander raising his scarred hand to tenderly cradle Juliana's cheek.
+e47_u020 | 38.2-42.5 | DIALOGUE | ALEXANDER (Fierce, Loving): "You saved my mother's life. You stood by me when I had nothing."
+e47_u021 | 42.5-45.8 | CAMERA | Tight close-up on Alexander's gaze locking onto Juliana's tearful eyes.
+e47_u022 | 43.0-45.5 | DIALOGUE | ALEXANDER (Deep, Unwavering): "You are my wife."
+e47_u023 | 45.5-48.0 | ACTION | Alexander gently pulls Juliana closer, his hands resting securely on her shoulders.
+e47_u024 | 45.8-54.8 | DIALOGUE | ALEXANDER (Authoritative, Steadfast): "You were my wife before that priest ever opened his mouth. And we will stand before the King and God again within ten days. Nothing breaks that."
+e47_u025 | 55.5-56.8 | CAMERA | Wide establishing shot of the rain-drenched cobblestone courtyard surrounded by imposing Gothic arches.
+e47_u026 | 56.8-60.0 | CAMERA | Medium shot of Lady Ashbourne leaning heavily on her walking cane, glaring down at Catherine who kneels in the mud.
+e47_u027 | 56.8-59.8 | DIALOGUE | LADY ASHBOURNE (Sharp, Contemptuous): "You dare show your face in Ashbourne courtyard?"
+e47_u028 | 60.0-63.5 | CAMERA | High-angle shot looking down at Catherine in her disheveled burgundy gown, clutching her skirts and weeping profusely.
+e47_u029 | 60.5-63.4 | DIALOGUE | CATHERINE (Desperate, Weeping): "I have nowhere to go, Your Grace."
+e47_u030 | 63.5-67.0 | CAMERA | Low-angle shot tracking Catherine clutching her chest in agony.
+e47_u031 | 63.5-66.8 | DIALOGUE | CATHERINE (Sobbing, Pleading): "London closed its doors! My family disowned me!"
+e47_u032 | 67.0-71.5 | CAMERA | Medium close-up of Lady Ashbourne, her gloved hand resting on her cane as she delivers her cold judgment.
+e47_u033 | 67.2-71.2 | DIALOGUE | LADY ASHBOURNE (Cold, Unforgiving): "She aided the poison in my veins. Cast her into the road."
+e47_u034 | 71.5-74.8 | CAMERA | Medium shot of Vaughn drawing his baton, ready to seize Catherine from behind.
+e47_u035 | 71.8-74.8 | DIALOGUE | VAUGHN (Gruff, Ready): "One command, Your Grace, and I drag her past the gates."
+e47_u036 | 74.8-78.8 | CAMERA | Wide shot as Alexander strides purposefully into the courtyard alongside Juliana, his coat billowing behind him.
+e47_u037 | 75.2-78.5 | DIALOGUE | ALEXANDER (Furious, Decisive): "Do it, Vaughn! Throw her past the estate perimeter!"
+e47_u038 | 78.8-81.8 | CAMERA | Close-up of Catherine collapsed on the wet stones, looking up with tear-streaked panic.
+e47_u039 | 78.8-81.8 | DIALOGUE | CATHERINE (Hysterical, Screaming): "Please, Alexander! Have mercy!"
+e47_u040 | 81.8-83.5 | CAMERA | Medium shot of Juliana raising her right hand firmly to halt the guard.
+e47_u041 | 82.2-83.4 | DIALOGUE | JULIANA (Clear, Authoritative): "Stop."
+e47_u042 | 83.5-86.5 | CAMERA | Medium shot of Alexander turning toward Juliana in sheer disbelief.
+e47_u043 | 84.0-86.5 | DIALOGUE | ALEXANDER (Indignant, Protective): "Juliana, she tried to destroy you!"
+e47_u044 | 86.5-88.0 | CAMERA | Close-up of Juliana maintaining serene poise.
+e47_u045 | 86.7-87.8 | DIALOGUE | JULIANA (Calm, Composed): "She did."
+e47_u046 | 88.0-91.0 | CAMERA | Medium tracking shot as Juliana steps gracefully past Alexander toward Catherine.
+e47_u047 | 88.2-91.0 | DIALOGUE | JULIANA (Dignified, Principled): "But Ashbourne does not throw beggars into the mud."
+e47_u048 | 91.0-95.0 | ACTION | Juliana walks to a side bench, picks up a rough servant's apron and a heavy iron ring of keys, and turns back to face Catherine.
+e47_u049 | 91.5-95.0 | DIALOGUE | JULIANA (Steely, Direct): "If you seek shelter in this house, Catherine, you earn it."
+e47_u050 | 95.5-98.8 | CAMERA | Close-up of Catherine's face turning from despair to offended shock.
+e47_u051 | 96.0-98.8 | DIALOGUE | CATHERINE (Incredulous, Stunned): "You want me? As a guest?"
+e47_u052 | 98.8-101.2 | CAMERA | Close-up of Juliana staring straight into Catherine's eyes without blinking.
+e47_u053 | 99.2-101.0 | DIALOGUE | JULIANA (Unflinching, Firm): "As a scullery maid."
+e47_u054 | 101.2-104.8 | CAMERA | Medium shot of Catherine recoiling in disgust, looking around at the gathered estate retainers.
+e47_u055 | 101.5-104.5 | DIALOGUE | CATHERINE (Outraged, Venomous): "You expect me to scrub floors before these commoners?"
+e47_u056 | 104.8-108.5 | CAMERA | Dramatic profile two-shot of Juliana standing inches away from Catherine, dominating the confrontation.
+e47_u057 | 105.2-108.5 | DIALOGUE | JULIANA (Measured, Commanding): "You will scrub the floors you walked on as an impostor."
+e47_u058 | 108.5-111.5 | CAMERA | Juliana extends the ring of iron keys outward in her fist.
+e47_u059 | 108.8-111.5 | DIALOGUE | JULIANA (Stern, Demanding): "You will scrub the manor hearths at dawn."
+e47_u060 | 111.5-114.5 | CAMERA | Close profile two-shot of the two women locked in an intense psychological battle.
+e47_u061 | 111.8-114.5 | DIALOGUE | JULIANA (Unforgiving): "You will scour the kitchen grease until midnight."
+e47_u062 | 114.5-118.5 | CAMERA | Juliana presents the rough hemp apron and heavy keys right to Catherine's face.
+e47_u063 | 114.8-118.5 | DIALOGUE | JULIANA (Stern, Final): "One complaint from the housekeeper, and you are cast out with nothing."
+e47_u064 | 118.5-121.8 | CAMERA | Close-up of Catherine's trembling lips, humiliated tears spilling down her heavily made-up cheeks.
+e47_u065 | 119.2-121.6 | DIALOGUE | CATHERINE (Choked, Humiliated): "You humiliate me."
+e47_u066 | 121.8-127.5 | CAMERA | Medium shot of both women standing beneath the cathedral vaulting of the hall.
+e47_u067 | 122.2-127.2 | DIALOGUE | JULIANA (Calm, Sovereign): "I offer you bread and honest labor. Take the apron, or leave the county."
+e47_u068 | 127.5-131.5 | CAMERA | Extreme close-up on Catherine's trembling hands as she reaches out, taking the coarse apron and clattering iron keys, pressing them desperately against her chest.
+e47_u069 | 128.5-131.2 | DIALOGUE | CATHERINE (Broken, Defeated): "I accept, Your Grace."
+e47_u070 | 131.5-134.0 | CAMERA | Wide shot down the vaulted stone hall as Catherine prostrates herself entirely upon the floor before Alexander, Juliana, and Lady Ashbourne, humbled to the stone as the scene cuts to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

@@ -1,0 +1,144 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "ace1df245ab49c58",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 14.0,
+      "secs": 3.91,
+      "tokens_in": 1866,
+      "tokens_out": 1287
+    },
+    "raw": {
+      "hook": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e14_u001",
+          "e14_u002",
+          "e14_u003"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e14_u005",
+          "e14_u007",
+          "e14_u010",
+          "e14_u011",
+          "e14_u013",
+          "e14_u014",
+          "e14_u017",
+          "e14_u019",
+          "e14_u021",
+          "e14_u024"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e14_u005",
+          "e14_u013",
+          "e14_u017",
+          "e14_u019",
+          "e14_u024"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e14_u002",
+          "e14_u007",
+          "e14_u010",
+          "e14_u012",
+          "e14_u017",
+          "e14_u024",
+          "e14_u025"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "transition",
+        "evidence_unit_ids": [
+          "e14_u025"
+        ]
+      },
+      "hook_unit_id": "e14_u002",
+      "hook_type": "visual_shock",
+      "emotion_type": "heartbreak",
+      "trope": "bloodied rescue",
+      "central_conflict": "Juliana must force the constable to release her husband while both are wounded, battling an oppressive authority.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "261206050e1e5287",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.1,
+      "secs": 3.31,
+      "tokens_in": 1853,
+      "tokens_out": 1103
+    },
+    "raw": {
+      "hook": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e14_u028",
+          "e14_u029",
+          "e14_u030"
+        ]
+      },
+      "clarity": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e14_u032",
+          "e14_u034",
+          "e14_u047"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e14_u032",
+          "e14_u034",
+          "e14_u037",
+          "e14_u039",
+          "e14_u047",
+          "e14_u048"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e14_u028",
+          "e14_u032",
+          "e14_u047",
+          "e14_u050",
+          "e14_u051"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "cliffhanger",
+        "evidence_unit_ids": [
+          "e14_u049",
+          "e14_u050",
+          "e14_u051"
+        ]
+      },
+      "hook_unit_id": "e14_u028",
+      "hook_type": "other",
+      "emotion_type": "romance",
+      "trope": "protective lover",
+      "central_conflict": "Alexander vows to protect Juliana after she is injured, promising no one will ever hurt her again.",
+      "spoils_main_twist": false
+    }
+  }
+]

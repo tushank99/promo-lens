@@ -1,0 +1,76 @@
+{
+  "episode": 32,
+  "prompt_hash": "2fa3d03cf1051804",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.0,
+    "secs": 3.65,
+    "tokens_in": 5874,
+    "tokens_out": 677,
+    "checkpoint": true
+  },
+  "response": {
+    "candidates": [
+      {
+        "start_unit_id": "e32_u014",
+        "end_unit_id": "e32_u031",
+        "hook": {
+          "unit_ids": [
+            "e32_u014"
+          ],
+          "modality": "visual",
+          "description": "Catherine swings a glowing red-hot branding iron upward.",
+          "evidence": "The immediate threat of physical violence and the high-stakes visual of a weapon creates instant tension."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "This clip captures the pivotal moment Juliana shifts from victim to aggressor, turning the power dynamic against her captor."
+      },
+      {
+        "start_unit_id": "e32_u041",
+        "end_unit_id": "e32_u062",
+        "hook": {
+          "unit_ids": [
+            "e32_u041"
+          ],
+          "modality": "visual",
+          "description": "Catherine brandishes a glowing iron in Juliana's face while screaming.",
+          "evidence": "The extreme close-up of a weapon inches from a character's face is a classic, high-impact hook for vertical drama."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "Juliana's calm, cutting rejection of her former life provides a satisfying emotional payoff that contrasts with Catherine's hysteria."
+      },
+      {
+        "start_unit_id": "e32_u080",
+        "end_unit_id": "e32_u103",
+        "hook": {
+          "unit_ids": [
+            "e32_u080"
+          ],
+          "modality": "visual",
+          "description": "Catherine throws her hands up in an explosive, outraged tantrum.",
+          "evidence": "The sudden shift from cold cruelty to unhinged rage is visually arresting and signals a loss of control."
+        },
+        "cliffhanger_unit_id": null,
+        "reason": "Juliana systematically dismantling Catherine's worldview while chained on the floor is a powerful display of psychological dominance."
+      },
+      {
+        "start_unit_id": "e32_u104",
+        "end_unit_id": "e32_u117",
+        "hook": {
+          "unit_ids": [
+            "e32_u104"
+          ],
+          "modality": "visual",
+          "description": "Catherine trembling with uncontrollable, teeth-baring rage.",
+          "evidence": "The raw, visceral anger of the antagonist immediately draws the viewer into the conflict."
+        },
+        "cliffhanger_unit_id": "e32_u117",
+        "reason": "This sequence builds to a terrifying climax where the branding iron is thrust toward the protagonist's eye."
+      }
+    ]
+  },
+  "note": null
+}

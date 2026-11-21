@@ -1,0 +1,126 @@
+[
+  {
+    "candidate_id": "c01",
+    "prompt_hash": "ed468aa8c6395034",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 10.2,
+      "secs": 3.05,
+      "tokens_in": 1607,
+      "tokens_out": 1208
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e08_u025",
+          "e08_u026"
+        ]
+      },
+      "clarity": {
+        "score": 1,
+        "evidence_unit_ids": [
+          "e08_u026",
+          "e08_u029",
+          "e08_u035",
+          "e08_u037"
+        ]
+      },
+      "emotion": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e08_u025",
+          "e08_u028",
+          "e08_u034",
+          "e08_u041"
+        ]
+      },
+      "escalation": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e08_u027",
+          "e08_u035",
+          "e08_u044"
+        ]
+      },
+      "ending": {
+        "score": 2,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e08_u043",
+          "e08_u044"
+        ]
+      },
+      "hook_unit_id": "e08_u025",
+      "hook_type": "other",
+      "emotion_type": "romance",
+      "trope": "flirtatious teasing",
+      "central_conflict": "Juliana teases Alexander about his beard, and they exchange playful, affectionate banter that deepens their intimacy.",
+      "spoils_main_twist": false
+    }
+  },
+  {
+    "candidate_id": "c02r",
+    "prompt_hash": "c32d6f9aeeb7d75c",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.9,
+      "secs": 3.04,
+      "tokens_in": 2214,
+      "tokens_out": 1071
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e08_u027",
+          "e08_u029"
+        ]
+      },
+      "clarity": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e08_u047",
+          "e08_u059",
+          "e08_u062"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e08_u055",
+          "e08_u057",
+          "e08_u062"
+        ]
+      },
+      "escalation": {
+        "score": 3,
+        "evidence_unit_ids": [
+          "e08_u035",
+          "e08_u051",
+          "e08_u059"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e08_u062",
+          "e08_u063"
+        ]
+      },
+      "hook_unit_id": "e08_u027",
+      "hook_type": "other",
+      "emotion_type": "romance",
+      "trope": "healing bond",
+      "central_conflict": "Juliana confronts her past and redefines her idea of wealth through a heartfelt conversation with Alexander about healing herbs and war memories.",
+      "spoils_main_twist": false
+    }
+  }
+]

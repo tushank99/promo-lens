@@ -1,0 +1,65 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Seeking shelter from the cold rain, Juliana arrives at her new husband's modest woodland cottage and discovers an unexpected sense of peace beside the hearth.
+CONTINUITY NOTES: Picks up immediately from Episode 5, as Juliana and her mysterious new husband leave the Ashcroft estate behind and venture out into the rainy countryside.
+
+CLIP: 93.8s to 115.0s (21.2s). Units below: id | seconds from clip start | type | text.
+e06_u082 | 0.0-2.0 | CAMERA | Medium shot of Juliana kneeling on the stone floor before the blazing hearth, wrapping her dark cloak around her shoulders.
+e06_u083 | 0.4-2.4 | DIALOGUE | JULIANA (Soft, Comforted): "It is enough for tonight."
+e06_u084 | 2.0-4.4 | CAMERA | Wide shot framing the roaring hearth fire between them as the Mysterious Bearded Man crouches down beside her on the stone floor.
+e06_u085 | 4.4-7.2 | CAMERA | Close-up of Juliana pulling her cloak tighter, her face glowing warmly in the firelight.
+e06_u086 | 4.6-6.6 | DIALOGUE | JULIANA (Reflective, Vulnerable): "I lost my home today."
+e06_u087 | 6.8-8.0 | DIALOGUE | JULIANA (Reflective, Vulnerable): "My family."
+e06_u088 | 7.2-9.2 | CAMERA | Close-up of the glowing embers and dancing flames inside the fireplace.
+e06_u089 | 8.2-11.0 | DIALOGUE | JULIANA (Reflective, Vulnerable): "Everything I thought my life would be."
+e06_u090 | 9.2-10.5 | CAMERA | Close-up on the Mysterious Bearded Man's scarred, work-worn hands resting quietly on his knees.
+e06_u091 | 10.5-12.2 | CAMERA | Medium close-up of Juliana looking down into the flames, a peaceful serenity washing over her features.
+e06_u092 | 11.2-12.2 | DIALOGUE | JULIANA (Gentle, Surprised): "And yet..."
+e06_u093 | 12.2-15.2 | CAMERA | Extreme close-up on the Mysterious Bearded Man's profile, his scarred cheek illuminated by the amber glow as he watches over her protectively.
+e06_u094 | 12.4-15.2 | DIALOGUE | JULIANA (Tender, Safe): "Sitting here with him, I don't feel afraid."
+e06_u095 | 15.2-17.7 | CAMERA | Close-up on Juliana looking up into the room with quiet hope in her blue eyes.
+e06_u096 | 17.7-21.2 | CAMERA | Close-up on the crackling flames and glowing embers of the fireplace, slowly fading to black as the music swells warmly.
+e06_u097 | 17.7-21.2 | SFX | Warm hearth crackles blending with gentle string music fading out.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

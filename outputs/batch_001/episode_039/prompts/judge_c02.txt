@@ -1,0 +1,65 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+While Alexander's loyal men infiltrate and neutralize the royal guards stationed outside the cathedral, Alexander sheds his rugged disguise, dons his ducal regalia, and marches forth to reclaim his house and rescue Juliana.
+CONTINUITY NOTES: Picks up as the wedding bells toll for Rupert and Catherine's ceremony. While Juliana prepares for execution in the dungeon below, Alexander's coordinated strike to liberate the cathedral and reclaim his birthright begins.
+
+CLIP: 68.5s to 98.41s (29.91s). Units below: id | seconds from clip start | type | text.
+e39_u044 | 0.0-3.3 | CAMERA | Wide tracking shot through double wooden barn doors opening outward onto a vast, snow-covered landscape as Alexander steps forward into the light.
+e39_u045 | 0.0-3.3 | ACTION | Alexander emerges in full ducal splendor—dressed in an immaculate navy tailcoat lined with gold embroidery, double-breasted brass buttons, and a crisp white cravat.
+e39_u046 | 3.3-6.3 | CAMERA | Extreme close-up of Alexander's hand adjusting the ornate golden lion crest pinned at his cravat.
+e39_u047 | 6.3-9.3 | CAMERA | Medium low-angle shot as a loyalist soldier drops down onto one knee before him in the snow.
+e39_u048 | 7.3-8.7 | DIALOGUE | LOYALIST (Reverent, Submissive): "Your Grace."
+e39_u049 | 9.3-14.0 | CAMERA | Close-up profile of Alexander, his breath pluming in the winter cold, his eyes hardened like steel.
+e39_u050 | 12.0-13.7 | DIALOGUE | ALEXANDER (Authoritative, Command): "Secure the chapel."
+e39_u051 | 14.0-16.7 | CAMERA | Medium close-up of the soldier rising and snapping a crisp military salute.
+e39_u052 | 15.3-16.7 | DIALOGUE | LOYALIST (Resolute): "Yes, Your Grace."
+e39_u053 | 16.7-26.5 | CAMERA | Slow dramatic tracking shot moving backward in front of Alexander as he strides purposefully through the deep snow, the wooden chapel looming in the distance behind him.
+e39_u054 | 17.0-18.7 | DIALOGUE | ALEXANDER (Powerful, Roaring Defiance): "No more hiding."
+e39_u055 | 19.0-21.7 | DIALOGUE | ALEXANDER (Fierce, Unyielding): "I am taking back my house."
+e39_u056 | 21.7-26.5 | ACTION | Alexander marches forward unstoppably, his long coat fluttering in the winter wind as his icy gaze locks forward.
+e39_u057 | 26.5-29.9 | CAMERA | Dramatic push-in close-up directly onto Alexander's scarred, fierce face as he speaks with absolute conviction.
+e39_u058 | 26.5-29.5 | DIALOGUE | ALEXANDER (Passionate, Unstoppable Vow): "And I am bringing my wife home."
+e39_u059 | 29.3-29.9 | ACTION | Alexander's eyes burn with furious determination as the screen cuts sharply to black.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}

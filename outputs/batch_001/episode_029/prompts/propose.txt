@@ -1,0 +1,128 @@
+You are a senior editor of vertical microdrama promos (ReelShort / DramaBox style). You pick promo moments from a timestamped screenplay. Reply with a single JSON object only.
+
+Find the best promo moments in this episode.
+
+A promo is a 20-60 second continuous clip posted on TikTok/Instagram/YouTube to pull in NEW viewers.
+It should open on a hook, make sense to someone who has never seen the show, and leave the viewer wanting more.
+
+EPISODE LOGLINE: Thrown into the castle's subterranean wet cells as Catherine threatens to burn her mother's herbarium and frame her for witchcraft, Juliana breaks down in isolation before swearing that they will never take Alexander from her.
+CONTINUITY NOTES: Follows directly from Episode 28 where Rupert ordered the guards to drag Juliana down to the wet cells while Catherine seized her mother's herbarium.
+
+TIMELINE FACTS (computed by code from the timestamps; the checker uses exactly these numbers):
+- Episode runs 00:00.0-01:56.7 (116.7 s).
+- Scene 01 (INT. CASTLE DUNGEON STAIRWELL – NIGHT): 0.0-20.1 s, units e29_u001..e29_u011.
+- Scene 02 (INT. DUNGEON CORRIDOR – CONTINUOUS): 20.1-83.0 s, units e29_u012..e29_u051.
+- Scene 03 (INT. CASTLE DUNGEON CELL – CONTINUOUS): 83.0-116.7 s, units e29_u052..e29_u074.
+- Gaps with NOTHING scripted over 3 s (allowed, flagged for human review): none
+- Camera-only stretches (visual storytelling, no dialogue/action; fully allowed): none
+- Overlapping dialogue exchanges (include all members or none): none
+
+SCREENPLAY. One unit per line: id | start-end seconds | type | text. Units are in file order and may overlap
+in time (camera and action units usually overlap dialogue).
+e29_u001 | 0.0-2.8 | CAMERA | High angle tracking shot descending a spiral stone staircase illuminated by flickering wall torches and damp, glistening masonry.
+e29_u002 | 0.0-3.5 | SFX | Dripping water echoes hollowly against stone steps alongside the shuffling scuffle of boots.
+e29_u003 | 2.8-5.1 | CAMERA | Tracking shot facing two stern uniform guards hauling a struggling Juliana down the dark corridor by her arms.
+e29_u004 | 2.9-5.1 | ACTION | Juliana resists furiously, her feet stumbling on the wet flagstones as the guards forcibly propel her forward.
+e29_u005 | 5.1-7.4 | CAMERA | Medium low-angle shot of Catherine standing regally under an arched stone doorway, clutching the leather-bound herbarium.
+e29_u006 | 7.4-11.7 | CAMERA | Tight close-up of Juliana's tearful face as she reaches an arm out toward Catherine in anguish.
+e29_u007 | 7.4-11.7 | DIALOGUE | JULIANA (Desperate, Weeping): "Catherine! Please! That book is my mother's only legacy!"
+e29_u008 | 11.7-13.2 | CAMERA | Medium shot from behind Catherine as she stands motionless, watching Juliana being dragged away.
+e29_u009 | 13.2-17.3 | CAMERA | Close-up of Juliana turning her head back toward Catherine, screaming through tears.
+e29_u010 | 13.2-17.3 | DIALOGUE | JULIANA (Pleading, Agonized): "It contains years of her work! Her knowledge! Everything she left me!"
+e29_u011 | 17.3-20.1 | CAMERA | Full shot of Catherine turning gracefully on the dungeon steps, holding the book loosely at her side.
+e29_u012 | 20.1-26.8 | CAMERA | Medium close-up pushing in on Catherine as she presents the worn botanical book with both gloved hands.
+e29_u013 | 21.0-24.0 | DIALOGUE | CATHERINE (Mocking, Condescending): "Your mother's little book of weeds?"
+e29_u014 | 24.8-26.7 | DIALOGUE | CATHERINE (Cruel, Smug): "You still call this a legacy?"
+e29_u015 | 26.8-28.9 | CAMERA | Close-up of Juliana held firmly between the guards, glaring back with fierce defiance.
+e29_u016 | 27.1-28.7 | DIALOGUE | JULIANA (Defiant, Furious): "It is medicine!"
+e29_u017 | 28.9-31.9 | CAMERA | Medium close-up of Catherine smiling condescendingly.
+e29_u018 | 30.4-31.8 | DIALOGUE | CATHERINE (Smooth, Patronizing): "Of course."
+e29_u019 | 31.9-37.4 | CAMERA | Overhead close-up of Catherine's gloved fingers flipping through the herbarium's delicate, hand-drawn floral remedies and annotations.
+e29_u020 | 31.9-37.3 | DIALOGUE | CATHERINE (Disdainful, Calculating): "Roots. Leaves. Powders. Strange mixtures written in a dead woman's hand."
+e29_u021 | 37.4-40.0 | CAMERA | Medium shot of Catherine tucking the book under her arm, her eyes glinting with malicious intent.
+e29_u022 | 37.7-40.0 | DIALOGUE | CATHERINE (Icy, Threatening): "The magistrate will call it witchcraft."
+e29_u023 | 40.0-41.9 | CAMERA | Close-up of Juliana lunging against the guard's grip, her teeth bared in indignation.
+e29_u024 | 40.1-41.8 | DIALOGUE | JULIANA (Furious, Shouted): "You know that is a lie!"
+e29_u025 | 41.9-44.3 | CAMERA | Medium shot of Catherine lifting her chin arrogantly against the stone backdrop.
+e29_u026 | 42.0-44.2 | DIALOGUE | CATHERINE (Calm, Sinister): "I know exactly what I need him to believe."
+e29_u027 | 44.3-46.9 | CAMERA | Medium shot of Juliana thrashing frantically against the two guards.
+e29_u028 | 44.4-46.5 | DIALOGUE | JULIANA (Screaming, Desperate): "You cannot just destroy it!"
+e29_u029 | 46.9-49.8 | CAMERA | Tight close-up of Catherine's eyes narrowing into an icy, venomous gaze.
+e29_u030 | 47.3-49.1 | DIALOGUE | CATHERINE (Whispered, Malicious): "I can burn it."
+e29_u031 | 49.8-53.6 | CAMERA | Close-up of Juliana's stricken expression, her eyes widening in horror.
+e29_u032 | 50.1-53.6 | DIALOGUE | CATHERINE (Chilling, Relentless): "And when they find your corpse at the end of the rope..."
+e29_u033 | 53.6-56.6 | CAMERA | Side close-up of Catherine leaning slightly forward, her voice low and merciless.
+e29_u034 | 53.8-56.5 | DIALOGUE | CATHERINE (Cruel, Resolute): "...no one will remember what was written inside."
+e29_u035 | 56.6-59.2 | CAMERA | Close-up of Juliana screaming back in raw outrage.
+e29_u036 | 56.7-59.0 | DIALOGUE | JULIANA (Enraged, Defiant): "You are doing this because I saved the Duchess!"
+e29_u037 | 59.2-63.8 | CAMERA | Medium low-angle shot of Catherine standing rigid in her silk gown, contempt etched across her features.
+e29_u038 | 59.3-63.4 | DIALOGUE | CATHERINE (Scornful, Arrogant): "I am doing this because women like you forget their place."
+e29_u039 | 63.8-67.0 | CAMERA | Quick pan from Juliana's apron up to Catherine's face.
+e29_u040 | 64.5-66.5 | DIALOGUE | CATHERINE (Cold, Venomous): "You were cast out once."
+e29_u041 | 67.0-69.5 | CAMERA | Extreme close-up on Catherine's smiling lips and cold blue eyes.
+e29_u042 | 67.2-69.1 | DIALOGUE | CATHERINE (Menacing): "You should have stayed forgotten."
+e29_u043 | 69.5-71.8 | CAMERA | Close-up of Juliana raising her chin, unwavering pride breaking through her tears.
+e29_u044 | 69.8-71.4 | DIALOGUE | JULIANA (Steely, Resolute): "My husband will find me."
+e29_u045 | 71.8-74.3 | CAMERA | Medium shot of Catherine letting out a scornful laugh, tilting her head.
+e29_u046 | 72.1-74.3 | DIALOGUE | CATHERINE (Scoffing, Amused): "Your scarred soldier?"
+e29_u047 | 74.3-78.5 | CAMERA | Close-up of Catherine's face hardening into sharp mockery.
+e29_u048 | 74.7-78.1 | DIALOGUE | CATHERINE (Derisive, Biting): "What exactly do you think a penniless veteran can do against Ashbrook?"
+e29_u049 | 78.5-80.9 | CAMERA | Medium shot as the guard clamps a heavy hand on Juliana's shoulder, shoving her forward.
+e29_u050 | 78.7-80.6 | DIALOGUE | GUARD (Gruff, Dismissive): "Move along, girl."
+e29_u051 | 80.9-83.0 | CAMERA | Wide shot tracking behind the guards as they march Juliana down the vaulted, puddle-strewn corridor toward the heavy iron cell door.
+e29_u052 | 83.0-86.5 | CAMERA | Wide shot inside the pitch-dark cell as the heavy iron door swings open.
+e29_u053 | 84.0-86.5 | ACTION | The guards shove Juliana violently into the cell; she falls hard onto all fours across the cold, wet stone floor.
+e29_u054 | 85.7-86.5 | DIALOGUE | JULIANA (Crying Out, Broken): "Please!"
+e29_u055 | 86.5-88.0 | SFX | The heavy iron door slams shut with a deafening metallic thud, and the massive exterior bolt grates locked.
+e29_u056 | 86.5-88.8 | CAMERA | Static shot of the locked iron door, deadlocked in total isolation.
+e29_u057 | 88.8-93.7 | CAMERA | Medium close-up of Juliana kneeling on the floor, clutching her chest as hyperventilation overtakes her.
+e29_u058 | 89.5-93.7 | ACTION | Juliana trembles uncontrollably, her fingers digging into the collar of her rustic dress as terror washes over her.
+e29_u059 | 93.7-96.1 | CAMERA | Extreme close-up of Juliana's tear-drenched face crumpling in overwhelming grief.
+e29_u060 | 94.2-95.5 | DIALOGUE | JULIANA (Sobbing, Heartbroken): "Mother..."
+e29_u061 | 96.1-99.6 | CAMERA | Medium shot as Juliana pushes herself off the wet stone floor and dashes toward the barred wicket of the heavy door.
+e29_u062 | 97.3-99.5 | DIALOGUE | JULIANA (Desperate, Shouting): "I have done nothing!"
+e29_u063 | 99.6-102.5 | CAMERA | Tight profile close-up of Juliana gripping the rusted iron bars, screaming out into the empty stone corridor.
+e29_u064 | 99.7-102.3 | DIALOGUE | JULIANA (Screaming, Hysterical): "I saved her! I healed her!"
+e29_u065 | 102.5-105.9 | CAMERA | Medium shot from inside the cell as Juliana pounds her fists rhythmically against the reinforced iron door.
+e29_u066 | 102.5-105.2 | SFX | Muffled, dull metallic clanging reverberates as Juliana hammers against the iron door.
+e29_u067 | 102.6-105.3 | DIALOGUE | JULIANA (Shouting in Anguish): "I saved the Duchess!"
+e29_u068 | 105.9-109.0 | CAMERA | Medium shot of Juliana slumping down against the rough stone wall, pulling her knees to her chest while weeping softly.
+e29_u069 | 106.5-108.8 | DIALOGUE | JULIANA (Sorrowful, Wounded): "They took my mother's ledger..."
+e29_u070 | 109.0-112.8 | CAMERA | Front medium shot of Juliana slowly rising to her feet, crossing her arms firmly across her chest as her tears stop and her expression hardens into steely resolve.
+e29_u071 | 109.0-112.6 | DIALOGUE | JULIANA (Quiet Resolve, Unbreakable): "They took her locket. But they will not take Alexander from me."
+e29_u072 | 112.8-115.5 | CAMERA | Close-up of the dungeon's massive iron portcullis bars dropping down with finality.
+e29_u073 | 112.8-114.8 | SFX | A heavy iron portcullis crashes down with a massive echoing bang.
+e29_u074 | 115.5-116.7 | CAMERA | Low-angle shot looking up at Juliana standing dignified in the center of the damp dungeon cell, gazing upward toward the overhead grate where faint beams of moonlight filter down, cutting sharply to black.
+
+CANDIDATE SELECTION CONSTRAINTS (checked by code; a violating window is rejected, never repaired):
+- Propose continuous windows using unit IDs only. Never write timestamps.
+- A window runs from start_unit_id to end_unit_id inclusive, in file order. It plays from the EARLIEST start
+  to the LATEST end of any unit in it, and that total must be 20-60 seconds.
+- A window must stay inside ONE scene (scene unit ranges are in the timeline facts).
+- Do not start or end in the middle of a spoken line. Include whole dialogue units, and include both sides
+  of any dialogue that overlaps in time.
+- Silent or visual-only stretches are allowed: camera units carry visual storytelling (a reveal, a reaction).
+  Gaps with nothing scripted are allowed too, but will be flagged for human review.
+- Prefer emotionally compelling moments with clear stakes, escalation, betrayal, confrontation or payoff.
+- A strong promo does not require an unresolved cliffhanger. If the window ends on one, give
+  cliffhanger_unit_id (a unit in the last 20% of the window); otherwise use null.
+- Propose up to 6 DISTINCT moments, not different cuts of the same moment. Do not pad.
+  Return fewer candidates, or an empty list, if no suitable window exists.
+
+THE HOOK (most rejections come from getting this wrong):
+- The hook is the EARLIEST compelling event of the clip: whatever would stop a cold viewer scrolling in the first
+  3 seconds. It can be VISUAL (a camera or action unit: a reveal, a fire, a scar, a slap), SPOKEN (a dialogue
+  line) or AUDIO (a sound-FX unit, or a scream/shout). Visual hooks are as valid as spoken ones.
+- If the window opens on a striking image, THAT image is the hook: name its unit, with modality "visual". Do not
+  name a later line just because it is spoken. A line that explains the image later is fine; it is not the hook.
+- hook.unit_ids: the unit(s) that establish the hook. The earliest of them must BEGIN within 3 seconds of the clip
+  start (code measures this from the timestamps). Usually start the window on, or right before, the hook.
+- hook.modality must match the units: visual = camera/action units, spoken = dialogue, audio = sfx or dialogue.
+
+Return exactly:
+{"candidates": [
+  {"start_unit_id": "...", "end_unit_id": "...",
+    "hook": {"unit_ids": ["..."], "modality": "visual|spoken|audio",
+              "description": "what the viewer sees/hears", "evidence": "why it stops a scroller"},
+    "cliffhanger_unit_id": "..." or null, "reason": "one short sentence"}
+]}

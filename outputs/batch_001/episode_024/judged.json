@@ -1,0 +1,136 @@
+[
+  {
+    "candidate_id": "c02",
+    "prompt_hash": "7af0cb3836c40855",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 6.2,
+      "secs": 3.58,
+      "tokens_in": 2097,
+      "tokens_out": 1412
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e24_u041",
+          "e24_u042"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e24_u041",
+          "e24_u046",
+          "e24_u057",
+          "e24_u064",
+          "e24_u069"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e24_u046",
+          "e24_u054",
+          "e24_u056",
+          "e24_u066",
+          "e24_u069"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e24_u041",
+          "e24_u054",
+          "e24_u052",
+          "e24_u064",
+          "e24_u069"
+        ]
+      },
+      "ending": {
+        "score": 4,
+        "type": "emotional_resolution",
+        "evidence_unit_ids": [
+          "e24_u068",
+          "e24_u069"
+        ]
+      },
+      "hook_unit_id": "e24_u041",
+      "hook_type": "visual_shock",
+      "emotion_type": "revenge",
+      "trope": "hidden cure",
+      "central_conflict": "A noblewoman forces Juliana to scrub the hearth as punishment while Juliana secretly hides a cure to save the Duchess.",
+      "spoils_main_twist": true
+    }
+  },
+  {
+    "candidate_id": "c01r",
+    "prompt_hash": "df1c43d8eb24fb36",
+    "llm": {
+      "provider": "groq",
+      "model": "openai/gpt-oss-120b",
+      "cached": false,
+      "attempts": 1,
+      "waited_s": 16.4,
+      "secs": 3.35,
+      "tokens_in": 2327,
+      "tokens_out": 1256
+    },
+    "raw": {
+      "hook": {
+        "score": 2,
+        "evidence_unit_ids": [
+          "e24_u001",
+          "e24_u002"
+        ]
+      },
+      "clarity": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e24_u003",
+          "e24_u006",
+          "e24_u010",
+          "e24_u024",
+          "e24_u028"
+        ]
+      },
+      "emotion": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e24_u024",
+          "e24_u025",
+          "e24_u028",
+          "e24_u032",
+          "e24_u036"
+        ]
+      },
+      "escalation": {
+        "score": 4,
+        "evidence_unit_ids": [
+          "e24_u003",
+          "e24_u010",
+          "e24_u024",
+          "e24_u028",
+          "e24_u035"
+        ]
+      },
+      "ending": {
+        "score": 3,
+        "type": "payoff",
+        "evidence_unit_ids": [
+          "e24_u035",
+          "e24_u036"
+        ]
+      },
+      "hook_unit_id": "e24_u001",
+      "hook_type": "reveal",
+      "emotion_type": "humiliation",
+      "trope": "cruel aristocrat",
+      "central_conflict": "A haughty noblewoman punishes Juliana for trying to help the poisoned Duchess, asserting her authority over the servant.",
+      "spoils_main_twist": true
+    }
+  }
+]

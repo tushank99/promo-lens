@@ -1,0 +1,37 @@
+{
+  "prompt_hash": "8f10c550326039f1",
+  "llm": {
+    "provider": "gemini",
+    "model": "gemini-3.1-flash-lite",
+    "cached": false,
+    "attempts": 1,
+    "waited_s": 0.7,
+    "secs": 3.2,
+    "tokens_in": 3300,
+    "tokens_out": 196
+  },
+  "asked_for": [
+    "c02"
+  ],
+  "response": {
+    "retries": [
+      {
+        "retry_of": "c02",
+        "start_unit_id": "e10_u027",
+        "end_unit_id": "e10_u060",
+        "hook": {
+          "unit_ids": [
+            "e10_u027"
+          ],
+          "modality": "visual",
+          "description": "Alexander reveals his scarred, bloodied torso.",
+          "evidence": "The unit begins at 33.2s, which is within 3 seconds of the clip start (33.2s)."
+        },
+        "cliffhanger_unit_id": "e10_u060",
+        "reason": "This window captures the emotional climax and confession while meeting all timing and hook requirements."
+      }
+    ]
+  },
+  "declined": {},
+  "ignored": []
+}

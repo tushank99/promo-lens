@@ -1,0 +1,73 @@
+You are a strict, independent judge of promo clips for vertical microdramas. You score ONLY what is on the page. Reply with a single JSON object only.
+
+Judge this candidate promo clip. It will be posted to strangers who have never seen the show.
+
+You see only the clip's units. Judge the clip from these units alone, as a cold viewer would.
+
+EPISODE LOGLINE (use ONLY to decide spoils_main_twist; do NOT use it to fill gaps when scoring clarity):
+Defying Gerald and Clarissa's cruel mockery, Juliana accepts the mysterious scarred warrior's solemn proposal and is officially wed, choosing exile and dignity over her family's cruelty as they walk out into the light together.
+CONTINUITY NOTES: Picks up directly from Episode 3's cliffhanger where the Mysterious Bearded Man dropped to one knee before the altar, presenting a ring to Lady Juliana.
+
+CLIP: 114.8s to 151.4s (36.6s). Units below: id | seconds from clip start | type | text.
+e04_u086 | 0.0-2.0 | CAMERA | Medium close-up of Gerald lunging forward, pointing an enraged finger.
+e04_u087 | 0.2-2.0 | DIALOGUE | GERALD (Furious, Shouting): "You have thrown yourself away!"
+e04_u088 | 2.0-4.2 | CAMERA | Tight close-up of Gerald, face contorted in rage.
+e04_u089 | 2.2-4.2 | DIALOGUE | GERALD (Livid): "For a penniless nobody!"
+e04_u090 | 4.2-8.0 | CAMERA | Medium two-shot of Juliana standing tall before Gerald in the chapel aisle, her husband standing guard behind her.
+e04_u091 | 5.7-8.0 | DIALOGUE | JULIANA (Calm, Cutting): "I would rather choose my own life..."
+e04_u092 | 8.0-11.0 | CAMERA | Close-up of Juliana, her jaw set with unshakable pride.
+e04_u093 | 8.2-10.7 | DIALOGUE | JULIANA (Firm, Final): "...than spend another moment begging for yours."
+e04_u094 | 11.0-12.6 | CAMERA | Tight close-up of Gerald, eyes wide with speechless shock and wounded pride.
+e04_u095 | 11.2-12.6 | ACTION | Gerald recoils slightly, mouth agape.
+e04_u096 | 12.6-16.7 | CAMERA | Wide shot of Lady Ashcroft rising abruptly from the front pew, pointing an accusatory hand toward the doors.
+e04_u097 | 12.7-16.7 | DIALOGUE | LADY ASHCROFT (Imperious, Shouting): "Do not bring this man anywhere near Ashcroft Manor!"
+e04_u098 | 16.7-20.0 | CAMERA | Tight close-up of Lady Ashcroft, eyes blazing with cold malice.
+e04_u099 | 17.2-19.7 | DIALOGUE | LADY ASHCROFT (Venomous): "You are disowned!"
+e04_u100 | 20.0-21.2 | CAMERA | Medium shot of Lord Ashcroft bowing his head deeply over his cane in shame.
+e04_u101 | 21.2-24.0 | CAMERA | Close-up of Juliana. Tears brim in her eyes at the formal rejection, but she does not break.
+e04_u102 | 24.0-26.0 | CAMERA | Medium two-shot as the Mysterious Bearded Man turns gently to Juliana, reaching his hand out once more.
+e04_u103 | 24.7-26.0 | DIALOGUE | MYSTERIOUS BEARDED MAN (Soft, Protective): "Come, Lady Juliana."
+e04_u104 | 26.0-28.0 | CAMERA | Close-up of Juliana placing her hand securely into his, gripping his scarred hand.
+e04_u105 | 28.0-30.0 | CAMERA | Wide tracking shot behind Juliana and the warrior as they begin walking down the central aisle toward the chapel doors.
+e04_u106 | 30.0-31.7 | CAMERA | Medium three-shot of Gerald, Clarissa, and Lady Ashcroft watching in stunned silence and disbelief.
+e04_u107 | 30.2-31.7 | ACTION | Clarissa gapes in shock while Lady Ashcroft exhales in exasperation.
+e04_u108 | 31.7-36.6 | CAMERA | Wide shot from the back of the chapel as the massive oak doors swing wide open, revealing bright daylight and the courtyard outside.
+e04_u109 | 32.7-36.6 | ACTION | Juliana and the Mysterious Bearded Man walk hand-in-hand through the towering doors into the sunlight together, turning their backs on the ruined wedding as the screen fades out.
+
+SCALE (use for hook, clarity, emotion, escalation, ending):
+0 absent or unusable | 1 very weak | 2 weak | 3 good enough to work | 4 strong | 5 exceptional
+Do not inflate. 3 means it works, 5 is rare.
+
+- hook: how strongly the FIRST 3 SECONDS make a scrolling viewer stop (a slap, a reveal, a shocking line or image).
+- clarity: could a stranger state the central conflict (who vs who, what is at stake) from this clip alone?
+  Mystery is fine. Confusion about who is who or why it matters is not.
+- emotion: intensity and authenticity of the emotion on the page.
+- escalation: does tension or stakes rise across the clip rather than stay flat?
+- ending: how strongly the final moments make a viewer want to keep watching. Classify the ending type
+  carefully; most endings are NOT cliffhangers:
+    "cliffhanger": the clip stops on an UNRESOLVED question, threat, reveal-in-progress or imminent consequence
+                   (we do not yet know what happens or what it means).
+    "payoff": the clip lands an answer: a betrayal revealed, an accusation confirmed, a secret admitted.
+    "emotional_resolution": the clip ends on a character's emotional turn or transformation (e.g. hurt becomes resolve).
+    "transition": the clip simply stops without a strong narrative beat.
+
+For every score cite evidence_unit_ids: unit ids FROM THIS CLIP ONLY that justify the score. For ending, cite the
+unit(s) in the final moments of the clip.
+
+Also return:
+- hook_unit_id: the unit you consider the real hook (it should be near the start).
+- hook_type: one of slap_or_violence | shocking_line | reveal | accusation | threat | public_humiliation | confession | visual_shock | other
+- emotion_type: one of shock | heartbreak | rage | revenge | humiliation | fear | romance | suspense | other
+- trope: a short phrase (e.g. "betrayed bride", "hidden identity")
+- central_conflict: ONE sentence a stranger could say after watching
+- spoils_main_twist: true only if the clip gives away a major later twist that new viewers should discover by
+  watching the series, as opposed to establishing the premise
+
+Return exactly:
+{"hook": {"score": 0, "evidence_unit_ids": []},
+  "clarity": {"score": 0, "evidence_unit_ids": []},
+  "emotion": {"score": 0, "evidence_unit_ids": []},
+  "escalation": {"score": 0, "evidence_unit_ids": []},
+  "ending": {"score": 0, "type": "cliffhanger|payoff|emotional_resolution|transition", "evidence_unit_ids": []},
+  "hook_unit_id": "", "hook_type": "", "emotion_type": "", "trope": "",
+  "central_conflict": "", "spoils_main_twist": false}
